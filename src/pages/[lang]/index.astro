@@ -27,12 +27,12 @@ for (const scene of rescueIndex.scenes) {
 }
 
 const siteTitles: Record<string, string> = {
-  zh: '日活 Living Japanese | 不是学日语，是习惯说日语',
+  zh: 'Living Japanese | 不是学日语，是习惯说日语',
   en: 'Living Japanese | Not studying Japanese. Making it a habit.',
-  'zh-TW': '日活 Living Japanese | 不是學日語，是習慣說日語',
+  'zh-TW': 'Living Japanese | 不是學日語，是習慣說日語',
   vi: 'Living Japanese | Không phải học tiếng Nhật, mà là quen nói',
   ko: 'Living Japanese | 일본어를 배우는 게 아니라, 습관처럼 말하기',
-  ja: '日活 Living Japanese | 日本語を学ぶのではなく、話す習慣を'
+  ja: 'Living Japanese | 日本語を学ぶのではなく、話す習慣を'
 };
 
 const siteDescs: Record<string, string> = {
@@ -90,7 +90,7 @@ const shadowingLabels: Record<string, { title: string; body: string }> = {
 const shadowing = shadowingLabels[lang] || shadowingLabels.zh;
 ---
 
-<Base title={title} description={description} rescueCss={true}>
+<Base title={title} description={description} rescueCss={true} skipReadTracking={true}>
 
   <div class="rescue-scene-wrap" data-pagefind-body>
 

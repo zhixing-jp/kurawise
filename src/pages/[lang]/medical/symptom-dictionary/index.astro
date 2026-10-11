@@ -161,11 +161,15 @@ const toolShortText = disclaimerToolShort[lang] || disclaimerToolShort.zh;
         const resultsBox = document.getElementById('medSymptomSearchResults');
         if (!input || !resultsBox) return;
 
+        let searchTrackTimer = null;
+        let lastTrackedKw = '';
+
         input.addEventListener('input', function () {
           const kw = input.value.trim().toLowerCase();
           if (!kw) {
             resultsBox.style.display = 'none';
             resultsBox.innerHTML = '';
+            if (searchTrackTimer) clearTimeout(searchTrackTimer);
             return;
           }
           loadIndex(function (index) {
@@ -177,17 +181,40 @@ const toolShortText = disclaimerToolShort[lang] || disclaimerToolShort.zh;
             if (matches.length === 0) {
               resultsBox.innerHTML = '<div class="med-symptom-search-empty">' + noResultText + '</div>';
               resultsBox.style.display = 'block';
-              return;
+            } else {
+              resultsBox.innerHTML = matches.map(function (m) {
+                return '<a class="med-symptom-search-result-item" href="/' + lang + '/medical/symptom-dictionary/' + m.part + '/?highlight=' + m.id + '" data-search-result-id="' + m.id + '">' +
+                  '<span class="med-symptom-search-result-jp">' + m.symptom_jp + '</span>' +
+                  '<span class="med-symptom-search-result-zh">' + (m.example_zh || '') + '</span>' +
+                  '</a>';
+              }).join('');
+              resultsBox.style.display = 'block';
             }
 
-            resultsBox.innerHTML = matches.map(function (m) {
-              return '<a class="med-symptom-search-result-item" href="/' + lang + '/medical/symptom-dictionary/' + m.part + '/?highlight=' + m.id + '">' +
-                '<span class="med-symptom-search-result-jp">' + m.symptom_jp + '</span>' +
-                '<span class="med-symptom-search-result-zh">' + (m.example_zh || '') + '</span>' +
-                '</a>';
-            }).join('');
-            resultsBox.style.display = 'block';
+            if (searchTrackTimer) clearTimeout(searchTrackTimer);
+            searchTrackTimer = setTimeout(function () {
+              if (kw === lastTrackedKw) return;
+              lastTrackedKw = kw;
+              if (typeof window.gtag === 'function') {
+                window.gtag('event', 'symptom_search', {
+                  search_term: kw.slice(0, 60),
+                  has_results: matches.length > 0,
+                  result_count: matches.length,
+                  lang: lang
+                });
+              }
+            }, 600);
           });
+        });
+
+        resultsBox.addEventListener('click', function (e) {
+          const link = e.target.closest('[data-search-result-id]');
+          if (link && typeof window.gtag === 'function') {
+            window.gtag('event', 'symptom_search_result_click', {
+              symptom_id: link.getAttribute('data-search-result-id'),
+              lang: lang
+            });
+          }
         });
 
         document.addEventListener('click', function (e) {

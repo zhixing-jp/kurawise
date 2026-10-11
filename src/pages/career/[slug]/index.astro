@@ -42,7 +42,7 @@ interface Props {
 const { slug, pageData } = Astro.props as Props;
 ---
 
-<Base title={`${pageData.title} | Living Japanese · 日活`} description={pageData.description} careerCss={true} careerGroup={pageData.group}>
+<Base title={`${pageData.title} | Kurawise`} description={pageData.description} careerCss={true} careerGroup={pageData.group}>
 
   <Breadcrumb crumbs={[{ label: SECTIONS.career.label, url: SECTIONS.career.url }, { label: pageData.title }]} cssClass="career-breadcrumb" />
 

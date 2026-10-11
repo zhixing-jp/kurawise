@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Living Japanese · 日活",
+    "title": "Living Japanese",
     "subtitle": "不会日语，也能在日本活得从容",
     "version": "3.0",
-    "url": "https://livingjapanese.app"
+    "url": "https://kurawise.com"
   },
   "banner": {
-    "eyebrow": "Living Japanese · 日活",
+    "eyebrow": "Living Japanese by Kurawise",
     "title": "不会日语，也能在日本活得从容。",
     "pills": ["不用背","用时来查","10秒找到","说出来解决"],
     "title_en": "Live comfortably in Japan, even without Japanese.",

@@ -15,21 +15,26 @@ interface Props {
   careerGroup?: string;
   guidesCss?: boolean;
   noindex?: boolean;
+  skipReadTracking?: boolean;
 }
 
 const {
-  title = 'Living Japanese | 日活',
+  title = 'Kurawise',
   description = '在日本看病、租房、办手续怎么用日语说？23个真实场景对话，真人核实，跟读练习，完全免费。',
-  ogImage = 'https://livingjapanese.app/assets/og-image.webp',
+  ogImage = 'https://kurawise.com/assets/og-image.webp',
   rescueCss = false,
   medicalCss = false,
   careerCss = false,
   careerGroup,
   guidesCss = false,
-  noindex = false
+  noindex = false,
+  skipReadTracking = false
 } = Astro.props;
 
-const siteUrl = 'https://livingjapanese.app';
+const siteUrl = 'https://kurawise.com';
+
+// 内容阅读完成度埋点用：标记当前页面属于哪个内容板块，非内容页（首页/about/guides等）为null不触发
+const contentSection = skipReadTracking ? null : (rescueCss ? 'rescue' : (medicalCss ? 'medical' : (careerCss ? 'career' : null)));
 
 // 医疗协调服务浮动banner：贴在就医指南版块全程显示（medicalCss=true 的页面），
 // 落地页/咨询页自己不再显示banner（用户已经在导流终点，不需要再引导一次）。
@@ -103,12 +108,12 @@ const footerLabels: Record<string, string> = {
   en: 'About Us', vi: 'Về Chúng Tôi', ko: '소개', ja: '私たちについて'
 };
 const footerCopyright: Record<string, string> = {
-  zh: `© ${new Date().getFullYear()} Living Japanese · 日活`,
-  'zh-TW': `© ${new Date().getFullYear()} Living Japanese · 日活`,
-  en: `© ${new Date().getFullYear()} Living Japanese`,
-  vi: `© ${new Date().getFullYear()} Living Japanese`,
-  ko: `© ${new Date().getFullYear()} Living Japanese`,
-  ja: `© ${new Date().getFullYear()} Living Japanese`
+  zh: `© ${new Date().getFullYear()} Kurawise`,
+  'zh-TW': `© ${new Date().getFullYear()} Kurawise`,
+  en: `© ${new Date().getFullYear()} Kurawise`,
+  vi: `© ${new Date().getFullYear()} Kurawise`,
+  ko: `© ${new Date().getFullYear()} Kurawise`,
+  ja: `© ${new Date().getFullYear()} Kurawise`
 };
 
 const currentPath = Astro.url.pathname;
@@ -118,14 +123,25 @@ const isGuides = currentPath.includes('/guides') || currentPath.includes('/downl
 
 const jsonLd = {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      "name": "Kurawise",
+      "url": siteUrl
+    },
+    {
   "@type": "WebApplication",
-  "name": "日活 Living Japanese",
+  "name": "Living Japanese",
+  "isPartOf": { "@id": `${siteUrl}/#website` },
   "url": siteUrl,
   "description": "不是学日语，是习惯说日语。23个真实生活场景，数百句日本人真的会这样说的对话，配双向跟读练习，通勤路上随手练几句。内容由在日20年华人亲自核实，不是机器翻译，完全免费，无需下载。",
   "applicationCategory": "EducationalApplication",
   "operatingSystem": "Web",
   "inLanguage": ["zh-CN", "zh-TW", "en", "vi", "ko", "ja"],
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+    }
+  ]
 };
 ---
 
@@ -136,7 +152,7 @@ const jsonLd = {
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#FF3B30">
   <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'}>
-  <meta name="author" content="日活 Living Japanese">
+  <meta name="author" content="Kurawise">
 
   <title>{title}</title>
   <meta name="description" content={description}>
@@ -148,7 +164,7 @@ const jsonLd = {
   <meta property="og:type" content="website">
   <meta property="og:image" content={ogImage}>
   <meta property="og:locale" content={lang === 'zh' ? 'zh_CN' : lang === 'zh-TW' ? 'zh_TW' : lang}>
-  <meta property="og:site_name" content="日活 Living Japanese">
+  <meta property="og:site_name" content="Kurawise">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
@@ -196,6 +212,38 @@ const jsonLd = {
     gtag('js', new Date());
     gtag('config', 'G-N484C7TXZ0');
   </script>
+
+  <!-- 内容阅读完成度埋点：只在rescue/medical/career内容页生效，滚动到页面底部附近时记一次，
+       每个页面只记一次，用于判断"读完的人多不多"这类现有pageview无法回答的问题 -->
+  <script is:inline define:vars={{ contentSection }}>
+    (function () {
+      if (!contentSection) return;
+      var fired = false;
+      function checkScroll() {
+        if (fired) return;
+        var scrollBottom = window.scrollY + window.innerHeight;
+        var docHeight = document.documentElement.scrollHeight;
+        if (scrollBottom >= docHeight - 100) {
+          fired = true;
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'content_read_complete', {
+              section: contentSection,
+              page_path: window.location.pathname
+            });
+          }
+          window.removeEventListener('scroll', checkScroll);
+        }
+      }
+      window.addEventListener('scroll', checkScroll, { passive: true });
+      // 有些页面内容很短，不需要滚动就已经在底部，加载后立即检查一次
+      if (document.readyState === 'complete') {
+        checkScroll();
+      } else {
+        window.addEventListener('load', checkScroll);
+      }
+    })();
+  </script>
+
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 </head>
 <body>
@@ -206,7 +254,7 @@ const jsonLd = {
       <div class="wordmark">
         <div class="wordmark">
           <a href={rescueUrl} style="text-decoration:none;color:inherit;">
-            <span id="siteTitle">Living Japanese · 日活</span>
+            <span id="siteTitle">Kurawise</span>
           </a>
         <div class="wordmark-dot"></div>
       </div>
@@ -470,12 +518,12 @@ const jsonLd = {
       };
       const footerYear = new Date().getFullYear();
       const footerCopyrightClient = {
-        zh: `© ${footerYear} Living Japanese · 日活`,
-        'zh-TW': `© ${footerYear} Living Japanese · 日活`,
-        en: `© ${footerYear} Living Japanese`,
-        vi: `© ${footerYear} Living Japanese`,
-        ko: `© ${footerYear} Living Japanese`,
-        ja: `© ${footerYear} Living Japanese`
+        zh: `© ${footerYear} Kurawise`,
+        'zh-TW': `© ${footerYear} Kurawise`,
+        en: `© ${footerYear} Kurawise`,
+        vi: `© ${footerYear} Kurawise`,
+        ko: `© ${footerYear} Kurawise`,
+        ja: `© ${footerYear} Kurawise`
       };
       const footerLink = document.getElementById('footerAboutLink');
       if (footerLink) footerLink.textContent = footerLabelsClient[lang] || footerLabelsClient.zh;

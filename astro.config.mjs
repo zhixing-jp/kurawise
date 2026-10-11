@@ -9,6 +9,6 @@ import sitemap from '@astrojs/sitemap';
 // dev 模式下可能造成路由状态混淆（同一路径不同请求返回内容不一致）。
 // 由于项目实际上没有使用任何内置 i18n API，这段配置本身是无用的历史遗留，直接移除。
 export default defineConfig({
-  site: 'https://livingjapanese.app',
+  site: 'https://kurawise.com',
   integrations: [sitemap()]
 });

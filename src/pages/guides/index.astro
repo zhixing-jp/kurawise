@@ -15,7 +15,7 @@ function productsInCategory(categoryId: string) {
   return products.filter((p) => p.category === categoryId);
 }
 
-const title = `${SECTIONS.guides.label} | Living Japanese · 日活`;
+const title = `${SECTIONS.guides.label} | Kurawise`;
 const description = '经过筛选提炼的付费方法论、清单与模板，以及需要人工协助的专业服务，帮助你在日本少走弯路。';
 ---
 
@@ -117,6 +117,29 @@ const description = '经过筛选提炼的付费方法论、清单与模板，�
             window.gtag('event', eventName, productId ? { product_id: productId } : {});
           });
         });
+
+        // 商品卡片曝光埋点：卡片滚动进入视口时记一次"被看到"，
+        // 配合已有的点击埋点，可以算出每个商品的曝光-点击转化率，
+        // 每张卡片只记一次，避免反复滚动重复计数。
+        var seenProducts = {};
+        if (typeof IntersectionObserver === 'function') {
+          var productObserver = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (!entry.isIntersecting) return;
+              var card = entry.target;
+              var productId = card.getAttribute('data-product-id');
+              if (!productId || seenProducts[productId]) return;
+              seenProducts[productId] = true;
+              if (typeof window.gtag === 'function') {
+                window.gtag('event', 'product_card_view', { product_id: productId });
+              }
+              productObserver.unobserve(card);
+            });
+          }, { threshold: 0.5 });
+          document.querySelectorAll('.guides-product-card').forEach(function (card) {
+            productObserver.observe(card);
+          });
+        }
 
         // 分享按钮：LINE/WhatsApp有现成的URL scheme可以直接跳转分享面板，
         // 微信没有对应的网页分享API（微信生态封闭），只能退而求其次做"复制链接"，
