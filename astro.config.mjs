@@ -10,5 +10,8 @@ import sitemap from '@astrojs/sitemap';
 // 由于项目实际上没有使用任何内置 i18n API，这段配置本身是无用的历史遗留，直接移除。
 export default defineConfig({
   site: 'https://kurawise.com',
-  integrations: [sitemap()]
+  integrations: [sitemap({
+    // 準備中で noindex のページはサイトマップから外す（公開時にこの行を削除）
+    filter: (page) => page !== 'https://kurawise.com/kurashi/'
+  })]
 });

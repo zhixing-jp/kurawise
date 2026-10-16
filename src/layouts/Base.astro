@@ -67,6 +67,9 @@ const careerBannerMap: Record<string, { text: string; cta: string }> =
 const careerBannerData = (careerGroup && careerBannerMap[careerGroup]) || careerBannerMap.default;
 const careerInterestBasePath = lang === 'zh' ? '/career/interest/' : `/${lang}/career/interest/`;
 const careerInterestUrl = careerGroup ? `${careerInterestBasePath}?from=${careerGroup}` : careerInterestBasePath;
+// 面试类文章：面试指南PDF已作为商品上架（目前仅简体中文），横幅直接导向专业指南商品页；
+// 其他类别和其他语言仍导向"抢先登记"页。横幅文案另行调整。
+const careerBannerUrl = (careerGroup === 'interview' && lang === 'zh') ? SECTIONS.guides.url : careerInterestUrl;
 const careerReferralBannerText = careerBannerData.text;
 const careerReferralBannerCta = careerBannerData.cta;
 
@@ -88,8 +91,10 @@ const navLabels: Record<string, Record<string, string>> = {
   medical: { zh: SECTIONS.medical.label, en: 'Medical Guide', 'zh-TW': '就醫指南', vi: 'Hướng Dẫn Y Tế', ko: '진료 안내', ja: '受診ガイド' },
   // career版块已完成多语言（zh-TW/en/vi/ko/ja），标签按语言显示
   career:  { zh: SECTIONS.career.label, 'zh-TW': '日本就職轉職指南', en: 'Career Guide', vi: 'Hướng dẫn việc làm', ko: '취업・이직 가이드', ja: '就職・転職ガイド' },
-  // guides（专业指南）目前仅简体中文，暂无多语言版本
-  guides:  { zh: SECTIONS.guides.label }
+  // ST（节约・お得）版块
+  kurashi: { zh: SECTIONS.kurashi.label, 'zh-TW': '省錢・優惠', en: 'Save Money', vi: 'Tiết kiệm', ko: '절약・혜택', ja: '節約・お得' },
+  // 应用版块
+  apps:    { zh: SECTIONS.apps.label, 'zh-TW': '應用', en: 'Apps', vi: 'Ứng dụng', ko: '앱', ja: 'アプリ' }
 };
 
 const rescueUrl  = lang === 'zh' ? '/' : `/${lang}/`;
@@ -98,8 +103,9 @@ const rescueUrl  = lang === 'zh' ? '/' : `/${lang}/`;
 const medicalUrl = lang === 'zh' ? '/medical/' : `/${lang}/medical/`;
 // career已完成 [lang]/career/* 多语言目录，按语言跳转
 const careerUrl = lang === 'zh' ? '/career/' : `/${lang}/career/`;
-// guides暂无多语言版本，Phase 1单一路径（仅简体中文）
-const guidesUrl = SECTIONS.guides.url;
+// ST与应用版块：单一路径入口（版块内再按语言分）
+const kurashiUrl = SECTIONS.kurashi.url;
+const appsUrl = SECTIONS.apps.url;
 // about同medical，单一路径，内部按当前语言显示对应文案
 const aboutUrl = '/about/';
 
@@ -120,6 +126,8 @@ const currentPath = Astro.url.pathname;
 const isMedical = currentPath.includes('/medical');
 const isCareer = currentPath.includes('/career');
 const isGuides = currentPath.includes('/guides') || currentPath.includes('/download');
+const isKurashi = currentPath.startsWith('/kurashi');
+const isApps = currentPath.startsWith('/apps');
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -314,7 +322,7 @@ const jsonLd = {
       <button type="button" class="career-referral-banner-close" id="careerReferralBannerClose" aria-label="关闭">✕</button>
       <span class="career-referral-banner-text">{careerReferralBannerText}</span>
       <a
-        href={careerInterestUrl}
+        href={careerBannerUrl}
         class="career-referral-banner-cta"
         data-ga-event="career_banner_click"
       >
@@ -458,7 +466,7 @@ const jsonLd = {
 
   <!-- Bottom Navigation -->
   <nav id="tabBar">
-    <a href={rescueUrl} class={`tab${(!isMedical && !isCareer && !isGuides) ? ' on' : ''}`}>
+    <a href={rescueUrl} class={`tab${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps) ? ' on' : ''}`}>
       <div class="tab-icon">🛡️</div>
       {navLabels.rescue[lang] || navLabels.rescue.zh}
     </a>
@@ -470,9 +478,13 @@ const jsonLd = {
       <div class="tab-icon">💼</div>
       {navLabels.career[lang] || navLabels.career.zh}
     </a>
-    <a href={guidesUrl} class={`tab${isGuides ? ' on' : ''}`}>
-      <div class="tab-icon">📘</div>
-      {navLabels.guides[lang] || navLabels.guides.zh}
+    <a href={kurashiUrl} class={`tab${isKurashi ? ' on' : ''}`}>
+      <div class="tab-icon">💰</div>
+      {navLabels.kurashi[lang] || navLabels.kurashi.zh}
+    </a>
+    <a href={appsUrl} class={`tab${isApps ? ' on' : ''}`}>
+      <div class="tab-icon">📱</div>
+      {navLabels.apps[lang] || navLabels.apps.zh}
     </a>
   </nav>
 

@@ -11,9 +11,14 @@ export interface SectionInfo {
   url: string;
 }
 
-export const SECTIONS: Record<'rescue' | 'medical' | 'career' | 'guides', SectionInfo> = {
+export const SECTIONS: Record<'rescue' | 'medical' | 'career' | 'guides' | 'kurashi' | 'apps', SectionInfo> = {
   rescue:  { label: '生活日语学习', url: '/' },
   medical: { label: '日本就医指南', url: '/medical/' },
   career:  { label: '日本就职转职指南', url: '/career/' },
-  guides:  { label: '专业指南', url: '/guides/' }
+  // guides（专业指南）不再作为底部tab，只通过受诊/日语/转职三个版块的横幅进入
+  guides:  { label: '专业指南', url: '/guides/' },
+  // ST（节约・お得）版块：URL规则为 /kurashi/{lang}/，入口页 /kurashi/
+  kurashi: { label: '省钱・优惠', url: '/kurashi/' },
+  // 应用版块：/apps/ 为应用一览，各应用的公开页为 /应用名/（如 /kuraphoto/）
+  apps:    { label: '应用', url: '/apps/' }
 };

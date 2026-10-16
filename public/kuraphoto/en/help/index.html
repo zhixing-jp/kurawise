@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Guide | KuraPhoto | Kurawise</title>
+<meta name="description" content="How to use KuraPhoto: importing from iPhone, external storage, and the Photos library, Duplicate Check, Missing Files Check, iCloud Photos notes, and troubleshooting.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KuraPhoto">
+<meta property="og:title" content="User Guide | KuraPhoto | Kurawise">
+<meta property="og:description" content="How to use KuraPhoto: importing from iPhone, external storage, and the Photos library, Duplicate Check, Missing Files Check, iCloud Photos notes, and troubleshooting.">
+<meta property="og:url" content="https://kurawise.com/kuraphoto/en/help/">
+<meta property="og:image" content="https://kurawise.com/kuraphoto/img/kuraphoto-icon-512.png">
+<link rel="alternate" hreflang="ja" href="https://kurawise.com/kuraphoto/help/">
+<link rel="alternate" hreflang="en" href="https://kurawise.com/kuraphoto/en/help/">
+<link rel="alternate" hreflang="de" href="https://kurawise.com/kuraphoto/de/help/">
+<link rel="alternate" hreflang="fr" href="https://kurawise.com/kuraphoto/fr/help/">
+<link rel="alternate" hreflang="ko" href="https://kurawise.com/kuraphoto/ko/help/">
+<link rel="alternate" hreflang="zh-Hans" href="https://kurawise.com/kuraphoto/zh-hans/help/">
+<link rel="alternate" hreflang="zh-Hant" href="https://kurawise.com/kuraphoto/zh-hant/help/">
+<link rel="alternate" hreflang="x-default" href="https://kurawise.com/kuraphoto/en/help/">
+<link rel="icon" type="image/png" href="../../img/kuraphoto-icon-128.png">
+<link rel="apple-touch-icon" href="../../img/kuraphoto-icon-256.png">
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#6e6e73; --line:#d2d2d7; --accent:#0a66c2; --card:#f5f5f7; --warn:#b25000; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161617; --fg:#f5f5f7; --muted:#a1a1a6; --line:#3a3a3c; --accent:#4da3ff; --card:#232325; --warn:#ff9f43; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.8 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", sans-serif; }
+  main { max-width:780px; margin:0 auto; padding:24px 16px 64px; }
+  .langs { max-width:780px; margin:0 auto; padding:16px 16px 0; text-align:right; font-size:14px; }
+  .langs select { font:inherit; padding:2px 6px; border-radius:6px; border:1px solid var(--line); background:var(--bg); color:var(--fg); }
+  h1 { font-size:30px; line-height:1.3; margin:0 0 6px; }
+  .appicon { width:96px; height:96px; display:block; margin:0 0 8px -6px; }
+  h2 { font-size:21px; margin:40px 0 10px; padding-top:14px; border-top:1px solid var(--line); }
+  h3 { font-size:17px; margin:22px 0 4px; }
+  .lead, .note, .meta { color:var(--muted); }
+  .meta { font-size:14px; }
+  .warn { color:var(--warn); }
+  nav { background:var(--card); border-radius:12px; padding:12px 18px; }
+  nav ol { margin:0; padding-left:20px; }
+  .point { background:var(--card); border-radius:10px; padding:10px 14px; margin:10px 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; }
+  .card { background:var(--card); border-radius:12px; padding:14px 16px; }
+  .card strong { display:block; }
+  details { border-bottom:1px solid var(--line); padding:10px 0; }
+  summary { cursor:pointer; font-weight:600; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="langs"><select aria-label="Language" onchange="location.href=this.value">
+<option value="../../help/">日本語</option>
+<option value="../../en/help/" selected>English</option>
+<option value="../../de/help/">Deutsch</option>
+<option value="../../fr/help/">Français</option>
+<option value="../../ko/help/">한국어</option>
+<option value="../../zh-hans/help/">简体中文</option>
+<option value="../../zh-hant/help/">繁體中文</option>
+</select></div>
+<main>
+<h1>KuraPhoto User Guide</h1>
+<p class="lead">KuraPhoto neatly organizes photos and videos into folders by date taken (for example, 2026 › 2026-10). It never deletes the photos on your source.</p>
+
+<nav><ol>
+  <li><a href="#basics">Getting started: the basic flow</a></li>
+  <li><a href="#iphone">Import from iPhone or iPad</a></li>
+  <li><a href="#external">Import from external storage (SD card, USB, external disk, camera, Android)</a></li>
+  <li><a href="#folder">Organize Mac folders</a></li>
+  <li><a href="#library">Import from Photos Library</a></li>
+  <li><a href="#duplicates">Duplicate Check</a></li>
+  <li><a href="#missing">Missing Files Check</a></li>
+  <li><a href="#icloud">If you use iCloud Photos</a></li>
+  <li><a href="#pro">Free and Pro</a></li>
+  <li><a href="#settings">Language and Detailed Mode</a></li>
+  <li><a href="#safety">How KuraPhoto keeps your files safe</a></li>
+  <li><a href="#trouble">Troubleshooting</a></li>
+</ol></nav>
+
+<h2 id="basics">1. Getting started: the basic flow</h2>
+<p>Choose what you want to do on the Home screen, and KuraPhoto guides you one step per screen. Just click “Next” until you’re done.</p>
+<ol>
+  <li>Choose the <strong>source</strong> (iPhone, SD card, folder, and so on)</li>
+  <li>Review the <strong>contents</strong> (import everything, or browse and choose)</li>
+  <li>Choose the <strong>destination</strong> folder (you can also pick the last one you used)</li>
+  <li>Choose the <strong>folder layout</strong> (Year / Month, Year / Month / Day, with place names)</li>
+  <li><strong>Review</strong> and start. With “Trial Run (Dry Run)”, you can see the result without copying anything</li>
+</ol>
+<div class="point">Items already imported are skipped automatically, so importing the same device again never creates duplicates. When an import finishes, KuraPhoto <strong>automatically checks</strong> that every photo from the source is in the destination and shows the result at the top of the completion screen.</div>
+<p class="note">Your Mac won’t sleep while KuraPhoto is working, and you can use other apps in the meantime. A notification tells you when it’s done.</p>
+
+<h2 id="iphone">2. Import from iPhone or iPad</h2>
+<ol>
+  <li>Connect your iPhone to the Mac with a cable and unlock it.</li>
+  <li>If “Trust This Computer?” appears, choose “Trust”.</li>
+  <li>Select the iPhone that appears to load its contents. You’ll also see how many items are not yet in your destination.</li>
+</ol>
+<ul>
+  <li>Live Photos (photo and video pairs) and edit data (.AAE) are imported as they are.</li>
+  <li>To import in HEIC format, set iPhone “Settings › Apps › Photos › Transfer to Mac or PC” to “Keep Originals”.</li>
+  <li>If the cable comes loose, reconnect and use “Continue Import”. Files that keep interrupting the transfer are deselected automatically.</li>
+  <li>Large numbers of photos take time. Connecting directly to the Mac instead of through a USB hub is faster and more stable.</li>
+</ul>
+
+<h2 id="external">3. Import from external storage</h2>
+<table>
+  <tr><th>Device</th><th>How to connect and notes</th></tr>
+  <tr><td>SD, microSD, and CF cards</td><td>Insert into a card reader (use an adapter for microSD). Don’t remove it while reading.</td></tr>
+  <tr><td>Digital cameras</td><td>Removing the SD card and reading it with a card reader is fastest and most reliable. To connect by USB, turn the camera on and set its USB mode to “PC connection”, “PTP”, or similar.</td></tr>
+  <tr><td>Android phones</td><td>Connect by USB, unlock the phone, and choose “Transfer photos (PTP)” under “USB settings” in the notification. In “File transfer” mode the Mac can’t see it. Photos that exist only in Google Photos can’t be imported, so save them to the phone first.</td></tr>
+  <tr><td>USB drives and external disks</td><td>Just connect them. APFS, Mac OS Extended, exFAT, FAT32, and NTFS (read-only) are supported.</td></tr>
+  <tr><td>NAS and network folders</td><td>Connect in Finder first, then choose them with “Choose another location…”.</td></tr>
+</table>
+<p>Before unplugging, click “Eject” in Finder.</p>
+<h3>Supported file formats</h3>
+<ul>
+  <li><strong>Photos</strong>: HEIC, JPEG, PNG, TIFF, GIF, WebP, AVIF, JPEG XL, and RAW from major cameras (DNG, CR2/CR3, NEF, ARW, RAF, ORF, RW2, PEF, SRW, 3FR, IIQ, and more)</li>
+  <li><strong>Videos</strong>: MOV, MP4, M4V, 3GP, AVI, MTS/M2TS, MKV, WebM, MPG, WMV, MXF, and more</li>
+  <li><strong>Companion files</strong>: iPhone edit data (.AAE) and development settings from Lightroom and similar apps (.XMP). They are copied or moved together with the photo of the same name</li>
+</ul>
+<p class="note">Dates are read from the photo’s Exif data and the video’s recording date. For formats where this isn’t available, the earlier of the file’s creation and modification dates is used.</p>
+
+<h2 id="folder">4. Organize Mac folders</h2>
+<ul>
+  <li><strong>Copy and Organize</strong> (recommended): copies into year/month folders in another folder. The original files stay where they are.</li>
+  <li><strong>Organize Within This Folder</strong>: moves files into year/month folders inside the folder, using no extra space. You can return to the previous layout later with “Undo” (⌘Z).</li>
+</ul>
+<p class="note">For the Photos app library, use “Import from Photos Library”.</p>
+
+<h2 id="library">5. Import from Photos Library</h2>
+<p>Extracts the original photos and videos in your Mac’s Photos app into regular folders. The first time, you’ll be asked to allow access to your photo library; choose “Allow”.</p>
+<ul>
+  <li>Photos in your library are never changed or deleted.</li>
+  <li>For edited photos, choose “Originals only”, “Edited only”, or “Both”. You can also choose by album.</li>
+  <li>Photos whose originals are only in iCloud are downloaded automatically through the Photos app when importing (<a href="#icloud">learn more</a>).</li>
+</ul>
+
+<h2 id="duplicates">6. Duplicate Check</h2>
+<p>Choose a folder to find identical photos and copies that differ only in size or format. Choose from “Exact match”, “Near-identical” (converted or resized copies), or “Similar photos” (burst shots and the like).</p>
+<ul>
+  <li>⭐ marks the suggested photo to keep (the best quality one). Click to change it.</li>
+  <li><strong>Merge</strong>: moves all but the kept photo to the “Duplicate Files” folder. <strong>Delete</strong>: moves them to the Trash.</li>
+  <li>Either way, you can return them to their original locations later with “Undo”.</li>
+</ul>
+
+<h2 id="missing">7. Missing Files Check</h2>
+<p>Checks month by month whether all photos and videos on the connected device are in your destination, and creates a report. <strong>Ideal as a backup check before deleting photos from your iPhone.</strong> It only checks; nothing is changed.</p>
+<ol>
+  <li>Open “Missing Files Check” on the Home screen.</li>
+  <li>Choose the device to check and the destination (the folder you imported into).</li>
+  <li>Click “Check” to see a monthly summary and a list of missing files.</li>
+</ol>
+<ul>
+  <li>Use “Import the N Missing Items…” to import whatever is missing right away.</li>
+  <li>Reports can be saved as PDF or CSV.</li>
+  <li>For Mac folders and SD cards, choose “Compare contents (strict check)” to also find renamed copies and damaged copies.</li>
+</ul>
+
+<h2 id="icloud">8. If you use iCloud Photos</h2>
+<p class="warn"><strong>Deleting photos on your iPhone also deletes them from iCloud and from every device using the same Apple Account.</strong> Keep this in mind even when the Missing Files Check says everything is saved.</p>
+<ul>
+  <li>When iCloud Photos and “Optimize iPhone Storage” are on, some photos have their originals only in iCloud. These <strong>can’t be imported over a cable</strong> (this is how Apple’s system works). When you connect, KuraPhoto checks whether iCloud Photos is on and lets you know.</li>
+  <li>You can import those photos with “Import from Photos Library” on a Mac with iCloud Photos turned on for the same Apple Account. The originals are downloaded automatically through the Photos app (no manual download or iPhone needed; an internet connection is required, and many photos can take time).</li>
+  <li>If iCloud Photos is off on this Mac, iCloud photos aren’t in the library and can’t be imported.</li>
+</ul>
+
+<h2 id="pro">9. Free and Pro</h2>
+<p>Even in the free version, loading, browsing, trial runs, finding duplicates, checking for missing files, undo, and continuing imports are unlimited.</p>
+<ul>
+  <li><strong>Free</strong>: importing and organizing are limited to 100 items per day in total. If there are more than today’s remaining allowance, you can choose “Import Only Today’s Remaining N”. Repeat the same action the next day to continue.</li>
+  <li><strong>Pro</strong>: unlimited importing, merging and deleting duplicates, saving reports (PDF, CSV), and “Import Remaining”.</li>
+</ul>
+<p>Pro is a one-time purchase (no subscription) and supports Family Sharing. Buy it from “Upgrade to Pro” at the top right. On another Mac or after reinstalling, choose “KuraPhoto › Restore Purchases” from the menu bar.</p>
+
+<h2 id="settings">10. Language and Detailed Mode</h2>
+<ul>
+  <li><strong>Language</strong>: KuraPhoto normally uses your Mac’s language (English, German, French, Japanese, Korean, or Chinese). To use a different language for this app only, choose it in “KuraPhoto › Settings…” (⌘,) and click “Restart and Switch”.</li>
+  <li><strong>Detailed Mode</strong>: for experienced users, all settings on one screen. Open it from the bottom of the Home screen.</li>
+</ul>
+
+<h2 id="safety">11. How KuraPhoto keeps your files safe</h2>
+<ul>
+  <li>Photos on the source are never deleted. There is no permanent-delete feature.</li>
+  <li>Copies are written to a temporary file and renamed only when complete, so an interruption never leaves a damaged file behind.</li>
+  <li>Files with the same name but different contents are never overwritten; both are kept, with “_1” and so on added.</li>
+  <li>If the destination is about to run out of space, KuraPhoto stops safely. Free up space and repeat the same action to continue.</li>
+  <li>A record of what was done (log) is kept in the “KuraPhoto Logs” folder in the destination.</li>
+  <li>Hidden folders (names starting with “.PhotoSorter-”) are created in the destination and organized folders for “Undo” and “Continue Import”. <strong>Please don’t delete them</strong>; otherwise, earlier organizing can no longer be undone.</li>
+</ul>
+
+<h2 id="trouble">12. Troubleshooting</h2>
+<h3>My iPhone doesn’t appear / 0 photos found</h3>
+<p>Unlock it, choose “Trust”, and select it again. Trying a different cable or USB hub may help.</p>
+<h3>My Android phone doesn’t appear</h3>
+<p>Choose “Transfer photos (PTP)” under “USB settings” in the notification.</p>
+<h3>Importing is very slow</h3>
+<p>iPhone transfer speed depends on the USB connection. Connect directly to a USB port on your Mac instead of a hub. Importing to a USB hard disk also takes longer.</p>
+<h3>The cable came loose or the import stopped</h3>
+<p>Reconnect, and “Continue Import” appears on the Home screen.</p>
+<h3>The destination ran out of space</h3>
+<p>KuraPhoto stops safely, and everything up to that point is saved. Free up space or choose another destination, then repeat the same action; saved items are skipped and it continues.</p>
+<h3>KuraPhoto can’t access a folder or the destination</h3>
+<p>For your protection, macOS lets KuraPhoto read and write only folders you have chosen. If a message appears, choose the folder again. For external disks, check that they’re connected.</p>
+<h3>The Photos library shows 0 items</h3>
+<p>Set KuraPhoto to “Full Access” in “System Settings › Privacy &amp; Security › Photos”. If the Photos app is empty, there’s nothing to import.</p>
+
+<p class="note">If this doesn’t solve your problem, contact <a href="mailto:kuraphoto@kurawise.com">kuraphoto@kurawise.com</a>. We usually reply within 2–3 business days.<br>© 2026 Kurawise</p>
+</main>
+</body>
+</html>

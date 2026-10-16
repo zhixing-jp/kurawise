@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>使用指南 | KuraPhoto | Kurawise</title>
+<meta name="description" content="KuraPhoto 使用方法：从 iPhone、外部存储和照片图库导入，重复检查，遗漏检查，iCloud 照片注意事项及疑难解答。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KuraPhoto">
+<meta property="og:title" content="使用指南 | KuraPhoto | Kurawise">
+<meta property="og:description" content="KuraPhoto 使用方法：从 iPhone、外部存储和照片图库导入，重复检查，遗漏检查，iCloud 照片注意事项及疑难解答。">
+<meta property="og:url" content="https://kurawise.com/kuraphoto/zh-hans/help/">
+<meta property="og:image" content="https://kurawise.com/kuraphoto/img/kuraphoto-icon-512.png">
+<link rel="alternate" hreflang="ja" href="https://kurawise.com/kuraphoto/help/">
+<link rel="alternate" hreflang="en" href="https://kurawise.com/kuraphoto/en/help/">
+<link rel="alternate" hreflang="de" href="https://kurawise.com/kuraphoto/de/help/">
+<link rel="alternate" hreflang="fr" href="https://kurawise.com/kuraphoto/fr/help/">
+<link rel="alternate" hreflang="ko" href="https://kurawise.com/kuraphoto/ko/help/">
+<link rel="alternate" hreflang="zh-Hans" href="https://kurawise.com/kuraphoto/zh-hans/help/">
+<link rel="alternate" hreflang="zh-Hant" href="https://kurawise.com/kuraphoto/zh-hant/help/">
+<link rel="alternate" hreflang="x-default" href="https://kurawise.com/kuraphoto/en/help/">
+<link rel="icon" type="image/png" href="../../img/kuraphoto-icon-128.png">
+<link rel="apple-touch-icon" href="../../img/kuraphoto-icon-256.png">
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#6e6e73; --line:#d2d2d7; --accent:#0a66c2; --card:#f5f5f7; --warn:#b25000; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161617; --fg:#f5f5f7; --muted:#a1a1a6; --line:#3a3a3c; --accent:#4da3ff; --card:#232325; --warn:#ff9f43; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.8 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", sans-serif; }
+  main { max-width:780px; margin:0 auto; padding:24px 16px 64px; }
+  .langs { max-width:780px; margin:0 auto; padding:16px 16px 0; text-align:right; font-size:14px; }
+  .langs select { font:inherit; padding:2px 6px; border-radius:6px; border:1px solid var(--line); background:var(--bg); color:var(--fg); }
+  h1 { font-size:30px; line-height:1.3; margin:0 0 6px; }
+  .appicon { width:96px; height:96px; display:block; margin:0 0 8px -6px; }
+  h2 { font-size:21px; margin:40px 0 10px; padding-top:14px; border-top:1px solid var(--line); }
+  h3 { font-size:17px; margin:22px 0 4px; }
+  .lead, .note, .meta { color:var(--muted); }
+  .meta { font-size:14px; }
+  .warn { color:var(--warn); }
+  nav { background:var(--card); border-radius:12px; padding:12px 18px; }
+  nav ol { margin:0; padding-left:20px; }
+  .point { background:var(--card); border-radius:10px; padding:10px 14px; margin:10px 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; }
+  .card { background:var(--card); border-radius:12px; padding:14px 16px; }
+  .card strong { display:block; }
+  details { border-bottom:1px solid var(--line); padding:10px 0; }
+  summary { cursor:pointer; font-weight:600; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="langs"><select aria-label="Language" onchange="location.href=this.value">
+<option value="../../help/">日本語</option>
+<option value="../../en/help/">English</option>
+<option value="../../de/help/">Deutsch</option>
+<option value="../../fr/help/">Français</option>
+<option value="../../ko/help/">한국어</option>
+<option value="../../zh-hans/help/" selected>简体中文</option>
+<option value="../../zh-hant/help/">繁體中文</option>
+</select></div>
+<main>
+<h1>KuraPhoto 使用指南</h1>
+<p class="lead">将照片和视频按拍摄日期整齐地整理到文件夹中（例：2026 › 2026-10）。不会删除来源中的照片。</p>
+
+<nav><ol>
+  <li><a href="#basics">入门：基本流程</a></li>
+  <li><a href="#iphone">从 iPhone 或 iPad 导入</a></li>
+  <li><a href="#external">从外部存储导入（SD 卡、U 盘、外置磁盘、相机、Android）</a></li>
+  <li><a href="#folder">整理 Mac 文件夹</a></li>
+  <li><a href="#library">从照片图库导入</a></li>
+  <li><a href="#duplicates">重复检查</a></li>
+  <li><a href="#missing">遗漏检查</a></li>
+  <li><a href="#icloud">使用 iCloud 照片的用户请注意</a></li>
+  <li><a href="#pro">免费版与 Pro</a></li>
+  <li><a href="#settings">语言与详细模式</a></li>
+  <li><a href="#safety">安全机制</a></li>
+  <li><a href="#trouble">疑难解答</a></li>
+</ol></nav>
+
+<h2 id="basics">1. 入门：基本流程</h2>
+<p>在主页选择“想做什么”后，每个画面只显示一个步骤的说明。只需点按“下一步”即可完成。</p>
+<ol>
+  <li>选择<strong>来源</strong>（iPhone、SD 卡、文件夹等）</li>
+  <li>确认<strong>内容</strong>（全部导入，或查看内容后选择）</li>
+  <li>选择<strong>保存位置</strong>文件夹（也可选择上次的保存位置）</li>
+  <li>选择<strong>文件夹的划分方式</strong>（年 / 月、年 / 月 / 日、含地名）</li>
+  <li><strong>确认</strong>后开始。使用“试运行”，可以不实际复制、仅查看结果</li>
+</ol>
+<div class="point">已导入的照片会自动跳过，同一设备多次导入也不会重复。导入完成后，会<strong>自动检查</strong>来源中的照片是否已全部保存到保存位置，并在完成画面顶部显示结果。</div>
+<p class="note">处理期间 Mac 不会进入睡眠，同时也可以使用其他 App。完成后会通过通知告知您。</p>
+
+<h2 id="iphone">2. 从 iPhone 或 iPad 导入</h2>
+<ol>
+  <li>用数据线将 iPhone 连接到 Mac，并解锁。</li>
+  <li>出现“要信任此电脑吗？”时，选择“信任”。</li>
+  <li>选择显示的 iPhone 即可读取内容，同时会显示与保存位置相比“未导入 N 个”。</li>
+</ol>
+<ul>
+  <li>实况照片（照片与视频的组合）和编辑信息（.AAE）会原样导入。</li>
+  <li>如需以 HEIC 格式导入，请将 iPhone 的“设置 › App › 照片 › 传输到 Mac 或 PC”设为“保留原片”。</li>
+  <li>即使数据线松脱，重新连接后也可通过“继续导入”继续。导致多次中断的文件会被自动取消选择。</li>
+  <li>照片较多时需要一些时间。不通过 USB 扩展坞、直接连接 Mac 会更快更稳定。</li>
+</ul>
+
+<h2 id="external">3. 从外部存储导入</h2>
+<table>
+  <tr><th>设备</th><th>连接方法与注意事项</th></tr>
+  <tr><td>SD、microSD、CF 卡</td><td>插入读卡器（microSD 请使用转接卡）。读取期间请勿拔出。</td></tr>
+  <tr><td>数码相机</td><td>取出 SD 卡并用读卡器读取最快也最可靠。如通过 USB 连接，请打开相机电源，并将 USB 模式设为“PC 连接”“PTP”等。</td></tr>
+  <tr><td>Android 手机</td><td>通过 USB 连接并解锁手机，在通知的“USB 设置”中选择“传输照片（PTP）”。“文件传输”模式下 Mac 无法识别。仅存在于 Google 相册中的照片无法导入，请先保存到手机。</td></tr>
+  <tr><td>U 盘、外置磁盘</td><td>直接连接即可。支持 APFS、Mac OS 扩展、exFAT、FAT32、NTFS（只读）。</td></tr>
+  <tr><td>NAS、网络文件夹</td><td>先在访达中连接，再通过“选择其他位置…”选择。</td></tr>
+</table>
+<p>拔出前，请先在访达中点按“推出”。</p>
+<h3>支持的文件格式</h3>
+<ul>
+  <li><strong>照片</strong>：HEIC、JPEG、PNG、TIFF、GIF、WebP、AVIF、JPEG XL，以及主流相机的 RAW（DNG、CR2/CR3、NEF、ARW、RAF、ORF、RW2、PEF、SRW、3FR、IIQ 等）</li>
+  <li><strong>视频</strong>：MOV、MP4、M4V、3GP、AVI、MTS/M2TS、MKV、WebM、MPG、WMV、MXF 等</li>
+  <li><strong>一并处理的附属文件</strong>：iPhone 的编辑信息（.AAE）、Lightroom 等的冲印设置（.XMP）。会与同名照片一起复制或移动</li>
+</ul>
+<p class="note">拍摄日期从照片的 Exif 和视频的拍摄日期中读取。无法读取的格式，将使用文件创建日期与修改日期中较早的一个。</p>
+
+<h2 id="folder">4. 整理 Mac 文件夹</h2>
+<ul>
+  <li><strong>复制并整理</strong>（推荐）：按“年/月”复制到其他文件夹。原始文件保持不变。</li>
+  <li><strong>在此文件夹内整理</strong>：在该文件夹内移动到“年/月”文件夹，不会增加占用空间。之后可通过“撤销”（⌘Z）恢复整理前的状态。</li>
+</ul>
+<p class="note">“照片”App 的图库请使用“从照片图库导入”。</p>
+
+<h2 id="library">5. 从照片图库导入</h2>
+<p>将 Mac“照片”App 中的照片和视频原片导出到普通文件夹并整理。首次使用时会询问是否允许访问照片图库，请选择“允许”。</p>
+<ul>
+  <li>不会更改或删除图库中的照片。</li>
+  <li>编辑过的照片可选择“仅原片”“仅编辑后”或“两者”。也可以按相簿选择。</li>
+  <li>原片仅存于 iCloud 的照片，会在导入时通过“照片”App 自动下载（<a href="#icloud">了解详情</a>）。</li>
+</ul>
+
+<h2 id="duplicates">6. 重复检查</h2>
+<p>选择文件夹后，会查找相同的照片以及仅大小或格式不同的副本。查找方式可选“完全相同”“几乎相同”（转换或缩小的副本）“相似照片”（连拍等）。</p>
+<ul>
+  <li>⭐ 表示建议“保留的那一张”（画质最好的）。点按即可更改。</li>
+  <li><strong>合并</strong>：将保留的那一张以外的照片移到“重复文件”文件夹。<strong>删除</strong>：移到废纸篓。</li>
+  <li>两种方式之后都可以通过“撤销”放回原处。</li>
+</ul>
+
+<h2 id="missing">7. 遗漏检查</h2>
+<p>按月检查所连接设备中的照片和视频是否已全部导入保存位置，并生成报告。<strong>推荐在从 iPhone 删除照片前用作备份检查。</strong>仅检查，不会更改任何文件。</p>
+<ol>
+  <li>打开主页中的“遗漏检查”。</li>
+  <li>选择要检查的设备和保存位置（导入的文件夹）。</li>
+  <li>点按“检查”，即会显示按月统计和未找到的文件列表。</li>
+</ol>
+<ul>
+  <li>未找到的文件可通过“导入未找到的 N 个…”直接导入。</li>
+  <li>报告可保存为 PDF 或 CSV。</li>
+  <li>Mac 文件夹和 SD 卡可选择“比较内容（严格检查）”，连改了名称的副本和损坏的副本也能找到。</li>
+</ul>
+
+<h2 id="icloud">8. 使用 iCloud 照片的用户请注意</h2>
+<p class="warn"><strong>在 iPhone 上删除照片，也会从 iCloud 及使用同一 Apple 账户的所有设备中删除。</strong>即使遗漏检查显示“已全部保存”，也请注意这一点。</p>
+<ul>
+  <li>如果 iPhone 开启了 iCloud 照片和“优化 iPhone 储存空间”，部分照片的原片仅存于 iCloud。这些照片<strong>无法通过数据线导入</strong>（这是 Apple 的机制）。连接时，本 App 会检查是否开启了 iCloud 照片并通知您。</li>
+  <li>这些照片可在使用同一 Apple 账户并开启 iCloud 照片的 Mac 上，通过“从照片图库导入”导入。原片会通过“照片”App 自动下载（无需手动下载或使用 iPhone；需要网络连接，照片较多时会花费一些时间）。</li>
+  <li>如果此 Mac 未开启 iCloud 照片，iCloud 中的照片不在图库中，因此无法导入。</li>
+</ul>
+
+<h2 id="pro">9. 免费版与 Pro</h2>
+<p>即使是免费版，读取、查看内容、试运行、查找重复项、遗漏检查、撤销、继续导入也均无限制。</p>
+<ul>
+  <li><strong>免费版</strong>：导入与整理所有操作合计每天最多 100 个。超过今天的剩余数量时，可选择“仅导入今天剩余的 N 个”。第二天重复相同操作即可继续导入。</li>
+  <li><strong>Pro</strong>：无限制导入，合并与删除重复项，保存报告（PDF、CSV），“导入剩余部分”。</li>
+</ul>
+<p>Pro 为一次买断（无月费），支持家人共享。可从画面右上角的“升级到 Pro”购买。在其他 Mac 上或重新安装后，请在菜单栏中选择“KuraPhoto › 恢复购买”。</p>
+
+<h2 id="settings">10. 语言与详细模式</h2>
+<ul>
+  <li><strong>语言</strong>：通常以 Mac 的语言显示（中文、英语、德语、法语、日语、韩语）。如只想让此 App 使用其他语言，请在“KuraPhoto › 设置…”（⌘,）中选择，然后点按“重新启动并切换”。</li>
+  <li><strong>详细模式</strong>：面向熟练用户，可在一个画面中完成所有设置。从主页底部打开。</li>
+</ul>
+
+<h2 id="safety">11. 安全机制</h2>
+<ul>
+  <li>不会删除来源中的照片。没有彻底删除的功能。</li>
+  <li>复制时先写入临时文件，完成后再命名，因此即使中途停止也不会留下损坏的文件。</li>
+  <li>名称相同但内容不同的文件不会被覆盖，会添加“_1”等后两者都保留。</li>
+  <li>保存位置空间即将不足时会安全停止。腾出空间后执行相同操作即可继续。</li>
+  <li>处理记录（日志）保存在保存位置的“KuraPhoto 日志”文件夹中。</li>
+  <li>保存位置和整理过的文件夹中，会生成用于“撤销”和“继续导入”的<strong>隐藏文件夹</strong>（名称以“.PhotoSorter-”开头）。<strong>请勿删除</strong>，否则将无法撤销此前的整理。</li>
+</ul>
+
+<h2 id="trouble">12. 疑难解答</h2>
+<h3>iPhone 不显示／照片为 0 个</h3>
+<p>请解锁并选择“信任”后重新选择。更换数据线或 USB 扩展坞有时会改善。</p>
+<h3>Android 不显示</h3>
+<p>请在通知的“USB 设置”中选择“传输照片（PTP）”。</p>
+<h3>导入非常慢</h3>
+<p>iPhone 的传输速度取决于 USB 连接。请不要使用扩展坞，直接连接到 Mac 的 USB 端口。保存位置为 USB 硬盘时也会比较慢。</p>
+<h3>中途数据线松脱或停止</h3>
+<p>重新连接后，主页会显示“继续导入”。</p>
+<h3>保存位置空间不足</h3>
+<p>会安全停止，此前的部分已经保存。腾出空间或选择其他保存位置后执行相同操作，将跳过已保存的部分并继续。</p>
+<h3>无法访问文件夹或保存位置</h3>
+<p>出于 Mac 的保护机制，KuraPhoto 只能读写您亲自选择的文件夹。出现提示时，请重新选择该文件夹。如果是外置磁盘，请确认已连接。</p>
+<h3>照片图库显示 0 个</h3>
+<p>请在“系统设置 › 隐私与安全性 › 照片”中，将 KuraPhoto 设为“完全访问”。如果“照片”App 是空的，则没有可导入的内容。</p>
+
+<p class="note">如仍未解决，请联系 <a href="mailto:kuraphoto@kurawise.com">kuraphoto@kurawise.com</a>。我们通常会在 2–3 个工作日内回复。<br>© 2026 Kurawise</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+---
+// 目标路径：src/pages/apps/index.astro → 映射为 /apps/
+// 应用版块一览页。各应用的公开页（支持・隐私政策）放在 public/应用名/ 下，独立设计、不带底部tab栏，
+// 例：/kuraphoto/。新增应用时，在下方 APPS 里加一项即可。
+// 不进站内搜索（不加 data-pagefind-body），不计入内容阅读埋点。单一路径页面，文案按当前语言在客户端显示。
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="アプリ | Kurawise" description="Kurawise が開発・提供しているアプリの一覧です。" skipReadTracking={true}>
+  <main class="apps-page" style="max-width:640px;margin:0 auto;padding:32px 20px 80px;">
+    <h1 id="appsTitle" style="font-size:22px;font-weight:700;margin-bottom:8px;">アプリ</h1>
+    <p id="appsLead" style="font-size:14px;color:var(--muted,#888);margin-bottom:24px;">Kurawise が開発・提供しているアプリです。</p>
+    <div id="appsList"></div>
+  </main>
+
+  <script is:inline>
+    // 应用一览：新增应用时在这里加一项。url 按语言指向该应用公开页的对应语言版本，没有的语言回落到 en。
+    var APPS = [
+      {
+        name: 'KuraPhoto',
+        icon: '/kuraphoto/img/kuraphoto-icon-256.png',
+        url: { ja: '/kuraphoto/', en: '/kuraphoto/en/', zh: '/kuraphoto/zh-hans/', 'zh-TW': '/kuraphoto/zh-hant/', ko: '/kuraphoto/ko/' },
+        desc: {
+          ja: 'iPhone・SD カード・Android・「写真」アプリの写真と動画を、撮影日ごとのフォルダに整理する Mac アプリ。',
+          en: 'A Mac app that organizes photos and videos from iPhone, SD cards, Android, and the Photos app into folders by date taken.',
+          zh: '将 iPhone、SD 卡、Android 和"照片"App 中的照片和视频按拍摄日期整理到文件夹的 Mac App。',
+          'zh-TW': '將 iPhone、SD 卡、Android 和「照片」App 中的照片和影片依拍攝日期整理到資料夾的 Mac App。',
+          ko: 'iPhone·SD 카드·Android·‘사진’ 앱의 사진과 동영상을 촬영일별 폴더로 정리하는 Mac 앱.'
+        }
+      }
+    ];
+    function renderAppsPage() {
+      var titleMap = { zh: '应用', 'zh-TW': '應用', en: 'Apps', vi: 'Ứng dụng', ko: '앱', ja: 'アプリ' };
+      var leadMap = {
+        zh: 'Kurawise 开发和提供的应用。', 'zh-TW': 'Kurawise 開發和提供的應用。',
+        en: 'Apps developed and provided by Kurawise.', vi: 'Các ứng dụng do Kurawise phát triển và cung cấp.',
+        ko: 'Kurawise가 개발·제공하는 앱입니다.', ja: 'Kurawise が開発・提供しているアプリです。'
+      };
+      var lang = (typeof currentLang !== 'undefined' && currentLang) || 'ja';
+      var t = document.getElementById('appsTitle'); if (t) t.textContent = titleMap[lang] || titleMap.ja;
+      var l = document.getElementById('appsLead'); if (l) l.textContent = leadMap[lang] || leadMap.ja;
+      var list = document.getElementById('appsList'); if (!list) return;
+      list.innerHTML = APPS.map(function (a) {
+        var url = a.url[lang] || a.url.en;
+        var desc = a.desc[lang] || a.desc.en;
+        return '<a href="' + url + '" style="display:flex;gap:14px;align-items:center;padding:14px;border:1px solid rgba(0,0,0,.08);border-radius:14px;text-decoration:none;color:inherit;margin-bottom:12px;">'
+          + '<img src="' + a.icon + '" alt="" width="56" height="56" style="border-radius:12px;flex:none;">'
+          + '<span><span style="display:block;font-weight:700;font-size:16px;">' + a.name + '</span>'
+          + '<span style="display:block;font-size:13px;color:var(--muted,#888);line-height:1.6;margin-top:2px;">' + desc + '</span></span></a>';
+      }).join('');
+    }
+    window.addEventListener('DOMContentLoaded', function () { setTimeout(renderAppsPage, 0); });
+    document.addEventListener('langChanged', renderAppsPage);
+  </script>
+</Base>
