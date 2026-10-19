@@ -1,0 +1,146 @@
+<h1>KuraPhoto Anleitung</h1>
+<p class="lead">KuraPhoto sortiert Fotos und Videos sauber in Ordner nach Aufnahmedatum (z. B. 2026 › 2026-10). Fotos auf der Quelle werden nie gelöscht.</p>
+
+<nav><ol>
+  <li><a href="#basics">Erste Schritte: der grundlegende Ablauf</a></li>
+  <li><a href="#iphone">Von iPhone oder iPad importieren</a></li>
+  <li><a href="#external">Von externem Speicher importieren (SD-Karte, USB, externe Festplatte, Kamera, Android)</a></li>
+  <li><a href="#folder">Mac-Ordner ordnen</a></li>
+  <li><a href="#library">Aus Fotos-Mediathek importieren</a></li>
+  <li><a href="#duplicates">Duplikatprüfung</a></li>
+  <li><a href="#missing">Vollständigkeitsprüfung</a></li>
+  <li><a href="#icloud">Wenn Sie iCloud-Fotos nutzen</a></li>
+  <li><a href="#pro">Kostenlos und Pro</a></li>
+  <li><a href="#settings">Sprache und Detailmodus</a></li>
+  <li><a href="#safety">So schützt KuraPhoto Ihre Dateien</a></li>
+  <li><a href="#trouble">Problemlösung</a></li>
+</ol></nav>
+
+<h2 id="basics">1. Erste Schritte: der grundlegende Ablauf</h2>
+<p>Wählen Sie auf dem Startbildschirm, was Sie tun möchten – KuraPhoto führt Sie Schritt für Schritt durch je einen Bildschirm. Klicken Sie einfach auf „Weiter“, bis Sie fertig sind.</p>
+<ol>
+  <li><strong>Quelle</strong> wählen (iPhone, SD-Karte, Ordner usw.)</li>
+  <li><strong>Inhalt</strong> prüfen (alles importieren oder ansehen und auswählen)</li>
+  <li><strong>Zielordner</strong> wählen (auch das zuletzt verwendete Ziel ist möglich)</li>
+  <li><strong>Ordnerstruktur</strong> wählen (Jahr / Monat, Jahr / Monat / Tag, mit Ortsnamen)</li>
+  <li><strong>Prüfen</strong> und starten. Mit dem „Probelauf“ sehen Sie das Ergebnis, ohne etwas zu kopieren</li>
+</ol>
+<div class="point">Bereits Importiertes wird automatisch übersprungen; auch beim erneuten Import desselben Geräts entstehen keine Duplikate. Nach dem Import prüft KuraPhoto <strong>automatisch</strong>, ob alle Fotos der Quelle im Ziel sind, und zeigt das Ergebnis oben im Abschlussbildschirm.</div>
+<p class="note">Während der Verarbeitung geht der Mac nicht in den Ruhezustand, und Sie können andere Apps nutzen. Eine Mitteilung informiert Sie, wenn alles fertig ist.</p>
+
+<h2 id="iphone">2. Von iPhone oder iPad importieren</h2>
+<ol>
+  <li>Verbinden Sie das iPhone per Kabel mit dem Mac und entsperren Sie es.</li>
+  <li>Wenn „Diesem Computer vertrauen?“ erscheint, wählen Sie „Vertrauen“.</li>
+  <li>Wählen Sie das angezeigte iPhone, um den Inhalt zu laden. Sie sehen auch, wie viele Dateien noch nicht im Ziel sind.</li>
+</ol>
+<ul>
+  <li>Live Photos (Foto-Video-Paare) und Bearbeitungsdaten (.AAE) werden unverändert importiert.</li>
+  <li>Um im HEIC-Format zu importieren, stellen Sie am iPhone „Einstellungen › Apps › Fotos › Auf Mac oder PC übertragen“ auf „Originale behalten“.</li>
+  <li>Löst sich das Kabel, verbinden Sie neu und nutzen „Import fortsetzen“. Dateien, die die Übertragung wiederholt unterbrechen, werden automatisch abgewählt.</li>
+  <li>Viele Fotos brauchen Zeit. Eine direkte Verbindung zum Mac statt über einen USB-Hub ist schneller und stabiler.</li>
+</ul>
+
+<h2 id="external">3. Von externem Speicher importieren</h2>
+<table>
+  <tr><th>Gerät</th><th>Anschließen und Hinweise</th></tr>
+  <tr><td>SD-, microSD- und CF-Karten</td><td>In einen Kartenleser stecken (für microSD einen Adapter verwenden). Während des Lesens nicht entfernen.</td></tr>
+  <tr><td>Digitalkameras</td><td>Am schnellsten und zuverlässigsten ist es, die SD-Karte zu entnehmen und mit einem Kartenleser zu lesen. Bei USB-Verbindung die Kamera einschalten und den USB-Modus auf „PC-Verbindung“, „PTP“ o. Ä. stellen.</td></tr>
+  <tr><td>Android-Smartphones</td><td>Per USB verbinden, entsperren und in der Benachrichtigung unter „USB-Einstellungen“ „Fotos übertragen (PTP)“ wählen. Im Modus „Dateiübertragung“ sieht der Mac das Gerät nicht. Fotos, die nur in Google Fotos liegen, können nicht importiert werden – speichern Sie sie zuerst auf dem Gerät.</td></tr>
+  <tr><td>USB-Sticks und externe Festplatten</td><td>Einfach anschließen. APFS, Mac OS Extended, exFAT, FAT32 und NTFS (nur lesen) werden unterstützt.</td></tr>
+  <tr><td>NAS und Netzwerkordner</td><td>Zuerst im Finder verbinden, dann über „Anderen Ort wählen …“ auswählen.</td></tr>
+</table>
+<p>Klicken Sie vor dem Trennen im Finder auf „Auswerfen“.</p>
+<h3>Unterstützte Dateiformate</h3>
+<ul>
+  <li><strong>Fotos</strong>: HEIC, JPEG, PNG, TIFF, GIF, WebP, AVIF, JPEG XL sowie RAW gängiger Kameras (DNG, CR2/CR3, NEF, ARW, RAF, ORF, RW2, PEF, SRW, 3FR, IIQ u. a.)</li>
+  <li><strong>Videos</strong>: MOV, MP4, M4V, 3GP, AVI, MTS/M2TS, MKV, WebM, MPG, WMV, MXF u. a.</li>
+  <li><strong>Begleitdateien</strong>: iPhone-Bearbeitungsdaten (.AAE) und Entwicklungseinstellungen aus Lightroom u. Ä. (.XMP). Sie werden zusammen mit dem gleichnamigen Foto kopiert oder verschoben</li>
+</ul>
+<p class="note">Das Datum wird aus den Exif-Daten des Fotos bzw. dem Aufnahmedatum des Videos gelesen. Ist das nicht möglich, wird das ältere von Erstellungs- und Änderungsdatum der Datei verwendet.</p>
+
+<h2 id="folder">4. Mac-Ordner ordnen</h2>
+<ul>
+  <li><strong>Kopieren und ordnen</strong> (empfohlen): kopiert in Jahr/Monat-Ordner in einem anderen Ordner. Die Originale bleiben, wo sie sind.</li>
+  <li><strong>In diesem Ordner ordnen</strong>: verschiebt Dateien in Jahr/Monat-Ordner innerhalb des Ordners, ohne zusätzlichen Speicher. Mit „Widerrufen“ (⌘Z) stellen Sie den vorherigen Zustand wieder her.</li>
+</ul>
+<p class="note">Für die Mediathek der Fotos-App verwenden Sie „Aus Fotos-Mediathek importieren“.</p>
+
+<h2 id="library">5. Aus Fotos-Mediathek importieren</h2>
+<p>Exportiert die Originalfotos und -videos aus der Fotos-App Ihres Mac in normale Ordner. Beim ersten Mal werden Sie um Zugriff auf Ihre Fotos-Mediathek gebeten; wählen Sie „Erlauben“.</p>
+<ul>
+  <li>Fotos in Ihrer Mediathek werden nie geändert oder gelöscht.</li>
+  <li>Für bearbeitete Fotos wählen Sie „Nur Originale“, „Nur bearbeitete“ oder „Beide“. Sie können auch nach Album auswählen.</li>
+  <li>Fotos, deren Original nur in iCloud liegt, werden beim Import automatisch über die Fotos-App geladen (<a href="#icloud">mehr dazu</a>).</li>
+</ul>
+
+<h2 id="duplicates">6. Duplikatprüfung</h2>
+<p>Wählen Sie einen Ordner, um identische Fotos und Kopien zu finden, die sich nur in Größe oder Format unterscheiden. Zur Wahl stehen „Exakt gleich“, „Fast identisch“ (konvertierte oder verkleinerte Kopien) und „Ähnliche Fotos“ (z. B. Serienaufnahmen).</p>
+<ul>
+  <li>⭐ markiert das vorgeschlagene Foto zum Behalten (das mit der besten Qualität). Klicken Sie, um es zu ändern.</li>
+  <li><strong>Zusammenführen</strong>: verschiebt alle außer dem behaltenen Foto in den Ordner „Doppelte Dateien“. <strong>Löschen</strong>: legt sie in den Papierkorb.</li>
+  <li>In beiden Fällen können Sie sie später mit „Widerrufen“ an ihren Ort zurücklegen.</li>
+</ul>
+
+<h2 id="missing">7. Vollständigkeitsprüfung</h2>
+<p>Prüft Monat für Monat, ob alle Fotos und Videos des verbundenen Geräts im Zielordner sind, und erstellt einen Bericht. <strong>Ideal als Backup-Check, bevor Sie Fotos vom iPhone löschen.</strong> Es wird nur geprüft, nichts wird verändert.</p>
+<ol>
+  <li>Öffnen Sie auf dem Startbildschirm die „Vollständigkeitsprüfung“.</li>
+  <li>Wählen Sie das zu prüfende Gerät und das Ziel (den Ordner, in den Sie importiert haben).</li>
+  <li>Klicken Sie auf „Prüfen“, um eine Monatsübersicht und eine Liste fehlender Dateien zu sehen.</li>
+</ol>
+<ul>
+  <li>Mit „Die N fehlenden Dateien importieren …“ importieren Sie Fehlendes sofort.</li>
+  <li>Berichte lassen sich als PDF oder CSV sichern.</li>
+  <li>Bei Mac-Ordnern und SD-Karten finden Sie mit „Inhalt vergleichen (strenge Prüfung)“ auch umbenannte und beschädigte Kopien.</li>
+</ul>
+
+<h2 id="icloud">8. Wenn Sie iCloud-Fotos nutzen</h2>
+<p class="warn"><strong>Wenn Sie Fotos auf dem iPhone löschen, werden sie auch in iCloud und auf allen Geräten mit demselben Apple Account gelöscht.</strong> Beachten Sie das auch dann, wenn die Vollständigkeitsprüfung meldet, dass alles gesichert ist.</p>
+<ul>
+  <li>Wenn iCloud-Fotos und „iPhone-Speicher optimieren“ aktiv sind, liegen die Originale mancher Fotos nur in iCloud. Diese <strong>lassen sich nicht per Kabel importieren</strong> (so funktioniert Apples System). Beim Verbinden prüft KuraPhoto, ob iCloud-Fotos aktiv ist, und informiert Sie.</li>
+  <li>Diese Fotos importieren Sie mit „Aus Fotos-Mediathek importieren“ auf einem Mac mit iCloud-Fotos für denselben Apple Account. Die Originale werden automatisch über die Fotos-App geladen (kein manueller Download, kein iPhone nötig; eine Internetverbindung ist erforderlich, viele Fotos dauern länger).</li>
+  <li>Ist iCloud-Fotos auf diesem Mac deaktiviert, sind iCloud-Fotos nicht in der Mediathek und können nicht importiert werden.</li>
+</ul>
+
+<h2 id="pro">9. Kostenlos und Pro</h2>
+<p>Auch in der kostenlosen Version sind Laden, Durchsehen, Probeläufe, Duplikatsuche, Vollständigkeitsprüfung, Widerrufen und Import fortsetzen unbegrenzt.</p>
+<ul>
+  <li><strong>Kostenlos</strong>: Importieren und Ordnen insgesamt bis zu 100 Dateien pro Tag. Sind es mehr als heute noch übrig, können Sie „Nur die heute verbleibenden N importieren“ wählen. Wiederholen Sie am nächsten Tag denselben Vorgang, um weiter zu importieren.</li>
+  <li><strong>Pro</strong>: unbegrenzter Import, Zusammenführen und Löschen von Duplikaten, Berichte sichern (PDF, CSV) und „Rest importieren“.</li>
+</ul>
+<p>Pro ist ein Einmalkauf (kein Abo) und unterstützt die Familienfreigabe. Kaufen Sie es über „Auf Pro upgraden“ oben rechts. Auf einem anderen Mac oder nach einer Neuinstallation wählen Sie in der Menüleiste „KuraPhoto › Käufe wiederherstellen“.</p>
+
+<h2 id="settings">10. Sprache und Detailmodus</h2>
+<ul>
+  <li><strong>Sprache</strong>: KuraPhoto verwendet normalerweise die Sprache Ihres Mac (Deutsch, Englisch, Französisch, Japanisch, Koreanisch oder Chinesisch). Für eine andere Sprache nur in dieser App wählen Sie sie unter „KuraPhoto › Einstellungen …“ (⌘,) und klicken auf „Neu starten und wechseln“.</li>
+  <li><strong>Detailmodus</strong>: für erfahrene Nutzer – alle Einstellungen auf einem Bildschirm. Öffnen Sie ihn unten auf dem Startbildschirm.</li>
+</ul>
+
+<h2 id="safety">11. So schützt KuraPhoto Ihre Dateien</h2>
+<ul>
+  <li>Fotos auf der Quelle werden nie gelöscht. Es gibt keine Funktion zum endgültigen Löschen.</li>
+  <li>Kopien werden zuerst in eine temporäre Datei geschrieben und erst danach umbenannt; eine Unterbrechung hinterlässt daher keine beschädigten Dateien.</li>
+  <li>Dateien mit gleichem Namen, aber anderem Inhalt werden nie überschrieben; beide bleiben erhalten, mit „_1“ usw. im Namen.</li>
+  <li>Droht der Speicher im Ziel auszugehen, hält KuraPhoto sicher an. Schaffen Sie Platz und wiederholen Sie denselben Vorgang, um fortzufahren.</li>
+  <li>Ein Protokoll wird im Ordner „KuraPhoto Protokolle“ im Ziel abgelegt. Neben Import und Ordnen werden auch das Zusammenführen oder Löschen von Duplikaten und das Widerrufen protokolliert. Protokolle werden nach 3 Jahren automatisch gelöscht.</li>
+  <li>Im Ziel und in geordneten Ordnern entstehen versteckte Ordner (Namen beginnen mit „.PhotoSorter-“) für „Widerrufen“ und „Import fortsetzen“. <strong>Bitte löschen Sie sie nicht</strong>, sonst kann früheres Ordnen nicht mehr widerrufen werden.</li>
+</ul>
+
+<h2 id="trouble">12. Problemlösung</h2>
+<h3>Mein iPhone wird nicht angezeigt / 0 Fotos gefunden</h3>
+<p>Entsperren Sie es, wählen Sie „Vertrauen“ und wählen Sie es erneut aus. Ein anderes Kabel oder ein anderer USB-Hub kann helfen.</p>
+<h3>Mein Android-Gerät wird nicht angezeigt</h3>
+<p>Wählen Sie in der Benachrichtigung unter „USB-Einstellungen“ „Fotos übertragen (PTP)“.</p>
+<h3>Der Import ist sehr langsam</h3>
+<p>Die Übertragungsgeschwindigkeit vom iPhone hängt von der USB-Verbindung ab. Verbinden Sie direkt mit einem USB-Anschluss Ihres Mac statt über einen Hub. Auch der Import auf eine USB-Festplatte dauert länger.</p>
+<h3>Das Kabel hat sich gelöst oder der Import wurde unterbrochen</h3>
+<p>Verbinden Sie neu – auf dem Startbildschirm erscheint „Import fortsetzen“.</p>
+<h3>Der Speicher im Ziel ist voll</h3>
+<p>KuraPhoto hält sicher an, und alles bis dahin ist gesichert. Schaffen Sie Platz oder wählen Sie ein anderes Ziel und wiederholen Sie denselben Vorgang; Gesichertes wird übersprungen.</p>
+<h3>KuraPhoto kann nicht auf einen Ordner oder das Ziel zugreifen</h3>
+<p>Zu Ihrem Schutz erlaubt macOS KuraPhoto nur den Zugriff auf Ordner, die Sie selbst gewählt haben. Wenn eine Meldung erscheint, wählen Sie den Ordner erneut. Prüfen Sie bei externen Festplatten, ob sie angeschlossen sind.</p>
+<h3>Die Fotos-Mediathek zeigt 0 Dateien</h3>
+<p>Setzen Sie KuraPhoto unter „Systemeinstellungen › Datenschutz &amp; Sicherheit › Fotos“ auf „Vollzugriff“. Ist die Fotos-App leer, gibt es nichts zu importieren.</p>
+
+<p class="note">Wenn das nicht hilft, schreiben Sie an <a href="mailto:kuraphoto@kurawise.com">kuraphoto@kurawise.com</a>. Wir antworten in der Regel innerhalb von 2–3 Werktagen.<br>© 2026 Kurawise</p>

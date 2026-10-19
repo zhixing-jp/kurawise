@@ -1,0 +1,66 @@
+{
+  "langs": [
+    { "folder": "ja", "htmlLang": "ja", "label": "日本語", "siteLang": "ja" },
+    { "folder": "en", "htmlLang": "en", "label": "English", "siteLang": "en" },
+    { "folder": "de", "htmlLang": "de", "label": "Deutsch", "siteLang": "en" },
+    { "folder": "fr", "htmlLang": "fr", "label": "Français", "siteLang": "en" },
+    { "folder": "ko", "htmlLang": "ko", "label": "한국어", "siteLang": "ko" },
+    { "folder": "zh-hans", "htmlLang": "zh-Hans", "label": "简体中文", "siteLang": "zh" },
+    { "folder": "zh-hant", "htmlLang": "zh-Hant", "label": "繁體中文", "siteLang": "zh-TW" }
+  ],
+  "titles": {
+    "ja": { "support": "KuraPhoto サポート｜Kurawise", "help": "使い方ガイド｜KuraPhoto｜Kurawise", "privacy": "プライバシーポリシー｜KuraPhoto｜Kurawise" },
+    "en": { "support": "KuraPhoto Support | Kurawise", "help": "User Guide | KuraPhoto | Kurawise", "privacy": "Privacy Policy | KuraPhoto | Kurawise" },
+    "de": { "support": "KuraPhoto Support | Kurawise", "help": "Anleitung | KuraPhoto | Kurawise", "privacy": "Datenschutzrichtlinie | KuraPhoto | Kurawise" },
+    "fr": { "support": "Assistance KuraPhoto | Kurawise", "help": "Guide d’utilisation | KuraPhoto | Kurawise", "privacy": "Politique de confidentialité | KuraPhoto | Kurawise" },
+    "ko": { "support": "KuraPhoto 지원 | Kurawise", "help": "사용 설명서 | KuraPhoto | Kurawise", "privacy": "개인정보 처리방침 | KuraPhoto | Kurawise" },
+    "zh-hans": { "support": "KuraPhoto 支持 | Kurawise", "help": "使用指南 | KuraPhoto | Kurawise", "privacy": "隐私政策 | KuraPhoto | Kurawise" },
+    "zh-hant": { "support": "KuraPhoto 支援 | Kurawise", "help": "使用指南 | KuraPhoto | Kurawise", "privacy": "隱私權政策 | KuraPhoto | Kurawise" }
+  },
+  "crumbs": {
+    "ja": { "apps": "アプリ", "help": "使い方ガイド", "privacy": "プライバシーポリシー" },
+    "en": { "apps": "Apps", "help": "User Guide", "privacy": "Privacy Policy" },
+    "de": { "apps": "Apps", "help": "Anleitung", "privacy": "Datenschutz" },
+    "fr": { "apps": "Apps", "help": "Guide", "privacy": "Confidentialité" },
+    "ko": { "apps": "앱", "help": "사용 설명서", "privacy": "개인정보 처리방침" },
+    "zh-hans": { "apps": "应用", "help": "使用指南", "privacy": "隐私政策" },
+    "zh-hant": { "apps": "應用", "help": "使用指南", "privacy": "隱私權政策" }
+  },
+  "descriptions": {
+    "ja": {
+      "support": "iPhone・SD カード・Android・「写真」アプリの写真と動画を、撮影日ごとのフォルダに整理する Mac アプリ KuraPhoto のサポートページ。機能、無料版と Pro、よくある質問、お問い合わせ。",
+      "help": "KuraPhoto の使い方。iPhone・外部メモリ・写真ライブラリからの取り込み、重複チェック、取り込み漏れチェック、iCloud 写真の注意点、困ったときの対処。",
+      "privacy": "KuraPhoto のプライバシーポリシー。写真や個人情報を当方のサーバーへ送らず、処理はすべて Mac の中で行います。"
+    },
+    "en": {
+      "support": "Support for KuraPhoto, the Mac app that organizes photos and videos from iPhone, SD cards, Android, and the Photos app into folders by date taken. Features, Free and Pro, FAQ, and contact.",
+      "help": "How to use KuraPhoto: importing from iPhone, external storage, and the Photos library, Duplicate Check, Missing Files Check, iCloud Photos notes, and troubleshooting.",
+      "privacy": "KuraPhoto privacy policy. Your photos and personal data are never sent to our servers; everything is processed on your Mac."
+    },
+    "de": {
+      "support": "Support für KuraPhoto, die Mac-App, die Fotos und Videos von iPhone, SD-Karten, Android und aus der Fotos-App nach Aufnahmedatum ordnet. Funktionen, Kostenlos und Pro, FAQ und Kontakt.",
+      "help": "So nutzen Sie KuraPhoto: Import von iPhone, externem Speicher und Fotos-Mediathek, Duplikatprüfung, Vollständigkeitsprüfung, Hinweise zu iCloud-Fotos und Problemlösung.",
+      "privacy": "Datenschutzrichtlinie von KuraPhoto. Ihre Fotos und persönlichen Daten werden nie an unsere Server gesendet; alles wird auf Ihrem Mac verarbeitet."
+    },
+    "fr": {
+      "support": "Assistance pour KuraPhoto, l’app Mac qui range les photos et vidéos de l’iPhone, des cartes SD, d’Android et de l’app Photos par date de prise de vue. Fonctionnalités, Gratuit et Pro, FAQ et contact.",
+      "help": "Utiliser KuraPhoto : importation depuis l’iPhone, un stockage externe et la photothèque, vérification des doublons, vérification des fichiers manquants, Photos iCloud et résolution des problèmes.",
+      "privacy": "Politique de confidentialité de KuraPhoto. Vos photos et données personnelles ne sont jamais envoyées à nos serveurs ; tout est traité sur votre Mac."
+    },
+    "ko": {
+      "support": "iPhone·SD 카드·Android·‘사진’ 앱의 사진과 동영상을 촬영일별 폴더로 정리하는 Mac 앱 KuraPhoto의 지원 페이지. 기능, 무료 버전과 Pro, 자주 묻는 질문, 문의.",
+      "help": "KuraPhoto 사용법. iPhone·외부 메모리·사진 보관함에서 가져오기, 중복 확인, 누락 확인, iCloud 사진 주의 사항, 문제 해결.",
+      "privacy": "KuraPhoto 개인정보 처리방침. 사진과 개인정보를 당사 서버로 보내지 않으며 모든 처리는 Mac 안에서 이루어집니다."
+    },
+    "zh-hans": {
+      "support": "KuraPhoto 支持页面。这款 Mac App 可将 iPhone、SD 卡、Android 和“照片”App 中的照片和视频按拍摄日期整理到文件夹。功能、免费版与 Pro、常见问题、联系方式。",
+      "help": "KuraPhoto 使用方法：从 iPhone、外部存储和照片图库导入，重复检查，遗漏检查，iCloud 照片注意事项及疑难解答。",
+      "privacy": "KuraPhoto 隐私政策。照片和个人信息绝不会发送到我们的服务器，所有处理均在您的 Mac 上进行。"
+    },
+    "zh-hant": {
+      "support": "KuraPhoto 支援頁面。這款 Mac App 可將 iPhone、SD 卡、Android 和「照片」App 中的照片和影片依拍攝日期整理到資料夾。功能、免費版與 Pro、常見問題、聯絡方式。",
+      "help": "KuraPhoto 使用方法：從 iPhone、外部儲存裝置和照片圖庫匯入，重複檢查，遺漏檢查，iCloud 照片注意事項及疑難排解。",
+      "privacy": "KuraPhoto 隱私權政策。照片和個人資訊絕不會傳送到我們的伺服器，所有處理均在您的 Mac 上進行。"
+    }
+  }
+}

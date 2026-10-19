@@ -31,7 +31,10 @@ async function loadLocale(lang) {
   try {
     LOCALE = await fetch(`/locales/${lang}.json`).then(r => r.json());
     currentLang = lang;
-    document.documentElement.lang = lang;
+    // 页面自己指定了语言（如 /kuraphoto/ 各语言页）时，不覆盖 <html lang>
+    if (!document.documentElement.hasAttribute('data-lang-fixed')) {
+      document.documentElement.lang = lang;
+    }
   } catch(e) {
     LOCALE = await fetch('/locales/zh.json').then(r => r.json());
     currentLang = 'zh';

@@ -3,8 +3,6 @@ import { getLangFromUrl } from '../i18n/index.js';
 import { SECTIONS } from '../data/sections';
 import careerReferral from '../../public/data/career/referral.json';
 
-const lang = getLangFromUrl(Astro.url);
-
 interface Props {
   title?: string;
   description?: string;
@@ -16,6 +14,12 @@ interface Props {
   guidesCss?: boolean;
   noindex?: boolean;
   skipReadTracking?: boolean;
+  // 以下用于站点语言体系之外的页面（如 /kuraphoto/ 的7种语言公开页）
+  uiLang?: string;        // 页头・tab・页脚使用的站点语言（不传则按URL判断）
+  htmlLang?: string;      // <html lang> 的值（不传则同 uiLang）
+  alternates?: { hreflang: string; href: string }[];  // 传入时替换自动生成的 hreflang
+  langOptions?: { label: string; href: string; active: boolean }[];  // 传入时替换页头的语言菜单（直接跳转链接）
+  appsCss?: boolean;      // 应用公开页样式 /css/apps.css
 }
 
 const {
@@ -28,8 +32,16 @@ const {
   careerGroup,
   guidesCss = false,
   noindex = false,
-  skipReadTracking = false
+  skipReadTracking = false,
+  uiLang,
+  htmlLang,
+  alternates,
+  langOptions,
+  appsCss = false
 } = Astro.props;
+
+const lang = uiLang || getLangFromUrl(Astro.url);
+const activeLangOption = langOptions ? langOptions.find((o) => o.active) : undefined;
 
 const siteUrl = 'https://kurawise.com';
 
@@ -127,7 +139,7 @@ const isMedical = currentPath.includes('/medical');
 const isCareer = currentPath.includes('/career');
 const isGuides = currentPath.includes('/guides') || currentPath.includes('/download');
 const isKurashi = currentPath.startsWith('/kurashi');
-const isApps = currentPath.startsWith('/apps');
+const isApps = currentPath.startsWith('/apps') || currentPath.startsWith('/kuraphoto');
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -154,7 +166,7 @@ const jsonLd = {
 ---
 
 <!DOCTYPE html>
-<html lang={lang}>
+<html lang={htmlLang || lang} data-lang-fixed={htmlLang ? '' : undefined}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -182,7 +194,10 @@ const jsonLd = {
 
   <!-- Canonical & hreflang -->
   <link rel="canonical" href={Astro.url}>
-  {Object.entries(langPaths).map(([l]) => {
+  {alternates && alternates.map((a) => (
+    <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+  ))}
+  {!alternates && Object.entries(langPaths).map(([l]) => {
   // 从当前URL路径中去掉语言前缀，得到纯路径
   const currentPath = Astro.url.pathname;
   const strippedPath = currentPath
@@ -196,7 +211,7 @@ const jsonLd = {
     <link rel="alternate" hreflang={l === 'zh' ? 'zh-CN' : l} href={langUrl} />
   );
   })}
-  <link rel="alternate" hreflang="x-default" href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|zh-TW|vi|ko|ja)\//, '/').replace(/^\/(en|zh-TW|vi|ko|ja)$/, '/')}`} />
+  {!alternates && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|zh-TW|vi|ko|ja)\//, '/').replace(/^\/(en|zh-TW|vi|ko|ja)$/, '/')}`} />}
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -208,6 +223,7 @@ const jsonLd = {
   { medicalCss && <link rel="stylesheet" href="/css/medical.css" /> }
   { careerCss && <link rel="stylesheet" href="/css/career.css" /> }
   { guidesCss && <link rel="stylesheet" href="/css/guides.css" /> }
+  { appsCss && <link rel="stylesheet" href="/css/apps.css" /> }
 
   <!-- JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -279,11 +295,15 @@ const jsonLd = {
 
       <!-- 语言切换 -->
       <div id="langSwitchWrap" class="lang-switch-wrap">
-        <button id="langBtn" class="lang-btn" aria-label="Switch language">🌐 {langLabels[lang]}</button>
+        <button id="langBtn" class="lang-btn" aria-label="Switch language">🌐 {activeLangOption ? activeLangOption.label : langLabels[lang]}</button>
         <div id="langMenu" class="lang-menu" style="display:none">
-          {Object.entries(langLabels).map(([l, label]) => (
-            <a href="javascript:void(0)" onclick={`switchLang('${l}')`} class={`lang-menu-item${l === lang ? ' active' : ''}`}>{label}</a>
-          ))}
+          {langOptions
+            ? langOptions.map((o) => (
+                <a href={o.href} class={`lang-menu-item${o.active ? ' active' : ''}`}>{o.label}</a>
+              ))
+            : Object.entries(langLabels).map(([l, label]) => (
+                <a href="javascript:void(0)" onclick={`switchLang('${l}')`} class={`lang-menu-item${l === lang ? ' active' : ''}`}>{label}</a>
+              ))}
         </div>
       </div>
     </div>

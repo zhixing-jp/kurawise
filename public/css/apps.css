@@ -1,0 +1,99 @@
+/* ══════════════════════════════
+   apps.css — 应用公开页（/kuraphoto/ 等）专属样式
+   只使用 base.css 的站点级设计变量（--bg/--surface/--t1〜t4/--line/--blue/--r-*）
+   正文是应用方提供的原稿 HTML（h1/h2/h3/p/ul/ol/table/details 与
+   .appicon/.lead/.note/.meta/.warn/.point/.grid/.card），这里统一换成站点的外观
+══════════════════════════════ */
+
+.kp-breadcrumb {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
+  font-size: 13px; color: var(--t3);
+  padding: 14px 16px 0;
+}
+.kp-breadcrumb a { color: var(--t3); text-decoration: none; }
+.kp-breadcrumb a:active { opacity: .6; }
+.kp-breadcrumb [aria-current="page"] { color: var(--t1); font-weight: 500; }
+
+.kp-page {
+  padding: 12px 16px 32px;
+  font-size: 15px; line-height: 1.75; color: var(--t1);
+  overflow-wrap: anywhere;
+}
+
+/* 标题 */
+.kp-page .appicon {
+  width: 72px; height: 72px; display: block;
+  margin: 6px 0 10px; border-radius: 16px;
+}
+.kp-page h1 {
+  font-size: 24px; line-height: 1.3; font-weight: 700;
+  letter-spacing: -.3px; margin: 6px 0 8px;
+}
+.kp-page h2 {
+  font-size: 18px; line-height: 1.4; font-weight: 700;
+  margin: 30px 0 10px; padding-left: 10px;
+  border-left: 3px solid var(--red);
+  scroll-margin-top: calc(var(--header-h) + 12px);
+}
+.kp-page h3 {
+  font-size: 15.5px; font-weight: 700; margin: 18px 0 4px;
+  scroll-margin-top: calc(var(--header-h) + 12px);
+}
+
+/* 段落・列表 */
+.kp-page p { margin: 8px 0; }
+.kp-page ul, .kp-page ol { margin: 8px 0; padding-left: 22px; }
+.kp-page li { margin: 4px 0; }
+.kp-page strong { font-weight: 700; }
+.kp-page a { color: var(--blue); text-decoration: none; }
+.kp-page a:active { opacity: .6; }
+
+.kp-page .lead { color: var(--t2); font-size: 15px; }
+.kp-page .note, .kp-page .meta { color: var(--t3); font-size: 13.5px; }
+.kp-page .warn { color: #C93400; }
+
+/* 目录（使用指南） */
+.kp-page nav {
+  background: var(--surface); border-radius: var(--r-md);
+  padding: 12px 16px; margin: 14px 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.kp-page nav ol { margin: 0; padding-left: 20px; font-size: 14px; }
+
+/* 提示框 */
+.kp-page .point {
+  background: var(--blue-bg); border-radius: var(--r-sm);
+  padding: 10px 14px; margin: 12px 0; font-size: 14px;
+}
+
+/* 卡片（支持页顶部的3个入口） */
+.kp-page .grid { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 16px 0; }
+.kp-page .card {
+  background: var(--surface); border-radius: var(--r-md);
+  padding: 12px 16px; font-size: 14px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.kp-page .card strong { display: block; font-size: 13px; color: var(--t3); font-weight: 600; }
+
+/* 表格：手机宽度下可横向滚动 */
+.kp-page table {
+  display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  border-collapse: collapse; margin: 12px 0;
+  font-size: 13.5px; line-height: 1.6;
+  background: var(--surface); border-radius: var(--r-sm);
+}
+.kp-page th, .kp-page td {
+  border: .5px solid var(--line); padding: 8px 10px;
+  text-align: left; vertical-align: top; min-width: 72px;
+}
+.kp-page th { background: rgba(118,118,128,.08); font-weight: 600; white-space: nowrap; }
+
+/* 常见问题 */
+.kp-page details {
+  background: var(--surface); border-radius: var(--r-sm);
+  padding: 10px 14px; margin: 8px 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.kp-page summary { cursor: pointer; font-weight: 600; font-size: 14.5px; }
+.kp-page details[open] summary { margin-bottom: 4px; }
+.kp-page details p { font-size: 14px; color: var(--t2); }

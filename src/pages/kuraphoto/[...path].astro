@@ -1,0 +1,87 @@
+---
+// 目标路径：src/pages/kuraphoto/[...path].astro → /kuraphoto/、/kuraphoto/help/、/kuraphoto/privacy/
+//           以及 /kuraphoto/<语言>/、/kuraphoto/<语言>/help/、/kuraphoto/<语言>/privacy/
+// KuraPhoto（Mac应用）的公开页（支持・使用指南・隐私政策），7种语言。
+// 正文来自 src/data/kuraphoto/<语言>/<页面>.html（应用方提供的原稿，原样嵌入），
+// 标题・说明・语言列表来自 src/data/kuraphoto/meta.json。
+// URL 与 App Store Connect 登记的支持URL・隐私政策URL一致，不要变更。
+// 套用站点的 Base（页头・底部tab・页脚），tab 中「アプリ」为选中状态。
+// 不进站内搜索（不加 data-pagefind-body），不计入内容阅读埋点。
+import Base from '../../layouts/Base.astro';
+import meta from '../../data/kuraphoto/meta.json';
+
+export function getStaticPaths() {
+  const bodies = import.meta.glob('/src/data/kuraphoto/*/*.html', { query: '?raw', import: 'default', eager: true });
+  const pages = [
+    { key: 'support', sub: '' },
+    { key: 'help', sub: 'help' },
+    { key: 'privacy', sub: 'privacy' }
+  ];
+  const paths = [];
+  for (const l of meta.langs) {
+    const available = pages.filter((p) => bodies[`/src/data/kuraphoto/${l.folder}/${p.key}.html`]);
+    for (const p of available) {
+      const parts = [l.folder === 'ja' ? '' : l.folder, p.sub].filter(Boolean);
+      paths.push({
+        params: { path: parts.length ? parts.join('/') : undefined },
+        props: { folder: l.folder, page: p.key, body: bodies[`/src/data/kuraphoto/${l.folder}/${p.key}.html`] }
+      });
+    }
+  }
+  return paths;
+}
+
+const { folder, page, body } = Astro.props;
+const BASE_URL = 'https://kurawise.com/kuraphoto/';
+const pageSub: Record<string, string> = { support: '', help: 'help/', privacy: 'privacy/' };
+const pagePath = (f: string, p: string) => (f === 'ja' ? '' : f + '/') + pageSub[p];
+
+const langInfo = meta.langs.find((l) => l.folder === folder)!;
+const bodies = import.meta.glob('/src/data/kuraphoto/*/*.html', { query: '?raw', import: 'default', eager: true });
+const availableLangs = meta.langs.filter((l) => bodies[`/src/data/kuraphoto/${l.folder}/${page}.html`]);
+
+// hreflang：只列出有翻译的语言（不产生死链），x-default 指向英文
+const alternates = availableLangs.map((l) => ({ hreflang: l.htmlLang, href: BASE_URL + pagePath(l.folder, page) }));
+if (availableLangs.some((l) => l.folder === 'en')) {
+  alternates.push({ hreflang: 'x-default', href: BASE_URL + pagePath('en', page) });
+}
+// 页头的语言菜单：换成 KuraPhoto 的7种语言，直接跳到同一页面的对应语言版
+const langOptions = availableLangs.map((l) => ({
+  label: l.label,
+  href: '/kuraphoto/' + pagePath(l.folder, page),
+  active: l.folder === folder
+}));
+
+// 正文中的 {{ROOT}} = kuraphoto/ 根目录（构建时换成绝对路径）
+const html = (body as string).replaceAll('{{ROOT}}', '/kuraphoto/');
+
+const titles = (meta.titles as Record<string, Record<string, string>>)[folder];
+const descs = (meta.descriptions as Record<string, Record<string, string>>)[folder] || {};
+const crumbs = (meta.crumbs as Record<string, Record<string, string>>)[folder];
+const homeHref = '/kuraphoto/' + pagePath(folder, 'support');
+---
+
+<Base
+  title={titles[page]}
+  description={descs[page]}
+  ogImage="https://kurawise.com/kuraphoto/img/kuraphoto-icon-512.png"
+  uiLang={langInfo.siteLang}
+  htmlLang={langInfo.htmlLang}
+  alternates={alternates}
+  langOptions={langOptions}
+  appsCss={true}
+  skipReadTracking={true}
+>
+  <nav class="kp-breadcrumb" aria-label="breadcrumb">
+    <a href="/apps/">{crumbs.apps}</a>
+    <span aria-hidden="true">›</span>
+    {page === 'support'
+      ? <span aria-current="page">KuraPhoto</span>
+      : <>
+          <a href={homeHref}>KuraPhoto</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">{crumbs[page]}</span>
+        </>}
+  </nav>
+  <main class="kp-page" set:html={html} />
+</Base>
