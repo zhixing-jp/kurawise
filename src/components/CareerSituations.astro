@@ -1,5 +1,5 @@
 ---
-// 「目的から探す」のボタン（ビザ・在留／仕事の2つにまとめて表示）。2026-10-23。
+// 「目的から探す」（ビザ・在留／仕事の2つ）。iOS の設定画面のような、区切り線つきの一覧（2026-10-23）。
 import { SITUATIONS, SIT_GROUPS, pick, prefix } from '../data/careerNav';
 interface Props { lang: string; exclude?: string; }
 const { lang, exclude } = Astro.props;
@@ -8,12 +8,12 @@ const { lang, exclude } = Astro.props;
   {SIT_GROUPS.map((g) => (
     <div class="career-sitgroup">
       <p class="career-sitgroup-label">{pick(g.label, lang)}</p>
-      <div class="career-sit-grid">
+      <div class="ios-list">
         {SITUATIONS.filter((s) => s.group === g.key && s.key !== exclude).map((s) => (
-          <a class="career-sit" href={`${prefix(lang)}/career/for/${s.key}/`}>
-            <span class="career-sit-icon" aria-hidden="true">{s.icon}</span>
-            <span class="career-sit-label">{pick(s.label, lang)}</span>
-            <span class="career-sit-sub">{pick(s.sub, lang)}</span>
+          <a class={`ios-row ios-row--${s.key}`} href={`${prefix(lang)}/career/for/${s.key}/`}>
+            <span class="ios-ico" aria-hidden="true">{s.icon}</span>
+            <span class="ios-text"><span class="ios-title">{pick(s.label, lang)}</span><span class="ios-sub">{pick(s.sub, lang)}</span></span>
+            <span class="ios-chev" aria-hidden="true">›</span>
           </a>
         ))}
       </div>

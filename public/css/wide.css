@@ -89,3 +89,8 @@
   body[data-layout="wide"] .career-breadcrumb { max-width: 1080px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
   .career-hub-page .career-disclaimer { max-width: none; padding: 0; margin: 0 0 18px; }
 }
+@media (min-width: 768px) {
+  .cblock { margin-bottom: 28px; }
+  .cblock-row .cblock { margin-bottom: 28px; }
+  .cblock-row { gap: 20px; }
+}
