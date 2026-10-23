@@ -376,3 +376,8 @@ body {
 .ios-tone--gray .ios-ico { background: rgba(142,142,147,.16); }
 .ios-title--num { font-size: 18px; font-weight: 800; letter-spacing: .02em; font-variant-numeric: tabular-nums; }
 .ios-note { font-size: 11.5px; color: var(--t4); margin: 8px 2px 0; line-height: 1.5; }
+/* タブ4・5など、まとめページの見出し（仕事＆ビザ・病院＆医療と同じ大きさ） */
+.hub-page { max-width: 680px; margin: 0 auto; padding: 8px 16px 40px; }
+.hub-title { font-size: 24px; font-weight: 800; color: var(--t1); margin: 8px 0 10px; letter-spacing: -0.01em; }
+.hub-intro { font-size: 14px; line-height: 1.7; color: var(--t3); margin-bottom: 24px; }
+.ios-ico--img { width: 44px; height: 44px; border-radius: 10px; background: none; object-fit: cover; }

@@ -484,3 +484,29 @@ mark { background: #FFD60A; color: var(--t1); border-radius: 2px; padding: 0 1px
 .rescue-category-title { font-size: 16px; font-weight: 800; padding: 13px 14px 11px; }
 .rescue-category-title::before { height: 18px; }
 .rescue-category-group { margin-bottom: 24px; }
+
+/* 日常会話のトップ：場面を iOS 風の一覧に（写真は左の小さなアイコンとして残す。2026-10-23） */
+.rescue-category-group { background: var(--surface); padding: 0 14px 14px; }
+.rescue-category-title { margin: 0 -14px 12px; }
+.rescue-category-group .rescue-scene-grid {
+  display: block; padding: 0; gap: 0;
+  border: .5px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface);
+}
+.rescue-category-group .rescue-scene-card {
+  height: auto; min-height: 56px; border: 0; border-radius: 0; box-shadow: none; overflow: visible;
+  padding: 10px 38px 10px 62px; background: var(--surface);
+}
+.rescue-category-group .rescue-scene-card:active { transform: none; background: rgba(0,0,0,.05); }
+.rescue-category-group .rescue-scene-card + .rescue-scene-card::before {
+  content: ''; position: absolute; top: 0; left: 62px; right: 0; border-top: .5px solid var(--line);
+}
+.rescue-category-group .rescue-scene-card::after {
+  content: '›'; position: absolute; right: 14px; top: 50%; transform: translateY(-50%); font-size: 20px; color: var(--t4);
+}
+.rescue-category-group .rescue-scene-bg {
+  inset: auto; left: 14px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; border-radius: 8px;
+}
+.rescue-category-group .rescue-scene-overlay { display: none; }
+.rescue-category-group .rescue-scene-content { padding: 0; }
+.rescue-category-group .rescue-scene-title { font-size: 15px; font-weight: 600; color: var(--t1); text-shadow: none; }
+.rescue-category-group .rescue-scene-count { font-size: 12px; color: var(--t3); }

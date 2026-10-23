@@ -16,7 +16,6 @@
   #searchPanel { max-width: var(--frame-w) !important; }
 
   /* 日常会話：場面のカードを3列に */
-  .rescue-scene-grid { grid-template-columns: repeat(3, 1fr); }
   .rescue-landing-grid { grid-template-columns: repeat(3, 1fr); }
   /* 病院＆医療・仕事＆ビザの一覧 */
   .med-hub-nav-grid, .career-hub-nav-grid { grid-template-columns: repeat(2, 1fr); }
@@ -50,7 +49,6 @@
     columns: 2; column-gap: 16px; padding: 4px 24px 24px;
   }
   .rescue-category-group { break-inside: avoid; }
-  .rescue-scene-grid { grid-template-columns: repeat(2, 1fr); }
   #banner { margin: 16px 24px 12px; padding: 20px 24px; }
 
   /* 日常会話の場面のページ */
@@ -110,4 +108,7 @@
   .rescue-landing-groups { padding: 16px 24px 28px; gap: 24px; }
   .rescue-ctrl-bar { justify-content: center; gap: 18px; }
   body[data-layout="read"] .rescue-content-wrap { padding-left: 24px; padding-right: 24px; }
+}
+@media (min-width: 1024px) {
+  .hub-page { max-width: 1080px; padding-left: 24px; padding-right: 24px; }
 }

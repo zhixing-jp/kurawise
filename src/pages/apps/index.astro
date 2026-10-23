@@ -7,10 +7,13 @@ import Base from '../../layouts/Base.astro';
 ---
 
 <Base title="アプリ | Kurawise" description="Kurawise が開発・提供しているアプリの一覧です。" skipReadTracking={true}>
-  <main class="apps-page" style="max-width:640px;margin:0 auto;padding:32px 20px 80px;">
-    <h1 id="appsTitle" style="font-size:22px;font-weight:700;margin-bottom:8px;">アプリ</h1>
-    <p id="appsLead" style="font-size:14px;color:var(--muted,#888);margin-bottom:24px;">Kurawise が開発・提供しているアプリです。</p>
-    <div id="appsList"></div>
+  <main class="apps-page hub-page">
+    <h1 id="appsTitle" class="hub-title">アプリ</h1>
+    <p id="appsLead" class="hub-intro">Kurawise が開発・提供しているアプリです。</p>
+    <section class="cblock">
+      <h2 class="cblock-head"><span aria-hidden="true">📱</span><span id="appsHead">アプリの一覧</span></h2>
+      <div id="appsList" class="ios-list"></div>
+    </section>
   </main>
 
   <script is:inline>
@@ -39,14 +42,17 @@ import Base from '../../layouts/Base.astro';
       var lang = (typeof currentLang !== 'undefined' && currentLang) || 'ja';
       var t = document.getElementById('appsTitle'); if (t) t.textContent = titleMap[lang] || titleMap.ja;
       var l = document.getElementById('appsLead'); if (l) l.textContent = leadMap[lang] || leadMap.ja;
+      var headMap = { zh: '应用列表', 'zh-TW': '應用程式列表', en: 'All apps', vi: 'Danh sách ứng dụng', ko: '앱 목록', ja: 'アプリの一覧' };
+      var h = document.getElementById('appsHead'); if (h) h.textContent = headMap[lang] || headMap.ja;
       var list = document.getElementById('appsList'); if (!list) return;
       list.innerHTML = APPS.map(function (a) {
         var url = a.url[lang] || a.url.en;
         var desc = a.desc[lang] || a.desc.en;
-        return '<a href="' + url + '" style="display:flex;gap:14px;align-items:center;padding:14px;border:1px solid rgba(0,0,0,.08);border-radius:14px;text-decoration:none;color:inherit;margin-bottom:12px;">'
-          + '<img src="' + a.icon + '" alt="" width="56" height="56" style="border-radius:12px;flex:none;">'
-          + '<span><span style="display:block;font-weight:700;font-size:16px;">' + a.name + '</span>'
-          + '<span style="display:block;font-size:13px;color:var(--muted,#888);line-height:1.6;margin-top:2px;">' + desc + '</span></span></a>';
+        // iOS 風の一覧の1行（仕事＆ビザ・病院＆医療と同じ形。2026-10-23）
+        return '<a class="ios-row" href="' + url + '">'
+          + '<img class="ios-ico ios-ico--img" src="' + a.icon + '" alt="" width="44" height="44">'
+          + '<span class="ios-text"><span class="ios-title">' + a.name + '</span><span class="ios-sub">' + desc + '</span></span>'
+          + '<span class="ios-chev" aria-hidden="true">›</span></a>';
       }).join('');
     }
     window.addEventListener('DOMContentLoaded', function () { setTimeout(renderAppsPage, 0); });
