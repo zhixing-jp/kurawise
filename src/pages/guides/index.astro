@@ -15,7 +15,8 @@ const { categories, products } = productsData;
 const isPurchasable = (p: any) => typeof p.stripePaymentLink === 'string' && p.stripePaymentLink.startsWith('https://');
 
 function productsInCategory(categoryId: string) {
-  return products.filter((p) => p.category === categoryId);
+  // hidden: true の商品は表示しない（面接ガイドは後回し、10/23）
+  return products.filter((p: any) => p.category === categoryId && !p.hidden);
 }
 
 const title = `${SECTIONS.guides.label} | Kurawise`;

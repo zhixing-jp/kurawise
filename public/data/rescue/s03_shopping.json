@@ -57,7 +57,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "これのちがうさいずはありますか。"
+      "furigana_flat": "これのちがうサイズはありますか。"
     },
     {
       "id": "s03-003",
@@ -275,7 +275,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "さいずはいかがですか。"
+      "furigana_flat": "サイズはいかがですか。"
     },
     {
       "id": "s03-011",
@@ -325,7 +325,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "ぱすぽーとをもっています。"
+      "furigana_flat": "パスポートをもっています。"
     },
     {
       "id": "s03-013",
@@ -352,7 +352,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "くーぽんはつかえますか。"
+      "furigana_flat": "クーポンはつかえますか。"
     },
     {
       "id": "s03-014",
@@ -397,7 +397,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "ぷれぜんとようです。ほうそうをおねがいできますか。"
+      "furigana_flat": "プレゼントようです。ほうそうをおねがいできますか。"
     },
     {
       "id": "s03-015",
@@ -433,7 +433,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "ごじたくようですか、ぷれぜんとようですか。"
+      "furigana_flat": "ごじたくようですか、プレゼントようですか。"
     },
     {
       "id": "s03-016",
@@ -460,7 +460,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "ぽいんとかーどはおもちですか。"
+      "furigana_flat": "ポイントカードはおもちですか。"
     },
     {
       "id": "s03-017",
@@ -478,7 +478,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "ぽいんとかーどがあります。"
+      "furigana_flat": "ポイントカードがあります。"
     },
     {
       "id": "s03-018",
@@ -496,7 +496,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "ぽいんとかーどはありません。"
+      "furigana_flat": "ポイントカードはありません。"
     },
     {
       "id": "s03-019",
@@ -523,7 +523,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "ぽいんとかーどをつくりたいです。"
+      "furigana_flat": "ポイントカードをつくりたいです。"
     },
     {
       "id": "s03-020",
@@ -705,7 +705,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "かーどでおねがいします。"
+      "furigana_flat": "カードでおねがいします。"
     },
     {
       "id": "s03-026",
@@ -768,7 +768,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "たっちけっさいできますか。"
+      "furigana_flat": "タッチけっさいできますか。"
     },
     {
       "id": "s03-028",
@@ -827,7 +827,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "かーどをこちらにおいれください。"
+      "furigana_flat": "カードをこちらにおいれください。"
     },
     {
       "id": "s03-030",
@@ -845,7 +845,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "せるふれじはどこですか。"
+      "furigana_flat": "セルフレジはどこですか。"
     },
     {
       "id": "s03-031",
@@ -972,7 +972,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "さいずがあわないので、こうかんをおねがいできますか。"
+      "furigana_flat": "サイズがあわないので、こうかんをおねがいできますか。"
     },
     {
       "id": "s03-035",
@@ -1017,7 +1017,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "れしーとと、こちらのもとのじょうたいのままおもちしました。"
+      "furigana_flat": "レシートと、こちらのもとのじょうたいのままおもちしました。"
     },
     {
       "id": "s03-036",
@@ -1144,7 +1144,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "さいずをまちがえてかってしまったのですが、こうかんはかのうでしょうか。"
+      "furigana_flat": "サイズをまちがえてかってしまったのですが、こうかんはかのうでしょうか。"
     },
     {
       "id": "s03-039",
@@ -1189,7 +1189,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "いめーじとちがったので、へんぴんをおねがいしたいのですが。"
+      "furigana_flat": "イメージとちがったので、へんぴんをおねがいしたいのですが。"
     },
     {
       "id": "s03-040",
@@ -1334,7 +1334,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "れしーとはおもちでしょうか。"
+      "furigana_flat": "レシートはおもちでしょうか。"
     },
     {
       "id": "s03-044",
@@ -1502,7 +1502,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "おなじしょうひんのべつのさいずにこうかんいたします。"
+      "furigana_flat": "おなじしょうひんのべつのサイズにこうかんいたします。"
     },
     {
       "id": "s03-047",
@@ -1556,7 +1556,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "くれじっとかーどでおしはらいでしたので、へんきんにはすうにちかかるばあいがございます。"
+      "furigana_flat": "クレジットカードでおしはらいでしたので、へんきんにはすうにちかかるばあいがございます。"
     },
     {
       "id": "s03-048",
@@ -1615,7 +1615,7 @@
           "isKanji": false
         }
       ],
-      "furigana_flat": "こいんろっかーはありますか。"
+      "furigana_flat": "コインロッカーはありますか。"
     },
     {
       "id": "s03-050",

@@ -89,7 +89,7 @@ const careerInterestUrl = careerGroup ? `${careerInterestBasePath}?from=${career
 // 面试类文章：面试指南PDF已作为商品上架（目前仅简体中文），横幅直接导向专业指南商品页；
 // 其他类别和其他语言仍导向"抢先登记"页。横幅文案另行调整。
 // ただし、面接ガイドの決済リンクがまだ仮のうちは、購入できないので「抢先登记」ページに案内する（10/23）
-const interviewGuideReady = guideProducts.products.some((p: any) => p.id === 's11-interview-pdf' && typeof p.stripePaymentLink === 'string' && p.stripePaymentLink.startsWith('https://'));
+const interviewGuideReady = guideProducts.products.some((p: any) => p.id === 's11-interview-pdf' && !p.hidden && typeof p.stripePaymentLink === 'string' && p.stripePaymentLink.startsWith('https://'));
 const careerBannerUrl = (careerGroup === 'interview' && lang === 'zh' && interviewGuideReady) ? SECTIONS.guides.url : careerInterestUrl;
 const careerReferralBannerText = careerBannerData.text;
 const careerReferralBannerCta = careerBannerData.cta;

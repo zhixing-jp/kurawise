@@ -1,57 +1,147 @@
 {
   "banner": {
-    "prep":      { "text": "简历总被已读不回？我们在整理一套改简历的系统方法", "cta": "抢先了解" },
-    "interview": { "text": "日语面试总卡壳？这几个日企常问的问题，我们在做系统拆解", "cta": "抢先了解" },
-    "decide":    { "text": "Offer到手别急着签，这几项没确认清楚可能吃大亏", "cta": "抢先了解" },
-    "onboard":   { "text": "入职头一个月最容易踩坑？我们在整理新人生存指南", "cta": "抢先了解" },
-    "default":   { "text": "简历投了没回音？日语面试总卡壳？我们在做更系统的求职指南", "cta": "抢先了解" }
+    "prep": {
+      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "cta": "抢先了解"
+    },
+    "interview": {
+      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "cta": "抢先了解"
+    },
+    "decide": {
+      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "cta": "抢先了解"
+    },
+    "onboard": {
+      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "cta": "抢先了解"
+    },
+    "default": {
+      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "cta": "抢先了解"
+    }
   },
   "banner_zh-TW": {
-    "prep":      { "text": "履歷總是已讀不回？我們正在整理一套改履歷的系統方法", "cta": "搶先了解" },
-    "interview": { "text": "日語面試總卡關？這幾個日企常問的問題，我們在做系統拆解", "cta": "搶先了解" },
-    "decide":    { "text": "Offer到手別急著簽，這幾項沒確認清楚可能吃大虧", "cta": "搶先了解" },
-    "onboard":   { "text": "到職頭一個月最容易踩雷？我們在整理新人生存指南", "cta": "搶先了解" },
-    "default":   { "text": "履歷投了沒回音？日語面試總卡關？我們在做更系統的求職指南", "cta": "搶先了解" }
+    "prep": {
+      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "cta": "搶先了解"
+    },
+    "interview": {
+      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "cta": "搶先了解"
+    },
+    "decide": {
+      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "cta": "搶先了解"
+    },
+    "onboard": {
+      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "cta": "搶先了解"
+    },
+    "default": {
+      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "cta": "搶先了解"
+    }
   },
   "banner_en": {
-    "prep":      { "text": "Résumé going nowhere? We're putting together a systematic way to fix it.", "cta": "Get early access" },
-    "interview": { "text": "Blanking on Japanese interview questions? We're breaking down what Japanese companies actually ask.", "cta": "Get early access" },
-    "decide":    { "text": "Got an offer? Don't sign yet — a few unchecked details could cost you.", "cta": "Get early access" },
-    "onboard":   { "text": "First month on the job is the easiest to get wrong. We're putting together a survival guide.", "cta": "Get early access" },
-    "default":   { "text": "No replies to your applications? Stuck in interviews? We're building a more systematic career guide.", "cta": "Get early access" }
+    "prep": {
+      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "cta": "Get early access"
+    },
+    "interview": {
+      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "cta": "Get early access"
+    },
+    "decide": {
+      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "cta": "Get early access"
+    },
+    "onboard": {
+      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "cta": "Get early access"
+    },
+    "default": {
+      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "cta": "Get early access"
+    }
   },
   "banner_vi": {
-    "prep":      { "text": "Nộp hồ sơ mãi không thấy hồi âm? Chúng tôi đang xây dựng phương pháp chỉnh sửa hồ sơ bài bản.", "cta": "Tìm hiểu sớm" },
-    "interview": { "text": "Phỏng vấn tiếng Nhật hay bí? Chúng tôi đang phân tích những câu hỏi doanh nghiệp Nhật thường hỏi.", "cta": "Tìm hiểu sớm" },
-    "decide":    { "text": "Có Offer rồi đừng vội ký, vài mục chưa xác nhận kỹ có thể khiến bạn thiệt lớn.", "cta": "Tìm hiểu sớm" },
-    "onboard":   { "text": "Tháng đầu đi làm dễ vấp nhất? Chúng tôi đang tổng hợp cẩm nang sinh tồn cho nhân viên mới.", "cta": "Tìm hiểu sớm" },
-    "default":   { "text": "Nộp hồ sơ không thấy hồi âm? Phỏng vấn tiếng Nhật hay bí? Chúng tôi đang xây dựng hướng dẫn xin việc bài bản hơn.", "cta": "Tìm hiểu sớm" }
+    "prep": {
+      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "cta": "Tìm hiểu sớm"
+    },
+    "interview": {
+      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "cta": "Tìm hiểu sớm"
+    },
+    "decide": {
+      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "cta": "Tìm hiểu sớm"
+    },
+    "onboard": {
+      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "cta": "Tìm hiểu sớm"
+    },
+    "default": {
+      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "cta": "Tìm hiểu sớm"
+    }
   },
   "banner_ko": {
-    "prep":      { "text": "이력서 넣어도 감감무소식? 체계적인 이력서 개선법을 준비 중입니다", "cta": "먼저 알아보기" },
-    "interview": { "text": "일본어 면접에서 자꾸 막히나요? 일본 기업이 자주 묻는 질문들을 체계적으로 정리 중입니다", "cta": "먼저 알아보기" },
-    "decide":    { "text": "오퍼 받았다고 바로 서명하지 마세요, 확인 안 하면 손해 볼 수 있는 항목들이 있습니다", "cta": "먼저 알아보기" },
-    "onboard":   { "text": "입사 첫 달이 가장 실수하기 쉽다? 신입 생존 가이드를 준비 중입니다", "cta": "먼저 알아보기" },
-    "default":   { "text": "이력서 넣어도 답이 없나요? 일본어 면접에서 자꾸 막히나요? 더 체계적인 구직 가이드를 준비 중입니다", "cta": "먼저 알아보기" }
+    "prep": {
+      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "cta": "먼저 알아보기"
+    },
+    "interview": {
+      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "cta": "먼저 알아보기"
+    },
+    "decide": {
+      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "cta": "먼저 알아보기"
+    },
+    "onboard": {
+      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "cta": "먼저 알아보기"
+    },
+    "default": {
+      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "cta": "먼저 알아보기"
+    }
   },
   "banner_ja": {
-    "prep":      { "text": "履歴書を送っても返事が来ない？体系的な改善方法をまとめています", "cta": "先行案内を受け取る" },
-    "interview": { "text": "日本語面接でいつも詰まってしまう？日本企業がよく聞く質問を体系的に整理しています", "cta": "先行案内を受け取る" },
-    "decide":    { "text": "内定が出てもすぐサインしないで。確認していないと損する項目があります", "cta": "先行案内を受け取る" },
-    "onboard":   { "text": "入社1ヶ月目が一番つまずきやすい？新人サバイバルガイドを準備中です", "cta": "先行案内を受け取る" },
-    "default":   { "text": "応募しても返事が来ない？日本語面接で詰まってしまう？より体系的な転職ガイドを準備中です", "cta": "先行案内を受け取る" }
+    "prep": {
+      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "cta": "先行案内を受け取る"
+    },
+    "interview": {
+      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "cta": "先行案内を受け取る"
+    },
+    "decide": {
+      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "cta": "先行案内を受け取る"
+    },
+    "onboard": {
+      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "cta": "先行案内を受け取る"
+    },
+    "default": {
+      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "cta": "先行案内を受け取る"
+    }
   },
   "articleCta": {
-    "title": "这只是开始——更系统的付费指南即将上线",
-    "sub": "简历修改、模拟面试、职位判断……告诉我们你最想先解决哪个问题，早期登记的用户我们会优先通知、优先联系"
+    "title": "转职、更新时的签证手续，我们会用文章和小工具一步步整理",
+    "sub": "告诉我们你遇到了什么情况，准备好后会第一时间通知你。"
   },
   "contactPage": {
-    "title": "登记你的需求",
-    "subtitle": "我们正在把这些经验整理成更系统的付费指南和服务（简历修改、模拟面试、职位判断PDF等）。告诉我们你最想优先解决的问题，早期登记的用户，新内容上线时我们会第一时间通知、优先联系。",
+    "title": "请告诉我们你需要什么",
+    "subtitle": "我们正在准备在留期限提醒工具，以及签证（在留资格）手续的文章。转职、更新、接家人来日本……告诉我们你现在遇到的困难，或者担心的事情，准备好后会第一时间通知你。",
     "fieldContact": "联系方式（邮箱 / 微信 / LINE）",
     "fieldContactHint": "方便我们联系到你的任意一种方式即可",
     "fieldTopic": "你希望优先看到的内容方向",
-    "fieldTopicHint": "例如：面试常见问题的日语表达 / 简历修改服务 / 特定行业的转职经验……（选填）",
+    "fieldTopicHint": "例如：转职后的申报／在留期间更新的准备／就劳资格证明书（选填）",
     "requiredMark": "必填",
     "fieldRequiredError": "请填写这一项",
     "privacyNote": "你填写的信息仅用于本次登记回复，不会用于其他用途或分享给第三方。",
@@ -64,12 +154,12 @@
     "backToHub": "返回就职・转职指南"
   },
   "contactPage_zh-TW": {
-    "title": "登記你的需求",
-    "subtitle": "我們正在把這些經驗整理成更系統的付費指南和服務（履歷修改、模擬面試、職位判斷PDF等）。告訴我們你最想優先解決的問題，早期登記的用戶，新內容上線時我們會第一時間通知、優先聯繫。",
+    "title": "請告訴我們你需要什麼",
+    "subtitle": "我們正在準備在留期限提醒工具，以及簽證（在留資格）手續的文章。轉職、更新、接家人來日本……告訴我們你現在遇到的困難，或者擔心的事情，準備好後會第一時間通知你。",
     "fieldContact": "聯絡方式（Email／微信／LINE）",
     "fieldContactHint": "方便我們聯繫到你的任意一種方式即可",
     "fieldTopic": "你希望優先看到的內容方向",
-    "fieldTopicHint": "例如：面試常見問題的日語表達／履歷修改服務／特定產業的轉職經驗……（選填）",
+    "fieldTopicHint": "例如：轉職後的申報／在留期間更新的準備／就勞資格證明書（選填）",
     "requiredMark": "必填",
     "fieldRequiredError": "請填寫這一項",
     "privacyNote": "你填寫的資訊僅用於本次登記回覆，不會用於其他用途或分享給第三方。",
@@ -83,11 +173,11 @@
   },
   "contactPage_en": {
     "title": "Tell Us What You Need",
-    "subtitle": "We're turning this experience into more structured paid guides and services (résumé review, mock interviews, job-offer evaluation PDFs, and more). Let us know which problem you'd most like us to solve first — if you register early, we'll notify and reach out to you first when new content launches.",
+    "subtitle": "We're preparing a residence-card expiry reminder and articles on visa (status of residence) procedures. Changing jobs, renewing, bringing your family over — tell us what you're struggling with now or worried about, and we'll let you know as soon as it's ready.",
     "fieldContact": "Contact info (email / WeChat / LINE)",
     "fieldContactHint": "Any way for us to reach you works",
     "fieldTopic": "What content would you like to see first?",
-    "fieldTopicHint": "E.g. common interview phrases in Japanese / résumé review service / transfer experience in a specific industry... (optional)",
+    "fieldTopicHint": "E.g. notification after changing jobs / preparing a renewal / certificate of authorized employment (optional)",
     "requiredMark": "required",
     "fieldRequiredError": "Please fill in this field",
     "privacyNote": "The information you provide is used only to respond to this registration and won't be used for any other purpose or shared with third parties.",
@@ -100,12 +190,12 @@
     "backToHub": "Back to the Career Guide"
   },
   "contactPage_vi": {
-    "title": "Đăng ký nhu cầu của bạn",
-    "subtitle": "Chúng tôi đang chuyển hóa những kinh nghiệm này thành các hướng dẫn và dịch vụ trả phí bài bản hơn (chỉnh sửa hồ sơ, phỏng vấn thử, đánh giá offer dưới dạng PDF...). Hãy cho chúng tôi biết vấn đề bạn muốn được giải quyết ưu tiên nhất. Nếu đăng ký sớm, khi có nội dung mới ra mắt, chúng tôi sẽ thông báo và liên hệ với bạn trước tiên.",
+    "title": "Hãy cho chúng tôi biết bạn cần gì",
+    "subtitle": "Chúng tôi đang chuẩn bị công cụ nhắc hạn thẻ cư trú và các bài viết về thủ tục visa (tư cách lưu trú). Chuyển việc, gia hạn, bảo lãnh gia đình… hãy cho chúng tôi biết khó khăn hiện tại hoặc điều bạn lo lắng, chúng tôi sẽ báo cho bạn ngay khi sẵn sàng.",
     "fieldContact": "Thông tin liên hệ (email / WeChat / LINE)",
     "fieldContactHint": "Bất kỳ cách nào giúp chúng tôi liên hệ được với bạn là được",
     "fieldTopic": "Bạn muốn xem nội dung nào trước tiên",
-    "fieldTopicHint": "Ví dụ: cách diễn đạt tiếng Nhật thường dùng khi phỏng vấn / dịch vụ chỉnh sửa hồ sơ / kinh nghiệm chuyển việc trong ngành cụ thể... (không bắt buộc)",
+    "fieldTopicHint": "Ví dụ: khai báo sau khi chuyển việc / chuẩn bị gia hạn / giấy chứng nhận tư cách lao động (không bắt buộc)",
     "requiredMark": "bắt buộc",
     "fieldRequiredError": "Vui lòng điền mục này",
     "privacyNote": "Thông tin bạn cung cấp chỉ được dùng để phản hồi đăng ký lần này, không dùng cho mục đích khác hay chia sẻ cho bên thứ ba.",
@@ -119,11 +209,11 @@
   },
   "contactPage_ko": {
     "title": "필요한 내용을 알려주세요",
-    "subtitle": "저희는 이 경험을 더 체계적인 유료 가이드와 서비스(이력서 첨삭, 모의 면접, 오퍼 검토 PDF 등)로 만들고 있습니다. 가장 먼저 해결하고 싶은 문제가 무엇인지 알려주세요. 조기 등록하시면 새 콘텐츠 출시 시 가장 먼저 알려드리고 연락드립니다.",
+    "subtitle": "체류 기한 알림 도구와 비자(체류 자격) 수속 기사를 준비하고 있습니다. 이직, 갱신, 가족 초청 등 지금 어려운 점이나 앞으로 걱정되는 점을 알려주세요. 준비되는 대로 알려드리겠습니다.",
     "fieldContact": "연락처 (이메일 / 위챗 / LINE)",
     "fieldContactHint": "저희가 연락드릴 수 있는 방법이면 무엇이든 괜찮습니다",
     "fieldTopic": "가장 먼저 보고 싶은 콘텐츠 방향",
-    "fieldTopicHint": "예: 면접에서 자주 쓰는 일본어 표현 / 이력서 첨삭 서비스 / 특정 업계의 이직 경험... (선택 사항)",
+    "fieldTopicHint": "예: 이직 후 신고 / 체류 기간 갱신 준비 / 취로자격증명서 (선택 사항)",
     "requiredMark": "필수",
     "fieldRequiredError": "이 항목을 입력해 주세요",
     "privacyNote": "입력하신 정보는 이번 등록 응답에만 사용되며, 다른 용도로 사용되거나 제3자에게 공유되지 않습니다.",
@@ -137,11 +227,11 @@
   },
   "contactPage_ja": {
     "title": "ご要望を教えてください",
-    "subtitle": "私たちはこれまでの経験を、より体系的な有料ガイドやサービス（履歴書添削、模擬面接、オファー確認PDFなど）に整えているところです。最も優先して解決してほしい課題を教えてください。早めにご登録いただいた方には、新しいコンテンツが公開された際に真っ先にお知らせ・ご連絡いたします。",
+    "subtitle": "在留期限のリマインダーと、ビザ（在留資格）の手続きの記事を準備しています。転職・更新・家族の呼び寄せなど、今困っていること、これから心配なことを教えてください。準備ができしだいお知らせします。",
     "fieldContact": "連絡先（メール／WeChat／LINE）",
     "fieldContactHint": "こちらからご連絡できる方法であれば何でも構いません",
     "fieldTopic": "優先して見たい内容",
-    "fieldTopicHint": "例：面接でよく使う日本語表現／履歴書添削サービス／特定業界での転職経験など（任意）",
+    "fieldTopicHint": "例：転職したときの届出／在留期間の更新の準備／就労資格証明書（任意）",
     "requiredMark": "必須",
     "fieldRequiredError": "この項目を入力してください",
     "privacyNote": "ご入力いただいた情報は今回の登録への返信にのみ使用し、他の目的での利用や第三者への提供は行いません。",

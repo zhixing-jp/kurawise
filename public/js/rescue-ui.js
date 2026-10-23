@@ -84,7 +84,8 @@ function getModeSegs(item) {
   };
   const pageLang = document.getElementById('pageData')?.dataset.lang || 'zh';
   const ttsLang = langMap[pageLang] || 'zh-CN';
-  if (currentMode === 'jp') return [{ t: item.jp, l: 'ja-JP', v: jaVoice }];
+  // 日本語版のページは訳を表示しないので、読み上げも日本語だけ（10/23）
+  if (currentMode === 'jp' || pageLang === 'ja' || !item.text) return [{ t: item.jp, l: 'ja-JP', v: jaVoice }];
   if (currentMode === 'jp_zh') return [
     { t: item.jp, l: 'ja-JP', v: jaVoice },
     { t: item.text, l: ttsLang, v: zhVoice }
@@ -160,7 +161,8 @@ function toggleFollow(mode) {
 const PLAY_MODE_ORDER = ['continuous', 'follow3', 'follow5'];
 const PLAY_MODE_LABEL = { continuous: '▶●▶', follow3: '⏸ 3s', follow5: '⏸ 5s' };
 
-const READ_MODE_ORDER = ['jp', 'jp_zh', 'repeat'];
+// 日本語版のページは訳がないので、読み上げは日本語だけ（10/23）
+const READ_MODE_ORDER = (document.getElementById('pageData')?.dataset.lang === 'ja') ? ['jp'] : ['jp', 'jp_zh', 'repeat'];
 function readModeLabel(mode) {
   const l2 = document.getElementById('pageData')?.dataset.l2Code || 'ZH';
   if (mode === 'jp') return 'JA';
@@ -176,6 +178,7 @@ function renderCycleButtons() {
   const btnMode = document.getElementById('btnMode');
   const btnRate = document.getElementById('btnRate');
   if (btnPlayMode) btnPlayMode.textContent = PLAY_MODE_LABEL[playMode] || PLAY_MODE_LABEL.continuous;
+  if (READ_MODE_ORDER.indexOf(currentMode) === -1) currentMode = READ_MODE_ORDER[0];
   if (btnMode) btnMode.textContent = readModeLabel(currentMode);
   if (btnRate) btnRate.textContent = rateLabel(String(currentRate));
 }

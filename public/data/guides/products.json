@@ -1,7 +1,13 @@
 {
   "categories": [
-    { "id": "career", "label": "工作＆签证" },
-    { "id": "medical", "label": "就医＆医疗" }
+    {
+      "id": "career",
+      "label": "工作＆签证"
+    },
+    {
+      "id": "medical",
+      "label": "就医＆医疗"
+    }
   ],
   "products": [
     {
@@ -12,14 +18,15 @@
       "description": "日本面试评价逻辑、高频问题与回答结构、外国人常见误区、回答示例与准备表、面试前中后自查清单。",
       "price": 1980,
       "currency": "JPY",
-      "stripePaymentLink": "REPLACE_WITH_STRIPE_PAYMENT_LINK_URL"
+      "stripePaymentLink": "REPLACE_WITH_STRIPE_PAYMENT_LINK_URL",
+      "hidden": true
     },
     {
       "id": "medical-coordination",
       "category": "medical",
       "type": "consult",
       "title": "医疗协调服务",
-      "description": "语言障碍较大、情况紧急时，可以直接找人帮你——预约陪诊、病历翻译、就医全程协调支持。",
+      "description": "和医院沟通没把握时，可以直接找人帮你——预约电话、陪同就诊、和医生沟通。",
       "consultUrl": "/medical/service/"
     }
   ]

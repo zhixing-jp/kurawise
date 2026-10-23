@@ -23,7 +23,8 @@ interface Props {
 }
 
 const { item, idx, lang } = Astro.props;
-const isStaff = item.role === 'staff';
+// 自分（user）以外の台詞は、すべて相手側として表示する（staff のほか police・other など。10/23）
+const isStaff = (item.role || 'user') !== 'user';
 
 function getText(item: Props['item'], lang: string): string {
   if (lang === 'en') return item.en || item.zh || '';
@@ -41,7 +42,8 @@ const labels: Record<string, Record<string, string>> = {
   speak: { zh: '▶ 朗读', en: '▶ Listen', 'zh-TW': '▶ 朗讀', vi: '▶ Nghe', ko: '▶ 듣기', ja: '▶ 聞く' }
 };
 
-const text = getText(item, lang);
+// 日本語版のページでは訳を表示しない（日本語とふりがなだけ。10/23 決定）
+const text = lang === 'ja' ? '' : getText(item, lang);
 const staffLabel = labels.staff[lang] || labels.staff.zh;
 const btnLabel = labels.speak[lang] || labels.speak.zh;
 
@@ -89,5 +91,5 @@ const furiganaFlat = item.furigana_flat || item.jp;
   </div>
 
   <div class="jp" set:html={rubyHtml} />
-  <div class="zh">{text}</div>
+  {text && <div class="zh">{text}</div>}
 </div>
