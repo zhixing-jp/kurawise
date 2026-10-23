@@ -1,0 +1,185 @@
+---
+// 在留期限リマインダーの本体（段階1、2026-10-23）。
+// 期限の日から「申請できるようになる日（3か月前／永住者のカードは2か月前）」「1か月前」「期限の日」を計算し、
+// .ics（iPhone・Android・Outlook）と Google カレンダーのリンクで予定を作る。
+// 日付はブラウザの中だけで計算し、どこにも送らない。GA には「追加した」ことだけを送る（日付は送らない）。
+import type { VRCopy } from '../data/visaReminderCopy';
+interface Props { copy: VRCopy; lang: string; interestUrl: string; }
+const { copy, lang, interestUrl } = Astro.props;
+---
+<div class="vr-page" data-pagefind-body>
+  <h1 class="vr-title">{copy.title}</h1>
+  <p class="vr-lead">{copy.lead}</p>
+  <p class="vr-privacy">🔒 {copy.privacy}</p>
+
+  <div class="vr-card">
+    <fieldset class="vr-type">
+      <legend>{copy.typeLabel}</legend>
+      <label><input type="radio" name="vrType" value="renew" checked /> {copy.typeRenew}</label>
+      <label><input type="radio" name="vrType" value="pr" /> {copy.typePr}</label>
+    </fieldset>
+    <label class="vr-date-label" for="vrDate">{copy.dateLabel}</label>
+    <input id="vrDate" type="date" class="vr-date" />
+    <p class="vr-hint" id="vrHint">{copy.dateHintRenew}</p>
+
+    <div id="vrResult" class="vr-result" hidden>
+      <p class="vr-days" id="vrDays"></p>
+      <p class="vr-alert" id="vrAlert" hidden></p>
+      <ol class="vr-steps" id="vrSteps"></ol>
+      <button type="button" class="vr-btn" id="vrIcs">📅 {copy.addIcs}</button>
+      <p class="vr-note">{copy.addIcsNote}</p>
+      <details class="vr-google">
+        <summary>{copy.addGoogle}</summary>
+        <ul id="vrGoogle"></ul>
+      </details>
+    </div>
+  </div>
+
+  <h2 class="vr-h2">{copy.infoTitle}</h2>
+  <ul class="vr-info">
+    {copy.info.map((i) => <li set:html={i} />)}
+  </ul>
+  <p class="vr-disclaimer">{copy.disclaimer}</p>
+  <p class="vr-checked">{copy.checked}</p>
+
+  <div class="vr-cta">
+    <p class="vr-cta-title">{copy.ctaTitle}</p>
+    <p class="vr-cta-body">{copy.ctaBody}</p>
+    <a class="vr-cta-btn" href={interestUrl + '?from=visa-reminder'}>{copy.ctaButton} →</a>
+  </div>
+</div>
+
+<style is:global>
+  .vr-page { max-width: 640px; margin: 0 auto; padding: 8px 20px 80px; }
+  .vr-title { font-size: 22px; font-weight: 700; margin: 8px 0 12px; }
+  .vr-lead { font-size: 15px; line-height: 1.8; margin-bottom: 8px; }
+  .vr-privacy { font-size: 13px; color: var(--t3, #777); margin-bottom: 16px; }
+  .vr-card { background: var(--card, #fff); border: 1px solid rgba(0,0,0,.08); border-radius: 14px; padding: 16px; margin-bottom: 28px; }
+  .vr-type { border: 0; padding: 0; margin: 0 0 14px; }
+  .vr-type legend { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+  .vr-type label { display: flex; gap: 8px; align-items: flex-start; font-size: 14px; line-height: 1.6; margin-bottom: 6px; }
+  .vr-type input { margin-top: 4px; }
+  .vr-date-label { display: block; font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+  .vr-date { width: 100%; font-size: 17px; padding: 10px 12px; border: 1px solid rgba(0,0,0,.2); border-radius: 10px; background: #fff; color: #222; box-sizing: border-box; }
+  .vr-hint { font-size: 12px; color: var(--t3, #777); margin: 6px 0 0; }
+  .vr-result { margin-top: 18px; border-top: 1px dashed rgba(0,0,0,.12); padding-top: 14px; }
+  .vr-days { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+  .vr-alert { font-size: 14px; font-weight: 700; color: #c0392b; margin-bottom: 8px; }
+  .vr-alert.ok { color: #1e7e34; }
+  .vr-steps { padding-left: 1.3em; margin: 0 0 14px; font-size: 14px; line-height: 1.7; }
+  .vr-steps li { margin-bottom: 6px; }
+  .vr-steps li.past { color: var(--t3, #999); text-decoration: line-through; }
+  .vr-btn { width: 100%; font-size: 16px; font-weight: 700; padding: 14px; border: 0; border-radius: 12px; background: #111; color: #fff; cursor: pointer; }
+  .vr-note { font-size: 12px; color: var(--t3, #777); margin: 6px 0 10px; }
+  .vr-google summary { font-size: 14px; cursor: pointer; color: var(--accent, #2a6df4); }
+  .vr-google ul { padding-left: 1.2em; font-size: 14px; line-height: 1.9; }
+  .vr-h2 { font-size: 17px; font-weight: 700; margin: 0 0 10px; }
+  .vr-info { padding-left: 1.2em; font-size: 14px; line-height: 1.8; margin-bottom: 12px; }
+  .vr-info li { margin-bottom: 8px; }
+  .vr-info a { color: var(--accent, #2a6df4); }
+  .vr-disclaimer { font-size: 12px; color: var(--t3, #777); line-height: 1.7; }
+  .vr-checked { font-size: 12px; color: var(--t3, #777); margin-bottom: 24px; }
+  .vr-cta { background: rgba(0,0,0,.03); border-radius: 14px; padding: 16px; }
+  .vr-cta-title { font-weight: 700; font-size: 15px; margin-bottom: 6px; }
+  .vr-cta-body { font-size: 13px; line-height: 1.7; margin-bottom: 10px; }
+  .vr-cta-btn { font-size: 14px; font-weight: 700; color: var(--accent, #2a6df4); text-decoration: none; }
+</style>
+
+<script is:inline define:vars={{ copy, lang }}>
+  (function () {
+    const $ = (id) => document.getElementById(id);
+    const dateEl = $('vrDate');
+    const fmt = new Intl.DateTimeFormat(lang === 'zh' ? 'zh-CN' : lang, { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
+    let events = [];
+
+    // 期限の n か月前の同じ日。その月にその日がないとき（例：5月31日の3か月前）は、
+    // 早すぎる案内にならないよう、翌月の1日にする（例：3月1日）
+    function monthsBefore(d, n) {
+      const y = d.getFullYear(), m = d.getMonth() - n, day = d.getDate();
+      const last = new Date(y, m + 1, 0).getDate();
+      return day > last ? new Date(y, m + 1, 1) : new Date(y, m, day);
+    }
+    const ymd = (d) => d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
+    const addDay = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + 1);
+    const today = () => { const t = new Date(); return new Date(t.getFullYear(), t.getMonth(), t.getDate()); };
+    const type = () => (document.querySelector('input[name="vrType"]:checked') || {}).value || 'renew';
+
+    function render() {
+      $('vrHint').textContent = type() === 'pr' ? copy.dateHintPr : copy.dateHintRenew;
+      if (!dateEl.value) { $('vrResult').hidden = true; return; }
+      const [y, m, d] = dateEl.value.split('-').map(Number);
+      const exp = new Date(y, m - 1, d);
+      const pr = type() === 'pr';
+      const open = monthsBefore(exp, pr ? 2 : 3);
+      const month = monthsBefore(exp, 1);
+      const t = today();
+      const left = Math.round((exp - t) / 86400000);
+
+      events = [
+        { date: open, title: pr ? copy.evOpenPr : copy.evOpenRenew, line: pr ? copy.stepOpenPr : copy.stepOpenRenew },
+        { date: month, title: copy.evMonth, line: copy.stepMonth },
+        { date: exp, title: copy.evLast, line: copy.stepLast }
+      ];
+
+      $('vrDays').textContent = left >= 0 ? copy.daysLeft.replace('{n}', left) : '';
+      const alertEl = $('vrAlert');
+      alertEl.hidden = true; alertEl.classList.remove('ok');
+      if (left < 0) { alertEl.textContent = copy.expired; alertEl.hidden = false; }
+      else if (open <= t) { alertEl.textContent = copy.canApplyNow; alertEl.classList.add('ok'); alertEl.hidden = false; }
+
+      $('vrSteps').innerHTML = '';
+      events.forEach((e) => {
+        const li = document.createElement('li');
+        li.textContent = e.line.replace('{d}', fmt.format(e.date));
+        if (e.date < t) li.classList.add('past');
+        $('vrSteps').appendChild(li);
+      });
+
+      $('vrGoogle').innerHTML = '';
+      events.filter((e) => e.date >= t).forEach((e) => {
+        const url = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+          + '&text=' + encodeURIComponent(e.title)
+          + '&dates=' + ymd(e.date) + '/' + ymd(addDay(e.date))
+          + '&details=' + encodeURIComponent(copy.evDetails);
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = url; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = fmt.format(e.date) + '：' + e.title;
+        a.addEventListener('click', () => { if (window.gtag) gtag('event', 'visa_reminder_add', { method: 'google', type: type() }); });
+        li.appendChild(a); $('vrGoogle').appendChild(li);
+      });
+      $('vrIcs').hidden = events.every((e) => e.date < t);
+      $('vrResult').hidden = false;
+    }
+
+    function ics() {
+      const t = today();
+      const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '');
+      const esc = (s) => String(s).replace(/([,;\\])/g, '\\$1');
+      const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Kurawise//Visa Reminder//EN', 'CALSCALE:GREGORIAN'];
+      events.filter((e) => e.date >= t).forEach((e, i) => {
+        lines.push('BEGIN:VEVENT',
+          'UID:kurawise-vr-' + ymd(e.date) + '-' + i + '@kurawise.com',
+          'DTSTAMP:' + stamp,
+          'DTSTART;VALUE=DATE:' + ymd(e.date),
+          'DTEND;VALUE=DATE:' + ymd(addDay(e.date)),
+          'SUMMARY:' + esc(e.title),
+          'DESCRIPTION:' + esc(copy.evDetails),
+          'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + esc(e.title), 'TRIGGER:PT9H', 'END:VALARM',
+          'END:VEVENT');
+      });
+      lines.push('END:VCALENDAR');
+      const blob = new Blob([lines.join('\r\n')], { type: 'text/calendar;charset=utf-8' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'kurawise-visa-reminder.ics';
+      document.body.appendChild(a); a.click(); a.remove();
+      if (window.gtag) gtag('event', 'visa_reminder_add', { method: 'ics', type: type() });
+    }
+
+    dateEl.addEventListener('change', render);
+    dateEl.addEventListener('input', render);
+    document.querySelectorAll('input[name="vrType"]').forEach((r) => r.addEventListener('change', render));
+    $('vrIcs').addEventListener('click', ics);
+  })();
+</script>

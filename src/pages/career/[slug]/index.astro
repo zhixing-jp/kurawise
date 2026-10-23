@@ -9,6 +9,7 @@ import Base from '../../../layouts/Base.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
 import { SECTIONS } from '../../../data/sections';
 import { readFile } from 'node:fs/promises';
+import CareerBlocks from '../../../components/CareerBlocks.astro';
 import careerIndex from '../../../../public/data/career/index.json';
 import disclaimer from '../../../../public/data/career/disclaimer.json';
 
@@ -53,14 +54,8 @@ const { slug, pageData } = Astro.props as Props;
 
     {pageData.intro && <p class="career-article-intro">{pageData.intro}</p>}
 
-    {(pageData.sections || []).map((section: any) => (
-      <section class="career-article-section">
-        <h2 class="career-article-section-title">{section.heading}</h2>
-        {(section.body || []).map((para: string) => (
-          <p>{para}</p>
-        ))}
-      </section>
-    ))}
+    {pageData.checked && <p class="career-article-checked">{pageData.checked}</p>}
+    <CareerBlocks sections={pageData.sections || []} lang="zh" />
 
     {pageData.takeaways && pageData.takeaways.length > 0 && (
       <div class="career-article-takeaways">

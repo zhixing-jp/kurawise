@@ -1,133 +1,133 @@
 {
   "banner": {
     "prep": {
-      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
       "cta": "抢先了解"
     },
     "interview": {
-      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
       "cta": "抢先了解"
     },
     "decide": {
-      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
       "cta": "抢先了解"
     },
     "onboard": {
-      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
       "cta": "抢先了解"
     },
     "default": {
-      "text": "在留期限，别一不小心就过了。我们在做到期前3个月、1个月用日历提醒你的小工具",
+      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
       "cta": "抢先了解"
     }
   },
   "banner_zh-TW": {
     "prep": {
-      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
       "cta": "搶先了解"
     },
     "interview": {
-      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
       "cta": "搶先了解"
     },
     "decide": {
-      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
       "cta": "搶先了解"
     },
     "onboard": {
-      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
       "cta": "搶先了解"
     },
     "default": {
-      "text": "在留期限，別一不小心就過了。我們在做到期前3個月、1個月用行事曆提醒你的小工具",
+      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
       "cta": "搶先了解"
     }
   },
   "banner_en": {
     "prep": {
-      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
       "cta": "Get early access"
     },
     "interview": {
-      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
       "cta": "Get early access"
     },
     "decide": {
-      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
       "cta": "Get early access"
     },
     "onboard": {
-      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
       "cta": "Get early access"
     },
     "default": {
-      "text": "Don't let your residence card expire by accident. We're building a tool that reminds you in your calendar 3 months and 1 month before.",
+      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
       "cta": "Get early access"
     }
   },
   "banner_vi": {
     "prep": {
-      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
       "cta": "Tìm hiểu sớm"
     },
     "interview": {
-      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
       "cta": "Tìm hiểu sớm"
     },
     "decide": {
-      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
       "cta": "Tìm hiểu sớm"
     },
     "onboard": {
-      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
       "cta": "Tìm hiểu sớm"
     },
     "default": {
-      "text": "Đừng để thẻ cư trú hết hạn mà không biết. Chúng tôi đang làm công cụ nhắc bạn trên lịch trước 3 tháng và 1 tháng.",
+      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
       "cta": "Tìm hiểu sớm"
     }
   },
   "banner_ko": {
     "prep": {
-      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
       "cta": "먼저 알아보기"
     },
     "interview": {
-      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
       "cta": "먼저 알아보기"
     },
     "decide": {
-      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
       "cta": "먼저 알아보기"
     },
     "onboard": {
-      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
       "cta": "먼저 알아보기"
     },
     "default": {
-      "text": "체류 기한, 깜빡 넘기지 않으셨나요? 만료 3개월 전·1개월 전에 캘린더로 알려주는 도구를 준비 중입니다",
+      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
       "cta": "먼저 알아보기"
     }
   },
   "banner_ja": {
     "prep": {
-      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
       "cta": "先行案内を受け取る"
     },
     "interview": {
-      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
       "cta": "先行案内を受け取る"
     },
     "decide": {
-      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
       "cta": "先行案内を受け取る"
     },
     "onboard": {
-      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
       "cta": "先行案内を受け取る"
     },
     "default": {
-      "text": "在留期限、うっかり過ぎていませんか？期限の3か月前・1か月前にカレンダーで知らせる道具を準備中です",
+      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
       "cta": "先行案内を受け取る"
     }
   },

@@ -1,0 +1,1904 @@
+{
+ "title": "签证更新费最高涨到7.5万日元：一家人要准备多少？怎么省？",
+ "description": "2026年10月起，在留期间更新按批准期间收费。一家四口更新一次约23～26万日元。附家庭费用计算器、省钱方法、诈骗邮件识别，以及回国、接父母来日本的费用变化。",
+ "checked": "内容确认日期：2026年10月23日",
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "一句话结论",
+     "text": "更新费从每人6,000日元涨到最高7.5万日元。<strong>能省钱的只有两条路：用在线申请，争取更长的在留期间。</strong>"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2026.7.1",
+       "text": "出国税 1,000→3,000日元；来日签证费约涨到5倍"
+      },
+      {
+       "date": "2026.10.1",
+       "text": "在留期间更新・资格变更：按批准期间收费（1万～7.5万日元）；永住申请 1万→20万日元",
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 变了什么",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "每人一次的费用（窗口申请）",
+     "unit": "日元",
+     "items": [
+      {
+       "label": "以前",
+       "value": 6000
+      },
+      {
+       "label": "1年",
+       "value": 33000
+      },
+      {
+       "label": "3年",
+       "value": 64000
+      },
+      {
+       "label": "5年",
+       "value": 75000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "2026年10月1日起受理的申请适用新价格。在线申请比窗口便宜（完整费用表见文末）。"
+    }
+   ]
+  },
+  {
+   "heading": "2. 一家人要多少钱",
+   "blocks": [
+    {
+     "t": "calc",
+     "labels": {
+      "title": "家庭费用计算器",
+      "member": "家人",
+      "period": "批准的期间",
+      "method": "申请方式",
+      "counter": "窗口",
+      "online": "在线",
+      "add": "＋ 添加家人",
+      "remove": "删除",
+      "total": "一次合计",
+      "perYear": "平均每年",
+      "perMonth": "平均每月",
+      "before": "以前（旧价）",
+      "note": "按批准的期间计算。期间以实际批准为准。",
+      "opts": [
+       "3个月",
+       "6个月",
+       "1年",
+       "3年",
+       "5年"
+      ],
+      "yen": "日元"
+     }
+    },
+    {
+     "t": "table",
+     "caption": "例：一家四口，都批3年",
+     "head": [
+      "",
+      "以前",
+      "现在・窗口",
+      "现在・在线"
+     ],
+     "rows": [
+      [
+       "一次合计",
+       "24,000",
+       "256,000",
+       "226,200"
+      ],
+      [
+       "平均每月",
+       "约670",
+       "约7,100",
+       "约6,300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "建议把它当成家庭固定支出，每月存起来。"
+    }
+   ]
+  },
+  {
+   "heading": "3. 怎么省",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "批准的期间越长，平均每年越便宜（窗口）",
+     "unit": "日元／年",
+     "items": [
+      {
+       "label": "1年",
+       "value": 33000
+      },
+      {
+       "label": "3年",
+       "value": 21333,
+       "display": "约21,300"
+      },
+      {
+       "label": "5年",
+       "value": 15000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "办法",
+      "能省多少",
+      "条件"
+     ],
+     "rows": [
+      [
+       "<strong>在线申请</strong>",
+       "每人每次约5,000～10,000日元",
+       "本人申请需要マイナンバーカード和手机；15岁以上；期限当天不能在线申请"
+      ],
+      [
+       "<strong>争取更长期间</strong>",
+       "平均每年：1年33,000 → 5年15,000",
+       "工作稳定；<strong>税金、年金、健康保险按时缴纳</strong>"
+      ],
+      [
+       "<strong>问公司有没有补贴</strong>",
+       "视公司而定",
+       "更新前问人事"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "手续费减免只限生活困难且有人道考虑的情况，大多数人用不上。"
+    }
+   ]
+  },
+  {
+   "heading": "4. 一定要注意",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>按批准的期间收费</strong>，不是按申请的期间。申请5年、批3年，按3年收。",
+      "<strong>不批准不收钱</strong>，批准时才缴纳。",
+      "<strong>每人一份</strong>，孩子也要。",
+      "<strong>2026年9月30日前受理的，按旧价</strong>（窗口6,000、在线5,500）。",
+      "<strong>在线付款只能用便利店或银行</strong>，不能刷卡。付款邮件只来自 <code>@service-dgft.com</code> 和 <code>@veritrans.jp</code>，<strong>其他地址都是诈骗</strong>。",
+      "<strong>过了期限就不能更新</strong>，代价远超手续费。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. 回国、接父母，也变贵了",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "2026年7月1日起",
+     "head": [
+      "项目",
+      "以前",
+      "现在",
+      "举例"
+     ],
+     "rows": [
+      [
+       "出国税（每次出境，未满2岁免）",
+       "1,000",
+       "3,000",
+       "一家四口回国一次 12,000"
+      ],
+      [
+       "父母来日：单次签证",
+       "约3,000",
+       "约15,000",
+       "父母二人 约30,000"
+      ],
+      [
+       "父母来日：多次签证",
+       "约6,000",
+       "约30,000",
+       "符合条件、几年内来2次以上的话更划算"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "签证按当地货币缴纳，代办费另计；多次签证的条件以驻华使领馆为准。"
+    }
+   ]
+  },
+  {
+   "heading": "6. 用人民币算",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "100日元能换多少人民币",
+     "unit": "元",
+     "items": [
+      {
+       "label": "2020年平均",
+       "value": 6.5,
+       "display": "约6.5"
+      },
+      {
+       "label": "2026年10月",
+       "value": 4.26,
+       "display": "4.26",
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "在日本赚日元、换成人民币存钱或寄回家的话，<strong>同样的收入少了约三分之一</strong>。手续费上涨加上日元贬值，更需要提前规划。"
+    }
+   ]
+  },
+  {
+   "heading": "下一步",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "把期限放进手机日历 → 在留期限提醒",
+       "href": "/career/visa-reminder/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "下一篇：税金、年金、健康保险忘了交，会影响更新吗？（准备中）"
+    }
+   ]
+  },
+  {
+   "heading": "完整费用表",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "批准的期间",
+      "窗口",
+      "在线（含结算手续费）"
+     ],
+     "rows": [
+      [
+       "3个月以下",
+       "10,000",
+       "10,330"
+      ],
+      [
+       "3～6个月",
+       "18,000",
+       "15,330"
+      ],
+      [
+       "6个月～未满1年",
+       "25,000",
+       "21,330"
+      ],
+      [
+       "1年",
+       "33,000",
+       "27,330"
+      ],
+      [
+       "1年以上～未满3年",
+       "48,000",
+       "42,330"
+      ],
+      [
+       "3年～未满5年",
+       "64,000",
+       "56,550"
+      ],
+      [
+       "5年以上",
+       "75,000",
+       "65,550"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "单位：日元。来源：<a href=\"https://www.moj.go.jp/isa/11_00107.html\" target=\"_blank\" rel=\"noopener\">出入国在留管理厅</a>、国税厅（国际观光旅客税）、外务省（签证手续费）、中国外汇交易中心（汇率中间价，2020年为年平均的概算）。本文是一般性信息，不是针对个人的法律意见，具体请向出入国在留管理局或行政书士确认。"
+    }
+   ]
+  }
+ ],
+ "title_ja": "在留期間の更新手数料が最大7.5万円に：家族でいくら？どう節約する？",
+ "description_ja": "2026年10月から、更新の手数料は許可された期間で決まります。4人家族の更新1回で約23万〜26万円。家族の費用計算機、節約の方法、詐欺メールの見分け方、帰国・親の来日の費用もまとめました。",
+ "checked_ja": "内容の確認日：2026年10月23日",
+ "sections_ja": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "結論",
+     "text": "更新の手数料は、1人6,000円から最大7.5万円になりました。<strong>節約できる方法は2つだけ：オンラインで申請すること、長い在留期間をもらうこと。</strong>"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2026.7.1",
+       "text": "出国税 1,000→3,000円、来日のビザ（査証）手数料が約5倍"
+      },
+      {
+       "date": "2026.10.1",
+       "text": "在留期間の更新・在留資格の変更：許可期間に応じて1万〜7.5万円、永住 1万→20万円",
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 何が変わったか",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "1人1回の手数料（窓口）",
+     "unit": "円",
+     "items": [
+      {
+       "label": "以前",
+       "value": 6000
+      },
+      {
+       "label": "1年",
+       "value": 33000
+      },
+      {
+       "label": "3年",
+       "value": 64000
+      },
+      {
+       "label": "5年",
+       "value": 75000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "2026年10月1日以降に受け付けられた申請から適用されます。オンラインは窓口より安くなります（全体の表は最後に）。"
+    }
+   ]
+  },
+  {
+   "heading": "2. 家族でいくらかかるか",
+   "blocks": [
+    {
+     "t": "calc",
+     "labels": {
+      "title": "家族の費用計算機",
+      "member": "家族",
+      "period": "許可される期間",
+      "method": "申請の方法",
+      "counter": "窓口",
+      "online": "オンライン",
+      "add": "＋ 家族を追加",
+      "remove": "削除",
+      "total": "1回の合計",
+      "perYear": "1年あたり",
+      "perMonth": "1か月あたり",
+      "before": "以前（旧料金）",
+      "note": "許可された期間で計算します。期間は実際の許可によって決まります。",
+      "opts": [
+       "3か月",
+       "6か月",
+       "1年",
+       "3年",
+       "5年"
+      ],
+      "yen": "円"
+     }
+    },
+    {
+     "t": "table",
+     "caption": "例：4人家族、全員3年の場合",
+     "head": [
+      "",
+      "以前",
+      "今・窓口",
+      "今・オンライン"
+     ],
+     "rows": [
+      [
+       "1回の合計",
+       "24,000",
+       "256,000",
+       "226,200"
+      ],
+      [
+       "1か月あたり",
+       "約670",
+       "約7,100",
+       "約6,300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "家計の固定費として、毎月積み立てておくのがおすすめです。"
+    }
+   ]
+  },
+  {
+   "heading": "3. 節約の方法",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "許可期間が長いほど、1年あたりは安い（窓口）",
+     "unit": "円／年",
+     "items": [
+      {
+       "label": "1年",
+       "value": 33000
+      },
+      {
+       "label": "3年",
+       "value": 21333,
+       "display": "約21,300"
+      },
+      {
+       "label": "5年",
+       "value": 15000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "方法",
+      "節約できる額",
+      "条件"
+     ],
+     "rows": [
+      [
+       "<strong>オンライン申請</strong>",
+       "1人1回 約5,000〜10,000円",
+       "本人申請はマイナンバーカードとスマホが必要。15歳以上。期限の当日はオンライン不可"
+      ],
+      [
+       "<strong>長い期間をもらう</strong>",
+       "1年あたり：1年33,000 → 5年15,000",
+       "仕事が安定している。<strong>税金・年金・健康保険を期限どおりに払っている</strong>"
+      ],
+      [
+       "<strong>会社の補助を確認</strong>",
+       "会社による",
+       "更新の前に人事に聞く"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "手数料の減額は、生活が苦しく、人道上の配慮が必要な場合に限られ、ほとんどの人は対象外です。"
+    }
+   ]
+  },
+  {
+   "heading": "4. 必ず注意すること",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>許可された期間で決まる</strong>。申請した期間ではありません。5年で申請して3年なら、3年の金額です。",
+      "<strong>不許可なら払わない</strong>。払うのは許可のときです。",
+      "<strong>1人ずつかかる</strong>。子どもも同じです。",
+      "<strong>2026年9月30日までに受け付けられた申請は旧料金</strong>（窓口6,000円、オンライン5,500円）。",
+      "<strong>オンラインの支払いはコンビニか銀行だけ</strong>で、カードは使えません。支払いのメールは <code>@service-dgft.com</code> と <code>@veritrans.jp</code> からだけ届きます。<strong>それ以外は詐欺です</strong>。",
+      "<strong>期限を過ぎると更新できない</strong>。手数料どころではない損になります。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. 帰国も、親を呼ぶのも高くなった",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "2026年7月1日から",
+     "head": [
+      "項目",
+      "以前",
+      "今",
+      "例"
+     ],
+     "rows": [
+      [
+       "出国税（出国1回ごと、2歳未満は対象外）",
+       "1,000",
+       "3,000",
+       "4人家族の帰国1回 12,000"
+      ],
+      [
+       "親の来日：一次有効のビザ",
+       "約3,000",
+       "約15,000",
+       "両親2人 約30,000"
+      ],
+      [
+       "親の来日：数次有効のビザ",
+       "約6,000",
+       "約30,000",
+       "条件を満たし、数年で2回以上来るなら得"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "ビザの手数料は現地の通貨で払い、代理申請機関の手数料は別。数次ビザの条件は、在外公館の案内に従ってください。"
+    }
+   ]
+  },
+  {
+   "heading": "6. 自分の国の通貨で計算すると（例：人民元）",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "100円は何元か",
+     "unit": "元",
+     "items": [
+      {
+       "label": "2020年平均",
+       "value": 6.5,
+       "display": "約6.5"
+      },
+      {
+       "label": "2026年10月",
+       "value": 4.26,
+       "display": "4.26",
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "日本で円の収入を得て、人民元に換えて貯金・仕送りする場合、<strong>同じ収入でも約3分の1少なくなります</strong>。手数料の値上げと円安が重なる今こそ、前もって計画を。"
+    }
+   ]
+  },
+  {
+   "heading": "次の一歩",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "期限をスマホのカレンダーに入れる → 在留期限リマインダー",
+       "href": "/ja/career/visa-reminder/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "次の記事：税金・年金・健康保険の払い忘れは、更新に影響する？（準備中）"
+    }
+   ]
+  },
+  {
+   "heading": "手数料の全体の表",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "許可される期間",
+      "窓口",
+      "オンライン（決済手数料込み）"
+     ],
+     "rows": [
+      [
+       "3か月以下",
+       "10,000",
+       "10,330"
+      ],
+      [
+       "3か月超〜6か月",
+       "18,000",
+       "15,330"
+      ],
+      [
+       "6か月超〜1年未満",
+       "25,000",
+       "21,330"
+      ],
+      [
+       "1年",
+       "33,000",
+       "27,330"
+      ],
+      [
+       "1年超〜3年未満",
+       "48,000",
+       "42,330"
+      ],
+      [
+       "3年以上〜5年未満",
+       "64,000",
+       "56,550"
+      ],
+      [
+       "5年以上",
+       "75,000",
+       "65,550"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "単位：円。出典：<a href=\"https://www.moj.go.jp/isa/11_00107.html\" target=\"_blank\" rel=\"noopener\">出入国在留管理庁</a>、国税庁（国際観光旅客税）、外務省（査証手数料）、中国外貨取引センター（為替の中間値。2020年は年平均からの概算）。この記事は一般的な情報で、個別の法的な助言ではありません。ご自身の状況は、出入国在留管理局または行政書士に確認してください。"
+    }
+   ]
+  }
+ ],
+ "title_zh-TW": "簽證更新費最高漲到7.5萬日圓：一家人要準備多少？怎麼省？",
+ "description_zh-TW": "2026年10月起，在留期間更新依核准期間收費。一家四口更新一次約23～26萬日圓。附家庭費用計算器、省錢方法、詐騙郵件辨識，以及回國、接父母來日本的費用變化。",
+ "checked_zh-TW": "內容確認日期：2026年10月23日",
+ "sections_zh-TW": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "一句話結論",
+     "text": "更新費從每人6,000日圓漲到最高7.5萬日圓。<strong>能省錢的只有兩條路：線上申請，爭取更長的在留期間。</strong>"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2026.7.1",
+       "text": "出國稅 1,000→3,000日圓；來日簽證費約漲到5倍"
+      },
+      {
+       "date": "2026.10.1",
+       "text": "在留期間更新・資格變更：依核准期間收費（1萬～7.5萬日圓）；永住申請 1萬→20萬日圓",
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 變了什麼",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "每人一次的費用（窗口申請）",
+     "unit": "日圓",
+     "items": [
+      {
+       "label": "以前",
+       "value": 6000
+      },
+      {
+       "label": "1年",
+       "value": 33000
+      },
+      {
+       "label": "3年",
+       "value": 64000
+      },
+      {
+       "label": "5年",
+       "value": 75000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "2026年10月1日起受理的申請適用新價格。線上申請比窗口便宜（完整費用表見文末）。"
+    }
+   ]
+  },
+  {
+   "heading": "2. 一家人要多少錢",
+   "blocks": [
+    {
+     "t": "calc",
+     "labels": {
+      "title": "家庭費用計算器",
+      "member": "家人",
+      "period": "核准的期間",
+      "method": "申請方式",
+      "counter": "窗口",
+      "online": "線上",
+      "add": "＋ 新增家人",
+      "remove": "刪除",
+      "total": "一次合計",
+      "perYear": "平均每年",
+      "perMonth": "平均每月",
+      "before": "以前（舊價）",
+      "note": "依核准的期間計算。期間以實際核准為準。",
+      "opts": [
+       "3個月",
+       "6個月",
+       "1年",
+       "3年",
+       "5年"
+      ],
+      "yen": "日圓"
+     }
+    },
+    {
+     "t": "table",
+     "caption": "例：一家四口，都核准3年",
+     "head": [
+      "",
+      "以前",
+      "現在・窗口",
+      "現在・線上"
+     ],
+     "rows": [
+      [
+       "一次合計",
+       "24,000",
+       "256,000",
+       "226,200"
+      ],
+      [
+       "平均每月",
+       "約670",
+       "約7,100",
+       "約6,300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "建議把它當成家庭固定支出，每月存起來。"
+    }
+   ]
+  },
+  {
+   "heading": "3. 怎麼省",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "核准的期間越長，平均每年越便宜（窗口）",
+     "unit": "日圓／年",
+     "items": [
+      {
+       "label": "1年",
+       "value": 33000
+      },
+      {
+       "label": "3年",
+       "value": 21333,
+       "display": "約21,300"
+      },
+      {
+       "label": "5年",
+       "value": 15000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "辦法",
+      "能省多少",
+      "條件"
+     ],
+     "rows": [
+      [
+       "<strong>線上申請</strong>",
+       "每人每次約5,000～10,000日圓",
+       "本人申請需要マイナンバーカード和手機；15歲以上；期限當天不能線上申請"
+      ],
+      [
+       "<strong>爭取更長期間</strong>",
+       "平均每年：1年33,000 → 5年15,000",
+       "工作穩定；<strong>稅金、年金、健康保險按時繳納</strong>"
+      ],
+      [
+       "<strong>問公司有沒有補貼</strong>",
+       "視公司而定",
+       "更新前問人事"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "手續費減免只限生活困難且有人道考量的情況，大多數人用不上。"
+    }
+   ]
+  },
+  {
+   "heading": "4. 一定要注意",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>依核准的期間收費</strong>，不是依申請的期間。申請5年、核准3年，就收3年的費用。",
+      "<strong>不核准不收錢</strong>，核准時才繳納。",
+      "<strong>每人一份</strong>，孩子也要。",
+      "<strong>2026年9月30日前受理的，按舊價</strong>（窗口6,000、線上5,500）。",
+      "<strong>線上付款只能用便利商店或銀行</strong>，不能刷卡。付款郵件只來自 <code>@service-dgft.com</code> 和 <code>@veritrans.jp</code>，<strong>其他地址都是詐騙</strong>。",
+      "<strong>過了期限就不能更新</strong>，代價遠超手續費。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. 回國、接父母，也變貴了",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "2026年7月1日起",
+     "head": [
+      "項目",
+      "以前",
+      "現在",
+      "舉例"
+     ],
+     "rows": [
+      [
+       "出國稅（每次出境，未滿2歲免）",
+       "1,000",
+       "3,000",
+       "一家四口回國一次 12,000"
+      ],
+      [
+       "父母來日：單次簽證",
+       "約3,000",
+       "約15,000",
+       "父母二人 約30,000"
+      ],
+      [
+       "父母來日：多次簽證",
+       "約6,000",
+       "約30,000",
+       "符合條件、幾年內來2次以上的話更划算"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "簽證以當地貨幣繳納，代辦費另計；多次簽證的條件以駐外使領館公告為準。"
+    }
+   ]
+  },
+  {
+   "heading": "6. 換算成自己的貨幣",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "日圓近年大幅貶值。如果你在日本賺日圓、換回自己國家的貨幣存錢或寄回家，<strong>同樣的收入能換到的錢比幾年前少了不少</strong>。手續費上漲加上日圓貶值，更需要提前規劃。"
+    }
+   ]
+  },
+  {
+   "heading": "下一步",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "把期限放進手機行事曆 → 在留期限提醒",
+       "href": "/zh-TW/career/visa-reminder/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "下一篇：稅金、年金、健康保險忘了繳，會影響更新嗎？（準備中）"
+    }
+   ]
+  },
+  {
+   "heading": "完整費用表",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "核准的期間",
+      "窗口",
+      "線上（含結算手續費）"
+     ],
+     "rows": [
+      [
+       "3個月以下",
+       "10,000",
+       "10,330"
+      ],
+      [
+       "3～6個月",
+       "18,000",
+       "15,330"
+      ],
+      [
+       "6個月～未滿1年",
+       "25,000",
+       "21,330"
+      ],
+      [
+       "1年",
+       "33,000",
+       "27,330"
+      ],
+      [
+       "1年以上～未滿3年",
+       "48,000",
+       "42,330"
+      ],
+      [
+       "3年～未滿5年",
+       "64,000",
+       "56,550"
+      ],
+      [
+       "5年以上",
+       "75,000",
+       "65,550"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "單位：日圓。來源：<a href=\"https://www.moj.go.jp/isa/11_00107.html\" target=\"_blank\" rel=\"noopener\">出入國在留管理廳</a>、國稅廳（國際觀光旅客稅）、外務省（簽證手續費）。本文是一般性資訊，不是針對個人的法律意見，具體請向出入國在留管理局或行政書士確認。"
+    }
+   ]
+  }
+ ],
+ "title_en": "Japan Visa Extension Fees Now Up to ¥75,000: How Much for Your Family, and How to Save",
+ "description_en": "From October 2026, extension fees depend on the period of stay granted. A family of four may pay ¥226,000–256,000 per renewal. Family fee calculator, ways to save, how to spot scam emails, and higher costs for trips home and family visits.",
+ "checked_en": "Content checked: October 23, 2026",
+ "sections_en": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "In one sentence",
+     "text": "The extension fee rose from ¥6,000 per person to as much as ¥75,000. <strong>There are only two real ways to save: apply online, and get a longer period of stay.</strong>"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2026.7.1",
+       "text": "Departure tax ¥1,000 → ¥3,000; visa fees for visitors about 5×"
+      },
+      {
+       "date": "2026.10.1",
+       "text": "Extensions and changes of status: ¥10,000–75,000 depending on the period granted; permanent residence ¥10,000 → ¥200,000",
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. What changed",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "Fee per person, per application (at the counter)",
+     "unit": "yen",
+     "items": [
+      {
+       "label": "Before",
+       "value": 6000
+      },
+      {
+       "label": "1 yr",
+       "value": 33000
+      },
+      {
+       "label": "3 yrs",
+       "value": 64000
+      },
+      {
+       "label": "5 yrs",
+       "value": 75000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "New fees apply to applications accepted on or after October 1, 2026. Online is cheaper than the counter (full table at the end)."
+    }
+   ]
+  },
+  {
+   "heading": "2. How much for your family",
+   "blocks": [
+    {
+     "t": "calc",
+     "labels": {
+      "title": "Family fee calculator",
+      "member": "Person",
+      "period": "Period granted",
+      "method": "How you apply",
+      "counter": "Counter",
+      "online": "Online",
+      "add": "+ Add a family member",
+      "remove": "Remove",
+      "total": "Per renewal",
+      "perYear": "Per year",
+      "perMonth": "Per month",
+      "before": "Before (old fee)",
+      "note": "Calculated on the period granted, which is decided by immigration.",
+      "opts": [
+       "3 months",
+       "6 months",
+       "1 year",
+       "3 years",
+       "5 years"
+      ],
+      "yen": "yen"
+     }
+    },
+    {
+     "t": "table",
+     "caption": "Example: family of four, all granted 3 years",
+     "head": [
+      "",
+      "Before",
+      "Now (counter)",
+      "Now (online)"
+     ],
+     "rows": [
+      [
+       "Per renewal",
+       "24,000",
+       "256,000",
+       "226,200"
+      ],
+      [
+       "Per month",
+       "about 670",
+       "about 7,100",
+       "about 6,300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Treat it as a fixed household cost and set money aside every month."
+    }
+   ]
+  },
+  {
+   "heading": "3. How to save",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "The longer the period granted, the cheaper per year (counter)",
+     "unit": "yen / year",
+     "items": [
+      {
+       "label": "1 yr",
+       "value": 33000
+      },
+      {
+       "label": "3 yrs",
+       "value": 21333,
+       "display": "about 21,300"
+      },
+      {
+       "label": "5 yrs",
+       "value": 15000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Method",
+      "How much you save",
+      "Conditions"
+     ],
+     "rows": [
+      [
+       "<strong>Apply online</strong>",
+       "About ¥5,000–10,000 per person each time",
+       "Applying yourself requires a My Number Card and a smartphone; age 15+; not possible online on the expiry date itself"
+      ],
+      [
+       "<strong>Get a longer period</strong>",
+       "Per year: 1 yr ¥33,000 → 5 yrs ¥15,000",
+       "Stable job; <strong>taxes, pension and health insurance paid on time</strong>"
+      ],
+      [
+       "<strong>Ask about company support</strong>",
+       "Depends on the company",
+       "Ask HR before you renew"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Fee reductions apply only in cases of hardship requiring humanitarian consideration, so most people are not eligible."
+    }
+   ]
+  },
+  {
+   "heading": "4. Watch out for these",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>The fee is based on the period granted</strong>, not the period you applied for. Apply for 5 years and get 3, and you pay the 3-year fee.",
+      "<strong>No approval, no fee.</strong> You pay when the application is approved.",
+      "<strong>Every person pays</strong>, including children.",
+      "<strong>Applications accepted by September 30, 2026 pay the old fee</strong> (¥6,000 at the counter, ¥5,500 online).",
+      "<strong>Online payment is only at convenience stores or banks</strong>; cards are not accepted. Payment emails come only from <code>@service-dgft.com</code> and <code>@veritrans.jp</code>. <strong>Anything else is a scam.</strong>",
+      "<strong>Once your period of stay expires, you can no longer extend it.</strong> That costs far more than the fee."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. Trips home and family visits cost more too",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "From July 1, 2026",
+     "head": [
+      "Item",
+      "Before",
+      "Now",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Departure tax (each departure; under 2 exempt)",
+       "1,000",
+       "3,000",
+       "Family of four, one trip home: 12,000"
+      ],
+      [
+       "Parents visiting: single-entry visa",
+       "about 3,000",
+       "about 15,000",
+       "Two parents: about 30,000"
+      ],
+      [
+       "Parents visiting: multiple-entry visa",
+       "about 6,000",
+       "about 30,000",
+       "Better value if they qualify and visit 2+ times in a few years"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Visa fees are paid in local currency, and agency fees are extra. Conditions for multiple-entry visas follow the Japanese embassy or consulate in each country."
+    }
+   ]
+  },
+  {
+   "heading": "6. In your home currency",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The yen has weakened sharply in recent years. If you earn yen in Japan and convert it to save or send home, <strong>the same income is worth much less than a few years ago</strong>. With higher fees on top, planning ahead matters more than ever."
+    }
+   ]
+  },
+  {
+   "heading": "Next step",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "Put your expiry date in your phone calendar → Residence Card Expiry Reminder",
+       "href": "/en/career/visa-reminder/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next article: Forgot to pay taxes, pension or health insurance — will it affect your renewal? (coming soon)"
+    }
+   ]
+  },
+  {
+   "heading": "Full fee table",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Period granted",
+      "Counter",
+      "Online (incl. payment fee)"
+     ],
+     "rows": [
+      [
+       "3 months or less",
+       "10,000",
+       "10,330"
+      ],
+      [
+       "Over 3 to 6 months",
+       "18,000",
+       "15,330"
+      ],
+      [
+       "Over 6 months to under 1 year",
+       "25,000",
+       "21,330"
+      ],
+      [
+       "1 year",
+       "33,000",
+       "27,330"
+      ],
+      [
+       "Over 1 to under 3 years",
+       "48,000",
+       "42,330"
+      ],
+      [
+       "3 to under 5 years",
+       "64,000",
+       "56,550"
+      ],
+      [
+       "5 years or more",
+       "75,000",
+       "65,550"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "In yen. Sources: <a href=\"https://www.moj.go.jp/isa/11_00107.html\" target=\"_blank\" rel=\"noopener\">Immigration Services Agency of Japan</a>, National Tax Agency (international tourist tax), Ministry of Foreign Affairs (visa fees). This article is general information, not legal advice for your situation. Please check with the immigration services bureau or a gyoseishoshi (administrative scrivener)."
+    }
+   ]
+  }
+ ],
+ "title_vi": "Phí gia hạn visa Nhật tăng tới 75.000 yên: Cả nhà cần bao nhiêu và tiết kiệm thế nào?",
+ "description_vi": "Từ tháng 10/2026, phí gia hạn tính theo thời gian lưu trú được cấp. Gia đình 4 người có thể mất khoảng 226.000–256.000 yên mỗi lần. Có máy tính chi phí gia đình, cách tiết kiệm, cách nhận biết email lừa đảo và chi phí về nước, đón bố mẹ sang Nhật.",
+ "checked_vi": "Ngày kiểm tra nội dung: 23/10/2026",
+ "sections_vi": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "Tóm tắt một câu",
+     "text": "Phí gia hạn tăng từ 6.000 yên/người lên tối đa 75.000 yên. <strong>Chỉ có hai cách thật sự tiết kiệm: nộp trực tuyến và được cấp thời gian lưu trú dài hơn.</strong>"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2026.7.1",
+       "text": "Thuế xuất cảnh 1.000 → 3.000 yên; phí visa nhập cảnh tăng khoảng 5 lần"
+      },
+      {
+       "date": "2026.10.1",
+       "text": "Gia hạn và đổi tư cách lưu trú: 10.000–75.000 yên tùy thời gian được cấp; vĩnh trú 10.000 → 200.000 yên",
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. Điều gì đã thay đổi",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "Phí mỗi người, mỗi lần (nộp tại quầy)",
+     "unit": "yên",
+     "items": [
+      {
+       "label": "Trước đây",
+       "value": 6000
+      },
+      {
+       "label": "1 năm",
+       "value": 33000
+      },
+      {
+       "label": "3 năm",
+       "value": 64000
+      },
+      {
+       "label": "5 năm",
+       "value": 75000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Mức phí mới áp dụng cho hồ sơ được tiếp nhận từ 1/10/2026. Nộp trực tuyến rẻ hơn nộp tại quầy (bảng đầy đủ ở cuối bài)."
+    }
+   ]
+  },
+  {
+   "heading": "2. Cả nhà cần bao nhiêu",
+   "blocks": [
+    {
+     "t": "calc",
+     "labels": {
+      "title": "Máy tính chi phí gia đình",
+      "member": "Thành viên",
+      "period": "Thời gian được cấp",
+      "method": "Cách nộp",
+      "counter": "Tại quầy",
+      "online": "Trực tuyến",
+      "add": "+ Thêm thành viên",
+      "remove": "Xóa",
+      "total": "Mỗi lần gia hạn",
+      "perYear": "Mỗi năm",
+      "perMonth": "Mỗi tháng",
+      "before": "Trước đây (giá cũ)",
+      "note": "Tính theo thời gian được cấp; thời gian do Cục Xuất nhập cảnh quyết định.",
+      "opts": [
+       "3 tháng",
+       "6 tháng",
+       "1 năm",
+       "3 năm",
+       "5 năm"
+      ],
+      "yen": "yên"
+     }
+    },
+    {
+     "t": "table",
+     "caption": "Ví dụ: gia đình 4 người, đều được cấp 3 năm",
+     "head": [
+      "",
+      "Trước đây",
+      "Hiện nay (quầy)",
+      "Hiện nay (trực tuyến)"
+     ],
+     "rows": [
+      [
+       "Mỗi lần gia hạn",
+       "24.000",
+       "256.000",
+       "226.200"
+      ],
+      [
+       "Mỗi tháng",
+       "khoảng 670",
+       "khoảng 7.100",
+       "khoảng 6.300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Hãy coi đây là chi phí cố định của gia đình và để dành mỗi tháng."
+    }
+   ]
+  },
+  {
+   "heading": "3. Cách tiết kiệm",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "Thời gian được cấp càng dài, mỗi năm càng rẻ (quầy)",
+     "unit": "yên/năm",
+     "items": [
+      {
+       "label": "1 năm",
+       "value": 33000
+      },
+      {
+       "label": "3 năm",
+       "value": 21333,
+       "display": "khoảng 21.300"
+      },
+      {
+       "label": "5 năm",
+       "value": 15000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Cách",
+      "Tiết kiệm được",
+      "Điều kiện"
+     ],
+     "rows": [
+      [
+       "<strong>Nộp trực tuyến</strong>",
+       "Khoảng 5.000–10.000 yên/người mỗi lần",
+       "Tự nộp cần thẻ My Number và điện thoại; từ 15 tuổi; không nộp trực tuyến được vào đúng ngày hết hạn"
+      ],
+      [
+       "<strong>Được cấp thời gian dài hơn</strong>",
+       "Mỗi năm: 1 năm 33.000 → 5 năm 15.000",
+       "Công việc ổn định; <strong>đóng thuế, lương hưu, bảo hiểm y tế đúng hạn</strong>"
+      ],
+      [
+       "<strong>Hỏi công ty có hỗ trợ không</strong>",
+       "Tùy công ty",
+       "Hỏi phòng nhân sự trước khi gia hạn"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Giảm phí chỉ áp dụng cho trường hợp khó khăn cần cân nhắc nhân đạo, hầu hết mọi người không thuộc diện này."
+    }
+   ]
+  },
+  {
+   "heading": "4. Nhất định phải lưu ý",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Phí tính theo thời gian được cấp</strong>, không theo thời gian xin. Xin 5 năm mà được 3 năm thì trả phí 3 năm.",
+      "<strong>Không được cấp thì không mất phí</strong>, chỉ trả khi được duyệt.",
+      "<strong>Mỗi người một khoản</strong>, kể cả trẻ em.",
+      "<strong>Hồ sơ tiếp nhận đến 30/9/2026 trả giá cũ</strong> (quầy 6.000, trực tuyến 5.500).",
+      "<strong>Thanh toán trực tuyến chỉ qua cửa hàng tiện lợi hoặc ngân hàng</strong>, không dùng thẻ. Email thanh toán chỉ đến từ <code>@service-dgft.com</code> và <code>@veritrans.jp</code>. <strong>Địa chỉ khác đều là lừa đảo.</strong>",
+      "<strong>Đã quá hạn thì không thể gia hạn</strong>, thiệt hại lớn hơn nhiều so với lệ phí."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. Về nước, đón bố mẹ sang cũng đắt hơn",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Từ 1/7/2026",
+     "head": [
+      "Khoản",
+      "Trước đây",
+      "Hiện nay",
+      "Ví dụ"
+     ],
+     "rows": [
+      [
+       "Thuế xuất cảnh (mỗi lần xuất cảnh, dưới 2 tuổi miễn)",
+       "1.000",
+       "3.000",
+       "Gia đình 4 người về nước 1 lần: 12.000"
+      ],
+      [
+       "Bố mẹ sang Nhật: visa 1 lần",
+       "khoảng 3.000",
+       "khoảng 15.000",
+       "Bố mẹ 2 người: khoảng 30.000"
+      ],
+      [
+       "Bố mẹ sang Nhật: visa nhiều lần",
+       "khoảng 6.000",
+       "khoảng 30.000",
+       "Có lợi hơn nếu đủ điều kiện và sang từ 2 lần trong vài năm"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Phí visa nộp bằng tiền địa phương, phí đại lý tính riêng. Điều kiện visa nhiều lần theo hướng dẫn của Đại sứ quán/Tổng lãnh sự quán Nhật."
+    }
+   ]
+  },
+  {
+   "heading": "6. Quy đổi ra tiền nước mình",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Đồng yên đã mất giá mạnh trong những năm gần đây. Nếu bạn kiếm yên ở Nhật rồi đổi ra tiền nước mình để tiết kiệm hay gửi về nhà, <strong>cùng một khoản thu nhập giờ đổi được ít hơn nhiều so với vài năm trước</strong>. Cộng thêm phí tăng, càng cần lên kế hoạch sớm."
+    }
+   ]
+  },
+  {
+   "heading": "Bước tiếp theo",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "Đưa ngày hết hạn vào lịch điện thoại → Nhắc hạn thẻ cư trú",
+       "href": "/vi/career/visa-reminder/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Bài tiếp theo: Quên đóng thuế, lương hưu, bảo hiểm y tế có ảnh hưởng đến gia hạn không? (sắp ra mắt)"
+    }
+   ]
+  },
+  {
+   "heading": "Bảng phí đầy đủ",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Thời gian được cấp",
+      "Quầy",
+      "Trực tuyến (gồm phí thanh toán)"
+     ],
+     "rows": [
+      [
+       "Từ 3 tháng trở xuống",
+       "10,000",
+       "10,330"
+      ],
+      [
+       "Trên 3 đến 6 tháng",
+       "18,000",
+       "15,330"
+      ],
+      [
+       "Trên 6 tháng đến dưới 1 năm",
+       "25,000",
+       "21,330"
+      ],
+      [
+       "1 năm",
+       "33,000",
+       "27,330"
+      ],
+      [
+       "Trên 1 đến dưới 3 năm",
+       "48,000",
+       "42,330"
+      ],
+      [
+       "3 đến dưới 5 năm",
+       "64,000",
+       "56,550"
+      ],
+      [
+       "Từ 5 năm trở lên",
+       "75,000",
+       "65,550"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Đơn vị: yên. Nguồn: <a href=\"https://www.moj.go.jp/isa/11_00107.html\" target=\"_blank\" rel=\"noopener\">Cục Quản lý Xuất nhập cảnh và Lưu trú</a>, Cục Thuế quốc gia (thuế du lịch quốc tế), Bộ Ngoại giao (phí visa). Bài viết là thông tin chung, không phải tư vấn pháp lý cho trường hợp cụ thể. Hãy hỏi Cục Quản lý Xuất nhập cảnh hoặc hành chính thư sĩ (gyoseishoshi)."
+    }
+   ]
+  }
+ ],
+ "title_ko": "일본 비자 갱신 수수료 최대 7.5만 엔: 가족이면 얼마? 어떻게 아낄까?",
+ "description_ko": "2026년 10월부터 갱신 수수료는 허가된 기간에 따라 정해집니다. 4인 가족이 한 번 갱신하면 약 22.6만~25.6만 엔. 가족 비용 계산기, 절약 방법, 사기 메일 구별법, 귀국·부모 초청 비용 변화까지 정리했습니다.",
+ "checked_ko": "내용 확인일: 2026년 10월 23일",
+ "sections_ko": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "한 줄 결론",
+     "text": "갱신 수수료가 1인 6,000엔에서 최대 7.5만 엔이 되었습니다. <strong>절약할 수 있는 길은 두 가지뿐: 온라인으로 신청하기, 더 긴 재류 기간을 받기.</strong>"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2026.7.1",
+       "text": "출국세 1,000→3,000엔, 방일 비자 수수료 약 5배"
+      },
+      {
+       "date": "2026.10.1",
+       "text": "재류 기간 갱신·자격 변경: 허가 기간에 따라 1만~7.5만 엔, 영주 1만→20만 엔",
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 무엇이 바뀌었나",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "1인 1회 수수료(창구)",
+     "unit": "엔",
+     "items": [
+      {
+       "label": "이전",
+       "value": 6000
+      },
+      {
+       "label": "1년",
+       "value": 33000
+      },
+      {
+       "label": "3년",
+       "value": 64000
+      },
+      {
+       "label": "5년",
+       "value": 75000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "2026년 10월 1일 이후 접수된 신청부터 적용됩니다. 온라인이 창구보다 저렴합니다(전체 표는 맨 아래)."
+    }
+   ]
+  },
+  {
+   "heading": "2. 가족이면 얼마",
+   "blocks": [
+    {
+     "t": "calc",
+     "labels": {
+      "title": "가족 비용 계산기",
+      "member": "가족",
+      "period": "허가 기간",
+      "method": "신청 방법",
+      "counter": "창구",
+      "online": "온라인",
+      "add": "+ 가족 추가",
+      "remove": "삭제",
+      "total": "1회 합계",
+      "perYear": "1년당",
+      "perMonth": "월평균",
+      "before": "이전(구 요금)",
+      "note": "허가된 기간으로 계산합니다. 기간은 실제 허가에 따라 정해집니다.",
+      "opts": [
+       "3개월",
+       "6개월",
+       "1년",
+       "3년",
+       "5년"
+      ],
+      "yen": "엔"
+     }
+    },
+    {
+     "t": "table",
+     "caption": "예: 4인 가족, 모두 3년 허가",
+     "head": [
+      "",
+      "이전",
+      "현재·창구",
+      "현재·온라인"
+     ],
+     "rows": [
+      [
+       "1회 합계",
+       "24,000",
+       "256,000",
+       "226,200"
+      ],
+      [
+       "월평균",
+       "약 670",
+       "약 7,100",
+       "약 6,300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "가계의 고정비로 보고 매달 모아 두는 것을 권합니다."
+    }
+   ]
+  },
+  {
+   "heading": "3. 절약하는 방법",
+   "blocks": [
+    {
+     "t": "bars",
+     "title": "허가 기간이 길수록 1년당 저렴(창구)",
+     "unit": "엔/년",
+     "items": [
+      {
+       "label": "1년",
+       "value": 33000
+      },
+      {
+       "label": "3년",
+       "value": 21333,
+       "display": "약 21,300"
+      },
+      {
+       "label": "5년",
+       "value": 15000,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "방법",
+      "절약액",
+      "조건"
+     ],
+     "rows": [
+      [
+       "<strong>온라인 신청</strong>",
+       "1인 1회 약 5,000~10,000엔",
+       "본인 신청은 마이넘버카드와 스마트폰 필요, 15세 이상, 기한 당일은 온라인 불가"
+      ],
+      [
+       "<strong>더 긴 기간 받기</strong>",
+       "1년당: 1년 33,000 → 5년 15,000",
+       "안정된 직장, <strong>세금·연금·건강보험을 기한 내 납부</strong>"
+      ],
+      [
+       "<strong>회사 지원 확인</strong>",
+       "회사에 따라 다름",
+       "갱신 전에 인사 담당자에게 문의"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "수수료 감액은 생활이 어렵고 인도적 배려가 필요한 경우에만 해당되어, 대부분은 대상이 아닙니다."
+    }
+   ]
+  },
+  {
+   "heading": "4. 꼭 주의할 점",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>허가된 기간으로 정해집니다</strong>. 신청한 기간이 아닙니다. 5년을 신청해 3년을 받으면 3년 금액입니다.",
+      "<strong>불허가면 내지 않습니다</strong>. 허가 때 납부합니다.",
+      "<strong>1인당 각각</strong> 냅니다. 아이도 마찬가지입니다.",
+      "<strong>2026년 9월 30일까지 접수된 신청은 이전 요금</strong>(창구 6,000엔, 온라인 5,500엔).",
+      "<strong>온라인 결제는 편의점·은행만</strong> 가능하고 카드는 안 됩니다. 결제 메일은 <code>@service-dgft.com</code>과 <code>@veritrans.jp</code>에서만 옵니다. <strong>그 외는 사기입니다.</strong>",
+      "<strong>기한이 지나면 갱신할 수 없습니다</strong>. 수수료와는 비교할 수 없는 손해입니다."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. 귀국도, 부모 초청도 비싸졌다",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "2026년 7월 1일부터",
+     "head": [
+      "항목",
+      "이전",
+      "현재",
+      "예"
+     ],
+     "rows": [
+      [
+       "출국세(출국 1회마다, 2세 미만 제외)",
+       "1,000",
+       "3,000",
+       "4인 가족 귀국 1회 12,000"
+      ],
+      [
+       "부모 방일: 단수 비자",
+       "약 3,000",
+       "약 15,000",
+       "부모 2명 약 30,000"
+      ],
+      [
+       "부모 방일: 복수 비자",
+       "약 6,000",
+       "약 30,000",
+       "조건을 갖추고 몇 년 안에 2회 이상 오면 이득"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "비자 수수료는 현지 통화로 내며 대행 수수료는 별도입니다. 복수 비자 조건은 각국 일본 대사관·총영사관 안내를 따르세요."
+    }
+   ]
+  },
+  {
+   "heading": "6. 자국 통화로 환산하면",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "최근 몇 년간 엔화가 크게 약해졌습니다. 일본에서 엔으로 벌어 자국 통화로 바꿔 저축하거나 송금한다면 <strong>같은 수입이라도 몇 년 전보다 훨씬 적어집니다</strong>. 수수료 인상까지 겹친 지금, 미리 계획하는 것이 중요합니다."
+    }
+   ]
+  },
+  {
+   "heading": "다음 단계",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "기한을 휴대폰 캘린더에 넣기 → 재류 기한 알림",
+       "href": "/ko/career/visa-reminder/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "다음 기사: 세금·연금·건강보험을 깜빡 안 냈다면 갱신에 영향이 있을까? (준비 중)"
+    }
+   ]
+  },
+  {
+   "heading": "전체 수수료 표",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "허가 기간",
+      "창구",
+      "온라인(결제 수수료 포함)"
+     ],
+     "rows": [
+      [
+       "3개월 이하",
+       "10,000",
+       "10,330"
+      ],
+      [
+       "3개월 초과~6개월",
+       "18,000",
+       "15,330"
+      ],
+      [
+       "6개월 초과~1년 미만",
+       "25,000",
+       "21,330"
+      ],
+      [
+       "1년",
+       "33,000",
+       "27,330"
+      ],
+      [
+       "1년 초과~3년 미만",
+       "48,000",
+       "42,330"
+      ],
+      [
+       "3년 이상~5년 미만",
+       "64,000",
+       "56,550"
+      ],
+      [
+       "5년 이상",
+       "75,000",
+       "65,550"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "단위: 엔. 출처: <a href=\"https://www.moj.go.jp/isa/11_00107.html\" target=\"_blank\" rel=\"noopener\">출입국재류관리청</a>, 국세청(국제관광여객세), 외무성(비자 수수료). 이 기사는 일반적인 정보이며 개별 법률 조언이 아닙니다. 본인의 상황은 출입국재류관리국 또는 행정서사에게 확인하세요."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+---
+// 目标路径：src/pages/[lang]/career/visa-reminder/index.astro → /{lang}/career/visa-reminder/
+// 在留期限リマインダー（段階1、2026-10-23）。文言がそろっている言語だけページを作る。
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumb from '../../../../components/Breadcrumb.astro';
+import VisaReminder from '../../../../components/VisaReminder.astro';
+import { SECTION_NAMES } from '../../../../data/sectionNames';
+import { VR_COPY, type VRLang } from '../../../../data/visaReminderCopy';
+
+export function getStaticPaths() {
+  return (['zh-TW', 'en', 'vi', 'ko', 'ja'] as VRLang[])
+    .filter((l) => VR_COPY[l])
+    .map((lang) => ({ params: { lang }, props: { lang } }));
+}
+const { lang } = Astro.props as { lang: VRLang };
+const copy = VR_COPY[lang]!;
+const careerName = (SECTION_NAMES.career as Record<string, string>)[lang];
+---
+<Base title={`${copy.title}｜Kurawise`} description={copy.description} careerCss={true}
+  breadcrumbs={[{ name: careerName, url: `https://kurawise.com/${lang}/career/` }, { name: copy.title }]}>
+  <Breadcrumb crumbs={[{ label: careerName, url: `/${lang}/career/` }, { label: copy.title }]} cssClass="career-breadcrumb" />
+  <VisaReminder copy={copy} lang={lang} interestUrl={`/${lang}/career/interest/`} />
+</Base>

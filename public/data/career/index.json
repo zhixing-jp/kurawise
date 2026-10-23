@@ -1,6 +1,24 @@
 {
   "pages": [
     {
+      "id": "visa-fee-2026",
+      "group": "visa",
+      "updated": "2026-10-23",
+      "url": "/career/visa-fee-2026/",
+      "title": "签证更新费最高涨到7.5万日元：一家人要准备多少？怎么省？",
+      "description": "更新费按批准期间收费，一家四口约23～26万日元。附家庭费用计算器和省钱方法。",
+      "title_zh-TW": "簽證更新費最高漲到7.5萬日圓：一家人要準備多少？怎麼省？",
+      "description_zh-TW": "更新費依核准期間收費，一家四口約23～26萬日圓。附家庭費用計算器和省錢方法。",
+      "title_en": "Japan Visa Extension Fees Now Up to ¥75,000: How Much for Your Family, and How to Save",
+      "description_en": "Fees now depend on the period granted — about ¥226,000–256,000 for a family of four. Family calculator and ways to save.",
+      "title_vi": "Phí gia hạn visa Nhật tăng tới 75.000 yên: Cả nhà cần bao nhiêu và tiết kiệm thế nào?",
+      "description_vi": "Phí tính theo thời gian được cấp, gia đình 4 người khoảng 226.000–256.000 yên. Có máy tính chi phí và cách tiết kiệm.",
+      "title_ko": "일본 비자 갱신 수수료 최대 7.5만 엔: 가족이면 얼마? 어떻게 아낄까?",
+      "description_ko": "허가 기간에 따라 수수료가 정해져 4인 가족이면 약 22.6만~25.6만 엔. 가족 비용 계산기와 절약 방법.",
+      "title_ja": "在留期間の更新手数料が最大7.5万円に：家族でいくら？どう節約する？",
+      "description_ja": "手数料は許可期間で決まり、4人家族で約23万〜26万円。家族の費用計算機と節約の方法つき。"
+    },
+    {
       "id": "resume-vs-career-history",
       "group": "prep",
       "title": "履歴書与職務経歴書到底有什么区别？",

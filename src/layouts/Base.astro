@@ -75,7 +75,8 @@ const referralBannerCta: Record<string, string> = {
 // 就职版块悬浮banner：与医疗banner同一套机制，各自独立的dismiss key和GA事件，
 // 两者互斥（页面要么是medicalCss要么是careerCss），不会同时出现。
 // Phase 1仅简体中文，落地页/登记页自身不显示。
-const isCareerReferralOwnPage = Astro.url.pathname.includes('/career/interest/');
+// 登録ページと在留期限リマインダーのページ自身には、帯を出さない
+const isCareerReferralOwnPage = Astro.url.pathname.includes('/career/interest/') || Astro.url.pathname.includes('/career/visa-reminder/');
 const showCareerReferralBanner = careerCss && !isCareerReferralOwnPage;
 // banner文案按文章所属阶段分组（prep/interview/decide/onboard），未传group（如hub页）时用default兜底。
 // referral.json里banner是中文版，其它语言存在banner_{lang}键（banner_en/banner_ja等），

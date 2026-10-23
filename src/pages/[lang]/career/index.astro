@@ -37,6 +37,7 @@ const langPathPrefix = `/${lang}`;
 // 不要把 as 类型断言直接写在模板表达式区域（模板区域解析泛型语法的行为和 frontmatter 不一致）。
 const disclaimerHubShort = disclaimer.hub_short as Record<string, string>;
 const hubShortText = disclaimerHubShort[lang] || disclaimerHubShort.zh;
+import CareerHubList from '../../../components/CareerHubList.astro';
 ---
 
 <Base title={pick(CAREER_HUB.title, lang)} description={pick(CAREER_HUB.description, lang)} careerCss={true}>
@@ -45,22 +46,7 @@ const hubShortText = disclaimerHubShort[lang] || disclaimerHubShort.zh;
     <h1>{(SECTION_NAMES.career as Record<string, string>)[lang]}</h1>
     <p class="career-hub-intro">{pick(CAREER_HUB.intro, lang)}</p>
     <p class="career-disclaimer">{hubShortText}</p>
-
-    {groupOrder.map((groupKey) => (
-      groups[groupKey] && groups[groupKey].length > 0 && (
-        <section class="career-hub-group">
-          <h2>{titles[groupKey]?.[lang] || titles[groupKey]?.en || groupKey}</h2>
-          <div class="career-hub-nav-grid">
-            {groups[groupKey].map((p: any) => (
-              <a href={`${langPathPrefix}${p.url}`} class={`career-hub-nav-card career-hub-nav-card--${groupKey}`}>
-                <div class="career-hub-nav-card-title">{tf(p, 'title', lang)}</div>
-                <div class="career-hub-nav-card-desc">{tf(p, 'description', lang)}</div>
-              </a>
-            ))}
-          </div>
-        </section>
-      )
-    ))}
+    <CareerHubList lang={lang} />
   </div>
 
   <div data-pagefind-body style="display:none">{pick(CAREER_HUB.title, lang)} {pick(CAREER_HUB.description, lang)}</div>

@@ -1,0 +1,76 @@
+---
+// 仕事＆ビザのまとめページの一覧部分（2026-10-23 段階1でレイアウトを決定）。
+// 記事が増えても形が崩れないよう、3つの段に固定する：
+//   ① 便利な道具（リマインダーなど、使うもの）
+//   ② ビザ・在留の手続き（制度が変わる記事。カードに更新日を表示）
+//   ③ 就職・転職（履歴書準備／面接／職務判断／入社適応の小見出しつき）
+// 記事を足すときは public/data/career/index.json に1行足すだけ（group: visa / prep / interview / decide / onboard）。
+import careerIndex from '../../public/data/career/index.json';
+import { VR_COPY, type VRLang } from '../data/visaReminderCopy';
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const prefix = lang === 'zh' ? '' : `/${lang}`;
+const L = (m: Record<string, string>) => m[lang] || m.en;
+
+const H = {
+  tools: { ja: '便利な道具', zh: '实用工具', 'zh-TW': '實用工具', en: 'Tools', vi: 'Công cụ', ko: '도구' },
+  visa: { ja: 'ビザ・在留の手続き', zh: '签证・在留手续', 'zh-TW': '簽證・在留手續', en: 'Visa & Residence', vi: 'Visa & lưu trú', ko: '비자·체류 수속' },
+  job: { ja: '就職・転職', zh: '求职・转职', 'zh-TW': '求職・轉職', en: 'Job Hunting & Career', vi: 'Xin việc & chuyển việc', ko: '취업·이직' },
+  updated: { ja: '更新', zh: '更新', 'zh-TW': '更新', en: 'Updated', vi: 'Cập nhật', ko: '업데이트' }
+};
+const SUB: Record<string, Record<string, string>> = {
+  prep: { zh: '简历准备', 'zh-TW': '履歷準備', en: 'Resume Prep', vi: 'Chuẩn bị hồ sơ', ko: '이력서 준비', ja: '履歴書準備' },
+  interview: { zh: '面试应对', 'zh-TW': '面試應對', en: 'Interviews', vi: 'Phỏng vấn', ko: '면접 대응', ja: '面接対応' },
+  decide: { zh: '职位判断', 'zh-TW': '職位判斷', en: 'Evaluating Offers', vi: 'Đánh giá công việc', ko: '직무 판단', ja: '職務判断' },
+  onboard: { zh: '入职适应', 'zh-TW': '到職適應', en: 'Onboarding', vi: 'Hòa nhập công việc', ko: '입사 적응', ja: '入社適応' }
+};
+const JOB_ORDER = ['prep', 'interview', 'decide', 'onboard'];
+const tf = (p: any, f: string) => (lang === 'zh' ? p[f] : p[`${f}_${lang}`]) || p[f] || '';
+const pages: any[] = careerIndex.pages;
+const visa = pages.filter((p) => p.group === 'visa');
+const vr = VR_COPY[lang as VRLang] || VR_COPY.en;
+const dateText = (d: string) => d.replace(/-/g, '.');
+---
+<section class="career-hub-group">
+  <h2 class="career-hub-h2">{L(H.tools)}</h2>
+  <a class="career-tool-card" href={`${prefix}/career/visa-reminder/`} data-ga-event="visa_reminder_card_click">
+    <span class="career-tool-card-icon" aria-hidden="true">📅</span>
+    <span class="career-tool-card-text"><strong>{vr.title}</strong><span>{vr.cardSub}</span></span>
+    <span class="career-tool-card-arrow" aria-hidden="true">›</span>
+  </a>
+</section>
+
+{visa.length > 0 && (
+  <section class="career-hub-group">
+    <h2 class="career-hub-h2">{L(H.visa)}</h2>
+    <div class="career-hub-nav-grid career-hub-nav-grid--single">
+      {visa.map((p) => (
+        <a href={`${prefix}${p.url}`} class="career-hub-nav-card career-hub-nav-card--visa">
+          {p.updated && <span class="career-hub-updated">{L(H.updated)} {dateText(p.updated)}</span>}
+          <div class="career-hub-nav-card-title">{tf(p, 'title')}</div>
+          <div class="career-hub-nav-card-desc">{tf(p, 'description')}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
+
+<section class="career-hub-group">
+  <h2 class="career-hub-h2">{L(H.job)}</h2>
+  {JOB_ORDER.map((g) => {
+    const list = pages.filter((p) => p.group === g);
+    return list.length > 0 && (
+      <div class="career-hub-sub">
+        <h3>{L(SUB[g])}</h3>
+        <div class="career-hub-nav-grid">
+          {list.map((p) => (
+            <a href={`${prefix}${p.url}`} class={`career-hub-nav-card career-hub-nav-card--${g}`}>
+              <div class="career-hub-nav-card-title">{tf(p, 'title')}</div>
+              <div class="career-hub-nav-card-desc">{tf(p, 'description')}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    );
+  })}
+</section>

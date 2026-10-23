@@ -1,0 +1,15 @@
+---
+// 目标路径：src/pages/career/visa-reminder/index.astro → /career/visa-reminder/（简体中文）
+// 在留期限リマインダー（段階1、2026-10-23）。本体は components/VisaReminder.astro、文言は data/visaReminderCopy.ts。
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import VisaReminder from '../../../components/VisaReminder.astro';
+import { SECTION_NAMES } from '../../../data/sectionNames';
+import { VR_COPY } from '../../../data/visaReminderCopy';
+const copy = VR_COPY.zh!;
+---
+<Base title={`${copy.title}｜Kurawise`} description={copy.description} careerCss={true}
+  breadcrumbs={[{ name: SECTION_NAMES.career.zh, url: 'https://kurawise.com/career/' }, { name: copy.title }]}>
+  <Breadcrumb crumbs={[{ label: SECTION_NAMES.career.zh, url: '/career/' }, { label: copy.title }]} cssClass="career-breadcrumb" />
+  <VisaReminder copy={copy} lang="zh" interestUrl="/career/interest/" />
+</Base>

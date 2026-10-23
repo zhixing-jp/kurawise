@@ -1,0 +1,93 @@
+---
+// 在留期間更新の手数料・家族計算機（2026-10-23）。
+// 金額は出入国在留管理庁の手数料ページ（2026年10月1日以降受付分）による。オンラインは決済手数料込み。
+// 計算はブラウザの中だけ。入力は保存・送信しない。
+interface Props { labels: any; lang: string; }
+const { labels, lang } = Astro.props;
+const FEES = {
+  // 期間（月）: [窓口, オンライン]
+  '3': [10000, 10330], '6': [18000, 15330], '12': [33000, 27330], '36': [64000, 56550], '60': [75000, 65550]
+};
+const OLD = [6000, 5500];
+const OPTS = ['3', '6', '12', '36', '60'];
+---
+<div class="vfc" id="vfc">
+  <p class="vfc-title">🧮 {labels.title}</p>
+  <div class="vfc-method" role="radiogroup" aria-label={labels.method}>
+    <label><input type="radio" name="vfcMethod" value="0" checked /> {labels.counter}</label>
+    <label><input type="radio" name="vfcMethod" value="1" /> {labels.online}</label>
+  </div>
+  <div class="vfc-members" id="vfcMembers"></div>
+  <button type="button" class="vfc-add" id="vfcAdd">{labels.add}</button>
+  <div class="vfc-result">
+    <div><span>{labels.total}</span><strong id="vfcTotal"></strong></div>
+    <div><span>{labels.perYear}</span><strong id="vfcYear"></strong></div>
+    <div><span>{labels.perMonth}</span><strong id="vfcMonth"></strong></div>
+    <div class="vfc-old"><span>{labels.before}</span><span id="vfcOld"></span></div>
+  </div>
+  <p class="vfc-note">{labels.note}</p>
+</div>
+
+<script is:inline define:vars={{ labels, lang, FEES, OLD, OPTS }}>
+  (function () {
+    const root = document.getElementById('vfc');
+    if (!root) return;
+    const list = document.getElementById('vfcMembers');
+    const nf = new Intl.NumberFormat(lang === 'vi' ? 'vi-VN' : 'en-US');
+    const yen = (n) => nf.format(Math.round(n)) + ' ' + labels.yen;
+    let members = ['36', '36'];
+    let tracked = false;
+
+    function draw() {
+      list.innerHTML = '';
+      members.forEach((m, i) => {
+        const row = document.createElement('div');
+        row.className = 'vfc-row';
+        const lab = document.createElement('span');
+        lab.className = 'vfc-row-label';
+        lab.textContent = labels.member + ' ' + (i + 1);
+        const sel = document.createElement('select');
+        sel.setAttribute('aria-label', labels.period);
+        OPTS.forEach((o, oi) => {
+          const op = document.createElement('option');
+          op.value = o; op.textContent = labels.opts[oi];
+          if (o === m) op.selected = true;
+          sel.appendChild(op);
+        });
+        sel.addEventListener('change', () => { members[i] = sel.value; calc(); });
+        row.appendChild(lab); row.appendChild(sel);
+        if (members.length > 1) {
+          const rm = document.createElement('button');
+          rm.type = 'button'; rm.className = 'vfc-rm'; rm.textContent = '×';
+          rm.setAttribute('aria-label', labels.remove);
+          rm.addEventListener('click', () => { members.splice(i, 1); draw(); calc(); });
+          row.appendChild(rm);
+        }
+        list.appendChild(row);
+      });
+    }
+
+    function calc() {
+      const mi = Number((root.querySelector('input[name="vfcMethod"]:checked') || {}).value || 0);
+      let total = 0, perYear = 0;
+      members.forEach((m) => {
+        const f = FEES[m][mi];
+        total += f;
+        perYear += f / (Number(m) / 12);
+      });
+      document.getElementById('vfcTotal').textContent = yen(total);
+      document.getElementById('vfcYear').textContent = yen(perYear);
+      document.getElementById('vfcMonth').textContent = yen(perYear / 12);
+      document.getElementById('vfcOld').textContent = yen(OLD[mi] * members.length);
+      if (tracked === false && window.gtag) { tracked = true; }
+    }
+
+    document.getElementById('vfcAdd').addEventListener('click', () => {
+      if (members.length >= 8) return;
+      members.push(members[members.length - 1] || '36'); draw(); calc();
+      if (window.gtag) gtag('event', 'visa_fee_calc_use', { members: members.length });
+    });
+    root.querySelectorAll('input[name="vfcMethod"]').forEach((r) => r.addEventListener('change', calc));
+    draw(); calc();
+  })();
+</script>
