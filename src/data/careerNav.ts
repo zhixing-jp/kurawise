@@ -9,13 +9,24 @@ export const LANGS: L[] = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
 export const pick = (m: Record<string, string>, lang: string) => m[lang] || m.en;
 export const prefix = (lang: string) => (lang === 'zh' ? '' : `/${lang}`);
 
-export const SITUATIONS: { key: string; icon: string; label: Record<L, string> }[] = [
-  { key: 'renew', icon: '📅', label: { ja: '更新が近い', zh: '快要更新签证', 'zh-TW': '快要更新簽證', en: 'Renewing soon', vi: 'Sắp gia hạn', ko: '곧 갱신' } },
-  { key: 'change', icon: '💼', label: { ja: '転職・退職する', zh: '换工作・辞职', 'zh-TW': '換工作・離職', en: 'Changing or leaving a job', vi: 'Chuyển việc・nghỉ việc', ko: '이직·퇴직' } },
-  { key: 'pr', icon: '🏠', label: { ja: '永住を考えている', zh: '考虑申请永住', 'zh-TW': '考慮申請永住', en: 'Thinking about permanent residence', vi: 'Muốn xin vĩnh trú', ko: '영주를 생각 중' } },
-  { key: 'family', icon: '👨‍👩‍👧', label: { ja: '家族の手続き', zh: '家人的手续', 'zh-TW': '家人的手續', en: 'Family procedures', vi: 'Thủ tục cho gia đình', ko: '가족 수속' } },
-  { key: 'jobhunt', icon: '🔍', label: { ja: '仕事を探している', zh: '正在找工作', 'zh-TW': '正在找工作', en: 'Looking for a job', vi: 'Đang tìm việc', ko: '일자리를 찾는 중' } },
-  { key: 'newjob', icon: '🌱', label: { ja: '働き始めた', zh: '刚开始工作', 'zh-TW': '剛開始工作', en: 'Just started working', vi: 'Mới bắt đầu đi làm', ko: '막 일을 시작함' } }
+export const SITUATIONS: { key: string; icon: string; group: 'visa' | 'work'; label: Record<L, string>; sub: Record<L, string> }[] = [
+  { key: 'renew', icon: '📅', group: 'visa', label: { ja: '更新が近い', zh: '快要更新签证', 'zh-TW': '快要更新簽證', en: 'Renewing soon', vi: 'Sắp gia hạn', ko: '곧 갱신' },
+    sub: { ja: '手数料・払い忘れ・期限', zh: '手续费・漏缴・期限', 'zh-TW': '手續費・漏繳・期限', en: 'Fees, missed payments, deadlines', vi: 'Lệ phí, quên đóng, thời hạn', ko: '수수료·미납·기한' } },
+  { key: 'pr', icon: '🏠', group: 'visa', label: { ja: '永住を考えている', zh: '考虑申请永住', 'zh-TW': '考慮申請永住', en: 'Thinking about permanent residence', vi: 'Muốn xin vĩnh trú', ko: '영주를 생각 중' },
+    sub: { ja: '新基準・準備・取消し', zh: '新规・准备・取消', 'zh-TW': '新規・準備・取消', en: 'New rules, preparation, revocation', vi: 'Quy định mới, chuẩn bị, hủy', ko: '새 기준·준비·취소' } },
+  { key: 'family', icon: '👨‍👩‍👧', group: 'visa', label: { ja: '家族の手続き', zh: '家人的手续', 'zh-TW': '家人的手續', en: 'Family procedures', vi: 'Thủ tục cho gia đình', ko: '가족 수속' },
+    sub: { ja: '家族の費用・保険・永住', zh: '家庭费用・保险・永住', 'zh-TW': '家庭費用・保險・永住', en: 'Family costs, insurance, PR', vi: 'Chi phí gia đình, bảo hiểm, vĩnh trú', ko: '가족 비용·보험·영주' } },
+  { key: 'jobhunt', icon: '🔍', group: 'work', label: { ja: '仕事を探している', zh: '正在找工作', 'zh-TW': '正在找工作', en: 'Looking for a job', vi: 'Đang tìm việc', ko: '일자리를 찾는 중' },
+    sub: { ja: '履歴書・面接・求人票', zh: '简历・面试・招聘信息', 'zh-TW': '履歷・面試・徵才資訊', en: 'Resume, interviews, job ads', vi: 'Hồ sơ, phỏng vấn, tin tuyển dụng', ko: '이력서·면접·구인표' } },
+  { key: 'change', icon: '💼', group: 'work', label: { ja: '転職・退職する', zh: '换工作・辞职', 'zh-TW': '換工作・離職', en: 'Changing or leaving a job', vi: 'Chuyển việc・nghỉ việc', ko: '이직·퇴직' },
+    sub: { ja: '退職理由・内定・届出', zh: '离职理由・内定・申报', 'zh-TW': '離職理由・內定・申報', en: 'Reasons for leaving, offers, notices', vi: 'Lý do nghỉ, nhận việc, khai báo', ko: '퇴직 사유·내정·신고' } },
+  { key: 'newjob', icon: '🌱', group: 'work', label: { ja: '働き始めた', zh: '刚开始工作', 'zh-TW': '剛開始工作', en: 'Just started working', vi: 'Mới bắt đầu đi làm', ko: '막 일을 시작함' },
+    sub: { ja: '報連相・残業代', zh: '报联商・加班费', 'zh-TW': '報聯商・加班費', en: 'Reporting, overtime pay', vi: 'Báo cáo, tiền làm thêm', ko: '보고·잔업수당' } }
+];
+
+export const SIT_GROUPS: { key: 'visa' | 'work'; label: Record<L, string> }[] = [
+  { key: 'visa', label: { ja: 'ビザ・在留のこと', zh: '签证・在留', 'zh-TW': '簽證・在留', en: 'Visa & residence', vi: 'Visa & lưu trú', ko: '비자·체류' } },
+  { key: 'work', label: { ja: '仕事のこと', zh: '工作', 'zh-TW': '工作', en: 'Work', vi: 'Công việc', ko: '일' } }
 ];
 
 // 道具（使うもの）。situations で目的別ページにも出る
@@ -24,9 +35,9 @@ export function tools(lang: string) {
   return [{ key: 'visa-reminder', icon: '📅', title: vr.title, sub: vr.cardSub, href: `${prefix(lang)}/career/visa-reminder/`, situations: ['renew', 'pr', 'change'] }];
 }
 
-export const CATS: { key: string; groups: string[]; label: Record<L, string> }[] = [
-  { key: 'visa', groups: ['visa'], label: { ja: 'ビザ・在留の手続き', zh: '签证・在留手续', 'zh-TW': '簽證・在留手續', en: 'Visa & Residence', vi: 'Visa & lưu trú', ko: '비자·체류 수속' } },
-  { key: 'job', groups: ['prep', 'interview', 'decide', 'onboard'], label: { ja: '就職・転職', zh: '求职・转职', 'zh-TW': '求職・轉職', en: 'Job Hunting & Career', vi: 'Xin việc & chuyển việc', ko: '취업·이직' } }
+export const CATS: { key: string; icon: string; groups: string[]; label: Record<L, string> }[] = [
+  { key: 'visa', icon: '🛂', groups: ['visa'], label: { ja: 'ビザ・在留の手続き', zh: '签证・在留手续', 'zh-TW': '簽證・在留手續', en: 'Visa & Residence', vi: 'Visa & lưu trú', ko: '비자·체류 수속' } },
+  { key: 'job', icon: '💼', groups: ['prep', 'interview', 'decide', 'onboard'], label: { ja: '就職・転職', zh: '求职・转职', 'zh-TW': '求職・轉職', en: 'Job Hunting & Career', vi: 'Xin việc & chuyển việc', ko: '취업·이직' } }
 ];
 
 export const SUB: Record<string, Record<L, string>> = {

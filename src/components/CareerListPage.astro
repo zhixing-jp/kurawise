@@ -3,6 +3,7 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from './Breadcrumb.astro';
 import CareerCards from './CareerCards.astro';
+import CareerSituations from './CareerSituations.astro';
 import { SECTION_NAMES } from '../data/sectionNames';
 import { SITUATIONS, CATS, SUB, UI, pick, prefix, tools, articles } from '../data/careerNav';
 interface Props { lang: string; kind: 'for' | 'c'; keyName: string; }
@@ -51,13 +52,9 @@ if (kind === 'for') {
       </section>
     ))}
     {kind === 'for' && (
-      <section class="career-hub-group" style="margin-top:28px">
-        <h2 class="career-hub-h2">{pick(UI.others, lang)}</h2>
-        <div class="career-sit-grid">
-          {SITUATIONS.filter((x) => x.key !== keyName).map((x) => (
-            <a class="career-sit" href={`${prefix(lang)}/career/for/${x.key}/`}><span aria-hidden="true">{x.icon}</span>{pick(x.label, lang)}</a>
-          ))}
-        </div>
+      <section class="cblock" style="margin-top:28px">
+        <h2 class="cblock-head"><span aria-hidden="true">🧭</span>{pick(UI.others, lang)}</h2>
+        <CareerSituations lang={lang} exclude={keyName} />
       </section>
     )}
   </div>

@@ -555,16 +555,36 @@
 .cb-table--nowrap-last td:last-child { white-space: nowrap; }
 
 /* まとめページの改訂（2026-10-23）：目的から探す・道具・新着・カテゴリ */
-.career-sit-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-.career-sit { display: flex; align-items: center; gap: 8px; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); text-decoration: none; color: var(--t1); font-size: 14px; font-weight: 600; line-height: 1.35; }
-.career-sit span { font-size: 18px; }
 .career-sit:active { transform: scale(.98); }
 .career-tool-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
 .career-hub-h2row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
 .career-hub-h2row .career-hub-h2 { margin-bottom: 0 !important; }
 .career-hub-all { font-size: 13px; font-weight: 600; color: var(--blue); text-decoration: none; white-space: nowrap; }
-.career-latest { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); }
+.career-latest { list-style: none; margin: 0; padding: 0; background: var(--bg); border-radius: var(--r-md); }
 .career-latest li + li { border-top: 1px solid var(--line); }
 .career-latest a { display: flex; gap: 12px; align-items: baseline; padding: 12px 14px; text-decoration: none; color: var(--t1); font-size: 14px; line-height: 1.5; }
 .career-latest-date { flex-shrink: 0; font-size: 12px; font-weight: 700; color: var(--blue); font-variant-numeric: tabular-nums; }
 .career-latest-title { font-weight: 600; }
+
+/* 見出しつきのブロック（2026-10-23）：日常会話のトップと同じ「左の赤い線＋アイコン＋見出し」 */
+.cblock { background: var(--surface); border: .5px solid var(--line); border-radius: var(--r-lg); box-shadow: 0 1px 4px rgba(0,0,0,.06); padding: 0 14px 14px; margin-bottom: 16px; }
+.cblock-head { display: flex; align-items: center; gap: 8px; margin: 0 -14px 14px; padding: 13px 14px 11px; border-bottom: .5px solid rgba(0,0,0,.07); font-size: 16px; font-weight: 800; color: var(--t1); }
+.cblock-head::before { content: ''; width: 3px; height: 18px; background: var(--red); border-radius: 2px; flex-shrink: 0; }
+.cblock-head h2 { display: flex; align-items: center; gap: 8px; flex: 1; margin: 0; font-size: 16px; font-weight: 800; color: var(--t1); }
+.cblock-head .career-hub-all { margin-left: auto; }
+.cblock .career-hub-nav-card:not(.career-hub-nav-card--interview) { background: var(--bg); border-color: transparent; }
+.cblock .career-tool-card { background: var(--bg); border-color: transparent; }
+/* 目的から探す：ビザ・在留／仕事の2つにまとめる */
+.career-sitgroups { display: grid; gap: 14px; }
+.career-sitgroup-label { font-size: 12.5px; font-weight: 700; color: var(--t3); margin: 0 0 8px 2px; }
+.career-sit-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.career-sit { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; padding: 12px 6px 11px; background: var(--bg); border-radius: var(--r-md); text-decoration: none; color: var(--t1); }
+.career-sit-icon { font-size: 22px; line-height: 1.2; }
+.career-sit-label { font-size: 13px; font-weight: 700; line-height: 1.35; }
+.career-sit-sub { font-size: 10.5px; color: var(--t3); line-height: 1.35; }
+.cblock .career-tool-card { margin: 0; }
+@media (max-width: 767px) {
+  .career-sit { padding: 11px 3px 10px; }
+  .career-sit-label { font-size: 12px; letter-spacing: -.02em; }
+  .career-sit-sub { font-size: 10px; letter-spacing: -.02em; }
+}

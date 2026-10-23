@@ -1,0 +1,22 @@
+---
+// 「目的から探す」のボタン（ビザ・在留／仕事の2つにまとめて表示）。2026-10-23。
+import { SITUATIONS, SIT_GROUPS, pick, prefix } from '../data/careerNav';
+interface Props { lang: string; exclude?: string; }
+const { lang, exclude } = Astro.props;
+---
+<div class="career-sitgroups">
+  {SIT_GROUPS.map((g) => (
+    <div class="career-sitgroup">
+      <p class="career-sitgroup-label">{pick(g.label, lang)}</p>
+      <div class="career-sit-grid">
+        {SITUATIONS.filter((s) => s.group === g.key && s.key !== exclude).map((s) => (
+          <a class="career-sit" href={`${prefix(lang)}/career/for/${s.key}/`}>
+            <span class="career-sit-icon" aria-hidden="true">{s.icon}</span>
+            <span class="career-sit-label">{pick(s.label, lang)}</span>
+            <span class="career-sit-sub">{pick(s.sub, lang)}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  ))}
+</div>

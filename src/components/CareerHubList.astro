@@ -1,57 +1,55 @@
 ---
-// 仕事＆ビザのまとめページの一覧部分（2026-10-23 改訂：記事が増えても長くならない形）。
-//   ① 目的から探す（目的別ページへのボタン）
+// 仕事＆ビザのまとめページの一覧部分（2026-10-23 改訂）。各段を見出しつきのブロックにする。
+//   ① 目的から探す（ビザ・在留／仕事の2つにまとめたボタン → 目的別ページ）
 //   ② 便利な道具
 //   ③ 新着・更新（更新日の新しい3本。日付とタイトルだけの短い一覧）
 //   ④ カテゴリ（代表の記事＝featured だけ。残りは「すべて見る」→ カテゴリのページ）
-import { SITUATIONS, CATS, UI, pick, prefix, tools, articles } from '../data/careerNav';
+import { CATS, UI, pick, prefix, tools, articles } from '../data/careerNav';
 import CareerCards from './CareerCards.astro';
+import CareerSituations from './CareerSituations.astro';
 interface Props { lang: string; }
 const { lang } = Astro.props;
 const all = articles(lang);
 const latest = all.filter((a) => a.updated).sort((a, b) => (b.updated || '').localeCompare(a.updated || '')).slice(0, 3);
-const latestIds = latest.map((a) => a.id);
 ---
-<section class="career-hub-group">
-  <h2 class="career-hub-h2">{pick(UI.find, lang)}</h2>
-  <div class="career-sit-grid">
-    {SITUATIONS.map((s) => (
-      <a class="career-sit" href={`${prefix(lang)}/career/for/${s.key}/`}><span aria-hidden="true">{s.icon}</span>{pick(s.label, lang)}</a>
-    ))}
-  </div>
+<section class="cblock">
+  <h2 class="cblock-head"><span aria-hidden="true">🧭</span>{pick(UI.find, lang)}</h2>
+  <CareerSituations lang={lang} />
 </section>
 
-<section class="career-hub-group">
-  <h2 class="career-hub-h2">{pick(UI.tools, lang)}</h2>
-  <div class="career-tool-grid">
-    {tools(lang).map((t) => (
-      <a class="career-tool-card" href={t.href} data-ga-event="visa_reminder_card_click">
-        <span class="career-tool-card-icon" aria-hidden="true">{t.icon}</span>
-        <span class="career-tool-card-text"><strong>{t.title}</strong><span>{t.sub}</span></span>
-        <span class="career-tool-card-arrow" aria-hidden="true">›</span>
-      </a>
-    ))}
-  </div>
-</section>
-
-{latest.length > 0 && (
-  <section class="career-hub-group">
-    <h2 class="career-hub-h2">{pick(UI.latest, lang)}</h2>
-    <ul class="career-latest">
-      {latest.map((a) => (
-        <li><a href={a.href}><span class="career-latest-date">{(a.updated || '').replace(/-/g, '.')}</span><span class="career-latest-title">{a.title}</span></a></li>
+<div class="cblock-row">
+  <section class="cblock">
+    <h2 class="cblock-head"><span aria-hidden="true">🛠️</span>{pick(UI.tools, lang)}</h2>
+    <div class="career-tool-grid">
+      {tools(lang).map((t) => (
+        <a class="career-tool-card" href={t.href} data-ga-event="visa_reminder_card_click">
+          <span class="career-tool-card-icon" aria-hidden="true">{t.icon}</span>
+          <span class="career-tool-card-text"><strong>{t.title}</strong><span>{t.sub}</span></span>
+          <span class="career-tool-card-arrow" aria-hidden="true">›</span>
+        </a>
       ))}
-    </ul>
+    </div>
   </section>
-)}
+
+  {latest.length > 0 && (
+    <section class="cblock">
+      <h2 class="cblock-head"><span aria-hidden="true">🆕</span>{pick(UI.latest, lang)}</h2>
+      <ul class="career-latest">
+        {latest.map((a) => (
+          <li><a href={a.href}><span class="career-latest-date">{(a.updated || '').replace(/-/g, '.')}</span><span class="career-latest-title">{a.title}</span></a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</div>
 
 {CATS.map((c) => {
   const list = all.filter((a) => c.groups.includes(a.group));
   const cards = list.filter((a) => a.featured).slice(0, 3);
   return list.length > 0 && (
-    <section class="career-hub-group">
-      <div class="career-hub-h2row">
-        <h2 class="career-hub-h2">{pick(c.label, lang)}</h2>
+    <section class="cblock">
+      <div class="cblock-head">
+        <h2><span aria-hidden="true">{c.icon}</span>{pick(c.label, lang)}</h2>
         <a class="career-hub-all" href={`${prefix(lang)}/career/c/${c.key}/`}>{pick(UI.all, lang)}（{list.length}）›</a>
       </div>
       {cards.length > 0 && <CareerCards items={cards} lang={lang} />}

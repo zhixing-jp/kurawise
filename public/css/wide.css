@@ -72,15 +72,18 @@
   #toast { bottom: 24px; }
 }
 
-/* 仕事＆ビザのまとめページ（目的・道具） */
+/* 仕事＆ビザのまとめページ（ブロック・目的・道具） */
 @media (min-width: 768px) {
-  .career-sit-grid { grid-template-columns: repeat(3, 1fr); }
-  .career-tool-grid { grid-template-columns: repeat(2, 1fr); }
+  .career-sit-label { font-size: 14px; }
+  .career-sit-sub { font-size: 11.5px; }
+  .cblock { padding: 0 18px 18px; }
+  .cblock-head { margin: 0 -18px 16px; padding: 14px 18px 12px; }
 }
 @media (min-width: 1024px) {
-  .career-sit-grid { grid-template-columns: repeat(6, 1fr); }
-  .career-sit { flex-direction: column; text-align: center; justify-content: center; padding: 14px 8px; }
-  .career-tool-grid { grid-template-columns: repeat(3, 1fr); }
+  .career-sitgroups { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .cblock-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: stretch; }
+  .cblock-row .cblock { margin-bottom: 16px; }
+  .career-tool-grid { grid-template-columns: 1fr; }
 }
 @media (min-width: 1024px) {
   body[data-layout="wide"] .career-breadcrumb { max-width: 1080px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
