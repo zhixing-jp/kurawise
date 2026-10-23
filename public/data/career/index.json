@@ -37,6 +37,24 @@
       "description_ja": "転職や引っ越しのときが一番忘れやすい。5分のチェック表、自動で払う設定、見つかったときの手順。"
     },
     {
+      "id": "permanent-residence-2026",
+      "group": "visa",
+      "updated": "2026-10-23",
+      "url": "/career/permanent-residence-2026/",
+      "title": "日本永住新规（2026年10月）：变了什么、你适用哪套规则、现在该怎么准备",
+      "description": "申请日决定适用哪套规则。新旧比较、常见误解、把不利变成有利的准备、永住会不会被取消。",
+      "title_zh-TW": "日本永住新規（2026年10月）：變了什麼、你適用哪套規則、現在該怎麼準備",
+      "description_zh-TW": "申請日決定適用哪套規則。新舊比較、常見誤解、把不利變成有利的準備、永住會不會被取消。",
+      "title_en": "Japan's New Permanent Residence Rules (October 2026): What Changed, Which Rules Apply to You, and How to Prepare",
+      "description_en": "Your application date decides which rules apply. Old vs new, common myths, how to turn weak points into strengths, and when PR can be revoked.",
+      "title_vi": "Quy định vĩnh trú mới của Nhật (10/2026): Thay đổi gì, bạn áp dụng quy định nào, chuẩn bị ra sao",
+      "description_vi": "Ngày nộp quyết định quy định áp dụng. So sánh cũ–mới, hiểu lầm thường gặp, cách biến bất lợi thành lợi thế, khi nào bị hủy vĩnh trú.",
+      "title_ko": "일본 영주 새 기준(2026년 10월): 무엇이 바뀌었고, 어떤 규칙이 적용되며, 지금 무엇을 준비할까",
+      "description_ko": "신청일이 적용 규칙을 정합니다. 신구 비교, 흔한 오해, 불리를 유리로 바꾸는 준비, 영주 취소 여부.",
+      "title_ja": "永住の新しい基準（2026年10月）：何が変わり、自分はどのルールで、今から何を準備するか",
+      "description_ja": "申請日で適用ルールが決まる。新旧比較、よくある誤解、不利を有利に変える準備、永住は取り消されるのか。"
+    },
+    {
       "id": "resume-vs-career-history",
       "group": "prep",
       "title": "履歴書与職務経歴書到底有什么区别？",

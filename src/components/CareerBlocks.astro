@@ -39,7 +39,7 @@ function maxOf(items: any[]) { return Math.max(...items.map((i) => i.value)); }
       ) : b.t === 'table' ? (
         <div class="cb-table-wrap">
           {b.caption && <p class="cb-table-caption">{b.caption}</p>}
-          <table class="cb-table">
+          <table class={`cb-table${b.nowrapLast ? ' cb-table--nowrap-last' : ''}`}>
             <thead><tr>{b.head.map((h: string) => <th set:html={h} />)}</tr></thead>
             <tbody>{b.rows.map((r: string[]) => <tr>{r.map((c: string, ci: number) => ci === 0 ? <th scope="row" set:html={c} /> : <td set:html={c} />)}</tr>)}</tbody>
           </table>
