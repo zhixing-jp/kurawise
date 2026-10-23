@@ -1,0 +1,62 @@
+---
+// 病院＆医療のまとめページの一覧部分（2026-10-23）。仕事＆ビザと同じ形。
+//   ① 今どうしたい？（今すぐ／病院に行く／知っておく の3つの一覧）
+//   ② 困ったときの電話（119・#7119・#8000、押すと電話）｜ 通訳・同行を頼む（同行サービスへ）
+import medicalIndex from '../../public/data/medical/index.json';
+import referral from '../../public/data/medical/referral.json';
+import { MED_UI, MED_GROUPS, MED_ROWS, PHONES, pickM } from '../data/medicalNav';
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const pre = lang === 'zh' ? '' : `/${lang}`;
+const pages: Record<string, any> = {};
+for (const p of medicalIndex.pages as any[]) pages[p.id] = p;
+const title = (p: any) => (lang === 'zh' ? p.title : p[`title_${lang}`]) || p.title;
+const bannerText = (referral.banner.text as Record<string, string>)[lang] || referral.banner.text.zh;
+const serviceTitle = (referral.page.title as Record<string, string>)[lang] || referral.page.title.zh;
+---
+<section class="cblock">
+  <h2 class="cblock-head"><span aria-hidden="true">🧭</span>{pickM(MED_UI.now, lang)}</h2>
+  <div class="career-sitgroups med-sitgroups">
+    {MED_GROUPS.map((g) => (
+      <div class="career-sitgroup">
+        <p class="career-sitgroup-label">{pickM(g.label, lang)}</p>
+        <div class="ios-list">
+          {MED_ROWS.filter((r) => r.group === g.key && pages[r.id]).map((r) => (
+            <a class={`ios-row ios-tone--${r.tone}`} href={`${pre}${pages[r.id].url}`}>
+              <span class="ios-ico" aria-hidden="true">{r.icon}</span>
+              <span class="ios-text"><span class="ios-title">{title(pages[r.id])}</span><span class="ios-sub">{pickM(r.sub, lang)}</span></span>
+              <span class="ios-chev" aria-hidden="true">›</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<div class="cblock-row">
+  <section class="cblock">
+    <h2 class="cblock-head"><span aria-hidden="true">📞</span>{pickM(MED_UI.phone, lang)}</h2>
+    <div class="ios-list">
+      {PHONES.map((p) => (
+        <a class={`ios-row ios-tone--${p.tone}`} href={`tel:${p.tel}`} data-ga-event="medical_phone_tap">
+          <span class="ios-ico ios-ico--num" aria-hidden="true">📞</span>
+          <span class="ios-text"><span class="ios-title ios-title--num">{p.num}</span><span class="ios-sub">{pickM(p.label, lang)}</span></span>
+          <span class="ios-chev" aria-hidden="true">›</span>
+        </a>
+      ))}
+    </div>
+    <p class="ios-note">{pickM(MED_UI.phoneNote, lang)}</p>
+  </section>
+
+  <section class="cblock">
+    <h2 class="cblock-head"><span aria-hidden="true">🤝</span>{pickM(MED_UI.service, lang)}</h2>
+    <div class="ios-list">
+      <a class="ios-row ios-tone--blue" href={`${pre}/medical/service/`} data-ga-event="medical_hub_service_click">
+        <span class="ios-ico" aria-hidden="true">🤝</span>
+        <span class="ios-text"><span class="ios-title">{serviceTitle}</span><span class="ios-sub">{bannerText}</span></span>
+        <span class="ios-chev" aria-hidden="true">›</span>
+      </a>
+    </div>
+  </section>
+</div>

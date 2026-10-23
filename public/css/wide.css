@@ -94,3 +94,6 @@
   .cblock-row .cblock { margin-bottom: 28px; }
   .cblock-row { gap: 20px; }
 }
+@media (min-width: 1024px) {
+  .med-sitgroups { grid-template-columns: repeat(3, 1fr); }
+}

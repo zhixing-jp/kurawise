@@ -35,6 +35,7 @@ const langPathPrefix = `/${lang}`;
 // 不要把 as 类型断言直接写在模板表达式区域（模板区域解析泛型语法的行为和 frontmatter 不一致）。
 const disclaimerHubShort = disclaimer.hub_short as Record<string, string>;
 const hubShortText = disclaimerHubShort[lang] || disclaimerHubShort.zh;
+import MedicalHubList from '../../../components/MedicalHubList.astro';
 ---
 
 <Base title={pick(MEDICAL_HUB.title, lang)} description={pick(MEDICAL_HUB.description, lang)} medicalCss={true}>
@@ -44,21 +45,7 @@ const hubShortText = disclaimerHubShort[lang] || disclaimerHubShort.zh;
     <p class="med-hub-intro">{pick(MEDICAL_HUB.intro, lang)}</p>
     <p class="med-disclaimer">{hubShortText}</p>
 
-    {Object.entries(groups).map(([groupKey, pages]) => (
-      pages.length > 0 && (
-        <section class="med-hub-group">
-          <h2>{titles[groupKey]?.[lang] || titles[groupKey]?.en || groupKey}</h2>
-          <div class="med-hub-nav-grid">
-            {pages.map((p: any) => (
-              <a href={`${langPathPrefix}${p.url}`} class={`med-hub-nav-card med-hub-nav-card--${groupKey}`}>
-                <div class="med-hub-nav-card-title">{tf(p, 'title', lang)}</div>
-                <div class="med-hub-nav-card-desc">{tf(p, 'description', lang)}</div>
-              </a>
-            ))}
-          </div>
-        </section>
-      )
-    ))}
+    <MedicalHubList lang={lang} />
   </div>
 
   <div data-pagefind-body style="display:none">{pick(MEDICAL_HUB.title, lang)} {pick(MEDICAL_HUB.description, lang)}</div>

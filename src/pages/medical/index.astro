@@ -15,6 +15,7 @@ const groups: Record<string, any[]> = { action: [], tool: [], reference: [] };
 for (const p of medicalIndex.pages) {
   (groups[p.group] || (groups[p.group] = [])).push(p);
 }
+import MedicalHubList from '../../components/MedicalHubList.astro';
 ---
 
 <Base title={MEDICAL_HUB.title.zh} description={MEDICAL_HUB.description.zh} medicalCss={true}>
@@ -24,21 +25,7 @@ for (const p of medicalIndex.pages) {
     <p class="med-hub-intro">{MEDICAL_HUB.intro.zh}</p>
     <p class="med-disclaimer">{disclaimer.hub_short.zh}</p>
 
-    {Object.entries(groups).map(([groupKey, pages]) => (
-      pages.length > 0 && (
-        <section class="med-hub-group">
-          <h2>{titles[groupKey] || groupKey}</h2>
-          <div class="med-hub-nav-grid">
-            {pages.map((p: any) => (
-              <a href={p.url} class={`med-hub-nav-card med-hub-nav-card--${groupKey}`}>
-                <div class="med-hub-nav-card-title">{p.title}</div>
-                <div class="med-hub-nav-card-desc">{p.description}</div>
-              </a>
-            ))}
-          </div>
-        </section>
-      )
-    ))}
+    <MedicalHubList lang={'zh'} />
   </div>
 
   <div data-pagefind-body style="display:none">{SECTION_NAMES.medical.zh} {MEDICAL_HUB.title.zh} {MEDICAL_HUB.description.zh}</div>
