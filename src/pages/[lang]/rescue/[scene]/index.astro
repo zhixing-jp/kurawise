@@ -143,7 +143,7 @@ if (hasGroups) {
                     class="rescue-landing-btn"
                   >
                     <span class="rescue-landing-btn-title">{getSubTitle(sub, lang)}</span>
-                    <span class="rescue-landing-btn-ja">{sub.title_ja || ''}</span>
+                    {lang !== 'ja' && sub.title_ja && <span class="rescue-landing-btn-ja">{sub.title_ja}</span>}
                   </a>
                 ))}
               </div>
@@ -159,7 +159,7 @@ if (hasGroups) {
             class="rescue-landing-btn"
           >
             <span class="rescue-landing-btn-title">{getSubTitle(sub, lang)}</span>
-            <span class="rescue-landing-btn-ja">{sub.title_ja || ''}</span>
+            {lang !== 'ja' && sub.title_ja && <span class="rescue-landing-btn-ja">{sub.title_ja}</span>}
           </a>
         ))}
       </div>

@@ -12,7 +12,7 @@ const all = articles(lang);
 const careerName = (SECTION_NAMES.career as Record<string, string>)[lang];
 const hubHref = `${prefix(lang)}/career/`;
 let title = '', intro = '';
-let sections: { heading?: string; items: any[] }[] = [];
+let sections: { heading?: string; icon?: string; items: any[] }[] = [];
 let toolList: any[] = [];
 if (kind === 'for') {
   const s = SITUATIONS.find((x) => x.key === keyName)!;
@@ -20,12 +20,12 @@ if (kind === 'for') {
   intro = pick(UI.forIntro, lang).replace('{x}', title);
   toolList = tools(lang).filter((t) => t.situations.includes(keyName));
   const list = all.filter((a) => a.situations.includes(keyName));
-  sections = [{ items: list.filter((a) => a.group === 'visa') }, { items: list.filter((a) => a.group !== 'visa') }];
+  sections = CATS.map((c) => ({ heading: pick(c.label, lang), icon: c.icon, items: list.filter((a) => c.groups.includes(a.group)) }));
 } else {
   const c = CATS.find((x) => x.key === keyName)!;
   title = pick(c.label, lang);
   intro = pick(UI.catIntro, lang);
-  sections = c.groups.map((g) => ({ heading: c.groups.length > 1 ? pick(SUB[g], lang) : undefined, items: all.filter((a) => a.group === g) }));
+  sections = c.groups.map((g) => ({ heading: c.groups.length > 1 ? pick(SUB[g], lang) : pick(c.label, lang), icon: c.groups.length > 1 ? undefined : c.icon, items: all.filter((a) => a.group === g) }));
 }
 ---
 <Base title={`${title}｜${careerName}｜Kurawise`} description={intro} careerCss={true}
@@ -35,24 +35,27 @@ if (kind === 'for') {
     <h1>{title}</h1>
     <p class="career-hub-intro">{intro}</p>
     {toolList.length > 0 && (
-      <div class="career-tool-grid" style="margin-bottom:24px">
-        {toolList.map((t) => (
-          <a class="career-tool-card" href={t.href}>
-            <span class="career-tool-card-icon" aria-hidden="true">{t.icon}</span>
-            <span class="career-tool-card-text"><strong>{t.title}</strong><span>{t.sub}</span></span>
-            <span class="career-tool-card-arrow" aria-hidden="true">›</span>
-          </a>
-        ))}
-      </div>
+      <section class="cblock">
+        <h2 class="cblock-head"><span aria-hidden="true">🛠️</span>{pick(UI.tools, lang)}</h2>
+        <div class="career-tool-grid">
+          {toolList.map((t) => (
+            <a class="career-tool-card" href={t.href}>
+              <span class="career-tool-card-icon" aria-hidden="true">{t.icon}</span>
+              <span class="career-tool-card-text"><strong>{t.title}</strong><span>{t.sub}</span></span>
+              <span class="career-tool-card-arrow" aria-hidden="true">›</span>
+            </a>
+          ))}
+        </div>
+      </section>
     )}
     {sections.filter((s) => s.items.length > 0).map((s) => (
-      <section class="career-hub-sub">
-        {s.heading && <h3>{s.heading}</h3>}
+      <section class="cblock">
+        {s.heading && <h2 class="cblock-head">{s.icon && <span aria-hidden="true">{s.icon}</span>}{s.heading}</h2>}
         <CareerCards items={s.items} lang={lang} />
       </section>
     ))}
     {kind === 'for' && (
-      <section class="cblock" style="margin-top:28px">
+      <section class="cblock">
         <h2 class="cblock-head"><span aria-hidden="true">🧭</span>{pick(UI.others, lang)}</h2>
         <CareerSituations lang={lang} exclude={keyName} />
       </section>

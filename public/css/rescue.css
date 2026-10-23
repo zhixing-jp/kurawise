@@ -449,3 +449,38 @@ mark { background: #FFD60A; color: var(--t1); border-radius: 2px; padding: 0 1px
 /* トップのバナー：セクション名（日常会話）を見出しとして少し目立たせる（10/23） */
 .banner-eyebrow { font-size: 11px; letter-spacing: .04em; text-transform: none; color: rgba(255,255,255,.55); }
 .banner-method { font-size: 11px; color: rgba(255,255,255,.5); }
+
+/* ── 仕事＆ビザと同じ見た目にそろえる（2026-10-23）──
+   場面のページ：小場面のまとまりを白いブロック＋赤い線の見出しに、小場面は iOS 風の一覧（行・区切り線・›）に */
+.rescue-landing-group {
+  background: var(--surface); border: .5px solid var(--line); border-radius: var(--r-lg);
+  box-shadow: 0 1px 4px rgba(0,0,0,.06); padding: 0 14px 14px; overflow: visible;
+}
+.rescue-landing-group-title {
+  background: none; margin: 0 -14px 12px; padding: 13px 14px 11px;
+  font-size: 16px; font-weight: 800; border-bottom: .5px solid rgba(0,0,0,.07);
+}
+.rescue-landing-group-title::before { height: 18px; }
+.rescue-landing-group .rescue-landing-grid {
+  display: block; padding: 0; gap: 0; background: var(--surface);
+  border: .5px solid var(--line); border-radius: 12px; overflow: hidden;
+}
+.rescue-landing-group .rescue-landing-btn {
+  position: relative; border: 0; border-radius: 0; box-shadow: none; min-height: 0;
+  padding: 11px 38px 11px 14px; gap: 1px; background: var(--surface);
+}
+.rescue-landing-group .rescue-landing-btn + .rescue-landing-btn::before {
+  content: ''; position: absolute; top: 0; left: 14px; right: 0; border-top: .5px solid var(--line);
+}
+.rescue-landing-group .rescue-landing-btn::after {
+  content: '›'; position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+  font-size: 20px; color: var(--t4);
+}
+.rescue-landing-group .rescue-landing-btn:active { transform: none; background: rgba(0,0,0,.05); border-color: transparent; }
+.rescue-landing-group .rescue-landing-btn-title { font-size: 15px; font-weight: 600; color: var(--t1); }
+.rescue-landing-group .rescue-landing-btn-ja { font-size: 12px; color: var(--t3); }
+.rescue-landing-groups { gap: 24px; }
+/* 日常会話のトップ：まとまりの見出しを、ほかのセクションと同じ大きさに */
+.rescue-category-title { font-size: 16px; font-weight: 800; padding: 13px 14px 11px; }
+.rescue-category-title::before { height: 18px; }
+.rescue-category-group { margin-bottom: 24px; }

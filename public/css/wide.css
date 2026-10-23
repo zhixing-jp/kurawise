@@ -97,3 +97,17 @@
 @media (min-width: 1024px) {
   .med-sitgroups { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* 日常会話：場面のページ・文のページ（2026-10-23 細かい調整） */
+@media (min-width: 768px) {
+  .rescue-landing-hero { margin: 8px 14px 0; }
+  .rescue-landing-groups { gap: 28px; }
+  .rescue-category-group { margin-bottom: 28px; }
+}
+@media (min-width: 1024px) {
+  .rescue-landing-hero { margin: 16px 24px 0; padding: 28px 32px; }
+  .scene-info-wrap { margin: 16px 24px 4px; }
+  .rescue-landing-groups { padding: 16px 24px 28px; gap: 24px; }
+  .rescue-ctrl-bar { justify-content: center; gap: 18px; }
+  body[data-layout="read"] .rescue-content-wrap { padding-left: 24px; padding-right: 24px; }
+}
