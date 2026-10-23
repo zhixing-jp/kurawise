@@ -1,7 +1,7 @@
 ---
 import { getLangFromUrl } from '../i18n/index.js';
 import { SECTIONS } from '../data/sections';
-import { SECTION_NAMES, TAB_BREAK_AFTER, type SectionKey } from '../data/sectionNames';
+import { SECTION_NAMES, TAB_BREAK_AFTER, sectionName, type SectionKey } from '../data/sectionNames';
 import careerReferral from '../../public/data/career/referral.json';
 import guideProducts from '../../public/data/guides/products.json';
 
@@ -158,6 +158,9 @@ const isGuides = currentPath.includes('/guides') || currentPath.includes('/downl
 const isKurashi = currentPath.startsWith('/kurashi');
 const isApps = currentPath.startsWith('/apps') || currentPath.startsWith('/kuraphoto');
 // どのタブにも属さないページ（about・広告について）では、タブを選ばれた表示にしない（10/23）
+// パソコン・タブレット表示（10/23）：一覧のページは広い枠（wide）、読むページは読みやすい幅（read）
+const strippedPath = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
+const pageLayout = /^\/(|medical\/|career\/|career\/(for|c)\/[a-z]+\/|kurashi\/|apps\/|rescue\/s\d+\/)$/.test(strippedPath) ? 'wide' : 'read';
 const isNoTab = /^\/(about|ad-policy|privacy)\/?$/.test(currentPath);
 // 「広告について」のリンクは、広告を載せるタブ4・5のページ（とそのページ自身）だけに出す（10/23 智行）
 const showAdPolicyLink = isKurashi || isApps || /^\/ad-policy\/?$/.test(currentPath);
@@ -296,6 +299,7 @@ const jsonLd = {
   { careerCss && <link rel="stylesheet" href="/css/career.css" /> }
   { guidesCss && <link rel="stylesheet" href="/css/guides.css" /> }
   { appsCss && <link rel="stylesheet" href="/css/apps.css" /> }
+  <link rel="stylesheet" href="/css/wide.css">
 
   <!-- JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -342,7 +346,7 @@ const jsonLd = {
 
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 </head>
-<body>
+<body data-layout={pageLayout}>
 
   <!-- Header -->
   <div id="header">
@@ -355,6 +359,15 @@ const jsonLd = {
         <div class="wordmark-dot"></div>
       </div>
     </div>
+
+      <!-- パソコンでは、下のタブバーの代わりにここにセクションのメニューを出す（wide.css で表示を切り替え） -->
+      <nav id="topNav" aria-label="sections">
+        <a href={rescueUrl} data-tab="rescue" class={`topnav-link${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps && !isNoTab) ? ' on' : ''}`}>{sectionName('rescue', lang)}</a>
+        <a href={medicalUrl} data-tab="medical" class={`topnav-link${isMedical ? ' on' : ''}`}>{sectionName('medical', lang)}</a>
+        <a href={careerUrl} data-tab="career" class={`topnav-link${isCareer ? ' on' : ''}`}>{sectionName('career', lang)}</a>
+        <a href={kurashiUrl} data-tab="kurashi" class={`topnav-link${isKurashi ? ' on' : ''}`}>{sectionName('kurashi', lang)}</a>
+        <a href={appsUrl} data-tab="apps" class={`topnav-link${isApps ? ' on' : ''}`}>{sectionName('apps', lang)}</a>
+      </nav>
 
       <!-- 探索栏 -->
       <div class="search-wrap" id="searchWrap">
@@ -602,6 +615,7 @@ const jsonLd = {
       function syncTabH() {
         var bar = document.getElementById('tabBar');
         if (!bar) return;
+        if (getComputedStyle(bar).display === 'none') { document.documentElement.style.setProperty('--tab-h', '0px'); return; }
         var safe = parseFloat(getComputedStyle(bar).paddingBottom) - 4 || 0;
         var h = Math.ceil(bar.getBoundingClientRect().height - Math.max(safe, 0));
         document.documentElement.style.setProperty('--tab-h', Math.max(56, h) + 'px');
@@ -623,6 +637,11 @@ const jsonLd = {
           var html = (brk && name.indexOf(brk) === 0) ? esc(brk) + '<wbr>' + esc(name.slice(brk.length)) : esc(name);
           var lbl = a.querySelector('.tab-label');
           if (lbl) lbl.innerHTML = html;
+        });
+        document.querySelectorAll('#topNav a[data-tab]').forEach(function (a) {
+          var k = a.getAttribute('data-tab');
+          a.setAttribute('href', urls[k]);
+          a.textContent = (NAMES[k] && (NAMES[k][l] || NAMES[k].en)) || '';
         });
         syncTabH();
       };

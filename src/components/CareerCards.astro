@@ -1,0 +1,16 @@
+---
+// 仕事＆ビザの記事カードの並び（まとめ・目的別・カテゴリのページで共通）
+import { UI, pick, type Article } from '../data/careerNav';
+interface Props { items: Article[]; lang: string; }
+const { items, lang } = Astro.props;
+const d = (s: string) => s.replace(/-/g, '.');
+---
+<div class="career-hub-nav-grid">
+  {items.map((a) => (
+    <a href={a.href} class={`career-hub-nav-card career-hub-nav-card--${a.group}`}>
+      {a.updated && <span class="career-hub-updated">{pick(UI.updated, lang)} {d(a.updated)}</span>}
+      <div class="career-hub-nav-card-title">{a.title}</div>
+      <div class="career-hub-nav-card-desc">{a.desc}</div>
+    </a>
+  ))}
+</div>

@@ -553,3 +553,18 @@
 .cb-check-hint { font-size: 11.5px !important; color: var(--t4) !important; margin: 8px 0 0 !important; }
 .cb-table tbody th { min-width: 4.6em; }
 .cb-table--nowrap-last td:last-child { white-space: nowrap; }
+
+/* まとめページの改訂（2026-10-23）：目的から探す・道具・新着・カテゴリ */
+.career-sit-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.career-sit { display: flex; align-items: center; gap: 8px; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); text-decoration: none; color: var(--t1); font-size: 14px; font-weight: 600; line-height: 1.35; }
+.career-sit span { font-size: 18px; }
+.career-sit:active { transform: scale(.98); }
+.career-tool-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.career-hub-h2row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+.career-hub-h2row .career-hub-h2 { margin-bottom: 0 !important; }
+.career-hub-all { font-size: 13px; font-weight: 600; color: var(--blue); text-decoration: none; white-space: nowrap; }
+.career-latest { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); }
+.career-latest li + li { border-top: 1px solid var(--line); }
+.career-latest a { display: flex; gap: 12px; align-items: baseline; padding: 12px 14px; text-decoration: none; color: var(--t1); font-size: 14px; line-height: 1.5; }
+.career-latest-date { flex-shrink: 0; font-size: 12px; font-weight: 700; color: var(--blue); font-variant-numeric: tabular-nums; }
+.career-latest-title { font-weight: 600; }

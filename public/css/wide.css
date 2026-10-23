@@ -1,0 +1,88 @@
+/* ══════════════════════════════
+   wide.css — タブレット・パソコン表示（2026-10-23）
+   スマホ（〜767px）の見た目は変えない。ここの指定は、すべて広い画面のときだけ効く。
+   ・タブレット（768px〜）：枠を 760px に広げる。カードの列を増やす
+   ・パソコン（1024px〜）：ヘッダーを全幅にし、上にセクションのメニュー。下のタブバーは出さない
+       一覧のページ（body[data-layout=wide]）は 1120px、読むページ（read）は 800px の枠
+   画面の下に固定するもの（再生ボタンの帯、案内の帯、検索の画面）は、枠の幅（--frame-w）に合わせる。
+══════════════════════════════ */
+
+#topNav { display: none; }
+
+@media (min-width: 768px) {
+  :root { --frame-w: 760px; }
+  body { max-width: var(--frame-w); }
+  #header, #tabBar, .rescue-ctrl-bar, .career-referral-banner, .med-referral-banner { max-width: var(--frame-w); }
+  #searchPanel { max-width: var(--frame-w) !important; }
+
+  /* 日常会話：場面のカードを3列に */
+  .rescue-scene-grid { grid-template-columns: repeat(3, 1fr); }
+  .rescue-landing-grid { grid-template-columns: repeat(3, 1fr); }
+  /* 病院＆医療・仕事＆ビザの一覧 */
+  .med-hub-nav-grid, .career-hub-nav-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  body[data-layout="wide"] { --frame-w: 1120px; }
+  body[data-layout="read"] { --frame-w: 800px; }
+  body { max-width: var(--frame-w); padding-bottom: 0; }
+
+  /* ヘッダー：全幅。中身は枠の幅にそろえる */
+  #header { max-width: none; left: 0; transform: none; }
+  .header-bar { max-width: 1120px; margin: 0 auto; padding: 0 24px; gap: 20px; }
+  .search-wrap { max-width: 260px; flex: 0 1 260px; margin-left: auto; }
+
+  /* 上のメニュー */
+  #topNav { display: flex; align-items: center; gap: 4px; flex: 1 1 auto; min-width: 0; }
+  .topnav-link {
+    color: rgba(255,255,255,.72); text-decoration: none; font-size: 14px; font-weight: 600;
+    padding: 7px 12px; border-radius: 9px; white-space: nowrap; transition: background .15s, color .15s;
+  }
+  .topnav-link:hover { background: rgba(255,255,255,.10); color: #fff; }
+  .topnav-link.on { color: #fff; background: rgba(255,255,255,.14); }
+
+  /* 下のタブバーは出さない（固定の帯は画面の一番下に） */
+  #tabBar { display: none; }
+  .rescue-ctrl-bar, .career-referral-banner, .med-referral-banner { bottom: 0; }
+
+  /* 日常会話のトップ：場面のまとまりを2列に */
+  .rescue-scene-wrap .rescue-scene-wrap, .rescue-scene-wrap:has(> .rescue-category-group) {
+    columns: 2; column-gap: 16px; padding: 4px 24px 24px;
+  }
+  .rescue-category-group { break-inside: avoid; }
+  .rescue-scene-grid { grid-template-columns: repeat(2, 1fr); }
+  #banner { margin: 16px 24px 12px; padding: 20px 24px; }
+
+  /* 日常会話の場面のページ */
+  .rescue-landing-grid { grid-template-columns: repeat(4, 1fr); }
+  .rescue-landing-groups { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+
+  /* 病院＆医療・仕事＆ビザの一覧 */
+  .med-hub-page, .career-hub-page { max-width: 1080px; padding-left: 24px; padding-right: 24px; }
+  .med-hub-nav-grid, .career-hub-nav-grid { grid-template-columns: repeat(3, 1fr); }
+  .career-hub-nav-grid--single { grid-template-columns: repeat(3, 1fr) !important; }
+
+  /* 読むページは、枠の中で少し余白を広く */
+  body[data-layout="read"] .career-article-page,
+  body[data-layout="read"] .med-action-page,
+  body[data-layout="read"] .copy-page,
+  body[data-layout="read"] .vr-page { padding-left: 32px; padding-right: 32px; max-width: 800px; }
+
+  #backTop { bottom: 24px; }
+  #toast { bottom: 24px; }
+}
+
+/* 仕事＆ビザのまとめページ（目的・道具） */
+@media (min-width: 768px) {
+  .career-sit-grid { grid-template-columns: repeat(3, 1fr); }
+  .career-tool-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .career-sit-grid { grid-template-columns: repeat(6, 1fr); }
+  .career-sit { flex-direction: column; text-align: center; justify-content: center; padding: 14px 8px; }
+  .career-tool-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1024px) {
+  body[data-layout="wide"] .career-breadcrumb { max-width: 1080px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+  .career-hub-page .career-disclaimer { max-width: none; padding: 0; margin: 0 0 18px; }
+}

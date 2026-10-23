@@ -1,0 +1,8 @@
+---
+// 目标路径：/career/for/{key}/（简体中文）目的別の一覧。定義は src/data/careerNav.ts
+import CareerListPage from '../../../components/CareerListPage.astro';
+import { SITUATIONS } from '../../../data/careerNav';
+export function getStaticPaths() { return SITUATIONS.map((s) => ({ params: { key: s.key } })); }
+const { key } = Astro.params;
+---
+<CareerListPage lang="zh" kind="for" keyName={key as string} />

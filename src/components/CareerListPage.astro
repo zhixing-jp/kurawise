@@ -1,0 +1,64 @@
+---
+// 仕事＆ビザの一覧ページ（目的別 /career/for/{key}/ と、カテゴリ /career/c/{key}/）。2026-10-23。
+import Base from '../layouts/Base.astro';
+import Breadcrumb from './Breadcrumb.astro';
+import CareerCards from './CareerCards.astro';
+import { SECTION_NAMES } from '../data/sectionNames';
+import { SITUATIONS, CATS, SUB, UI, pick, prefix, tools, articles } from '../data/careerNav';
+interface Props { lang: string; kind: 'for' | 'c'; keyName: string; }
+const { lang, kind, keyName } = Astro.props;
+const all = articles(lang);
+const careerName = (SECTION_NAMES.career as Record<string, string>)[lang];
+const hubHref = `${prefix(lang)}/career/`;
+let title = '', intro = '';
+let sections: { heading?: string; items: any[] }[] = [];
+let toolList: any[] = [];
+if (kind === 'for') {
+  const s = SITUATIONS.find((x) => x.key === keyName)!;
+  title = pick(s.label, lang);
+  intro = pick(UI.forIntro, lang).replace('{x}', title);
+  toolList = tools(lang).filter((t) => t.situations.includes(keyName));
+  const list = all.filter((a) => a.situations.includes(keyName));
+  sections = [{ items: list.filter((a) => a.group === 'visa') }, { items: list.filter((a) => a.group !== 'visa') }];
+} else {
+  const c = CATS.find((x) => x.key === keyName)!;
+  title = pick(c.label, lang);
+  intro = pick(UI.catIntro, lang);
+  sections = c.groups.map((g) => ({ heading: c.groups.length > 1 ? pick(SUB[g], lang) : undefined, items: all.filter((a) => a.group === g) }));
+}
+---
+<Base title={`${title}｜${careerName}｜Kurawise`} description={intro} careerCss={true}
+  breadcrumbs={[{ name: careerName, url: `https://kurawise.com${hubHref}` }, { name: title }]}>
+  <Breadcrumb crumbs={[{ label: careerName, url: hubHref }, { label: title }]} cssClass="career-breadcrumb" />
+  <div class="career-hub-page" data-pagefind-body>
+    <h1>{title}</h1>
+    <p class="career-hub-intro">{intro}</p>
+    {toolList.length > 0 && (
+      <div class="career-tool-grid" style="margin-bottom:24px">
+        {toolList.map((t) => (
+          <a class="career-tool-card" href={t.href}>
+            <span class="career-tool-card-icon" aria-hidden="true">{t.icon}</span>
+            <span class="career-tool-card-text"><strong>{t.title}</strong><span>{t.sub}</span></span>
+            <span class="career-tool-card-arrow" aria-hidden="true">›</span>
+          </a>
+        ))}
+      </div>
+    )}
+    {sections.filter((s) => s.items.length > 0).map((s) => (
+      <section class="career-hub-sub">
+        {s.heading && <h3>{s.heading}</h3>}
+        <CareerCards items={s.items} lang={lang} />
+      </section>
+    ))}
+    {kind === 'for' && (
+      <section class="career-hub-group" style="margin-top:28px">
+        <h2 class="career-hub-h2">{pick(UI.others, lang)}</h2>
+        <div class="career-sit-grid">
+          {SITUATIONS.filter((x) => x.key !== keyName).map((x) => (
+            <a class="career-sit" href={`${prefix(lang)}/career/for/${x.key}/`}><span aria-hidden="true">{x.icon}</span>{pick(x.label, lang)}</a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Base>
