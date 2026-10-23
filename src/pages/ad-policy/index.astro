@@ -1,0 +1,12 @@
+---
+// 目标路径：src/pages/ad-policy/index.astro → /ad-policy/
+// 「広告について」：アフィリエイト広告の利用、表示（PR）、紹介の基準、広告を載せない内容（0-B、2026-10-23）。
+// 単一URL。本文は src/data/aboutCopy.ts、表示の仕組みは components/LocalizedCopy.astro。
+import Base from '../../layouts/Base.astro';
+import LocalizedCopy from '../../components/LocalizedCopy.astro';
+import { AD_TITLES, AD_BODY } from '../../data/aboutCopy';
+---
+
+<Base title="広告について | Kurawise" description="Kurawise の広告（アフィリエイト）の扱い：広告の表示、紹介の基準、広告を載せない内容。" rescueCss={false}>
+  <LocalizedCopy titles={AD_TITLES} bodies={AD_BODY} />
+</Base>

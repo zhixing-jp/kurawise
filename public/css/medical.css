@@ -1185,3 +1185,8 @@
   cursor: pointer;
 }
 .guides-share-btn:active { opacity: .7; }
+
+/* 相談フォームの同意欄（健康に関する情報の取得への同意、2026-10-23） */
+.med-consult-consent-label { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.6; cursor: pointer; }
+.med-consult-consent-label input { margin-top: 3px; flex-shrink: 0; width: 18px; height: 18px; }
+.med-consult-consent-label a { color: var(--accent, #2a6df4); }

@@ -23,7 +23,7 @@ const title = `${SECTIONS.guides.label} | Kurawise`;
 const description = '经过筛选提炼的付费方法论、清单与模板，以及需要人工协助的专业服务，帮助你在日本少走弯路。';
 ---
 
-<Base title={title} description={description} guidesCss={true}>
+<Base title={title} description={description} guidesCss={true} noindex={true}>
 
   <div class="guides-page" id="guidesPage">
     <h1 class="guides-title">{SECTIONS.guides.label}</h1>
@@ -111,8 +111,7 @@ const description = '经过筛选提炼的付费方法论、清单与模板，�
       购买数字商品时，我们会用你填写的邮箱发送下载链接；这个邮箱之后也可能用于联系你，包括未来的社区活动邀请等，你可以随时通过邮件回复告知我们不希望被联系。
     </p>
   </div>
-
-  <div data-pagefind-body style="display:none">{SECTIONS.guides.label} {description}</div>
+  {/* PDF商品の販売を棚上げ中（10/23）：検索エンジン・サイト内検索には出さない（noindex、data-pagefind-body なし） */}
 
   <script is:inline>
     (function () {

@@ -46,7 +46,7 @@ const {
 
 // 単一URLのページのうち、最初の表示が日本語のもの（/apps/・/kurashi/）は、サーバー側の言語も日本語にする
 // （表示後は base.js がその人の言語に描き直す）
-const lang = uiLang || (/^\/(apps|kurashi)\/?$/.test(Astro.url.pathname) ? 'ja' : getLangFromUrl(Astro.url));
+const lang = uiLang || (/^\/(apps|kurashi|about|ad-policy|privacy)\/?$/.test(Astro.url.pathname) ? 'ja' : getLangFromUrl(Astro.url));
 const activeLangOption = langOptions ? langOptions.find((o) => o.active) : undefined;
 
 const siteUrl = 'https://kurawise.com';
@@ -134,6 +134,13 @@ const footerLabels: Record<string, string> = {
   zh: '关于我们', 'zh-TW': '關於我們',
   en: 'About Us', vi: 'Về Chúng Tôi', ko: '소개', ja: '私たちについて'
 };
+// 0-B（10/23）：フッターに「広告について」を追加（タブ4・5のページだけ。showAdPolicyLink）。プライバシーポリシーは全ページ。特商法の表記は有料の依頼を受ける前に追加する
+const footerPrivacyLabels: Record<string, string> = {
+  zh: '隐私政策', 'zh-TW': '隱私權政策', en: 'Privacy Policy', vi: 'Quyền riêng tư', ko: '개인정보 처리방침', ja: 'プライバシーポリシー'
+};
+const footerAdLabels: Record<string, string> = {
+  zh: '关于广告', 'zh-TW': '關於廣告', en: 'Advertising Policy', vi: 'Về quảng cáo', ko: '광고 안내', ja: '広告について'
+};
 const footerCopyright: Record<string, string> = {
   zh: `© ${new Date().getFullYear()} Kurawise`,
   'zh-TW': `© ${new Date().getFullYear()} Kurawise`,
@@ -149,10 +156,15 @@ const isCareer = currentPath.includes('/career');
 const isGuides = currentPath.includes('/guides') || currentPath.includes('/download');
 const isKurashi = currentPath.startsWith('/kurashi');
 const isApps = currentPath.startsWith('/apps') || currentPath.startsWith('/kuraphoto');
+// どのタブにも属さないページ（about・広告について）では、タブを選ばれた表示にしない（10/23）
+const isNoTab = /^\/(about|ad-policy|privacy)\/?$/.test(currentPath);
+// 「広告について」のリンクは、広告を載せるタブ4・5のページ（とそのページ自身）だけに出す（10/23 智行）
+const showAdPolicyLink = isKurashi || isApps || /^\/ad-policy\/?$/.test(currentPath);
+const searchPlaceholders: Record<string, string> = { zh: '搜索...', 'zh-TW': '搜尋...', en: 'Search...', vi: 'Tìm kiếm...', ko: '검색...', ja: '検索...' };
 // 単一URLのページ（言語ごとのURLがなく、文章をブラウザ側で言語に合わせて表示するページ）。
 // これ以外のページは「そのページの言語」が決まっているので <html data-page-lang> に書き、
 // base.js はそれを最優先で使う（＝中文ページで英語の設定が残っていても中文として扱う）。
-const isSinglePath = !uiLang && /^\/(about|kurashi|apps)\/?$/.test(currentPath);
+const isSinglePath = !uiLang && /^\/(about|kurashi|apps|ad-policy|privacy)\/?$/.test(currentPath);
 // 全6言語の版がそろっているページ（トップ・日常会話・病院＆医療・仕事＆ビザ）。
 // ブラウザの言語とページの言語が違うとき、その言語の版への案内を出す（自動では移動しない。K12）
 const strippedForSuggest = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
@@ -349,7 +361,7 @@ const jsonLd = {
           <circle cx="11" cy="11" r="8"/>
           <path d="m21 21-4.35-4.35"/>
         </svg>
-        <input id="searchInput" type="search" autocomplete="off" placeholder="搜索...">
+        <input id="searchInput" type="search" autocomplete="off" placeholder={searchPlaceholders[lang] || searchPlaceholders.zh}>
       </div>
 
       <!-- 语言切换 -->
@@ -383,6 +395,12 @@ const jsonLd = {
   <!-- Footer -->
   <footer id="siteFooter" style="max-width:640px;margin:0 auto;padding:24px 20px 100px;text-align:center;border-top:1px solid rgba(0,0,0,.06);margin-top:40px;">
     <a id="footerAboutLink" href={aboutUrl} style="font-size:13px;color:var(--muted,#888);text-decoration:none;">{footerLabels[lang] || footerLabels.zh}</a>
+    <span style="font-size:13px;color:var(--muted,#888);margin:0 8px;" aria-hidden="true">｜</span>
+    <a id="footerPrivacyLink" href="/privacy/" style="font-size:13px;color:var(--muted,#888);text-decoration:none;">{footerPrivacyLabels[lang] || footerPrivacyLabels.zh}</a>
+    {showAdPolicyLink && <>
+      <span style="font-size:13px;color:var(--muted,#888);margin:0 8px;" aria-hidden="true">｜</span>
+      <a id="footerAdLink" href="/ad-policy/" style="font-size:13px;color:var(--muted,#888);text-decoration:none;">{footerAdLabels[lang] || footerAdLabels.zh}</a>
+    </>}
     <div id="footerCopyright" style="font-size:11px;color:rgba(0,0,0,.3);margin-top:8px;">{footerCopyright[lang] || footerCopyright.zh}</div>
   </footer>
 
@@ -511,7 +529,8 @@ const jsonLd = {
           placeholder: currentLang === 'en' ? 'Search...' :
                       currentLang === 'ko' ? '검색...' :
                       currentLang === 'vi' ? 'Tìm kiếm...' :
-                      currentLang === 'ja' ? '検索...' : '搜索...'
+                      currentLang === 'ja' ? '検索...' :
+                      currentLang === 'zh-TW' ? '搜尋...' : '搜索...'
         }
       });
     }
@@ -554,7 +573,7 @@ const jsonLd = {
 
   <!-- Bottom Navigation -->
   <nav id="tabBar">
-    <a href={rescueUrl} data-tab="rescue" class={`tab${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps) ? ' on' : ''}`}>
+    <a href={rescueUrl} data-tab="rescue" class={`tab${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps && !isNoTab) ? ' on' : ''}`}>
       <div class="tab-icon">🛡️</div>
       <span class="tab-label" set:html={tabLabelHtml('rescue')} />
     </a>
@@ -660,6 +679,19 @@ const jsonLd = {
         ko: `© ${footerYear} Kurawise`,
         ja: `© ${footerYear} Kurawise`
       };
+      const footerAdLabelsClient = {
+        zh: '关于广告', 'zh-TW': '關於廣告', en: 'Advertising Policy', vi: 'Về quảng cáo', ko: '광고 안내', ja: '広告について'
+      };
+      const searchPhClient = { zh: '搜索...', 'zh-TW': '搜尋...', en: 'Search...', vi: 'Tìm kiếm...', ko: '검색...', ja: '検索...' };
+      const searchInputEl = document.getElementById('searchInput');
+      if (searchInputEl) searchInputEl.placeholder = searchPhClient[lang] || searchPhClient.zh;
+      const footerPrivacyLabelsClient = {
+        zh: '隐私政策', 'zh-TW': '隱私權政策', en: 'Privacy Policy', vi: 'Quyền riêng tư', ko: '개인정보 처리방침', ja: 'プライバシーポリシー'
+      };
+      const footerPrivacyLink = document.getElementById('footerPrivacyLink');
+      if (footerPrivacyLink) footerPrivacyLink.textContent = footerPrivacyLabelsClient[lang] || footerPrivacyLabelsClient.zh;
+      const footerAdLink = document.getElementById('footerAdLink');
+      if (footerAdLink) footerAdLink.textContent = footerAdLabelsClient[lang] || footerAdLabelsClient.zh;
       const footerLink = document.getElementById('footerAboutLink');
       if (footerLink) footerLink.textContent = footerLabelsClient[lang] || footerLabelsClient.zh;
       const footerCopy = document.getElementById('footerCopyright');

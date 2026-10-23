@@ -69,7 +69,7 @@ function switchLang(lang) {
   const careerMatch = path.match(/^(?:\/(?:zh-TW|en|vi|ko|ja))?\/career(\/.*)?\/?$/);
   // about 是单一路径（无语言子目录），页面内容按 currentLang 在客户端动态显示，
   // 不需要跳转页面——只需重新 loadLocale 并重新渲染，原地刷新即可
-  const singlePathMatch = path.match(/^\/(about|kurashi|apps)\/?$/);
+  const singlePathMatch = path.match(/^\/(about|kurashi|apps|ad-policy|privacy)\/?$/);
   if (subMatch) {
     const prefix = langPaths[lang] === '/' ? '' : langPaths[lang].slice(0, -1);
     window.location.href = `${prefix}/rescue/${subMatch[1]}/${subMatch[2]}/`;

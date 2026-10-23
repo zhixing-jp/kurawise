@@ -70,6 +70,14 @@ const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
           <textarea id="fMessage" name="message" rows="5" maxlength="1000" placeholder={t(cp.fieldMessageHint)}></textarea>
         </div>
 
+        <div class="med-consult-field med-consult-consent">
+          <label class="med-consult-consent-label">
+            <input type="checkbox" name="consent" value="yes" required />
+            <span set:html={t(cp.consentLabel)} />
+          </label>
+          <p class="med-consult-field-error" data-error-for="consent"></p>
+        </div>
+
         <p class="med-consult-privacy">{t(cp.privacyNote)}</p>
 
         <button type="submit" class="med-consult-submit" id="medConsultSubmitBtn">
@@ -100,7 +108,8 @@ const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
       errorBody: t(referral.contactPage.errorBody),
       notReadyBody: t(referral.contactPage.notReadyBody),
       fieldRequiredError: t(referral.contactPage.fieldRequiredError),
-      fieldSelectError: t(referral.contactPage.fieldSelectError)
+      fieldSelectError: t(referral.contactPage.fieldSelectError),
+      consentError: t(referral.contactPage.consentError)
     }
   }}>
     (function () {
@@ -132,6 +141,8 @@ const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
           if (!payload.name || !payload.name.trim()) { showFieldError('name', labels.fieldRequiredError); ok = false; }
           if (!payload.contact || !payload.contact.trim()) { showFieldError('contact', labels.fieldRequiredError); ok = false; }
           if (!payload.urgency) { showFieldError('urgency', labels.fieldSelectError); ok = false; }
+          // 健康に関する情報（要配慮個人情報）を受け取るため、同意のチェックを必須にする（10/23）
+          if (payload.consent !== 'yes') { showFieldError('consent', labels.consentError); ok = false; }
           return ok;
         }
 

@@ -327,6 +327,22 @@
       "vi": "Quay lại trang dịch vụ",
       "ko": "서비스 소개로 돌아가기",
       "ja": "サービス紹介に戻る"
+    },
+    "consentLabel": {
+      "ja": "健康に関する情報を含め、入力した内容を、この相談への対応のために使うことに同意します（<a href=\"/privacy/\" target=\"_blank\">プライバシーポリシー</a>）",
+      "zh": "我同意本站为回复这次咨询，使用我填写的内容（包括与健康有关的信息）（<a href=\"/privacy/\" target=\"_blank\">隐私政策</a>）",
+      "zh-TW": "我同意本站為回覆這次諮詢，使用我填寫的內容（包括與健康有關的資料）（<a href=\"/privacy/\" target=\"_blank\">隱私權政策</a>）",
+      "en": "I agree that the information I enter, including health information, will be used to respond to this inquiry (<a href=\"/privacy/\" target=\"_blank\">Privacy Policy</a>)",
+      "vi": "Tôi đồng ý cho sử dụng nội dung tôi nhập, bao gồm thông tin sức khỏe, để trả lời yêu cầu tư vấn này (<a href=\"/privacy/\" target=\"_blank\">Chính sách quyền riêng tư</a>)",
+      "ko": "건강에 관한 정보를 포함해 입력한 내용을 이 상담에 대응하기 위해 사용하는 데 동의합니다(<a href=\"/privacy/\" target=\"_blank\">개인정보 처리방침</a>)"
+    },
+    "consentError": {
+      "ja": "送信するには、同意の欄にチェックしてください",
+      "zh": "提交前，请勾选同意栏",
+      "zh-TW": "提交前，請勾選同意欄",
+      "en": "Please check the consent box to submit",
+      "vi": "Vui lòng đánh dấu ô đồng ý để gửi",
+      "ko": "제출하려면 동의란에 체크해 주세요"
     }
   }
 }

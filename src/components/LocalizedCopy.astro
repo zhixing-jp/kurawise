@@ -1,0 +1,64 @@
+---
+// 単一URLの文章ページ（about・広告について など）の本文。0-B（2026-10-23）。
+// 全言語の本文をビルド時にHTMLにしておき、最初は日本語を書き出す（検索エンジン向け）。
+// ブラウザでは利用者の言語（currentLang）に置き換え、言語を切り替えたとき（langChanged）も置き換える。
+import { SECTION_NAMES } from '../data/sectionNames';
+import type { Block } from '../data/aboutCopy';
+
+interface Props {
+  titles: Record<string, string>;
+  bodies: Record<string, Block[]>;
+}
+const { titles, bodies } = Astro.props;
+
+const prefix = (l: string) => (l === 'zh' ? '' : '/' + l);
+const sectionHref = (key: string, l: string) =>
+  key === 'rescue' ? (prefix(l) || '') + '/'
+  : key === 'medical' ? prefix(l) + '/medical/'
+  : key === 'career' ? prefix(l) + '/career/'
+  : key === 'kurashi' ? '/kurashi/'
+  : '/apps/';
+
+function render(blocks: Block[], l: string): string {
+  return blocks.map((b) => {
+    if (b.t === 'h2') return `<h2 class="copy-h2">${b.text}</h2>`;
+    if (b.t === 'p') return `<p class="copy-p">${b.text}</p>`;
+    if (b.t === 'ul') return `<ul class="copy-ul">${b.items.map((i) => `<li>${i}</li>`).join('')}</ul>`;
+    return `<ul class="copy-sections">${b.items.map((i) =>
+      `<li><a href="${sectionHref(i.key, l)}">${(SECTION_NAMES as any)[i.key][l]}</a><span>${i.text}</span></li>`).join('')}</ul>`;
+  }).join('');
+}
+const html: Record<string, string> = {};
+for (const l of Object.keys(bodies)) html[l] = render(bodies[l], l);
+---
+<main class="copy-page">
+  <h1 id="copyTitle" class="copy-title">{titles.ja}</h1>
+  <div id="copyBody" class="copy-body" set:html={html.ja} />
+</main>
+
+<style is:global>
+  .copy-page { max-width: 640px; margin: 0 auto; padding: 32px 20px 80px; }
+  .copy-title { font-size: 22px; font-weight: 700; margin-bottom: 20px; }
+  .copy-body { font-size: 15px; line-height: 1.9; color: var(--text, #333); }
+  .copy-body .copy-h2 { font-size: 17px; font-weight: 700; margin: 28px 0 10px; }
+  .copy-body .copy-p { margin-bottom: 14px; }
+  .copy-body .copy-ul { padding-left: 1.2em; margin-bottom: 14px; }
+  .copy-body .copy-ul li { margin-bottom: 6px; }
+  .copy-body .copy-sections { list-style: none; padding: 0; margin: 0 0 14px; }
+  .copy-body .copy-sections li { margin-bottom: 12px; }
+  .copy-body .copy-sections a { display: block; font-weight: 700; }
+  .copy-body a { color: var(--accent, #2a6df4); }
+</style>
+
+<script is:inline define:vars={{ titles, html }}>
+  function renderCopyPage() {
+    const lang = (typeof currentLang !== 'undefined' && currentLang) || 'ja';
+    const t = document.getElementById('copyTitle');
+    const b = document.getElementById('copyBody');
+    if (t) t.textContent = titles[lang] || titles.ja;
+    document.title = (titles[lang] || titles.ja) + ' | Kurawise';
+    if (b) b.innerHTML = html[lang] || html.ja;
+  }
+  window.addEventListener('DOMContentLoaded', () => { setTimeout(renderCopyPage, 0); });
+  document.addEventListener('langChanged', renderCopyPage);
+</script>
