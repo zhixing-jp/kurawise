@@ -321,3 +321,19 @@ body {
 #learnInfoBlock .scene-info.expanded {
   max-height: 800px;
 }
+/* ── 言語の案内（ブラウザの言語とページの言語が違うときだけ表示）── */
+.lang-suggest {
+  display: flex; align-items: center; gap: 8px;
+  margin: 8px 12px 0; padding: 8px 10px 8px 14px;
+  background: var(--blue-bg); border-radius: var(--r-sm);
+  font-size: 13px; color: var(--t2); line-height: 1.4;
+}
+.lang-suggest[hidden] { display: none; }
+.lang-suggest-text { flex: 1; min-width: 0; }
+.lang-suggest-link {
+  flex-shrink: 0; font-weight: 600; color: var(--blue); text-decoration: none; white-space: nowrap;
+}
+.lang-suggest-close {
+  flex-shrink: 0; border: none; background: none; color: var(--t4);
+  font-size: 13px; padding: 2px 4px; cursor: pointer;
+}

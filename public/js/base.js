@@ -50,6 +50,8 @@ function t(key) {
 
 function switchLang(lang) {
   localStorage.setItem('lj_lang', lang);
+  // 🌐ボタンで自分で選んだ言語（言語の案内を出すかどうかの判断に使う）
+  try { localStorage.setItem('lj_lang_chosen', lang); } catch (e) {}
   const langPaths = {
     'zh': '/', 'zh-TW': '/zh-TW/',
     'en': '/en/', 'vi': '/vi/', 'ko': '/ko/', 'ja': '/ja/'
@@ -89,6 +91,60 @@ function switchLang(lang) {
   } else {
     window.location.href = langPaths[lang] || '/';
   }
+}
+
+/* ── 言語の案内 ──
+   ブラウザ（システム）の言語とページの言語が違うとき、その言語の版への案内を1行出す。
+   自動では移動しない（Googleのクローラーや共有リンクのため）。
+   次の場合は出さない：🌐ボタンで今のページの言語を自分で選んでいる／案内を✕で閉じたことがある */
+function systemSiteLang() {
+  const list = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ''];
+  for (const raw of list) {
+    const l = String(raw).toLowerCase();
+    if (l.startsWith('zh-tw') || l.startsWith('zh-hk') || l.startsWith('zh-mo') || l.startsWith('zh-hant')) return 'zh-TW';
+    if (l.startsWith('zh')) return 'zh';
+    if (l.startsWith('ja')) return 'ja';
+    if (l.startsWith('ko')) return 'ko';
+    if (l.startsWith('vi')) return 'vi';
+    if (l.startsWith('en')) return 'en';
+  }
+  return 'en';
+}
+function initLangSuggest(pageLang) {
+  const box = document.getElementById('langSuggest');
+  if (!box) return;
+  const sys = systemSiteLang();
+  if (!sys || sys === pageLang) return;
+  let chosen = null, dismissed = null;
+  try { chosen = localStorage.getItem('lj_lang_chosen'); dismissed = localStorage.getItem('lj_lang_suggest_dismissed'); } catch (e) {}
+  if (chosen === pageLang) return;
+  if (dismissed === sys) return;
+  const texts = {
+    zh:      ['本页面也有简体中文版。', '查看中文 →'],
+    'zh-TW': ['本頁面也有繁體中文版。', '查看繁體中文 →'],
+    en:      ['This page is also available in English.', 'View in English →'],
+    ja:      ['このページは日本語でも読めます。', '日本語で見る →'],
+    ko:      ['이 페이지는 한국어로도 볼 수 있습니다.', '한국어로 보기 →'],
+    vi:      ['Trang này có bản tiếng Việt.', 'Xem tiếng Việt →']
+  };
+  const t = texts[sys];
+  if (!t) return;
+  const stripped = window.location.pathname.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
+  const target = (sys === 'zh' ? '' : '/' + sys) + stripped + window.location.search + window.location.hash;
+  box.querySelector('.lang-suggest-text').textContent = t[0];
+  const link = box.querySelector('.lang-suggest-link');
+  link.textContent = t[1];
+  link.setAttribute('href', target);
+  link.setAttribute('lang', sys);
+  link.addEventListener('click', function () {
+    try { localStorage.setItem('lj_lang_chosen', sys); } catch (e) {}
+    if (typeof window.gtag === 'function') window.gtag('event', 'lang_suggest_click', { from_lang: pageLang, to_lang: sys, page_path: window.location.pathname });
+  });
+  box.querySelector('.lang-suggest-close').addEventListener('click', function () {
+    box.hidden = true;
+    try { localStorage.setItem('lj_lang_suggest_dismissed', sys); } catch (e) {}
+  });
+  box.hidden = false;
 }
 
 /* ── HTML转义 ── */
@@ -141,6 +197,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 言語が決まっているページを見たら、その言語を覚えておく。
     // 次に単一URLのページ（/kurashi/・/apps/・/about/）へ移ったとき、同じ言語で表示するため
     try { localStorage.setItem('lj_lang', fixedLang); } catch (e) {}
+    initLangSuggest(fixedLang);
   } else {
     // 単一URLのページ：言語の読み込みが終わってから、ページの文章とタブを、その言語で描き直す
     document.dispatchEvent(new CustomEvent('langChanged', { detail: { lang: currentLang } }));

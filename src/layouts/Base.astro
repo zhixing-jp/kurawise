@@ -146,6 +146,10 @@ const isApps = currentPath.startsWith('/apps') || currentPath.startsWith('/kurap
 // これ以外のページは「そのページの言語」が決まっているので <html data-page-lang> に書き、
 // base.js はそれを最優先で使う（＝中文ページで英語の設定が残っていても中文として扱う）。
 const isSinglePath = !uiLang && /^\/(about|kurashi|apps)\/?$/.test(currentPath);
+// 全6言語の版がそろっているページ（トップ・日常会話・病院＆医療・仕事＆ビザ）。
+// ブラウザの言語とページの言語が違うとき、その言語の版への案内を出す（自動では移動しない。K12）
+const strippedForSuggest = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
+const langSuggestEligible = !uiLang && (strippedForSuggest === '/' || /^\/(rescue|medical|career)\//.test(strippedForSuggest));
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -314,6 +318,15 @@ const jsonLd = {
       </div>
     </div>
   </div>
+
+  <!-- 言語の案内：ブラウザの言語とページの言語が違うときだけ表示（base.js が表示を判断） -->
+  {langSuggestEligible && (
+    <div id="langSuggest" class="lang-suggest" hidden>
+      <span class="lang-suggest-text"></span>
+      <a class="lang-suggest-link" href="#"></a>
+      <button type="button" class="lang-suggest-close" aria-label="Close">✕</button>
+    </div>
+  )}
 
   <!-- Page Content -->
   <slot />
