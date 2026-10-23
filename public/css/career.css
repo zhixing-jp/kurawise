@@ -539,3 +539,16 @@
 .career-hub-nav-card--visa { border-left: 4px solid var(--blue); }
 .career-hub-updated { display: inline-block; font-size: 11px; font-weight: 700; color: var(--blue); background: var(--blue-bg); border-radius: 6px; padding: 2px 8px; margin-bottom: 6px; font-variant-numeric: tabular-nums; }
 .career-hub-group .career-tool-card { margin: 0; }
+.cb-quote { margin: 0 0 16px; padding: 12px 16px; background: var(--bg); border-radius: var(--r-md); border: 1px dashed var(--line); }
+.cb-quote-label { display: block; font-size: 11px; font-weight: 700; color: var(--t4); margin-bottom: 4px; }
+.cb-quote p { margin: 0 !important; font-size: 14px !important; line-height: 1.7 !important; color: var(--t2) !important; }
+.cb-check { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 14px 16px; margin: 6px 0 14px; }
+.cb-check-title { display: flex; justify-content: space-between; align-items: center; font-size: 15px !important; font-weight: 700; color: var(--t1) !important; margin: 0 0 10px !important; }
+.cb-check-count { font-size: 13px; font-weight: 700; color: var(--blue); font-variant-numeric: tabular-nums; }
+.cb-check-item { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px; line-height: 1.6; color: var(--t2); cursor: pointer; }
+.cb-check-item:last-of-type { border-bottom: 0; }
+.cb-check-item input { width: 20px; height: 20px; margin-top: 1px; flex-shrink: 0; accent-color: var(--blue); }
+.cb-check-item:has(input:checked) span { color: var(--t4); text-decoration: line-through; }
+.cb-check-done { font-size: 14px !important; font-weight: 700; color: var(--green) !important; margin: 10px 0 0 !important; }
+.cb-check-hint { font-size: 11.5px !important; color: var(--t4) !important; margin: 8px 0 0 !important; }
+.cb-table tbody th { min-width: 4.6em; }

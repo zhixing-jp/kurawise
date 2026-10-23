@@ -47,7 +47,8 @@ const { slug, pageData } = Astro.props as Props;
 
   <Breadcrumb crumbs={[{ label: SECTIONS.career.label, url: SECTIONS.career.url }, { label: pageData.title }]} cssClass="career-breadcrumb" />
 
-  <p class="career-disclaimer">{disclaimer.page_full.zh}</p>
+  {/* ビザ・在留の記事は、記事の最後に専用の注意書きがあるので、上の注意書きは出さない（10/23） */}
+  {pageData.group !== 'visa' && <p class="career-disclaimer">{disclaimer.page_full.zh}</p>}
 
   <div class="career-article-page" id="careerArticlePage">
     <h1 class="career-article-title">{pageData.title}</h1>

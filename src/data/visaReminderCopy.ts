@@ -83,8 +83,8 @@ export const VR_COPY: Record<VRLang, VRCopy> = {
       '永住者には在留期間の更新はありませんが、16歳以上の人は、在留カードの有効期間（7年）の更新が必要です。期限の2か月前から申請できます。'
     ],
     disclaimer: 'このページは一般的な情報です。ご自身の状況については、出入国在留管理局または行政書士に確認してください。',
-    ctaTitle: '転職・更新のときの手続きを、記事にまとめています',
-    ctaBody: '転職したときの届出、更新の準備、就労資格証明書など。準備ができしだいお知らせします。',
+    ctaTitle: 'ビザ・在留の手続きの記事',
+    ctaBody: '新しい記事ができしだいお知らせします。',
     ctaButton: '先行案内を受け取る',
     checked: '内容の確認日：2026年10月23日',
     cardSub: '期限を入れるだけで、更新の時期をスマホのカレンダーに'
@@ -123,8 +123,8 @@ export const VR_COPY: Record<VRLang, VRCopy> = {
       '永住者没有在留期间的更新，但16岁以上的人，需要更新在留卡的有效期（7年）。可以从到期前2个月开始申请。'
     ],
     disclaimer: '本页是一般性信息。你自己的情况，请向出入国在留管理局或行政书士确认。',
-    ctaTitle: '转职、更新时的手续，我们正在整理成文章',
-    ctaBody: '转职后的申报、更新的准备、就劳资格证明书等。准备好后会第一时间通知你。',
+    ctaTitle: '签证・在留手续的相关文章',
+    ctaBody: '有新文章时第一时间通知你。',
     ctaButton: '接收抢先通知',
     checked: '内容确认日期：2026年10月23日',
     cardSub: '输入期限，就能把更新时间加到手机日历里'
@@ -163,8 +163,8 @@ export const VR_COPY: Record<VRLang, VRCopy> = {
       '永住者沒有在留期間的更新，但16歲以上的人，需要更新在留卡的有效期（7年）。可以從到期前2個月開始申請。'
     ],
     disclaimer: '本頁是一般性資訊。你自己的情況，請向出入國在留管理局或行政書士確認。',
-    ctaTitle: '轉職、更新時的手續，我們正在整理成文章',
-    ctaBody: '轉職後的申報、更新的準備、就勞資格證明書等。準備好後會第一時間通知你。',
+    ctaTitle: '簽證・在留手續的相關文章',
+    ctaBody: '有新文章時第一時間通知你。',
     ctaButton: '接收搶先通知',
     checked: '內容確認日期：2026年10月23日',
     cardSub: '輸入期限，就能把更新時間加到手機行事曆裡'
@@ -203,8 +203,8 @@ export const VR_COPY: Record<VRLang, VRCopy> = {
       'Permanent residents do not extend a period of stay, but those aged 16 or over must renew their residence card every 7 years. You can apply from 2 months before it expires.'
     ],
     disclaimer: 'This page provides general information. For your own situation, please check with the immigration services bureau or a gyoseishoshi (administrative scrivener).',
-    ctaTitle: 'We are writing guides on visa procedures for job changes and extensions',
-    ctaBody: 'Notifications after changing jobs, preparing an extension, the certificate of authorized employment, and more. We will let you know when they are ready.',
+    ctaTitle: 'Articles on visa and residence procedures',
+    ctaBody: 'Get notified when new articles are published.',
     ctaButton: 'Get early access',
     checked: 'Content checked: October 23, 2026',
     cardSub: 'Enter your expiry date and add renewal reminders to your phone calendar'
@@ -243,8 +243,8 @@ export const VR_COPY: Record<VRLang, VRCopy> = {
       'Người vĩnh trú không gia hạn thời gian lưu trú, nhưng người từ 16 tuổi trở lên phải đổi thẻ cư trú (hiệu lực 7 năm). Có thể nộp đơn từ 2 tháng trước khi hết hạn.'
     ],
     disclaimer: 'Trang này là thông tin chung. Với trường hợp của bạn, hãy hỏi Cục Quản lý Xuất nhập cảnh hoặc hành chính thư sĩ (gyoseishoshi).',
-    ctaTitle: 'Chúng tôi đang viết bài về thủ tục khi chuyển việc và gia hạn',
-    ctaBody: 'Khai báo sau khi chuyển việc, chuẩn bị gia hạn, giấy chứng nhận tư cách lao động… Chúng tôi sẽ báo cho bạn khi sẵn sàng.',
+    ctaTitle: 'Bài viết về thủ tục visa và lưu trú',
+    ctaBody: 'Nhận thông báo khi có bài mới.',
     ctaButton: 'Nhận thông báo sớm',
     checked: 'Ngày kiểm tra nội dung: 23/10/2026',
     cardSub: 'Nhập ngày hết hạn để thêm lời nhắc gia hạn vào lịch điện thoại'
@@ -283,8 +283,8 @@ export const VR_COPY: Record<VRLang, VRCopy> = {
       '영주자는 재류 기간 갱신이 없지만, 16세 이상인 사람은 재류카드의 유효 기간(7년)을 갱신해야 합니다. 기한 2개월 전부터 신청할 수 있습니다.'
     ],
     disclaimer: '이 페이지는 일반적인 정보입니다. 본인의 상황은 출입국재류관리국 또는 행정서사에게 확인하세요.',
-    ctaTitle: '이직·갱신 때의 수속을 기사로 정리하고 있습니다',
-    ctaBody: '이직 후 신고, 갱신 준비, 취로자격증명서 등. 준비되는 대로 알려 드리겠습니다.',
+    ctaTitle: '비자·체류 수속 관련 기사',
+    ctaBody: '새 기사가 나오면 알려 드립니다.',
     ctaButton: '사전 안내 받기',
     checked: '내용 확인일: 2026년 10월 23일',
     cardSub: '기한을 입력하면 갱신 시기를 휴대폰 캘린더에 등록'

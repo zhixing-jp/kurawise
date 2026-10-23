@@ -4,6 +4,7 @@
 // ブロックの種類：
 //   lead（冒頭の結論）／timeline（時系列）／bars（横棒グラフ）／table（表）／ol・ul（箇条書き）
 //   p（段落）／note（小さな注記）／links（次の一歩のリンク）／calc（在留手数料の家族計算機）
+//   quote（現場の声）／checklist（その場でチェックできる表。保存・送信しない）
 // 文字列の中の <strong> <a> <code> はそのまま使う（記事データは運営者が書くもの）。
 import VisaFeeCalc from './VisaFeeCalc.astro';
 interface Props { sections: any[]; lang: string; }
@@ -51,6 +52,15 @@ function maxOf(items: any[]) { return Math.max(...items.map((i) => i.value)); }
         <p class="cb-note" set:html={b.text} />
       ) : b.t === 'links' ? (
         <div class="cb-links">{b.items.map((i: any) => <a href={i.href}>{i.text} ›</a>)}</div>
+      ) : b.t === 'quote' ? (
+        <blockquote class="cb-quote"><span class="cb-quote-label">{b.label}</span><p set:html={b.text} /></blockquote>
+      ) : b.t === 'checklist' ? (
+        <div class="cb-check" data-cb-check>
+          <p class="cb-check-title">✅ {b.title}<span class="cb-check-count" data-count>0 / {b.items.length}</span></p>
+          {b.items.map((i: string) => <label class="cb-check-item"><input type="checkbox" /><span set:html={i} /></label>)}
+          <p class="cb-check-done" data-done hidden>{b.done}</p>
+          <p class="cb-check-hint">{b.hint}</p>
+        </div>
       ) : b.t === 'calc' ? (
         <VisaFeeCalc labels={b.labels} lang={lang} />
       ) : (
@@ -59,3 +69,19 @@ function maxOf(items: any[]) { return Math.max(...items.map((i) => i.value)); }
     ))}
   </section>
 ))}
+
+<script is:inline>
+  // チェック表：チェックの数を数え、全部そろったら一言出す（画面の中だけ。保存しない）
+  document.querySelectorAll('[data-cb-check]').forEach(function (box) {
+    var boxes = box.querySelectorAll('input[type=checkbox]');
+    var count = box.querySelector('[data-count]');
+    var done = box.querySelector('[data-done]');
+    function upd() {
+      var n = 0; boxes.forEach(function (c) { if (c.checked) n++; });
+      count.textContent = n + ' / ' + boxes.length;
+      done.hidden = n !== boxes.length;
+      if (n === boxes.length && window.gtag && !box.__sent) { box.__sent = true; gtag('event', 'visa_checklist_complete'); }
+    }
+    boxes.forEach(function (c) { c.addEventListener('change', upd); });
+  });
+</script>

@@ -264,12 +264,12 @@
       {
        "text": "把期限放进手机日历 → 在留期限提醒",
        "href": "/career/visa-reminder/"
+      },
+      {
+       "text": "下一篇：税金、年金、健康保险忘了交，会影响更新吗？",
+       "href": "/career/visa-tax-insurance-check/"
       }
      ]
-    },
-    {
-     "t": "p",
-     "text": "下一篇：税金、年金、健康保险忘了交，会影响更新吗？（准备中）"
     }
    ]
   },
@@ -593,12 +593,12 @@
       {
        "text": "期限をスマホのカレンダーに入れる → 在留期限リマインダー",
        "href": "/ja/career/visa-reminder/"
+      },
+      {
+       "text": "次の記事：税金・年金・健康保険の払い忘れは、更新に響く？",
+       "href": "/ja/career/visa-tax-insurance-check/"
       }
      ]
-    },
-    {
-     "t": "p",
-     "text": "次の記事：税金・年金・健康保険の払い忘れは、更新に影響する？（準備中）"
     }
    ]
   },
@@ -904,12 +904,12 @@
       {
        "text": "把期限放進手機行事曆 → 在留期限提醒",
        "href": "/zh-TW/career/visa-reminder/"
+      },
+      {
+       "text": "下一篇：稅金、年金、健康保險忘了繳，會影響更新嗎？",
+       "href": "/zh-TW/career/visa-tax-insurance-check/"
       }
      ]
-    },
-    {
-     "t": "p",
-     "text": "下一篇：稅金、年金、健康保險忘了繳，會影響更新嗎？（準備中）"
     }
    ]
   },
@@ -1215,12 +1215,12 @@
       {
        "text": "Put your expiry date in your phone calendar → Residence Card Expiry Reminder",
        "href": "/en/career/visa-reminder/"
+      },
+      {
+       "text": "Next: Missed tax, pension or health insurance payments — will it affect your renewal?",
+       "href": "/en/career/visa-tax-insurance-check/"
       }
      ]
-    },
-    {
-     "t": "p",
-     "text": "Next article: Forgot to pay taxes, pension or health insurance — will it affect your renewal? (coming soon)"
     }
    ]
   },
@@ -1526,12 +1526,12 @@
       {
        "text": "Đưa ngày hết hạn vào lịch điện thoại → Nhắc hạn thẻ cư trú",
        "href": "/vi/career/visa-reminder/"
+      },
+      {
+       "text": "Bài tiếp: Quên đóng thuế, lương hưu, bảo hiểm có ảnh hưởng đến gia hạn không?",
+       "href": "/vi/career/visa-tax-insurance-check/"
       }
      ]
-    },
-    {
-     "t": "p",
-     "text": "Bài tiếp theo: Quên đóng thuế, lương hưu, bảo hiểm y tế có ảnh hưởng đến gia hạn không? (sắp ra mắt)"
     }
    ]
   },
@@ -1837,12 +1837,12 @@
       {
        "text": "기한을 휴대폰 캘린더에 넣기 → 재류 기한 알림",
        "href": "/ko/career/visa-reminder/"
+      },
+      {
+       "text": "다음 기사: 세금·연금·건강보험을 깜빡 안 냈다면 갱신에 영향이 있을까?",
+       "href": "/ko/career/visa-tax-insurance-check/"
       }
      ]
-    },
-    {
-     "t": "p",
-     "text": "다음 기사: 세금·연금·건강보험을 깜빡 안 냈다면 갱신에 영향이 있을까? (준비 중)"
     }
    ]
   },

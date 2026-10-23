@@ -4,8 +4,13 @@
 // .ics（iPhone・Android・Outlook）と Google カレンダーのリンクで予定を作る。
 // 日付はブラウザの中だけで計算し、どこにも送らない。GA には「追加した」ことだけを送る（日付は送らない）。
 import type { VRCopy } from '../data/visaReminderCopy';
+import careerIndex from '../../public/data/career/index.json';
 interface Props { copy: VRCopy; lang: string; interestUrl: string; }
 const { copy, lang, interestUrl } = Astro.props;
+// ビザ・在留の記事（index.json の group: visa）を自動で並べる。記事が増えれば、ここにも増える
+const pre = lang === 'zh' ? '' : `/${lang}`;
+const visaArticles = (careerIndex.pages as any[]).filter((p) => p.group === 'visa')
+  .map((p) => ({ title: (lang === 'zh' ? p.title : p[`title_${lang}`]) || p.title, href: pre + p.url }));
 ---
 <div class="vr-page" data-pagefind-body>
   <h1 class="vr-title">{copy.title}</h1>
@@ -44,6 +49,7 @@ const { copy, lang, interestUrl } = Astro.props;
 
   <div class="vr-cta">
     <p class="vr-cta-title">{copy.ctaTitle}</p>
+    <ul class="vr-cta-list">{visaArticles.map((a) => <li><a href={a.href}>{a.title}</a></li>)}</ul>
     <p class="vr-cta-body">{copy.ctaBody}</p>
     <a class="vr-cta-btn" href={interestUrl + '?from=visa-reminder'}>{copy.ctaButton} →</a>
   </div>
@@ -82,6 +88,9 @@ const { copy, lang, interestUrl } = Astro.props;
   .vr-cta { background: rgba(0,0,0,.03); border-radius: 14px; padding: 16px; }
   .vr-cta-title { font-weight: 700; font-size: 15px; margin-bottom: 6px; }
   .vr-cta-body { font-size: 13px; line-height: 1.7; margin-bottom: 10px; }
+  .vr-cta-list { padding-left: 1.1em; margin: 0 0 10px; font-size: 14px; line-height: 1.7; }
+  .vr-cta-list li { margin-bottom: 6px; }
+  .vr-cta-list a { color: var(--accent, #2a6df4); }
   .vr-cta-btn { font-size: 14px; font-weight: 700; color: var(--accent, #2a6df4); text-decoration: none; }
 </style>
 

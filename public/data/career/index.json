@@ -19,6 +19,24 @@
       "description_ja": "手数料は許可期間で決まり、4人家族で約23万〜26万円。家族の費用計算機と節約の方法つき。"
     },
     {
+      "id": "visa-tax-insurance-check",
+      "group": "visa",
+      "updated": "2026-10-23",
+      "url": "/career/visa-tax-insurance-check/",
+      "title": "税金、年金、健康保险忘了交，会影响签证更新吗？——5分钟自查清单和补救办法",
+      "description": "换工作、搬家时最容易忘。5分钟自查清单、自动缴费设置、补救步骤。",
+      "title_zh-TW": "稅金、年金、健康保險忘了繳，會影響簽證更新嗎？——5分鐘自我檢查清單和補救辦法",
+      "description_zh-TW": "換工作、搬家時最容易忘。5分鐘自我檢查清單、自動扣款設定、補救步驟。",
+      "title_en": "Missed Tax, Pension or Health Insurance Payments: Will It Affect Your Visa Renewal? A 5-Minute Checklist and What to Do",
+      "description_en": "Most missed payments happen after a job change or a move. 5-minute checklist, automatic payment setup and what to do.",
+      "title_vi": "Quên đóng thuế, lương hưu, bảo hiểm y tế có ảnh hưởng đến gia hạn visa không? Danh sách tự kiểm tra 5 phút và cách khắc phục",
+      "description_vi": "Dễ quên nhất khi chuyển việc, chuyển nhà. Danh sách tự kiểm tra 5 phút, cài đóng tự động và cách khắc phục.",
+      "title_ko": "세금·연금·건강보험을 깜빡 안 냈다면 비자 갱신에 영향이 있을까? 5분 자가 점검표와 대처법",
+      "description_ko": "이직·이사 때 가장 잊기 쉽습니다. 5분 자가 점검표, 자동 납부 설정, 대처 순서.",
+      "title_ja": "税金・年金・健康保険の払い忘れは、ビザの更新に響く？ 5分でできるチェック表と、払い忘れたときの対処",
+      "description_ja": "転職や引っ越しのときが一番忘れやすい。5分のチェック表、自動で払う設定、見つかったときの手順。"
+    },
+    {
       "id": "resume-vs-career-history",
       "group": "prep",
       "title": "履歴書与職務経歴書到底有什么区别？",

@@ -1,0 +1,1214 @@
+{
+ "title": "税金、年金、健康保险忘了交，会影响签证更新吗？——5分钟自查清单和补救办法",
+ "description": "2026年6月起，入管明确会参考有关机关提供的缴费信息来审查更新。最容易出问题的是换工作、辞职、搬家时忘了交。附更新前自查清单、自动缴费设置、发现没交时的补救步骤。",
+ "checked": "内容确认日期：2026年10月23日",
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "一句话结论",
+     "text": "入管会查你有没有按时交税和保险。<strong>最容易出问题的不是\"不交\"，而是换工作、辞职、搬家时\"忘了交\"。</strong>更新前3个月自查一次，把缴费改成自动扣款。"
+    },
+    {
+     "t": "quote",
+     "label": "现场常听到",
+     "text": "\"换工作、搬家的时候，一不小心就忘了交。\"——很多人不是不想交，而是根本不知道要自己交。"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2010年起",
+       "text": "更新时在窗口出示健康保险证（现在也可用マイナ保険証的资格信息等）"
+      },
+      {
+       "date": "2026年6月",
+       "text": "入管的审查指南写明：会根据有关机关提供的纳税等信息，决定是否批准",
+       "hl": true
+      },
+      {
+       "date": "2026年10月起",
+       "text": "永住申请：晚交后补齐，也可能被不利评价"
+      },
+      {
+       "date": "法律已修改",
+       "text": "明知要交、故意不交且明显没有支付意愿时，可能被取消永住（施行时期以官方为准）。一时忘记、有不得已的原因不属于这种情况"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 要查的是这三样",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "项目",
+      "谁来交",
+      "怎么查"
+     ],
+     "rows": [
+      [
+       "住民税",
+       "上班族：公司从工资里扣<br>辞职后、个体：自己交",
+       "区役所或便利店开「納税証明書」；マイナポータル"
+      ],
+      [
+       "健康保险",
+       "公司的健保：公司扣<br>国民健康保险：自己交",
+       "公司健保看工资单；国保问区役所"
+      ],
+      [
+       "年金",
+       "厚生年金：公司扣<br>国民年金：自己交",
+       "ねんきんネット；年金事务所"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "<strong>一直在同一家公司上班的人，基本由公司扣，风险低。</strong>风险集中在\"自己交\"的时期。"
+    }
+   ]
+  },
+  {
+   "heading": "2. 最容易忘的5个时刻",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "时刻",
+      "会发生什么",
+      "怎么做"
+     ],
+     "rows": [
+      [
+       "换工作有空档",
+       "健康保险、年金从公司扣变成自己交",
+       "14天内到区役所办国保、国民年金"
+      ],
+      [
+       "辞职后的住民税",
+       "改成寄缴费单给你自己交（1～5月辞职的，可能从最后的工资一次扣完）",
+       "收到缴费单就交，或办自动扣款"
+      ],
+      [
+       "搬家",
+       "缴费单寄到旧地址，没收到",
+       "14天内办住址变更；不确定就去新区役所问"
+      ],
+      [
+       "长期回国",
+       "人不在日本，缴费单照样来",
+       "出发前设自动扣款"
+      ],
+      [
+       "收入少、交不起年金",
+       "不申请就算\"未缴\"",
+       "申请免除或缓缴（批准了就不算未缴）"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. 防止忘记：现在就能做的3件事",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>改成自动扣款（口座振替）</strong>：住民税、国保、国民年金都可以。在区役所或年金事务所办。",
+      "<strong>换工作时，请新公司从工资里扣住民税</strong>（特別徴収）。",
+      "<strong>把\"可以申请更新的日子\"写进日历</strong>，到时用下面的清单自查。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "4. 更新前3个月：5分钟自查清单",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "自查清单",
+     "items": [
+      "过去1～2年的住民税都交了（能开出納税証明書）",
+      "没有工作的期间，有加入国民健康保险",
+      "国民年金没有未缴（或已申请免除）",
+      "家人（配偶、孩子）的保险和年金也没问题",
+      "搬家后的缴费单都收到了"
+     ],
+     "done": "全部确认完毕，可以安心准备更新了。",
+     "hint": "只在你的手机上勾选，不会保存或发送。"
+    }
+   ]
+  },
+  {
+   "heading": "5. 发现没交，怎么办",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>先查清楚</strong>：哪一项、哪几个月、多少钱。",
+      "<strong>能交的马上交</strong>（会有延滞金），<strong>收据保存好</strong>。",
+      "<strong>一次交不起 → 去窗口商量分期</strong>，拿到分期的书面证明。",
+      "<strong>年金</strong>：没交的部分2年以内可以补交；收入少的话可以申请免除，最多往前追溯约2年。",
+      "<strong>更新时</strong>：带上收据或分期证明，<strong>如实说明，不要隐瞒</strong>。",
+      "金额大、时间长等情况复杂时，先找行政书士商量。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. 一定要注意",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>补交了也不等于没事</strong>，但\"补齐＋有证明\"比\"一直拖着\"好得多。",
+      "<strong>家人的未缴也可能影响你</strong>（同一户的配偶等）。",
+      "<strong>免除批准了不算未缴</strong>；没申请就是未缴。",
+      "申请永住的人要求更严，<strong>晚交本身就可能被扣分</strong>。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "下一步",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "把\"可以申请更新的日子\"放进日历 → 在留期限提醒",
+       "href": "/career/visa-reminder/"
+      },
+      {
+       "text": "上一篇：签证更新费最高7.5万日元，一家人要准备多少？",
+       "href": "/career/visa-fee-2026/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "下一篇：永住新规定，决定了什么，还没决定什么（准备中）"
+    },
+    {
+     "t": "note",
+     "text": "一般性信息，不是针对个人的法律意见。来源：<a href=\"https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00058.html\" target=\"_blank\" rel=\"noopener\">出入国在留管理厅「在留资格变更、在留期间更新许可指南」（2026年6月修订）</a>、<a href=\"https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html\" target=\"_blank\" rel=\"noopener\">日本年金机构（免除・缓缴）</a>、<a href=\"https://www.moj.go.jp/isa/content/001467987.pdf\" target=\"_blank\" rel=\"noopener\">出入国在留管理厅（永住取消指南案概要）</a>。具体请向出入国在留管理局、区役所、年金事务所或行政书士确认。"
+    }
+   ]
+  }
+ ],
+ "title_ja": "税金・年金・健康保険の払い忘れは、ビザの更新に響く？ 5分でできるチェック表と、払い忘れたときの対処",
+ "description_ja": "2026年6月から、入管は関係機関からの納付の情報も踏まえて更新を審査すると明記しました。問題になりやすいのは、転職・退職・引っ越しのときの払い忘れ。更新前のチェック表、自動で払う設定、見つかったときの手順をまとめました。",
+ "checked_ja": "内容の確認日：2026年10月23日",
+ "sections_ja": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "結論",
+     "text": "入管は、税金と保険をきちんと払っているかを見ます。<strong>問題になりやすいのは「払わない」ことより、転職・退職・引っ越しのときの「払い忘れ」です。</strong>更新の3か月前に一度チェックし、支払いを口座振替にしておきましょう。"
+    },
+    {
+     "t": "quote",
+     "label": "現場でよく聞く声",
+     "text": "「転職や引っ越しのときに、うっかり払い忘れていた」——払う気がないのではなく、自分で払う必要があると知らなかった、という人が多いです。"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2010年から",
+       "text": "更新の窓口で健康保険証の提示（今はマイナ保険証の資格情報なども可）"
+      },
+      {
+       "date": "2026年6月",
+       "text": "入管のガイドラインに「関係機関から提供を受けた納税義務等の履行状況の情報を踏まえ、許否を判断する場合がある」と明記",
+       "hl": true
+      },
+      {
+       "date": "2026年10月から",
+       "text": "永住の申請：遅れて払ったことも、不利に評価されることがある"
+      },
+      {
+       "date": "法改正済み",
+       "text": "支払う義務を知りながら、あえて払わず、払う意思がないことが明らかな場合は、永住許可が取り消されることがある（施行時期は公式の発表に従う）。うっかり忘れた、やむを得ない事情がある、という場合は対象外"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 確認するのは3つ",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "項目",
+      "誰が払うか",
+      "確認の方法"
+     ],
+     "rows": [
+      [
+       "住民税",
+       "会社員：給料から天引き<br>退職後・個人事業：自分で払う",
+       "区役所やコンビニで「納税証明書」、マイナポータル"
+      ],
+      [
+       "健康保険",
+       "会社の健康保険：天引き<br>国民健康保険：自分で払う",
+       "会社の保険は給与明細、国保は区役所"
+      ],
+      [
+       "年金",
+       "厚生年金：天引き<br>国民年金：自分で払う",
+       "ねんきんネット、年金事務所"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "<strong>同じ会社でずっと働いている人は、ほぼ天引きなので心配は小さい。</strong>危ないのは「自分で払う」時期です。"
+    }
+   ]
+  },
+  {
+   "heading": "2. 払い忘れが起きやすい5つの場面",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "場面",
+      "何が起きるか",
+      "どうするか"
+     ],
+     "rows": [
+      [
+       "転職で空白期間がある",
+       "健康保険と年金が、天引きから自分で払う形に変わる",
+       "14日以内に区役所で国保・国民年金の手続き"
+      ],
+      [
+       "退職後の住民税",
+       "納付書が届き、自分で払う形に変わる（1〜5月の退職は最後の給料から一括のことも）",
+       "届いたらすぐ払う、または口座振替に"
+      ],
+      [
+       "引っ越し",
+       "納付書が前の住所に届き、気づかない",
+       "14日以内に住所変更。不安なら新しい区役所で確認"
+      ],
+      [
+       "長く帰国する",
+       "日本にいなくても納付書は届く",
+       "出発前に口座振替にしておく"
+      ],
+      [
+       "収入が少なく年金が払えない",
+       "申請しなければ「未納」になる",
+       "免除・納付猶予を申請する（認められれば未納ではない）"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. 払い忘れを防ぐ：今すぐできる3つのこと",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>口座振替にする</strong>：住民税・国保・国民年金のどれもできます。区役所や年金事務所で手続きします。",
+      "<strong>転職したら、新しい会社で住民税を天引きにしてもらう</strong>（特別徴収）。",
+      "<strong>「更新の申請ができる日」をカレンダーに入れる</strong>。その日に、下のチェック表で確認します。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "4. 更新の3か月前：5分でできるチェック表",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "チェック表",
+     "items": [
+      "この1〜2年の住民税を払っている（納税証明書が取れる）",
+      "仕事をしていない期間は、国民健康保険に入っていた",
+      "国民年金に未納がない（または免除を申請している）",
+      "家族（配偶者・子ども）の保険と年金も問題ない",
+      "引っ越しの後の納付書も、すべて受け取っている"
+     ],
+     "done": "すべて確認できました。安心して更新の準備を進めましょう。",
+     "hint": "チェックはこの画面の中だけで、保存も送信もしません。"
+    }
+   ]
+  },
+  {
+   "heading": "5. 払い忘れが見つかったら",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>まず確かめる</strong>：どの項目が、何か月分、いくらか。",
+      "<strong>払えるものはすぐ払う</strong>（延滞金がかかります）。<strong>領収書は必ず残す</strong>。",
+      "<strong>一度に払えなければ、窓口で分割を相談</strong>し、分割の約束を書面でもらう。",
+      "<strong>年金</strong>：未納の分は2年以内なら後から払えます。収入が少なければ免除を申請でき、約2年さかのぼれます。",
+      "<strong>更新のとき</strong>：領収書や分割の書面を添えて、<strong>隠さず正直に説明する</strong>。",
+      "金額が大きい、期間が長いなど複雑なときは、まず行政書士に相談する。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. 必ず注意すること",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>後から払っても、なかったことにはならない</strong>。ただ「払い終えて証明がある」のは「放置している」よりずっとよい。",
+      "<strong>家族の未納が影響することもある</strong>（同じ世帯の配偶者など）。",
+      "<strong>免除が認められていれば未納ではない</strong>。申請しなければ未納。",
+      "永住の申請はさらに厳しく、<strong>遅れて払ったこと自体が不利になりうる</strong>。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "次の一歩",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "「更新の申請ができる日」をカレンダーに → 在留期限リマインダー",
+       "href": "/ja/career/visa-reminder/"
+      },
+      {
+       "text": "前の記事：更新手数料が最大7.5万円に。家族でいくら？",
+       "href": "/ja/career/visa-fee-2026/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "次の記事：永住の新しい基準、何が決まって、何がまだ案か（準備中）"
+    },
+    {
+     "t": "note",
+     "text": "この記事は一般的な情報で、個別の法的な助言ではありません。出典：<a href=\"https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00058.html\" target=\"_blank\" rel=\"noopener\">出入国在留管理庁「在留資格の変更、在留期間の更新許可のガイドライン」（令和8年6月改正）</a>、<a href=\"https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html\" target=\"_blank\" rel=\"noopener\">日本年金機構（免除・納付猶予）</a>、<a href=\"https://www.moj.go.jp/isa/content/001467987.pdf\" target=\"_blank\" rel=\"noopener\">出入国在留管理庁（永住者の在留資格の取消しに関するガイドライン案の概要）</a>。ご自身の状況は、出入国在留管理局・区役所・年金事務所・行政書士に確認してください。"
+    }
+   ]
+  }
+ ],
+ "title_zh-TW": "稅金、年金、健康保險忘了繳，會影響簽證更新嗎？——5分鐘自我檢查清單和補救辦法",
+ "description_zh-TW": "2026年6月起，入管明確會參考有關機關提供的繳費資訊來審查更新。最容易出問題的是換工作、離職、搬家時忘了繳。附更新前自我檢查清單、自動扣款設定、發現沒繳時的補救步驟。",
+ "checked_zh-TW": "內容確認日期：2026年10月23日",
+ "sections_zh-TW": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "一句話結論",
+     "text": "入管會查你有沒有按時繳稅和保險。<strong>最容易出問題的不是「不繳」，而是換工作、離職、搬家時「忘了繳」。</strong>更新前3個月自我檢查一次，把繳費改成自動扣款。"
+    },
+    {
+     "t": "quote",
+     "label": "現場常聽到",
+     "text": "「換工作、搬家的時候，一不小心就忘了繳。」——很多人不是不想繳，而是根本不知道要自己繳。"
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2010年起",
+       "text": "更新時在窗口出示健康保險證（現在也可用マイナ保険証的資格資訊等）"
+      },
+      {
+       "date": "2026年6月",
+       "text": "入管的審查指南寫明：會依有關機關提供的納稅等資訊，決定是否核准",
+       "hl": true
+      },
+      {
+       "date": "2026年10月起",
+       "text": "永住申請：晚繳後補齊，也可能被不利評價"
+      },
+      {
+       "date": "法律已修改",
+       "text": "明知要繳、故意不繳且明顯沒有支付意願時，可能被取消永住（施行時期以官方為準）。一時忘記、有不得已的原因不屬於這種情況"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 要查的是這三樣",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "項目",
+      "誰來繳",
+      "怎麼查"
+     ],
+     "rows": [
+      [
+       "住民稅",
+       "上班族：公司從薪水扣<br>離職後、自營：自己繳",
+       "區公所或便利商店開「納税証明書」；マイナポータル"
+      ],
+      [
+       "健康保險",
+       "公司的健保：公司扣<br>國民健康保險：自己繳",
+       "公司健保看薪資單；國保問區公所"
+      ],
+      [
+       "年金",
+       "厚生年金：公司扣<br>國民年金：自己繳",
+       "ねんきんネット；年金事務所"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "<strong>一直在同一家公司上班的人，基本由公司扣，風險低。</strong>風險集中在「自己繳」的時期。"
+    }
+   ]
+  },
+  {
+   "heading": "2. 最容易忘的5個時刻",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "時刻",
+      "會發生什麼",
+      "怎麼做"
+     ],
+     "rows": [
+      [
+       "換工作有空檔",
+       "健康保險、年金從公司扣變成自己繳",
+       "14天內到區公所辦國保、國民年金"
+      ],
+      [
+       "離職後的住民稅",
+       "改成寄繳費單給你自己繳（1～5月離職的，可能從最後的薪水一次扣完）",
+       "收到繳費單就繳，或辦自動扣款"
+      ],
+      [
+       "搬家",
+       "繳費單寄到舊地址，沒收到",
+       "14天內辦地址變更；不確定就去新區公所問"
+      ],
+      [
+       "長期回國",
+       "人不在日本，繳費單照樣來",
+       "出發前設自動扣款"
+      ],
+      [
+       "收入少、繳不起年金",
+       "不申請就算「未繳」",
+       "申請免除或緩繳（核准了就不算未繳）"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. 防止忘記：現在就能做的3件事",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>改成自動扣款（口座振替）</strong>：住民稅、國保、國民年金都可以。在區公所或年金事務所辦。",
+      "<strong>換工作時，請新公司從薪水扣住民稅</strong>（特別徵收）。",
+      "<strong>把「可以申請更新的日子」寫進行事曆</strong>，到時用下面的清單自我檢查。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "4. 更新前3個月：5分鐘自我檢查清單",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "自我檢查清單",
+     "items": [
+      "過去1～2年的住民稅都繳了（能開出納税証明書）",
+      "沒有工作的期間，有加入國民健康保險",
+      "國民年金沒有未繳（或已申請免除）",
+      "家人（配偶、孩子）的保險和年金也沒問題",
+      "搬家後的繳費單都收到了"
+     ],
+     "done": "全部確認完畢，可以安心準備更新了。",
+     "hint": "只在你的手機上勾選，不會儲存或傳送。"
+    }
+   ]
+  },
+  {
+   "heading": "5. 發現沒繳，怎麼辦",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>先查清楚</strong>：哪一項、哪幾個月、多少錢。",
+      "<strong>能繳的馬上繳</strong>（會有滯納金），<strong>收據保存好</strong>。",
+      "<strong>一次繳不起 → 去窗口商量分期</strong>，拿到分期的書面證明。",
+      "<strong>年金</strong>：沒繳的部分2年以內可以補繳；收入少的話可以申請免除，最多往前追溯約2年。",
+      "<strong>更新時</strong>：帶上收據或分期證明，<strong>如實說明，不要隱瞞</strong>。",
+      "金額大、時間長等情況複雜時，先找行政書士商量。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. 一定要注意",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>補繳了也不等於沒事</strong>，但「補齊＋有證明」比「一直拖著」好得多。",
+      "<strong>家人的未繳也可能影響你</strong>（同一戶的配偶等）。",
+      "<strong>免除核准了不算未繳</strong>；沒申請就是未繳。",
+      "申請永住的人要求更嚴，<strong>晚繳本身就可能被扣分</strong>。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "下一步",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "把「可以申請更新的日子」放進行事曆 → 在留期限提醒",
+       "href": "/zh-TW/career/visa-reminder/"
+      },
+      {
+       "text": "上一篇：簽證更新費最高7.5萬日圓，一家人要準備多少？",
+       "href": "/zh-TW/career/visa-fee-2026/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "下一篇：永住新規定，決定了什麼，還沒決定什麼（準備中）"
+    },
+    {
+     "t": "note",
+     "text": "一般性資訊，不是針對個人的法律意見。來源：<a href=\"https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00058.html\" target=\"_blank\" rel=\"noopener\">出入國在留管理廳「在留資格變更、在留期間更新許可指南」（2026年6月修訂）</a>、<a href=\"https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html\" target=\"_blank\" rel=\"noopener\">日本年金機構（免除・緩繳）</a>、<a href=\"https://www.moj.go.jp/isa/content/001467987.pdf\" target=\"_blank\" rel=\"noopener\">出入國在留管理廳（永住取消指南案概要）</a>。具體請向出入國在留管理局、區公所、年金事務所或行政書士確認。"
+    }
+   ]
+  }
+ ],
+ "title_en": "Missed Tax, Pension or Health Insurance Payments: Will It Affect Your Visa Renewal? A 5-Minute Checklist and What to Do",
+ "description_en": "Since June 2026, Japan's immigration guidelines state that payment information from other agencies may be used in renewal decisions. Most problems come from forgetting to pay after a job change, leaving a job or moving. Pre-renewal checklist, automatic payment setup, and steps if you find a missed payment.",
+ "checked_en": "Content checked: October 23, 2026",
+ "sections_en": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "In one sentence",
+     "text": "Immigration checks whether you pay your taxes and insurance on time. <strong>The real risk is not refusing to pay — it is forgetting to pay after changing jobs, leaving a job or moving.</strong> Check yourself 3 months before renewal, and switch to automatic payments."
+    },
+    {
+     "t": "quote",
+     "label": "What we often hear",
+     "text": "\"I changed jobs and moved, and simply forgot to pay.\" Most people aren't avoiding payment — they just didn't know they now had to pay it themselves."
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "Since 2010",
+       "text": "Show your health insurance card at the renewal counter (My Number insurance information is now also accepted)"
+      },
+      {
+       "date": "June 2026",
+       "text": "The guidelines now state that information on tax and other payments provided by other agencies may be used in approval decisions",
+       "hl": true
+      },
+      {
+       "date": "From Oct 2026",
+       "text": "Permanent residence applications: even late payments made up later may count against you"
+      },
+      {
+       "date": "Law already amended",
+       "text": "Permanent residence may be revoked if someone knowingly and deliberately refuses to pay with clearly no intention of paying (start date per official announcement). Simply forgetting, or unavoidable circumstances, do not fall under this"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. The three things to check",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Item",
+      "Who pays",
+      "How to check"
+     ],
+     "rows": [
+      [
+       "Resident tax",
+       "Employees: deducted from salary<br>After leaving a job / self-employed: you pay",
+       "Tax certificate (納税証明書) from the city office or a convenience store; Mynaportal"
+      ],
+      [
+       "Health insurance",
+       "Company insurance: deducted<br>National Health Insurance: you pay",
+       "Company insurance: your payslip; NHI: city office"
+      ],
+      [
+       "Pension",
+       "Employees' pension: deducted<br>National Pension: you pay",
+       "Nenkin Net; pension office"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "<strong>If you have worked for the same company all along, payments are mostly deducted automatically, so the risk is low.</strong> The risk is in periods when you pay yourself."
+    }
+   ]
+  },
+  {
+   "heading": "2. Five moments when payments get missed",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Moment",
+      "What happens",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Gap between jobs",
+       "Health insurance and pension switch from salary deduction to paying yourself",
+       "Register for NHI and National Pension at the city office within 14 days"
+      ],
+      [
+       "Resident tax after leaving a job",
+       "You receive payment slips and pay yourself (if you leave between January and May, it may be taken in one lump sum from your last salary)",
+       "Pay as soon as slips arrive, or set up automatic debit"
+      ],
+      [
+       "Moving",
+       "Payment slips go to your old address",
+       "Change your address within 14 days; if unsure, ask at your new city office"
+      ],
+      [
+       "Long stay abroad",
+       "Slips keep coming even while you are away",
+       "Set up automatic debit before leaving"
+      ],
+      [
+       "Low income, can't pay pension",
+       "Not applying counts as \"unpaid\"",
+       "Apply for exemption or postponement (approved periods are not \"unpaid\")"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. Prevent it: three things you can do now",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Switch to automatic bank debit (口座振替)</strong> for resident tax, NHI and National Pension — at the city office or pension office.",
+      "<strong>When you change jobs, ask your new company to deduct resident tax from your salary</strong> (special collection).",
+      "<strong>Put \"the day you can apply for renewal\" in your calendar</strong>, and use the checklist below on that day."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "4. Three months before renewal: a 5-minute checklist",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "Checklist",
+     "items": [
+      "Resident tax for the last 1–2 years is paid (you can get a tax certificate)",
+      "You were enrolled in National Health Insurance while not working",
+      "No unpaid National Pension (or you have applied for exemption)",
+      "Your family's (spouse, children) insurance and pension are also in order",
+      "You received all payment slips after moving"
+     ],
+     "done": "All checked — you can prepare your renewal with peace of mind.",
+     "hint": "Checks stay on your screen only; nothing is saved or sent."
+    }
+   ]
+  },
+  {
+   "heading": "5. If you find a missed payment",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Find out exactly</strong> which item, which months, and how much.",
+      "<strong>Pay what you can right away</strong> (late charges apply) and <strong>keep the receipts</strong>.",
+      "<strong>If you can't pay it all at once, ask the office about instalments</strong> and get the plan in writing.",
+      "<strong>Pension</strong>: unpaid months can be paid within 2 years; on a low income you can apply for exemption going back about 2 years.",
+      "<strong>At renewal</strong>, attach receipts or the instalment plan and <strong>explain honestly — don't hide it</strong>.",
+      "If it is complicated (large amounts, long periods), talk to a gyoseishoshi first."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. Keep in mind",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Paying later doesn't erase it</strong>, but \"fully paid, with proof\" is far better than leaving it.",
+      "<strong>Unpaid amounts of family members may affect you</strong> (e.g., a spouse in the same household).",
+      "<strong>Approved exemptions are not unpaid</strong>; not applying means unpaid.",
+      "Permanent residence is stricter: <strong>late payment itself can count against you</strong>."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Next step",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "Put \"the day you can apply\" in your calendar → Residence Card Expiry Reminder",
+       "href": "/en/career/visa-reminder/"
+      },
+      {
+       "text": "Previous article: Extension fees up to ¥75,000 — how much for your family?",
+       "href": "/en/career/visa-fee-2026/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next article: New permanent residence rules — what is decided and what is still a proposal (coming soon)"
+    },
+    {
+     "t": "note",
+     "text": "General information, not legal advice for your situation. Sources: <a href=\"https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00058.html\" target=\"_blank\" rel=\"noopener\">Immigration Services Agency, guidelines on change of status and extension of period of stay (revised June 2026)</a>, <a href=\"https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html\" target=\"_blank\" rel=\"noopener\">Japan Pension Service (exemption and postponement)</a>, <a href=\"https://www.moj.go.jp/isa/content/001467987.pdf\" target=\"_blank\" rel=\"noopener\">Immigration Services Agency (overview of draft guidelines on revoking permanent residence)</a>. Please check with the immigration bureau, your city office, the pension office or a gyoseishoshi."
+    }
+   ]
+  }
+ ],
+ "title_vi": "Quên đóng thuế, lương hưu, bảo hiểm y tế có ảnh hưởng đến gia hạn visa không? Danh sách tự kiểm tra 5 phút và cách khắc phục",
+ "description_vi": "Từ tháng 6/2026, hướng dẫn của Cục Xuất nhập cảnh ghi rõ có thể dùng thông tin đóng thuế, bảo hiểm do cơ quan khác cung cấp khi xét gia hạn. Rủi ro lớn nhất là quên đóng khi chuyển việc, nghỉ việc, chuyển nhà. Có danh sách tự kiểm tra, cách cài đóng tự động và các bước khắc phục.",
+ "checked_vi": "Ngày kiểm tra nội dung: 23/10/2026",
+ "sections_vi": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "Tóm tắt một câu",
+     "text": "Cục Xuất nhập cảnh xem bạn có đóng thuế và bảo hiểm đúng hạn không. <strong>Rủi ro lớn nhất không phải là \"không đóng\", mà là \"quên đóng\" khi chuyển việc, nghỉ việc, chuyển nhà.</strong> Hãy tự kiểm tra 3 tháng trước khi gia hạn và chuyển sang trừ tiền tự động."
+    },
+    {
+     "t": "quote",
+     "label": "Điều chúng tôi thường nghe",
+     "text": "\"Lúc chuyển việc, chuyển nhà thì lỡ quên đóng.\" Phần lớn không phải cố tình không đóng, mà là không biết giờ phải tự đóng."
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "Từ 2010",
+       "text": "Xuất trình thẻ bảo hiểm y tế tại quầy khi gia hạn (nay có thể dùng thông tin bảo hiểm trên My Number)"
+      },
+      {
+       "date": "6/2026",
+       "text": "Hướng dẫn ghi rõ: có thể dựa vào thông tin đóng thuế… do cơ quan liên quan cung cấp để quyết định cấp phép",
+       "hl": true
+      },
+      {
+       "date": "Từ 10/2026",
+       "text": "Xin vĩnh trú: dù đã đóng bù, việc đóng trễ vẫn có thể bị đánh giá bất lợi"
+      },
+      {
+       "date": "Luật đã sửa đổi",
+       "text": "Có thể bị hủy vĩnh trú nếu biết phải đóng mà cố tình không đóng và rõ ràng không có ý định trả (thời điểm áp dụng theo thông báo chính thức). Lỡ quên hoặc có lý do bất khả kháng thì không thuộc trường hợp này"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. Ba khoản cần kiểm tra",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Khoản",
+      "Ai đóng",
+      "Cách kiểm tra"
+     ],
+     "rows": [
+      [
+       "Thuế cư trú",
+       "Người đi làm: trừ vào lương<br>Sau khi nghỉ việc, tự kinh doanh: tự đóng",
+       "Giấy chứng nhận nộp thuế (納税証明書) ở ủy ban quận hoặc cửa hàng tiện lợi; Mynaportal"
+      ],
+      [
+       "Bảo hiểm y tế",
+       "Bảo hiểm công ty: trừ lương<br>Bảo hiểm y tế quốc dân: tự đóng",
+       "Bảo hiểm công ty: xem phiếu lương; quốc dân: hỏi ủy ban quận"
+      ],
+      [
+       "Lương hưu",
+       "Lương hưu phúc lợi: trừ lương<br>Lương hưu quốc dân: tự đóng",
+       "Nenkin Net; văn phòng lương hưu"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "<strong>Người làm liên tục ở một công ty thì phần lớn được trừ lương, rủi ro thấp.</strong> Rủi ro nằm ở những giai đoạn phải tự đóng."
+    }
+   ]
+  },
+  {
+   "heading": "2. Năm thời điểm dễ quên nhất",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Thời điểm",
+      "Điều xảy ra",
+      "Cách xử lý"
+     ],
+     "rows": [
+      [
+       "Khoảng trống giữa hai công việc",
+       "Bảo hiểm và lương hưu chuyển từ trừ lương sang tự đóng",
+       "Trong 14 ngày, làm thủ tục bảo hiểm quốc dân và lương hưu quốc dân ở ủy ban quận"
+      ],
+      [
+       "Thuế cư trú sau khi nghỉ việc",
+       "Giấy báo đóng được gửi về để tự đóng (nghỉ từ tháng 1–5 có thể bị trừ một lần vào lương cuối)",
+       "Đóng ngay khi nhận giấy, hoặc đăng ký trừ tự động"
+      ],
+      [
+       "Chuyển nhà",
+       "Giấy báo gửi về địa chỉ cũ",
+       "Đổi địa chỉ trong 14 ngày; nếu không chắc hãy hỏi ủy ban quận mới"
+      ],
+      [
+       "Về nước dài ngày",
+       "Không ở Nhật nhưng giấy báo vẫn gửi đến",
+       "Đăng ký trừ tự động trước khi đi"
+      ],
+      [
+       "Thu nhập thấp, không đóng nổi lương hưu",
+       "Không nộp đơn thì bị tính là \"chưa đóng\"",
+       "Xin miễn hoặc hoãn đóng (được duyệt thì không tính là chưa đóng)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. Phòng tránh: 3 việc làm ngay",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Chuyển sang trừ tự động qua tài khoản (口座振替)</strong>: thuế cư trú, bảo hiểm quốc dân, lương hưu quốc dân đều được. Làm ở ủy ban quận hoặc văn phòng lương hưu.",
+      "<strong>Khi chuyển việc, nhờ công ty mới trừ thuế cư trú vào lương</strong> (thu đặc biệt).",
+      "<strong>Ghi \"ngày bắt đầu được nộp gia hạn\" vào lịch</strong>, đến ngày đó dùng danh sách dưới đây để tự kiểm tra."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "4. Trước khi gia hạn 3 tháng: danh sách tự kiểm tra 5 phút",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "Danh sách tự kiểm tra",
+     "items": [
+      "Đã đóng thuế cư trú 1–2 năm gần đây (lấy được giấy chứng nhận nộp thuế)",
+      "Có tham gia bảo hiểm y tế quốc dân trong thời gian không đi làm",
+      "Không nợ lương hưu quốc dân (hoặc đã xin miễn)",
+      "Bảo hiểm, lương hưu của người nhà (vợ/chồng, con) cũng không có vấn đề",
+      "Đã nhận đủ giấy báo đóng tiền sau khi chuyển nhà"
+     ],
+     "done": "Đã kiểm tra xong tất cả, bạn có thể yên tâm chuẩn bị gia hạn.",
+     "hint": "Chỉ đánh dấu trên màn hình của bạn, không lưu hay gửi đi."
+    }
+   ]
+  },
+  {
+   "heading": "5. Nếu phát hiện chưa đóng",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Kiểm tra rõ</strong>: khoản nào, tháng nào, bao nhiêu tiền.",
+      "<strong>Đóng ngay phần có thể đóng</strong> (có tiền phạt chậm), <strong>giữ biên lai</strong>.",
+      "<strong>Không đóng một lần được → hỏi quầy về trả góp</strong>, lấy giấy xác nhận kế hoạch trả góp.",
+      "<strong>Lương hưu</strong>: phần chưa đóng có thể đóng bù trong vòng 2 năm; thu nhập thấp có thể xin miễn, truy lùi khoảng 2 năm.",
+      "<strong>Khi gia hạn</strong>: kèm biên lai hoặc giấy trả góp, <strong>giải thích trung thực, không che giấu</strong>.",
+      "Trường hợp phức tạp (số tiền lớn, thời gian dài), hãy hỏi hành chính thư sĩ (gyoseishoshi) trước."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. Nhất định phải lưu ý",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Đóng bù không có nghĩa là xem như chưa từng nợ</strong>, nhưng \"đã đóng đủ + có giấy tờ\" tốt hơn nhiều so với để đó.",
+      "<strong>Khoản nợ của người nhà cũng có thể ảnh hưởng đến bạn</strong> (vợ/chồng cùng hộ…).",
+      "<strong>Được duyệt miễn thì không tính là chưa đóng</strong>; không nộp đơn thì là chưa đóng.",
+      "Xin vĩnh trú yêu cầu nghiêm hơn: <strong>bản thân việc đóng trễ đã có thể bị trừ điểm</strong>."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Bước tiếp theo",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "Ghi \"ngày bắt đầu được nộp đơn\" vào lịch → Nhắc hạn thẻ cư trú",
+       "href": "/vi/career/visa-reminder/"
+      },
+      {
+       "text": "Bài trước: Phí gia hạn tới 75.000 yên — cả nhà cần bao nhiêu?",
+       "href": "/vi/career/visa-fee-2026/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Bài tiếp theo: Quy định vĩnh trú mới — điều gì đã quyết, điều gì còn là dự thảo (sắp ra mắt)"
+    },
+    {
+     "t": "note",
+     "text": "Thông tin chung, không phải tư vấn pháp lý cho trường hợp cụ thể. Nguồn: <a href=\"https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00058.html\" target=\"_blank\" rel=\"noopener\">Cục Quản lý Xuất nhập cảnh, hướng dẫn về đổi tư cách và gia hạn lưu trú (sửa đổi 6/2026)</a>, <a href=\"https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html\" target=\"_blank\" rel=\"noopener\">Cơ quan Lương hưu Nhật Bản (miễn, hoãn đóng)</a>, <a href=\"https://www.moj.go.jp/isa/content/001467987.pdf\" target=\"_blank\" rel=\"noopener\">Cục Quản lý Xuất nhập cảnh (tóm tắt dự thảo hướng dẫn hủy vĩnh trú)</a>. Hãy hỏi Cục Xuất nhập cảnh, ủy ban quận, văn phòng lương hưu hoặc hành chính thư sĩ."
+    }
+   ]
+  }
+ ],
+ "title_ko": "세금·연금·건강보험을 깜빡 안 냈다면 비자 갱신에 영향이 있을까? 5분 자가 점검표와 대처법",
+ "description_ko": "2026년 6월부터 입국관리청 가이드라인에 관계 기관이 제공한 납부 정보를 갱신 심사에 활용할 수 있다고 명시되었습니다. 가장 문제가 되기 쉬운 것은 이직·퇴직·이사 때의 미납입니다. 갱신 전 점검표, 자동 납부 설정, 미납이 발견됐을 때의 순서를 정리했습니다.",
+ "checked_ko": "내용 확인일: 2026년 10월 23일",
+ "sections_ko": [
+  {
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "한 줄 결론",
+     "text": "입국관리청은 세금과 보험을 제때 냈는지 봅니다. <strong>문제가 되기 쉬운 것은 \"안 내는 것\"보다 이직·퇴직·이사 때 \"깜빡 잊는 것\"입니다.</strong> 갱신 3개월 전에 한 번 점검하고, 납부를 자동이체로 바꿔 두세요."
+    },
+    {
+     "t": "quote",
+     "label": "현장에서 자주 듣는 말",
+     "text": "\"이직하고 이사하면서 깜빡 잊고 못 냈어요.\" 내기 싫어서가 아니라, 이제 직접 내야 한다는 걸 몰랐던 경우가 많습니다."
+    },
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "date": "2010년부터",
+       "text": "갱신 창구에서 건강보험증 제시(지금은 마이나 보험증의 자격 정보 등도 가능)"
+      },
+      {
+       "date": "2026년 6월",
+       "text": "가이드라인에 \"관계 기관이 제공한 납세 의무 등의 이행 상황 정보를 바탕으로 허가 여부를 판단할 수 있다\"고 명시",
+       "hl": true
+      },
+      {
+       "date": "2026년 10월부터",
+       "text": "영주 신청: 나중에 다 냈더라도 늦게 낸 것이 불리하게 평가될 수 있음"
+      },
+      {
+       "date": "법 개정 완료",
+       "text": "낼 의무를 알면서 일부러 내지 않고 낼 의사가 없는 것이 분명하면 영주 허가가 취소될 수 있음(시행 시기는 공식 발표에 따름). 깜빡 잊었거나 부득이한 사정이 있는 경우는 해당하지 않음"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "1. 확인할 것은 세 가지",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "항목",
+      "누가 내나",
+      "확인 방법"
+     ],
+     "rows": [
+      [
+       "주민세",
+       "회사원: 급여에서 공제<br>퇴직 후·개인사업: 직접 납부",
+       "구청이나 편의점에서 「納税証明書」, 마이나포털"
+      ],
+      [
+       "건강보험",
+       "회사 건강보험: 급여 공제<br>국민건강보험: 직접 납부",
+       "회사 보험은 급여명세서, 국보는 구청"
+      ],
+      [
+       "연금",
+       "후생연금: 급여 공제<br>국민연금: 직접 납부",
+       "넨킨넷, 연금사무소"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "<strong>같은 회사에 계속 다니는 사람은 대부분 급여에서 공제되므로 위험이 작습니다.</strong> 위험은 \"직접 내는\" 시기에 몰려 있습니다."
+    }
+   ]
+  },
+  {
+   "heading": "2. 깜빡하기 쉬운 5가지 순간",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "순간",
+      "무슨 일이 생기나",
+      "어떻게 하나"
+     ],
+     "rows": [
+      [
+       "이직 사이 공백 기간",
+       "건강보험·연금이 급여 공제에서 직접 납부로 바뀜",
+       "14일 이내에 구청에서 국보·국민연금 수속"
+      ],
+      [
+       "퇴직 후 주민세",
+       "납부서가 와서 직접 내야 함(1~5월 퇴직은 마지막 급여에서 일괄 공제되기도 함)",
+       "오면 바로 내거나 자동이체 신청"
+      ],
+      [
+       "이사",
+       "납부서가 이전 주소로 가서 모름",
+       "14일 이내에 주소 변경. 불안하면 새 구청에 문의"
+      ],
+      [
+       "장기 귀국",
+       "일본에 없어도 납부서는 옴",
+       "출국 전에 자동이체로"
+      ],
+      [
+       "수입이 적어 연금을 못 냄",
+       "신청하지 않으면 \"미납\"",
+       "면제·납부 유예 신청(승인되면 미납이 아님)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. 미리 막기: 지금 할 수 있는 3가지",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>자동이체(口座振替)로 바꾸기</strong>: 주민세·국보·국민연금 모두 가능. 구청이나 연금사무소에서 신청합니다.",
+      "<strong>이직하면 새 회사에서 주민세를 급여 공제해 달라고 하기</strong>(특별징수).",
+      "<strong>\"갱신 신청이 가능해지는 날\"을 캘린더에 넣기</strong>. 그날 아래 점검표로 확인합니다."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "4. 갱신 3개월 전: 5분 자가 점검표",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "자가 점검표",
+     "items": [
+      "최근 1~2년 주민세를 냈다(納税証明書를 뗄 수 있다)",
+      "일하지 않은 기간에 국민건강보험에 가입했다",
+      "국민연금 미납이 없다(또는 면제를 신청했다)",
+      "가족(배우자·자녀)의 보험과 연금도 문제없다",
+      "이사 후 납부서를 모두 받았다"
+     ],
+     "done": "모두 확인했습니다. 안심하고 갱신을 준비하세요.",
+     "hint": "체크는 이 화면 안에서만 하며 저장하거나 전송하지 않습니다."
+    }
+   ]
+  },
+  {
+   "heading": "5. 미납을 발견했다면",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>먼저 확인</strong>: 어떤 항목이, 몇 개월분, 얼마인지.",
+      "<strong>낼 수 있는 것은 바로 내기</strong>(연체금이 붙습니다). <strong>영수증은 꼭 보관</strong>.",
+      "<strong>한 번에 못 내면 창구에서 분할 납부를 상담</strong>하고 서면으로 받기.",
+      "<strong>연금</strong>: 미납분은 2년 이내면 나중에 낼 수 있습니다. 수입이 적으면 면제를 신청할 수 있고 약 2년 소급됩니다.",
+      "<strong>갱신 때</strong>: 영수증이나 분할 납부 서류를 첨부하고 <strong>숨기지 말고 솔직하게 설명</strong>.",
+      "금액이 크거나 기간이 긴 복잡한 경우에는 먼저 행정서사와 상담."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. 꼭 주의할 점",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>나중에 냈다고 없던 일이 되지는 않습니다</strong>. 다만 \"완납 + 증명\"은 \"방치\"보다 훨씬 낫습니다.",
+      "<strong>가족의 미납이 영향을 줄 수도 있습니다</strong>(같은 세대의 배우자 등).",
+      "<strong>면제가 승인되면 미납이 아닙니다</strong>. 신청하지 않으면 미납입니다.",
+      "영주 신청은 더 엄격해서 <strong>늦게 낸 것 자체가 불리할 수 있습니다</strong>."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "다음 단계",
+   "blocks": [
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "\"신청이 가능해지는 날\"을 캘린더에 → 재류 기한 알림",
+       "href": "/ko/career/visa-reminder/"
+      },
+      {
+       "text": "이전 기사: 갱신 수수료 최대 7.5만 엔, 가족이면 얼마?",
+       "href": "/ko/career/visa-fee-2026/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "다음 기사: 영주 새 기준, 무엇이 정해졌고 무엇이 아직 안인가(준비 중)"
+    },
+    {
+     "t": "note",
+     "text": "일반적인 정보이며 개별 법률 조언이 아닙니다. 출처: <a href=\"https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00058.html\" target=\"_blank\" rel=\"noopener\">출입국재류관리청 「재류 자격 변경, 재류 기간 갱신 허가 가이드라인」(2026년 6월 개정)</a>, <a href=\"https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html\" target=\"_blank\" rel=\"noopener\">일본연금기구(면제·납부 유예)</a>, <a href=\"https://www.moj.go.jp/isa/content/001467987.pdf\" target=\"_blank\" rel=\"noopener\">출입국재류관리청(영주자 재류 자격 취소 가이드라인안 개요)</a>. 본인의 상황은 출입국재류관리국, 구청, 연금사무소 또는 행정서사에게 확인하세요."
+    }
+   ]
+  }
+ ]
+}
