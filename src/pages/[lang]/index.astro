@@ -1,4 +1,6 @@
 ---
+import { SECTION_NAMES } from '../../data/sectionNames';
+import { RESCUE_HUB, pick } from '../../data/sectionHubCopy';
 import Base from '../../layouts/Base.astro';
 import rescueIndex from '../../../public/data/rescue/index.json';
 import config from '../../../public/config.json';
@@ -26,26 +28,8 @@ for (const scene of rescueIndex.scenes) {
   }
 }
 
-const siteTitles: Record<string, string> = {
-  zh: 'Living Japanese | 不是学日语，是习惯说日语',
-  en: 'Living Japanese | Not studying Japanese. Making it a habit.',
-  'zh-TW': 'Living Japanese | 不是學日語，是習慣說日語',
-  vi: 'Living Japanese | Không phải học tiếng Nhật, mà là quen nói',
-  ko: 'Living Japanese | 일본어를 배우는 게 아니라, 습관처럼 말하기',
-  ja: 'Living Japanese | 日本語を学ぶのではなく、話す習慣を'
-};
-
-const siteDescs: Record<string, string> = {
-  zh: '在日本看病、租房、办手续怎么用日语说？23个真实场景对话，真人核实，跟读练习，完全免费。',
-  en: 'Real Japanese for hospital visits, apartment hunting, city hall, and driver license conversion in Japan. 23 verified scenes with two-way shadowing practice — completely free.',
-  'zh-TW': '在日本看病、打工度假、辦手續怎麼用日語說？23個真實場景對話，真人核實，跟讀練習，完全免費。',
-  vi: 'Đi khám bệnh, xin nghỉ phép, giải quyết tranh chấp lao động, thuê nhà, làm thủ tục hành chính ở Nhật phải nói tiếng Nhật thế nào? 23 tình huống hội thoại thật, có người kiểm chứng nội dung, luyện nói theo miễn phí hoàn toàn.',
-  ko: '병원, 관공서, 은행, 워홀·유학 생활에서 일본어로 뭐라고 말해야 할지 막막할 때. 실제 검증된 23개 생활 상황 회화를 무료로 듣고 따라 말해보세요.',
-  ja: '病院、市役所、賃貸契約など、日本の生活シーンで本当に使える日本語を。23の場面の実際の会話、シャドーイング練習付き、完全無料。'
-};
-
-const title = siteTitles[lang] || siteTitles.zh;
-const description = siteDescs[lang] || siteDescs.zh;
+const title = pick(RESCUE_HUB.title, lang);
+const description = pick(RESCUE_HUB.description, lang);
 
 function getSceneTitle(scene: any, lang: string): string {
   return scene[`title_${lang}`] || scene.title_zh || scene.title;
@@ -58,8 +42,10 @@ const countLabels: Record<string, string> = {
 const scenes = rescueIndex.scenes;
 const banner = config.banner;
 
-const bannerTitle = (banner as any)[`title_${lang}`] || banner.title || '';
-const bannerSubtitle = (banner as any)[`subtitle_${lang}`] || banner.subtitle || '';
+const bannerTitle = pick(RESCUE_HUB.catch, lang);
+const bannerSubtitle = pick(RESCUE_HUB.intro, lang);
+const bannerMethod = pick(RESCUE_HUB.method, lang);
+const sectionTitle = (SECTION_NAMES.rescue as Record<string, string>)[lang] || SECTION_NAMES.rescue.zh;
 const bannerPills = (banner as any)[`pills_${lang}`] || banner.pills || [];
 
 const bannerStatLabels: Record<string, string> = {
@@ -97,9 +83,10 @@ const shadowing = shadowingLabels[lang] || shadowingLabels.zh;
   <div id="banner" class="banner-wrap">
     <div class="banner-inner">
       <div class="banner-left">
-        <div class="banner-eyebrow">{banner.eyebrow || ''}</div>
+        <h1 class="banner-eyebrow">{sectionTitle}</h1>
         <div class="banner-title">{bannerTitle}</div>
         {bannerSubtitle && <div class="banner-subtitle">{bannerSubtitle}</div>}
+        {bannerMethod && <div class="banner-subtitle banner-method">{bannerMethod}</div>}
         <div class="banner-pills">
           {bannerPills.map((pill: string) => (
             <span class="banner-pill">{pill}</span>

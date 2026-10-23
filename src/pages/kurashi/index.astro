@@ -1,23 +1,22 @@
 ---
 // 目标路径：src/pages/kurashi/index.astro → 映射为 /kurashi/
-// ST（节约・お得）版块入口页。版块内容的URL规则为 /kurashi/{lang}/（日语为母版）。
+// 暮らし＆お金の知恵（ST）版块入口页。版块内容的URL规则为 /kurashi/{lang}/（日语为母版）。
 // 现阶段还没有文章，先作为"准备中"的入口页：noindex，不进站内搜索（不加 data-pagefind-body），
 // 不计入内容阅读埋点。单一路径页面，文案按当前语言在客户端显示（与 /about/ 同一模式）。
 import Base from '../../layouts/Base.astro';
+import { SECTION_NAMES } from '../../data/sectionNames';
+const kurashiNames = SECTION_NAMES.kurashi;
 ---
 
-<Base title="節約・お得 | Kurawise" description="毎日の暮らしで、どれくらい節約できるかを具体的な数字で紹介します。" noindex={true} skipReadTracking={true}>
+<Base title={`${SECTION_NAMES.kurashi.ja} | Kurawise`} description="毎日の暮らしで、どれくらい節約できるかを具体的な数字で紹介します。" noindex={true} skipReadTracking={true}>
   <main class="kurashi-page" style="max-width:640px;margin:0 auto;padding:32px 20px 80px;">
-    <h1 id="kurashiTitle" style="font-size:22px;font-weight:700;margin-bottom:16px;">節約・お得</h1>
+    <h1 id="kurashiTitle" style="font-size:22px;font-weight:700;margin-bottom:16px;">{SECTION_NAMES.kurashi.ja}</h1>
     <p id="kurashiBody" style="font-size:15px;line-height:1.9;color:var(--text,#333);">準備中です。毎日の暮らしで、具体的にいくら節約できるかを、数字でわかりやすく紹介していきます。</p>
   </main>
 
-  <script is:inline>
+  <script is:inline define:vars={{ kurashiNames }}>
     function renderKurashiPage() {
-      const titleMap = {
-        zh: '省钱・优惠', 'zh-TW': '省錢・優惠', en: 'Save Money',
-        vi: 'Tiết kiệm', ko: '절약・혜택', ja: '節約・お得'
-      };
+      const titleMap = kurashiNames;
       const bodyMap = {
         zh: '准备中。我们会用具体的数字，介绍在日本日常生活中能省下多少钱。',
         'zh-TW': '準備中。我們會用具體的數字，介紹在日本日常生活中能省下多少錢。',

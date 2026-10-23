@@ -4,6 +4,7 @@
 // 1) 多了一层lang循环（每篇文章要为5种语言各生成一个静态页面）
 // 2) 取字段时用 tf() 按 `${field}_${lang}` 取值，取不到则退回中文
 // 3) sections/takeaways 是整段数组按语言复制（sections_en整个数组），不是逐字段翻译
+import { SECTION_NAMES } from '../../../../data/sectionNames';
 import Base from '../../../../layouts/Base.astro';
 import Breadcrumb from '../../../../components/Breadcrumb.astro';
 import { SECTIONS } from '../../../../data/sections';
@@ -66,10 +67,7 @@ const pageIntro = tf(pageData, 'intro', lang);
 const sections = tfArray(pageData, 'sections', lang);
 const takeaways = tfArray(pageData, 'takeaways', lang);
 
-const hubLabels: Record<string, string> = {
-  'zh-TW': '日本就職轉職指南', en: 'Japan Job & Career Guide', vi: 'Hướng dẫn xin việc & chuyển việc tại Nhật',
-  ko: '일본 취업・이직 가이드', ja: '日本での就職・転職ガイド'
-};
+const hubLabels: Record<string, string> = SECTION_NAMES.career;
 const takeawaysLabels: Record<string, string> = {
   'zh-TW': '要點小結', en: 'Key Takeaways', vi: 'Tóm tắt ý chính', ko: '핵심 요약', ja: 'ポイントまとめ'
 };

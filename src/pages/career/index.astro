@@ -1,4 +1,6 @@
 ---
+import { SECTION_NAMES } from '../../data/sectionNames';
+import { MEDICAL_HUB, CAREER_HUB, pick } from '../../data/sectionHubCopy';
 import Base from '../../layouts/Base.astro';
 import careerIndex from '../../../public/data/career/index.json';
 import disclaimer from '../../../public/data/career/disclaimer.json';
@@ -14,11 +16,11 @@ for (const p of careerIndex.pages) {
 }
 ---
 
-<Base title="就职・转职指南 | Kurawise" description="在日本求职、转职，从简历到面试到入职适应，真实经验一站式指南。" careerCss={true}>
+<Base title={CAREER_HUB.title.zh} description={CAREER_HUB.description.zh} careerCss={true}>
 
   <div class="career-hub-page" id="careerHubPage">
-    <h1>就职・转职指南</h1>
-    <p class="career-hub-intro">帮助在日外国人建立稳定的职业生活，不是教你"快速拿到offer的面试技巧"，而是从简历、面试到入职后的适应，讲清楚日本职场真正的做事逻辑。</p>
+    <h1>{SECTION_NAMES.career.zh}</h1>
+    <p class="career-hub-intro">{CAREER_HUB.intro.zh}</p>
     <p class="career-disclaimer">{disclaimer.hub_short.zh}</p>
 
     {groupOrder.map((groupKey) => (
@@ -38,6 +40,6 @@ for (const p of careerIndex.pages) {
     ))}
   </div>
 
-  <div data-pagefind-body style="display:none">就职转职 在日本求职 简历 面试 offer 报连相 中文</div>
+  <div data-pagefind-body style="display:none">{SECTION_NAMES.career.zh} {CAREER_HUB.title.zh} {CAREER_HUB.description.zh}</div>
 
 </Base>

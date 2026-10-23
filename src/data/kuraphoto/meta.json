@@ -24,7 +24,7 @@
     "fr": { "apps": "Apps", "help": "Guide", "privacy": "Confidentialité" },
     "ko": { "apps": "앱", "help": "사용 설명서", "privacy": "개인정보 처리방침" },
     "zh-hans": { "apps": "应用", "help": "使用指南", "privacy": "隐私政策" },
-    "zh-hant": { "apps": "應用", "help": "使用指南", "privacy": "隱私權政策" }
+    "zh-hant": { "apps": "應用程式", "help": "使用指南", "privacy": "隱私權政策" }
   },
   "descriptions": {
     "ja": {

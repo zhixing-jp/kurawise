@@ -1,4 +1,6 @@
 ---
+import { SECTION_NAMES } from '../../../data/sectionNames';
+import { MEDICAL_HUB, CAREER_HUB, pick } from '../../../data/sectionHubCopy';
 import Base from '../../../layouts/Base.astro';
 import medicalIndex from '../../../../public/data/medical/index.json';
 import disclaimer from '../../../../public/data/medical/disclaimer.json';
@@ -14,21 +16,6 @@ const titles: Record<string, Record<string, string>> = {
   action: { 'zh-TW': '現場執行', en: 'On-Site Guides', vi: 'Hướng dẫn tại chỗ', ko: '현장 대응', ja: '現場対応' },
   tool: { 'zh-TW': '症狀指認詞庫', en: 'Symptom Dictionary', vi: 'Từ điển triệu chứng', ko: '증상 사전', ja: '症状辞典' },
   reference: { 'zh-TW': '醫療制度與常見問題', en: 'System & FAQ', vi: 'Hệ thống & Câu hỏi', ko: '제도 및 FAQ', ja: '制度とFAQ' }
-};
-
-const pageTitles: Record<string, string> = {
-  'zh-TW': '就醫指南 | Living Japanese',
-  en: 'Medical Guide | Living Japanese',
-  vi: 'Hướng dẫn y tế | Living Japanese',
-  ko: '의료 가이드 | Living Japanese',
-  ja: '医療ガイド | Living Japanese'
-};
-const pageDescs: Record<string, string> = {
-  'zh-TW': '在日本看病，從制度認知到現場溝通，一站式指南，真人核實，可跟讀練習。',
-  en: 'Seeing a doctor in Japan — from understanding the system to real conversations, human-verified, with read-aloud practice.',
-  vi: 'Khám bệnh ở Nhật Bản — từ hiểu hệ thống đến giao tiếp thực tế, được xác minh bởi con người.',
-  ko: '일본에서 병원 가기 — 제도 이해부터 실제 대화까지, 실제 검증된 안내.',
-  ja: '日本での受診 — 制度理解から実際の会話まで、人による確認済みガイド。'
 };
 
 function tf(p: any, field: string, lang: string): string {
@@ -50,10 +37,11 @@ const disclaimerHubShort = disclaimer.hub_short as Record<string, string>;
 const hubShortText = disclaimerHubShort[lang] || disclaimerHubShort.zh;
 ---
 
-<Base title={pageTitles[lang] || pageTitles.en} description={pageDescs[lang] || pageDescs.en} medicalCss={true}>
+<Base title={pick(MEDICAL_HUB.title, lang)} description={pick(MEDICAL_HUB.description, lang)} medicalCss={true}>
 
   <div class="med-hub-page" id="medHubPage">
-    <h1>{(pageTitles[lang] || pageTitles.en).split(' | ')[0]}</h1>
+    <h1>{(SECTION_NAMES.medical as Record<string, string>)[lang]}</h1>
+    <p class="med-hub-intro">{pick(MEDICAL_HUB.intro, lang)}</p>
     <p class="med-disclaimer">{hubShortText}</p>
 
     {Object.entries(groups).map(([groupKey, pages]) => (
@@ -73,6 +61,6 @@ const hubShortText = disclaimerHubShort[lang] || disclaimerHubShort.zh;
     ))}
   </div>
 
-  <div data-pagefind-body style="display:none">{pageTitles[lang]} {pageDescs[lang]}</div>
+  <div data-pagefind-body style="display:none">{pick(MEDICAL_HUB.title, lang)} {pick(MEDICAL_HUB.description, lang)}</div>
 
 </Base>

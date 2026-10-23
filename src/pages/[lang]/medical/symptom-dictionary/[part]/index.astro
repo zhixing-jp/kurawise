@@ -1,4 +1,5 @@
 ---
+import { SECTION_NAMES } from '../../../../../data/sectionNames';
 import Base from '../../../../../layouts/Base.astro';
 import { readFile } from 'node:fs/promises';
 
@@ -119,9 +120,7 @@ function getEntryField(entry: SymptomEntry, field: string, lang: string): string
 
 const partTitle = getPartTitle(part, lang);
 
-const breadcrumbLabels: Record<string, string> = {
-  'zh-TW': '就醫指南', en: 'Medical Guide', vi: 'Hướng dẫn y tế', ko: '의료 가이드', ja: '医療ガイド'
-};
+const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
 const dictLabels: Record<string, string> = {
   'zh-TW': '症狀指認詞庫', en: 'Symptom Dictionary', vi: 'Từ điển triệu chứng', ko: '증상 표현 사전', ja: '症状表現辞典'
 };

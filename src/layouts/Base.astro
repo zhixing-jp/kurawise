@@ -1,6 +1,7 @@
 ---
 import { getLangFromUrl } from '../i18n/index.js';
 import { SECTIONS } from '../data/sections';
+import { SECTION_NAMES, TAB_BREAK_AFTER, type SectionKey } from '../data/sectionNames';
 import careerReferral from '../../public/data/career/referral.json';
 
 interface Props {
@@ -53,13 +54,14 @@ const contentSection = skipReadTracking ? null : (rescueCss ? 'rescue' : (medica
 const isReferralOwnPage = Astro.url.pathname.includes('/medical/service/');
 const showMedicalReferralBanner = medicalCss && !isReferralOwnPage;
 const medicalServiceUrl = lang === 'zh' ? '/medical/service/' : `/${lang}/medical/service/`;
+// 医療の同行・通訳サービスへの案内。「緊急」とは書かない（命に関わるときは119番が先。10/23）
 const referralBannerText: Record<string, string> = {
-  zh: '语言障碍较大、情况紧急？可以直接找人帮你',
-  'zh-TW': '語言障礙較大、情況緊急？可以直接找人幫你',
-  en: 'Language barrier or urgent situation? Get direct help',
-  vi: 'Rào cản ngôn ngữ hoặc tình huống khẩn cấp? Nhờ hỗ trợ trực tiếp',
-  ko: '언어 장벽이나 긴급 상황? 바로 도움을 받으세요',
-  ja: '言葉の壁や急を要する状況？直接サポートを依頼できます'
+  zh: '担心语言沟通？可以请人翻译、陪同',
+  'zh-TW': '擔心語言溝通？可以請人口譯、陪同',
+  en: 'Worried about the language barrier? Request an interpreter or companion',
+  vi: 'Lo lắng về ngôn ngữ? Bạn có thể nhờ phiên dịch hoặc người đi cùng',
+  ko: '언어가 걱정되나요? 통역・동행을 요청할 수 있습니다',
+  ja: '言葉の不安が大きいときは、通訳・同行を頼めます'
 };
 const referralBannerCta: Record<string, string> = {
   zh: '了解详情', 'zh-TW': '了解詳情', en: 'Learn more', vi: 'Tìm hiểu', ko: '자세히 보기', ja: '詳しく見る'
@@ -98,15 +100,15 @@ const langPaths: Record<string, string> = {
 // 静态导航标签多语言
 // 说明：learn版块已并入rescue并下线，第2个tab暂时指向/medical/占位页
 // （就医流程・日语版块，内容制作中），medical文案沿用zh.json已有的tab_medical key
-const navLabels: Record<string, Record<string, string>> = {
-  rescue:  { zh: SECTIONS.rescue.label, en: 'Phrase Rescue',  'zh-TW': '急救語句', vi: 'Câu Cứu Cấp',  ko: '긴급 표현', ja: '緊急フレーズ' },
-  medical: { zh: SECTIONS.medical.label, en: 'Medical Guide', 'zh-TW': '就醫指南', vi: 'Hướng Dẫn Y Tế', ko: '진료 안내', ja: '受診ガイド' },
-  // career版块已完成多语言（zh-TW/en/vi/ko/ja），标签按语言显示
-  career:  { zh: SECTIONS.career.label, 'zh-TW': '日本就職轉職指南', en: 'Career Guide', vi: 'Hướng dẫn việc làm', ko: '취업・이직 가이드', ja: '就職・転職ガイド' },
-  // ST（节约・お得）版块
-  kurashi: { zh: SECTIONS.kurashi.label, 'zh-TW': '省錢・優惠', en: 'Save Money', vi: 'Tiết kiệm', ko: '절약・혜택', ja: '節約・お得' },
-  // 应用版块
-  apps:    { zh: SECTIONS.apps.label, 'zh-TW': '應用', en: 'Apps', vi: 'Ứng dụng', ko: '앱', ja: 'アプリ' }
+// 底部tab的文字＝各セクションの正式名（src/data/sectionNames.ts，10/23決定）。
+// 入りきらないときだけ、TAB_BREAK_AFTER で指定した位置で2行に折り返す（<wbr> + word-break:keep-all）。
+const escHtml = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const tabLabelHtml = (key: SectionKey): string => {
+  const names = SECTION_NAMES[key] as Record<string, string>;
+  const name = names[lang] || names.en;
+  const brk = (TAB_BREAK_AFTER[key] as Record<string, string> | undefined)?.[lang];
+  if (brk && name.startsWith(brk)) return escHtml(brk) + '<wbr>' + escHtml(name.slice(brk.length));
+  return escHtml(name);
 };
 
 const rescueUrl  = lang === 'zh' ? '/' : `/${lang}/`;
@@ -488,25 +490,41 @@ const jsonLd = {
   <nav id="tabBar">
     <a href={rescueUrl} class={`tab${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps) ? ' on' : ''}`}>
       <div class="tab-icon">🛡️</div>
-      {navLabels.rescue[lang] || navLabels.rescue.zh}
+      <span class="tab-label" set:html={tabLabelHtml('rescue')} />
     </a>
     <a href={medicalUrl} class={`tab${isMedical ? ' on' : ''}`}>
       <div class="tab-icon">🏥</div>
-      {navLabels.medical[lang] || navLabels.medical.zh}
+      <span class="tab-label" set:html={tabLabelHtml('medical')} />
     </a>
     <a href={careerUrl} class={`tab${isCareer ? ' on' : ''}`}>
       <div class="tab-icon">💼</div>
-      {navLabels.career[lang] || navLabels.career.zh}
+      <span class="tab-label" set:html={tabLabelHtml('career')} />
     </a>
     <a href={kurashiUrl} class={`tab${isKurashi ? ' on' : ''}`}>
       <div class="tab-icon">💰</div>
-      {navLabels.kurashi[lang] || navLabels.kurashi.zh}
+      <span class="tab-label" set:html={tabLabelHtml('kurashi')} />
     </a>
     <a href={appsUrl} class={`tab${isApps ? ' on' : ''}`}>
       <div class="tab-icon">📱</div>
-      {navLabels.apps[lang] || navLabels.apps.zh}
+      <span class="tab-label" set:html={tabLabelHtml('apps')} />
     </a>
   </nav>
+  <script is:inline>
+    // タブの文字が2行になる言語では、タブバーが高くなる。その高さを --tab-h に入れて、
+    // ページ下の余白・タブバーの上の固定バナー・トップへ戻るボタンの位置を合わせる。
+    (function () {
+      function syncTabH() {
+        var bar = document.getElementById('tabBar');
+        if (!bar) return;
+        var safe = parseFloat(getComputedStyle(bar).paddingBottom) - 4 || 0;
+        var h = Math.ceil(bar.getBoundingClientRect().height - Math.max(safe, 0));
+        document.documentElement.style.setProperty('--tab-h', Math.max(56, h) + 'px');
+      }
+      syncTabH();
+      window.addEventListener('resize', syncTabH);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncTabH);
+    })();
+  </script>
 
   <!-- base.js -->
   <script src="/js/base.js" is:inline></script>

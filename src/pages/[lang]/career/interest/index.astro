@@ -1,4 +1,5 @@
 ---
+import { SECTION_NAMES } from '../../../../data/sectionNames';
 import Base from '../../../../layouts/Base.astro';
 import Breadcrumb from '../../../../components/Breadcrumb.astro';
 import { SECTIONS } from '../../../../data/sections';
@@ -18,10 +19,7 @@ function tf(obj: unknown, field: string, lang: string): any {
 
 const cp: Record<string, string> = tf(referral, 'contactPage', lang) as Record<string, string>;
 
-const hubLabels: Record<string, string> = {
-  'zh-TW': '日本就職轉職指南', en: 'Japan Job & Career Guide', vi: 'Hướng dẫn xin việc & chuyển việc tại Nhật',
-  ko: '일본 취업・이직 가이드', ja: '日本での就職・転職ガイド'
-};
+const hubLabels: Record<string, string> = SECTION_NAMES.career;
 const langPathPrefix = `/${lang}`;
 const hubUrl = `${langPathPrefix}${SECTIONS.career.url}`;
 

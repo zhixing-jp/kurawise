@@ -1,4 +1,5 @@
 ---
+import { SECTION_NAMES } from '../../../../data/sectionNames';
 import Base from '../../../../layouts/Base.astro';
 import { readFile } from 'node:fs/promises';
 import disclaimer from '../../../../../public/data/medical/disclaimer.json';
@@ -27,9 +28,7 @@ function itemTranslation(item: any, lang: string): string {
   return item[lang] || item.zh || '';
 }
 
-const breadcrumbLabels: Record<string, string> = {
-  'zh-TW': '就醫指南', en: 'Medical Guide', vi: 'Hướng dẫn y tế', ko: '의료 가이드', ja: '医療ガイド'
-};
+const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
 const titleField = `title_${lang}`;
 
 // disclaimer.json 是直接 import 的 JSON 模块，TS 会按字面量内容推断出精确类型，

@@ -1,4 +1,5 @@
 ---
+import { SECTION_NAMES } from '../../../../../data/sectionNames';
 import Base from '../../../../../layouts/Base.astro';
 import referral from '../../../../../../public/data/medical/referral.json';
 
@@ -18,9 +19,7 @@ const title = `${t(cp.title)} | Kurawise`;
 const description = t(cp.subtitle);
 const serviceUrl = `/${lang}/medical/service/`;
 
-const breadcrumbLabels: Record<string, string> = {
-  'zh-TW': '就醫指南', en: 'Medical Guide', vi: 'Hướng dẫn y tế', ko: '의료 가이드', ja: '医療ガイド'
-};
+const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
 ---
 
 <Base title={title} description={description} medicalCss={true}>

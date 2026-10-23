@@ -446,3 +446,6 @@ mark { background: #FFD60A; color: var(--t1); border-radius: 2px; padding: 0 1px
   background: rgba(0,122,255,.35);
   color: #5AC8FA;
 }
+/* トップのバナー：セクション名（日常会話）を見出しとして少し目立たせる（10/23） */
+.banner-eyebrow { font-size: 11px; letter-spacing: .04em; text-transform: none; color: rgba(255,255,255,.55); }
+.banner-method { font-size: 11px; color: rgba(255,255,255,.5); }

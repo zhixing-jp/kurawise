@@ -1,4 +1,6 @@
 ---
+import { SECTION_NAMES } from '../../data/sectionNames';
+import { MEDICAL_HUB, CAREER_HUB, pick } from '../../data/sectionHubCopy';
 import Base from '../../layouts/Base.astro';
 import medicalIndex from '../../../public/data/medical/index.json';
 import disclaimer from '../../../public/data/medical/disclaimer.json';
@@ -15,11 +17,11 @@ for (const p of medicalIndex.pages) {
 }
 ---
 
-<Base title="就医指南 | Living Japanese" description="在日本看病，从制度认知到现场沟通，中文一站式指南，真人核实，可跟读练习。" medicalCss={true}>
+<Base title={MEDICAL_HUB.title.zh} description={MEDICAL_HUB.description.zh} medicalCss={true}>
 
   <div class="med-hub-page" id="medHubPage">
-    <h1>就医指南</h1>
-    <p class="med-hub-intro">流程细节，来自20年在日经验人工核实；关键词句都能跟读发音；遇到拿不准的情况，有真人可以直接帮你判断。</p>
+    <h1>{SECTION_NAMES.medical.zh}</h1>
+    <p class="med-hub-intro">{MEDICAL_HUB.intro.zh}</p>
     <p class="med-disclaimer">{disclaimer.hub_short.zh}</p>
 
     {Object.entries(groups).map(([groupKey, pages]) => (
@@ -39,6 +41,6 @@ for (const p of medicalIndex.pages) {
     ))}
   </div>
 
-  <div data-pagefind-body style="display:none">就医指南 在日本看病 挂号 保险 症状 中文</div>
+  <div data-pagefind-body style="display:none">{SECTION_NAMES.medical.zh} {MEDICAL_HUB.title.zh} {MEDICAL_HUB.description.zh}</div>
 
 </Base>
