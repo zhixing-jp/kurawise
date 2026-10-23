@@ -10,6 +10,9 @@ let currentLang = 'zh';
 let LOCALE = {};
 
 function detectLang() {
+  // そのページの言語が決まっている場合（単一URLのページ以外）は、それを最優先にする
+  const pageLang = document.documentElement.getAttribute('data-page-lang');
+  if (pageLang) return pageLang;
   const path = window.location.pathname;
   if (path.startsWith('/en/'))    return 'en';
   if (path.startsWith('/zh-TW/')) return 'zh-TW';
@@ -133,6 +136,15 @@ function initVoices() {
 document.addEventListener('DOMContentLoaded', async () => {
   const lang = detectLang();
   await loadLocale(lang);
+  const fixedLang = document.documentElement.getAttribute('data-page-lang');
+  if (fixedLang) {
+    // 言語が決まっているページを見たら、その言語を覚えておく。
+    // 次に単一URLのページ（/kurashi/・/apps/・/about/）へ移ったとき、同じ言語で表示するため
+    try { localStorage.setItem('lj_lang', fixedLang); } catch (e) {}
+  } else {
+    // 単一URLのページ：言語の読み込みが終わってから、ページの文章とタブを、その言語で描き直す
+    document.dispatchEvent(new CustomEvent('langChanged', { detail: { lang: currentLang } }));
+  }
   initVoices();
 
   // 回到顶部按钮

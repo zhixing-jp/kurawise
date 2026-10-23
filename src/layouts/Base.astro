@@ -142,6 +142,10 @@ const isCareer = currentPath.includes('/career');
 const isGuides = currentPath.includes('/guides') || currentPath.includes('/download');
 const isKurashi = currentPath.startsWith('/kurashi');
 const isApps = currentPath.startsWith('/apps') || currentPath.startsWith('/kuraphoto');
+// 単一URLのページ（言語ごとのURLがなく、文章をブラウザ側で言語に合わせて表示するページ）。
+// これ以外のページは「そのページの言語」が決まっているので <html data-page-lang> に書き、
+// base.js はそれを最優先で使う（＝中文ページで英語の設定が残っていても中文として扱う）。
+const isSinglePath = !uiLang && /^\/(about|kurashi|apps)\/?$/.test(currentPath);
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -168,7 +172,7 @@ const jsonLd = {
 ---
 
 <!DOCTYPE html>
-<html lang={htmlLang || lang} data-lang-fixed={htmlLang ? '' : undefined}>
+<html lang={htmlLang || lang} data-lang-fixed={htmlLang ? '' : undefined} data-page-lang={isSinglePath ? undefined : lang}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -488,28 +492,28 @@ const jsonLd = {
 
   <!-- Bottom Navigation -->
   <nav id="tabBar">
-    <a href={rescueUrl} class={`tab${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps) ? ' on' : ''}`}>
+    <a href={rescueUrl} data-tab="rescue" class={`tab${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps) ? ' on' : ''}`}>
       <div class="tab-icon">🛡️</div>
       <span class="tab-label" set:html={tabLabelHtml('rescue')} />
     </a>
-    <a href={medicalUrl} class={`tab${isMedical ? ' on' : ''}`}>
+    <a href={medicalUrl} data-tab="medical" class={`tab${isMedical ? ' on' : ''}`}>
       <div class="tab-icon">🏥</div>
       <span class="tab-label" set:html={tabLabelHtml('medical')} />
     </a>
-    <a href={careerUrl} class={`tab${isCareer ? ' on' : ''}`}>
+    <a href={careerUrl} data-tab="career" class={`tab${isCareer ? ' on' : ''}`}>
       <div class="tab-icon">💼</div>
       <span class="tab-label" set:html={tabLabelHtml('career')} />
     </a>
-    <a href={kurashiUrl} class={`tab${isKurashi ? ' on' : ''}`}>
+    <a href={kurashiUrl} data-tab="kurashi" class={`tab${isKurashi ? ' on' : ''}`}>
       <div class="tab-icon">💰</div>
       <span class="tab-label" set:html={tabLabelHtml('kurashi')} />
     </a>
-    <a href={appsUrl} class={`tab${isApps ? ' on' : ''}`}>
+    <a href={appsUrl} data-tab="apps" class={`tab${isApps ? ' on' : ''}`}>
       <div class="tab-icon">📱</div>
       <span class="tab-label" set:html={tabLabelHtml('apps')} />
     </a>
   </nav>
-  <script is:inline>
+  <script is:inline define:vars={{ SECTION_NAMES_JSON: SECTION_NAMES, TAB_BREAK_JSON: TAB_BREAK_AFTER }}>
     // タブの文字が2行になる言語では、タブバーが高くなる。その高さを --tab-h に入れて、
     // ページ下の余白・タブバーの上の固定バナー・トップへ戻るボタンの位置を合わせる。
     (function () {
@@ -522,6 +526,24 @@ const jsonLd = {
       }
       syncTabH();
       window.addEventListener('resize', syncTabH);
+      // 単一URLのページでは、表示している言語に合わせて、タブのリンク先と文字を書き換える
+      // （サーバー側では言語が決まらないため。langChanged は base.js が最初の表示時と言語切り替え時に送る）
+      var NAMES = SECTION_NAMES_JSON, BREAK = TAB_BREAK_JSON;
+      function esc(t) { return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+      window.__applyTabsLang = function (l) {
+        var p = l === 'zh' ? '' : '/' + l;
+        var urls = { rescue: p + '/', medical: p + '/medical/', career: p + '/career/', kurashi: '/kurashi/', apps: '/apps/' };
+        document.querySelectorAll('#tabBar a[data-tab]').forEach(function (a) {
+          var k = a.getAttribute('data-tab');
+          a.setAttribute('href', urls[k]);
+          var name = (NAMES[k] && (NAMES[k][l] || NAMES[k].en)) || '';
+          var brk = BREAK[k] && BREAK[k][l];
+          var html = (brk && name.indexOf(brk) === 0) ? esc(brk) + '<wbr>' + esc(name.slice(brk.length)) : esc(name);
+          var lbl = a.querySelector('.tab-label');
+          if (lbl) lbl.innerHTML = html;
+        });
+        syncTabH();
+      };
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncTabH);
     })();
   </script>
@@ -559,6 +581,7 @@ const jsonLd = {
         item.classList.toggle('active', keys[idx] === lang);
       });
       document.getElementById('langMenu').style.display = 'none';
+      if (typeof window.__applyTabsLang === 'function') window.__applyTabsLang(lang);
 
       // 同步页脚的"关于我们"文案和版权行（footer同样是server端按URL渲染的，
       // 在about/medical这类单一路径页面上，语言切换不刷新页面，需要客户端手动同步）
