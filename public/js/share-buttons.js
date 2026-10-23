@@ -1,6 +1,6 @@
 /* ══════════════════════════════
    share-buttons.js — 内容页通用分享按钮
-   Living Japanese v4.0 SSG
+   Kurawise（Astro SSG）
 
    用于career文章页、medical内容分类页/症状词库这类"免费内容页"，
    不用于guides商品页（guides页面自己的分享逻辑独立维护在guides/index.astro里，

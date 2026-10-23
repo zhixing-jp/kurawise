@@ -3,6 +3,7 @@ import Base from '../../../layouts/Base.astro';
 import { getLangFromUrl } from '../../../i18n/index.js';
 import rescueIndex from '../../../../public/data/rescue/index.json';
 import { readFile } from 'node:fs/promises';
+import { rescueSceneSeo } from '../../../data/rescueSeo';
 
 export async function getStaticPaths() {
   const paths = [];
@@ -27,6 +28,8 @@ const lang = getLangFromUrl(Astro.url);
 
 const sceneTitle = (scene as any)[`title_${lang}`] || (scene as any).title_zh || scene.title;
 const sceneDesc = (scene as any)[`description_${lang}`] || scene.description || '';
+// 検索結果用のタイトルと説明（src/data/rescueSeo.ts）
+const seo = rescueSceneSeo(scene, (sceneData && sceneData.items) || [], lang as any);
 const subcats = scene.subcategories || [];
 const info = (scene as any).info || [];
 
@@ -68,7 +71,7 @@ if (hasGroups) {
 }
 ---
 
-<Base title={`${sceneTitle} | Living Japanese`} description={sceneDesc} rescueCss={true}>
+<Base title={seo.title} description={seo.description} rescueCss={true} breadcrumbs={[{ name: sceneTitle }]}>
 
   <!-- 面包屑 -->
   <nav class="rescue-breadcrumb" aria-label="breadcrumb">

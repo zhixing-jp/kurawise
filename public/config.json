@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Living Japanese",
+    "title": "Kurawise",
     "subtitle": "不是学日语，是习惯说日语",
     "version": "3.0",
     "url": "https://kurawise.com"
   },
   "banner": {
-    "eyebrow": "Living Japanese by Kurawise",
+    "eyebrow": "Kurawise",
     "title": "不是学日语，是习惯说日语。",
     "subtitle": "23个真实生活场景对话，跟着日本人真实的说法，练到脱口而出。",
     "pills": ["完全免费","真人亲自核实，不是机器翻译","真实场景真实对话","双向跟读练到脱口而出"],

@@ -2,6 +2,7 @@
 import Base from '../../../../layouts/Base.astro';
 import rescueIndex from '../../../../../public/data/rescue/index.json';
 import { readFile } from 'node:fs/promises';
+import { rescueSceneSeo } from '../../../../data/rescueSeo';
 
 export async function getStaticPaths() {
   const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
@@ -21,6 +22,12 @@ const { scene, lang } = Astro.props;
 
 const sceneTitle = (scene as any)[`title_${lang}`] || (scene as any).title_zh || scene.title;
 const sceneDesc = (scene as any)[`description_${lang}`] || scene.description || '';
+// 検索結果用のタイトルと説明（src/data/rescueSeo.ts）
+let sceneItems: any[] = [];
+try {
+  sceneItems = JSON.parse(await readFile(`public/data/rescue/${scene.file.split('/').pop()}`, 'utf-8')).items || [];
+} catch (e) { sceneItems = []; }
+const seo = rescueSceneSeo(scene, sceneItems, lang as any);
 const subcats = scene.subcategories || [];
 const info = (scene as any).info || [];
 
@@ -61,7 +68,7 @@ if (hasGroups) {
 }
 ---
 
-<Base title={`${sceneTitle} | Living Japanese`} description={sceneDesc} rescueCss={true}>
+<Base title={seo.title} description={seo.description} rescueCss={true} breadcrumbs={[{ name: sceneTitle }]}>
 
   <nav class="rescue-breadcrumb" aria-label="breadcrumb">
     <a href={homeUrl}>{homeLabel[lang] || homeLabel.zh}</a>

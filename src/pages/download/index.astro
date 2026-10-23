@@ -12,7 +12,7 @@ import Base from '../../layouts/Base.astro';
 const title = '下载 | Kurawise';
 ---
 
-<Base title={title} description="验证购买信息并下载" guidesCss={true}>
+<Base title={title} description="验证购买信息并下载" guidesCss={true} noindex={true}>
 
   <div class="guides-download-page" id="guidesDownloadPage">
     <p class="guides-download-status" id="gdStatus">正在验证下载链接…</p>
@@ -29,7 +29,7 @@ const title = '下载 | Kurawise';
         var token = params.get('token');
 
         if (!token) {
-          statusEl.textContent = '下载链接不完整，请检查你收到的邮件中的链接是否完整，或联系我们（zhixing.jp@gmail.com）';
+          statusEl.textContent = '下载链接不完整，请检查你收到的邮件中的链接是否完整，或联系我们（info@kurawise.com）';
           statusEl.classList.add('guides-download-status--error');
           return;
         }
@@ -56,9 +56,9 @@ const title = '下载 | Kurawise';
           })
           .catch(function (err) {
             var msg = String(err && err.message || '');
-            var friendly = '该链接无效或已过期，请联系我们（zhixing.jp@gmail.com）为你重新处理。';
+            var friendly = '该链接无效或已过期，请联系我们（info@kurawise.com）为你重新处理。';
             if (msg.indexOf('limit') !== -1) {
-              friendly = '该链接的下载次数已用完，请联系我们（zhixing.jp@gmail.com）为你重新处理。';
+              friendly = '该链接的下载次数已用完，请联系我们（info@kurawise.com）为你重新处理。';
             }
             statusEl.textContent = friendly;
             statusEl.classList.add('guides-download-status--error');

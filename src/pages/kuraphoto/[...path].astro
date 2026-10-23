@@ -71,6 +71,9 @@ const homeHref = '/kuraphoto/' + pagePath(folder, 'support');
   langOptions={langOptions}
   appsCss={true}
   skipReadTracking={true}
+  breadcrumbs={page === 'support'
+    ? [{ name: crumbs.apps, url: 'https://kurawise.com/apps/' }, { name: 'KuraPhoto' }]
+    : [{ name: crumbs.apps, url: 'https://kurawise.com/apps/' }, { name: 'KuraPhoto', url: 'https://kurawise.com' + homeHref }, { name: crumbs[page] }]}
 >
   <nav class="kp-breadcrumb" aria-label="breadcrumb">
     <a href="/apps/">{crumbs.apps}</a>

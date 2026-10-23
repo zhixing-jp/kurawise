@@ -1,7 +1,7 @@
 /* ══════════════════════════════
    guides-auth.js
    专业指南 —— 购买者账号登录（邮箱验证码 / Magic Link）
-   Living Japanese v4.0 SSG
+   Kurawise（Astro SSG）
 
    用途：不用完整的@supabase/supabase-js SDK（避免为一个静态站引入新依赖），
    直接用Supabase Auth（GoTrue）的REST接口，跟本站其它表单一样走fetch，

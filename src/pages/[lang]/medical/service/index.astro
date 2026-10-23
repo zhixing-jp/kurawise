@@ -26,6 +26,8 @@ const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
 
 // 按语言决定联系渠道：中文（zh-TW）用LINE+微信，其它语言用WhatsApp+邮箱
 const isZhFamily = lang === 'zh-TW';
+// LINE・WeChat・WhatsApp は、アカウントを用意するまで非表示（10/23）。用意できたら true にし、リンク先を本物に差し替える
+const SHOW_CHAT_CONTACTS = false;
 ---
 
 <Base title={title} description={description} medicalCss={true}>
@@ -67,7 +69,7 @@ const isZhFamily = lang === 'zh-TW';
     <section class="med-service-section">
       <h2>{t(page.directTitle)}</h2>
       <div class="med-service-contact-list">
-        {isZhFamily && (
+        {SHOW_CHAT_CONTACTS && isZhFamily && (
           <a
             href="https://line.me/ti/p/REPLACE_WITH_LINE_ID"
             class="med-service-contact-item med-service-contact-item--line"
@@ -78,7 +80,7 @@ const isZhFamily = lang === 'zh-TW';
             <span class="med-service-contact-label">LINE</span>
           </a>
         )}
-        {isZhFamily && (
+        {SHOW_CHAT_CONTACTS && isZhFamily && (
           <a
             href="/assets/medical/wechat-qr.png"
             class="med-service-contact-item med-service-contact-item--wechat"
@@ -89,7 +91,7 @@ const isZhFamily = lang === 'zh-TW';
             <span class="med-service-contact-label">WeChat</span>
           </a>
         )}
-        {!isZhFamily && (
+        {SHOW_CHAT_CONTACTS && !isZhFamily && (
           <a
             href="https://wa.me/REPLACE_WITH_WHATSAPP_NUMBER"
             class="med-service-contact-item med-service-contact-item--whatsapp"
@@ -101,13 +103,13 @@ const isZhFamily = lang === 'zh-TW';
           </a>
         )}
         <a
-          href="mailto:zhixing.jp@gmail.com"
+          href="mailto:info@kurawise.com"
           class="med-service-contact-item med-service-contact-item--email"
           data-ga-event="referral_contact_click"
           data-ga-channel="email"
         >
           <span class="med-service-contact-label">Email</span>
-          <span class="med-service-contact-sub">zhixing.jp@gmail.com</span>
+          <span class="med-service-contact-sub">info@kurawise.com</span>
         </a>
       </div>
     </section>

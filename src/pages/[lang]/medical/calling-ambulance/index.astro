@@ -57,7 +57,7 @@ const currentShareLabels = shareLabels[lang] || shareLabels.en;
 const shareText = (shareTextTemplates[lang] || shareTextTemplates.en).replace('{title}', pageData[titleField] || pageData.title);
 ---
 
-<Base title={`${pageData[titleField] || pageData.title} | Living Japanese`} description={tf(pageData, 'description', lang)} medicalCss={true}>
+<Base title={`${pageData[titleField] || pageData.title} | Kurawise`} description={tf(pageData, 'description', lang)} medicalCss={true}>
 
   <nav class="med-breadcrumb" aria-label="breadcrumb">
     <a href={`/${lang}/medical/`}>{breadcrumbLabels[lang] || breadcrumbLabels.en}</a>

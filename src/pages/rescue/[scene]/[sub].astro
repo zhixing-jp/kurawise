@@ -4,6 +4,7 @@ import RescueItem from '../../../components/RescueItem.astro';
 import { getLangFromUrl } from '../../../i18n/index.js';
 import rescueIndex from '../../../../public/data/rescue/index.json';
 import { readFile } from 'node:fs/promises';
+import { rescueSubSeo } from '../../../data/rescueSeo';
 
 export async function getStaticPaths() {
   const paths = [];
@@ -27,8 +28,8 @@ const lang = getLangFromUrl(Astro.url);
 
 const sceneTitle = (scene as any)[`title_${lang}`] || (scene as any).title_zh || scene.title;
 const subTitle = (sub as any)[`title_${lang}`] || sub.title;
-const title = `${sceneTitle} · ${subTitle} | Living Japanese`;
-const description = `${subTitle} - ${(scene as any)[`description_${lang}`] || scene.description || ''}`;
+// 検索結果用のタイトルと説明（src/data/rescueSeo.ts）
+const { title, description } = rescueSubSeo(scene, sub, items, lang as any);
 
 const homeUrl = lang === 'zh' ? '/' : `/${lang}/`;
 const sceneUrl = lang === 'zh' ? `/rescue/${scene.id}/` : `/${lang}/rescue/${scene.id}/`;
@@ -56,7 +57,7 @@ const ui: Record<string, Record<string, string>> = {
 function u(key: string) { return ui[key]?.[lang] || ui[key]?.zh || key; }
 ---
 
-<Base title={title} description={description} rescueCss={true}>
+<Base title={title} description={description} rescueCss={true} breadcrumbs={[{ name: sceneTitle, url: `https://kurawise.com${sceneUrl}` }, { name: subTitle }]}>
 
   <div id="pageData"
     data-scene-id={scene.id}

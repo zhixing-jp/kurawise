@@ -1,6 +1,6 @@
 /* ══════════════════════════════
    rescue-ui.js
-   Living Japanese v4.0 SSG
+   Kurawise（Astro SSG）
    职责：rescue版块交互功能
    依赖：base.js（jaVoice/zhVoice/currentLang）
    不包含：任何HTML渲染

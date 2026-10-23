@@ -3,7 +3,7 @@
    独立系统：不调用/不依赖 rescue-ui.js
    浏览器朗读能力依赖公共基础层 tts-core.js（站点级，rescue也可复用，
    但两个版块的业务逻辑互不感知、互不调用）
-   Living Japanese v4.0 SSG
+   Kurawise（Astro SSG）
 ══════════════════════════════ */
 
 (function () {

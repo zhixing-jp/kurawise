@@ -1,7 +1,7 @@
 /* ══════════════════════════════
    consult-form.js
    医疗协调服务咨询表单 → Supabase 提交客户端
-   Living Japanese v4.0 SSG
+   Kurawise（Astro SSG）
 
    使用方式：
    1. 在 Supabase 项目里建一张表 medical_consultations，字段建议：

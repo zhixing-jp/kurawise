@@ -16,7 +16,7 @@
    - isSpeaking()/isPaused() 状态查询
    - getVoices()     获取可用音色列表（含加载完成回调，因为部分浏览器异步加载音色）
 
-   Living Japanese v4.0 SSG
+   Kurawise（Astro SSG）
 ══════════════════════════════ */
 
 (function () {

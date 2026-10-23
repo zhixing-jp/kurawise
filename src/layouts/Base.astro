@@ -3,6 +3,7 @@ import { getLangFromUrl } from '../i18n/index.js';
 import { SECTIONS } from '../data/sections';
 import { SECTION_NAMES, TAB_BREAK_AFTER, type SectionKey } from '../data/sectionNames';
 import careerReferral from '../../public/data/career/referral.json';
+import guideProducts from '../../public/data/guides/products.json';
 
 interface Props {
   title?: string;
@@ -21,6 +22,7 @@ interface Props {
   alternates?: { hreflang: string; href: string }[];  // 传入时替换自动生成的 hreflang
   langOptions?: { label: string; href: string; active: boolean }[];  // 传入时替换页头的语言菜单（直接跳转链接）
   appsCss?: boolean;      // 应用公开页样式 /css/apps.css
+  breadcrumbs?: { name: string; url?: string }[];  // 構造化データ（BreadcrumbList）用。渡さなければセクションから自動で作る
 }
 
 const {
@@ -38,10 +40,13 @@ const {
   htmlLang,
   alternates,
   langOptions,
-  appsCss = false
+  appsCss = false,
+  breadcrumbs
 } = Astro.props;
 
-const lang = uiLang || getLangFromUrl(Astro.url);
+// 単一URLのページのうち、最初の表示が日本語のもの（/apps/・/kurashi/）は、サーバー側の言語も日本語にする
+// （表示後は base.js がその人の言語に描き直す）
+const lang = uiLang || (/^\/(apps|kurashi)\/?$/.test(Astro.url.pathname) ? 'ja' : getLangFromUrl(Astro.url));
 const activeLangOption = langOptions ? langOptions.find((o) => o.active) : undefined;
 
 const siteUrl = 'https://kurawise.com';
@@ -83,7 +88,9 @@ const careerInterestBasePath = lang === 'zh' ? '/career/interest/' : `/${lang}/c
 const careerInterestUrl = careerGroup ? `${careerInterestBasePath}?from=${careerGroup}` : careerInterestBasePath;
 // 面试类文章：面试指南PDF已作为商品上架（目前仅简体中文），横幅直接导向专业指南商品页；
 // 其他类别和其他语言仍导向"抢先登记"页。横幅文案另行调整。
-const careerBannerUrl = (careerGroup === 'interview' && lang === 'zh') ? SECTIONS.guides.url : careerInterestUrl;
+// ただし、面接ガイドの決済リンクがまだ仮のうちは、購入できないので「抢先登记」ページに案内する（10/23）
+const interviewGuideReady = guideProducts.products.some((p: any) => p.id === 's11-interview-pdf' && typeof p.stripePaymentLink === 'string' && p.stripePaymentLink.startsWith('https://'));
+const careerBannerUrl = (careerGroup === 'interview' && lang === 'zh' && interviewGuideReady) ? SECTIONS.guides.url : careerInterestUrl;
 const careerReferralBannerText = careerBannerData.text;
 const careerReferralBannerCta = careerBannerData.cta;
 
@@ -151,6 +158,58 @@ const isSinglePath = !uiLang && /^\/(about|kurashi|apps)\/?$/.test(currentPath);
 const strippedForSuggest = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
 const langSuggestEligible = !uiLang && (strippedForSuggest === '/' || /^\/(rescue|medical|career)\//.test(strippedForSuggest));
 
+// ── 0-S（2026-10-23）検索向けの調整 ──
+// ① 病院・仕事のページで、タイトルに「日本」の文脈が入っていないものは、言語ごとの文脈を足す
+//    （例：「挂号话术与流程」→「挂号话术与流程｜在日本看病｜Kurawise」）
+const isCJK = ['zh', 'zh-TW', 'ja'].includes(lang);
+const SEP = isCJK ? '｜' : ' | ';
+const SEO_CONTEXT: Record<string, Record<string, string>> = {
+  medical: { zh: '在日本看病', 'zh-TW': '在日本看病', en: 'Seeing a Doctor in Japan', vi: 'Khám bệnh ở Nhật', ko: '일본 병원 이용', ja: '日本の病院のかかり方' },
+  career:  { zh: '在日本工作', 'zh-TW': '在日本工作', en: 'Working in Japan', vi: 'Làm việc tại Nhật', ko: '일본에서 일하기', ja: '日本で働く' }
+};
+const baseTitle = title.replace(/\s*[|｜]\s*Kurawise\s*$/, '');
+const ctxKey = medicalCss ? 'medical' : (careerCss ? 'career' : null);
+const needsContext = ctxKey && !/日本|Japan|Nhật|일본/.test(baseTitle);
+const pageTitle = needsContext
+  ? `${baseTitle}${SEP}${SEO_CONTEXT[ctxKey!][lang] || SEO_CONTEXT[ctxKey!].en}${SEP}Kurawise`
+  : (/Kurawise\s*$/.test(title) ? title : `${title}${SEP}Kurawise`);
+
+// ② 道案内の構造化データ（BreadcrumbList）。ホーム ＞ セクション ＞ このページ
+const pathNoLang = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
+const sectionKey: SectionKey | null =
+  pathNoLang.startsWith('/medical') ? 'medical' :
+  pathNoLang.startsWith('/career') ? 'career' :
+  pathNoLang.startsWith('/rescue') ? 'rescue' :
+  pathNoLang.startsWith('/kurashi') ? 'kurashi' :
+  (pathNoLang.startsWith('/apps') || pathNoLang.startsWith('/kuraphoto')) ? 'apps' : null;
+const langPrefix = lang === 'zh' ? '' : `/${lang}`;
+const sectionUrls: Record<SectionKey, string> = {
+  rescue: `${langPrefix}/`, medical: `${langPrefix}/medical/`, career: `${langPrefix}/career/`, kurashi: '/kurashi/', apps: '/apps/'
+};
+const homeUrlForLd = `${siteUrl}${langPrefix}/`;
+let crumbList: { name: string; url?: string }[] = [];
+if (breadcrumbs && breadcrumbs.length) {
+  crumbList = breadcrumbs;
+} else if (pathNoLang !== '/') {
+  if (sectionKey && sectionKey !== 'rescue') {
+    const secUrl = sectionUrls[sectionKey];
+    const isHub = currentPath === secUrl || currentPath === secUrl.replace(/\/$/, '');
+    crumbList.push({ name: (SECTION_NAMES[sectionKey] as Record<string, string>)[lang] || SECTION_NAMES[sectionKey].en, url: isHub ? undefined : `${siteUrl}${secUrl}` });
+    if (!isHub) crumbList.push({ name: baseTitle });
+  } else {
+    crumbList.push({ name: baseTitle });
+  }
+}
+const breadcrumbLd = crumbList.length ? {
+  "@type": "BreadcrumbList",
+  "itemListElement": [{ name: 'Kurawise', url: homeUrlForLd }, ...crumbList].map((c, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": c.name,
+    ...(c.url ? { "item": c.url } : {})
+  }))
+} : null;
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -160,17 +219,7 @@ const jsonLd = {
       "name": "Kurawise",
       "url": siteUrl
     },
-    {
-  "@type": "WebApplication",
-  "name": "Living Japanese",
-  "isPartOf": { "@id": `${siteUrl}/#website` },
-  "url": siteUrl,
-  "description": "不是学日语，是习惯说日语。23个真实生活场景，数百句日本人真的会这样说的对话，配双向跟读练习，通勤路上随手练几句。内容由在日20年华人亲自核实，不是机器翻译，完全免费，无需下载。",
-  "applicationCategory": "EducationalApplication",
-  "operatingSystem": "Web",
-  "inLanguage": ["zh-CN", "zh-TW", "en", "vi", "ko", "ja"],
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
-    }
+    ...(breadcrumbLd ? [breadcrumbLd] : [])
   ]
 };
 ---
@@ -184,11 +233,11 @@ const jsonLd = {
   <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'}>
   <meta name="author" content="Kurawise">
 
-  <title>{title}</title>
+  <title>{pageTitle}</title>
   <meta name="description" content={description}>
 
   <!-- Open Graph -->
-  <meta property="og:title" content={title}>
+  <meta property="og:title" content={pageTitle}>
   <meta property="og:description" content={description}>
   <meta property="og:url" content={Astro.url}>
   <meta property="og:type" content="website">
@@ -198,7 +247,7 @@ const jsonLd = {
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content={title}>
+  <meta name="twitter:title" content={pageTitle}>
   <meta name="twitter:description" content={description}>
   <meta name="twitter:image" content={ogImage}>
 
@@ -207,7 +256,7 @@ const jsonLd = {
   {alternates && alternates.map((a) => (
     <link rel="alternate" hreflang={a.hreflang} href={a.href} />
   ))}
-  {!alternates && Object.entries(langPaths).map(([l]) => {
+  {!alternates && langSuggestEligible && Object.entries(langPaths).map(([l]) => {
   // 从当前URL路径中去掉语言前缀，得到纯路径
   const currentPath = Astro.url.pathname;
   const strippedPath = currentPath
@@ -221,7 +270,7 @@ const jsonLd = {
     <link rel="alternate" hreflang={l === 'zh' ? 'zh-CN' : l} href={langUrl} />
   );
   })}
-  {!alternates && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|zh-TW|vi|ko|ja)\//, '/').replace(/^\/(en|zh-TW|vi|ko|ja)$/, '/')}`} />}
+  {!alternates && langSuggestEligible && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|zh-TW|vi|ko|ja)\//, '/').replace(/^\/(en|zh-TW|vi|ko|ja)$/, '/')}`} />}
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">

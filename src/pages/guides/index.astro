@@ -11,6 +11,9 @@ import productsData from '../../../public/data/guides/products.json';
 
 const { categories, products } = productsData;
 
+// 決済リンクがまだ仮のもの（REPLACE_WITH_…）は「准备中」と表示し、購入ボタンを出さない（10/23）
+const isPurchasable = (p: any) => typeof p.stripePaymentLink === 'string' && p.stripePaymentLink.startsWith('https://');
+
 function productsInCategory(categoryId: string) {
   return products.filter((p) => p.category === categoryId);
 }
@@ -40,15 +43,19 @@ const description = '经过筛选提炼的付费方法论、清单与模板，�
                 {p.type === 'digital' && (
                   <div class="guides-product-footer">
                     <span class="guides-product-price">¥{(p.price ?? 0).toLocaleString('ja-JP')}</span>
-                    <a
-                      href={p.stripePaymentLink}
-                      class="guides-product-cta guides-product-cta--buy"
-                      data-ga-event="guides_buy_click"
-                      data-ga-product={p.id}
-                      target="_blank" rel="noopener"
-                    >
-                      购买 →
-                    </a>
+                    {isPurchasable(p) ? (
+                      <a
+                        href={p.stripePaymentLink}
+                        class="guides-product-cta guides-product-cta--buy"
+                        data-ga-event="guides_buy_click"
+                        data-ga-product={p.id}
+                        target="_blank" rel="noopener"
+                      >
+                        购买 →
+                      </a>
+                    ) : (
+                      <span class="guides-product-cta guides-product-cta--soon" aria-disabled="true">准备中</span>
+                    )}
                   </div>
                 )}
 

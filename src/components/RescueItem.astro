@@ -36,9 +36,9 @@ function getText(item: Props['item'], lang: string): string {
 const labels: Record<string, Record<string, string>> = {
   staff: {
     zh: '对方可能会问', en: 'Staff may ask',
-    'zh-TW': '對方可能會問', vi: 'Nhân viên có thể hỏi', ko: '직원이 물어볼 수 있어요'
+    'zh-TW': '對方可能會問', vi: 'Nhân viên có thể hỏi', ko: '직원이 물어볼 수 있어요', ja: '相手に聞かれること'
   },
-  speak: { zh: '▶ 朗读', en: '▶ Listen', 'zh-TW': '▶ 朗讀', vi: '▶ Nghe', ko: '▶ 듣기' }
+  speak: { zh: '▶ 朗读', en: '▶ Listen', 'zh-TW': '▶ 朗讀', vi: '▶ Nghe', ko: '▶ 듣기', ja: '▶ 聞く' }
 };
 
 const text = getText(item, lang);

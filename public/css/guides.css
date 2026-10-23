@@ -2,7 +2,7 @@
    guides.css — 专业指南（商品展示 + 购买者账号）专属样式
    独立系统：不引用/不依赖 rescue.css / medical.css / career.css
    仅使用 base.css 提供的站点级设计变量（--bg/--t1/--r-md 等）
-   Living Japanese v4.0 SSG
+   Kurawise（Astro SSG）
 ══════════════════════════════ */
 
 /* ────────────────────────────────
@@ -291,3 +291,5 @@
   text-decoration: none;
 }
 .guides-share-btn:active { opacity: .7; }
+/* 決済リンクの準備ができていない商品（10/23） */
+.guides-product-cta--soon { opacity: .55; cursor: default; pointer-events: none; }

@@ -1,7 +1,7 @@
 {
   "categories": [
-    { "id": "career", "label": "日本就职转职指南" },
-    { "id": "medical", "label": "日本就医指南" }
+    { "id": "career", "label": "工作＆签证" },
+    { "id": "medical", "label": "就医＆医疗" }
   ],
   "products": [
     {
