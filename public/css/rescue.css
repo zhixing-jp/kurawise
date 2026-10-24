@@ -510,3 +510,7 @@ mark { background: #FFD60A; color: var(--t1); border-radius: 2px; padding: 0 1px
 .rescue-category-group .rescue-scene-content { padding: 0; }
 .rescue-category-group .rescue-scene-title { font-size: 15px; font-weight: 600; color: var(--t1); text-shadow: none; }
 .rescue-category-group .rescue-scene-count { font-size: 12px; color: var(--t3); }
+
+/* 見出し（h1）を付けた（10/24）：場面のページの題名は見た目を変えずに h1 に。文のページは題名を小さく出す */
+h1.rescue-landing-title-hero { margin: 0; }
+.rescue-sub-h1 { margin: 2px 14px 10px; font-size: 18px; font-weight: 800; line-height: 1.35; color: var(--t1); }

@@ -1,143 +1,163 @@
 {
   "banner": {
     "prep": {
-      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
-      "cta": "抢先了解"
+      "text": "工作和签证方面想了解什么？告诉我们，我们会优先写成文章",
+      "cta": "提出需求"
     },
     "interview": {
-      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
-      "cta": "抢先了解"
+      "text": "工作和签证方面想了解什么？告诉我们，我们会优先写成文章",
+      "cta": "提出需求"
     },
     "decide": {
-      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
-      "cta": "抢先了解"
+      "text": "工作和签证方面想了解什么？告诉我们，我们会优先写成文章",
+      "cta": "提出需求"
     },
     "onboard": {
-      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
-      "cta": "抢先了解"
+      "text": "工作和签证方面想了解什么？告诉我们，我们会优先写成文章",
+      "cta": "提出需求"
     },
     "default": {
-      "text": "转职、更新时的签证手续，我们正在整理成文章。准备好后第一时间通知你",
-      "cta": "抢先了解"
+      "text": "工作和签证方面想了解什么？告诉我们，我们会优先写成文章",
+      "cta": "提出需求"
+    },
+    "visa": {
+      "text": "把在留期限加进手机日历，更新不再忘",
+      "cta": "使用提醒工具"
     }
   },
   "banner_zh-TW": {
     "prep": {
-      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
-      "cta": "搶先了解"
+      "text": "工作和簽證方面想了解什麼？告訴我們，我們會優先寫成文章",
+      "cta": "提出需求"
     },
     "interview": {
-      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
-      "cta": "搶先了解"
+      "text": "工作和簽證方面想了解什麼？告訴我們，我們會優先寫成文章",
+      "cta": "提出需求"
     },
     "decide": {
-      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
-      "cta": "搶先了解"
+      "text": "工作和簽證方面想了解什麼？告訴我們，我們會優先寫成文章",
+      "cta": "提出需求"
     },
     "onboard": {
-      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
-      "cta": "搶先了解"
+      "text": "工作和簽證方面想了解什麼？告訴我們，我們會優先寫成文章",
+      "cta": "提出需求"
     },
     "default": {
-      "text": "轉職、更新時的簽證手續，我們正在整理成文章。準備好後第一時間通知你",
-      "cta": "搶先了解"
+      "text": "工作和簽證方面想了解什麼？告訴我們，我們會優先寫成文章",
+      "cta": "提出需求"
+    },
+    "visa": {
+      "text": "把在留期限加進手機行事曆，更新不再忘",
+      "cta": "使用提醒工具"
     }
   },
   "banner_en": {
     "prep": {
-      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
-      "cta": "Get early access"
+      "text": "What would you like to know about work or visas in Japan? Tell us and we'll write about it",
+      "cta": "Send a request"
     },
     "interview": {
-      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
-      "cta": "Get early access"
+      "text": "What would you like to know about work or visas in Japan? Tell us and we'll write about it",
+      "cta": "Send a request"
     },
     "decide": {
-      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
-      "cta": "Get early access"
+      "text": "What would you like to know about work or visas in Japan? Tell us and we'll write about it",
+      "cta": "Send a request"
     },
     "onboard": {
-      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
-      "cta": "Get early access"
+      "text": "What would you like to know about work or visas in Japan? Tell us and we'll write about it",
+      "cta": "Send a request"
     },
     "default": {
-      "text": "We're writing guides on visa procedures for job changes and extensions. We'll let you know when they're ready.",
-      "cta": "Get early access"
+      "text": "What would you like to know about work or visas in Japan? Tell us and we'll write about it",
+      "cta": "Send a request"
+    },
+    "visa": {
+      "text": "Add your residence card expiry to your phone calendar so you never miss a renewal",
+      "cta": "Use the reminder"
     }
   },
   "banner_vi": {
     "prep": {
-      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
-      "cta": "Tìm hiểu sớm"
+      "text": "Bạn muốn biết gì về việc làm hay visa? Hãy cho chúng tôi biết để viết bài tiếp theo",
+      "cta": "Gửi yêu cầu"
     },
     "interview": {
-      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
-      "cta": "Tìm hiểu sớm"
+      "text": "Bạn muốn biết gì về việc làm hay visa? Hãy cho chúng tôi biết để viết bài tiếp theo",
+      "cta": "Gửi yêu cầu"
     },
     "decide": {
-      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
-      "cta": "Tìm hiểu sớm"
+      "text": "Bạn muốn biết gì về việc làm hay visa? Hãy cho chúng tôi biết để viết bài tiếp theo",
+      "cta": "Gửi yêu cầu"
     },
     "onboard": {
-      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
-      "cta": "Tìm hiểu sớm"
+      "text": "Bạn muốn biết gì về việc làm hay visa? Hãy cho chúng tôi biết để viết bài tiếp theo",
+      "cta": "Gửi yêu cầu"
     },
     "default": {
-      "text": "Chúng tôi đang viết bài về thủ tục visa khi chuyển việc và gia hạn. Sẽ báo cho bạn khi sẵn sàng.",
-      "cta": "Tìm hiểu sớm"
+      "text": "Bạn muốn biết gì về việc làm hay visa? Hãy cho chúng tôi biết để viết bài tiếp theo",
+      "cta": "Gửi yêu cầu"
+    },
+    "visa": {
+      "text": "Thêm hạn thẻ cư trú vào lịch điện thoại để không quên gia hạn",
+      "cta": "Dùng công cụ nhắc"
     }
   },
   "banner_ko": {
     "prep": {
-      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
-      "cta": "먼저 알아보기"
+      "text": "일이나 비자에 대해 알고 싶은 것을 알려 주세요. 다음 기사에 반영합니다",
+      "cta": "요청하기"
     },
     "interview": {
-      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
-      "cta": "먼저 알아보기"
+      "text": "일이나 비자에 대해 알고 싶은 것을 알려 주세요. 다음 기사에 반영합니다",
+      "cta": "요청하기"
     },
     "decide": {
-      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
-      "cta": "먼저 알아보기"
+      "text": "일이나 비자에 대해 알고 싶은 것을 알려 주세요. 다음 기사에 반영합니다",
+      "cta": "요청하기"
     },
     "onboard": {
-      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
-      "cta": "먼저 알아보기"
+      "text": "일이나 비자에 대해 알고 싶은 것을 알려 주세요. 다음 기사에 반영합니다",
+      "cta": "요청하기"
     },
     "default": {
-      "text": "이직·갱신 때의 비자 수속을 기사로 정리하고 있습니다. 준비되는 대로 알려 드립니다",
-      "cta": "먼저 알아보기"
+      "text": "일이나 비자에 대해 알고 싶은 것을 알려 주세요. 다음 기사에 반영합니다",
+      "cta": "요청하기"
+    },
+    "visa": {
+      "text": "재류 기한을 휴대폰 캘린더에 넣어 갱신을 잊지 마세요",
+      "cta": "알림 사용하기"
     }
   },
   "banner_ja": {
     "prep": {
-      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
-      "cta": "先行案内を受け取る"
+      "text": "仕事やビザのことで知りたいことを教えてください。次の記事づくりに使います",
+      "cta": "リクエストする"
     },
     "interview": {
-      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
-      "cta": "先行案内を受け取る"
+      "text": "仕事やビザのことで知りたいことを教えてください。次の記事づくりに使います",
+      "cta": "リクエストする"
     },
     "decide": {
-      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
-      "cta": "先行案内を受け取る"
+      "text": "仕事やビザのことで知りたいことを教えてください。次の記事づくりに使います",
+      "cta": "リクエストする"
     },
     "onboard": {
-      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
-      "cta": "先行案内を受け取る"
+      "text": "仕事やビザのことで知りたいことを教えてください。次の記事づくりに使います",
+      "cta": "リクエストする"
     },
     "default": {
-      "text": "転職・更新のときのビザの手続きを、記事にまとめています。準備ができしだいお知らせします",
-      "cta": "先行案内を受け取る"
+      "text": "仕事やビザのことで知りたいことを教えてください。次の記事づくりに使います",
+      "cta": "リクエストする"
+    },
+    "visa": {
+      "text": "在留期限をスマホのカレンダーに入れて、更新を忘れない",
+      "cta": "リマインダーを使う"
     }
   },
-  "articleCta": {
-    "title": "转职、更新时的签证手续，我们会用文章和小工具一步步整理",
-    "sub": "告诉我们你遇到了什么情况，准备好后会第一时间通知你。"
-  },
   "contactPage": {
-    "title": "请告诉我们你需要什么",
-    "subtitle": "我们正在准备在留期限提醒工具，以及签证（在留资格）手续的文章。转职、更新、接家人来日本……告诉我们你现在遇到的困难，或者担心的事情，准备好后会第一时间通知你。",
+    "title": "告诉我们你想了解什么",
+    "subtitle": "工作或签证（在留资格）方面，你现在遇到的困难、担心的事情，都可以告诉我们。我们会据此决定接下来写哪些文章。留下联系方式的话，文章上线时会通知你。",
     "fieldContact": "联系方式（邮箱 / 微信 / LINE）",
     "fieldContactHint": "方便我们联系到你的任意一种方式即可",
     "fieldTopic": "你希望优先看到的内容方向",
@@ -151,11 +171,11 @@
     "successBody": "谢谢你的反馈，这会直接帮助我们决定接下来优先做哪些内容。新内容上线时，如果你留了联系方式，我们会第一时间通知你。",
     "errorBody": "提交时遇到问题，请稍后重试。",
     "notReadyBody": "表单服务暂未就绪，请稍后再试。",
-    "backToHub": "返回就职・转职指南"
+    "backToHub": "返回工作＆签证"
   },
   "contactPage_zh-TW": {
-    "title": "請告訴我們你需要什麼",
-    "subtitle": "我們正在準備在留期限提醒工具，以及簽證（在留資格）手續的文章。轉職、更新、接家人來日本……告訴我們你現在遇到的困難，或者擔心的事情，準備好後會第一時間通知你。",
+    "title": "告訴我們你想了解什麼",
+    "subtitle": "工作或簽證（在留資格）方面，你現在遇到的困難、擔心的事情，都可以告訴我們。我們會據此決定接下來寫哪些文章。留下聯絡方式的話，文章上線時會通知你。",
     "fieldContact": "聯絡方式（Email／微信／LINE）",
     "fieldContactHint": "方便我們聯繫到你的任意一種方式即可",
     "fieldTopic": "你希望優先看到的內容方向",
@@ -169,11 +189,11 @@
     "successBody": "謝謝你的反饋，這會直接幫助我們決定接下來優先做哪些內容。新內容上線時，如果你留了聯絡方式，我們會第一時間通知你。",
     "errorBody": "提交時遇到問題，請稍後重試。",
     "notReadyBody": "表單服務暫未就緒，請稍後再試。",
-    "backToHub": "返回就職・轉職指南"
+    "backToHub": "返回工作＆簽證"
   },
   "contactPage_en": {
-    "title": "Tell Us What You Need",
-    "subtitle": "We're preparing a residence-card expiry reminder and articles on visa (status of residence) procedures. Changing jobs, renewing, bringing your family over — tell us what you're struggling with now or worried about, and we'll let you know as soon as it's ready.",
+    "title": "Tell Us What You'd Like to Know",
+    "subtitle": "Tell us what you're struggling with or worried about regarding work or visas (status of residence). We'll use it to decide what to write next. Leave your contact info and we'll let you know when the article is ready.",
     "fieldContact": "Contact info (email / WeChat / LINE)",
     "fieldContactHint": "Any way for us to reach you works",
     "fieldTopic": "What content would you like to see first?",
@@ -187,11 +207,11 @@
     "successBody": "Thanks for your input — it directly helps us decide what to prioritize next. If you left your contact info, we'll notify you first when new content launches.",
     "errorBody": "Something went wrong while submitting. Please try again shortly.",
     "notReadyBody": "The form service isn't ready yet. Please try again shortly.",
-    "backToHub": "Back to the Career Guide"
+    "backToHub": "Back to Work & Visa"
   },
   "contactPage_vi": {
-    "title": "Hãy cho chúng tôi biết bạn cần gì",
-    "subtitle": "Chúng tôi đang chuẩn bị công cụ nhắc hạn thẻ cư trú và các bài viết về thủ tục visa (tư cách lưu trú). Chuyển việc, gia hạn, bảo lãnh gia đình… hãy cho chúng tôi biết khó khăn hiện tại hoặc điều bạn lo lắng, chúng tôi sẽ báo cho bạn ngay khi sẵn sàng.",
+    "title": "Hãy cho chúng tôi biết bạn muốn biết gì",
+    "subtitle": "Những khó khăn hay lo lắng của bạn về việc làm hoặc visa (tư cách lưu trú) — hãy chia sẻ với chúng tôi. Chúng tôi sẽ dựa vào đó để quyết định bài viết tiếp theo. Nếu để lại liên hệ, chúng tôi sẽ báo khi bài viết sẵn sàng.",
     "fieldContact": "Thông tin liên hệ (email / WeChat / LINE)",
     "fieldContactHint": "Bất kỳ cách nào giúp chúng tôi liên hệ được với bạn là được",
     "fieldTopic": "Bạn muốn xem nội dung nào trước tiên",
@@ -205,11 +225,11 @@
     "successBody": "Cảm ơn phản hồi của bạn, điều này giúp chúng tôi quyết định nội dung nào cần ưu tiên tiếp theo. Khi có nội dung mới, nếu bạn để lại thông tin liên hệ, chúng tôi sẽ thông báo cho bạn đầu tiên.",
     "errorBody": "Có sự cố khi gửi, vui lòng thử lại sau.",
     "notReadyBody": "Dịch vụ biểu mẫu chưa sẵn sàng, vui lòng thử lại sau.",
-    "backToHub": "Quay lại Hướng dẫn xin việc・chuyển việc"
+    "backToHub": "Quay lại Việc làm & visa"
   },
   "contactPage_ko": {
-    "title": "필요한 내용을 알려주세요",
-    "subtitle": "체류 기한 알림 도구와 비자(체류 자격) 수속 기사를 준비하고 있습니다. 이직, 갱신, 가족 초청 등 지금 어려운 점이나 앞으로 걱정되는 점을 알려주세요. 준비되는 대로 알려드리겠습니다.",
+    "title": "알고 싶은 것을 알려 주세요",
+    "subtitle": "일이나 비자(재류 자격)와 관련해 지금 겪고 있는 어려움이나 걱정되는 점을 알려 주세요. 다음에 쓸 기사를 정하는 데 참고합니다. 연락처를 남기시면 기사가 완성되었을 때 알려 드립니다.",
     "fieldContact": "연락처 (이메일 / 위챗 / LINE)",
     "fieldContactHint": "저희가 연락드릴 수 있는 방법이면 무엇이든 괜찮습니다",
     "fieldTopic": "가장 먼저 보고 싶은 콘텐츠 방향",
@@ -223,11 +243,11 @@
     "successBody": "소중한 의견 감사합니다. 이는 앞으로 어떤 콘텐츠를 우선 제작할지 결정하는 데 직접적인 도움이 됩니다. 연락처를 남겨주셨다면 새 콘텐츠 출시 시 가장 먼저 알려드리겠습니다.",
     "errorBody": "제출 중 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.",
     "notReadyBody": "양식 서비스가 아직 준비되지 않았습니다. 잠시 후 다시 시도해 주세요.",
-    "backToHub": "취업・이직 가이드로 돌아가기"
+    "backToHub": "일 & 비자로 돌아가기"
   },
   "contactPage_ja": {
-    "title": "ご要望を教えてください",
-    "subtitle": "在留期限のリマインダーと、ビザ（在留資格）の手続きの記事を準備しています。転職・更新・家族の呼び寄せなど、今困っていること、これから心配なことを教えてください。準備ができしだいお知らせします。",
+    "title": "知りたいことを教えてください",
+    "subtitle": "仕事やビザ（在留資格）のことで、今困っていること、これから心配なことを教えてください。次に書く記事を決める参考にします。連絡先を書いていただければ、記事ができたときにお知らせします。",
     "fieldContact": "連絡先（メール／WeChat／LINE）",
     "fieldContactHint": "こちらからご連絡できる方法であれば何でも構いません",
     "fieldTopic": "優先して見たい内容",
@@ -241,6 +261,6 @@
     "successBody": "ご回答ありがとうございます。今後どの内容を優先的に制作するかを決める上で、直接的な助けになります。連絡先をご記入いただいた方には、新しいコンテンツが公開され次第、真っ先にお知らせします。",
     "errorBody": "送信中に問題が発生しました。しばらくしてからもう一度お試しください。",
     "notReadyBody": "フォームサービスがまだ準備できていません。しばらくしてからもう一度お試しください。",
-    "backToHub": "就職・転職ガイドに戻る"
+    "backToHub": "仕事＆ビザに戻る"
   }
 }

@@ -24,7 +24,7 @@ if (kind === 'for') {
 } else {
   const c = CATS.find((x) => x.key === keyName)!;
   title = pick(c.label, lang);
-  intro = pick(UI.catIntro, lang);
+  intro = pick(UI.catIntro, lang).replace('{x}', title);
   sections = c.groups.map((g) => ({ heading: c.groups.length > 1 ? pick(SUB[g], lang) : pick(c.label, lang), icon: c.groups.length > 1 ? undefined : c.icon, items: all.filter((a) => a.group === g) }));
 }
 ---

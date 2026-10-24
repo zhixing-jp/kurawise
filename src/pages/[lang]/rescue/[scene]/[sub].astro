@@ -81,6 +81,8 @@ function u(key: string) { return ui[key]?.[lang] || ui[key]?.zh || key; }
     <span aria-current="page">{subTitle}</span>
   </nav>
 
+  <h1 class="rescue-sub-h1">{subTitle}</h1>
+
   <div class="rescue-ctrl-bar" id="subCtrlBar">
     <a href={sceneUrl} class="ctrl-back" aria-label={u('back')}>←</a>
     <button onclick="togglePlay()" class="ctrl-play" id="btnPlay" aria-label={u('play')}>

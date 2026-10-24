@@ -91,7 +91,8 @@ const careerInterestUrl = careerGroup ? `${careerInterestBasePath}?from=${career
 // 其他类别和其他语言仍导向"抢先登记"页。横幅文案另行调整。
 // ただし、面接ガイドの決済リンクがまだ仮のうちは、購入できないので「抢先登记」ページに案内する（10/23）
 const interviewGuideReady = guideProducts.products.some((p: any) => p.id === 's11-interview-pdf' && !p.hidden && typeof p.stripePaymentLink === 'string' && p.stripePaymentLink.startsWith('https://'));
-const careerBannerUrl = (careerGroup === 'interview' && lang === 'zh' && interviewGuideReady) ? SECTIONS.guides.url : careerInterestUrl;
+// ビザの記事（group: visa）では、在留期限リマインダー（道具）へ案内する（10/24。記事はもう公開済みなので「準備中」の案内はやめた）
+const careerBannerUrl = careerGroup === 'visa' ? `/${lang}/career/visa-reminder/` : (careerGroup === 'interview' && lang === 'zh' && interviewGuideReady) ? SECTIONS.guides.url : careerInterestUrl;
 const careerReferralBannerText = careerBannerData.text;
 const careerReferralBannerCta = careerBannerData.cta;
 
@@ -190,7 +191,9 @@ const SEO_CONTEXT: Record<string, Record<string, string>> = {
 };
 const baseTitle = title.replace(/\s*[|｜]\s*Kurawise\s*$/, '');
 const ctxKey = medicalCss ? 'medical' : (careerCss ? 'career' : null);
-const needsContext = ctxKey && !/日本|Japan|Nhật|일본/.test(baseTitle);
+// タイトルがもともと長いとき（検索結果で途中で切れる長さ）は、文脈を足さない（10/24）
+const titleTooLong = isCJK ? baseTitle.length > 24 : baseTitle.length > 45;
+const needsContext = ctxKey && !titleTooLong && !/日本|Japan|Nhật|일본/.test(baseTitle);
 const pageTitle = needsContext
   ? `${baseTitle}${SEP}${SEO_CONTEXT[ctxKey!][lang] || SEO_CONTEXT[ctxKey!].en}${SEP}Kurawise`
   : (/Kurawise\s*$/.test(title) ? title : `${title}${SEP}Kurawise`);

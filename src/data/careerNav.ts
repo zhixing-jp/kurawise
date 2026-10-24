@@ -54,7 +54,7 @@ export const UI: Record<string, Record<L, string>> = {
   all: { ja: 'すべて見る', zh: '查看全部', 'zh-TW': '查看全部', en: 'See all', vi: 'Xem tất cả', ko: '모두 보기' },
   updated: { ja: '更新', zh: '更新', 'zh-TW': '更新', en: 'Updated', vi: 'Cập nhật', ko: '업데이트' },
   forIntro: { ja: '「{x}」ときに役立つ記事と道具をまとめました。', zh: '「{x}」时用得上的文章和工具。', 'zh-TW': '「{x}」時用得上的文章和工具。', en: 'Articles and tools for: {x}.', vi: 'Bài viết và công cụ cho: {x}.', ko: '「{x}」일 때 도움이 되는 기사와 도구입니다.' },
-  catIntro: { ja: 'このカテゴリのすべての記事です。', zh: '这个分类的全部文章。', 'zh-TW': '這個分類的全部文章。', en: 'All articles in this category.', vi: 'Tất cả bài viết trong chuyên mục này.', ko: '이 분류의 모든 기사입니다.' },
+  catIntro: { ja: '「{x}」のすべての記事です。', zh: '「{x}」分类的全部文章。', 'zh-TW': '「{x}」分類的全部文章。', en: 'All articles on {x}.', vi: 'Tất cả bài viết về {x}.', ko: '「{x}」의 모든 기사입니다.' },
   others: { ja: 'ほかの目的から探す', zh: '按其他情况找', 'zh-TW': '依其他情況找', en: 'Other situations', vi: 'Tình huống khác', ko: '다른 상황으로 찾기' }
 };
 
