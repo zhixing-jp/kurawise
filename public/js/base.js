@@ -14,6 +14,7 @@ function detectLang() {
   const pageLang = document.documentElement.getAttribute('data-page-lang');
   if (pageLang) return pageLang;
   const path = window.location.pathname;
+  if (path.startsWith('/zh/'))    return 'zh';
   if (path.startsWith('/en/'))    return 'en';
   if (path.startsWith('/zh-TW/')) return 'zh-TW';
   if (path.startsWith('/vi/'))    return 'vi';
@@ -53,7 +54,7 @@ function switchLang(lang) {
   // 🌐ボタンで自分で選んだ言語（言語の案内を出すかどうかの判断に使う）
   try { localStorage.setItem('lj_lang_chosen', lang); } catch (e) {}
   const langPaths = {
-    'zh': '/', 'zh-TW': '/zh-TW/',
+    'zh': '/zh/', 'zh-TW': '/zh-TW/',
     'en': '/en/', 'vi': '/vi/', 'ko': '/ko/', 'ja': '/ja/'
   };
   const path = window.location.pathname;
@@ -63,27 +64,34 @@ function switchLang(lang) {
   // 都是构建时按语言各自生成好的独立静态页面（中文版无前缀，其他语言版有 /lang/ 前缀），
   // 不是客户端动态换语言的页面，所以切换语言要跳转到"同一子路径对应语言版本"，
   // 而不是走 loadLocale() 原地刷新那一套（那一套只适用于 about 这种单一路径页面）。
-  const medicalMatch = path.match(/^(?:\/(?:zh-TW|en|vi|ko|ja))?\/medical(\/.*)?\/?$/);
+  const medicalMatch = path.match(/^(?:\/(?:zh-TW|zh|en|vi|ko|ja))?\/medical(\/.*)?\/?$/);
   // career 同 medical，[lang]/career/* 目录已按语言各自生成静态页面，
   // 切换语言时跳转到"同一子路径对应语言版本"，而不是原地刷新。
-  const careerMatch = path.match(/^(?:\/(?:zh-TW|en|vi|ko|ja))?\/career(\/.*)?\/?$/);
+  const careerMatch = path.match(/^(?:\/(?:zh-TW|zh|en|vi|ko|ja))?\/career(\/.*)?\/?$/);
+  // 2026-10-24：日常会話のトップ（/xx/rescue/）と暮らし（/xx/kurashi/…）も、同じ子パスの別言語へ
+  const rescueTopMatch = path.match(/^(?:\/(?:zh-TW|zh|en|vi|ko|ja))?\/rescue\/?$/);
+  const kurashiMatch = path.match(/^(?:\/(?:zh-TW|zh|en|vi|ko|ja))?\/kurashi(\/.*)?\/?$/);
   // about 是单一路径（无语言子目录），页面内容按 currentLang 在客户端动态显示，
   // 不需要跳转页面——只需重新 loadLocale 并重新渲染，原地刷新即可
-  const singlePathMatch = path.match(/^\/(about|kurashi|apps|ad-policy|privacy)\/?$/);
+  const singlePathMatch = path.match(/^\/(about|apps|ad-policy|privacy)\/?$/);
   if (subMatch) {
-    const prefix = langPaths[lang] === '/' ? '' : langPaths[lang].slice(0, -1);
+    const prefix = langPaths[lang].slice(0, -1);
     window.location.href = `${prefix}/rescue/${subMatch[1]}/${subMatch[2]}/`;
   } else if (sceneMatch) {
-    const prefix = langPaths[lang] === '/' ? '' : langPaths[lang].slice(0, -1);
+    const prefix = langPaths[lang].slice(0, -1);
     window.location.href = `${prefix}/rescue/${sceneMatch[1]}/`;
   } else if (medicalMatch) {
-    const prefix = langPaths[lang] === '/' ? '' : langPaths[lang].slice(0, -1);
+    const prefix = langPaths[lang].slice(0, -1);
     const subPath = medicalMatch[1] || '/';
     window.location.href = `${prefix}/medical${subPath}`;
   } else if (careerMatch) {
-    const prefix = langPaths[lang] === '/' ? '' : langPaths[lang].slice(0, -1);
+    const prefix = langPaths[lang].slice(0, -1);
     const subPath = careerMatch[1] || '/';
     window.location.href = `${prefix}/career${subPath}`;
+  } else if (rescueTopMatch) {
+    window.location.href = `${langPaths[lang].slice(0, -1)}/rescue/`;
+  } else if (kurashiMatch) {
+    window.location.href = `${langPaths[lang].slice(0, -1)}/kurashi${kurashiMatch[1] || '/'}`;
   } else if (singlePathMatch) {
     loadLocale(lang).then(() => {
       document.dispatchEvent(new CustomEvent('langChanged', { detail: { lang } }));
@@ -129,8 +137,8 @@ function initLangSuggest(pageLang) {
   };
   const t = texts[sys];
   if (!t) return;
-  const stripped = window.location.pathname.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
-  const target = (sys === 'zh' ? '' : '/' + sys) + stripped + window.location.search + window.location.hash;
+  const stripped = window.location.pathname.replace(/^\/(zh-TW|zh|en|vi|ko|ja)(?=\/|$)/, '') || '/';
+  const target = '/' + sys + stripped + window.location.search + window.location.hash;
   box.querySelector('.lang-suggest-text').textContent = t[0];
   const link = box.querySelector('.lang-suggest-link');
   link.textContent = t[1];

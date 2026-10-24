@@ -8,7 +8,7 @@ import careerIndex from '../../public/data/career/index.json';
 interface Props { copy: VRCopy; lang: string; interestUrl: string; }
 const { copy, lang, interestUrl } = Astro.props;
 // ビザ・在留の記事（index.json の group: visa）を自動で並べる。記事が増えれば、ここにも増える
-const pre = lang === 'zh' ? '' : `/${lang}`;
+const pre = `/${lang}`;
 const visaArticles = (careerIndex.pages as any[]).filter((p) => p.group === 'visa')
   .map((p) => ({ title: (lang === 'zh' ? p.title : p[`title_${lang}`]) || p.title, href: pre + p.url }));
 ---

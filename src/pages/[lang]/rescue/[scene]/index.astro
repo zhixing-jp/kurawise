@@ -5,7 +5,7 @@ import { readFile } from 'node:fs/promises';
 import { rescueSceneSeo } from '../../../../data/rescueSeo';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   const paths = [];
   for (const scene of rescueIndex.scenes) {
     for (const lang of SUPPORTED_LANGS) {
@@ -31,7 +31,7 @@ const seo = rescueSceneSeo(scene, sceneItems, lang as any);
 const subcats = scene.subcategories || [];
 const info = (scene as any).info || [];
 
-const homeUrl = `/${lang}/`;
+const homeUrl = `/${lang}/rescue/`;  // 日常会話のトップ（2026-10-24 から /xx/rescue/）
 const homeLabel: Record<string, string> = {
   zh: '首页', en: 'Home', 'zh-TW': '首頁', vi: 'Trang chủ', ko: '홈', ja: 'ホーム'
 };

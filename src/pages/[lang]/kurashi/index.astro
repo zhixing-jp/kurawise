@@ -1,0 +1,29 @@
+---
+// 暮らし＆お金の知恵（タブ4）の入口 /xx/kurashi/（2026-10-24：言語ごとのURLに。日本語が母版）。
+// まだ記事がないので「準備中」：noindex、サイト内検索に入れない（data-pagefind-body なし）、読了の計測なし。
+import Base from '../../../layouts/Base.astro';
+import { SECTION_NAMES } from '../../../data/sectionNames';
+
+export function getStaticPaths() {
+  return ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'].map((lang) => ({ params: { lang }, props: { lang } }));
+}
+const { lang } = Astro.props;
+const name = (SECTION_NAMES.kurashi as Record<string, string>)[lang] || SECTION_NAMES.kurashi.en;
+const BODY: Record<string, string> = {
+  zh: '准备中。从日常省钱，到信用卡、手机、银行、跨境汇款、租房合同怎么选，我们会用具体的数字做比较，介绍在日本生活不吃亏的金钱智慧。',
+  'zh-TW': '準備中。從日常省錢，到信用卡、手機、銀行、跨境匯款、租屋合約怎麼選，我們會用具體的數字做比較，介紹在日本生活不吃虧的金錢智慧。',
+  en: 'Coming soon. From everyday savings to choosing credit cards, phone plans, banks, international money transfers and rental contracts, we will compare the options with real numbers so you don\'t lose money living in Japan.',
+  vi: 'Sắp ra mắt. Từ cách tiết kiệm hằng ngày đến chọn thẻ tín dụng, điện thoại, ngân hàng, chuyển tiền quốc tế và hợp đồng thuê nhà, chúng tôi sẽ so sánh bằng con số cụ thể để bạn sống ở Nhật mà không bị thiệt.',
+  ko: '준비 중입니다. 일상 속 절약부터 신용카드·휴대폰·은행·해외 송금·임대 계약을 고르는 방법까지, 구체적인 숫자로 비교해 일본 생활에서 손해 보지 않는 돈의 지혜를 소개할 예정입니다.',
+  ja: '準備中です。毎日の節約から、クレジットカード・携帯電話・銀行・海外送金・部屋の契約の選び方まで、暮らしのお金で損をしないための知恵を、具体的な数字で比べて紹介していきます。'
+};
+const body = BODY[lang] || BODY.en;
+---
+<Base title={`${name} | Kurawise`} description={body} noindex={true} skipReadTracking={true}>
+  <main class="kurashi-page hub-page">
+    <h1 class="hub-title">{name}</h1>
+    <section class="cblock" style="padding-top:16px">
+      <p style="font-size:15px;line-height:1.9;color:var(--t2);margin:0;">{body}</p>
+    </section>
+  </main>
+</Base>

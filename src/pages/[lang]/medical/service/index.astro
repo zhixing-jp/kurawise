@@ -4,7 +4,7 @@ import Base from '../../../../layouts/Base.astro';
 import referral from '../../../../../public/data/medical/referral.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
@@ -109,7 +109,7 @@ const SHOW_CHAT_CONTACTS = false;
           data-ga-event="referral_contact_click"
           data-ga-channel="email"
         >
-          <span class="med-service-contact-label">Email</span>
+          <span class="med-service-contact-label">{lang === 'zh' ? '邮箱' : 'Email'}</span>
           <span class="med-service-contact-sub">info@kurawise.com</span>
         </a>
       </div>

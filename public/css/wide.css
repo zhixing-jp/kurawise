@@ -112,3 +112,12 @@
 @media (min-width: 1024px) {
   .hub-page { max-width: 1080px; padding-left: 24px; padding-right: 24px; }
 }
+@media (min-width: 1024px) {
+  .home-hero { padding: 36px 4px 28px; }
+  .home-hero-title { font-size: 34px; }
+  .home-hero-sub { font-size: 16px; }
+  .home-menu { display: grid; grid-template-columns: repeat(5, 1fr); border: 0; background: transparent; gap: 12px; overflow: visible; }
+  .home-menu .ios-row { flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px; border: .5px solid var(--line); border-radius: 12px; }
+  .home-menu .ios-row + .ios-row::before { display: none; }
+  .home-menu .ios-chev { display: none; }
+}

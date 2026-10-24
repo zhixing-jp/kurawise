@@ -42,7 +42,8 @@ function assetVersion() {
 export default defineConfig({
   site: 'https://kurawise.com',
   integrations: [sitemap({
-    // 準備中・noindex のページはサイトマップから外す（暮らし＆お金の知恵は公開時にこの行から削除）
-    filter: (page) => !['https://kurawise.com/kurashi/', 'https://kurawise.com/guides/', 'https://kurawise.com/guides/login/', 'https://kurawise.com/guides/my-purchases/', 'https://kurawise.com/download/'].includes(page)
+    // 準備中・noindex のページはサイトマップから外す（暮らし＆お金の知恵 /xx/kurashi/ は公開時に2行目を削除）。/ は /ja/ への転送なので外す
+    filter: (page) => !['https://kurawise.com/', 'https://kurawise.com/guides/', 'https://kurawise.com/guides/login/', 'https://kurawise.com/guides/my-purchases/', 'https://kurawise.com/download/'].includes(page)
+      && !/^https:\/\/kurawise\.com\/(zh-TW|zh|en|vi|ko|ja)\/kurashi\//.test(page)
   }), assetVersion()]
 });

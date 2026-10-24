@@ -1,8 +1,0 @@
----
-// 目标路径：/career/c/{cat}/（简体中文）カテゴリの全記事。定義は src/data/careerNav.ts
-import CareerListPage from '../../../components/CareerListPage.astro';
-import { CATS } from '../../../data/careerNav';
-export function getStaticPaths() { return CATS.map((c) => ({ params: { cat: c.key } })); }
-const { cat } = Astro.params;
----
-<CareerListPage lang="zh" kind="c" keyName={cat as string} />

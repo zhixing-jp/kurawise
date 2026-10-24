@@ -78,7 +78,7 @@ interface SymptomDictionaryData {
   departments_map?: DepartmentsMap;
 }
 
-const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'] as const;
+const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'] as const;
 type SupportedLang = typeof SUPPORTED_LANGS[number];
 
 // 注意：Astro 的 getStaticPaths() 在独立的隔离作用域中执行，无法引用
@@ -94,7 +94,7 @@ export async function getStaticPaths() {
     }
   }
   const symptomData = await loadSymptomData();
-  const langs: SupportedLang[] = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const langs: SupportedLang[] = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   const paths: { params: { lang: string; part: string }; props: { lang: SupportedLang; part: BodyPart } }[] = [];
   for (const lang of langs) {
     for (const part of symptomData.body_parts) {
@@ -122,10 +122,11 @@ const partTitle = getPartTitle(part, lang);
 
 const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
 const dictLabels: Record<string, string> = {
-  'zh-TW': '症狀指認詞庫', en: 'Symptom Dictionary', vi: 'Từ điển triệu chứng', ko: '증상 표현 사전', ja: '症状表現辞典'
+  zh: '症状指认词库', 'zh-TW': '症狀指認詞庫', en: 'Symptom Dictionary', vi: 'Từ điển triệu chứng', ko: '증상 표현 사전', ja: '症状表現辞典'
 };
 
 const titleSuffixes: Record<string, string> = {
+  zh: `${partTitle}症状表达 | ${dictLabels.zh}`,
   'zh-TW': `${partTitle}症狀表達 | ${dictLabels['zh-TW']}`,
   en: `${partTitle} Symptoms | ${dictLabels.en}`,
   vi: `Triệu chứng ${partTitle} | ${dictLabels.vi}`,
@@ -133,6 +134,7 @@ const titleSuffixes: Record<string, string> = {
   ja: `${partTitle}の症状表現 | ${dictLabels.ja}`
 };
 const descSuffixes: Record<string, string> = {
+  zh: `${partTitle}相关的日语症状表达，配例句、假名注音、跟读发音，方便就医时向医生描述。`,
   'zh-TW': `${partTitle}相關的日語症狀表達，配例句、跟讀發音。`,
   en: `Japanese phrases for ${partTitle} symptoms, with example sentences and audio.`,
   vi: `Cách diễn đạt triệu chứng ${partTitle} bằng tiếng Nhật, kèm câu ví dụ và phát âm.`,
@@ -144,9 +146,10 @@ const pageTitle = titleSuffixes[lang] || titleSuffixes.en;
 const pageDesc = descSuffixes[lang] || descSuffixes.en;
 
 const playLabels: Record<string, string> = {
-  'zh-TW': '朗讀', en: 'Play', vi: 'Đọc', ko: '읽기', ja: '朗読'
+  zh: '朗读', 'zh-TW': '朗讀', en: 'Play', vi: 'Đọc', ko: '읽기', ja: '朗読'
 };
 const dangerBadgeLabels: Record<string, { critical: string; urgent: string; rare: string }> = {
+  zh: { critical: '⚠️ 危险信号，可能危及生命', urgent: '⚠️ 需要留意的信号', rare: '⚠️ 少见但需留意的信号' },
   'zh-TW': { critical: '⚠️ 危險信號，可能危及生命', urgent: '⚠️ 需要留意的信號', rare: '⚠️ 少見但需留意的信號' },
   en: { critical: '⚠️ Danger sign — could be life-threatening', urgent: '⚠️ Worth paying attention to', rare: '⚠️ Rare but serious sign' },
   vi: { critical: '⚠️ Dấu hiệu nguy hiểm, có thể đe dọa tính mạng', urgent: '⚠️ Cần lưu ý', rare: '⚠️ Hiếm gặp nhưng nghiêm trọng' },
@@ -156,7 +159,7 @@ const dangerBadgeLabels: Record<string, { critical: string; urgent: string; rare
 const badges = dangerBadgeLabels[lang] || dangerBadgeLabels.en;
 
 const relatedLabels: Record<string, string> = {
-  'zh-TW': '相關表達', en: 'Related', vi: 'Cách nói liên quan', ko: '관련 표현', ja: '関連する表現'
+  zh: '相关表达', 'zh-TW': '相關表達', en: 'Related', vi: 'Cách nói liên quan', ko: '관련 표현', ja: '関連する表現'
 };
 const relatedLabel = relatedLabels[lang] || relatedLabels.en;
 
@@ -171,14 +174,15 @@ interface RelatedEntryText {
 const entryTextMap: Record<string, RelatedEntryText> = {};
 for (const g of part.groups) {
   for (const e of g.entries) {
-    const gloss = lang === 'ja' ? '' : getField(e as unknown, 'gloss', lang, '');
+    // 中文页面：用 example_zh 去掉句号作为简短注释（原来的中文页面的做法）
+    const gloss = lang === 'ja' ? '' : (lang === 'zh' ? String((e as any).example_zh || '').replace(/[。.]+$/, '') : getField(e as unknown, 'gloss', lang, ''));
     entryTextMap[e.id] = { jp: e.symptom_jp, gloss };
   }
 }
 
 // 建议挂号科室：全局科室对照表（日语名+多语言注释），词条里只存科室id数组
 const departmentLabels: Record<string, string> = {
-  'zh-TW': '建議掛號科室', en: 'Suggested Department', vi: 'Khoa nên khám', ko: '추천 진료과', ja: 'おすすめの診療科'
+  zh: '建议挂号科室', 'zh-TW': '建議掛號科室', en: 'Suggested Department', vi: 'Khoa nên khám', ko: '추천 진료과', ja: 'おすすめの診療科'
 };
 const departmentLabel = departmentLabels[lang] || departmentLabels.en;
 
@@ -202,6 +206,7 @@ function getDeptLabel(deptId: string, lang: string): string {
 
 // 分享按钮：文案模板+按钮标签按语言准备，与career多语言文章页使用同一套翻译内容
 const shareTextTemplates: Record<string, string> = {
+  zh: '这篇讲得挺实在：{title}',
   'zh-TW': '這篇講得挺實在：{title}',
   en: 'This one’s worth a read: {title}',
   vi: 'Bài này khá thực tế: {title}',
@@ -209,6 +214,7 @@ const shareTextTemplates: Record<string, string> = {
   ja: 'この記事、実際役に立ちます：{title}'
 };
 const shareLabels: Record<string, Record<string, string>> = {
+  zh: { line: 'LINE分享', whatsapp: 'WhatsApp分享', wechat: '微信分享（复制链接）', wechatCopied: '链接已复制，去微信里粘贴发送吧' },
   'zh-TW': { line: 'LINE分享', whatsapp: 'WhatsApp分享', wechat: '微信分享（複製連結）', wechatCopied: '連結已複製，去微信裡貼上發送吧' },
   en: { line: 'Share on LINE', whatsapp: 'Share on WhatsApp', wechat: 'Share on WeChat (copy link)', wechatCopied: 'Link copied — paste it in WeChat' },
   vi: { line: 'Chia sẻ qua LINE', whatsapp: 'Chia sẻ qua WhatsApp', wechat: 'Chia sẻ qua WeChat (sao chép link)', wechatCopied: 'Đã sao chép link, dán vào WeChat để gửi nhé' },

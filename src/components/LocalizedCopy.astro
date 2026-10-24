@@ -11,12 +11,12 @@ interface Props {
 }
 const { titles, bodies } = Astro.props;
 
-const prefix = (l: string) => (l === 'zh' ? '' : '/' + l);
+const prefix = (l: string) => '/' + l;
 const sectionHref = (key: string, l: string) =>
-  key === 'rescue' ? (prefix(l) || '') + '/'
+  key === 'rescue' ? prefix(l) + '/rescue/'
   : key === 'medical' ? prefix(l) + '/medical/'
   : key === 'career' ? prefix(l) + '/career/'
-  : key === 'kurashi' ? '/kurashi/'
+  : key === 'kurashi' ? prefix(l) + '/kurashi/'
   : '/apps/';
 
 function render(blocks: Block[], l: string): string {

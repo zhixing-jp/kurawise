@@ -58,7 +58,7 @@ const contentSection = skipReadTracking ? null : (rescueCss ? 'rescue' : (medica
 // 落地页/咨询页自己不再显示banner（用户已经在导流终点，不需要再引导一次）。
 const isReferralOwnPage = Astro.url.pathname.includes('/medical/service/');
 const showMedicalReferralBanner = medicalCss && !isReferralOwnPage;
-const medicalServiceUrl = lang === 'zh' ? '/medical/service/' : `/${lang}/medical/service/`;
+const medicalServiceUrl = `/${lang}/medical/service/`;
 // 医療の同行・通訳サービスへの案内。「緊急」とは書かない（命に関わるときは119番が先。10/23）
 const referralBannerText: Record<string, string> = {
   zh: '担心语言沟通？可以请人翻译、陪同',
@@ -85,7 +85,7 @@ const careerReferralUntyped = careerReferral as unknown as Record<string, unknow
 const careerBannerMap: Record<string, { text: string; cta: string }> =
   (careerReferralUntyped[`banner_${lang}`] as Record<string, { text: string; cta: string }>) || careerReferral.banner;
 const careerBannerData = (careerGroup && careerBannerMap[careerGroup]) || careerBannerMap.default;
-const careerInterestBasePath = lang === 'zh' ? '/career/interest/' : `/${lang}/career/interest/`;
+const careerInterestBasePath = `/${lang}/career/interest/`;
 const careerInterestUrl = careerGroup ? `${careerInterestBasePath}?from=${careerGroup}` : careerInterestBasePath;
 // 面试类文章：面试指南PDF已作为商品上架（目前仅简体中文），横幅直接导向专业指南商品页；
 // 其他类别和其他语言仍导向"抢先登记"页。横幅文案另行调整。
@@ -101,7 +101,7 @@ const langLabels: Record<string, string> = {
 };
 
 const langPaths: Record<string, string> = {
-  'zh': '/', 'zh-TW': '/zh-TW/',
+  'zh': '/zh/', 'zh-TW': '/zh-TW/',
   'en': '/en/', 'vi': '/vi/', 'ko': '/ko/', 'ja': '/ja/'
 };
 
@@ -119,14 +119,17 @@ const tabLabelHtml = (key: SectionKey): string => {
   return escHtml(name);
 };
 
-const rescueUrl  = lang === 'zh' ? '/' : `/${lang}/`;
+// 2026-10-24：全言語に /xx/ を付ける。各言語のホーム /xx/ はサイトのトップ、日常会話は /xx/rescue/
+const homeUrl = `/${lang}/`;
+const HOME_LABELS: Record<string, string> = { ja: 'ホーム', zh: '首页', 'zh-TW': '首頁', en: 'Home', vi: 'Trang chủ', ko: '홈' };
+const rescueUrl  = `/${lang}/rescue/`;
 // medical已有 [lang]/medical/* 多语言目录，此前一直误留着旧的单一路径写法
 // （占位页时代遗留），实际已可以按语言跳转，这里一并修正
-const medicalUrl = lang === 'zh' ? '/medical/' : `/${lang}/medical/`;
+const medicalUrl = `/${lang}/medical/`;
 // career已完成 [lang]/career/* 多语言目录，按语言跳转
-const careerUrl = lang === 'zh' ? '/career/' : `/${lang}/career/`;
+const careerUrl = `/${lang}/career/`;
 // ST与应用版块：单一路径入口（版块内再按语言分）
-const kurashiUrl = SECTIONS.kurashi.url;
+const kurashiUrl = `/${lang}/kurashi/`;
 const appsUrl = SECTIONS.apps.url;
 // about同medical，单一路径，内部按当前语言显示对应文案
 const aboutUrl = '/about/';
@@ -155,23 +158,25 @@ const currentPath = Astro.url.pathname;
 const isMedical = currentPath.includes('/medical');
 const isCareer = currentPath.includes('/career');
 const isGuides = currentPath.includes('/guides') || currentPath.includes('/download');
-const isKurashi = currentPath.startsWith('/kurashi');
+const isKurashi = /^\/(zh-TW|zh|en|vi|ko|ja)\/kurashi(\/|$)/.test(currentPath);
 const isApps = currentPath.startsWith('/apps') || currentPath.startsWith('/kuraphoto');
 // どのタブにも属さないページ（about・広告について）では、タブを選ばれた表示にしない（10/23）
 // パソコン・タブレット表示（10/23）：一覧のページは広い枠（wide）、読むページは読みやすい幅（read）
-const strippedPath = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
-const pageLayout = /^\/(|medical\/|career\/|career\/(for|c)\/[a-z]+\/|kurashi\/|apps\/|rescue\/s\d+\/)$/.test(strippedPath) ? 'wide' : 'read';
-const isNoTab = /^\/(about|ad-policy|privacy)\/?$/.test(currentPath);
+const strippedPath = currentPath.replace(/^\/(zh-TW|zh|en|vi|ko|ja)(?=\/|$)/, '') || '/';
+// ホーム（各言語の /xx/）：どのタブも選ばれた表示にしない
+const isHome = /^\/(zh-TW|zh|en|vi|ko|ja)\/?$/.test(currentPath);
+const pageLayout = /^\/(|medical\/|career\/|career\/(for|c)\/[a-z]+\/|kurashi\/|apps\/|rescue\/|rescue\/s\d+\/)$/.test(strippedPath) ? 'wide' : 'read';
+const isNoTab = isHome || /^\/(about|ad-policy|privacy)\/?$/.test(currentPath);
 // 「広告について」のリンクは、広告を載せるタブ4・5のページ（とそのページ自身）だけに出す（10/23 智行）
 const showAdPolicyLink = isKurashi || isApps || /^\/ad-policy\/?$/.test(currentPath);
 const searchPlaceholders: Record<string, string> = { zh: '搜索...', 'zh-TW': '搜尋...', en: 'Search...', vi: 'Tìm kiếm...', ko: '검색...', ja: '検索...' };
 // 単一URLのページ（言語ごとのURLがなく、文章をブラウザ側で言語に合わせて表示するページ）。
 // これ以外のページは「そのページの言語」が決まっているので <html data-page-lang> に書き、
 // base.js はそれを最優先で使う（＝中文ページで英語の設定が残っていても中文として扱う）。
-const isSinglePath = !uiLang && /^\/(about|kurashi|apps|ad-policy|privacy)\/?$/.test(currentPath);
+const isSinglePath = !uiLang && /^\/(about|apps|ad-policy|privacy)\/?$/.test(currentPath);
 // 全6言語の版がそろっているページ（トップ・日常会話・病院＆医療・仕事＆ビザ）。
 // ブラウザの言語とページの言語が違うとき、その言語の版への案内を出す（自動では移動しない。K12）
-const strippedForSuggest = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
+const strippedForSuggest = currentPath.replace(/^\/(zh-TW|zh|en|vi|ko|ja)(?=\/|$)/, '') || '/';
 const langSuggestEligible = !uiLang && (strippedForSuggest === '/' || /^\/(rescue|medical|career)\//.test(strippedForSuggest));
 
 // ── 0-S（2026-10-23）検索向けの調整 ──
@@ -191,23 +196,23 @@ const pageTitle = needsContext
   : (/Kurawise\s*$/.test(title) ? title : `${title}${SEP}Kurawise`);
 
 // ② 道案内の構造化データ（BreadcrumbList）。ホーム ＞ セクション ＞ このページ
-const pathNoLang = currentPath.replace(/^\/(en|zh-TW|vi|ko|ja)(?=\/|$)/, '') || '/';
+const pathNoLang = currentPath.replace(/^\/(zh-TW|zh|en|vi|ko|ja)(?=\/|$)/, '') || '/';
 const sectionKey: SectionKey | null =
   pathNoLang.startsWith('/medical') ? 'medical' :
   pathNoLang.startsWith('/career') ? 'career' :
   pathNoLang.startsWith('/rescue') ? 'rescue' :
   pathNoLang.startsWith('/kurashi') ? 'kurashi' :
   (pathNoLang.startsWith('/apps') || pathNoLang.startsWith('/kuraphoto')) ? 'apps' : null;
-const langPrefix = lang === 'zh' ? '' : `/${lang}`;
+const langPrefix = `/${lang}`;
 const sectionUrls: Record<SectionKey, string> = {
-  rescue: `${langPrefix}/`, medical: `${langPrefix}/medical/`, career: `${langPrefix}/career/`, kurashi: '/kurashi/', apps: '/apps/'
+  rescue: `${langPrefix}/rescue/`, medical: `${langPrefix}/medical/`, career: `${langPrefix}/career/`, kurashi: `${langPrefix}/kurashi/`, apps: '/apps/'
 };
 const homeUrlForLd = `${siteUrl}${langPrefix}/`;
 let crumbList: { name: string; url?: string }[] = [];
 if (breadcrumbs && breadcrumbs.length) {
   crumbList = breadcrumbs;
 } else if (pathNoLang !== '/') {
-  if (sectionKey && sectionKey !== 'rescue') {
+  if (sectionKey) {
     const secUrl = sectionUrls[sectionKey];
     const isHub = currentPath === secUrl || currentPath === secUrl.replace(/\/$/, '');
     crumbList.push({ name: (SECTION_NAMES[sectionKey] as Record<string, string>)[lang] || SECTION_NAMES[sectionKey].en, url: isHub ? undefined : `${siteUrl}${secUrl}` });
@@ -276,17 +281,15 @@ const jsonLd = {
   // 从当前URL路径中去掉语言前缀，得到纯路径
   const currentPath = Astro.url.pathname;
   const strippedPath = currentPath
-    .replace(/^\/(en|zh-TW|vi|ko|ja)\//, '/')
-    .replace(/^\/(en|zh-TW|vi|ko|ja)$/, '/');
-  // 构建该语言版本的完整URL
-  const langUrl = l === 'zh'
-    ? `${siteUrl}${strippedPath}`
-    : `${siteUrl}/${l}${strippedPath === '/' ? '/' : strippedPath}`;
+    .replace(/^\/(zh-TW|zh|en|vi|ko|ja)\//, '/')
+    .replace(/^\/(zh-TW|zh|en|vi|ko|ja)$/, '/');
+  // 构建该语言版本的完整URL（2026-10-24：全言語 /xx/ 付き）
+  const langUrl = `${siteUrl}/${l}${strippedPath}`;
   return (
     <link rel="alternate" hreflang={l === 'zh' ? 'zh-CN' : l} href={langUrl} />
   );
   })}
-  {!alternates && langSuggestEligible && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|zh-TW|vi|ko|ja)\//, '/').replace(/^\/(en|zh-TW|vi|ko|ja)$/, '/')}`} />}
+  {!alternates && langSuggestEligible && <link rel="alternate" hreflang="x-default" href={`${siteUrl}/ja${Astro.url.pathname.replace(/^\/(zh-TW|zh|en|vi|ko|ja)(?=\/|$)/, '') || '/'}`} />}
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -353,7 +356,7 @@ const jsonLd = {
     <div class="header-bar">
       <div class="wordmark">
         <div class="wordmark">
-          <a href={rescueUrl} style="text-decoration:none;color:inherit;">
+          <a id="homeLink" href={homeUrl} style="text-decoration:none;color:inherit;">
             <span id="siteTitle">Kurawise</span>
           </a>
         <div class="wordmark-dot"></div>
@@ -362,6 +365,7 @@ const jsonLd = {
 
       <!-- パソコンでは、下のタブバーの代わりにここにセクションのメニューを出す（wide.css で表示を切り替え） -->
       <nav id="topNav" aria-label="sections">
+        <a id="topNavHome" href={homeUrl} class={`topnav-link${isHome ? ' on' : ''}`}>{HOME_LABELS[lang] || HOME_LABELS.en}</a>
         <a href={rescueUrl} data-tab="rescue" class={`topnav-link${(!isMedical && !isCareer && !isGuides && !isKurashi && !isApps && !isNoTab) ? ' on' : ''}`}>{sectionName('rescue', lang)}</a>
         <a href={medicalUrl} data-tab="medical" class={`topnav-link${isMedical ? ' on' : ''}`}>{sectionName('medical', lang)}</a>
         <a href={careerUrl} data-tab="career" class={`topnav-link${isCareer ? ' on' : ''}`}>{sectionName('career', lang)}</a>
@@ -608,7 +612,7 @@ const jsonLd = {
       <span class="tab-label" set:html={tabLabelHtml('apps')} />
     </a>
   </nav>
-  <script is:inline define:vars={{ SECTION_NAMES_JSON: SECTION_NAMES, TAB_BREAK_JSON: TAB_BREAK_AFTER }}>
+  <script is:inline define:vars={{ SECTION_NAMES_JSON: SECTION_NAMES, TAB_BREAK_JSON: TAB_BREAK_AFTER, HOME_LABELS_JSON: HOME_LABELS }}>
     // タブの文字が2行になる言語では、タブバーが高くなる。その高さを --tab-h に入れて、
     // ページ下の余白・タブバーの上の固定バナー・トップへ戻るボタンの位置を合わせる。
     (function () {
@@ -627,8 +631,8 @@ const jsonLd = {
       var NAMES = SECTION_NAMES_JSON, BREAK = TAB_BREAK_JSON;
       function esc(t) { return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
       window.__applyTabsLang = function (l) {
-        var p = l === 'zh' ? '' : '/' + l;
-        var urls = { rescue: p + '/', medical: p + '/medical/', career: p + '/career/', kurashi: '/kurashi/', apps: '/apps/' };
+        var p = '/' + l;
+        var urls = { rescue: p + '/rescue/', medical: p + '/medical/', career: p + '/career/', kurashi: p + '/kurashi/', apps: '/apps/' };
         document.querySelectorAll('#tabBar a[data-tab]').forEach(function (a) {
           var k = a.getAttribute('data-tab');
           a.setAttribute('href', urls[k]);
@@ -643,6 +647,9 @@ const jsonLd = {
           a.setAttribute('href', urls[k]);
           a.textContent = (NAMES[k] && (NAMES[k][l] || NAMES[k].en)) || '';
         });
+        var hl = document.getElementById('homeLink'); if (hl) hl.setAttribute('href', p + '/');
+        var th = document.getElementById('topNavHome');
+        if (th) { th.setAttribute('href', p + '/'); th.textContent = HOME_LABELS_JSON[l] || HOME_LABELS_JSON.en; }
         syncTabH();
       };
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncTabH);

@@ -6,7 +6,7 @@ import medicalIndex from '../../../../public/data/medical/index.json';
 import disclaimer from '../../../../public/data/medical/disclaimer.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 

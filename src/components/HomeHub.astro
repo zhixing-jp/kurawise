@@ -1,0 +1,79 @@
+---
+// サイトのトップ（各言語のホーム /xx/）の中身（2026-10-24 決定：最小限の②）。
+// 役割は「受付と案内図」：何のサイトかを伝え、5つのセクションへ同じ重さで案内する。特定のセクションを目立たせない。
+//   ① 一言の紹介（日本語版だけ「日本」を入れない）＋「6言語対応」
+//   ② メニュー（5つのセクション。タブバーと同じ順番・同じ名前）
+//   ③ 新着・更新（更新日のある記事から自動で4本）
+//   ④ Kurawise について
+import { SECTION_NAMES, type SectionKey } from '../data/sectionNames';
+import { articles } from '../data/careerNav';
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const p = (m: Record<string, string>) => m[lang] || m.en;
+const pre = `/${lang}`;  // 2026-10-24 から全言語 /xx/ 付き
+
+const HERO = {
+  title: { ja: '暮らしを、かしこく。', zh: '在日本，聪明地生活。', 'zh-TW': '在日本，聰明過生活。', en: 'Live smarter in Japan.', vi: 'Sống thông minh hơn tại Nhật.', ko: '일본 생활을, 더 현명하게.' },
+  sub: { ja: '毎日の「どうすれば？」に、確かな情報を。', zh: '生活中的每个“怎么办？”，都有可靠的答案。', 'zh-TW': '生活中的每個「怎麼辦？」，都有可靠的答案。', en: 'Reliable answers to everyday “what do I do?” questions.', vi: 'Thông tin đáng tin cậy cho mọi câu hỏi “phải làm sao?” hằng ngày.', ko: '매일의 「어떻게 하지?」에 믿을 수 있는 정보를.' },
+  langs: { ja: '6言語対応', zh: '支持6种语言', 'zh-TW': '支援6種語言', en: 'Available in 6 languages', vi: 'Hỗ trợ 6 ngôn ngữ', ko: '6개 언어 지원' }
+};
+const UI = {
+  menu: { ja: 'メニュー', zh: '栏目', 'zh-TW': '欄目', en: 'Sections', vi: 'Chuyên mục', ko: '메뉴' },
+  latest: { ja: '新着・更新', zh: '最新・更新', 'zh-TW': '最新・更新', en: 'New & updated', vi: 'Mới & cập nhật', ko: '새 글·업데이트' },
+  about: { ja: 'Kurawise について', zh: '关于 Kurawise', 'zh-TW': '關於 Kurawise', en: 'About Kurawise', vi: 'Về Kurawise', ko: 'Kurawise 소개' },
+  aboutTitle: { ja: '運営者情報', zh: '运营者信息', 'zh-TW': '營運者資訊', en: 'Who we are', vi: 'Thông tin người vận hành', ko: '운영자 정보' },
+  aboutRow: { ja: '運営者・情報の確かめ方', zh: '运营者・信息的核实方式', 'zh-TW': '營運者・資訊的查證方式', en: 'Who runs this site and how we check facts', vi: 'Người vận hành và cách kiểm chứng thông tin', ko: '운영자·정보 확인 방법' }
+};
+const ROWS: { key: SectionKey; icon: string; tone: string; href: string; sub: Record<string, string> }[] = [
+  { key: 'rescue', icon: '🛡️', tone: 'blue', href: `${pre}/rescue/`, sub: { ja: '場面ごとの日本語フレーズと発音', zh: '按场景整理的日语说法和发音', 'zh-TW': '依場景整理的日語說法和發音', en: 'Japanese phrases and pronunciation by situation', vi: 'Câu tiếng Nhật và cách phát âm theo tình huống', ko: '상황별 일본어 표현과 발음' } },
+  { key: 'medical', icon: '🏥', tone: 'red', href: `${pre}/medical/`, sub: { ja: '受診の流れ・症状の伝え方・医療費', zh: '就诊流程・怎么说明症状・医疗费', 'zh-TW': '就診流程・怎麼說明症狀・醫療費', en: 'Seeing a doctor, describing symptoms, costs', vi: 'Quy trình khám, mô tả triệu chứng, chi phí', ko: '진료 순서·증상 설명·의료비' } },
+  { key: 'career', icon: '💼', tone: 'indigo', href: `${pre}/career/`, sub: { ja: '就職・転職と、在留の手続き', zh: '求职・转职和在留手续', 'zh-TW': '求職・轉職和在留手續', en: 'Jobs, career changes and residence procedures', vi: 'Xin việc, chuyển việc và thủ tục lưu trú', ko: '취업·이직과 체류 수속' } },
+  { key: 'kurashi', icon: '💰', tone: 'green', href: `${pre}/kurashi/`, sub: { ja: 'お金・契約・節約の知恵', zh: '钱・合约・省钱的智慧', 'zh-TW': '錢・合約・省錢的智慧', en: 'Money, contracts and saving tips', vi: 'Tiền bạc, hợp đồng và mẹo tiết kiệm', ko: '돈·계약·절약의 지혜' } },
+  { key: 'apps', icon: '📱', tone: 'gray', href: '/apps/', sub: { ja: '暮らしに役立つアプリ', zh: '对生活有帮助的应用', 'zh-TW': '對生活有幫助的應用程式', en: 'Apps that make daily life easier', vi: 'Ứng dụng hữu ích cho cuộc sống', ko: '생활에 도움이 되는 앱' } }
+];
+// 新着：更新日のある記事（今は仕事＆ビザ。暮らしの記事・病院の確認日が入れば、ここに足す）
+const latest = articles(lang).filter((a) => a.updated).sort((a, b) => (b.updated || '').localeCompare(a.updated || '')).slice(0, 4);
+---
+<main class="hub-page home-hub">
+  <section class="home-hero">
+    <h1 class="home-hero-title">{p(HERO.title)}</h1>
+    <p class="home-hero-sub">{p(HERO.sub)}</p>
+    <span class="home-hero-langs">🌐 {p(HERO.langs)}</span>
+  </section>
+
+  <section class="cblock">
+    <h2 class="cblock-head"><span aria-hidden="true">🧭</span>{p(UI.menu)}</h2>
+    <div class="ios-list home-menu">
+      {ROWS.map((r) => (
+        <a class={`ios-row ios-tone--${r.tone}`} href={r.href} data-ga-event="home_section_click" data-section={r.key}>
+          <span class="ios-ico" aria-hidden="true">{r.icon}</span>
+          <span class="ios-text"><span class="ios-title">{SECTION_NAMES[r.key][lang as 'ja'] || SECTION_NAMES[r.key].en}</span><span class="ios-sub">{p(r.sub)}</span></span>
+          <span class="ios-chev" aria-hidden="true">›</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <div class="cblock-row">
+    {latest.length > 0 && (
+      <section class="cblock">
+        <h2 class="cblock-head"><span aria-hidden="true">🆕</span>{p(UI.latest)}</h2>
+        <ul class="career-latest">
+          {latest.map((a) => (
+            <li><a href={a.href}><span class="career-latest-date">{(a.updated || '').replace(/-/g, '.')}</span><span class="career-latest-title">{a.title}</span></a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+    <section class="cblock">
+      <h2 class="cblock-head"><span aria-hidden="true">ℹ️</span>{p(UI.about)}</h2>
+      <div class="ios-list">
+        <a class="ios-row ios-tone--gray" href="/about/">
+          <span class="ios-ico" aria-hidden="true">🏠</span>
+          <span class="ios-text"><span class="ios-title">{p(UI.aboutTitle)}</span><span class="ios-sub">{p(UI.aboutRow)}</span></span>
+          <span class="ios-chev" aria-hidden="true">›</span>
+        </a>
+      </div>
+    </section>
+  </div>
+</main>

@@ -10,7 +10,7 @@ import Breadcrumb from '../../../../components/Breadcrumb.astro';
 import { SECTIONS } from '../../../../data/sections';
 import { readFile } from 'node:fs/promises';
 
-const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
 
 // 注意：Astro 的 getStaticPaths() 在独立的隔离作用域中执行，无法引用
 // 该函数外部定义的其他函数/变量，所以数据读取逻辑必须写在函数内部。
@@ -18,7 +18,7 @@ export async function getStaticPaths() {
   const raw = await readFile('public/data/career/index.json', 'utf-8');
   const careerIndex = JSON.parse(raw);
   const pages = careerIndex.pages || [];
-  const langs = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const langs = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   const results = [];
   for (const lang of langs) {
     for (const p of pages) {
@@ -69,11 +69,11 @@ const takeaways = tfArray(pageData, 'takeaways', lang);
 
 const hubLabels: Record<string, string> = SECTION_NAMES.career;
 const takeawaysLabels: Record<string, string> = {
-  'zh-TW': '要點小結', en: 'Key Takeaways', vi: 'Tóm tắt ý chính', ko: '핵심 요약', ja: 'ポイントまとめ'
+  zh: '要点小结', 'zh-TW': '要點小結', en: 'Key Takeaways', vi: 'Tóm tắt ý chính', ko: '핵심 요약', ja: 'ポイントまとめ'
 };
 
 const langPathPrefix = `/${lang}`;
-const hubUrl = `${langPathPrefix}${SECTIONS.career.url}`;
+const hubUrl = `${langPathPrefix}/career/`;
 
 import disclaimer from '../../../../../public/data/career/disclaimer.json';
 const disclaimerPageFull = disclaimer.page_full as Record<string, string>;
@@ -81,6 +81,7 @@ const disclaimerText = disclaimerPageFull[lang] || disclaimerPageFull.zh;
 
 // 分享按钮：文案模板+按钮标签按语言准备，运行时拼上当前文章标题传给share-buttons.js
 const shareTextTemplates: Record<string, string> = {
+  zh: '这篇讲得挺实在：{title}',
   'zh-TW': '這篇講得挺實在：{title}',
   en: 'This one’s worth a read: {title}',
   vi: 'Bài này khá thực tế: {title}',
@@ -89,6 +90,7 @@ const shareTextTemplates: Record<string, string> = {
 };
 const shareText = (shareTextTemplates[lang] || shareTextTemplates.en).replace('{title}', pageTitle);
 const shareLabels: Record<string, Record<string, string>> = {
+  zh: { line: 'LINE分享', whatsapp: 'WhatsApp分享', wechat: '微信分享（复制链接）', wechatCopied: '链接已复制，去微信里粘贴发送吧' },
   'zh-TW': { line: 'LINE分享', whatsapp: 'WhatsApp分享', wechat: '微信分享（複製連結）', wechatCopied: '連結已複製，去微信裡貼上發送吧' },
   en: { line: 'Share on LINE', whatsapp: 'Share on WhatsApp', wechat: 'Share on WeChat (copy link)', wechatCopied: 'Link copied — paste it in WeChat' },
   vi: { line: 'Chia sẻ qua LINE', whatsapp: 'Chia sẻ qua WhatsApp', wechat: 'Chia sẻ qua WeChat (sao chép link)', wechatCopied: 'Đã sao chép link, dán vào WeChat để gửi nhé' },

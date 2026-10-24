@@ -8,7 +8,7 @@ import { SECTION_NAMES } from '../../../../data/sectionNames';
 import { VR_COPY, type VRLang } from '../../../../data/visaReminderCopy';
 
 export function getStaticPaths() {
-  return (['zh-TW', 'en', 'vi', 'ko', 'ja'] as VRLang[])
+  return (['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'] as VRLang[])
     .filter((l) => VR_COPY[l])
     .map((lang) => ({ params: { lang }, props: { lang } }));
 }

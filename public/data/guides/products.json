@@ -27,7 +27,7 @@
       "type": "consult",
       "title": "医疗协调服务",
       "description": "和医院沟通没把握时，可以直接找人帮你——预约电话、陪同就诊、和医生沟通。",
-      "consultUrl": "/medical/service/"
+      "consultUrl": "/zh/medical/service/"
     }
   ]
 }

@@ -6,7 +6,7 @@ import { readFile } from 'node:fs/promises';
 import { rescueSubSeo } from '../../../../data/rescueSeo';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   const paths = [];
   for (const scene of rescueIndex.scenes) {
     if (!scene.subcategories || scene.subcategories.length === 0) continue;
@@ -35,7 +35,7 @@ const subTitle = (sub as any)[`title_${lang}`] || sub.title;
 // 検索結果用のタイトルと説明（src/data/rescueSeo.ts）
 const { title, description } = rescueSubSeo(scene, sub, items, lang as any);
 
-const homeUrl = `/${lang}/`;
+const homeUrl = `/${lang}/rescue/`;  // 日常会話のトップ（2026-10-24 から /xx/rescue/）
 const sceneUrl = `/${lang}/rescue/${scene.id}/`;
 
 const homeLabel: Record<string, string> = {

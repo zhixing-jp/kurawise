@@ -7,7 +7,7 @@ import referral from '../../public/data/medical/referral.json';
 import { MED_UI, MED_GROUPS, MED_ROWS, PHONES, pickM } from '../data/medicalNav';
 interface Props { lang: string; }
 const { lang } = Astro.props;
-const pre = lang === 'zh' ? '' : `/${lang}`;
+const pre = `/${lang}`;
 const pages: Record<string, any> = {};
 for (const p of medicalIndex.pages as any[]) pages[p.id] = p;
 const title = (p: any) => (lang === 'zh' ? p.title : p[`title_${lang}`]) || p.title;

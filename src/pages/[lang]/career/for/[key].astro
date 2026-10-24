@@ -3,7 +3,7 @@
 import CareerListPage from '../../../../components/CareerListPage.astro';
 import { SITUATIONS } from '../../../../data/careerNav';
 export function getStaticPaths() {
-  return ['zh-TW', 'en', 'vi', 'ko', 'ja'].flatMap((lang) => SITUATIONS.map((s) => ({ params: { lang, key: s.key } })));
+  return ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'].flatMap((lang) => SITUATIONS.map((s) => ({ params: { lang, key: s.key } })));
 }
 const { lang, key } = Astro.params;
 ---

@@ -1,0 +1,10 @@
+# 2026-10-24：全言語に /xx/ を付けた。中国語（前は何も付かないURL）は /zh/ へ。トップは日本語。
+/                /ja/                 301
+/rescue/*        /zh/rescue/:splat    301
+/medical/*       /zh/medical/:splat   301
+/career/*        /zh/career/:splat    301
+/kurashi/*       /ja/kurashi/:splat   301
+/rescue          /zh/rescue/          301
+/medical         /zh/medical/         301
+/career          /zh/career/          301
+/kurashi         /ja/kurashi/         301

@@ -7,7 +7,7 @@ import { VR_COPY, type VRLang } from './visaReminderCopy';
 export type L = 'zh' | 'zh-TW' | 'en' | 'vi' | 'ko' | 'ja';
 export const LANGS: L[] = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
 export const pick = (m: Record<string, string>, lang: string) => m[lang] || m.en;
-export const prefix = (lang: string) => (lang === 'zh' ? '' : `/${lang}`);
+export const prefix = (lang: string) => `/${lang}`;
 
 export const SITUATIONS: { key: string; icon: string; group: 'visa' | 'work'; label: Record<L, string>; sub: Record<L, string> }[] = [
   { key: 'renew', icon: '📅', group: 'visa', label: { ja: '更新が近い', zh: '快要更新签证', 'zh-TW': '快要更新簽證', en: 'Renewing soon', vi: 'Sắp gia hạn', ko: '곧 갱신' },

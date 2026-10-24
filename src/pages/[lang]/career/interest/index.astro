@@ -6,7 +6,7 @@ import { SECTIONS } from '../../../../data/sections';
 import referral from '../../../../../public/data/career/referral.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
@@ -21,7 +21,7 @@ const cp: Record<string, string> = tf(referral, 'contactPage', lang) as Record<s
 
 const hubLabels: Record<string, string> = SECTION_NAMES.career;
 const langPathPrefix = `/${lang}`;
-const hubUrl = `${langPathPrefix}${SECTIONS.career.url}`;
+const hubUrl = `${langPathPrefix}/career/`;
 
 // 从悬浮banner点击跳转过来时，?from=分组key（prep/interview/decide/onboard），
 // 用来让登记页标题上方呼应banner说的场景。这个页面是SSG静态页面，服务器端拿不到

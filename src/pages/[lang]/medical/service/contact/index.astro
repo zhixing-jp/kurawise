@@ -4,7 +4,7 @@ import Base from '../../../../../layouts/Base.astro';
 import referral from '../../../../../../public/data/medical/referral.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 

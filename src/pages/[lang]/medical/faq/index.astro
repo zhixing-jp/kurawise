@@ -5,7 +5,7 @@ import { readFile } from 'node:fs/promises';
 import disclaimer from '../../../../../public/data/medical/disclaimer.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
@@ -35,6 +35,7 @@ const pageFullText = disclaimerPageFull[lang] || disclaimerPageFull.zh;
 
 // 分享按钮：文案模板+按钮标签按语言准备，与career多语言文章页使用同一套翻译内容
 const shareTextTemplates: Record<string, string> = {
+  zh: '这篇讲得挺实在：{title}',
   'zh-TW': '這篇講得挺實在：{title}',
   en: 'This one\u2019s worth a read: {title}',
   vi: 'B\u00e0i n\u00e0y kh\u00e1 th\u1ef1c t\u1ebf: {title}',
@@ -42,6 +43,7 @@ const shareTextTemplates: Record<string, string> = {
   ja: '\u3053\u306e\u8a18\u4e8b\u3001\u5b9f\u969b\u5f79\u306b\u7acb\u3061\u307e\u3059\uff1a{title}'
 };
 const shareLabels: Record<string, Record<string, string>> = {
+  zh: { line: 'LINE分享', whatsapp: 'WhatsApp分享', wechat: '微信分享（复制链接）', wechatCopied: '链接已复制，去微信里粘贴发送吧' },
   'zh-TW': { line: 'LINE\u5206\u4eab', whatsapp: 'WhatsApp\u5206\u4eab', wechat: '\u5fae\u4fe1\u5206\u4eab\uff08\u8907\u88fd\u9023\u7d50\uff09', wechatCopied: '\u9023\u7d50\u5df2\u8907\u88fd\uff0c\u53bb\u5fae\u4fe1\u88e1\u8cbc\u4e0a\u767c\u9001\u5427' },
   en: { line: 'Share on LINE', whatsapp: 'Share on WhatsApp', wechat: 'Share on WeChat (copy link)', wechatCopied: 'Link copied \u2014 paste it in WeChat' },
   vi: { line: 'Chia s\u1ebb qua LINE', whatsapp: 'Chia s\u1ebb qua WhatsApp', wechat: 'Chia s\u1ebb qua WeChat (sao ch\u00e9p link)', wechatCopied: '\u0110\u00e3 sao ch\u00e9p link, d\u00e1n v\u00e0o WeChat \u0111\u1ec3 g\u1eedi nh\u00e9' },

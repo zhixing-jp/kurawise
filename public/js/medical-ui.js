@@ -125,7 +125,7 @@
 
     const tip = document.createElement('div');
     tip.className = 'med-symptom-danger-tip' + (severityClass ? ' ' + severityClass : '');
-    tip.innerHTML = text + '<a href="/medical/calling-ambulance/">查看叫救护车指南 →</a>';
+    tip.innerHTML = text + '<a href="/zh/medical/calling-ambulance/">查看叫救护车指南 →</a>';
     containerEl.appendChild(tip);
   }
 

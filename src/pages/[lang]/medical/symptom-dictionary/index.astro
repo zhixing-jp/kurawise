@@ -5,7 +5,7 @@ import { readFile } from 'node:fs/promises';
 import disclaimer from '../../../../../public/data/medical/disclaimer.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh-TW', 'en', 'vi', 'ko', 'ja'];
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({
     params: { lang },
     props: { lang }
@@ -58,6 +58,7 @@ const noResultLabels: Record<string, string> = {
 };
 
 const cardMetaLabels: Record<string, { entries: string; danger: string }> = {
+  zh: { entries: '条', danger: '条需留意' },
   'zh-TW': { entries: '條', danger: '條需留意' },
   en: { entries: ' entries', danger: ' need attention' },
   vi: { entries: ' mục', danger: ' cần lưu ý' },
