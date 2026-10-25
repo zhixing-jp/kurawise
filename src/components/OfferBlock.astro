@@ -1,0 +1,100 @@
+---
+// 暮らし＆お金の知恵（タブ4）の記事の部品（2026-10-26）。CareerBlocks から呼ばれる。
+//   cardquiz  … 30秒診断（3つの質問 → 1枚。画面の中だけで動く。保存・送信しない）
+//   pointcalc … 毎月の支払額 → 各カードの年間ポイントの目安（基本の還元率）
+//   cardlist  … カードごとの「向いている人・特典・注意点・ボタン」
+//   disclosure… この記事の立場（広告の有無で文が変わる）
+// リンクは public/data/kurashi/programs.json だけで管理する。affiliate_url があれば広告リンク（rel="sponsored"）、
+// なければ公式サイトへの通常のリンク。押されたら GA4 に kurashi_offer_click を送る。
+import programsData from '../../public/data/kurashi/programs.json';
+interface Props { b: any; lang: string; }
+const { b, lang } = Astro.props;
+const P: Record<string, any> = {};
+for (const p of (programsData as any).programs) P[p.id] = p;
+const hasAffiliate = (programsData as any).programs.some((p: any) => p.affiliate_url);
+const href = (id: string) => P[id]?.affiliate_url || P[id]?.official_url;
+const rel = (id: string) => (P[id]?.affiliate_url ? 'sponsored noopener' : 'noopener');
+
+// 年間ポイントの計算に使う基本の還元率（%）。特典の上乗せは含めない
+const RATES = [
+  { id: 'rakuten-card', rate: 1 }, { id: 'jcb-w', rate: 1 }, { id: 'paypay-card', rate: 1 },
+  { id: 'smbc-nl', rate: 0.5 }, { id: 'aeon-select', rate: 0.5 }
+];
+const L: Record<string, Record<string, string>> = {
+  ja: {
+    q1: '年齢は18〜39歳ですか？', q2: 'いちばんよく使うのは？', q3: '海外旅行によく行きますか？',
+    yes: 'はい', no: 'いいえ', net: 'ネット通販', conv: 'コンビニ・ファストフード', paypay: 'PayPay', aeon: 'イオン', none: '特にない',
+    often: 'よく行く', rarely: 'あまり行かない', result: 'あなたに合う1枚', show: '診断する',
+    btn: '公式サイトで条件を見る', before: '押す前に：年会費・申し込みの条件を、公式サイトでもう一度確かめましょう',
+    monthly: '毎月のカードでの支払い（円）', perYear: '年に戻る目安', yen: '円',
+    fit: '向いている人', merit: '特典・メリット', caution: '向いていない人・注意点',
+    noteQuiz: '答えは画面の中だけで使い、どこにも送信されません。',
+    whyNet: 'ネットの買い物でポイントが貯まりやすく、還元率1%。', whyConv: '対象のコンビニ・飲食店でスマホのタッチ決済なら7%還元。',
+    whyPaypay: 'PayPay ポイントが貯まり、還元率1%。', whyAeon: 'イオンでポイント2倍、毎月20日・30日は5%オフ。',
+    whyJcb: '39歳までに申し込めば、ずっと年会費無料で還元率1%。海外旅行の保険つき。', whyRakuten: '年会費無料で還元率1%。ブランドを選べる。',
+    d1: 'この記事には、広告（アフィリエイト）のリンクが含まれます。ボタンから申し込まれると、運営者に報酬が入ることがあります。',
+    d1none: '今のところ、この記事のボタンは各社の公式サイトへの通常のリンクです（広告ではありません）。今後、広告（アフィリエイト）のリンクに変わる場合は、記事の先頭に「PR」と表示します。',
+    d2: '紹介する順番と評価は、報酬の有無や金額で変えません。報酬のないカードでも、良いものは載せます。',
+    d3: '条件と特典は、各社の公式サイトで確かめています。変わることがあるので、申し込む前に公式サイトで確かめてください。',
+    d4: '運営者：智行（在日約20年）。',
+    about: '運営者情報'
+  }
+};
+const t = L[lang] || L.ja;
+const q2opts = [['net', t.net], ['conv', t.conv], ['paypay', t.paypay], ['aeon', t.aeon], ['none', t.none]];
+const quizData = {
+  names: Object.fromEntries(Object.values(P).map((p: any) => [p.id, p.name])),
+  hrefs: Object.fromEntries(Object.values(P).map((p: any) => [p.id, href(p.id)])),
+  why: { 'rakuten-card': t.whyRakuten, 'smbc-nl': t.whyConv, 'jcb-w': t.whyJcb, 'paypay-card': t.whyPaypay, 'aeon-select': t.whyAeon, net: t.whyNet }
+};
+---
+{b.t === 'cardquiz' && (
+  <div class="ob-quiz" data-ob-quiz data-quiz={JSON.stringify(quizData)}>
+    <fieldset><legend>1. {t.q1}</legend>
+      <label><input type="radio" name="q1" value="y" /> {t.yes}</label><label><input type="radio" name="q1" value="n" /> {t.no}</label></fieldset>
+    <fieldset><legend>2. {t.q2}</legend>
+      {q2opts.map(([v, l]) => <label><input type="radio" name="q2" value={v} /> {l}</label>)}</fieldset>
+    <fieldset><legend>3. {t.q3}</legend>
+      <label><input type="radio" name="q3" value="y" /> {t.often}</label><label><input type="radio" name="q3" value="n" /> {t.rarely}</label></fieldset>
+    <div class="ob-quiz-result" data-result hidden>
+      <p class="ob-quiz-label">{t.result}</p>
+      <p class="ob-quiz-name" data-name></p>
+      <p class="ob-quiz-why" data-why></p>
+      <a class="ob-btn" data-btn href="#" target="_blank" rel="noopener" data-ga-offer="" data-ga-place="quiz">{t.btn} ›</a>
+    </div>
+    <p class="ob-small">{t.noteQuiz}</p>
+  </div>
+)}
+{b.t === 'pointcalc' && (
+  <div class="ob-calc" data-ob-calc data-rates={JSON.stringify(RATES.map((r) => ({ ...r, name: P[r.id].name })))}>
+    <label class="ob-calc-label">{t.monthly}<input type="number" inputmode="numeric" min="0" step="1000" value="30000" data-monthly /></label>
+    <div class="ob-calc-bars" data-bars></div>
+    <p class="ob-small">{t.perYear}</p>
+  </div>
+)}
+{b.t === 'cardlist' && (
+  <div class="ob-cards">
+    {b.items.map((c: any) => (
+      <section class="ob-card" id={`card-${c.id}`}>
+        <h3 class="ob-card-name">{P[c.id].name}<span class="ob-card-head">{c.head}</span></h3>
+        <dl>
+          <dt>{t.fit}</dt><dd>{c.fit}</dd>
+          <dt>{t.merit}</dt><dd>{c.merit}</dd>
+          <dt>{t.caution}</dt><dd>{c.caution}</dd>
+        </dl>
+        <p class="ob-before">{t.before}</p>
+        <a class="ob-btn" href={href(c.id)} target="_blank" rel={rel(c.id)} data-ga-offer={c.id} data-ga-place="list">{t.btn} ›</a>
+      </section>
+    ))}
+  </div>
+)}
+{b.t === 'disclosure' && (
+  <div class="ob-disclosure">
+    <ul>
+      <li>{hasAffiliate ? t.d1 : t.d1none}</li>
+      <li>{t.d2}</li>
+      <li>{t.d3}</li>
+      <li>{t.d4}<a href="/about/">{t.about} ›</a></li>
+    </ul>
+  </div>
+)}

@@ -7,6 +7,7 @@
 //   quote（現場の声）／checklist（その場でチェックできる表。保存・送信しない）
 // 文字列の中の <strong> <a> <code> はそのまま使う（記事データは運営者が書くもの）。
 import VisaFeeCalc from './VisaFeeCalc.astro';
+import OfferBlock from './OfferBlock.astro';  // 暮らし＆お金の知恵の部品（cardquiz・pointcalc・cardlist・disclosure。10/26）
 interface Props { sections: any[]; lang: string; }
 const { sections, lang } = Astro.props;
 const fmt = (n: number) => n.toLocaleString(lang === 'vi' ? 'vi-VN' : 'en-US');
@@ -61,6 +62,8 @@ function maxOf(items: any[]) { return Math.max(...items.map((i) => i.value)); }
           <p class="cb-check-done" data-done hidden>{b.done}</p>
           <p class="cb-check-hint">{b.hint}</p>
         </div>
+      ) : ['cardquiz', 'pointcalc', 'cardlist', 'disclosure'].includes(b.t) ? (
+        <OfferBlock b={b} lang={lang} />
       ) : b.t === 'calc' ? (
         <VisaFeeCalc labels={b.labels} lang={lang} />
       ) : (

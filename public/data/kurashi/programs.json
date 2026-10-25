@@ -1,0 +1,50 @@
+{
+  "_note": "ASP の案件のデータ（2026-10-26）。リンクはここだけで管理する。affiliate_url に ASP のリンクを入れると、記事のボタンが広告リンクに変わり、記事の先頭に PR 表記が出る。外国籍の条件などの内部メモは note に（公開しない）。",
+  "programs": [
+    {
+      "id": "rakuten-card",
+      "name": "楽天カード",
+      "official_url": "https://www.rakuten-card.co.jp/card/rakuten-card/",
+      "affiliate_url": null,
+      "asp": null,
+      "checked": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "smbc-nl",
+      "name": "三井住友カード（NL）",
+      "official_url": "https://www.smbc-card.com/nyukai/card/numberless.jsp",
+      "affiliate_url": null,
+      "asp": null,
+      "checked": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "jcb-w",
+      "name": "JCB カード W",
+      "official_url": "https://www.jcb.co.jp/ordercard/kojin_card/os_card_w.html",
+      "affiliate_url": null,
+      "asp": null,
+      "checked": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "paypay-card",
+      "name": "PayPay カード",
+      "official_url": "https://www.paypay-card.co.jp/",
+      "affiliate_url": null,
+      "asp": null,
+      "checked": "2026-10-25",
+      "note": "条件は解説サイト（2026-09更新）で確認。公式で再確認する"
+    },
+    {
+      "id": "aeon-select",
+      "name": "イオンカードセレクト",
+      "official_url": "https://www.aeonbank.co.jp/aeoncard/special/308/",
+      "affiliate_url": null,
+      "asp": null,
+      "checked": "2026-10-25",
+      "note": "公式ページの情報は2023年1月時点"
+    }
+  ]
+}

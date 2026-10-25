@@ -1,0 +1,44 @@
+---
+// 暮らし＆お金の知恵（タブ4）の記事 /{lang}/kurashi/{slug}/（2026-10-26）。
+// 記事の一覧は public/data/kurashi/index.json（langs にある言語だけページを作る。日本語が母版）。
+// 本文は public/data/kurashi/{id}.json（CareerBlocks の形＋暮らしの部品）。リンクは programs.json だけで管理。
+import Base from '../../../../layouts/Base.astro';
+import CareerBlocks from '../../../../components/CareerBlocks.astro';
+import { SECTION_NAMES } from '../../../../data/sectionNames';
+import kurashiIndex from '../../../../../public/data/kurashi/index.json';
+import programsData from '../../../../../public/data/kurashi/programs.json';
+import { readFileSync } from 'node:fs';
+
+export function getStaticPaths() {
+  return (kurashiIndex as any).articles.flatMap((a: any) => a.langs.map((lang: string) => ({ params: { lang, slug: a.id }, props: { lang, article: a } })));
+}
+const { lang, article } = Astro.props as any;
+const d = JSON.parse(readFileSync(`public/data/kurashi/${article.id}.json`, 'utf-8'));
+const title: string = d[`title_${lang}`];
+const desc: string = d[`description_${lang}`];
+const sections: any[] = d[`sections_${lang}`];
+const name = (SECTION_NAMES.kurashi as Record<string, string>)[lang];
+const hasAffiliate = (programsData as any).programs.some((p: any) => p.affiliate_url);
+const PR: Record<string, string> = { ja: 'PR　この記事は広告を含みます' };
+const CHECKED: Record<string, string> = { ja: '確認日' };
+const alternates = [
+  ...article.langs.map((l: string) => ({ hreflang: l === 'zh' ? 'zh-CN' : l, href: `https://kurawise.com/${l}${article.url}` })),
+  { hreflang: 'x-default', href: `https://kurawise.com/ja${article.url}` }
+];
+---
+<Base title={`${title} | Kurawise`} description={desc} articleCss={true} alternates={alternates}
+  breadcrumbs={[{ name, url: `https://kurawise.com/${lang}/kurashi/` }, { name: title }]}>
+  <nav class="career-breadcrumb" aria-label="breadcrumb">
+    <a href={`/${lang}/kurashi/`}>{name}</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">{title}</span>
+  </nav>
+  <div class="career-article-page">
+    {hasAffiliate && <p class="ob-pr">{PR[lang] || PR.ja}</p>}
+    <h1 class="career-article-title">{title}</h1>
+    <p class="career-article-checked">{CHECKED[lang] || CHECKED.ja}：{d.checked}</p>
+    <CareerBlocks sections={sections} lang={lang} />
+  </div>
+  <div data-pagefind-body style="display:none">{title} {desc}</div>
+  <script src="/js/kurashi.js" is:inline defer></script>
+</Base>

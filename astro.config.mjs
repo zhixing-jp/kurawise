@@ -3,6 +3,11 @@ import sitemap from '@astrojs/sitemap';
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readFileSync } from 'node:fs';
+
+// 暮らし（タブ4）で、まだ記事がない言語（サイトマップから入口を外す）
+const KURASHI_ARTICLES = JSON.parse(readFileSync('public/data/kurashi/index.json', 'utf-8')).articles;
+const KURASHI_EMPTY = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'].filter((l) => !KURASHI_ARTICLES.some((a) => a.langs.includes(l)));
 
 // デザイン（/css/*.css）とスクリプト（/js/*.js）の読み込みに、ビルドごとに変わる印（?v=）を付ける（2026-10-23）。
 // ファイル名が毎回同じなので、付けないとブラウザが前のデザインを使い続けることがある。
@@ -42,9 +47,10 @@ function assetVersion() {
 export default defineConfig({
   site: 'https://kurawise.com',
   integrations: [sitemap({
-    // 準備中・noindex のページはサイトマップから外す（暮らし＆お金の知恵 /xx/kurashi/ は公開時に2行目を削除）。/ は /ja/ への転送なので外す
+    // 準備中・noindex のページはサイトマップから外す。/ は /ja/ への転送なので外す
     filter: (page) => !['https://kurawise.com/', 'https://kurawise.com/guides/', 'https://kurawise.com/guides/login/', 'https://kurawise.com/guides/my-purchases/', 'https://kurawise.com/download/'].includes(page)
-      && !/^https:\/\/kurawise\.com\/(zh-TW|zh|en|vi|ko|ja)\/kurashi\//.test(page)
+      // 暮らし（タブ4）：記事がない言語の入口（準備中・noindex）だけ外す。記事と、記事がある言語の入口は載せる（10/26）
+      && !KURASHI_EMPTY.some((l) => page === `https://kurawise.com/${l}/kurashi/`)
       // フォームのページ（noindex）も外す（10/26）
       && !/^https:\/\/kurawise\.com\/(zh-TW|zh|en|vi|ko|ja)\/(medical\/service\/contact|career\/interest)\//.test(page)
   }), assetVersion()]
