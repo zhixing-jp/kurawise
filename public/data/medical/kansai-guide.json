@@ -438,5 +438,860 @@
     }
    ]
   }
- ]
+ ],
+ "title_zh-TW": "不要只找「最好的醫院」，要找適合你現在情況的醫院——大阪・關西看病指南（費用・中文服務真相・夜間假日）",
+ "description_zh-TW": "在大阪・關西看病，先去哪裡、大概多少錢、「中文服務」實際是什麼、晚上和週末怎麼辦。附打電話確認的三個問題和就診準備清單。",
+ "crumb_zh-TW": "大阪・關西看病指南",
+ "checkedLabel_zh-TW": "確認日",
+ "sections_zh-TW": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "結論",
+     "text": "看病先別急著找「最好的醫院」，要找<strong>適合你現在情況的醫院</strong>。小病先去附近的診所，需要時由醫生寫介紹信轉去大醫院——這樣最快，也最省錢。"
+    },
+    {
+     "t": "quote",
+     "label": "陪同現場常見的情況",
+     "text": "一心只想找好醫院，結果錯過了看病的時機；或者去了大醫院，光是等就花了大半天。"
+    }
+   ]
+  },
+  {
+   "heading": "一、先去哪裡：按情況選",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "日本的醫療按功能分工：附近的診所（クリニック）看常見病，大醫院（大學醫院等）看重病和需要精密檢查的病。沒有介紹信直接去大醫院，初診要另付 <strong>7,000日圓以上</strong> 的特別費用（不能用保險），而且往往要等很久。"
+    },
+    {
+     "t": "table",
+     "head": [
+      "你的情況",
+      "先去哪裡"
+     ],
+     "rows": [
+      [
+       "感冒、發燒、肚子痛、皮膚問題等",
+       "附近對應科別的診所"
+      ],
+      [
+       "診所醫生說要精密檢查或住院",
+       "拿介紹信去大醫院"
+      ],
+      [
+       "健康檢查",
+       "健檢中心或醫院的健檢部門（需要預約）"
+      ],
+      [
+       "晚上、週末突然不舒服",
+       "先打 #7119 諮詢，或去假日急病診療所（見第五節）"
+      ],
+      [
+       "有生命危險（意識不清、呼吸困難、大量出血等）",
+       "馬上打 <strong>119</strong>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "二、大概多少錢（2026年6月起的標準）",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "有日本健康保險（自付30%）時，基本費用的大概金額",
+     "head": [
+      "項目",
+      "自付金額（約）"
+     ],
+     "nowrapLast": true,
+     "rows": [
+      [
+       "診所初診的基本費用",
+       "約 880日圓"
+      ],
+      [
+       "晚上（看診時間外）加收",
+       "約 +260日圓"
+      ],
+      [
+       "假日加收",
+       "約 +750日圓"
+      ],
+      [
+       "深夜加收",
+       "約 +1,440日圓"
+      ],
+      [
+       "沒有介紹信去大醫院（特別費用，不能用保險）",
+       "+7,000日圓以上"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "以上只是基本費用。檢查、處置和藥費另計，總額會更高。",
+      "<strong>沒有日本的健康保險時</strong>（短期來日等）：全額自費，而且很多醫院按「保險價格的2〜3倍」收費（例：大阪勞災醫院按1點20日圓加消費稅計算）。來日前請先買好旅遊保險。",
+      "實際金額以各醫院為準。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "三、「中文服務」的真相",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "多年陪同就診的實際感受是：<strong>大多數醫院沒有常駐會中文的醫生或工作人員</strong>。仲介或醫院說「可以用中文」，很多時候是："
+    },
+    {
+     "t": "ol",
+     "items": [
+      "臨時安排醫療翻譯（需要預約，有時要收費）",
+      "用醫療翻譯機，或電話、視訊遠距翻譯"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "這些方法能幫上忙，但複雜的病情、檢查結果和治療方案，很難完全說清楚。"
+    },
+    {
+     "t": "checklist",
+     "title": "打電話時問這三個問題",
+     "items": [
+      "當天有沒有會中文的工作人員在場？",
+      "翻譯需要預約嗎？要收費嗎？",
+      "是真人翻譯，還是電話、機器翻譯？"
+     ],
+     "done": "問清楚了，再決定去哪一家。",
+     "hint": "勾選只留在你的手機畫面上，不會傳送。"
+    },
+    {
+     "t": "p",
+     "text": "<strong>怎麼找：</strong>日本厚生勞動省的<a href=\"https://www.iryou.teikyouseido.mhlw.go.jp/\" target=\"_blank\" rel=\"noopener\">醫療資訊網（ナビイ）</a>，選「じっくり探す」，可以用「外國語」條件搜尋醫院和診所。"
+    }
+   ]
+  },
+  {
+   "heading": "四、看病前要準備什麼",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "要帶的東西",
+     "items": [
+      "健康保險證（或可當保險證使用的個人編號卡）",
+      "在留卡",
+      "現金（有的診所不能刷卡）",
+      "正在吃的藥、藥袋或用藥手冊（お薬手帳）"
+     ],
+     "done": "準備好了。",
+     "hint": "勾選只留在你的手機畫面上，不會傳送。"
+    },
+    {
+     "t": "p",
+     "text": "<strong>事先寫好（最好寫成日文）：</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "症狀：什麼時候開始、哪裡、怎樣的感覺、程度有沒有變化",
+      "以前得過的病、動過的手術、正在看的病",
+      "過敏（藥物、食物）",
+      "正在吃的藥",
+      "是否可能懷孕",
+      "生活習慣（抽菸、喝酒）"
+     ]
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "不知道症狀用日文怎麼說 → 症狀指認詞庫",
+       "href": "/zh-TW/medical/symptom-dictionary/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "五、晚上、週末突然不舒服怎麼辦",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>不知道要不要叫救護車</strong>：打 <strong>#7119</strong>（救急安心中心大阪，24小時）。打不通時用 <strong>06-6582-7119</strong>。基本上用日文。",
+      "<strong>週末、國定假日白天</strong>：去所在市區町村的「假日急病診療所」（內科、小兒科等。時間各地不同，去之前先打電話）。也可以在醫療資訊網（ナビイ）搜尋當天有開的醫療機構。",
+      "<strong>還是找不到</strong>：依症狀去能接收的急救中心（救急センター）。陪同時常見的做法是：晚上搭計程車去夜間急病中心，在現場翻譯。",
+      "<strong>有生命危險</strong>：馬上打 <strong>119</strong>。"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "六、什麼時候值得請人陪同",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "日文幾乎不通",
+      "要向醫生說明複雜的病史、過去的檢查和治療",
+      "要聽檢查結果、手術或住院的說明",
+      "第一次在日本看病，不清楚流程",
+      "需要長期看病（慢性病、懷孕生產等），希望每次都有人可以託付"
+     ]
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "醫療協調服務（陪同就診・口譯、代打電話、文件說明）：價格公開，事先報價",
+       "href": "/zh-TW/medical/service/"
+      }
+     ]
+    },
+    {
+     "t": "note",
+     "text": "本文只是就醫流程的一般資訊，不是醫療建議。金額和制度的確認日：2026-10-25。"
+    }
+   ]
+  }
+ ],
+ "title_en": "Don't Hunt for \"the Best Hospital\" — Find the Right One for Your Situation: Seeing a Doctor in Osaka & Kansai (Costs, Language Support, Nights and Holidays)",
+ "description_en": "Where to go first, what it costs, what \"foreign-language support\" really means, and what to do at night or on weekends in Osaka and Kansai. With three questions to ask by phone and a checklist for your visit.",
+ "crumb_en": "Seeing a Doctor in Osaka & Kansai",
+ "checkedLabel_en": "Checked",
+ "sections_en": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "Bottom line",
+     "text": "Don't start by looking for \"the best hospital.\" Look for <strong>the right place for your situation right now</strong>. For minor problems, go to a nearby clinic first; if needed, the doctor will write a referral letter to a large hospital. That's the fastest and cheapest way."
+    },
+    {
+     "t": "quote",
+     "label": "What we often see when accompanying patients",
+     "text": "People spend so long searching for a \"good hospital\" that they miss the right time to be seen — or they go to a big hospital and spend half the day just waiting."
+    }
+   ]
+  },
+  {
+   "heading": "1. Where to go first",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Japan's medical system divides roles: nearby clinics (クリニック) handle common illnesses, while large hospitals (university hospitals, etc.) handle serious conditions and detailed tests. If you go to a large hospital without a referral letter, you pay an extra <strong>¥7,000 or more</strong> for your first visit (not covered by insurance), and the wait is often long."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Your situation",
+      "Go here first"
+     ],
+     "rows": [
+      [
+       "Cold, fever, stomach ache, skin problems, etc.",
+       "A nearby clinic for that specialty"
+      ],
+      [
+       "The clinic says you need detailed tests or hospitalization",
+       "A large hospital, with a referral letter"
+      ],
+      [
+       "Health check-up",
+       "A health check-up center or a hospital check-up department (booking required)"
+      ],
+      [
+       "Suddenly unwell at night or on a weekend",
+       "Call #7119 for advice, or go to a holiday emergency clinic (section 5)"
+      ],
+      [
+       "Life-threatening (unconscious, trouble breathing, heavy bleeding, etc.)",
+       "Call <strong>119</strong> right away"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "2. What it costs (rules from June 2026)",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Basic costs with Japanese health insurance (you pay 30%)",
+     "head": [
+      "Item",
+      "You pay (approx.)"
+     ],
+     "nowrapLast": true,
+     "rows": [
+      [
+       "Basic fee for a first visit to a clinic",
+       "about ¥880"
+      ],
+      [
+       "Extra charge outside clinic hours",
+       "about +¥260"
+      ],
+      [
+       "Extra charge on holidays",
+       "about +¥750"
+      ],
+      [
+       "Extra charge late at night",
+       "about +¥1,440"
+      ],
+      [
+       "Large hospital without a referral letter (special fee, not covered by insurance)",
+       "+¥7,000 or more"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "These are only the basic fees. Tests, treatment and medicine are extra, so the total will be higher.",
+      "<strong>Without Japanese health insurance</strong> (short-term visitors, etc.): you pay the full cost, and many hospitals charge 2–3 times the insured price (e.g., Osaka Rosai Hospital charges ¥20 per point plus consumption tax). Get travel insurance before you come.",
+      "Check the actual amount with each hospital."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. What \"foreign-language support\" really means",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In our experience accompanying patients, <strong>most hospitals do not have doctors or staff who speak your language on site at all times</strong>. When an agency or hospital says \"we support your language,\" it often means one of the following:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "They arrange a medical interpreter each time (booking required, sometimes for a fee)",
+      "They use a medical translation device, or remote interpreting by phone or video"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "These help, but it can be hard to fully explain complex symptoms, test results and treatment plans."
+    },
+    {
+     "t": "checklist",
+     "title": "Ask these three questions by phone",
+     "items": [
+      "Will a staff member who speaks my language be there on the day?",
+      "Do I need to book an interpreter? Is there a fee?",
+      "Is it a person, or phone/machine interpreting?"
+     ],
+     "done": "Once you know, decide where to go.",
+     "hint": "Your ticks stay on this screen only and are not sent anywhere."
+    },
+    {
+     "t": "p",
+     "text": "<strong>How to search:</strong> On the Ministry of Health's <a href=\"https://www.iryou.teikyouseido.mhlw.go.jp/\" target=\"_blank\" rel=\"noopener\">Medical Information Net (ナビイ)</a>, choose \"じっくり探す\" and filter by \"外国語\" (foreign language) to find hospitals and clinics."
+    }
+   ]
+  },
+  {
+   "heading": "4. What to prepare before your visit",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "Bring these",
+     "items": [
+      "Health insurance card (or a My Number Card registered as your insurance card)",
+      "Residence card",
+      "Cash (some clinics do not take cards)",
+      "Medicines you are taking, the medicine bags, or your medicine notebook (お薬手帳)"
+     ],
+     "done": "All set.",
+     "hint": "Your ticks stay on this screen only and are not sent anywhere."
+    },
+    {
+     "t": "p",
+     "text": "<strong>Write these down in advance (in Japanese if possible):</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Symptoms: when they started, where, what they feel like, whether they are getting worse",
+      "Past illnesses and surgeries, conditions you are being treated for",
+      "Allergies (medicines, foods)",
+      "Medicines you are taking",
+      "Whether you might be pregnant",
+      "Lifestyle (smoking, drinking)"
+     ]
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "Don't know how to say your symptoms in Japanese → Symptom Dictionary",
+       "href": "/en/medical/symptom-dictionary/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. Suddenly unwell at night or on a weekend",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Not sure whether to call an ambulance</strong>: call <strong>#7119</strong> (Emergency Advice Center Osaka, 24 hours). If it does not connect, use <strong>06-6582-7119</strong>. It is mainly in Japanese.",
+      "<strong>Weekend or holiday daytime</strong>: go to your city or ward's holiday emergency clinic (休日急病診療所; internal medicine, pediatrics, etc. Hours vary, so call first). You can also search Medical Information Net (ナビイ) for places open that day.",
+      "<strong>Still can't find anywhere</strong>: go to an emergency center that can treat your symptoms. When we accompany patients at night, we usually take a taxi to the night emergency center and interpret on site.",
+      "<strong>Life-threatening</strong>: call <strong>119</strong> right away."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. If you need language help at the hospital",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "When you book, ask whether the hospital can arrange an interpreter.",
+      "Many hospitals can use telephone or video interpreting. In Osaka Prefecture, hospitals and pharmacies can use a free 24-hour multilingual remote interpreting service (registration by the hospital is required) — ask the staff whether they use it.",
+      "Bring a friend or colleague who speaks Japanese if you can, and show the Symptom Dictionary to the doctor."
+     ]
+    },
+    {
+     "t": "note",
+     "text": "This article is general information about the process of seeing a doctor, not medical advice. Costs and rules checked on 2026-10-25."
+    }
+   ]
+  }
+ ],
+ "title_vi": "Đừng chỉ tìm \"bệnh viện tốt nhất\" — hãy tìm nơi phù hợp với tình trạng của bạn: Khám bệnh ở Osaka・Kansai (chi phí, hỗ trợ ngoại ngữ, ban đêm và ngày nghỉ)",
+ "description_vi": "Nên đi đâu trước, chi phí khoảng bao nhiêu, \"hỗ trợ ngoại ngữ\" thực tế là gì, và làm gì vào ban đêm hay cuối tuần ở Osaka・Kansai. Kèm 3 câu hỏi nên hỏi qua điện thoại và danh sách chuẩn bị.",
+ "crumb_vi": "Khám bệnh ở Osaka・Kansai",
+ "checkedLabel_vi": "Ngày kiểm tra",
+ "sections_vi": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "Kết luận",
+     "text": "Đừng vội tìm \"bệnh viện tốt nhất\", hãy tìm <strong>nơi phù hợp với tình trạng hiện tại của bạn</strong>. Bệnh nhẹ thì đến phòng khám gần nhà trước; khi cần, bác sĩ sẽ viết giấy giới thiệu để bạn lên bệnh viện lớn. Đây là cách nhanh nhất và tiết kiệm nhất."
+    },
+    {
+     "t": "quote",
+     "label": "Điều thường gặp khi đi cùng người bệnh",
+     "text": "Mải tìm \"bệnh viện tốt\" nên lỡ mất thời điểm cần đi khám; hoặc đến bệnh viện lớn và mất nửa ngày chỉ để chờ."
+    }
+   ]
+  },
+  {
+   "heading": "1. Nên đi đâu trước",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Y tế Nhật Bản phân chia vai trò: phòng khám gần nhà (クリニック) khám các bệnh thường gặp, bệnh viện lớn (bệnh viện đại học…) điều trị bệnh nặng và xét nghiệm chuyên sâu. Nếu đến bệnh viện lớn mà không có giấy giới thiệu, lần khám đầu phải trả thêm <strong>từ 7.000 yên trở lên</strong> (không được bảo hiểm chi trả), và thường phải chờ lâu."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tình trạng của bạn",
+      "Nên đến đâu trước"
+     ],
+     "rows": [
+      [
+       "Cảm, sốt, đau bụng, vấn đề về da…",
+       "Phòng khám chuyên khoa phù hợp gần nhà"
+      ],
+      [
+       "Phòng khám nói cần xét nghiệm chuyên sâu hoặc nhập viện",
+       "Mang giấy giới thiệu đến bệnh viện lớn"
+      ],
+      [
+       "Khám sức khỏe",
+       "Trung tâm khám sức khỏe hoặc khoa khám sức khỏe của bệnh viện (cần đặt lịch)"
+      ],
+      [
+       "Đột nhiên không khỏe vào ban đêm, cuối tuần",
+       "Gọi #7119 để được tư vấn, hoặc đến phòng khám cấp cứu ngày nghỉ (mục 5)"
+      ],
+      [
+       "Nguy hiểm tính mạng (bất tỉnh, khó thở, chảy máu nhiều…)",
+       "Gọi ngay <strong>119</strong>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "2. Chi phí khoảng bao nhiêu (theo quy định từ tháng 6/2026)",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Chi phí cơ bản khi có bảo hiểm y tế Nhật (bạn trả 30%)",
+     "head": [
+      "Mục",
+      "Bạn trả (khoảng)"
+     ],
+     "nowrapLast": true,
+     "rows": [
+      [
+       "Phí cơ bản lần khám đầu ở phòng khám",
+       "khoảng 880 yên"
+      ],
+      [
+       "Phụ thu ngoài giờ khám",
+       "khoảng +260 yên"
+      ],
+      [
+       "Phụ thu ngày nghỉ",
+       "khoảng +750 yên"
+      ],
+      [
+       "Phụ thu đêm khuya",
+       "khoảng +1.440 yên"
+      ],
+      [
+       "Bệnh viện lớn không có giấy giới thiệu (phí đặc biệt, không được bảo hiểm)",
+       "+7.000 yên trở lên"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Đây chỉ là phí cơ bản. Xét nghiệm, thủ thuật và thuốc tính riêng nên tổng sẽ cao hơn.",
+      "<strong>Khi không có bảo hiểm y tế Nhật</strong> (người đến ngắn hạn…): tự trả toàn bộ, và nhiều bệnh viện tính gấp 2〜3 lần giá bảo hiểm (ví dụ: Bệnh viện Osaka Rosai tính 20 yên mỗi điểm cộng thuế tiêu dùng). Hãy mua bảo hiểm du lịch trước khi đến Nhật.",
+      "Số tiền thực tế hãy xác nhận với từng bệnh viện."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. \"Hỗ trợ ngoại ngữ\" thực tế là gì",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Theo kinh nghiệm đi cùng người bệnh nhiều năm, <strong>phần lớn bệnh viện không có bác sĩ hay nhân viên nói ngôn ngữ của bạn túc trực</strong>. Khi trung gian hay bệnh viện nói \"có hỗ trợ ngoại ngữ\", thường là một trong hai cách:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Sắp xếp phiên dịch y tế mỗi lần (cần đặt trước, có khi mất phí)",
+      "Dùng máy dịch y tế, hoặc phiên dịch từ xa qua điện thoại, video"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Những cách này có ích, nhưng khó giải thích đầy đủ bệnh tình phức tạp, kết quả xét nghiệm và phương án điều trị."
+    },
+    {
+     "t": "checklist",
+     "title": "Hỏi 3 câu này qua điện thoại",
+     "items": [
+      "Hôm đó có nhân viên nói được ngôn ngữ của tôi ở đó không?",
+      "Phiên dịch có cần đặt trước không? Có mất phí không?",
+      "Là người phiên dịch, hay phiên dịch qua điện thoại/máy?"
+     ],
+     "done": "Hỏi rõ rồi hãy quyết định đi đâu.",
+     "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+    },
+    {
+     "t": "p",
+     "text": "<strong>Cách tìm:</strong> Trên <a href=\"https://www.iryou.teikyouseido.mhlw.go.jp/\" target=\"_blank\" rel=\"noopener\">Mạng thông tin y tế (ナビイ)</a> của Bộ Y tế Nhật, chọn \"じっくり探す\" và lọc theo \"外国語\" (ngoại ngữ) để tìm bệnh viện, phòng khám."
+    }
+   ]
+  },
+  {
+   "heading": "4. Chuẩn bị gì trước khi đi khám",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "Mang theo",
+     "items": [
+      "Thẻ bảo hiểm y tế (hoặc thẻ My Number đã đăng ký làm thẻ bảo hiểm)",
+      "Thẻ cư trú",
+      "Tiền mặt (một số phòng khám không nhận thẻ)",
+      "Thuốc đang dùng, túi thuốc hoặc sổ thuốc (お薬手帳)"
+     ],
+     "done": "Đã chuẩn bị xong.",
+     "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+    },
+    {
+     "t": "p",
+     "text": "<strong>Viết sẵn (nếu được thì bằng tiếng Nhật):</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Triệu chứng: bắt đầu khi nào, ở đâu, cảm giác thế nào, có nặng hơn không",
+      "Bệnh và phẫu thuật trước đây, bệnh đang điều trị",
+      "Dị ứng (thuốc, thức ăn)",
+      "Thuốc đang dùng",
+      "Có khả năng mang thai không",
+      "Thói quen sinh hoạt (hút thuốc, uống rượu)"
+     ]
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "Không biết nói triệu chứng bằng tiếng Nhật → Từ điển triệu chứng",
+       "href": "/vi/medical/symptom-dictionary/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. Đột nhiên không khỏe vào ban đêm, cuối tuần",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>Không biết có nên gọi xe cứu thương</strong>: gọi <strong>#7119</strong> (Trung tâm tư vấn cấp cứu Osaka, 24 giờ). Nếu không gọi được, dùng <strong>06-6582-7119</strong>. Chủ yếu bằng tiếng Nhật.",
+      "<strong>Ban ngày cuối tuần, ngày lễ</strong>: đến \"phòng khám cấp cứu ngày nghỉ\" (休日急病診療所) của thành phố/quận nơi bạn sống (nội khoa, nhi khoa… Giờ khám mỗi nơi khác nhau, hãy gọi trước). Cũng có thể tìm nơi mở cửa hôm đó trên Mạng thông tin y tế (ナビイ).",
+      "<strong>Vẫn không tìm được</strong>: đến trung tâm cấp cứu có thể tiếp nhận triệu chứng của bạn. Khi đi cùng người bệnh vào ban đêm, chúng tôi thường đi taxi đến trung tâm cấp cứu ban đêm và phiên dịch tại chỗ.",
+      "<strong>Nguy hiểm tính mạng</strong>: gọi ngay <strong>119</strong>."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. Khi cần hỗ trợ ngôn ngữ ở bệnh viện",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Khi đặt lịch, hãy hỏi bệnh viện có thể sắp xếp phiên dịch không.",
+      "Nhiều bệnh viện có thể dùng phiên dịch qua điện thoại hoặc video. Ở tỉnh Osaka, bệnh viện và nhà thuốc có thể dùng dịch vụ phiên dịch từ xa đa ngôn ngữ 24 giờ miễn phí (bệnh viện cần đăng ký) — hãy hỏi nhân viên xem họ có dùng không.",
+      "Nếu có thể, hãy đi cùng bạn bè hoặc đồng nghiệp biết tiếng Nhật, và đưa Từ điển triệu chứng cho bác sĩ xem."
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Bài viết này là thông tin chung về quy trình đi khám, không phải lời khuyên y khoa. Chi phí và quy định được kiểm tra ngày 2026-10-25."
+    }
+   ]
+  }
+ ],
+ "title_ko": "\"최고의 병원\"을 찾지 말고, 지금 상태에 맞는 병원으로: 오사카・간사이 진료 가이드 (비용・외국어 지원의 실제・야간과 휴일)",
+ "description_ko": "오사카・간사이에서 아플 때 먼저 어디로 갈지, 비용은 얼마인지, \"외국어 지원\"이 실제로 무엇인지, 밤이나 주말에는 어떻게 할지. 전화로 확인할 3가지 질문과 진료 준비 목록 포함.",
+ "crumb_ko": "오사카・간사이 진료 가이드",
+ "checkedLabel_ko": "확인일",
+ "sections_ko": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "결론",
+     "text": "\"최고의 병원\"부터 찾지 말고, <strong>지금 상태에 맞는 곳</strong>을 찾으세요. 가벼운 병은 먼저 가까운 의원으로, 필요하면 의사가 소개장을 써 주어 큰 병원으로 갑니다. 이것이 가장 빠르고 가장 저렴한 방법입니다."
+    },
+    {
+     "t": "quote",
+     "label": "동행 현장에서 자주 있는 일",
+     "text": "좋은 병원을 찾는 데만 신경 쓰다가 진료 시기를 놓치거나, 큰 병원에 가서 기다리는 데만 반나절을 보내는 경우가 많습니다."
+    }
+   ]
+  },
+  {
+   "heading": "1. 먼저 어디로 갈까",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "일본 의료는 역할이 나뉘어 있습니다. 가까운 의원(クリニック)은 흔한 병을, 큰 병원(대학병원 등)은 중증 질환과 정밀 검사를 담당합니다. 소개장 없이 큰 병원에 가면 초진 때 <strong>7,000엔 이상</strong>의 특별 요금(보험 적용 안 됨)을 추가로 내야 하고, 대기 시간도 깁니다."
+    },
+    {
+     "t": "table",
+     "head": [
+      "지금 상태",
+      "먼저 갈 곳"
+     ],
+     "rows": [
+      [
+       "감기, 발열, 복통, 피부 문제 등",
+       "가까운 해당 진료과 의원"
+      ],
+      [
+       "의원에서 정밀 검사나 입원이 필요하다고 함",
+       "소개장을 들고 큰 병원으로"
+      ],
+      [
+       "건강검진",
+       "건강검진 센터나 병원의 검진 부서(예약 필요)"
+      ],
+      [
+       "밤・주말에 갑자기 몸이 안 좋을 때",
+       "먼저 #7119에 상담하거나 휴일 급병 진료소로(5장 참고)"
+      ],
+      [
+       "생명이 위험할 때(의식이 없음, 호흡 곤란, 대량 출혈 등)",
+       "바로 <strong>119</strong>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "2. 비용은 얼마(2026년 6월부터의 기준)",
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "일본 건강보험이 있을 때(본인 부담 30%) 기본 비용의 대략적인 금액",
+     "head": [
+      "항목",
+      "본인 부담(약)"
+     ],
+     "nowrapLast": true,
+     "rows": [
+      [
+       "의원 초진 기본 요금",
+       "약 880엔"
+      ],
+      [
+       "진료 시간 외 가산",
+       "약 +260엔"
+      ],
+      [
+       "휴일 가산",
+       "약 +750엔"
+      ],
+      [
+       "심야 가산",
+       "약 +1,440엔"
+      ],
+      [
+       "소개장 없이 큰 병원(특별 요금, 보험 적용 안 됨)",
+       "+7,000엔 이상"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "위 금액은 기본 요금뿐입니다. 검사・처치・약값은 별도이므로 합계는 더 높아집니다.",
+      "<strong>일본 건강보험이 없을 때</strong>(단기 체류 등): 전액 본인 부담이며, 많은 병원이 보험 가격의 2〜3배를 받습니다(예: 오사카 로사이 병원은 1점 20엔+소비세). 일본에 오기 전에 여행자 보험에 가입하세요.",
+      "실제 금액은 병원마다 확인하세요."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3. \"외국어 지원\"의 실제",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "여러 해 동행한 경험으로 보면, <strong>대부분의 병원에는 여러분의 언어를 하는 의사나 직원이 늘 있지는 않습니다</strong>. 중개업체나 병원이 \"외국어 지원\"이라고 해도, 대개 다음 중 하나입니다."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "그때그때 의료 통역사를 마련함(예약 필요, 유료인 경우도 있음)",
+      "의료용 번역기, 전화・영상 원격 통역을 사용함"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "도움은 되지만, 복잡한 증상, 검사 결과, 치료 방침을 충분히 주고받기는 어려울 수 있습니다."
+    },
+    {
+     "t": "checklist",
+     "title": "전화로 확인할 3가지 질문",
+     "items": [
+      "당일 제 언어를 할 수 있는 직원이 현장에 있나요?",
+      "통역은 예약이 필요한가요? 비용이 드나요?",
+      "사람 통역인가요, 전화・기계 통역인가요?"
+     ],
+     "done": "확인한 뒤에 갈 병원을 정하세요.",
+     "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+    },
+    {
+     "t": "p",
+     "text": "<strong>찾는 법:</strong> 일본 후생노동성의 <a href=\"https://www.iryou.teikyouseido.mhlw.go.jp/\" target=\"_blank\" rel=\"noopener\">의료정보넷(ナビイ)</a>에서 \"じっくり探す\"를 선택하고 \"外国語\"(외국어) 조건으로 병원・의원을 찾을 수 있습니다."
+    }
+   ]
+  },
+  {
+   "heading": "4. 진료 전에 준비할 것",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "가져갈 것",
+     "items": [
+      "건강보험증(또는 보험증으로 등록한 마이넘버카드)",
+      "재류카드",
+      "현금(카드를 받지 않는 의원도 있음)",
+      "복용 중인 약, 약 봉투 또는 약 수첩(お薬手帳)"
+     ],
+     "done": "준비 완료.",
+     "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+    },
+    {
+     "t": "p",
+     "text": "<strong>미리 적어 둘 것(가능하면 일본어로):</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "증상: 언제부터, 어디가, 어떤 느낌인지, 심해지고 있는지",
+      "과거 병력・수술, 치료 중인 병",
+      "알레르기(약, 음식)",
+      "복용 중인 약",
+      "임신 가능성",
+      "생활 습관(흡연, 음주)"
+     ]
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "text": "증상을 일본어로 모를 때 → 증상 표현 사전",
+       "href": "/ko/medical/symptom-dictionary/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. 밤・주말에 갑자기 몸이 안 좋을 때",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "<strong>구급차를 부를지 망설여질 때</strong>: <strong>#7119</strong>(구급안심센터 오사카, 24시간). 연결되지 않으면 <strong>06-6582-7119</strong>. 기본적으로 일본어입니다.",
+      "<strong>주말・공휴일 낮</strong>: 사는 시・구의 \"휴일 급병 진료소\"(休日急病診療所; 내과・소아과 등. 시간은 지역마다 다르니 먼저 전화). 의료정보넷(ナビイ)에서 그날 문을 연 의료기관도 찾을 수 있습니다.",
+      "<strong>그래도 찾을 수 없을 때</strong>: 증상에 맞게 받아 주는 응급 센터로. 밤에 동행할 때는 보통 택시로 야간 급병 센터에 가서 현장에서 통역합니다.",
+      "<strong>생명이 위험할 때</strong>: 바로 <strong>119</strong>."
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "6. 병원에서 언어 도움이 필요할 때",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "예약할 때 병원이 통역을 마련할 수 있는지 물어보세요.",
+      "많은 병원이 전화나 영상 통역을 쓸 수 있습니다. 오사카부에서는 병원과 약국이 무료 24시간 다국어 원격 통역 서비스를 이용할 수 있습니다(병원의 등록 필요). 직원에게 이용하는지 물어보세요.",
+      "가능하면 일본어를 하는 친구나 동료와 함께 가고, 증상 표현 사전을 의사에게 보여 주세요."
+     ]
+    },
+    {
+     "t": "note",
+     "text": "이 글은 진료 절차에 관한 일반 정보이며 의료 조언이 아닙니다. 비용과 제도 확인일: 2026-10-25."
+    }
+   ]
+  }
+ ],
+ "crumb_zh": "大阪・关西看病指南",
+ "crumb_ja": "大阪・関西の受診ガイド",
+ "checkedLabel_zh": "确认日",
+ "checkedLabel_ja": "確認日"
 }

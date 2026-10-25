@@ -12,8 +12,3 @@
 /en/medical/service/*   /en/medical/   301
 /vi/medical/service/*   /vi/medical/   301
 /ko/medical/service/*   /ko/medical/   301
-# 大阪・関西の受診ガイドは、まず簡体中文と日本語だけ（10/25）
-/zh-TW/medical/kansai-guide/*   /zh-TW/medical/   302
-/en/medical/kansai-guide/*      /en/medical/      302
-/vi/medical/kansai-guide/*      /vi/medical/      302
-/ko/medical/kansai-guide/*      /ko/medical/      302

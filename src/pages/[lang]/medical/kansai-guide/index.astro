@@ -1,15 +1,16 @@
 ---
 // 目标路径：/{zh|ja}/medical/kansai-guide/ 大阪・関西の受診ガイド（2026-10-25）。
-// まず簡体中文と日本語だけ。反応を見てから他の言語を足す（足すときは getStaticPaths と alternates と index.json の langs を直す）。
+// 6言語（10/25 智行：記事は通常どおり多言語。訳さないのは同行サービスのページだけ）。
+// 英語・ベトナム語・韓国語は同行サービスへのリンクの代わりに、病院の通訳の頼み方を載せている。
 // 本文は public/data/medical/kansai-guide.json（CareerBlocks の形）。金額・制度を直したら checked も更新する。
 import Base from '../../../../layouts/Base.astro';
 import CareerBlocks from '../../../../components/CareerBlocks.astro';
 import { SECTION_NAMES } from '../../../../data/sectionNames';
 import data from '../../../../../public/data/medical/kansai-guide.json';
 
-const LANGS = ['zh', 'ja'];
+const LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
 export function getStaticPaths() {
-  return ['zh', 'ja'].map((lang) => ({ params: { lang }, props: { lang } }));
+  return ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'].map((lang) => ({ params: { lang }, props: { lang } }));
 }
 const { lang } = Astro.props;
 const d = data as unknown as Record<string, any>;
@@ -17,7 +18,7 @@ const title: string = d[`title_${lang}`];
 const desc: string = d[`description_${lang}`];
 const sections: any[] = d[`sections_${lang}`];
 const medName = (SECTION_NAMES.medical as Record<string, string>)[lang];
-const checkedLabel = lang === 'zh' ? `确认日：${d.checked}` : `確認日：${d.checked}`;
+const checkedLabel = `${d[`checkedLabel_${lang}`]}${['en', 'vi'].includes(lang) ? ': ' : (lang === 'ko' ? ': ' : '：')}${d.checked}`;
 const alternates = [
   ...LANGS.map((l) => ({ hreflang: l === 'zh' ? 'zh-CN' : l, href: `https://kurawise.com/${l}/medical/kansai-guide/` })),
   { hreflang: 'x-default', href: 'https://kurawise.com/ja/medical/kansai-guide/' }
@@ -28,7 +29,7 @@ const alternates = [
   <nav class="med-breadcrumb" aria-label="breadcrumb">
     <a href={`/${lang}/medical/`}>{medName}</a>
     <span aria-hidden="true">›</span>
-    <span aria-current="page">{lang === 'zh' ? '大阪・关西看病指南' : '大阪・関西の受診ガイド'}</span>
+    <span aria-current="page">{d[`crumb_${lang}`]}</span>
   </nav>
 
   <div class="career-article-page">

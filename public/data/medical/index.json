@@ -156,15 +156,19 @@
     {
       "id": "kansai-guide",
       "group": "guide",
-      "langs": [
-        "zh",
-        "ja"
-      ],
       "title": "大阪・关西看病指南：先去哪里、多少钱、中文服务真相",
       "title_ja": "大阪・関西の受診ガイド：まずどこへ、費用、中国語対応の実際",
       "description": "在大阪・关西看病，先去哪里、大概多少钱、“中文服务”实际是什么、晚上和周末怎么办。附打电话确认的三个问题和就诊准备清单。",
       "description_ja": "大阪・関西で病院にかかるとき、まずどこへ行くか、費用の目安、「中国語対応」の実際、夜間・休日の動き方。電話で確かめる3つの質問と受診前の準備リストつき。",
-      "url": "/medical/kansai-guide/"
+      "url": "/medical/kansai-guide/",
+      "title_zh-TW": "大阪・關西看病指南：先去哪裡、多少錢、中文服務真相",
+      "title_en": "Seeing a Doctor in Osaka & Kansai: Where to Go, Costs, Language Support",
+      "title_vi": "Khám bệnh ở Osaka・Kansai: đi đâu, chi phí, hỗ trợ ngoại ngữ",
+      "title_ko": "오사카・간사이 진료 가이드: 어디로, 비용, 외국어 지원의 실제",
+      "description_zh-TW": "在大阪・關西看病，先去哪裡、大概多少錢、「中文服務」實際是什麼、晚上和週末怎麼辦。附打電話確認的三個問題和就診準備清單。",
+      "description_en": "Where to go first, what it costs, what \"foreign-language support\" really means, and what to do at night or on weekends in Osaka and Kansai. With three questions to ask by phone and a checklist for your visit.",
+      "description_vi": "Nên đi đâu trước, chi phí khoảng bao nhiêu, \"hỗ trợ ngoại ngữ\" thực tế là gì, và làm gì vào ban đêm hay cuối tuần ở Osaka・Kansai. Kèm 3 câu hỏi nên hỏi qua điện thoại và danh sách chuẩn bị.",
+      "description_ko": "오사카・간사이에서 아플 때 먼저 어디로 갈지, 비용은 얼마인지, \"외국어 지원\"이 실제로 무엇인지, 밤이나 주말에는 어떻게 할지. 전화로 확인할 3가지 질문과 진료 준비 목록 포함."
     }
   ]
 }
