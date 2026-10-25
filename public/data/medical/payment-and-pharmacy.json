@@ -1,12 +1,12 @@
 {
   "id": "payment-and-pharmacy",
-  "title": "结算与拿药",
+  "title": "看病后怎么结账、去药局拿处方药",
   "title_en": "Payment & Pharmacy",
-  "title_zh-TW": "結算與拿藥",
+  "title_zh-TW": "看病後怎麼結帳、去藥局拿處方藥",
   "title_vi": "Thanh toán và lấy thuốc",
   "title_ko": "수납과 약 받기",
   "title_ja": "会計と薬の受け取り",
-  "description": "日本实行医药分离制度，怎么结账、去哪里拿药，一次说清楚。",
+  "description": "在日本看病后：先在医院结账，再拿处方笺去药局取药（医药分业）。怎么结账、去哪家药局、药局里会被问什么，一次说清楚。",
   "sections": [
     {
       "id": "step1",
@@ -90,7 +90,7 @@
     }
   ],
   "description_en": "Japan separates prescribing from dispensing — here's a clear rundown of how to pay and where to pick up your medication.",
-  "description_zh-TW": "日本實行醫藥分業制度，怎麼結帳、去哪裡拿藥，一次說清楚。",
+  "description_zh-TW": "在日本看病後：先在醫院結帳，再拿處方箋去藥局領藥（醫藥分業）。怎麼結帳、去哪家藥局、藥局裡會被問什麼，一次說清楚。",
   "description_vi": "Nhật Bản áp dụng chế độ tách biệt thuốc và khám bệnh, cách thanh toán, đi đâu lấy thuốc — giải thích rõ một lần.",
   "description_ko": "일본은 의약분업 제도를 시행합니다. 어떻게 계산하고 어디서 약을 받는지 한 번에 정리했습니다.",
   "description_ja": "日本では医薬分業制度が行われています。会計の仕方や薬の受け取り方について、まとめて説明します。"

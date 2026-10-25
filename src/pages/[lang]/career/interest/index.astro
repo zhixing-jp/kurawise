@@ -31,7 +31,8 @@ const hubUrl = `${langPathPrefix}/career/`;
 const careerBannerMap: Record<string, { text: string; cta: string }> = tf(referral, 'banner', lang) as Record<string, { text: string; cta: string }>;
 ---
 
-<Base title={`${cp.title} | Kurawise`} description={cp.subtitle} careerCss={true}>
+{/* 要望の登録フォームは検索に出さない（10/26） */}
+<Base title={`${cp.title} | Kurawise`} description={cp.subtitle} careerCss={true} noindex={true}>
 
   <Breadcrumb crumbs={[{ label: hubLabels[lang] || hubLabels.en, url: hubUrl }, { label: cp.title }]} cssClass="career-breadcrumb" />
 

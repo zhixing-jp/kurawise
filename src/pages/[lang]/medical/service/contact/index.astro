@@ -23,7 +23,8 @@ const serviceUrl = `/${lang}/medical/service/`;
 const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
 ---
 
-<Base title={title} description={description} medicalCss={true}>
+{/* 問い合わせフォームは検索に出さない（10/26）。言語の対応は、このページがある中国語・日本語だけ */}
+<Base title={title} description={description} medicalCss={true} noindex={true} alternates={[['zh', 'zh-CN'], ['zh-TW', 'zh-TW'], ['ja', 'ja']].map(([l, h]) => ({ hreflang: h, href: `https://kurawise.com/${l}/medical/service/contact/` }))}>
 
   <nav class="med-breadcrumb" aria-label="breadcrumb">
     <a href={`/${lang}/medical/`}>{breadcrumbLabels[lang] || breadcrumbLabels.en}</a>
