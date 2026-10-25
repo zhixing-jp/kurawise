@@ -1,0 +1,41 @@
+---
+// 目标路径：/{zh|ja}/medical/kansai-guide/ 大阪・関西の受診ガイド（2026-10-25）。
+// まず簡体中文と日本語だけ。反応を見てから他の言語を足す（足すときは getStaticPaths と alternates と index.json の langs を直す）。
+// 本文は public/data/medical/kansai-guide.json（CareerBlocks の形）。金額・制度を直したら checked も更新する。
+import Base from '../../../../layouts/Base.astro';
+import CareerBlocks from '../../../../components/CareerBlocks.astro';
+import { SECTION_NAMES } from '../../../../data/sectionNames';
+import data from '../../../../../public/data/medical/kansai-guide.json';
+
+const LANGS = ['zh', 'ja'];
+export function getStaticPaths() {
+  return ['zh', 'ja'].map((lang) => ({ params: { lang }, props: { lang } }));
+}
+const { lang } = Astro.props;
+const d = data as unknown as Record<string, any>;
+const title: string = d[`title_${lang}`];
+const desc: string = d[`description_${lang}`];
+const sections: any[] = d[`sections_${lang}`];
+const medName = (SECTION_NAMES.medical as Record<string, string>)[lang];
+const checkedLabel = lang === 'zh' ? `确认日：${d.checked}` : `確認日：${d.checked}`;
+const alternates = [
+  ...LANGS.map((l) => ({ hreflang: l === 'zh' ? 'zh-CN' : l, href: `https://kurawise.com/${l}/medical/kansai-guide/` })),
+  { hreflang: 'x-default', href: 'https://kurawise.com/ja/medical/kansai-guide/' }
+];
+---
+<Base title={`${title} | Kurawise`} description={desc} medicalCss={true} articleCss={true} alternates={alternates}
+  breadcrumbs={[{ name: medName, url: `https://kurawise.com/${lang}/medical/` }, { name: title }]}>
+  <nav class="med-breadcrumb" aria-label="breadcrumb">
+    <a href={`/${lang}/medical/`}>{medName}</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">{lang === 'zh' ? '大阪・关西看病指南' : '大阪・関西の受診ガイド'}</span>
+  </nav>
+
+  <div class="career-article-page">
+    <h1 class="career-article-title">{title}</h1>
+    <p class="career-article-checked">{checkedLabel}</p>
+    <CareerBlocks sections={sections} lang={lang} />
+  </div>
+
+  <div data-pagefind-body style="display:none">{title} {desc}</div>
+</Base>

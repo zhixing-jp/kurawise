@@ -1,0 +1,12 @@
+---
+// 目标路径：src/pages/tokushoho/index.astro → /tokushoho/
+// 特定商取引法に基づく表記（医療コーディネートサービス）。2026-10-25。
+// 単一URL。本文は src/data/tokushohoCopy.ts、表示の仕組みは components/LocalizedCopy.astro。
+import Base from '../../layouts/Base.astro';
+import LocalizedCopy from '../../components/LocalizedCopy.astro';
+import { TOKU_TITLES, TOKU_BODY } from '../../data/tokushohoCopy';
+---
+
+<Base title="特定商取引法に基づく表記 | Kurawise" description="Kurawise の医療コーディネートサービス（受診の同行・通訳、電話の代行、書類の説明）の料金、支払方法、キャンセルなど。">
+  <LocalizedCopy titles={TOKU_TITLES} bodies={TOKU_BODY} />
+</Base>

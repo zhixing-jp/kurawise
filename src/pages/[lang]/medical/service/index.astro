@@ -4,7 +4,8 @@ import Base from '../../../../layouts/Base.astro';
 import referral from '../../../../../public/data/medical/referral.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
+  // 同行サービスは中国語（簡体・繁体）と日本語だけ（10/25）。他の言語の URL は public/_redirects で病院＆医療のトップへ
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
@@ -18,6 +19,8 @@ function tArr(obj: Record<string, string[]>): string[] {
 }
 
 const page = referral.page;
+const priceRows: string[][] = ((page as any).priceRows[lang] || (page as any).priceRows.zh) as string[][];
+const priceNotes: string[] = ((page as any).priceNotes[lang] || (page as any).priceNotes.zh) as string[];
 const title = `${t(page.title)} | Kurawise`;
 const description = t(page.intro);
 const contactUrl = `/${lang}/medical/service/contact/`;
@@ -30,7 +33,7 @@ const isZhFamily = lang === 'zh-TW';
 const SHOW_CHAT_CONTACTS = false;
 ---
 
-<Base title={title} description={description} medicalCss={true}>
+<Base title={title} description={description} medicalCss={true} alternates={[['zh', 'zh-CN'], ['zh-TW', 'zh-TW'], ['ja', 'ja']].map(([l, h]) => ({ hreflang: h, href: `https://kurawise.com/${l}/medical/service/` }))}>
 
   <nav class="med-breadcrumb" aria-label="breadcrumb">
     <a href={`/${lang}/medical/`}>{breadcrumbLabels[lang] || breadcrumbLabels.en}</a>
@@ -53,7 +56,17 @@ const SHOW_CHAT_CONTACTS = false;
     <section class="med-service-section">
       <h2>{t(page.pricingTitle)}</h2>
       <p class="med-service-pricing-body">{t(page.pricingBody)}</p>
+      {/* 料金表（2026-10-25 決定）。金額は public/data/medical/referral.json の priceRows を直す */}
+      <dl class="med-service-price-list">
+        {priceRows.map(([name, price]) => (
+          <div class="med-service-price-row"><dt>{name}</dt><dd>{price}</dd></div>
+        ))}
+      </dl>
+      <ul class="med-service-price-notes">
+        {priceNotes.map((n) => <li>{n}</li>)}
+      </ul>
       <p class="med-service-pricing-body">{t(page.areaBody)}</p>
+      <p class="med-service-tokushoho"><a href="/tokushoho/">{t(page.tokushohoLink)} ›</a></p>
     </section>
 
     <section class="med-service-section med-service-cta-section">

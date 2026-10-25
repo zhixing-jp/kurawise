@@ -4,7 +4,8 @@ import Base from '../../../../../layouts/Base.astro';
 import referral from '../../../../../../public/data/medical/referral.json';
 
 export async function getStaticPaths() {
-  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'en', 'vi', 'ko', 'ja'];
+  // 同行サービスは中国語（簡体・繁体）と日本語だけ（10/25）。他の言語の URL は public/_redirects で病院＆医療のトップへ
+  const SUPPORTED_LANGS = ['zh', 'zh-TW', 'ja'];
   return SUPPORTED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
@@ -79,6 +80,7 @@ const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
         </div>
 
         <p class="med-consult-privacy">{t(cp.privacyNote)}</p>
+        <p class="med-consult-privacy"><a href="/tokushoho/">{t((referral.page as any).tokushohoLink)}</a></p>
 
         <button type="submit" class="med-consult-submit" id="medConsultSubmitBtn">
           <span class="med-consult-submit-label">{t(cp.submit)}</span>

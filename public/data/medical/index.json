@@ -152,6 +152,19 @@
       "description_vi": "Những câu hỏi thường gặp về ngôn ngữ, chi phí, và giấy tờ.",
       "description_ko": "언어, 비용, 신분증에 관한 자주 묻는 질문.",
       "description_ja": "言語、費用、証明書に関するよくある質問。"
+    },
+    {
+      "id": "kansai-guide",
+      "group": "guide",
+      "langs": [
+        "zh",
+        "ja"
+      ],
+      "title": "大阪・关西看病指南：先去哪里、多少钱、中文服务真相",
+      "title_ja": "大阪・関西の受診ガイド：まずどこへ、費用、中国語対応の実際",
+      "description": "在大阪・关西看病，先去哪里、大概多少钱、“中文服务”实际是什么、晚上和周末怎么办。附打电话确认的三个问题和就诊准备清单。",
+      "description_ja": "大阪・関西で病院にかかるとき、まずどこへ行くか、費用の目安、「中国語対応」の実際、夜間・休日の動き方。電話で確かめる3つの質問と受診前の準備リストつき。",
+      "url": "/medical/kansai-guide/"
     }
   ]
 }

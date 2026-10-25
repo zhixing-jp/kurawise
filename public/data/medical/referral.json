@@ -32,7 +32,7 @@
       "en": "With 20 years of living in Japan and medical coordination experience, we help foreign residents facing language barriers or complex situations with registration and appointment calls, accompanying you to the clinic, and communicating with doctors. *If you need an ambulance for a sudden illness or injury, call 119 first.",
       "vi": "Với 20 năm kinh nghiệm sinh sống tại Nhật và điều phối y tế, chúng tôi hỗ trợ người nước ngoài gặp rào cản ngôn ngữ hoặc tình huống phức tạp trong việc đăng ký và gọi điện đặt lịch khám, đi cùng đến khám và trao đổi với bác sĩ. *Nếu cần xe cứu thương vì bệnh đột ngột hoặc chấn thương, hãy gọi 119 trước.",
       "ko": "일본 거주 및 의료 코디네이션 경력 20년으로, 언어 장벽이나 복잡한 상황에 처한 재일 외국인의 접수·예약 전화, 진료 동행, 의사와의 소통을 돕습니다. ※갑작스러운 병이나 부상으로 구급차가 필요할 때는 먼저 119에 전화하세요.",
-      "ja": "在日20年、医療コーディネートの経験を活かし、言葉の壁や複雑な状況を抱える在日外国人の、受付・予約の電話、受診の同行、医師とのやりとりをサポートします。※急な病気やけがで救急車が必要なときは、まず119に電話してください。"
+      "ja": "在日20年、医療コーディネートの経験を活かし、中国語を話す方（ご本人・ご家族のほか、中国語の通訳が必要な職場・学校なども）の、受付・予約の電話、受診の同行、医師とのやりとりを中国語でサポートします。※急な病気やけがで救急車が必要なときは、まず119に電話してください。"
     },
     "scenariosTitle": {
       "zh": "适合什么情况",
@@ -95,12 +95,12 @@
       "ja": "料金について"
     },
     "pricingBody": {
-      "zh": "费用根据内容（电话/文字沟通协助、陪同就诊）和所需时间而定。了解你的情况后，我们会事先告知具体金额，你同意后再开始，不会额外加收费用。",
-      "zh-TW": "費用根據內容（電話/文字溝通協助、陪同就診）和所需時間而定。了解你的情況後，我們會事先告知具體金額，你同意後再開始，不會額外加收費用。",
-      "en": "Fees depend on the type of support (phone or message help, accompanying you to a visit) and the time required. After hearing about your situation, we'll tell you the exact amount in advance. We only start once you agree, and there are no additional charges.",
-      "vi": "Chi phí tùy theo nội dung hỗ trợ (qua điện thoại/tin nhắn, đi cùng đến khám) và thời gian cần thiết. Sau khi hiểu tình huống của bạn, chúng tôi sẽ báo trước số tiền cụ thể, chỉ bắt đầu khi bạn đồng ý và không thu thêm phí phát sinh.",
-      "ko": "비용은 지원 내용(전화·메시지 소통 지원, 진료 동행)과 소요 시간에 따라 다릅니다. 상황을 들은 후 정확한 금액을 미리 안내해 드리며, 동의하신 후에 시작하고 추가 요금은 받지 않습니다.",
-      "ja": "料金は、内容（電話・メッセージでのサポート、受診の同行）と時間によって異なります。ご相談の内容を伺ったうえで、事前に金額をお伝えし、ご了承いただいてから対応します。追加料金はいただきません。"
+      "ja": "ご相談の内容を伺ったうえで、事前に金額をお伝えし、ご了承いただいてから対応します。下の料金表とお伝えした金額のほかに、請求はしません。",
+      "zh": "了解你的情况后，我们会事先告知金额，你同意后再开始。除了下面的价目表和事先告知的金额，不会另外收费。",
+      "zh-TW": "了解你的情況後，我們會事先告知金額，你同意後再開始。除了下面的價目表和事先告知的金額，不會另外收費。",
+      "en": "After hearing about your situation, we'll tell you the amount in advance and only start once you agree. We never charge anything beyond the price list below and the amount we quoted.",
+      "vi": "Sau khi hiểu tình huống của bạn, chúng tôi sẽ báo trước số tiền và chỉ bắt đầu khi bạn đồng ý. Ngoài bảng giá dưới đây và số tiền đã báo, chúng tôi không thu thêm.",
+      "ko": "상황을 들은 후 금액을 미리 안내하고, 동의하신 후에 시작합니다. 아래 요금표와 미리 안내한 금액 외에는 청구하지 않습니다."
     },
     "contactTitle": {
       "zh": "联系方式",
@@ -141,6 +141,144 @@
       "en": "Service area: In-person accompaniment is available mainly in the Kansai region, centered on Osaka. Phone and message support is available anywhere in Japan.",
       "vi": "Khu vực hỗ trợ: Đi cùng đến khám chủ yếu ở vùng Kansai, trung tâm là Osaka. Hỗ trợ qua điện thoại/tin nhắn nhận trên toàn Nhật Bản.",
       "ko": "지원 지역: 진료 동행은 오사카부를 중심으로 한 간사이 지역입니다. 전화·메시지 지원은 일본 전국에서 가능합니다."
+    },
+    "priceRows": {
+      "ja": [
+        [
+          "受診の同行・通訳（対面）",
+          "3時間まで 15,000円／以降1時間ごとに 4,000円"
+        ],
+        [
+          "電話の代行（予約・問い合わせ）",
+          "1件 2,000円（15分まで）"
+        ],
+        [
+          "書類・検査結果の説明（翻訳）",
+          "1件 3,000円〜（量により事前にお見積り）"
+        ]
+      ],
+      "zh": [
+        [
+          "陪同就诊・口译（面对面）",
+          "3小时以内 15,000日元／之后每1小时 4,000日元"
+        ],
+        [
+          "代打电话（预约・咨询）",
+          "每次 2,000日元（15分钟以内）"
+        ],
+        [
+          "文件・检查结果说明（翻译）",
+          "每份 3,000日元起（按内容事先报价）"
+        ]
+      ],
+      "zh-TW": [
+        [
+          "陪同就診・口譯（面對面）",
+          "3小時以內 15,000日圓／之後每1小時 4,000日圓"
+        ],
+        [
+          "代打電話（預約・詢問）",
+          "每次 2,000日圓（15分鐘以內）"
+        ],
+        [
+          "文件・檢查結果說明（翻譯）",
+          "每份 3,000日圓起（依內容事先報價）"
+        ]
+      ],
+      "en": [
+        [
+          "Hospital visit with an interpreter (in person)",
+          "Up to 3 hours ¥15,000 / ¥4,000 per additional hour"
+        ],
+        [
+          "Phone calls on your behalf (appointments, inquiries)",
+          "¥2,000 per call (up to 15 min)"
+        ],
+        [
+          "Explaining documents and test results (translation)",
+          "From ¥3,000 per item (quoted in advance)"
+        ]
+      ],
+      "vi": [
+        [
+          "Đi cùng khám bệnh・phiên dịch (trực tiếp)",
+          "Tối đa 3 giờ 15.000 yên / mỗi giờ thêm 4.000 yên"
+        ],
+        [
+          "Gọi điện thay (đặt lịch・hỏi thông tin)",
+          "2.000 yên mỗi cuộc (tối đa 15 phút)"
+        ],
+        [
+          "Giải thích giấy tờ・kết quả xét nghiệm (dịch)",
+          "Từ 3.000 yên mỗi loại (báo giá trước)"
+        ]
+      ],
+      "ko": [
+        [
+          "진료 동행・통역 (대면)",
+          "3시간까지 15,000엔 / 이후 1시간마다 4,000엔"
+        ],
+        [
+          "전화 대행 (예약・문의)",
+          "1건 2,000엔 (15분까지)"
+        ],
+        [
+          "서류・검사 결과 설명 (번역)",
+          "1건 3,000엔부터 (내용에 따라 사전 견적)"
+        ]
+      ]
+    },
+    "priceNotes": {
+      "ja": [
+        "交通費：大阪市内と泉州地域は無料。それ以外は実費をいただきます。",
+        "病院・薬局に支払う医療費や薬代は、ご本人の負担です。",
+        "最初の3名様は半額（モニター価格）。かわりに、個人が分からない形でご感想を掲載させてください。",
+        "お支払い：銀行振込、PayPay、WeChat Pay、Alipay、現金。同行は当日、電話の代行と書類の説明は事前にお支払いください。",
+        "キャンセル（同行）：2日前まで無料、前日は50%、当日は100%。"
+      ],
+      "zh": [
+        "交通费：大阪市内和泉州地区免费，其他地区按实际费用收取。",
+        "付给医院、药局的医疗费和药费，由本人承担。",
+        "前3位客人半价（体验价）。作为交换，希望能以不透露个人信息的方式刊登你的感想。",
+        "付款方式：银行转账、PayPay、微信支付、支付宝、现金。陪同就诊当天付款；代打电话和文件说明请事先付款。",
+        "取消（陪同就诊）：2天前取消免费，前一天取消收50%，当天取消收100%。"
+      ],
+      "zh-TW": [
+        "交通費：大阪市內和泉州地區免費，其他地區按實際費用收取。",
+        "付給醫院、藥局的醫療費和藥費，由本人負擔。",
+        "前3位客人半價（體驗價）。作為交換，希望能以不透露個人資訊的方式刊登你的感想。",
+        "付款方式：銀行轉帳、PayPay、微信支付、支付寶、現金。陪同就診當天付款；代打電話和文件說明請事先付款。",
+        "取消（陪同就診）：2天前取消免費，前一天取消收50%，當天取消收100%。"
+      ],
+      "en": [
+        "Transport: free within Osaka City and the Senshu area; actual costs elsewhere.",
+        "Medical and pharmacy fees paid to the hospital or pharmacy are your own responsibility.",
+        "The first 3 clients pay half price (trial price). In return, we'd like to publish your feedback without any personal details.",
+        "Payment: bank transfer, PayPay, WeChat Pay, Alipay, or cash. Hospital visits are paid on the day; phone calls and document explanations are paid in advance.",
+        "Cancellation (hospital visits): free up to 2 days before, 50% the day before, 100% on the day."
+      ],
+      "vi": [
+        "Phí đi lại: miễn phí trong thành phố Osaka và khu vực Senshu; các nơi khác tính theo chi phí thực tế.",
+        "Viện phí và tiền thuốc trả cho bệnh viện, nhà thuốc do bạn tự chi trả.",
+        "3 khách hàng đầu tiên được giảm 50% (giá dùng thử). Đổi lại, chúng tôi mong được đăng cảm nhận của bạn mà không có thông tin cá nhân.",
+        "Thanh toán: chuyển khoản ngân hàng, PayPay, WeChat Pay, Alipay, tiền mặt. Đi cùng khám bệnh thanh toán trong ngày; gọi điện thay và giải thích giấy tờ thanh toán trước.",
+        "Hủy (đi cùng khám bệnh): miễn phí đến 2 ngày trước, 50% nếu hủy ngày hôm trước, 100% nếu hủy trong ngày."
+      ],
+      "ko": [
+        "교통비: 오사카시 내와 센슈 지역은 무료, 그 외 지역은 실비를 받습니다.",
+        "병원・약국에 내는 의료비와 약값은 본인 부담입니다.",
+        "처음 3분은 반값(모니터 가격)입니다. 대신 개인을 알 수 없는 형태로 후기를 게재하게 해 주세요.",
+        "결제: 계좌 이체, PayPay, WeChat Pay, Alipay, 현금. 진료 동행은 당일, 전화 대행과 서류 설명은 사전에 결제해 주세요.",
+        "취소(진료 동행): 2일 전까지 무료, 전날 50%, 당일 100%."
+      ]
+    },
+    "tokushohoLink": {
+      "ja": "特定商取引法に基づく表記",
+      "zh": "特定商取引法规定的标示（日文正本）",
+      "zh-TW": "特定商取引法規定的標示（日文正本）",
+      "en": "Notation under the Specified Commercial Transactions Act",
+      "vi": "Thông tin theo Luật Giao dịch thương mại đặc định",
+      "ko": "특정상거래법에 따른 표기"
     }
   },
   "contactPage": {

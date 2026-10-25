@@ -19,6 +19,7 @@ export const MED_GROUPS: { key: string; label: Record<L, string> }[] = [
 export const MED_ROWS: { id: string; group: string; icon: string; tone: string; sub: Record<L, string> }[] = [
   { id: 'calling-ambulance', group: 'urgent', icon: '🚑', tone: 'red', sub: { ja: '呼ぶか迷ったら・聞かれること', zh: '要不要叫・会被问什么', 'zh-TW': '要不要叫・會被問什麼', en: 'When to call, what they ask', vi: 'Khi nào gọi, sẽ hỏi gì', ko: '부를지 판단·질문 내용' } },
   { id: 'night-emergency-clinic', group: 'urgent', icon: '🌙', tone: 'indigo', sub: { ja: '診療時間外の探し方', zh: '非工作时间怎么找', 'zh-TW': '非上班時間怎麼找', en: 'Finding care after hours', vi: 'Tìm nơi khám ngoài giờ', ko: '진료 시간 외 찾는 법' } },
+  { id: 'kansai-guide', group: 'visit', icon: '🧭', tone: 'orange', sub: { ja: 'まずどこへ・費用・中国語対応の実際', zh: '先去哪里・多少钱・中文服务真相', 'zh-TW': '', en: '', vi: '', ko: '' } },
   { id: 'hospital-registration', group: 'visit', icon: '🏥', tone: 'blue', sub: { ja: '保険証・初診の言い方', zh: '保险证・初诊怎么说', 'zh-TW': '保險證・初診怎麼說', en: 'Insurance card, first-visit phrases', vi: 'Thẻ bảo hiểm, câu nói lần đầu', ko: '보험증·초진 표현' } },
   { id: 'symptom-dictionary', group: 'visit', icon: '🗣️', tone: 'teal', sub: { ja: '指さしで症状を伝える', zh: '指着词库说明症状', 'zh-TW': '指著詞庫說明症狀', en: 'Point to describe symptoms', vi: 'Chỉ để mô tả triệu chứng', ko: '가리켜서 증상 전달' } },
   { id: 'payment-and-pharmacy', group: 'visit', icon: '💊', tone: 'green', sub: { ja: '会計と処方薬の受け取り', zh: '结账和领处方药', 'zh-TW': '結帳和領處方藥', en: 'Paying and getting prescriptions', vi: 'Thanh toán và lấy thuốc kê đơn', ko: '수납과 처방약 받기' } },

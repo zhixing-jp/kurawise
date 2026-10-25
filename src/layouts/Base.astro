@@ -12,6 +12,7 @@ interface Props {
   rescueCss?: boolean;
   medicalCss?: boolean;
   careerCss?: boolean;
+  articleCss?: boolean;   // 記事の部品（CareerBlocks）の見た目だけ読み込む。仕事＆ビザの帯や計測は付けない（10/25）
   careerGroup?: string;
   guidesCss?: boolean;
   noindex?: boolean;
@@ -32,6 +33,7 @@ const {
   rescueCss = false,
   medicalCss = false,
   careerCss = false,
+  articleCss = false,
   careerGroup,
   guidesCss = false,
   noindex = false,
@@ -46,7 +48,7 @@ const {
 
 // 単一URLのページのうち、最初の表示が日本語のもの（/apps/・/kurashi/）は、サーバー側の言語も日本語にする
 // （表示後は base.js がその人の言語に描き直す）
-const lang = uiLang || (/^\/(apps|kurashi|about|ad-policy|privacy)\/?$/.test(Astro.url.pathname) ? 'ja' : getLangFromUrl(Astro.url));
+const lang = uiLang || (/^\/(apps|kurashi|about|ad-policy|privacy|tokushoho)\/?$/.test(Astro.url.pathname) ? 'ja' : getLangFromUrl(Astro.url));
 const activeLangOption = langOptions ? langOptions.find((o) => o.active) : undefined;
 
 const siteUrl = 'https://kurawise.com';
@@ -57,7 +59,9 @@ const contentSection = skipReadTracking ? null : (rescueCss ? 'rescue' : (medica
 // 医疗协调服务浮动banner：贴在就医指南版块全程显示（medicalCss=true 的页面），
 // 落地页/咨询页自己不再显示banner（用户已经在导流终点，不需要再引导一次）。
 const isReferralOwnPage = Astro.url.pathname.includes('/medical/service/');
-const showMedicalReferralBanner = medicalCss && !isReferralOwnPage;
+// 同行サービスは中国語（簡体・繁体）と日本語のページだけで案内する（10/25 智行：対応できるのは中国語の利用者のみ）
+const SERVICE_LANGS = ['zh', 'zh-TW', 'ja'];
+const showMedicalReferralBanner = medicalCss && !isReferralOwnPage && SERVICE_LANGS.includes(lang);
 const medicalServiceUrl = `/${lang}/medical/service/`;
 // 医療の同行・通訳サービスへの案内。「緊急」とは書かない（命に関わるときは119番が先。10/23）
 const referralBannerText: Record<string, string> = {
@@ -167,14 +171,14 @@ const strippedPath = currentPath.replace(/^\/(zh-TW|zh|en|vi|ko|ja)(?=\/|$)/, ''
 // ホーム（各言語の /xx/）：どのタブも選ばれた表示にしない
 const isHome = /^\/(zh-TW|zh|en|vi|ko|ja)\/?$/.test(currentPath);
 const pageLayout = /^\/(|medical\/|career\/|career\/(for|c)\/[a-z]+\/|kurashi\/|apps\/|rescue\/|rescue\/s\d+\/)$/.test(strippedPath) ? 'wide' : 'read';
-const isNoTab = isHome || /^\/(about|ad-policy|privacy)\/?$/.test(currentPath);
+const isNoTab = isHome || /^\/(about|ad-policy|privacy|tokushoho)\/?$/.test(currentPath);
 // 「広告について」のリンクは、広告を載せるタブ4・5のページ（とそのページ自身）だけに出す（10/23 智行）
 const showAdPolicyLink = isKurashi || isApps || /^\/ad-policy\/?$/.test(currentPath);
 const searchPlaceholders: Record<string, string> = { zh: '搜索...', 'zh-TW': '搜尋...', en: 'Search...', vi: 'Tìm kiếm...', ko: '검색...', ja: '検索...' };
 // 単一URLのページ（言語ごとのURLがなく、文章をブラウザ側で言語に合わせて表示するページ）。
 // これ以外のページは「そのページの言語」が決まっているので <html data-page-lang> に書き、
 // base.js はそれを最優先で使う（＝中文ページで英語の設定が残っていても中文として扱う）。
-const isSinglePath = !uiLang && /^\/(about|apps|ad-policy|privacy)\/?$/.test(currentPath);
+const isSinglePath = !uiLang && /^\/(about|apps|ad-policy|privacy|tokushoho)\/?$/.test(currentPath);
 // 全6言語の版がそろっているページ（トップ・日常会話・病院＆医療・仕事＆ビザ）。
 // ブラウザの言語とページの言語が違うとき、その言語の版への案内を出す（自動では移動しない。K12）
 const strippedForSuggest = currentPath.replace(/^\/(zh-TW|zh|en|vi|ko|ja)(?=\/|$)/, '') || '/';
@@ -302,7 +306,7 @@ const jsonLd = {
   <link rel="stylesheet" href="/css/base.css">
   { rescueCss && <link rel="stylesheet" href="/css/rescue.css" /> }
   { medicalCss && <link rel="stylesheet" href="/css/medical.css" /> }
-  { careerCss && <link rel="stylesheet" href="/css/career.css" /> }
+  { (careerCss || articleCss) && <link rel="stylesheet" href="/css/career.css" /> }
   { guidesCss && <link rel="stylesheet" href="/css/guides.css" /> }
   { appsCss && <link rel="stylesheet" href="/css/apps.css" /> }
   <link rel="stylesheet" href="/css/wide.css">

@@ -21,7 +21,7 @@ const serviceTitle = (referral.page.title as Record<string, string>)[lang] || re
       <div class="career-sitgroup">
         <p class="career-sitgroup-label">{pickM(g.label, lang)}</p>
         <div class="ios-list">
-          {MED_ROWS.filter((r) => r.group === g.key && pages[r.id]).map((r) => (
+          {MED_ROWS.filter((r) => r.group === g.key && pages[r.id] && (!pages[r.id].langs || pages[r.id].langs.includes(lang))).map((r) => (
             <a class={`ios-row ios-tone--${r.tone}`} href={`${pre}${pages[r.id].url}`}>
               <span class="ios-ico" aria-hidden="true">{r.icon}</span>
               <span class="ios-text"><span class="ios-title">{title(pages[r.id])}</span><span class="ios-sub">{pickM(r.sub, lang)}</span></span>
@@ -49,7 +49,7 @@ const serviceTitle = (referral.page.title as Record<string, string>)[lang] || re
     <p class="ios-note">{pickM(MED_UI.phoneNote, lang)}</p>
   </section>
 
-  <section class="cblock">
+  {['zh', 'zh-TW', 'ja'].includes(lang) && (<section class="cblock">
     <h2 class="cblock-head"><span aria-hidden="true">🤝</span>{pickM(MED_UI.service, lang)}</h2>
     <div class="ios-list">
       <a class="ios-row ios-tone--blue" href={`${pre}/medical/service/`} data-ga-event="medical_hub_service_click">
@@ -58,5 +58,5 @@ const serviceTitle = (referral.page.title as Record<string, string>)[lang] || re
         <span class="ios-chev" aria-hidden="true">›</span>
       </a>
     </div>
-  </section>
+  </section>)}
 </div>
