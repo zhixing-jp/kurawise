@@ -3,13 +3,28 @@
     {
       "id": "first-credit-card",
       "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
         "ja"
       ],
       "updated": "2026-10-26",
       "icon": "💳",
       "url": "/kurashi/first-credit-card/",
       "title_ja": "初めてのクレジットカード、どれを選ぶ？　30秒で自分の1枚が分かる・申し込みで失敗しないコツ",
-      "sub_ja": "30秒診断・年間ポイント計算・申し込み前のチェック表"
+      "sub_ja": "30秒診断・年間ポイント計算・申し込み前のチェック表",
+      "title_zh": "在日本办第一张信用卡，选哪张？30秒找到适合你的那张・申请不踩雷的要点（附外国人注意事项）",
+      "sub_zh": "30秒诊断・每年积分计算・申请前检查清单",
+      "title_zh-TW": "在日本辦第一張信用卡，選哪張？30秒找到適合你的那張・申請不踩雷的重點（附外國人注意事項）",
+      "sub_zh-TW": "30秒診斷・每年點數計算・申請前檢查清單",
+      "title_en": "Your First Credit Card in Japan: Find Your Card in 30 Seconds and Apply Without Mistakes (Tips for Foreign Residents)",
+      "sub_en": "30-second quiz, yearly points calculator, pre-application checklist",
+      "title_vi": "Thẻ tín dụng đầu tiên ở Nhật: chọn thẻ nào? Tìm thẻ hợp với bạn trong 30 giây và mẹo đăng ký không thất bại (kèm lưu ý cho người nước ngoài)",
+      "sub_vi": "Trắc nghiệm 30 giây・tính điểm mỗi năm・danh sách kiểm tra",
+      "title_ko": "일본에서 첫 신용카드, 무엇을 고를까? 30초 만에 나에게 맞는 카드 찾기・신청에서 실패하지 않는 요령 (외국인 주의점 포함)",
+      "sub_ko": "30초 진단・연간 포인트 계산・신청 전 체크리스트"
     }
   ]
 }

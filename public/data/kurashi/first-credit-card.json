@@ -80,14 +80,14 @@
        "head": "年会費 永年無料・還元率1%",
        "fit": "PayPay をよく使う人",
        "merit": "PayPay ポイントが貯まる",
-       "caution": "最初に申し込めるのは Visa だけ。日本在住で、本人か配偶者に安定した収入があることが条件"
+       "caution": "最初に申し込めるのは Visa だけ。日本在住の18歳以上で、本人か配偶者に安定した収入があり、本人認証ができる携帯電話を持っていることが条件"
       },
       {
        "id": "aeon-select",
        "head": "年会費 無料・200円で1ポイント（イオンでは2倍）",
        "fit": "近くのイオンでよく買い物をする人",
-       "merit": "イオン銀行のキャッシュカードと一体。毎月20日・30日のお客さま感謝デーは、対象商品が5%オフ",
-       "caution": "利用代金はイオン銀行の口座から引き落とされる（口座が必要）。条件は公式ページの2023年時点の情報"
+       "merit": "イオン銀行のキャッシュカードと一体。イオングループの対象店ではポイント2倍。毎月20日・30日のお客さま感謝デーは、対象商品が5%オフ",
+       "caution": "申し込みにはイオン銀行の口座が必要（申し込みと同時に無料で開設できる）。イオン以外では還元率0.5%"
       }
      ]
     }
@@ -175,6 +175,896 @@
     {
      "t": "note",
      "text": "条件と特典は各社の公式サイトで確かめています（確認日：2026-10-25）。キャンペーンや条件は変わることがあるので、申し込む前に公式サイトで確かめてください。"
+    }
+   ]
+  }
+ ],
+ "title_zh": "在日本办第一张信用卡，选哪张？30秒找到适合你的那张・申请不踩雷的要点（附外国人注意事项）",
+ "description_zh": "比较5张免年费的信用卡（乐天、三井住友NL、JCB W、PayPay、永旺）的优惠和注意点。30秒诊断、每年能返多少积分、申请前检查清单、被拒后怎么办，以及外国人申请的要点。",
+ "sections_zh": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "结论",
+     "text": "第一张卡，选“永久免年费、在你常去的地方能多拿积分”的1张就够了。每月刷3万日元的话，光积分一年就能拿回约1,800〜3,600日元。申请方法做对了，通过的几率也能提高。"
+    }
+   ]
+  },
+  {
+   "heading": "一、没有信用卡，这些时候会不方便、会吃亏",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "网购、订阅服务、订机票和酒店时，有时只能用信用卡",
+      "手机、电费、燃气费改成用信用卡付，每个月都能攒积分（现金或银行自动扣款没有积分）",
+      "ETC卡、海外旅行保险等，没有信用卡就办不了或享受不到",
+      "消费都有记录，管理家庭开支更方便"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "二、30秒诊断：适合你的那一张",
+   "blocks": [
+    {
+     "t": "cardquiz"
+    }
+   ]
+  },
+  {
+   "heading": "三、按每月刷卡金额，一年能拿回多少？",
+   "blocks": [
+    {
+     "t": "pointcalc"
+    },
+    {
+     "t": "note",
+     "text": "按基本返还率计算的大概金额，不包括指定店铺的加成（三井住友NL的7%、JCB W合作店铺等）。"
+    }
+   ]
+  },
+  {
+   "heading": "四、5张卡详细比较",
+   "blocks": [
+    {
+     "t": "cardlist",
+     "items": [
+      {
+       "id": "rakuten-card",
+       "head": "免年费・返还率1%",
+       "fit": "网购多的人、常用乐天各种服务的人",
+       "merit": "每100日元返1积分。品牌可以从 Visa・Mastercard・JCB・American Express 四个中选",
+       "caution": "ETC卡年费550日元。外籍人士可能会被要求提交在留卡，以确认在留期间"
+      },
+      {
+       "id": "smbc-nl",
+       "head": "免年费・基本返还0.5%",
+       "fit": "在便利店、快餐店用手机感应支付的人；想马上用卡的人",
+       "merit": "在指定便利店・餐饮店用手机感应支付，返还7%。申请后最快10秒就能拿到卡号",
+       "caution": "基本返还率只有0.5%，偏低。实体卡感应或插卡不享受7%。不能用050开头的网络电话号码申请"
+      },
+      {
+       "id": "jcb-w",
+       "head": "免年费・返还率1%",
+       "fit": "18〜39岁、想在哪里都拿1%以上积分的人，常去海外旅行的人",
+       "merit": "合作店铺最高10.5%。附海外旅行保险（最高2,000万日元）",
+       "caution": "只有39岁以前能申请（40岁以后继续免年费）。品牌只有JCB，海外有些店不能用"
+      },
+      {
+       "id": "paypay-card",
+       "head": "免年费・返还率1%",
+       "fit": "常用PayPay的人",
+       "merit": "可以攒PayPay积分",
+       "caution": "第一次只能申请Visa。条件是住在日本、满18岁，本人或配偶有稳定收入，并有能进行本人认证的手机"
+      },
+      {
+       "id": "aeon-select",
+       "head": "免年费・每200日元1积分（永旺加倍）",
+       "fit": "常在附近永旺购物的人",
+       "merit": "和永旺银行的提款卡合二为一。在永旺集团指定店积分加倍。每月20日・30日“感谢日”指定商品95折",
+       "caution": "申请需要永旺银行账户（可同时免费开户）。在永旺以外返还率0.5%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "五、申请前检查清单",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "申请前确认",
+     "items": [
+      "姓名・地址・电话和身份证件写得一模一样（外国人按在留卡上的写法）",
+      "把预借现金（キャッシング）额度设为“0日元”",
+      "这半年没有同时申请好几张卡",
+      "年收入・工作单位・工作年限如实填写",
+      "手机费和其他账单没有拖欠",
+      "没有设置“自动分期还款（リボ払い）”"
+     ],
+     "done": "准备好了，可以申请了。",
+     "hint": "勾选只留在你的手机画面上，不会发送。"
+    }
+   ]
+  },
+  {
+   "heading": "六、被拒之后怎么办",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "不要马上申请别的卡（隔半年左右）",
+      "去CIC查询自己的信用记录（网上申请手续费500日元，需要个人编号卡；邮寄1,500日元）",
+      "这段时间先用借记卡（直接从银行账户扣款）",
+      "对照上面的清单检查一遍"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "七、外国人申请时",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "<strong>要准备</strong>：在留卡、日本的住址、日本的银行账户、手机号码",
+      "姓名完全按在留卡上的写法填写（顺序、空格都一致，不用通称）",
+      "为了确认在留期间，信用卡公司可能要求提交在留卡。过期的在留卡不受理，不提交有可能被解约。更新在留期间后请尽早提交",
+      "有回国计划、在留期间剩余较短时，审查往往会更谨慎",
+      "审查标准不公开。没有“外国人一定能通过”的卡"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "八、注意：分期还款（リボ払い）",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "“リボ払い”每月还款金额固定，但剩余部分要付很高的手续费",
+      "第一张卡以“一次付清”为主。申请时确认有没有“自动分期”的设置"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "九、本文的立场",
+   "blocks": [
+    {
+     "t": "disclosure"
+    }
+   ]
+  },
+  {
+   "heading": "十、下一步",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "用30秒诊断选定1张",
+      "对照检查清单申请",
+      "卡到手后，确认扣款账户和“一次付清”的设置"
+     ]
+    },
+    {
+     "t": "note",
+     "text": "条件和优惠都已在各公司官网确认（确认日：2026-10-25）。活动和条件可能变化，申请前请再到官网确认。"
+    }
+   ]
+  }
+ ],
+ "title_zh-TW": "在日本辦第一張信用卡，選哪張？30秒找到適合你的那張・申請不踩雷的重點（附外國人注意事項）",
+ "description_zh-TW": "比較5張免年費的信用卡（樂天、三井住友NL、JCB W、PayPay、永旺）的優惠和注意點。30秒診斷、每年能回饋多少點數、申請前檢查清單、被拒後怎麼辦，以及外國人申請的重點。",
+ "sections_zh-TW": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "結論",
+     "text": "第一張卡，選「永久免年費、在你常去的地方能多拿點數」的1張就夠了。每月刷3萬日圓的話，光點數一年就能拿回約1,800〜3,600日圓。申請方法做對了，通過的機率也能提高。"
+    }
+   ]
+  },
+  {
+   "heading": "一、沒有信用卡，這些時候會不方便、會吃虧",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "網購、訂閱服務、訂機票和飯店時，有時只能用信用卡",
+      "手機、電費、瓦斯費改用信用卡付，每個月都能累積點數（現金或銀行自動扣款沒有點數）",
+      "ETC卡、海外旅遊保險等，沒有信用卡就辦不了或享受不到",
+      "消費都有紀錄，管理家庭開支更方便"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "二、30秒診斷：適合你的那一張",
+   "blocks": [
+    {
+     "t": "cardquiz"
+    }
+   ]
+  },
+  {
+   "heading": "三、依每月刷卡金額，一年能拿回多少？",
+   "blocks": [
+    {
+     "t": "pointcalc"
+    },
+    {
+     "t": "note",
+     "text": "依基本回饋率計算的大概金額，不包括指定店鋪的加碼（三井住友NL的7%、JCB W合作店鋪等）。"
+    }
+   ]
+  },
+  {
+   "heading": "四、5張卡詳細比較",
+   "blocks": [
+    {
+     "t": "cardlist",
+     "items": [
+      {
+       "id": "rakuten-card",
+       "head": "免年費・回饋率1%",
+       "fit": "網購多的人、常用樂天各種服務的人",
+       "merit": "每100日圓回饋1點。卡別可以從 Visa・Mastercard・JCB・American Express 四種中選",
+       "caution": "ETC卡年費550日圓。外籍人士可能會被要求提交在留卡，以確認在留期間"
+      },
+      {
+       "id": "smbc-nl",
+       "head": "免年費・基本回饋0.5%",
+       "fit": "在便利商店、速食店用手機感應支付的人；想馬上用卡的人",
+       "merit": "在指定便利商店・餐飲店用手機感應支付，回饋7%。申請後最快10秒就能拿到卡號",
+       "caution": "基本回饋率只有0.5%，偏低。實體卡感應或插卡不享受7%。不能用050開頭的網路電話號碼申請"
+      },
+      {
+       "id": "jcb-w",
+       "head": "免年費・回饋率1%",
+       "fit": "18〜39歲、想在哪裡都拿1%以上點數的人，常去海外旅遊的人",
+       "merit": "合作店鋪最高10.5%。附海外旅遊保險（最高2,000萬日圓）",
+       "caution": "只有39歲以前能申請（40歲以後繼續免年費）。卡別只有JCB，海外有些店不能用"
+      },
+      {
+       "id": "paypay-card",
+       "head": "免年費・回饋率1%",
+       "fit": "常用PayPay的人",
+       "merit": "可以累積PayPay點數",
+       "caution": "第一次只能申請Visa。條件是住在日本、滿18歲，本人或配偶有穩定收入，並有能進行本人認證的手機"
+      },
+      {
+       "id": "aeon-select",
+       "head": "免年費・每200日圓1點（永旺加倍）",
+       "fit": "常在附近永旺購物的人",
+       "merit": "和永旺銀行的提款卡合而為一。在永旺集團指定店點數加倍。每月20日・30日「感謝日」指定商品95折",
+       "caution": "申請需要永旺銀行帳戶（可同時免費開戶）。在永旺以外回饋率0.5%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "五、申請前檢查清單",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "申請前確認",
+     "items": [
+      "姓名・地址・電話和身分證件寫得一模一樣（外國人依在留卡上的寫法）",
+      "把預借現金（キャッシング）額度設為「0日圓」",
+      "這半年沒有同時申請好幾張卡",
+      "年收入・工作單位・工作年資如實填寫",
+      "手機費和其他帳單沒有拖欠",
+      "沒有設定「自動分期付款（リボ払い）」"
+     ],
+     "done": "準備好了，可以申請了。",
+     "hint": "勾選只留在你的手機畫面上，不會傳送。"
+    }
+   ]
+  },
+  {
+   "heading": "六、被拒之後怎麼辦",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "不要馬上申請別的卡（隔半年左右）",
+      "去CIC查詢自己的信用紀錄（網路申請手續費500日圓，需要個人編號卡；郵寄1,500日圓）",
+      "這段時間先用簽帳金融卡（直接從銀行帳戶扣款）",
+      "對照上面的清單檢查一遍"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "七、外國人申請時",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "<strong>要準備</strong>：在留卡、日本的住址、日本的銀行帳戶、手機號碼",
+      "姓名完全依在留卡上的寫法填寫（順序、空格都一致，不用通稱）",
+      "為了確認在留期間，信用卡公司可能要求提交在留卡。過期的在留卡不受理，不提交可能被解約。更新在留期間後請儘早提交",
+      "有回國計畫、在留期間剩餘較短時，審查往往會更謹慎",
+      "審查標準不公開。沒有「外國人一定能通過」的卡"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "八、注意：分期付款（リボ払い）",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "「リボ払い」每月付款金額固定，但剩餘部分要付很高的手續費",
+      "第一張卡以「一次付清」為主。申請時確認有沒有「自動分期」的設定"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "九、本文的立場",
+   "blocks": [
+    {
+     "t": "disclosure"
+    }
+   ]
+  },
+  {
+   "heading": "十、下一步",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "用30秒診斷選定1張",
+      "對照檢查清單申請",
+      "卡到手後，確認扣款帳戶和「一次付清」的設定"
+     ]
+    },
+    {
+     "t": "note",
+     "text": "條件和優惠都已在各公司官網確認（確認日：2026-10-25）。活動和條件可能變化，申請前請再到官網確認。"
+    }
+   ]
+  }
+ ],
+ "title_en": "Your First Credit Card in Japan: Find Your Card in 30 Seconds and Apply Without Mistakes (Tips for Foreign Residents)",
+ "description_en": "Compare 5 no-annual-fee cards (Rakuten, Sumitomo Mitsui NL, JCB W, PayPay, AEON) by perks and drawbacks. 30-second quiz, yearly points calculator, pre-application checklist, what to do if rejected, and tips for foreign residents.",
+ "sections_en": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "Bottom line",
+     "text": "For your first card, pick just one with <strong>no annual fee, ever</strong>, that earns extra at the places you use most. If you spend ¥30,000 a month on it, points alone give back about ¥1,800–3,600 a year. And applying the right way improves your chances of approval."
+    }
+   ]
+  },
+  {
+   "heading": "1. Without a card, you'll miss out",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Online shopping, subscriptions, and flight or hotel bookings sometimes accept cards only",
+      "Paying your phone, electricity and gas bills by card earns points every month (cash and bank debit do not)",
+      "Some things, like an ETC card or overseas travel insurance, come only with a credit card",
+      "Every purchase is recorded, which makes budgeting easier"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "2. 30-second quiz: your best card",
+   "blocks": [
+    {
+     "t": "cardquiz"
+    }
+   ]
+  },
+  {
+   "heading": "3. How much do you get back each year?",
+   "blocks": [
+    {
+     "t": "pointcalc"
+    },
+    {
+     "t": "note",
+     "text": "Estimates use the base reward rate only. Bonus rates at partner stores (7% for Sumitomo Mitsui NL, JCB W partners, etc.) are not included."
+    }
+   ]
+  },
+  {
+   "heading": "4. The 5 cards in detail",
+   "blocks": [
+    {
+     "t": "cardlist",
+     "items": [
+      {
+       "id": "rakuten-card",
+       "head": "No annual fee, ever · 1% back",
+       "fit": "People who shop online a lot or use Rakuten services",
+       "merit": "1 point per ¥100. Choose from Visa, Mastercard, JCB or American Express",
+       "caution": "ETC card costs ¥550 a year. Foreign nationals may be asked to submit their residence card to confirm their period of stay"
+      },
+      {
+       "id": "smbc-nl",
+       "head": "No annual fee, ever · 0.5% base",
+       "fit": "People who pay at convenience stores and fast-food chains with smartphone tap-to-pay; people who want to use a card right away",
+       "merit": "7% back with smartphone tap-to-pay at eligible convenience stores and restaurants. Card number issued in as little as 10 seconds",
+       "caution": "Base rate is low at 0.5%. Tapping or inserting the physical card does not get 7%. You cannot apply with an 050 IP phone number"
+      },
+      {
+       "id": "jcb-w",
+       "head": "No annual fee, ever · 1% back",
+       "fit": "Ages 18–39 who want at least 1% everywhere, and people who travel abroad",
+       "merit": "Up to 10.5% at partner stores. Includes overseas travel insurance (up to ¥20 million)",
+       "caution": "You can only apply up to age 39 (it stays free after 40). JCB only, so some shops abroad won't take it"
+      },
+      {
+       "id": "paypay-card",
+       "head": "No annual fee, ever · 1% back",
+       "fit": "People who use PayPay a lot",
+       "merit": "Earns PayPay points",
+       "caution": "Your first card must be Visa. You must live in Japan, be 18 or older, have (or your spouse have) a stable income, and own a mobile phone that can verify your identity"
+      },
+      {
+       "id": "aeon-select",
+       "head": "No annual fee · 1 point per ¥200 (double at AEON)",
+       "fit": "People who shop at AEON nearby",
+       "merit": "Combined with your AEON Bank cash card. Double points at eligible AEON Group stores. 5% off eligible items on the 20th and 30th of each month (Customer Thanks Day)",
+       "caution": "You need an AEON Bank account (you can open one free when you apply). 0.5% back outside AEON"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. Checklist before you apply",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "Before you apply",
+     "items": [
+      "Your name, address and phone match your ID exactly (foreign residents: write your name as on your residence card)",
+      "Set the cash advance (キャッシング) limit to ¥0",
+      "You have not applied for several cards in the last six months",
+      "You entered your income, employer and years of employment accurately",
+      "You have no late phone bills or other late payments",
+      "You have not chosen automatic revolving payments (リボ払い)"
+     ],
+     "done": "You are ready to apply.",
+     "hint": "Your ticks stay on this screen only and are not sent anywhere."
+    }
+   ]
+  },
+  {
+   "heading": "6. If you are rejected",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "Don't apply for another card right away (wait about six months)",
+      "Check your credit record at CIC (online ¥500 with a My Number Card; by mail ¥1,500)",
+      "Use a debit card in the meantime (paid straight from your bank account)",
+      "Go through the checklist above again"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "7. If you are a foreign resident",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "<strong>Have ready</strong>: residence card, an address in Japan, a Japanese bank account, a mobile phone number",
+      "Write your name exactly as on your residence card (same order and spacing; no alias)",
+      "The card company may ask you to submit your residence card to confirm your period of stay. Expired cards are not accepted, and not submitting it can lead to cancellation. After renewing your status, submit the new card promptly",
+      "If you plan to leave Japan soon or have little time left on your period of stay, screening tends to be more cautious",
+      "Screening criteria are not public. No card guarantees approval for foreigners"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "8. Watch out: revolving payments",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Revolving payments (リボ払い) keep your monthly payment fixed, but you pay high interest on the rest",
+      "Use one-time payment (1回払い) as the default for your first card, and check that automatic revolving is not set when you apply"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "9. Our position",
+   "blocks": [
+    {
+     "t": "disclosure"
+    }
+   ]
+  },
+  {
+   "heading": "10. Next steps",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "Pick one card with the 30-second quiz",
+      "Apply using the checklist",
+      "When the card arrives, check the payment account and that one-time payment is set"
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Conditions and perks were checked on each company's official website (2026-10-25). Campaigns and conditions can change, so check the official site before applying."
+    }
+   ]
+  }
+ ],
+ "title_vi": "Thẻ tín dụng đầu tiên ở Nhật: chọn thẻ nào? Tìm thẻ hợp với bạn trong 30 giây và mẹo đăng ký không thất bại (kèm lưu ý cho người nước ngoài)",
+ "description_vi": "So sánh 5 thẻ miễn phí thường niên (Rakuten, Sumitomo Mitsui NL, JCB W, PayPay, AEON) theo ưu đãi và lưu ý. Trắc nghiệm 30 giây, tính điểm thưởng mỗi năm, danh sách kiểm tra trước khi đăng ký, nếu bị từ chối thì làm gì, và lưu ý cho người nước ngoài.",
+ "sections_vi": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "Kết luận",
+     "text": "Thẻ đầu tiên, chỉ cần chọn 1 thẻ <strong>miễn phí thường niên vĩnh viễn</strong> và được nhiều điểm ở nơi bạn hay dùng. Nếu mỗi tháng thanh toán 30.000 yên, chỉ riêng điểm thưởng đã được khoảng 1.800〜3.600 yên mỗi năm. Đăng ký đúng cách cũng giúp tăng khả năng được duyệt."
+    }
+   ]
+  },
+  {
+   "heading": "1. Không có thẻ thì sẽ bất tiện và thiệt",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Mua hàng online, dịch vụ thuê bao, đặt vé máy bay và khách sạn đôi khi chỉ nhận thẻ",
+      "Trả tiền điện thoại, điện, ga bằng thẻ thì mỗi tháng đều được tích điểm (tiền mặt hay trừ tài khoản ngân hàng thì không)",
+      "Thẻ ETC, bảo hiểm du lịch nước ngoài… có những thứ chỉ đi kèm thẻ tín dụng",
+      "Mọi khoản chi đều có ghi chép, dễ quản lý chi tiêu gia đình"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "2. Trắc nghiệm 30 giây: thẻ hợp với bạn",
+   "blocks": [
+    {
+     "t": "cardquiz"
+    }
+   ]
+  },
+  {
+   "heading": "3. Mỗi năm được hoàn lại bao nhiêu?",
+   "blocks": [
+    {
+     "t": "pointcalc"
+    },
+    {
+     "t": "note",
+     "text": "Ước tính theo tỷ lệ hoàn điểm cơ bản. Không gồm phần thưởng thêm ở cửa hàng đối tác (7% của Sumitomo Mitsui NL, đối tác JCB W…)."
+    }
+   ]
+  },
+  {
+   "heading": "4. So sánh chi tiết 5 thẻ",
+   "blocks": [
+    {
+     "t": "cardlist",
+     "items": [
+      {
+       "id": "rakuten-card",
+       "head": "Miễn phí thường niên vĩnh viễn・hoàn 1%",
+       "fit": "Người hay mua sắm online, hay dùng dịch vụ Rakuten",
+       "merit": "1 điểm cho mỗi 100 yên. Chọn được Visa, Mastercard, JCB hoặc American Express",
+       "caution": "Thẻ ETC mất 550 yên/năm. Người nước ngoài có thể được yêu cầu nộp thẻ cư trú để xác nhận thời hạn lưu trú"
+      },
+      {
+       "id": "smbc-nl",
+       "head": "Miễn phí thường niên vĩnh viễn・cơ bản 0,5%",
+       "fit": "Người thanh toán ở cửa hàng tiện lợi, quán ăn nhanh bằng chạm điện thoại; người muốn dùng thẻ ngay",
+       "merit": "Hoàn 7% khi chạm điện thoại để thanh toán ở cửa hàng tiện lợi, nhà hàng đủ điều kiện. Có số thẻ chỉ sau ít nhất 10 giây",
+       "caution": "Tỷ lệ cơ bản thấp, 0,5%. Chạm hoặc cắm thẻ vật lý không được 7%. Không đăng ký được bằng số điện thoại IP đầu 050"
+      },
+      {
+       "id": "jcb-w",
+       "head": "Miễn phí thường niên vĩnh viễn・hoàn 1%",
+       "fit": "Người 18〜39 tuổi muốn ít nhất 1% ở mọi nơi, người hay du lịch nước ngoài",
+       "merit": "Tối đa 10,5% ở cửa hàng đối tác. Kèm bảo hiểm du lịch nước ngoài (tối đa 20 triệu yên)",
+       "caution": "Chỉ đăng ký được đến 39 tuổi (sau 40 vẫn miễn phí). Chỉ có thương hiệu JCB nên một số cửa hàng ở nước ngoài không nhận"
+      },
+      {
+       "id": "paypay-card",
+       "head": "Miễn phí thường niên vĩnh viễn・hoàn 1%",
+       "fit": "Người hay dùng PayPay",
+       "merit": "Tích điểm PayPay",
+       "caution": "Lần đầu chỉ đăng ký được Visa. Điều kiện: sống ở Nhật, từ 18 tuổi, bản thân hoặc vợ/chồng có thu nhập ổn định, có điện thoại di động xác thực được danh tính"
+      },
+      {
+       "id": "aeon-select",
+       "head": "Miễn phí thường niên・1 điểm cho mỗi 200 yên (gấp đôi ở AEON)",
+       "fit": "Người hay mua sắm ở AEON gần nhà",
+       "merit": "Gộp chung với thẻ rút tiền của ngân hàng AEON. Gấp đôi điểm ở cửa hàng tập đoàn AEON đủ điều kiện. Giảm 5% hàng đủ điều kiện vào ngày 20 và 30 hằng tháng",
+       "caution": "Cần tài khoản ngân hàng AEON (mở miễn phí cùng lúc khi đăng ký). Ngoài AEON chỉ hoàn 0,5%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. Danh sách kiểm tra trước khi đăng ký",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "Trước khi đăng ký",
+     "items": [
+      "Họ tên, địa chỉ, số điện thoại ghi giống hệt giấy tờ tùy thân (người nước ngoài ghi tên như trên thẻ cư trú)",
+      "Đặt hạn mức ứng tiền mặt (キャッシング) là 0 yên",
+      "Trong nửa năm qua không đăng ký nhiều thẻ cùng lúc",
+      "Ghi đúng thu nhập, nơi làm việc, số năm làm việc",
+      "Không chậm trả tiền điện thoại hay các khoản khác",
+      "Không chọn trả góp quay vòng tự động (リボ払い)"
+     ],
+     "done": "Đã sẵn sàng, hãy đăng ký.",
+     "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+    }
+   ]
+  },
+  {
+   "heading": "6. Nếu bị từ chối",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "Đừng đăng ký thẻ khác ngay (chờ khoảng nửa năm)",
+      "Kiểm tra thông tin tín dụng của bạn tại CIC (online 500 yên, cần thẻ My Number; qua bưu điện 1.500 yên)",
+      "Trong thời gian đó dùng thẻ ghi nợ (trừ thẳng từ tài khoản ngân hàng)",
+      "Xem lại danh sách kiểm tra ở trên"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "7. Nếu bạn là người nước ngoài",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "<strong>Chuẩn bị</strong>: thẻ cư trú, địa chỉ ở Nhật, tài khoản ngân hàng Nhật, số điện thoại di động",
+      "Ghi tên đúng như trên thẻ cư trú (cùng thứ tự, khoảng cách; không dùng tên thường gọi)",
+      "Công ty thẻ có thể yêu cầu nộp thẻ cư trú để xác nhận thời hạn lưu trú. Thẻ hết hạn không được chấp nhận, không nộp có thể bị hủy thẻ. Sau khi gia hạn, hãy nộp sớm",
+      "Nếu sắp về nước hoặc thời hạn lưu trú còn ngắn, việc xét duyệt thường thận trọng hơn",
+      "Tiêu chí xét duyệt không công khai. Không có thẻ nào “người nước ngoài chắc chắn được duyệt”"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "8. Lưu ý: trả góp quay vòng",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Trả góp quay vòng (リボ払い) giữ số tiền trả mỗi tháng cố định, nhưng phần còn lại chịu phí rất cao",
+      "Thẻ đầu tiên nên dùng trả một lần (1回払い). Khi đăng ký, kiểm tra không có cài đặt trả góp tự động"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "9. Lập trường của bài viết",
+   "blocks": [
+    {
+     "t": "disclosure"
+    }
+   ]
+  },
+  {
+   "heading": "10. Bước tiếp theo",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "Chọn 1 thẻ bằng trắc nghiệm 30 giây",
+      "Đăng ký theo danh sách kiểm tra",
+      "Khi nhận thẻ, kiểm tra tài khoản trừ tiền và cài đặt trả một lần"
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Điều kiện và ưu đãi đã được kiểm tra trên trang chính thức của từng công ty (2026-10-25). Chương trình và điều kiện có thể thay đổi, hãy kiểm tra trang chính thức trước khi đăng ký."
+    }
+   ]
+  }
+ ],
+ "title_ko": "일본에서 첫 신용카드, 무엇을 고를까? 30초 만에 나에게 맞는 카드 찾기・신청에서 실패하지 않는 요령 (외국인 주의점 포함)",
+ "description_ko": "연회비 무료 카드 5장(라쿠텐, 미쓰이스미토모 NL, JCB W, PayPay, 이온)을 혜택과 주의점으로 비교. 30초 진단, 연간 포인트 계산, 신청 전 체크리스트, 거절됐을 때 다음 단계, 외국인 신청 요령.",
+ "sections_ko": [
+  {
+   "heading": null,
+   "blocks": [
+    {
+     "t": "lead",
+     "label": "결론",
+     "text": "첫 카드는 <strong>연회비 영구 무료</strong>이면서 자주 쓰는 곳에서 혜택이 큰 카드 1장이면 충분합니다. 매달 3만 엔을 쓴다면 포인트만으로 1년에 약 1,800〜3,600엔이 돌아옵니다. 신청 방법을 제대로 갖추면 통과 확률도 높일 수 있습니다."
+    }
+   ]
+  },
+  {
+   "heading": "1. 카드가 없으면 이럴 때 불편하고 손해",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "온라인 쇼핑, 구독 서비스, 항공권・호텔 예약에서 카드만 받는 경우가 있음",
+      "휴대폰・전기・가스 요금을 카드로 내면 매달 포인트가 쌓임(현금이나 계좌 이체는 안 쌓임)",
+      "ETC 카드, 해외여행 보험 등 카드가 있어야 받을 수 있는 것이 있음",
+      "결제 기록이 남아 가계 관리가 쉬움"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "2. 30초 진단: 나에게 맞는 1장",
+   "blocks": [
+    {
+     "t": "cardquiz"
+    }
+   ]
+  },
+  {
+   "heading": "3. 매달 결제액으로 1년에 얼마 돌아올까?",
+   "blocks": [
+    {
+     "t": "pointcalc"
+    },
+    {
+     "t": "note",
+     "text": "기본 적립률로 계산한 대략적인 금액입니다. 대상 가맹점 추가 적립(미쓰이스미토모 NL의 7%, JCB W 제휴점 등)은 포함하지 않습니다."
+    }
+   ]
+  },
+  {
+   "heading": "4. 5장 자세히 비교",
+   "blocks": [
+    {
+     "t": "cardlist",
+     "items": [
+      {
+       "id": "rakuten-card",
+       "head": "연회비 영구 무료・적립 1%",
+       "fit": "온라인 쇼핑이 많은 사람, 라쿠텐 서비스를 자주 쓰는 사람",
+       "merit": "100엔에 1포인트. Visa・Mastercard・JCB・American Express 중 선택 가능",
+       "caution": "ETC 카드는 연회비 550엔. 외국 국적자는 체류 기간 확인을 위해 재류카드 제출을 요구받을 수 있음"
+      },
+      {
+       "id": "smbc-nl",
+       "head": "연회비 영구 무료・기본 0.5%",
+       "fit": "편의점・패스트푸드에서 스마트폰 터치 결제를 하는 사람, 바로 카드를 쓰고 싶은 사람",
+       "merit": "대상 편의점・음식점에서 스마트폰 터치 결제 시 7% 적립. 신청 후 최단 10초 만에 카드 번호 발급",
+       "caution": "기본 적립률이 0.5%로 낮음. 실물 카드 터치나 삽입은 7% 대상 아님. 050 IP 전화번호로는 신청 불가"
+      },
+      {
+       "id": "jcb-w",
+       "head": "연회비 영구 무료・적립 1%",
+       "fit": "18〜39세로 어디서나 1% 이상 원하는 사람, 해외여행을 자주 가는 사람",
+       "merit": "제휴점에서 최대 10.5%. 해외여행 보험 포함(최대 2,000만 엔)",
+       "caution": "39세까지만 신청 가능(40세 이후에도 무료 유지). 브랜드가 JCB뿐이라 해외에서 안 되는 가게가 있음"
+      },
+      {
+       "id": "paypay-card",
+       "head": "연회비 영구 무료・적립 1%",
+       "fit": "PayPay를 자주 쓰는 사람",
+       "merit": "PayPay 포인트가 쌓임",
+       "caution": "처음에는 Visa만 신청 가능. 일본 거주, 18세 이상, 본인이나 배우자에게 안정된 수입, 본인 인증이 가능한 휴대폰이 조건"
+      },
+      {
+       "id": "aeon-select",
+       "head": "연회비 무료・200엔에 1포인트(이온에서 2배)",
+       "fit": "가까운 이온에서 자주 장을 보는 사람",
+       "merit": "이온은행 현금카드와 일체형. 이온 그룹 대상 매장에서 포인트 2배. 매달 20일・30일 감사의 날에는 대상 상품 5% 할인",
+       "caution": "신청에 이온은행 계좌가 필요(신청과 동시에 무료 개설 가능). 이온 외에서는 0.5%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5. 신청 전 체크리스트",
+   "blocks": [
+    {
+     "t": "checklist",
+     "title": "신청 전 확인",
+     "items": [
+      "이름・주소・전화번호를 신분증과 똑같이 적었다(외국인은 재류카드 표기대로)",
+      "현금서비스(キャッシング) 한도를 0엔으로 했다",
+      "최근 반년 동안 여러 카드를 동시에 신청하지 않았다",
+      "연수입・근무처・근속 연수를 정확히 적었다",
+      "휴대폰 요금 등 연체가 없다",
+      "자동 리볼빙(リボ払い) 설정이 되어 있지 않다"
+     ],
+     "done": "준비 완료. 신청하세요.",
+     "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+    }
+   ]
+  },
+  {
+   "heading": "6. 거절됐을 때 다음 단계",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "바로 다른 카드를 신청하지 않는다(반년 정도 간격)",
+      "CIC에서 내 신용정보를 확인한다(인터넷 500엔・마이넘버카드 필요, 우편 1,500엔)",
+      "그동안은 체크카드(데빗카드)를 쓴다",
+      "위 체크리스트를 다시 확인한다"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "7. 외국인의 경우",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "<strong>준비할 것</strong>: 재류카드, 일본 주소, 일본 은행 계좌, 휴대폰 번호",
+      "이름은 재류카드 표기 그대로(순서・띄어쓰기까지, 통칭은 쓰지 않음)",
+      "체류 기간 확인을 위해 카드사에서 재류카드 제출을 요구할 수 있음. 기한이 지난 카드는 받지 않으며, 제출하지 않으면 해지될 수도 있음. 체류 기간을 갱신하면 빨리 제출",
+      "귀국 예정이 있거나 체류 기간이 얼마 남지 않으면 심사가 신중해지는 경향",
+      "심사 기준은 공개되지 않음. \"외국인도 반드시 통과\"하는 카드는 없음"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "8. 주의: 리볼빙",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "리볼빙(リボ払い)은 매달 결제액이 일정한 대신 남은 금액에 높은 수수료가 붙음",
+      "첫 카드는 일시불(1回払い)을 기본으로. 신청할 때 자동 리볼빙 설정이 없는지 확인"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "9. 이 글의 입장",
+   "blocks": [
+    {
+     "t": "disclosure"
+    }
+   ]
+  },
+  {
+   "heading": "10. 다음 단계",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "30초 진단으로 1장을 정한다",
+      "체크리스트를 보며 신청한다",
+      "카드가 오면 결제 계좌와 일시불 설정을 확인한다"
+     ]
+    },
+    {
+     "t": "note",
+     "text": "조건과 혜택은 각사 공식 사이트에서 확인했습니다(확인일: 2026-10-25). 캠페인과 조건은 바뀔 수 있으니 신청 전에 공식 사이트에서 확인하세요."
     }
    ]
   }

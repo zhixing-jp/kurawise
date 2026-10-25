@@ -12,9 +12,3 @@
 /en/medical/service/*   /en/medical/   301
 /vi/medical/service/*   /vi/medical/   301
 /ko/medical/service/*   /ko/medical/   301
-# 暮らしの記事で、まだ訳していない言語は、その言語の暮らしの入口へ（訳したら行を消す。10/26）
-/zh/kurashi/first-credit-card/      /zh/kurashi/      302
-/zh-TW/kurashi/first-credit-card/   /zh-TW/kurashi/   302
-/en/kurashi/first-credit-card/      /en/kurashi/      302
-/vi/kurashi/first-credit-card/      /vi/kurashi/      302
-/ko/kurashi/first-credit-card/      /ko/kurashi/      302

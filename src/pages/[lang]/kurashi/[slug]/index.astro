@@ -19,8 +19,9 @@ const desc: string = d[`description_${lang}`];
 const sections: any[] = d[`sections_${lang}`];
 const name = (SECTION_NAMES.kurashi as Record<string, string>)[lang];
 const hasAffiliate = (programsData as any).programs.some((p: any) => p.affiliate_url);
-const PR: Record<string, string> = { ja: 'PR　この記事は広告を含みます' };
-const CHECKED: Record<string, string> = { ja: '確認日' };
+const PR: Record<string, string> = { ja: 'PR　この記事は広告を含みます', zh: 'PR　本文包含广告', 'zh-TW': 'PR　本文包含廣告', en: 'PR: This article contains ads', vi: 'PR: Bài viết có quảng cáo', ko: 'PR　이 글에는 광고가 포함되어 있습니다' };
+const CHECKED: Record<string, string> = { ja: '確認日', zh: '确认日', 'zh-TW': '確認日', en: 'Checked', vi: 'Ngày kiểm tra', ko: '확인일' };
+const SEP = ['en', 'vi', 'ko'].includes(lang) ? ': ' : '：';
 const alternates = [
   ...article.langs.map((l: string) => ({ hreflang: l === 'zh' ? 'zh-CN' : l, href: `https://kurawise.com/${l}${article.url}` })),
   { hreflang: 'x-default', href: `https://kurawise.com/ja${article.url}` }
@@ -36,7 +37,7 @@ const alternates = [
   <div class="career-article-page">
     {hasAffiliate && <p class="ob-pr">{PR[lang] || PR.ja}</p>}
     <h1 class="career-article-title">{title}</h1>
-    <p class="career-article-checked">{CHECKED[lang] || CHECKED.ja}：{d.checked}</p>
+    <p class="career-article-checked">{CHECKED[lang] || CHECKED.ja}{SEP}{d.checked}</p>
     <CareerBlocks sections={sections} lang={lang} />
   </div>
   <div data-pagefind-body style="display:none">{title} {desc}</div>

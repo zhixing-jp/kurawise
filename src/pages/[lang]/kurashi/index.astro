@@ -20,8 +20,14 @@ const BODY: Record<string, string> = {
 };
 const body = BODY[lang] || BODY.en;
 const list = (kurashiIndex as any).articles.filter((a: any) => a.langs.includes(lang));
-const INTRO: Record<string, string> = { ja: 'クレジットカード・携帯電話・銀行・海外送金・部屋の契約など、暮らしのお金で損をしないための知恵を、具体的な数字で比べて紹介します。日本で暮らすすべての人に向けて書き、外国人の場合の注意点も添えています。' };
-const HEAD: Record<string, string> = { ja: '記事の一覧' };
+const INTRO: Record<string, string> = {
+  zh: '信用卡、手机、银行、跨境汇款、租房合同……用具体的数字做比较，介绍生活中不吃亏的金钱智慧。写给所有在日本生活的人，也附上外国人需要注意的地方。',
+  'zh-TW': '信用卡、手機、銀行、跨境匯款、租屋合約……用具體的數字做比較，介紹生活中不吃虧的金錢智慧。寫給所有在日本生活的人，也附上外國人需要注意的地方。',
+  en: 'Credit cards, phone plans, banks, international transfers, rental contracts: we compare the options with real numbers so you don\'t lose money in daily life. Written for everyone living in Japan, with notes for foreign residents.',
+  vi: 'Thẻ tín dụng, điện thoại, ngân hàng, chuyển tiền quốc tế, hợp đồng thuê nhà: so sánh bằng con số cụ thể để bạn không bị thiệt trong chi tiêu hằng ngày. Viết cho mọi người sống ở Nhật, kèm lưu ý cho người nước ngoài.',
+  ko: '신용카드·휴대폰·은행·해외 송금·임대 계약 등, 생활 속 돈 문제에서 손해 보지 않도록 구체적인 숫자로 비교해 소개합니다. 일본에 사는 모든 분을 위해 쓰고, 외국인이 주의할 점도 덧붙였습니다.',
+  ja: 'クレジットカード・携帯電話・銀行・海外送金・部屋の契約など、暮らしのお金で損をしないための知恵を、具体的な数字で比べて紹介します。日本で暮らすすべての人に向けて書き、外国人の場合の注意点も添えています。' };
+const HEAD: Record<string, string> = { ja: '記事の一覧', zh: '文章列表', 'zh-TW': '文章列表', en: 'Articles', vi: 'Bài viết', ko: '글 목록' };
 ---
 <Base title={`${name} | Kurawise`} description={list.length ? (INTRO[lang] || body) : body} noindex={list.length === 0} skipReadTracking={true}>
   <main class="kurashi-page hub-page">

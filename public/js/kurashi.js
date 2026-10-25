@@ -28,13 +28,15 @@
   // 年間ポイントの計算
   document.querySelectorAll('[data-ob-calc]').forEach(function (box) {
     var rates = JSON.parse(box.getAttribute('data-rates'));
+    var lg = box.getAttribute('data-lang') || 'ja';
+    var unit = (lg === 'en' || lg === 'vi' ? ' ' : '') + (box.getAttribute('data-yen') || '円');
     var input = box.querySelector('[data-monthly]'), bars = box.querySelector('[data-bars]');
     function draw() {
       var m = Math.max(0, Number(input.value) || 0);
       var vals = rates.map(function (r) { return { name: r.name, v: m * 12 * r.rate / 100 }; });
       var max = Math.max.apply(null, vals.map(function (x) { return x.v; })) || 1;
       bars.innerHTML = vals.map(function (x) {
-        return '<div class="cb-bar-row"><span class="cb-bar-label">' + x.name + '</span><span class="cb-bar-track"><span class="cb-bar-fill" style="width:' + Math.max(4, Math.round(x.v / max * 100)) + '%"></span></span><span class="cb-bar-value">' + fmt(x.v) + '円</span></div>';
+        return '<div class="cb-bar-row"><span class="cb-bar-label">' + x.name + '</span><span class="cb-bar-track"><span class="cb-bar-fill" style="width:' + Math.max(4, Math.round(x.v / max * 100)) + '%"></span></span><span class="cb-bar-value">' + fmt(x.v) + unit + '</span></div>';
       }).join('');
     }
     input.addEventListener('input', draw); draw();

@@ -8,7 +8,12 @@
       "affiliate_url": null,
       "asp": null,
       "checked": "2026-10-25",
-      "note": ""
+      "note": "",
+      "name_en": "Rakuten Card",
+      "name_vi": "Rakuten Card",
+      "name_ko": "라쿠텐 카드",
+      "name_zh": "乐天卡（楽天カード）",
+      "name_zh-TW": "樂天卡（楽天カード）"
     },
     {
       "id": "smbc-nl",
@@ -17,7 +22,12 @@
       "affiliate_url": null,
       "asp": null,
       "checked": "2026-10-25",
-      "note": ""
+      "note": "",
+      "name_en": "Sumitomo Mitsui Card (NL)",
+      "name_vi": "Sumitomo Mitsui Card (NL)",
+      "name_ko": "미쓰이스미토모 카드(NL)",
+      "name_zh": "三井住友卡（NL）",
+      "name_zh-TW": "三井住友卡（NL）"
     },
     {
       "id": "jcb-w",
@@ -26,7 +36,12 @@
       "affiliate_url": null,
       "asp": null,
       "checked": "2026-10-25",
-      "note": ""
+      "note": "",
+      "name_en": "JCB Card W",
+      "name_vi": "JCB Card W",
+      "name_ko": "JCB 카드 W",
+      "name_zh": "JCB 卡 W",
+      "name_zh-TW": "JCB 卡 W"
     },
     {
       "id": "paypay-card",
@@ -34,8 +49,13 @@
       "official_url": "https://www.paypay-card.co.jp/",
       "affiliate_url": null,
       "asp": null,
-      "checked": "2026-10-25",
-      "note": "条件は解説サイト（2026-09更新）で確認。公式で再確認する"
+      "checked": "2026-10-26",
+      "note": "条件は公式ヘルプ（申し込み条件）で確認 2026-10-26",
+      "name_en": "PayPay Card",
+      "name_vi": "PayPay Card",
+      "name_ko": "PayPay 카드",
+      "name_zh": "PayPay 卡",
+      "name_zh-TW": "PayPay 卡"
     },
     {
       "id": "aeon-select",
@@ -43,8 +63,13 @@
       "official_url": "https://www.aeonbank.co.jp/aeoncard/special/308/",
       "affiliate_url": null,
       "asp": null,
-      "checked": "2026-10-25",
-      "note": "公式ページの情報は2023年1月時点"
+      "checked": "2026-10-26",
+      "note": "公式（2023年1月時点）＋解説サイト（2026-07更新）で一致を確認 2026-10-26",
+      "name_en": "AEON Card Select",
+      "name_vi": "AEON Card Select",
+      "name_ko": "이온 카드 셀렉트",
+      "name_zh": "永旺卡 Select（イオンカードセレクト）",
+      "name_zh-TW": "永旺卡 Select（イオンカードセレクト）"
     }
   ]
 }
