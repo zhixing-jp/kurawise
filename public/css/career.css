@@ -615,3 +615,19 @@
 .ob-disclosure a { margin-left: 4px; }
 .ob-pr { display: inline-block; font-size: 11px; font-weight: 700; color: var(--t3); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; margin-bottom: 6px; }
 @media (min-width: 1024px) { .ob-cards { grid-template-columns: 1fr 1fr; } }
+
+/* 海外送金の計算機・単独の案内ボタン（2026-10-26） */
+.ob-remit-dir { border: 0; padding: 0; margin: 0 0 12px; }
+.ob-remit-dir legend { font-size: 14px; font-weight: 700; color: var(--t1); margin-bottom: 6px; padding: 0; }
+.ob-remit-dir label { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--t1); margin-bottom: 6px; }
+.ob-remit-dir input { accent-color: var(--blue); }
+.ob-remit-svcs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.ob-remit-svc { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+.ob-remit-svc .ob-calc-label { font-size: 12.5px; margin-bottom: 8px; }
+.ob-remit-svc .ob-calc-label input { font-size: 16px; padding: 8px; max-width: 100%; }
+.ob-remit-svc-name { font-size: 14px; font-weight: 800; color: var(--blue); margin: 0 0 8px; }
+.ob-remit-out { display: flex; flex-direction: column; font-size: 12px; color: var(--t3); margin: 6px 0 0; }
+.ob-remit-out strong { font-size: 17px; color: var(--t1); }
+.ob-remit .ob-small { display: block; font-weight: 400; }
+.ob-offer { margin: 6px 0 14px; }
+.ob-offer-text { font-size: 14.5px; line-height: 1.7; color: var(--t1); margin: 0; }

@@ -70,6 +70,20 @@
       "name_ko": "이온 카드 셀렉트",
       "name_zh": "永旺卡 Select（イオンカードセレクト）",
       "name_zh-TW": "永旺卡 Select（イオンカードセレクト）"
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "official_url": "https://wise.com/jp/",
+      "affiliate_url": null,
+      "asp": "Partnerize（申請予定）",
+      "checked": "2026-10-26",
+      "note": "他社との比較表現は Wise の事前承認が必要。有料広告は禁止。",
+      "name_en": "Wise",
+      "name_vi": "Wise",
+      "name_ko": "Wise",
+      "name_zh": "Wise",
+      "name_zh-TW": "Wise"
     }
   ]
 }

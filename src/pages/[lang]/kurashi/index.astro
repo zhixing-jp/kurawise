@@ -27,6 +27,13 @@ const INTRO: Record<string, string> = {
   vi: 'Thẻ tín dụng, điện thoại, ngân hàng, chuyển tiền quốc tế, hợp đồng thuê nhà: so sánh bằng con số cụ thể để bạn không bị thiệt trong chi tiêu hằng ngày. Viết cho mọi người sống ở Nhật, kèm lưu ý cho người nước ngoài.',
   ko: '신용카드·휴대폰·은행·해외 송금·임대 계약 등, 생활 속 돈 문제에서 손해 보지 않도록 구체적인 숫자로 비교해 소개합니다. 일본에 사는 모든 분을 위해 쓰고, 외국인이 주의할 점도 덧붙였습니다.',
   ja: 'クレジットカード・携帯電話・銀行・海外送金・部屋の契約など、暮らしのお金で損をしないための知恵を、具体的な数字で比べて紹介します。日本で暮らすすべての人に向けて書き、外国人の場合の注意点も添えています。' };
+const GROUPS: Record<string, Record<string, string>> = {
+  remit: { ja: '海外送金で困ったとき', zh: '海外汇款遇到问题时', 'zh-TW': '海外匯款遇到問題時', en: 'Sending money abroad: when you get stuck', vi: 'Khi gặp khó khăn với chuyển tiền ra nước ngoài', ko: '해외 송금으로 곤란할 때' },
+  card: { ja: 'クレジットカード', zh: '信用卡', 'zh-TW': '信用卡', en: 'Credit cards', vi: 'Thẻ tín dụng', ko: '신용카드' }
+};
+const ICON: Record<string, string> = { remit: '💸', card: '💳' };
+const groupOrder: string[] = [];
+for (const a of list) { const g = a.group || 'other'; if (!groupOrder.includes(g)) groupOrder.push(g); }
 const HEAD: Record<string, string> = { ja: '記事の一覧', zh: '文章列表', 'zh-TW': '文章列表', en: 'Articles', vi: 'Bài viết', ko: '글 목록' };
 ---
 <Base title={`${name} | Kurawise`} description={list.length ? (INTRO[lang] || body) : body} noindex={list.length === 0} skipReadTracking={true}>
@@ -39,18 +46,20 @@ const HEAD: Record<string, string> = { ja: '記事の一覧', zh: '文章列表'
     ) : (
       <>
         <p class="hub-intro">{INTRO[lang] || body}</p>
-        <section class="cblock">
-          <h2 class="cblock-head"><span aria-hidden="true">📚</span>{HEAD[lang] || HEAD.ja}</h2>
-          <div class="ios-list">
-            {list.map((a: any) => (
-              <a class="ios-row ios-tone--green" href={`/${lang}${a.url}`}>
-                <span class="ios-ico" aria-hidden="true">{a.icon}</span>
-                <span class="ios-text"><span class="ios-title">{a[`title_${lang}`]}</span><span class="ios-sub">{a[`sub_${lang}`]}</span></span>
-                <span class="ios-chev" aria-hidden="true">›</span>
-              </a>
-            ))}
-          </div>
-        </section>
+        {groupOrder.map((g) => (
+          <section class="cblock">
+            <h2 class="cblock-head"><span aria-hidden="true">{ICON[g] || '📚'}</span>{(GROUPS[g] && (GROUPS[g][lang] || GROUPS[g].ja)) || HEAD[lang] || HEAD.ja}</h2>
+            <div class="ios-list">
+              {list.filter((a: any) => (a.group || 'other') === g).map((a: any) => (
+                <a class="ios-row ios-tone--green" href={`/${lang}${a.url}`}>
+                  <span class="ios-ico" aria-hidden="true">{a.icon}</span>
+                  <span class="ios-text"><span class="ios-title">{a[`title_${lang}`]}</span><span class="ios-sub">{a[`sub_${lang}`]}</span></span>
+                  <span class="ios-chev" aria-hidden="true">›</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))}
       </>
     )}
   </main>

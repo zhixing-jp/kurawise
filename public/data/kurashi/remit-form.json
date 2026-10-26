@@ -1,0 +1,1216 @@
+{
+  "id": "remit-form",
+  "checked": "2026-10-26",
+  "title_ja": "海外送金の書き方：目的・名前・住所・SWIFT コードの記入例（国別の注意つき）",
+  "description_ja": "海外送金の目的は英語で何と書く？受取人の名前・住所・SWIFT コードはどう書けば止まらない？そのまま写せる記入例と、中国・ベトナム・韓国など国別の注意、送る前のチェック表。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "送金が止まる原因の多くは、名前のつづりや番号の小さな違いです。受取人の情報は、<strong>相手の口座の名義どおりに、相手から文字で送ってもらい、そのまま写す</strong>のがいちばん確実です。目的は、いちばん近いものを英語で選べば十分です。"
+        }
+      ]
+    },
+    {
+      "heading": "一、相手から送ってもらう情報と書き方",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "項目",
+            "書き方",
+            "よくある間違い"
+          ],
+          "rows": [
+            [
+              "受取人の名前",
+              "口座の名義どおり、ローマ字の大文字",
+              "名字と名前の順番、スペース、ミドルネームの抜け"
+            ],
+            [
+              "受取人の住所",
+              "英語で。国・省（州）・市・郵便番号まで",
+              "中国の「省」、アメリカの「州」の抜け"
+            ],
+            [
+              "受取人の電話番号",
+              "国番号から（中国 +86、ベトナム +84、韓国 +82、フィリピン +63）",
+              "先頭の 0 を残したまま書く"
+            ],
+            [
+              "口座番号",
+              "相手の口座番号。ヨーロッパは IBAN",
+              "カード番号と口座番号の取り違え"
+            ],
+            [
+              "受取銀行の名前・支店",
+              "英語の正式名",
+              "略称や現地の文字のまま書く"
+            ],
+            [
+              "SWIFT コード",
+              "8けたか11けた。受取銀行の公式サイトで確かめる",
+              "別の銀行・別の支店のコード"
+            ],
+            [
+              "中継銀行",
+              "ふつうは空欄でよい。受取銀行が指定しているときだけ書く",
+              "分からないのに書いて、かえって止まる"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "いちばん確実なのは、相手に銀行のアプリの「口座の情報」の画面を、写真か文字で送ってもらうことです。電話で聞いて書き取ると、つづりを間違えやすくなります。"
+        }
+      ]
+    },
+    {
+      "heading": "二、送金の目的：そのまま使える英語",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "目的",
+            "英語",
+            "こんなとき"
+          ],
+          "rows": [
+            [
+              "家族への仕送り",
+              "Family support / Living expenses",
+              "親・配偶者・子どもの生活費"
+            ],
+            [
+              "学費",
+              "Tuition fee / School expenses",
+              "子どもの学費、留学の学費"
+            ],
+            [
+              "自分の口座へ",
+              "Transfer to own account",
+              "自分名義の海外の口座への預け入れ"
+            ],
+            [
+              "医療費",
+              "Medical expenses",
+              "家族の入院・治療費"
+            ],
+            [
+              "贈り物・お祝い",
+              "Gift",
+              "結婚祝い・出産祝いなど"
+            ],
+            [
+              "ローン・家賃",
+              "Loan repayment / Rent",
+              "母国の住宅ローン、家賃"
+            ],
+            [
+              "商品の代金",
+              "Payment for goods",
+              "個人輸入、仕入れ"
+            ],
+            [
+              "仕事の報酬",
+              "Service fee",
+              "海外のフリーランスへの支払い"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "目的は、本当の理由にいちばん近いものを選びます。違う目的を選ぶと、確認で止まったり、相手の国で受け取れなかったりします",
+            "金額が大きいときは、目的を確かめる書類（学費の請求書など）や、お金の出どころ（給与明細など）を求められることがあります",
+            "<strong>なぜ聞かれるのか</strong>：犯罪のお金を防ぐため、銀行と送金会社には確認が義務づけられています。目的は相手の銀行にも伝わるので、英語で書きます"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、国別の注意",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "国",
+            "名前の書き方",
+            "ほかの注意"
+          ],
+          "rows": [
+            [
+              "中国",
+              "拼音の大文字。口座の名義と1文字も違わないように（例：ZHANG XIAOMING）",
+              "住所は省・市まで。受け取った人が外貨を人民元に両替できるのは、1人年5万ドル相当まで。支付宝・微信で受け取るときは、受取人が本人確認と銀行カードの紐づけを済ませていること"
+            ],
+            [
+              "ベトナム",
+              "声調記号をつけない大文字（例：NGUYEN VAN AN）",
+              "口座の名義どおりに。銀行は正式名と SWIFT コードで確かめる"
+            ],
+            [
+              "韓国",
+              "銀行に登録した英語の名前（パスポートと同じことが多い）",
+              "名字と名前の順番を、相手に確かめる"
+            ],
+            [
+              "フィリピン・ネパールなど",
+              "口座の名義どおり",
+              "現金で受け取るサービスでは、受取人の身分証の名前と完全に同じにする"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、送る前のチェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "送る前に確かめる",
+          "items": [
+            "受取人の名前を、相手の口座の名義と1文字ずつ比べた",
+            "住所に国・省（州）・郵便番号まで入れた",
+            "口座番号（ヨーロッパは IBAN）を、相手から文字でもらって写した",
+            "SWIFT コードを、受取銀行の公式サイトで確かめた",
+            "目的を、いちばん近いものから選んだ",
+            "送ったあと、控え（受付番号）を保存する"
+          ],
+          "done": "準備ができました。送りましょう。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        }
+      ]
+    },
+    {
+      "heading": "五、迷ったとき・間違えたとき",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "受取人に、受取銀行のアプリか窓口で「海外から受け取るのに必要な情報」を聞いてもらう",
+            "送る前なら、送る側の銀行・送金会社の窓口に聞く",
+            "送ったあとに間違いに気づいたら、すぐに「変更（訂正）」を頼む。手数料がかかる（三菱UFJ銀行の例：4,000円）"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "手数料などは各社の公式サイトで確かめたものです（確認日：2026-10-26）。変わることがあるので、送る前に確かめてください。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "从日本海外汇款怎么填：汇款用途・姓名・地址・SWIFT 代码填写范例（附各国注意事项）",
+  "description_zh": "海外汇款的用途用英文怎么写？收款人姓名、地址、SWIFT 代码怎么填才不会被卡？可以直接照抄的填写范例，中国・越南・韩国等各国注意事项，以及汇款前检查清单。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "汇款被卡住，多数是因为姓名拼写或号码的小错误。收款人信息<strong>请让对方按账户户名用文字发给你，原样照抄</strong>，这是最稳妥的办法。用途只要从英文选项里选最接近的一项就够了。"
+        }
+      ]
+    },
+    {
+      "heading": "一、要向对方要的信息和填写方法",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "项目",
+            "怎么填",
+            "常见错误"
+          ],
+          "rows": [
+            [
+              "收款人姓名",
+              "与账户户名完全一致，用大写拼音或罗马字",
+              "姓和名的顺序、空格、漏掉中间名"
+            ],
+            [
+              "收款人地址",
+              "用英文，写到国家・省（州）・市・邮编",
+              "漏写中国的“省”、美国的“州”"
+            ],
+            [
+              "收款人电话",
+              "从国家代码写起（中国 +86、越南 +84、韩国 +82、菲律宾 +63）",
+              "保留了开头的 0"
+            ],
+            [
+              "账号",
+              "对方的银行账号。欧洲用 IBAN",
+              "把银行卡号和账号搞混"
+            ],
+            [
+              "收款银行名称・支行",
+              "英文正式名称",
+              "用简称或中文原文"
+            ],
+            [
+              "SWIFT 代码",
+              "8位或11位。在收款银行官网核对",
+              "填成别的银行或别的支行的代码"
+            ],
+            [
+              "中转行",
+              "一般留空即可。只有收款银行指定时才填",
+              "不清楚还硬填，反而被卡"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "最稳妥的方法：请对方把银行App里“账户信息”的页面截图或文字发给你。电话里听写，很容易拼错。"
+        }
+      ]
+    },
+    {
+      "heading": "二、汇款用途：可以直接用的英文",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "用途",
+            "英文",
+            "适用场景"
+          ],
+          "rows": [
+            [
+              "给家人的生活费",
+              "Family support / Living expenses",
+              "父母・配偶・子女的生活费"
+            ],
+            [
+              "学费",
+              "Tuition fee / School expenses",
+              "孩子的学费、留学学费"
+            ],
+            [
+              "汇到自己的账户",
+              "Transfer to own account",
+              "存到自己名下的海外账户"
+            ],
+            [
+              "医疗费",
+              "Medical expenses",
+              "家人住院・治疗费"
+            ],
+            [
+              "礼金・贺礼",
+              "Gift",
+              "结婚、生孩子的贺礼等"
+            ],
+            [
+              "贷款・房租",
+              "Loan repayment / Rent",
+              "国内的房贷、房租"
+            ],
+            [
+              "货款",
+              "Payment for goods",
+              "个人进口、进货"
+            ],
+            [
+              "劳务报酬",
+              "Service fee",
+              "付给海外自由职业者"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "用途请选最接近真实原因的一项。选了不符的用途，可能被要求确认而卡住，或者在对方国家收不到",
+            "金额较大时，可能会被要求提供用途证明（如学费账单）或资金来源证明（如工资单）",
+            "<strong>为什么要问用途</strong>：为了防止犯罪资金，银行和汇款公司有义务确认。用途也会传给收款银行，所以要用英文写"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、各国注意事项",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "国家",
+            "姓名写法",
+            "其他注意"
+          ],
+          "rows": [
+            [
+              "中国",
+              "大写拼音，与账户户名一字不差（例：ZHANG XIAOMING）",
+              "地址写到省・市。收款人把外币结汇成人民币，每人每年5万美元等值以内。用支付宝・微信收款时，收款人需完成实名认证并绑定银行卡"
+            ],
+            [
+              "越南",
+              "不带声调符号的大写（例：NGUYEN VAN AN）",
+              "与账户户名一致。用正式名称和 SWIFT 代码核对银行"
+            ],
+            [
+              "韩国",
+              "在银行登记的英文名（多与护照相同）",
+              "跟对方确认姓和名的顺序"
+            ],
+            [
+              "菲律宾・尼泊尔等",
+              "与账户户名一致",
+              "现金取款类服务，要与收款人身份证上的名字完全一致"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、汇款前检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "汇款前确认",
+          "items": [
+            "把收款人姓名和对方账户户名逐字核对过",
+            "地址写到了国家・省（州）・邮编",
+            "账号（欧洲为 IBAN）是让对方用文字发来后照抄的",
+            "在收款银行官网核对过 SWIFT 代码",
+            "用途选了最接近的一项",
+            "汇款后会保存回执（受理编号）"
+          ],
+          "done": "准备好了，可以汇款了。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        }
+      ]
+    },
+    {
+      "heading": "五、拿不准・填错了怎么办",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "请收款人在收款银行的App或柜台，问清“从海外收款需要的信息”",
+            "汇款前，可以先问汇款方银行・汇款公司的窗口",
+            "汇出后发现填错，马上申请“变更（更正）”。会收手续费（三菱UFJ银行的例子：4,000日元）"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "手续费等信息来自各公司官网（确认日：2026-10-26）。可能会变，汇款前请再确认。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "從日本海外匯款怎麼填：匯款用途・姓名・地址・SWIFT 代碼填寫範例（附各國注意事項）",
+  "description_zh-TW": "海外匯款的用途用英文怎麼寫？收款人姓名、地址、SWIFT 代碼怎麼填才不會被卡？可以直接照抄的填寫範例，中國・越南・韓國等各國注意事項，以及匯款前檢查清單。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "匯款被卡住，多數是因為姓名拼寫或號碼的小錯誤。收款人資訊<strong>請讓對方按帳戶戶名用文字發給你，原樣照抄</strong>，這是最穩妥的辦法。用途只要從英文選項裡選最接近的一項就夠了。"
+        }
+      ]
+    },
+    {
+      "heading": "一、要向對方要的資訊和填寫方法",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "專案",
+            "怎麼填",
+            "常見錯誤"
+          ],
+          "rows": [
+            [
+              "收款人姓名",
+              "與帳戶戶名完全一致，用大寫拼音或羅馬字",
+              "姓和名的順序、空格、漏掉中間名"
+            ],
+            [
+              "收款人地址",
+              "用英文，寫到國家・省（州）・市・郵編",
+              "漏寫中國的“省”、美國的“州”"
+            ],
+            [
+              "收款人電話",
+              "從國家代碼寫起（中國 +86、越南 +84、韓國 +82、菲律賓 +63）",
+              "保留了開頭的 0"
+            ],
+            [
+              "帳號",
+              "對方的銀行帳號。歐洲用 IBAN",
+              "把銀行卡號和帳號搞混"
+            ],
+            [
+              "收款銀行名稱・支行",
+              "英文正式名稱",
+              "用簡稱或中文原文"
+            ],
+            [
+              "SWIFT 代碼",
+              "8位或11位。在收款銀行官網核對",
+              "填成別的銀行或別的支行的代碼"
+            ],
+            [
+              "中轉行",
+              "一般留空即可。只有收款銀行指定時才填",
+              "不清楚還硬填，反而被卡"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "最穩妥的方法：請對方把銀行App裡“帳戶資訊”的頁面截圖或文字發給你。電話裡聽寫，很容易拼錯。"
+        }
+      ]
+    },
+    {
+      "heading": "二、匯款用途：可以直接用的英文",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "用途",
+            "英文",
+            "適用場景"
+          ],
+          "rows": [
+            [
+              "給家人的生活費",
+              "Family support / Living expenses",
+              "父母・配偶・子女的生活費"
+            ],
+            [
+              "學費",
+              "Tuition fee / School expenses",
+              "孩子的學費、留學學費"
+            ],
+            [
+              "匯到自己的帳戶",
+              "Transfer to own account",
+              "存到自己名下的海外帳戶"
+            ],
+            [
+              "醫療費",
+              "Medical expenses",
+              "家人住院・治療費"
+            ],
+            [
+              "禮金・賀禮",
+              "Gift",
+              "結婚、生孩子的賀禮等"
+            ],
+            [
+              "貸款・房租",
+              "Loan repayment / Rent",
+              "國內的房貸、房租"
+            ],
+            [
+              "貨款",
+              "Payment for goods",
+              "個人進口、進貨"
+            ],
+            [
+              "勞務報酬",
+              "Service fee",
+              "付給海外自由職業者"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "用途請選最接近真實原因的一項。選了不符的用途，可能被要求確認而卡住，或者在對方國家收不到",
+            "金額較大時，可能會被要求提供用途證明（如學費賬單）或資金來源證明（如工資單）",
+            "<strong>為什麼要問用途</strong>：為了防止犯罪資金，銀行和匯款公司有義務確認。用途也會傳給收款銀行，所以要用英文寫"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、各國注意事項",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "國家",
+            "姓名寫法",
+            "其他注意"
+          ],
+          "rows": [
+            [
+              "中國",
+              "大寫拼音，與帳戶戶名一字不差（例：ZHANG XIAOMING）",
+              "地址寫到省・市。收款人把外幣結匯成人民幣，每人每年5萬美元等值以內。用支付寶・微信收款時，收款人需完成實名認證並繫結銀行卡"
+            ],
+            [
+              "越南",
+              "不帶聲調符號的大寫（例：NGUYEN VAN AN）",
+              "與帳戶戶名一致。用正式名稱和 SWIFT 代碼核對銀行"
+            ],
+            [
+              "韓國",
+              "在銀行登記的英文名（多與護照相同）",
+              "跟對方確認姓和名的順序"
+            ],
+            [
+              "菲律賓・尼泊爾等",
+              "與帳戶戶名一致",
+              "現金取款類服務，要與收款人身份證上的名字完全一致"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、匯款前檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "匯款前確認",
+          "items": [
+            "把收款人姓名和對方帳戶戶名逐字核對過",
+            "地址寫到了國家・省（州）・郵編",
+            "帳號（歐洲為 IBAN）是讓對方用文字發來後照抄的",
+            "在收款銀行官網核對過 SWIFT 代碼",
+            "用途選了最接近的一項",
+            "匯款後會儲存回執（受理編號）"
+          ],
+          "done": "準備好了，可以匯款了。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        }
+      ]
+    },
+    {
+      "heading": "五、拿不準・填錯了怎麼辦",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "請收款人在收款銀行的App或櫃檯，問清“從海外收款需要的資訊”",
+            "匯款前，可以先問匯款方銀行・匯款公司的視窗",
+            "匯出後發現填錯，馬上申請“變更（更正）”。會收手續費（三菱UFJ銀行的例子：4,000日圓）"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "手續費等資訊來自各公司官網（確認日：2026-10-26）。可能會變，匯款前請再確認。"
+        }
+      ]
+    }
+  ],
+  "title_en": "How to Fill In an International Transfer from Japan: Purpose, Name, Address and SWIFT Code Examples (with Country Notes)",
+  "description_en": "What should you write as the purpose of an international transfer? How do you enter the recipient name, address and SWIFT code so the transfer does not get stuck? Ready-to-copy examples, country notes and a checklist.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "Most stuck transfers come down to a small difference in a name or a number. The safest way is to <strong>have the recipient send their details in writing, exactly as the account name appears, and copy them as they are</strong>. For the purpose, picking the closest English option is enough."
+        }
+      ]
+    },
+    {
+      "heading": "1. Details to get from the recipient, and how to write them",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "How to write it",
+            "Common mistake"
+          ],
+          "rows": [
+            [
+              "Recipient name",
+              "Exactly as the account name, in capital Latin letters",
+              "Wrong order of family and given name, spaces, missing middle name"
+            ],
+            [
+              "Recipient address",
+              "In English, with country, province or state, city and postcode",
+              "Leaving out the province (China) or state (US)"
+            ],
+            [
+              "Recipient phone",
+              "Starting with the country code (China +86, Vietnam +84, Korea +82, Philippines +63)",
+              "Keeping the leading 0"
+            ],
+            [
+              "Account number",
+              "The recipient's account number. IBAN for Europe",
+              "Mixing up the card number and the account number"
+            ],
+            [
+              "Receiving bank and branch",
+              "Official English name",
+              "Abbreviations or names in the local script"
+            ],
+            [
+              "SWIFT code",
+              "8 or 11 characters. Check it on the receiving bank's official site",
+              "Code of another bank or another branch"
+            ],
+            [
+              "Intermediary bank",
+              "Usually leave blank. Fill in only if the receiving bank specifies one",
+              "Guessing, which can make the transfer stop"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "The surest way is to ask the recipient for a screenshot or text of the \"account details\" screen in their banking app. Writing it down over the phone often leads to spelling mistakes."
+        }
+      ]
+    },
+    {
+      "heading": "2. Purpose of the transfer: wording you can use as is",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Purpose",
+            "English",
+            "When"
+          ],
+          "rows": [
+            [
+              "Support for family",
+              "Family support / Living expenses",
+              "Living costs for parents, spouse or children"
+            ],
+            [
+              "Tuition",
+              "Tuition fee / School expenses",
+              "Children's school fees, study abroad"
+            ],
+            [
+              "To your own account",
+              "Transfer to own account",
+              "Depositing into your own account overseas"
+            ],
+            [
+              "Medical costs",
+              "Medical expenses",
+              "A family member's hospital or treatment costs"
+            ],
+            [
+              "Gift",
+              "Gift",
+              "Wedding or birth gifts"
+            ],
+            [
+              "Loan or rent",
+              "Loan repayment / Rent",
+              "Home loan or rent in your home country"
+            ],
+            [
+              "Goods",
+              "Payment for goods",
+              "Personal imports, purchases"
+            ],
+            [
+              "Work payment",
+              "Service fee",
+              "Paying a freelancer abroad"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Choose the option closest to the real reason. A wrong purpose can trigger extra checks or stop the money from being received in the other country",
+            "For large amounts you may be asked for proof of purpose (such as a tuition invoice) or source of funds (such as payslips)",
+            "<strong>Why they ask</strong>: banks and money transfer companies are required to check this to stop criminal money. The purpose is also passed to the receiving bank, so it is written in English"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Country notes",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Country",
+            "Name",
+            "Other notes"
+          ],
+          "rows": [
+            [
+              "China",
+              "Pinyin in capitals, identical to the account name (e.g. ZHANG XIAOMING)",
+              "Address down to province and city. A recipient can convert foreign currency into yuan up to the equivalent of USD 50,000 per person per year. For Alipay or WeChat, the recipient must have finished identity verification and linked a bank card"
+            ],
+            [
+              "Vietnam",
+              "Capitals without tone marks (e.g. NGUYEN VAN AN)",
+              "Exactly as the account name. Check the bank by its official name and SWIFT code"
+            ],
+            [
+              "Korea",
+              "The English name registered with the bank (often the same as the passport)",
+              "Confirm the order of family and given name with the recipient"
+            ],
+            [
+              "Philippines, Nepal, etc.",
+              "Exactly as the account name",
+              "For cash pickup services, match the name on the recipient's ID exactly"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Pre-transfer checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Check before you send",
+          "items": [
+            "I compared the recipient name with the account name letter by letter",
+            "The address includes country, province or state, and postcode",
+            "I copied the account number (IBAN in Europe) from text the recipient sent me",
+            "I checked the SWIFT code on the receiving bank's official site",
+            "I chose the closest purpose",
+            "I will keep the receipt (reference number) after sending"
+          ],
+          "done": "You're ready. Go ahead and send.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        }
+      ]
+    },
+    {
+      "heading": "5. When unsure, or if you made a mistake",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Ask the recipient to check with their bank (app or counter) what details are needed to receive money from abroad",
+            "Before sending, ask the sending bank or money transfer company",
+            "If you notice a mistake after sending, ask for an amendment right away. There is a fee (MUFG Bank example: 4,000 yen)"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Fees were checked on each company's official site (checked: 2026-10-26). They can change, so check before sending."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Cách điền chuyển tiền quốc tế từ Nhật: mẫu ghi mục đích, tên, địa chỉ, mã SWIFT (kèm lưu ý theo từng nước)",
+  "description_vi": "Mục đích chuyển tiền ghi bằng tiếng Anh thế nào? Tên, địa chỉ, mã SWIFT của người nhận điền ra sao để không bị kẹt? Mẫu có thể chép lại ngay, lưu ý cho Việt Nam, Trung Quốc, Hàn Quốc và danh sách kiểm tra.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Phần lớn trường hợp tiền bị kẹt là do sai một chút ở tên hoặc số. Cách chắc nhất là <strong>nhờ người nhận gửi thông tin bằng chữ, đúng như tên chủ tài khoản, rồi chép lại nguyên văn</strong>. Mục đích thì chỉ cần chọn mục gần nhất bằng tiếng Anh."
+        }
+      ]
+    },
+    {
+      "heading": "1. Thông tin cần xin người nhận và cách ghi",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Mục",
+            "Cách ghi",
+            "Lỗi hay gặp"
+          ],
+          "rows": [
+            [
+              "Tên người nhận",
+              "Đúng tên chủ tài khoản, chữ in hoa không dấu",
+              "Sai thứ tự họ và tên, khoảng trắng, thiếu tên đệm"
+            ],
+            [
+              "Địa chỉ người nhận",
+              "Bằng tiếng Anh, ghi đủ nước, tỉnh/bang, thành phố, mã bưu chính",
+              "Thiếu tỉnh (Trung Quốc) hoặc bang (Mỹ)"
+            ],
+            [
+              "Số điện thoại",
+              "Bắt đầu bằng mã nước (Việt Nam +84, Trung Quốc +86, Hàn Quốc +82, Philippines +63)",
+              "Vẫn giữ số 0 ở đầu"
+            ],
+            [
+              "Số tài khoản",
+              "Số tài khoản của người nhận. Châu Âu dùng IBAN",
+              "Nhầm số thẻ với số tài khoản"
+            ],
+            [
+              "Tên ngân hàng nhận, chi nhánh",
+              "Tên chính thức bằng tiếng Anh",
+              "Ghi tên viết tắt hoặc tiếng địa phương"
+            ],
+            [
+              "Mã SWIFT",
+              "8 hoặc 11 ký tự. Kiểm tra trên trang chính thức của ngân hàng nhận",
+              "Mã của ngân hàng khác hoặc chi nhánh khác"
+            ],
+            [
+              "Ngân hàng trung gian",
+              "Thường để trống. Chỉ ghi khi ngân hàng nhận yêu cầu",
+              "Đoán bừa, làm tiền bị kẹt"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Cách chắc nhất: nhờ người nhận chụp màn hình hoặc gửi chữ trang \"thông tin tài khoản\" trong ứng dụng ngân hàng. Nghe qua điện thoại rồi ghi lại rất dễ sai chính tả."
+        }
+      ]
+    },
+    {
+      "heading": "2. Mục đích chuyển tiền: tiếng Anh dùng được ngay",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Mục đích",
+            "Tiếng Anh",
+            "Khi nào"
+          ],
+          "rows": [
+            [
+              "Gửi tiền nuôi gia đình",
+              "Family support / Living expenses",
+              "Sinh hoạt phí cho bố mẹ, vợ/chồng, con"
+            ],
+            [
+              "Học phí",
+              "Tuition fee / School expenses",
+              "Học phí của con, du học"
+            ],
+            [
+              "Vào tài khoản của mình",
+              "Transfer to own account",
+              "Gửi vào tài khoản đứng tên mình ở nước ngoài"
+            ],
+            [
+              "Viện phí",
+              "Medical expenses",
+              "Chi phí nằm viện, chữa bệnh của người nhà"
+            ],
+            [
+              "Quà, mừng",
+              "Gift",
+              "Mừng cưới, mừng sinh con"
+            ],
+            [
+              "Trả nợ vay, tiền nhà",
+              "Loan repayment / Rent",
+              "Khoản vay mua nhà, tiền thuê nhà ở quê"
+            ],
+            [
+              "Tiền hàng",
+              "Payment for goods",
+              "Nhập hàng cá nhân"
+            ],
+            [
+              "Thù lao công việc",
+              "Service fee",
+              "Trả cho người làm tự do ở nước ngoài"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Chọn mục gần nhất với lý do thật. Chọn sai có thể bị kiểm tra thêm hoặc bên kia không nhận được",
+            "Khi số tiền lớn, có thể bị yêu cầu giấy tờ chứng minh mục đích (hóa đơn học phí…) hoặc nguồn tiền (phiếu lương…)",
+            "<strong>Vì sao bị hỏi</strong>: để ngăn tiền bất hợp pháp, ngân hàng và công ty chuyển tiền bắt buộc phải kiểm tra. Mục đích cũng được chuyển sang ngân hàng nhận nên phải ghi bằng tiếng Anh"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Lưu ý theo từng nước",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Nước",
+            "Cách ghi tên",
+            "Lưu ý khác"
+          ],
+          "rows": [
+            [
+              "Việt Nam",
+              "Chữ in hoa không dấu (ví dụ: NGUYEN VAN AN)",
+              "Đúng tên chủ tài khoản. Kiểm tra ngân hàng bằng tên chính thức và mã SWIFT"
+            ],
+            [
+              "Trung Quốc",
+              "Pinyin in hoa, giống hệt tên chủ tài khoản (ví dụ: ZHANG XIAOMING)",
+              "Địa chỉ ghi đến tỉnh, thành phố. Người nhận đổi ngoại tệ sang nhân dân tệ tối đa tương đương 50.000 USD mỗi người mỗi năm"
+            ],
+            [
+              "Hàn Quốc",
+              "Tên tiếng Anh đã đăng ký với ngân hàng (thường giống hộ chiếu)",
+              "Hỏi lại thứ tự họ và tên"
+            ],
+            [
+              "Philippines, Nepal…",
+              "Đúng tên chủ tài khoản",
+              "Với dịch vụ nhận tiền mặt, tên phải giống hệt giấy tờ tùy thân của người nhận"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Danh sách kiểm tra trước khi gửi",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Kiểm tra trước khi gửi",
+          "items": [
+            "Đã so tên người nhận với tên chủ tài khoản từng chữ một",
+            "Địa chỉ có đủ nước, tỉnh/bang, mã bưu chính",
+            "Số tài khoản (châu Âu là IBAN) được chép từ tin nhắn người nhận gửi",
+            "Đã kiểm tra mã SWIFT trên trang chính thức của ngân hàng nhận",
+            "Đã chọn mục đích gần nhất",
+            "Sẽ lưu biên nhận (số tham chiếu) sau khi gửi"
+          ],
+          "done": "Đã sẵn sàng. Hãy gửi tiền.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        }
+      ]
+    },
+    {
+      "heading": "5. Khi phân vân hoặc ghi sai",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Nhờ người nhận hỏi ngân hàng (ứng dụng hoặc quầy) cần thông tin gì để nhận tiền từ nước ngoài",
+            "Trước khi gửi, hỏi quầy của ngân hàng hoặc công ty chuyển tiền bên gửi",
+            "Nếu phát hiện sai sau khi gửi, hãy yêu cầu sửa (thay đổi) ngay. Có mất phí (ví dụ ngân hàng MUFG: 4.000 yên)"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Phí được kiểm tra trên trang chính thức của từng công ty (ngày kiểm tra: 2026-10-26). Có thể thay đổi, hãy kiểm tra trước khi gửi."
+        }
+      ]
+    }
+  ],
+  "title_ko": "일본에서 해외 송금 작성법: 송금 목적·이름·주소·SWIFT 코드 작성 예시 (국가별 주의점 포함)",
+  "description_ko": "해외 송금 목적은 영어로 뭐라고 쓸까? 받는 사람의 이름·주소·SWIFT 코드는 어떻게 써야 멈추지 않을까? 그대로 옮겨 쓸 수 있는 예시, 한국·중국·베트남 등 국가별 주의점, 보내기 전 체크리스트.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "송금이 멈추는 원인의 대부분은 이름 철자나 번호의 작은 차이입니다. <strong>받는 사람에게 계좌 명의 그대로 정보를 글자로 보내 달라고 해서, 그대로 옮겨 쓰는 것</strong>이 가장 확실합니다. 목적은 가장 가까운 것을 영어로 고르면 충분합니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 받는 사람에게 받을 정보와 작성법",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "항목",
+            "작성법",
+            "자주 하는 실수"
+          ],
+          "rows": [
+            [
+              "받는 사람 이름",
+              "계좌 명의 그대로, 로마자 대문자",
+              "성과 이름 순서, 띄어쓰기, 중간 이름 누락"
+            ],
+            [
+              "받는 사람 주소",
+              "영어로. 국가·성(주)·도시·우편번호까지",
+              "중국의 \"성\", 미국의 \"주\" 누락"
+            ],
+            [
+              "받는 사람 전화번호",
+              "국가 번호부터(한국 +82, 중국 +86, 베트남 +84, 필리핀 +63)",
+              "맨 앞의 0을 그대로 씀"
+            ],
+            [
+              "계좌번호",
+              "받는 사람의 계좌번호. 유럽은 IBAN",
+              "카드 번호와 계좌번호 혼동"
+            ],
+            [
+              "받는 은행 이름·지점",
+              "영어 정식 명칭",
+              "약칭이나 현지 문자 그대로"
+            ],
+            [
+              "SWIFT 코드",
+              "8자리 또는 11자리. 받는 은행 공식 사이트에서 확인",
+              "다른 은행·다른 지점의 코드"
+            ],
+            [
+              "중개 은행",
+              "보통 비워 두면 됨. 받는 은행이 지정할 때만 작성",
+              "모르는데 써서 오히려 멈춤"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "가장 확실한 방법은 받는 사람에게 은행 앱의 \"계좌 정보\" 화면을 캡처하거나 글자로 보내 달라고 하는 것입니다. 전화로 듣고 받아 적으면 철자를 틀리기 쉽습니다."
+        }
+      ]
+    },
+    {
+      "heading": "2. 송금 목적: 그대로 쓸 수 있는 영어",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "목적",
+            "영어",
+            "이럴 때"
+          ],
+          "rows": [
+            [
+              "가족 생활비",
+              "Family support / Living expenses",
+              "부모·배우자·자녀의 생활비"
+            ],
+            [
+              "학비",
+              "Tuition fee / School expenses",
+              "자녀 학비, 유학 학비"
+            ],
+            [
+              "본인 계좌로",
+              "Transfer to own account",
+              "본인 명의 해외 계좌에 입금"
+            ],
+            [
+              "의료비",
+              "Medical expenses",
+              "가족의 입원·치료비"
+            ],
+            [
+              "선물·축하금",
+              "Gift",
+              "결혼·출산 축하금 등"
+            ],
+            [
+              "대출·월세",
+              "Loan repayment / Rent",
+              "고국의 주택 대출, 월세"
+            ],
+            [
+              "상품 대금",
+              "Payment for goods",
+              "개인 수입, 매입"
+            ],
+            [
+              "업무 보수",
+              "Service fee",
+              "해외 프리랜서에게 지급"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "목적은 실제 이유에 가장 가까운 것을 고릅니다. 다른 목적을 고르면 확인 때문에 멈추거나, 상대 국가에서 받지 못할 수 있습니다",
+            "금액이 크면 목적을 확인하는 서류(학비 청구서 등)나 자금 출처(급여 명세서 등)를 요구받을 수 있습니다",
+            "<strong>왜 묻는가</strong>: 범죄 자금을 막기 위해 은행과 송금 회사에 확인 의무가 있습니다. 목적은 받는 은행에도 전달되므로 영어로 씁니다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 국가별 주의점",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "국가",
+            "이름 쓰는 법",
+            "기타 주의"
+          ],
+          "rows": [
+            [
+              "한국",
+              "은행에 등록한 영어 이름(여권과 같은 경우가 많음)",
+              "성과 이름의 순서를 받는 사람에게 확인"
+            ],
+            [
+              "중국",
+              "병음 대문자. 계좌 명의와 한 글자도 다르지 않게(예: ZHANG XIAOMING)",
+              "주소는 성·시까지. 받는 사람이 외화를 위안화로 바꿀 수 있는 한도는 1인 연간 5만 달러 상당"
+            ],
+            [
+              "베트남",
+              "성조 부호 없는 대문자(예: NGUYEN VAN AN)",
+              "계좌 명의 그대로. 은행은 정식 명칭과 SWIFT 코드로 확인"
+            ],
+            [
+              "필리핀·네팔 등",
+              "계좌 명의 그대로",
+              "현금 수령 서비스는 받는 사람 신분증의 이름과 완전히 같게"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 보내기 전 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "보내기 전에 확인",
+          "items": [
+            "받는 사람 이름을 계좌 명의와 한 글자씩 비교했다",
+            "주소에 국가·성(주)·우편번호까지 넣었다",
+            "계좌번호(유럽은 IBAN)를 받는 사람이 글자로 보내 준 것을 옮겨 썼다",
+            "SWIFT 코드를 받는 은행 공식 사이트에서 확인했다",
+            "목적을 가장 가까운 것으로 골랐다",
+            "보낸 뒤 영수증(접수 번호)을 저장한다"
+          ],
+          "done": "준비됐습니다. 송금하세요.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        }
+      ]
+    },
+    {
+      "heading": "5. 헷갈릴 때·잘못 썼을 때",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "받는 사람에게 받는 은행 앱이나 창구에서 \"해외에서 받을 때 필요한 정보\"를 물어봐 달라고 한다",
+            "보내기 전이라면 보내는 쪽 은행·송금 회사 창구에 묻는다",
+            "보낸 뒤 실수를 알았다면 바로 \"변경(정정)\"을 요청한다. 수수료가 든다(미쓰비시UFJ은행 예: 4,000엔)"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "수수료 등은 각 회사 공식 사이트에서 확인했습니다(확인일: 2026-10-26). 바뀔 수 있으니 보내기 전에 확인하세요."
+        }
+      ]
+    }
+  ]
+}

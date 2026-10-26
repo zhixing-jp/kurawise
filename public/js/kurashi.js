@@ -41,6 +41,29 @@
     }
     input.addEventListener('input', draw); draw();
   });
+  // 海外送金の計算機：相手が受け取る額と、基準のレートとの差（実質のコスト）
+  document.querySelectorAll('[data-ob-remit]').forEach(function (box) {
+    function num(el) { return Math.max(0, Number(el.value) || 0); }
+    function f2(n) { return n >= 1000 ? Math.round(n).toLocaleString('ja-JP') : n.toLocaleString('ja-JP', { maximumFractionDigits: 2 }); }
+    var lgR = box.getAttribute('data-lang') || 'ja', sp = (lgR === 'en' || lgR === 'vi');
+    var yen = (sp ? ' ' : '') + (box.getAttribute('data-yen') || '円');
+    var po = (sp || lgR === 'ko') ? ' (' : '（', pc = (sp || lgR === 'ko') ? ')' : '）';
+    function draw() {
+      var amt = num(box.querySelector('[data-r=amount]')), mid = num(box.querySelector('[data-r=mid]'));
+      var dirEl = box.querySelector('input[name=rdir]:checked'), dir = dirEl ? dirEl.value : 'a';
+      box.querySelectorAll('[data-svc]').forEach(function (sv) {
+        var fee = num(sv.querySelector('[data-r=fee]')), rate = num(sv.querySelector('[data-r=rate]'));
+        var gotEl = sv.querySelector('[data-out=got]'), costEl = sv.querySelector('[data-out=cost]');
+        if (!amt || !rate || !mid || fee >= amt) { gotEl.textContent = '-'; costEl.textContent = '-'; return; }
+        var got = dir === 'a' ? (amt - fee) / rate : (amt - fee) * rate;
+        var worth = dir === 'a' ? got * mid : got / mid;
+        var cost = amt - worth;
+        gotEl.textContent = f2(got);
+        costEl.textContent = Math.round(cost).toLocaleString('ja-JP') + yen + po + (cost / amt * 100).toFixed(1) + '%' + pc;
+      });
+    }
+    box.addEventListener('input', draw); box.addEventListener('change', draw); draw();
+  });
   // ボタンのクリックの計測
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[data-ga-offer]');

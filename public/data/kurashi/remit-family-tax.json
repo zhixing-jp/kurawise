@@ -1,0 +1,1216 @@
+{
+  "id": "remit-family-tax",
+  "checked": "2026-10-26",
+  "title_ja": "仕送りで税金を減らす：海外の家族を扶養に入れる条件と、残すべき送金の記録",
+  "description_ja": "海外に住む家族も、条件を満たせば扶養控除の対象になり、税金が減ります。年齢ごとの条件、送金の記録として認められるもの・認められないもの、よくある失敗、出す時期をまとめました。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "海外に住む家族も、条件を満たせば扶養控除の対象になり、所得税と住民税が減ります。そのために必要なのは「家族だと分かる書類」と「送金の記録」です。<strong>現金の手渡しは記録にならず、認められません。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、対象になる家族（その年の12月31日の年齢）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "年齢",
+            "条件",
+            "必要な書類"
+          ],
+          "rows": [
+            [
+              "16〜29歳",
+              "所得が年58万円以下",
+              "親族関係書類＋送金関係書類"
+            ],
+            [
+              "30〜69歳",
+              "所得が年58万円以下で、次のどれか：①留学で海外にいる　②障害がある　③あなたから年38万円以上の送金",
+              "親族関係書類＋送金関係書類（③は年38万円以上の送金の記録。①は留学のビザなどの書類も）"
+            ],
+            [
+              "70歳以上",
+              "所得が年58万円以下",
+              "親族関係書類＋送金関係書類"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "所得の条件は2025年分から58万円です（それまでは48万円）。16歳未満の家族は、所得税の扶養控除の対象ではありません。"
+        }
+      ]
+    },
+    {
+      "heading": "二、送金の記録として認められるもの・認められないもの",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "例"
+          ],
+          "rows": [
+            [
+              "認められる",
+              "銀行の送金の控え・明細（写しでよい）／送金会社（資金移動業者）の記録（Wise などの明細も含む）／あなたが支払う家族カードの利用明細"
+            ],
+            [
+              "認められない",
+              "現金の手渡し（知人に頼んだ場合も）／「現金を渡した」というメモや申立書／家族の代表1人にまとめて送った分の、ほかの家族の分"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、よくある失敗",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "両親の分を父の口座にまとめて送る → 母の分の記録になりません。1人ずつ、本人に送ります",
+            "30〜69歳の親への送金が、年の合計で38万円に届かない → 扶養に入れられません。年末の前に合計を確かめます",
+            "外国語の書類に訳をつけない → 日本語の訳が必要です",
+            "年末調整に間に合わなかった → 確定申告で取り戻せます"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、どれくらい減る？",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "一般の扶養控除は、1人につき所得税で38万円、住民税で33万円が所得から引かれます",
+            "目安：所得税の税率が10%の人なら、所得税が約3.8万円、住民税が約3.3万円、合わせて<strong>年に約7万円</strong>減ります（1人あたり）"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "税率や家族の年齢によって変わります。くわしくは国税庁の案内か、税務署で確かめてください。"
+        }
+      ]
+    },
+    {
+      "heading": "五、入れるか迷ったら：手数料・自分のビザ・家族の来日ビザ",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "心配",
+            "実際のところ"
+          ],
+          "rows": [
+            [
+              "送金の手数料で損をしない？",
+              "手数料は「送ること」にかかるお金で、扶養に入れるかどうかでは増えません。増えるのは、両親に1人ずつ送るために回数が倍になるときです。回数を減らす（例：3か月に1回）、手数料の安い方法を選ぶと、減る税金のほうが大きくなります。ただし、1年分を年末にまとめて送るのは避けましょう"
+            ],
+            [
+              "自分のビザの更新に悪い？",
+              "本当に仕送りしていて記録があれば、ふつう不利にはなりません。問題になるのは、送っていない家族を扶養に入れることです。税務署に直されて追加の税金を払うことになり、ビザの審査でも「税金をきちんと納めていない」と見られます"
+            ],
+            [
+              "永住の申請に影響する？",
+              "<strong>あります。</strong>2026年10月改定の永住許可のガイドラインでは、扶養している親族は外国に住んでいても世帯の人数に加え、「世帯の人数に応じた日本人世帯の平均収入」を上回るかを見ます。扶養が増えると、求められる年収も上がります"
+            ],
+            [
+              "親が日本に来るときの短期ビザに影響する？",
+              "身元保証人が出す課税証明書には、控除する前の所得の額が載ります。扶養に入れて税金が減っても、所得の額は変わりません。「親を支えている」こととも矛盾しません（審査の基準は公表されていません）"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "送り方の例（両親2人に送る）",
+            "1年の手数料"
+          ],
+          "rows": [
+            [
+              "銀行の窓口 7,000円 × 毎月 × 2人",
+              "168,000円"
+            ],
+            [
+              "銀行のインターネット 3,000円 × 毎月 × 2人",
+              "72,000円"
+            ],
+            [
+              "銀行のインターネット 3,000円 × 3か月に1回 × 2人",
+              "24,000円"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "手数料は三菱UFJ銀行の例（他の銀行あて）で、中継銀行の手数料と為替の上乗せは別です。減る税金は2人で年約14万円（税率10%の場合）。毎月銀行の窓口から送ると、減る税金より手数料のほうが大きくなります。"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>入れたほうがいい人</strong>：本当に毎年仕送りしていて記録を残せる。当分は永住を申請しない、または年収に余裕がある",
+            "<strong>慎重に決めたい人</strong>：数年以内に永住を申請する予定で、年収が基準に近い。決める前に行政書士に相談しましょう",
+            "<strong>入れてはいけない人</strong>：実際には送っていない。現金で手渡ししている"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "出典：出入国在留管理庁「永住許可に関するガイドライン」（2026年10月1日改定）、外務省・在中国日本大使館の短期滞在ビザの案内（2025年4月）。永住の年収の扱いは個別に判断されるので、申請の前に確かめてください。"
+        }
+      ]
+    },
+    {
+      "heading": "六、いつ・どこに出すか",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "年の初め（または入社のとき）：会社に「扶養控除等申告書」と、親族関係書類を出す",
+            "年末調整：送金関係書類（30〜69歳は年38万円以上の記録）を会社に出す",
+            "会社員でない人、年末調整に間に合わなかった人：確定申告で出す"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "扶養に入れる準備",
+          "items": [
+            "家族ごとに、本人の口座に直接送った",
+            "送金の控え・明細を、家族ごとに保存した",
+            "30〜69歳の家族は、年の合計が38万円以上になる",
+            "親族関係書類（出生証明・戸籍の書類など）と日本語の訳を用意した",
+            "会社に扶養控除等申告書を出した"
+          ],
+          "done": "準備ができました。年末調整で出しましょう。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "国税庁の資料（国外居住親族に係る扶養控除等の適用について、2026年8月改訂）によるものです（確認日：2026-10-26）。一般的な説明なので、くわしくは税務署で確かめてください。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "汇生活费回国也能少交税：把海外家人列为扶养的条件，和必须保存的汇款记录",
+  "description_zh": "住在国外的家人，满足条件也可以适用扶养扣除，少交所得税和住民税。各年龄段的条件、哪些汇款记录被认可、哪些不被认可、常见失误、提交时间。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "住在国外的家人，满足条件也能适用扶养扣除，所得税和住民税都会减少。需要的是“能证明是家人的材料”和“汇款记录”。<strong>当面给现金不算记录，不被认可。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、哪些家人可以（按当年12月31日的年龄）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "年龄",
+            "条件",
+            "需要的材料"
+          ],
+          "rows": [
+            [
+              "16〜29岁",
+              "年所得58万日元以下",
+              "亲属关系材料＋汇款关系材料"
+            ],
+            [
+              "30〜69岁",
+              "年所得58万日元以下，并且符合以下任一项：①在海外留学　②有残疾　③你每年给他汇款38万日元以上",
+              "亲属关系材料＋汇款关系材料（③需要每年38万日元以上的汇款记录；①还需要留学签证等材料）"
+            ],
+            [
+              "70岁以上",
+              "年所得58万日元以下",
+              "亲属关系材料＋汇款关系材料"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "所得条件从2025年起为58万日元（之前是48万日元）。未满16岁的家人，不适用所得税的扶养扣除。"
+        }
+      ]
+    },
+    {
+      "heading": "二、认可的汇款记录・不认可的方式",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "例子"
+          ],
+          "rows": [
+            [
+              "认可",
+              "银行汇款回执・明细（复印件也可）／汇款公司（资金移动业者）的记录（包括 Wise 等的明细）／你付款的家属卡的消费明细"
+            ],
+            [
+              "不认可",
+              "当面给现金（包括托熟人带）／“给过现金”的字条或说明书／汇给家里一个人的钱，其他家人那份不算"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、常见失误",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "把父母两人的钱一起汇到父亲账户 → 母亲那份不算记录。要分别汇给本人",
+            "给30〜69岁的父母汇款，全年合计不到38万日元 → 不能列为扶养。年底前确认合计",
+            "外文材料没附翻译 → 需要日语翻译",
+            "没赶上年末调整 → 可以通过确定申告补回"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、能少交多少？",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "一般扶养扣除，每人所得税扣38万日元、住民税扣33万日元",
+            "参考：所得税税率10%的人，所得税约少3.8万日元，住民税约少3.3万日元，合计<strong>每年约少7万日元</strong>（每人）"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "会因税率和家人年龄而变。详情请查国税厅的说明，或向税务署确认。"
+        }
+      ]
+    },
+    {
+      "heading": "五、要不要列为扶养，拿不准时：手续费・自己的签证・家人来日签证",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "担心",
+            "实际情况"
+          ],
+          "rows": [
+            [
+              "会不会被汇款手续费吃掉？",
+              "手续费是“汇款”本身的成本，不会因为列不列扶养而增加。会增加的情况是：为了给父母分别汇款，次数翻倍。减少次数（例：每3个月一次）、选手续费低的方式，省下的税就会更多。但不要年底一次性汇一整年的钱"
+            ],
+            [
+              "会影响自己的签证更新吗？",
+              "真的在汇款并且有记录，一般不会不利。有问题的是把没汇钱的家人也列为扶养。被税务署更正后要补税，签证审查时也会被看成“没有好好纳税”"
+            ],
+            [
+              "会影响申请永住吗？",
+              "<strong>会。</strong>2026年10月修订的永住许可指南规定：你扶养的亲属，即使住在国外也计入家庭人数，看家庭年收入是否超过“同人数日本家庭的平均收入”。扶养人数越多，要求的年收入就越高"
+            ],
+            [
+              "会影响父母来日的短期签证吗？",
+              "身元保证人提交的课税证明书上，写的是扣除前的所得金额。列为扶养后税少了，所得金额不变。也和“我在供养父母”不矛盾（审查标准没有公开）"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "汇款方式举例（给父母2人汇）",
+            "一年的手续费"
+          ],
+          "rows": [
+            [
+              "银行柜台 7,000日元 × 每月 × 2人",
+              "168,000日元"
+            ],
+            [
+              "网上银行 3,000日元 × 每月 × 2人",
+              "72,000日元"
+            ],
+            [
+              "网上银行 3,000日元 × 每3个月一次 × 2人",
+              "24,000日元"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "手续费以三菱UFJ银行（汇到其他银行）为例，不含中转行手续费和汇率加价。2人每年约少交14万日元税（税率10%时）。每月从银行柜台汇，手续费会比省下的税还多。"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>建议列入的人</strong>：真的每年都汇生活费、能保存记录；近期不申请永住，或者年收入很宽裕",
+            "<strong>要慎重的人</strong>：几年内打算申请永住，年收入接近标准。决定前先咨询行政书士",
+            "<strong>不能列入的人</strong>：实际上没汇钱；用现金当面给"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "出处：出入国在留管理厅《永住许可指南》（2026年10月1日修订）、外务省・日本驻华使馆的短期签证说明（2025年4月）。永住的收入审查因人而异，申请前请确认。"
+        }
+      ]
+    },
+    {
+      "heading": "六、什么时候・交给谁",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "年初（或入职时）：向公司提交“扶养控除等申告书”和亲属关系材料",
+            "年末调整：向公司提交汇款关系材料（30〜69岁需每年38万日元以上的记录）",
+            "不是公司职员，或没赶上年末调整的人：在确定申告时提交"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "列为扶养的准备",
+          "items": [
+            "按家人分别、直接汇到本人账户",
+            "按家人分别保存了汇款回执・明细",
+            "30〜69岁的家人，全年合计达到38万日元以上",
+            "准备了亲属关系材料（出生证明・户口簿等）和日语翻译",
+            "向公司提交了扶养控除等申告书"
+          ],
+          "done": "准备好了，年末调整时提交吧。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "根据国税厅资料《关于国外居住亲属的扶养扣除等的适用》（2026年8月修订）（确认日：2026-10-26）。这是一般性说明，详情请向税务署确认。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "匯生活費回國也能少交稅：把海外家人列為扶養的條件，和必須儲存的匯款記錄",
+  "description_zh-TW": "住在國外的家人，滿足條件也可以適用扶養扣除，少交所得稅和住民稅。各年齡段的條件、哪些匯款記錄被認可、哪些不被認可、常見失誤、提交時間。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "住在國外的家人，滿足條件也能適用扶養扣除，所得稅和住民稅都會減少。需要的是“能證明是家人的材料”和“匯款記錄”。<strong>當面給現金不算記錄，不被認可。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、哪些家人可以（按當年12月31日的年齡）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "年齡",
+            "條件",
+            "需要的材料"
+          ],
+          "rows": [
+            [
+              "16〜29歲",
+              "年所得58萬日圓以下",
+              "親屬關係材料＋匯款關係材料"
+            ],
+            [
+              "30〜69歲",
+              "年所得58萬日圓以下，並且符合以下任一項：①在海外留學　②有殘疾　③你每年給他匯款38萬日圓以上",
+              "親屬關係材料＋匯款關係材料（③需要每年38萬日圓以上的匯款記錄；①還需要留學簽證等材料）"
+            ],
+            [
+              "70歲以上",
+              "年所得58萬日圓以下",
+              "親屬關係材料＋匯款關係材料"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "所得條件從2025年起為58萬日圓（之前是48萬日圓）。未滿16歲的家人，不適用所得稅的扶養扣除。"
+        }
+      ]
+    },
+    {
+      "heading": "二、認可的匯款記錄・不認可的方式",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "例子"
+          ],
+          "rows": [
+            [
+              "認可",
+              "銀行匯款回執・明細（影印件也可）／匯款公司（資金移動業者）的記錄（包括 Wise 等的明細）／你付款的家屬卡的消費明細"
+            ],
+            [
+              "不認可",
+              "當面給現金（包括托熟人帶）／“給過現金”的字條或說明書／匯給家裡一個人的錢，其他家人那份不算"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、常見失誤",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "把父母兩人的錢一起匯到父親帳戶 → 母親那份不算記錄。要分別匯給本人",
+            "給30〜69歲的父母匯款，全年合計不到38萬日圓 → 不能列為扶養。年底前確認合計",
+            "外文材料沒附翻譯 → 需要日語翻譯",
+            "沒趕上年末調整 → 可以透過確定申告補回"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、能少交多少？",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "一般扶養扣除，每人所得稅扣38萬日圓、住民稅扣33萬日圓",
+            "參考：所得稅稅率10%的人，所得稅約少3.8萬日圓，住民稅約少3.3萬日圓，合計<strong>每年約少7萬日圓</strong>（每人）"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "會因稅率和家人年齡而變。詳情請查國稅廳的說明，或向稅務署確認。"
+        }
+      ]
+    },
+    {
+      "heading": "五、要不要列為扶養，拿不準時：手續費・自己的簽證・家人來日簽證",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "擔心",
+            "實際情況"
+          ],
+          "rows": [
+            [
+              "會不會被匯款手續費吃掉？",
+              "手續費是“匯款”本身的成本，不會因為列不列扶養而增加。會增加的情況是：為了給父母分別匯款，次數翻倍。減少次數（例：每3個月一次）、選手續費低的方式，省下的稅就會更多。但不要年底一次性匯一整年的錢"
+            ],
+            [
+              "會影響自己的簽證更新嗎？",
+              "真的在匯款並且有記錄，一般不會不利。有問題的是把沒匯錢的家人也列為扶養。被稅務署更正後要補稅，簽證審查時也會被看成“沒有好好納稅”"
+            ],
+            [
+              "會影響申請永住嗎？",
+              "<strong>會。</strong>2026年10月修訂的永住許可指南規定：你扶養的親屬，即使住在國外也計入家庭人數，看家庭年收入是否超過“同人數日本家庭的平均收入”。扶養人數越多，要求的年收入就越高"
+            ],
+            [
+              "會影響父母來日的短期簽證嗎？",
+              "身元保證人提交的課稅證明書上，寫的是扣除前的所得金額。列為扶養後稅少了，所得金額不變。也和“我在供養父母”不矛盾（審查標準沒有公開）"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "匯款方式舉例（給父母2人匯）",
+            "一年的手續費"
+          ],
+          "rows": [
+            [
+              "銀行櫃檯 7,000日圓 × 每月 × 2人",
+              "168,000日圓"
+            ],
+            [
+              "網路銀行 3,000日圓 × 每月 × 2人",
+              "72,000日圓"
+            ],
+            [
+              "網路銀行 3,000日圓 × 每3個月一次 × 2人",
+              "24,000日圓"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "手續費以三菱UFJ銀行（匯到其他銀行）為例，不含中轉行手續費和匯率加價。2人每年約少交14萬日圓稅（稅率10%時）。每月從銀行櫃檯匯，手續費會比省下的稅還多。"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>建議列入的人</strong>：真的每年都匯生活費、能儲存記錄；近期不申請永住，或者年收入很寬裕",
+            "<strong>要慎重的人</strong>：幾年內打算申請永住，年收入接近標準。決定前先諮詢行政書士",
+            "<strong>不能列入的人</strong>：實際上沒匯錢；用現金當面給"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "出處：出入國在留管理廳《永住許可指南》（2026年10月1日修訂）、外務省・日本駐中國大使館的短期簽證說明（2025年4月）。永住的收入審查因人而異，申請前請確認。"
+        }
+      ]
+    },
+    {
+      "heading": "六、什麼時候・交給誰",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "年初（或入職時）：向公司提交“扶養控除等申告書”和親屬關係材料",
+            "年末調整：向公司提交匯款關係材料（30〜69歲需每年38萬日圓以上的記錄）",
+            "不是公司職員，或沒趕上年末調整的人：在確定申告時提交"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "列為扶養的準備",
+          "items": [
+            "按家人分別、直接匯到本人帳戶",
+            "按家人分別儲存了匯款回執・明細",
+            "30〜69歲的家人，全年合計達到38萬日圓以上",
+            "準備了親屬關係材料（出生證明・戶口簿等）和日語翻譯",
+            "向公司提交了扶養控除等申告書"
+          ],
+          "done": "準備好了，年末調整時提交吧。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "根據國稅廳資料《關於國外居住親屬的扶養扣除等的適用》（2026年8月修訂）（確認日：2026-10-26）。這是一般性說明，詳情請向稅務署確認。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Pay Less Tax by Supporting Family Abroad: Conditions for Claiming Them as Dependents and the Transfer Records to Keep",
+  "description_en": "Family members living abroad can count for the dependent deduction if they meet the conditions, lowering your income and residence tax. Conditions by age, which transfer records are accepted, common mistakes and when to submit.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "Family living abroad can count for the dependent deduction if they meet the conditions, which lowers your income tax and residence tax. You need documents proving the family relationship and records of your transfers. <strong>Handing over cash leaves no record and is not accepted.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. Who can count (age as of 31 December)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Age",
+            "Condition",
+            "Documents"
+          ],
+          "rows": [
+            [
+              "16–29",
+              "Income of 580,000 yen or less a year",
+              "Relationship documents + transfer documents"
+            ],
+            [
+              "30–69",
+              "Income of 580,000 yen or less, plus one of: (1) studying abroad, (2) has a disability, (3) receives 380,000 yen or more a year from you",
+              "Relationship documents + transfer documents (for (3), records of 380,000 yen or more a year; for (1), also student visa documents)"
+            ],
+            [
+              "70 and over",
+              "Income of 580,000 yen or less a year",
+              "Relationship documents + transfer documents"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "The income limit is 580,000 yen from 2025 (480,000 yen before). Children under 16 do not count for the income tax dependent deduction."
+        }
+      ]
+    },
+    {
+      "heading": "2. Records that are accepted, and ways that are not",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Accepted",
+              "Bank transfer receipts or statements (copies are fine) / records from money transfer companies (including Wise statements) / statements of a family card you pay for"
+            ],
+            [
+              "Not accepted",
+              "Cash handed over (including through a friend) / a note or statement saying you gave cash / money sent to one family member for the others"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Common mistakes",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Sending both parents' money to your father's account → it does not count for your mother. Send to each person",
+            "Transfers to a parent aged 30–69 total less than 380,000 yen in the year → they cannot be claimed. Check the total before year-end",
+            "No translation for foreign-language documents → a Japanese translation is required",
+            "Missed the year-end adjustment → you can claim it in a tax return"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. How much does it save?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "The standard dependent deduction is 380,000 yen for income tax and 330,000 yen for residence tax per person",
+            "Rough guide: if your income tax rate is 10%, income tax drops by about 38,000 yen and residence tax by about 33,000 yen, <strong>about 70,000 yen a year</strong> per person"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "This depends on your tax rate and the family member's age. Check the National Tax Agency guidance or your tax office for details."
+        }
+      ]
+    },
+    {
+      "heading": "5. Not sure whether to claim them? Fees, your own visa, and your family's visit visa",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Worry",
+            "What actually happens"
+          ],
+          "rows": [
+            [
+              "Will transfer fees eat up the saving?",
+              "Fees are the cost of sending money and do not go up because you claim the deduction. They go up only if you double the number of transfers to send to each parent separately. Send less often (e.g. every 3 months) and use a low-fee method, and the tax saving is larger. Avoid sending a whole year at once at year-end"
+            ],
+            [
+              "Will it hurt my visa renewal?",
+              "If you really send money and keep records, it normally does not. The problem is claiming family you do not support: the tax office corrects it, you pay extra tax, and the visa review sees that taxes were not paid properly"
+            ],
+            [
+              "Does it affect permanent residency?",
+              "<strong>Yes.</strong> Under the permanent residence guidelines revised in October 2026, relatives you support are added to your household size even if they live abroad, and your household income must exceed the average for Japanese households of that size. More dependents means a higher income bar"
+            ],
+            [
+              "Does it affect my parents' short-term visa to visit Japan?",
+              "The tax certificate the guarantor submits shows income before deductions. Claiming dependents lowers your tax, not that income figure. It is also consistent with supporting your parents (the review criteria are not published)"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Example (sending to both parents)",
+            "Fees per year"
+          ],
+          "rows": [
+            [
+              "Bank counter 7,000 yen × monthly × 2 people",
+              "168,000 yen"
+            ],
+            [
+              "Online banking 3,000 yen × monthly × 2 people",
+              "72,000 yen"
+            ],
+            [
+              "Online banking 3,000 yen × every 3 months × 2 people",
+              "24,000 yen"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Fees use MUFG Bank (to another bank) as an example; intermediary fees and exchange-rate markups are extra. The tax saving for 2 people is about 140,000 yen a year at a 10% tax rate. Sending monthly from a bank counter costs more in fees than you save in tax."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Worth claiming</strong>: you really support them every year and can keep records, and you will not apply for permanent residency soon, or your income is comfortably high",
+            "<strong>Decide carefully</strong>: you plan to apply for permanent residency within a few years and your income is close to the bar. Talk to an immigration lawyer (gyoseishoshi) first",
+            "<strong>Do not claim</strong>: you do not actually send money, or you hand over cash"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Sources: Immigration Services Agency, Permanent Residence Guidelines (revised 1 October 2026); MOFA / Embassy of Japan in China short-term visa guide (April 2025). Income for permanent residency is judged case by case, so check before you apply."
+        }
+      ]
+    },
+    {
+      "heading": "6. When and where to submit",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Start of the year (or when you join a company): give your employer the dependent declaration form and relationship documents",
+            "Year-end adjustment: give your employer the transfer documents (for ages 30–69, records of 380,000 yen or more)",
+            "If you are not an employee, or missed the year-end adjustment: submit them with your tax return"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Getting ready to claim",
+          "items": [
+            "I sent money directly to each family member's own account",
+            "I kept transfer receipts and statements for each person",
+            "For family aged 30–69, the yearly total is 380,000 yen or more",
+            "I prepared relationship documents (birth certificate, household register, etc.) with Japanese translations",
+            "I submitted the dependent declaration form to my employer"
+          ],
+          "done": "You're ready. Submit them at the year-end adjustment.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "Based on the National Tax Agency document on dependent deductions for relatives living abroad (revised August 2026) (checked: 2026-10-26). This is a general explanation; check with your tax office for details."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Gửi tiền về nhà mà giảm được thuế: điều kiện khai người thân ở nước ngoài là người phụ thuộc và giấy tờ chuyển tiền cần giữ",
+  "description_vi": "Người thân ở nước ngoài, nếu đủ điều kiện, có thể được tính vào khấu trừ người phụ thuộc, giúp giảm thuế thu nhập và thuế cư trú. Điều kiện theo tuổi, giấy tờ chuyển tiền được chấp nhận, lỗi hay gặp và thời điểm nộp.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Người thân ở nước ngoài, nếu đủ điều kiện, được tính vào khấu trừ người phụ thuộc, giúp giảm thuế thu nhập và thuế cư trú. Cần có \"giấy tờ chứng minh quan hệ gia đình\" và \"giấy tờ chuyển tiền\". <strong>Đưa tiền mặt tận tay không để lại giấy tờ nên không được chấp nhận.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. Người thân được tính (tuổi tại ngày 31/12)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Tuổi",
+            "Điều kiện",
+            "Giấy tờ"
+          ],
+          "rows": [
+            [
+              "16–29",
+              "Thu nhập từ 580.000 yên/năm trở xuống",
+              "Giấy tờ quan hệ + giấy tờ chuyển tiền"
+            ],
+            [
+              "30–69",
+              "Thu nhập từ 580.000 yên trở xuống và thuộc một trong: (1) đang du học ở nước ngoài, (2) có khuyết tật, (3) nhận từ bạn 380.000 yên/năm trở lên",
+              "Giấy tờ quan hệ + giấy tờ chuyển tiền (trường hợp (3) cần giấy tờ chuyển từ 380.000 yên/năm; (1) cần thêm giấy tờ visa du học)"
+            ],
+            [
+              "Từ 70",
+              "Thu nhập từ 580.000 yên/năm trở xuống",
+              "Giấy tờ quan hệ + giấy tờ chuyển tiền"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Mức thu nhập là 580.000 yên từ năm 2025 (trước đó 480.000 yên). Người thân dưới 16 tuổi không được tính khấu trừ người phụ thuộc trong thuế thu nhập."
+        }
+      ]
+    },
+    {
+      "heading": "2. Giấy tờ được chấp nhận và cách gửi không được chấp nhận",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Được chấp nhận",
+              "Biên nhận, sao kê chuyển tiền của ngân hàng (bản sao cũng được) / giấy tờ của công ty chuyển tiền (kể cả sao kê Wise) / sao kê thẻ gia đình do bạn thanh toán"
+            ],
+            [
+              "Không được",
+              "Đưa tiền mặt (kể cả nhờ người quen mang) / giấy viết tay \"đã đưa tiền mặt\" / tiền gửi gộp cho một người thì phần của người thân khác không được tính"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Lỗi hay gặp",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Gửi gộp tiền cho cả bố và mẹ vào tài khoản của bố → phần của mẹ không được tính. Hãy gửi riêng cho từng người",
+            "Tiền gửi cho bố/mẹ 30–69 tuổi cả năm chưa đủ 380.000 yên → không được khai. Kiểm tra tổng trước cuối năm",
+            "Giấy tờ tiếng nước ngoài không kèm bản dịch → cần bản dịch tiếng Nhật",
+            "Không kịp điều chỉnh thuế cuối năm → có thể khai bổ sung khi quyết toán thuế (kakutei shinkoku)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Giảm được bao nhiêu?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Khấu trừ người phụ thuộc thông thường: mỗi người trừ 380.000 yên vào thuế thu nhập và 330.000 yên vào thuế cư trú",
+            "Tham khảo: nếu thuế suất thuế thu nhập là 10%, thuế thu nhập giảm khoảng 38.000 yên, thuế cư trú khoảng 33.000 yên, tổng <strong>khoảng 70.000 yên mỗi năm</strong> cho mỗi người"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Tùy thuế suất và tuổi người thân. Chi tiết hãy xem hướng dẫn của Cục Thuế Quốc gia hoặc hỏi cơ quan thuế."
+        }
+      ]
+    },
+    {
+      "heading": "5. Phân vân có nên khai không: phí chuyển tiền, visa của bạn, visa sang Nhật của người thân",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Lo lắng",
+            "Thực tế"
+          ],
+          "rows": [
+            [
+              "Phí chuyển tiền có ăn hết phần tiết kiệm?",
+              "Phí là chi phí của việc gửi tiền, không tăng vì bạn khai người phụ thuộc. Phí chỉ tăng khi số lần gửi tăng gấp đôi để gửi riêng cho bố và mẹ. Gửi ít lần hơn (ví dụ 3 tháng một lần) và chọn cách phí thấp thì tiền thuế giảm sẽ lớn hơn. Tránh gửi gộp cả năm vào cuối năm"
+            ],
+            [
+              "Có bất lợi khi gia hạn visa?",
+              "Nếu thật sự gửi tiền và có giấy tờ thì thường không. Vấn đề là khai người thân mà không gửi tiền: cơ quan thuế sửa lại, bạn phải nộp thêm thuế, và khi xét visa sẽ bị coi là \"không nộp thuế đúng\""
+            ],
+            [
+              "Có ảnh hưởng đến xin vĩnh trú?",
+              "<strong>Có.</strong> Theo hướng dẫn cấp vĩnh trú sửa đổi tháng 10/2026, người thân bạn nuôi dù sống ở nước ngoài cũng được cộng vào số người trong hộ, và thu nhập hộ phải cao hơn mức trung bình của hộ gia đình Nhật cùng số người. Càng nhiều người phụ thuộc, mức thu nhập yêu cầu càng cao"
+            ],
+            [
+              "Có ảnh hưởng đến visa ngắn hạn khi bố mẹ sang Nhật?",
+              "Giấy chứng nhận thuế (課税証明書) mà người bảo lãnh nộp ghi thu nhập trước khấu trừ. Khai người phụ thuộc làm giảm thuế, không làm giảm con số thu nhập đó. Cũng không mâu thuẫn với việc bạn nuôi bố mẹ (tiêu chí xét không được công bố)"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Ví dụ (gửi cho cả bố và mẹ)",
+            "Phí một năm"
+          ],
+          "rows": [
+            [
+              "Quầy ngân hàng 7.000 yên × hằng tháng × 2 người",
+              "168.000 yên"
+            ],
+            [
+              "Ngân hàng trực tuyến 3.000 yên × hằng tháng × 2 người",
+              "72.000 yên"
+            ],
+            [
+              "Ngân hàng trực tuyến 3.000 yên × 3 tháng một lần × 2 người",
+              "24.000 yên"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Phí lấy ví dụ ngân hàng MUFG (gửi sang ngân hàng khác); chưa gồm phí trung gian và phần cộng thêm vào tỷ giá. Thuế giảm cho 2 người khoảng 140.000 yên/năm (thuế suất 10%). Gửi hằng tháng tại quầy ngân hàng thì phí còn lớn hơn số thuế giảm."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Nên khai</strong>: thật sự gửi tiền hằng năm và giữ được giấy tờ; chưa xin vĩnh trú trong thời gian tới, hoặc thu nhập dư dả",
+            "<strong>Cân nhắc kỹ</strong>: định xin vĩnh trú trong vài năm tới và thu nhập sát mức yêu cầu. Hãy hỏi hành chính thư sĩ (gyoseishoshi) trước",
+            "<strong>Không được khai</strong>: thực tế không gửi tiền, hoặc đưa tiền mặt tận tay"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Nguồn: Cục Quản lý Xuất nhập cảnh, Hướng dẫn cấp vĩnh trú (sửa đổi 1/10/2026); hướng dẫn visa ngắn hạn của Bộ Ngoại giao Nhật / Đại sứ quán Nhật tại Trung Quốc (4/2025). Thu nhập khi xin vĩnh trú được xét theo từng trường hợp, hãy kiểm tra trước khi nộp."
+        }
+      ]
+    },
+    {
+      "heading": "6. Khi nào, nộp ở đâu",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Đầu năm (hoặc khi vào công ty): nộp cho công ty tờ khai người phụ thuộc (扶養控除等申告書) và giấy tờ quan hệ",
+            "Điều chỉnh thuế cuối năm: nộp giấy tờ chuyển tiền cho công ty (30–69 tuổi cần từ 380.000 yên/năm)",
+            "Không phải nhân viên công ty, hoặc không kịp cuối năm: nộp khi quyết toán thuế"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Chuẩn bị để khai người phụ thuộc",
+          "items": [
+            "Đã gửi trực tiếp vào tài khoản riêng của từng người thân",
+            "Đã lưu biên nhận, sao kê theo từng người",
+            "Người thân 30–69 tuổi: tổng cả năm từ 380.000 yên trở lên",
+            "Đã chuẩn bị giấy tờ quan hệ (giấy khai sinh, sổ hộ khẩu…) kèm bản dịch tiếng Nhật",
+            "Đã nộp tờ khai người phụ thuộc cho công ty"
+          ],
+          "done": "Đã sẵn sàng. Hãy nộp khi điều chỉnh thuế cuối năm.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Theo tài liệu của Cục Thuế Quốc gia về khấu trừ người phụ thuộc sống ở nước ngoài (sửa đổi tháng 8/2026) (ngày kiểm tra: 2026-10-26). Đây là giải thích chung; chi tiết hãy hỏi cơ quan thuế."
+        }
+      ]
+    }
+  ],
+  "title_ko": "생활비 송금으로 세금 줄이기: 해외 가족을 부양가족으로 넣는 조건과 남겨야 할 송금 기록",
+  "description_ko": "해외에 사는 가족도 조건을 충족하면 부양공제 대상이 되어 소득세와 주민세가 줄어듭니다. 나이별 조건, 인정되는 송금 기록과 인정되지 않는 것, 흔한 실수, 제출 시기.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "해외에 사는 가족도 조건을 충족하면 부양공제 대상이 되어 소득세와 주민세가 줄어듭니다. 필요한 것은 \"가족임을 알 수 있는 서류\"와 \"송금 기록\"입니다. <strong>현금을 직접 건네면 기록이 남지 않아 인정되지 않습니다.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. 대상이 되는 가족(그해 12월 31일 기준 나이)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "나이",
+            "조건",
+            "필요한 서류"
+          ],
+          "rows": [
+            [
+              "16~29세",
+              "소득이 연 58만 엔 이하",
+              "친족관계서류 + 송금관계서류"
+            ],
+            [
+              "30~69세",
+              "소득이 연 58만 엔 이하이고 다음 중 하나: ① 해외 유학 중 ② 장애가 있음 ③ 당신에게서 연 38만 엔 이상 송금",
+              "친족관계서류 + 송금관계서류(③은 연 38만 엔 이상 송금 기록, ①은 유학 비자 등 서류도)"
+            ],
+            [
+              "70세 이상",
+              "소득이 연 58만 엔 이하",
+              "친족관계서류 + 송금관계서류"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "소득 조건은 2025년분부터 58만 엔입니다(그전에는 48만 엔). 16세 미만 가족은 소득세 부양공제 대상이 아닙니다."
+        }
+      ]
+    },
+    {
+      "heading": "2. 인정되는 기록·인정되지 않는 방법",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "예"
+          ],
+          "rows": [
+            [
+              "인정됨",
+              "은행 송금 영수증·명세(사본 가능) / 송금 회사(자금이동업자)의 기록(Wise 등의 명세 포함) / 당신이 결제하는 가족카드 이용 명세"
+            ],
+            [
+              "인정되지 않음",
+              "현금 직접 전달(지인에게 부탁한 경우도) / \"현금을 줬다\"는 메모나 신고서 / 가족 대표 1명에게 모아서 보낸 돈 중 다른 가족 몫"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 흔한 실수",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "부모님 두 분 몫을 아버지 계좌로 한꺼번에 보냄 → 어머니 몫의 기록이 되지 않습니다. 한 분씩 본인에게 보냅니다",
+            "30~69세 부모에게 보낸 돈이 연간 합계 38만 엔에 못 미침 → 부양가족으로 넣을 수 없습니다. 연말 전에 합계를 확인합니다",
+            "외국어 서류에 번역을 붙이지 않음 → 일본어 번역이 필요합니다",
+            "연말정산에 늦음 → 확정신고로 돌려받을 수 있습니다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 얼마나 줄어드나?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "일반 부양공제는 1인당 소득세에서 38만 엔, 주민세에서 33만 엔을 소득에서 뺍니다",
+            "기준: 소득세율이 10%인 사람이라면 소득세 약 3.8만 엔, 주민세 약 3.3만 엔, 합계 <strong>연 약 7만 엔</strong> 줄어듭니다(1인당)"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "세율과 가족의 나이에 따라 달라집니다. 자세한 내용은 국세청 안내나 세무서에서 확인하세요."
+        }
+      ]
+    },
+    {
+      "heading": "5. 넣을지 망설여질 때: 송금 수수료·내 비자·가족의 일본 방문 비자",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "걱정",
+            "실제로는"
+          ],
+          "rows": [
+            [
+              "송금 수수료로 손해 보지 않나?",
+              "수수료는 \"보내는 것\"에 드는 돈이라 부양가족으로 넣는다고 늘지 않습니다. 늘어나는 건 부모님께 한 분씩 보내느라 횟수가 두 배가 될 때입니다. 횟수를 줄이고(예: 3개월에 한 번) 수수료가 싼 방법을 고르면 줄어드는 세금이 더 큽니다. 다만 1년치를 연말에 한꺼번에 보내는 것은 피하세요"
+            ],
+            [
+              "내 비자 갱신에 불리하지 않나?",
+              "실제로 생활비를 보내고 기록이 있으면 보통 불리하지 않습니다. 문제는 돈을 보내지 않는 가족을 부양가족으로 넣는 것입니다. 세무서가 바로잡아 추가 세금을 내게 되고, 비자 심사에서도 \"세금을 제대로 내지 않았다\"고 봅니다"
+            ],
+            [
+              "영주 신청에 영향이 있나?",
+              "<strong>있습니다.</strong> 2026년 10월 개정된 영주 허가 가이드라인에서는 부양하는 친족을 외국에 살아도 세대 인원에 더하고, \"세대 인원에 맞는 일본인 세대의 평균 수입\"을 넘는지 봅니다. 부양가족이 늘면 요구되는 연수입도 올라갑니다"
+            ],
+            [
+              "부모님이 일본에 올 때 단기 비자에 영향이 있나?",
+              "신원보증인이 내는 과세증명서에는 공제 전 소득 금액이 실립니다. 부양가족으로 넣어 세금이 줄어도 소득 금액은 그대로입니다. \"부모를 부양하고 있다\"는 것과도 모순되지 않습니다(심사 기준은 공표되지 않음)"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "송금 방법 예(부모님 두 분께 보낼 때)",
+            "1년 수수료"
+          ],
+          "rows": [
+            [
+              "은행 창구 7,000엔 × 매달 × 2명",
+              "168,000엔"
+            ],
+            [
+              "인터넷 뱅킹 3,000엔 × 매달 × 2명",
+              "72,000엔"
+            ],
+            [
+              "인터넷 뱅킹 3,000엔 × 3개월에 한 번 × 2명",
+              "24,000엔"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "수수료는 미쓰비시UFJ은행(다른 은행 앞) 예이며, 중개 은행 수수료와 환율 가산은 별도입니다. 줄어드는 세금은 두 분 합계 연 약 14만 엔(세율 10%일 때). 매달 은행 창구에서 보내면 줄어드는 세금보다 수수료가 더 큽니다."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>넣는 게 좋은 사람</strong>: 실제로 매년 생활비를 보내고 기록을 남길 수 있음. 당분간 영주 신청 계획이 없거나 연수입에 여유가 있음",
+            "<strong>신중하게 정할 사람</strong>: 몇 년 안에 영주를 신청할 예정이고 연수입이 기준에 가까움. 정하기 전에 행정서사와 상담하세요",
+            "<strong>넣으면 안 되는 사람</strong>: 실제로는 보내지 않음. 현금으로 직접 건넴"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "출처: 출입국재류관리청 「영주 허가에 관한 가이드라인」(2026년 10월 1일 개정), 외무성·주중 일본대사관 단기 비자 안내(2025년 4월). 영주의 소득 심사는 개별 판단이므로 신청 전에 확인하세요."
+        }
+      ]
+    },
+    {
+      "heading": "6. 언제·어디에 내나",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "연초(또는 입사할 때): 회사에 \"부양공제등신고서(扶養控除等申告書)\"와 친족관계서류 제출",
+            "연말정산: 송금관계서류(30~69세는 연 38만 엔 이상 기록)를 회사에 제출",
+            "회사원이 아니거나 연말정산에 늦은 사람: 확정신고 때 제출"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "부양가족으로 넣을 준비",
+          "items": [
+            "가족별로 본인 계좌에 직접 보냈다",
+            "송금 영수증·명세를 가족별로 저장했다",
+            "30~69세 가족은 연간 합계가 38만 엔 이상이 된다",
+            "친족관계서류(출생증명·가족관계증명서 등)와 일본어 번역을 준비했다",
+            "회사에 부양공제등신고서를 냈다"
+          ],
+          "done": "준비됐습니다. 연말정산 때 제출하세요.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "국세청 자료 「국외 거주 친족에 관한 부양공제 등의 적용에 대해」(2026년 8월 개정) 기준입니다(확인일: 2026-10-26). 일반적인 설명이므로 자세한 내용은 세무서에서 확인하세요."
+        }
+      ]
+    }
+  ]
+}

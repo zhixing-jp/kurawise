@@ -1,0 +1,1096 @@
+{
+  "id": "remit-not-arrived",
+  "checked": "2026-10-26",
+  "title_ja": "海外送金が届かない・戻ってきた・相手が受け取れない：原因と、まずやること",
+  "description_ja": "海外送金が何日たっても届かない、戻ってきた、相手が受け取れない。よくある原因と、まずやること、問い合わせで伝えること、組戻しの手数料、支付宝・微信で受け取る条件をまとめました。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "まず送金の控え（受付番号）を用意して、送った銀行・送金会社に「今どこにあるか」を問い合わせましょう。届かない原因の多くは、受取人の情報の誤りか、受け取る側の確認待ちです。多くの場合、確認が済めば届くか、手数料を引かれて戻ってきます。"
+        }
+      ]
+    },
+    {
+      "heading": "一、届くまでの目安",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "送り方",
+            "目安"
+          ],
+          "rows": [
+            [
+              "銀行の海外送金",
+              "数日〜1週間ほど。中継銀行を通ると長くなる"
+            ],
+            [
+              "送金サービス",
+              "数分〜数日。初めての人は、本人確認に数営業日"
+            ],
+            [
+              "支付宝・微信へ（Wise の例）",
+              "数分。受取人の準備ができていれば"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "目安を過ぎていなければ、まず待ちましょう。土日・祝日は、日本と相手の国の両方で止まります。"
+        }
+      ]
+    },
+    {
+      "heading": "二、原因の早見表",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "こんなとき",
+            "よくある原因",
+            "やること"
+          ],
+          "rows": [
+            [
+              "何日たっても届かない",
+              "中継銀行で止まっている。受け取る側の確認待ち",
+              "送った先に調査を頼む。受取人にも受取銀行に聞いてもらう"
+            ],
+            [
+              "お金が戻ってきた",
+              "名前・口座番号・SWIFT コードの誤り",
+              "正しい情報をもらい直して、送り直す。戻るときに手数料が引かれていることがある"
+            ],
+            [
+              "思ったより少なく届いた",
+              "中継銀行・受取銀行の手数料。為替",
+              "明細で確かめる。次からは、手数料をだれが負担するかを選ぶ"
+            ],
+            [
+              "書類を出すよう言われた",
+              "金額が大きい。目的の確認",
+              "すぐに出す。出さないと止まったまま"
+            ],
+            [
+              "支付宝・微信で受け取れない",
+              "受取人の本人確認・銀行カードの紐づけがない。受け取りの上限に達した",
+              "受取人に設定を確かめてもらう。上限なら銀行口座に送る"
+            ],
+            [
+              "中国の銀行で受け取れない",
+              "名前が拼音と合わない。両替の枠（年5万ドル相当）。受け取りの申告",
+              "受取人が銀行のアプリか窓口で、受け取りの確認と目的の申告をする"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、問い合わせで伝えること",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "送った日・金額・通貨",
+            "控えの受付番号（送金の参照番号）",
+            "受取人の名前・銀行・口座番号",
+            "相手の銀行で何と言われたか"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "受取人の側からも、受取銀行に「この日にこの金額が来ていないか」を聞いてもらうと早く分かります。"
+        }
+      ]
+    },
+    {
+      "heading": "四、取り消して戻す（組戻し）",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "送ったお金を取り消して戻すことを「組戻し」といいます。手数料がかかります（三菱UFJ銀行の例：4,000円。中継銀行の手数料が別に引かれることもある）",
+            "すでに受取人の口座に入っていると、受取人の同意がないと戻りません",
+            "戻るまで数週間かかることがあります。戻るときの為替で、円の金額が変わります"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、支付宝・微信で受け取る人の条件（Wise の例）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "項目",
+            "内容"
+          ],
+          "rows": [
+            [
+              "受取人",
+              "中国の身分証を持つ18〜65歳の中国の人（微信）"
+            ],
+            [
+              "先にやること",
+              "微信のウォレットに中国の銀行カードを紐づける（1回だけ）"
+            ],
+            [
+              "1回の上限",
+              "50,000元"
+            ],
+            [
+              "受け取りの上限",
+              "年500,000元、または月10回まで（すべての送金サービスの合計）"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Wise の公式の案内によるものです（確認日：2026-10-26）。サービスによって条件は違います。"
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "日本から支付宝・微信・銀聯カードに送れる送金サービス。日本円は銀行振込かデビットカードで入れます。初めての人は本人確認とマイナンバーの提出が必要です。"
+        }
+      ]
+    },
+    {
+      "heading": "六、それでも解決しないとき",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "送った銀行・送金会社の窓口に、調査を書面で頼む",
+            "送金会社（資金移動業者）とのトラブルは「日本資金決済業協会」、銀行とのトラブルは「全国銀行協会の相談室」に相談できる"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、この記事の立場",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_zh": "海外汇款迟迟不到账・被退回・对方收不到：原因和第一步该做什么",
+  "description_zh": "从日本汇出的钱几天都没到、被退回、对方收不到怎么办？常见原因、第一步该做什么、查询时要提供的信息、退汇手续费，以及支付宝・微信的收款条件。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "先准备好汇款回执（受理编号），向汇款的银行・汇款公司查询“钱现在到哪了”。不到账的原因，多数是收款人信息有误，或者在等收款方确认。多数情况下，确认完就会到账，或者扣掉手续费后退回。"
+        }
+      ]
+    },
+    {
+      "heading": "一、到账时间参考",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "汇款方式",
+            "参考"
+          ],
+          "rows": [
+            [
+              "银行电汇",
+              "几天到一周左右。经过中转行会更久"
+            ],
+            [
+              "汇款服务",
+              "几分钟到几天。第一次使用，身份验证要几个工作日"
+            ],
+            [
+              "汇到支付宝・微信（以 Wise 为例）",
+              "几分钟。前提是收款人已经设置好"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "还没超过参考时间，先等等。周末・节假日，日本和对方国家都会停。"
+        }
+      ]
+    },
+    {
+      "heading": "二、原因速查表",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "情况",
+            "常见原因",
+            "该做什么"
+          ],
+          "rows": [
+            [
+              "好几天都没到",
+              "卡在中转行。在等收款方确认",
+              "请汇款方调查。也请收款人问收款银行"
+            ],
+            [
+              "钱被退回了",
+              "姓名・账号・SWIFT 代码有误",
+              "重新要正确信息再汇。退回时可能已扣手续费"
+            ],
+            [
+              "到账比预想的少",
+              "中转行・收款行的手续费。汇率",
+              "看明细确认。下次选择手续费由谁承担"
+            ],
+            [
+              "被要求提交材料",
+              "金额大。要确认用途",
+              "马上提交。不交就一直卡着"
+            ],
+            [
+              "支付宝・微信收不到",
+              "收款人没实名认证・没绑银行卡。达到收款上限",
+              "请收款人检查设置。达到上限就改汇到银行账户"
+            ],
+            [
+              "中国的银行收不到",
+              "姓名和拼音不一致。结汇额度（每年5万美元等值）。需要申报",
+              "收款人在银行App或柜台确认入账、申报用途"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、查询时要提供的信息",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "汇款日期・金额・币种",
+            "回执上的受理编号（汇款参考号）",
+            "收款人姓名・银行・账号",
+            "对方银行是怎么说的"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "请收款人那边也去问收款银行“某天有没有一笔这个金额的汇款”，会更快查清。"
+        }
+      ]
+    },
+    {
+      "heading": "四、取消并退回（組戻し）",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "把已汇出的钱取消退回，日语叫“組戻し（くみもどし）”。要收手续费（三菱UFJ银行的例子：4,000日元，中转行的手续费可能另扣）",
+            "如果钱已经进了收款人账户，没有收款人同意就退不回来",
+            "退回可能要几周。退回时按当时汇率换算，日元金额会变"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、支付宝・微信的收款条件（以 Wise 为例）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "项目",
+            "内容"
+          ],
+          "rows": [
+            [
+              "收款人",
+              "持中国身份证、18〜65岁的中国公民（微信）"
+            ],
+            [
+              "事先要做",
+              "在微信钱包里绑定中国的银行卡（只需一次）"
+            ],
+            [
+              "单笔上限",
+              "50,000元"
+            ],
+            [
+              "收款上限",
+              "每年500,000元，或每月10笔（所有汇款服务合计）"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "根据 Wise 官方说明（确认日：2026-10-26）。各服务条件不同。"
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "可以从日本汇到支付宝・微信・银联卡的汇款服务。日元用银行转账或借记卡支付。第一次使用需要身份验证和提交个人编号（My Number）。"
+        }
+      ]
+    },
+    {
+      "heading": "六、还是解决不了怎么办",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "向汇款的银行・汇款公司窗口，书面申请调查",
+            "和汇款公司（资金移动业者）的纠纷，可以找“日本资金结算业协会”；和银行的纠纷，可以找“全国银行协会咨询室”"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、本文的立场",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "海外匯款遲遲不到賬・被退回・對方收不到：原因和第一步該做什麼",
+  "description_zh-TW": "從日本匯出的錢幾天都沒到、被退回、對方收不到怎麼辦？常見原因、第一步該做什麼、查詢時要提供的資訊、退匯手續費，以及支付寶・微信的收款條件。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "先準備好匯款回執（受理編號），向匯款的銀行・匯款公司查詢“錢現在到哪了”。不到賬的原因，多數是收款人資訊有誤，或者在等收款方確認。多數情況下，確認完就會到賬，或者扣掉手續費後退回。"
+        }
+      ]
+    },
+    {
+      "heading": "一、到賬時間參考",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "匯款方式",
+            "參考"
+          ],
+          "rows": [
+            [
+              "銀行電匯",
+              "幾天到一週左右。經過中轉行會更久"
+            ],
+            [
+              "匯款服務",
+              "幾分鐘到幾天。第一次使用，身份驗證要幾個工作日"
+            ],
+            [
+              "匯到支付寶・微信（以 Wise 為例）",
+              "幾分鐘。前提是收款人已經設定好"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "還沒超過參考時間，先等等。週末・節假日，日本和對方國家都會停。"
+        }
+      ]
+    },
+    {
+      "heading": "二、原因速查表",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "情況",
+            "常見原因",
+            "該做什麼"
+          ],
+          "rows": [
+            [
+              "好幾天都沒到",
+              "卡在中轉行。在等收款方確認",
+              "請匯款方調查。也請收款人問收款銀行"
+            ],
+            [
+              "錢被退回了",
+              "姓名・帳號・SWIFT 代碼有誤",
+              "重新要正確資訊再匯。退回時可能已扣手續費"
+            ],
+            [
+              "到賬比預想的少",
+              "中轉行・收款行的手續費。匯率",
+              "看明細確認。下次選擇手續費由誰承擔"
+            ],
+            [
+              "被要求提交材料",
+              "金額大。要確認用途",
+              "馬上提交。不交就一直卡著"
+            ],
+            [
+              "支付寶・微信收不到",
+              "收款人沒實名認證・沒綁銀行卡。達到收款上限",
+              "請收款人檢查設定。達到上限就改匯到銀行帳戶"
+            ],
+            [
+              "中國的銀行收不到",
+              "姓名和拼音不一致。結匯額度（每年5萬美元等值）。需要申報",
+              "收款人在銀行App或櫃檯確認入賬、申報用途"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、查詢時要提供的資訊",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "匯款日期・金額・幣種",
+            "回執上的受理編號（匯款參考號）",
+            "收款人姓名・銀行・帳號",
+            "對方銀行是怎麼說的"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "請收款人那邊也去問收款銀行“某天有沒有一筆這個金額的匯款”，會更快查清。"
+        }
+      ]
+    },
+    {
+      "heading": "四、取消並退回（組戻し）",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "把已匯出的錢取消退回，日語叫“組戻し（くみもどし）”。要收手續費（三菱UFJ銀行的例子：4,000日圓，中轉行的手續費可能另扣）",
+            "如果錢已經進了收款人帳戶，沒有收款人同意就退不回來",
+            "退回可能要幾周。退回時按當時匯率換算，日圓金額會變"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、支付寶・微信的收款條件（以 Wise 為例）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "專案",
+            "內容"
+          ],
+          "rows": [
+            [
+              "收款人",
+              "持中國身份證、18〜65歲的中國公民（微信）"
+            ],
+            [
+              "事先要做",
+              "在微信錢包裡繫結中國的銀行卡（只需一次）"
+            ],
+            [
+              "單筆上限",
+              "50,000元"
+            ],
+            [
+              "收款上限",
+              "每年500,000元，或每月10筆（所有匯款服務合計）"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "根據 Wise 官方說明（確認日：2026-10-26）。各服務條件不同。"
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "可以從日本匯到支付寶・微信・銀聯卡的匯款服務。日圓用銀行轉賬或簽帳金融卡支付。第一次使用需要身份驗證和提交個人編號（My Number）。"
+        }
+      ]
+    },
+    {
+      "heading": "六、還是解決不了怎麼辦",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "向匯款的銀行・匯款公司視窗，書面申請調查",
+            "和匯款公司（資金移動業者）的糾紛，可以找“日本資金結算業協會”；和銀行的糾紛，可以找“全國銀行協會諮詢室”"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、本文的立場",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_en": "International Transfer Not Arrived, Returned, or Can't Be Received: Causes and What to Do First",
+  "description_en": "Money sent from Japan hasn't arrived after days, came back, or the recipient can't receive it? Common causes, what to do first, what to tell the bank, recall fees, and the conditions for receiving through Alipay and WeChat.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "First, have your receipt (reference number) ready and ask the bank or money transfer company where the money is now. Most delays are caused by an error in the recipient details or by a check on the receiving side. In most cases the money arrives once the check is done, or comes back minus fees."
+        }
+      ]
+    },
+    {
+      "heading": "1. How long it usually takes",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Method",
+            "Usual time"
+          ],
+          "rows": [
+            [
+              "Bank international transfer",
+              "A few days to about a week. Longer through intermediary banks"
+            ],
+            [
+              "Money transfer service",
+              "Minutes to a few days. First-time users need a few business days for identity checks"
+            ],
+            [
+              "To Alipay or WeChat (Wise example)",
+              "Minutes, if the recipient has set things up"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "If the usual time has not passed, wait first. Weekends and holidays in both Japan and the other country add time."
+        }
+      ]
+    },
+    {
+      "heading": "2. Quick cause table",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "Common cause",
+            "What to do"
+          ],
+          "rows": [
+            [
+              "Not arrived after many days",
+              "Stuck at an intermediary bank, or waiting for a check on the receiving side",
+              "Ask the sender's bank to trace it. Ask the recipient to contact their bank too"
+            ],
+            [
+              "The money came back",
+              "Wrong name, account number or SWIFT code",
+              "Get the correct details and send again. Fees may have been deducted on return"
+            ],
+            [
+              "Less arrived than expected",
+              "Intermediary and receiving bank fees, exchange rate",
+              "Check the statement. Next time, choose who pays the fees"
+            ],
+            [
+              "Asked to submit documents",
+              "Large amount, purpose check",
+              "Submit them quickly. The transfer stays on hold until you do"
+            ],
+            [
+              "Can't receive on Alipay or WeChat",
+              "Recipient hasn't verified identity or linked a bank card, or reached the receiving limit",
+              "Ask the recipient to check their settings. If it is the limit, send to a bank account"
+            ],
+            [
+              "Can't receive at a Chinese bank",
+              "Name does not match the pinyin, the yearly conversion quota (USD 50,000 equivalent), or a declaration is needed",
+              "The recipient confirms the receipt and declares the purpose in the bank app or at the counter"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. What to tell the bank",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Date, amount and currency sent",
+            "The reference number on your receipt",
+            "Recipient's name, bank and account number",
+            "What the recipient's bank told them"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "It is faster if the recipient also asks their bank whether a transfer of that amount arrived on that date."
+        }
+      ]
+    },
+    {
+      "heading": "4. Cancelling and getting it back (recall)",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Cancelling a transfer to get the money back is called a recall (kumimodoshi). There is a fee (MUFG Bank example: 4,000 yen; intermediary bank fees may also be deducted)",
+            "If the money is already in the recipient's account, it will not come back without the recipient's consent",
+            "It can take several weeks. The yen amount changes with the exchange rate at the time of return"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Conditions for receiving on Alipay or WeChat (Wise example)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Recipient",
+              "Chinese citizen aged 18–65 with a Chinese ID (WeChat)"
+            ],
+            [
+              "Set up first",
+              "Link a Chinese bank card to the WeChat wallet (once only)"
+            ],
+            [
+              "Per transfer",
+              "Up to 50,000 yuan"
+            ],
+            [
+              "Receiving limit",
+              "500,000 yuan a year, or 10 transfers a month (all services combined)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Based on Wise's official information (checked: 2026-10-26). Conditions differ by service."
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "A money transfer service that can send from Japan to Alipay, WeChat and UnionPay cards. You pay in yen by bank transfer or debit card. First-time users need identity verification and to submit their My Number."
+        }
+      ]
+    },
+    {
+      "heading": "6. If it still is not solved",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Ask the sending bank or company in writing to investigate",
+            "For problems with a money transfer company, contact the Japan Payment Service Association; for banks, the Japanese Bankers Association consultation office"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Our position",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_vi": "Chuyển tiền quốc tế không đến, bị trả lại, người nhận không nhận được: nguyên nhân và việc cần làm trước tiên",
+  "description_vi": "Tiền gửi từ Nhật mấy ngày chưa đến, bị trả lại, hay người nhận không nhận được? Nguyên nhân thường gặp, việc cần làm trước tiên, thông tin cần cung cấp khi hỏi, phí hủy lệnh chuyển.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Trước tiên, chuẩn bị biên nhận (số tham chiếu) và hỏi ngân hàng hoặc công ty chuyển tiền \"tiền đang ở đâu\". Phần lớn là do sai thông tin người nhận hoặc đang chờ bên nhận kiểm tra. Đa số trường hợp, kiểm tra xong tiền sẽ đến, hoặc bị trả lại sau khi trừ phí."
+        }
+      ]
+    },
+    {
+      "heading": "1. Thời gian thường mất",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Cách gửi",
+            "Thời gian"
+          ],
+          "rows": [
+            [
+              "Chuyển khoản quốc tế qua ngân hàng",
+              "Vài ngày đến khoảng 1 tuần. Qua ngân hàng trung gian thì lâu hơn"
+            ],
+            [
+              "Dịch vụ chuyển tiền",
+              "Vài phút đến vài ngày. Lần đầu cần vài ngày làm việc để xác minh danh tính"
+            ],
+            [
+              "Đến Alipay, WeChat (ví dụ Wise)",
+              "Vài phút, nếu người nhận đã cài đặt xong"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Nếu chưa quá thời gian thường mất, hãy chờ trước. Thứ bảy, chủ nhật, ngày lễ ở cả Nhật và nước kia đều không xử lý."
+        }
+      ]
+    },
+    {
+      "heading": "2. Bảng nguyên nhân",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Tình huống",
+            "Nguyên nhân hay gặp",
+            "Việc cần làm"
+          ],
+          "rows": [
+            [
+              "Mấy ngày vẫn chưa đến",
+              "Kẹt ở ngân hàng trung gian, hoặc bên nhận đang kiểm tra",
+              "Nhờ bên gửi tra soát. Nhờ người nhận hỏi ngân hàng của họ"
+            ],
+            [
+              "Tiền bị trả lại",
+              "Sai tên, số tài khoản hoặc mã SWIFT",
+              "Xin lại thông tin đúng và gửi lại. Khi trả lại có thể đã bị trừ phí"
+            ],
+            [
+              "Nhận ít hơn dự kiến",
+              "Phí ngân hàng trung gian, ngân hàng nhận, tỷ giá",
+              "Xem sao kê. Lần sau chọn ai chịu phí"
+            ],
+            [
+              "Bị yêu cầu nộp giấy tờ",
+              "Số tiền lớn, kiểm tra mục đích",
+              "Nộp ngay. Không nộp thì tiền vẫn bị giữ"
+            ],
+            [
+              "Không nhận được qua Alipay, WeChat",
+              "Người nhận chưa xác minh danh tính, chưa liên kết thẻ, hoặc đã đến hạn mức",
+              "Nhờ người nhận kiểm tra cài đặt. Nếu đến hạn mức thì gửi vào tài khoản ngân hàng"
+            ],
+            [
+              "Ngân hàng Trung Quốc không nhận được",
+              "Tên không khớp pinyin, hạn mức đổi ngoại tệ (tương đương 50.000 USD/năm), cần khai báo",
+              "Người nhận xác nhận và khai báo mục đích trên ứng dụng hoặc tại quầy"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Cần nói gì khi hỏi",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Ngày gửi, số tiền, loại tiền",
+            "Số tham chiếu trên biên nhận",
+            "Tên, ngân hàng, số tài khoản người nhận",
+            "Ngân hàng bên nhận đã nói gì"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Nếu người nhận cũng hỏi ngân hàng của họ \"ngày đó có khoản tiền này đến không\", sẽ biết nhanh hơn."
+        }
+      ]
+    },
+    {
+      "heading": "4. Hủy lệnh chuyển và lấy lại tiền (kumimodoshi)",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Hủy lệnh đã gửi để lấy lại tiền, tiếng Nhật gọi là \"kumimodoshi\". Có mất phí (ví dụ ngân hàng MUFG: 4.000 yên; phí ngân hàng trung gian có thể bị trừ thêm)",
+            "Nếu tiền đã vào tài khoản người nhận thì không lấy lại được nếu người nhận không đồng ý",
+            "Có thể mất vài tuần. Số yên nhận lại thay đổi theo tỷ giá lúc trả về"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Điều kiện nhận qua Alipay, WeChat (ví dụ Wise)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Mục",
+            "Nội dung"
+          ],
+          "rows": [
+            [
+              "Người nhận",
+              "Công dân Trung Quốc 18–65 tuổi có căn cước Trung Quốc (WeChat)"
+            ],
+            [
+              "Việc làm trước",
+              "Liên kết thẻ ngân hàng Trung Quốc vào ví WeChat (chỉ một lần)"
+            ],
+            [
+              "Mỗi lần gửi",
+              "Tối đa 50.000 nhân dân tệ"
+            ],
+            [
+              "Hạn mức nhận",
+              "500.000 nhân dân tệ/năm, hoặc 10 lần/tháng (tổng các dịch vụ)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Theo thông tin chính thức của Wise (ngày kiểm tra: 2026-10-26). Mỗi dịch vụ có điều kiện khác nhau."
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "Dịch vụ chuyển tiền quốc tế từ Nhật. Nạp yên bằng chuyển khoản ngân hàng hoặc thẻ ghi nợ. Lần đầu cần xác minh danh tính và nộp My Number."
+        }
+      ]
+    },
+    {
+      "heading": "6. Nếu vẫn chưa giải quyết được",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Yêu cầu bằng văn bản ngân hàng hoặc công ty chuyển tiền bên gửi tra soát",
+            "Tranh chấp với công ty chuyển tiền: liên hệ Hiệp hội Dịch vụ Thanh toán Nhật Bản; với ngân hàng: phòng tư vấn của Hiệp hội Ngân hàng Nhật Bản"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Lập trường của bài viết",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_ko": "해외 송금이 도착하지 않음·반송됨·받는 사람이 못 받음: 원인과 먼저 할 일",
+  "description_ko": "일본에서 보낸 돈이 며칠째 도착하지 않거나, 반송되거나, 받는 사람이 못 받을 때. 흔한 원인, 먼저 할 일, 문의할 때 전할 정보, 송금 취소 수수료, 알리페이·위챗 수취 조건.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "먼저 송금 영수증(접수 번호)을 준비하고, 보낸 은행·송금 회사에 \"지금 어디에 있는지\" 문의하세요. 도착하지 않는 원인의 대부분은 받는 사람 정보의 오류이거나 받는 쪽의 확인 대기입니다. 대부분은 확인이 끝나면 도착하거나, 수수료를 빼고 돌아옵니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 도착까지 걸리는 시간",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "보내는 방법",
+            "기준"
+          ],
+          "rows": [
+            [
+              "은행 해외 송금",
+              "며칠~1주일 정도. 중개 은행을 거치면 더 길어짐"
+            ],
+            [
+              "송금 서비스",
+              "몇 분~며칠. 처음이면 본인 확인에 영업일 며칠"
+            ],
+            [
+              "알리페이·위챗으로(Wise 예)",
+              "몇 분. 받는 사람 준비가 되어 있다면"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "기준 시간을 넘기지 않았다면 우선 기다리세요. 주말·공휴일에는 일본과 상대 국가 모두 처리가 멈춥니다."
+        }
+      ]
+    },
+    {
+      "heading": "2. 원인 한눈에 보기",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "이럴 때",
+            "흔한 원인",
+            "할 일"
+          ],
+          "rows": [
+            [
+              "며칠이 지나도 도착하지 않음",
+              "중개 은행에서 멈춤. 받는 쪽 확인 대기",
+              "보낸 곳에 조사를 요청. 받는 사람도 받는 은행에 문의"
+            ],
+            [
+              "돈이 돌아옴",
+              "이름·계좌번호·SWIFT 코드 오류",
+              "정확한 정보를 다시 받아 재송금. 돌아올 때 수수료가 빠져 있을 수 있음"
+            ],
+            [
+              "생각보다 적게 도착",
+              "중개 은행·받는 은행 수수료. 환율",
+              "명세서로 확인. 다음부터 수수료 부담 방식을 선택"
+            ],
+            [
+              "서류 제출 요청을 받음",
+              "금액이 큼. 목적 확인",
+              "바로 제출. 내지 않으면 계속 멈춤"
+            ],
+            [
+              "알리페이·위챗으로 못 받음",
+              "받는 사람의 본인 확인·카드 연결이 없음. 수취 한도 도달",
+              "받는 사람에게 설정 확인을 부탁. 한도라면 은행 계좌로"
+            ],
+            [
+              "중국 은행에서 못 받음",
+              "이름이 병음과 다름. 환전 한도(연 5만 달러 상당). 신고 필요",
+              "받는 사람이 은행 앱이나 창구에서 수취 확인과 목적 신고"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 문의할 때 전할 것",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "보낸 날짜·금액·통화",
+            "영수증의 접수 번호(송금 참조 번호)",
+            "받는 사람 이름·은행·계좌번호",
+            "상대 은행에서 들은 말"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "받는 사람 쪽에서도 받는 은행에 \"그날 이 금액이 들어오지 않았는지\" 물어보면 더 빨리 알 수 있습니다."
+        }
+      ]
+    },
+    {
+      "heading": "4. 취소하고 돌려받기(組戻し)",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "보낸 돈을 취소해 돌려받는 것을 일본어로 \"구미모도시(組戻し)\"라고 합니다. 수수료가 듭니다(미쓰비시UFJ은행 예: 4,000엔. 중개 은행 수수료가 따로 빠질 수도 있음)",
+            "이미 받는 사람 계좌에 들어갔다면, 받는 사람이 동의하지 않으면 돌아오지 않습니다",
+            "돌아오기까지 몇 주 걸릴 수 있습니다. 돌아올 때의 환율로 엔화 금액이 바뀝니다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 알리페이·위챗으로 받는 조건(Wise 예)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "항목",
+            "내용"
+          ],
+          "rows": [
+            [
+              "받는 사람",
+              "중국 신분증이 있는 18~65세 중국 국민(위챗)"
+            ],
+            [
+              "먼저 할 일",
+              "위챗 지갑에 중국 은행 카드 연결(한 번만)"
+            ],
+            [
+              "1회 한도",
+              "50,000위안"
+            ],
+            [
+              "수취 한도",
+              "연 500,000위안 또는 월 10건(모든 송금 서비스 합계)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Wise 공식 안내 기준입니다(확인일: 2026-10-26). 서비스마다 조건이 다릅니다."
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "일본에서 알리페이·위챗·은련 카드로 보낼 수 있는 송금 서비스. 엔화는 계좌 이체나 직불카드로 넣습니다. 처음이면 본인 확인과 마이넘버 제출이 필요합니다."
+        }
+      ]
+    },
+    {
+      "heading": "6. 그래도 해결되지 않을 때",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "보낸 은행·송금 회사 창구에 서면으로 조사를 요청",
+            "송금 회사(자금이동업자)와의 문제는 \"일본자금결제업협회\", 은행과의 문제는 \"전국은행협회 상담실\"에 상담 가능"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. 이 글의 입장",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ]
+}

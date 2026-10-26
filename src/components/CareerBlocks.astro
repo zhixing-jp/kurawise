@@ -62,7 +62,7 @@ function maxOf(items: any[]) { return Math.max(...items.map((i) => i.value)); }
           <p class="cb-check-done" data-done hidden>{b.done}</p>
           <p class="cb-check-hint">{b.hint}</p>
         </div>
-      ) : ['cardquiz', 'pointcalc', 'cardlist', 'disclosure'].includes(b.t) ? (
+      ) : ['cardquiz', 'pointcalc', 'cardlist', 'disclosure', 'remitcalc', 'offerbtn'].includes(b.t) ? (
         <OfferBlock b={b} lang={lang} />
       ) : b.t === 'calc' ? (
         <VisaFeeCalc labels={b.labels} lang={lang} />

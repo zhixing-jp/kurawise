@@ -1,0 +1,700 @@
+{
+  "id": "remit-visa-expiry",
+  "checked": "2026-10-26",
+  "title_ja": "在留期限の前後で、銀行口座や海外送金が止まる：防ぎ方と、止まったときの対処",
+  "description_ja": "在留期間の更新を申請中でも、銀行に届けた期限を過ぎると、引き出し・振込・海外送金が止まることがあります。止まる理由、防ぐために銀行に見せるもの、止まったときの対処をまとめました。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "在留期間の更新を申請中で、合法に日本にいても、<strong>銀行に届けた在留期限を過ぎると、引き出し・振込・海外送金が止まる</strong>ことがあります。期限の前に、銀行に「更新を申請中」と伝えて証明を見せれば防げます。"
+        }
+      ]
+    },
+    {
+      "heading": "一、なぜ止まるのか",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "銀行は、届けられた在留期限で口座を管理しています。新しい在留カードの情報は、自動では銀行に伝わりません",
+            "期限を過ぎた口座が売られて詐欺に使われることがあるため、銀行は確認を厳しくしています",
+            "例：七十七銀行は2026年2月16日から、届けた在留期間を過ぎて在留カードを見せていない人の普通預金で、引き出し・振込・口座振替を止めています"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、「更新を申請中」の証明になるもの",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "申請の方法",
+            "証明になるもの"
+          ],
+          "rows": [
+            [
+              "入管の窓口で申請",
+              "在留カードの裏の「在留期間更新許可申請中」の印"
+            ],
+            [
+              "オンラインで申請",
+              "申請受付の完了メール（翌日に届く。受付番号つき）。在留カードと一緒に持つ"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "期限までに申請していれば、結果が出るまで、または期限から2か月まで、合法に日本にいられます（特例期間）。"
+        }
+      ]
+    },
+    {
+      "heading": "三、止まる前にやること",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "期限の前に確かめる",
+          "items": [
+            "銀行に届けた在留期限を確かめた（アプリ・通帳・窓口）",
+            "期限の前に、銀行に「更新を申請中」と伝えた",
+            "申請中の証明（裏の印か受付メール）を見せた",
+            "新しい在留カードを受け取ったら、すぐ銀行に見せる",
+            "送金会社（Wise など）にも、新しい在留カードを登録する",
+            "給料の振込先・カードの引き落とし口座が止まらないか確かめた"
+          ],
+          "done": "準備ができました。これで口座が止まる心配は減ります。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        }
+      ]
+    },
+    {
+      "heading": "四、止まってしまったら",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "通帳かキャッシュカードと、新しい在留カード（まだなら申請中の証明）を持って窓口へ",
+            "申請中の証明を見せると、期限から2か月まで制限を外してくれる銀行がある（七十七銀行の例）",
+            "給料日・家賃の支払いが近いなら、その事情も伝える",
+            "銀行によって手続きが違うので、行く前に電話で持ち物を確かめる"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、海外送金で特に気をつけること",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "海外送金は、ふつうの振込より確認が厳しくなります。在留期限が近いと、送金そのものを受け付けないことがあります",
+            "送金会社も、登録した在留カードの期限が切れると、新しいカードを出すまで送れなくなることがあります",
+            "仕送りの日が更新の時期と重なるなら、早めに送っておきましょう",
+            "帰国するときは、口座を閉じる前に、残りのお金をどう移すかを決めておきましょう"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、会社の担当の方へ",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "外国人の社員の口座が止まると、給料を引き出せなくなります。更新の時期が近い社員には、銀行への届け出を勧めてください",
+            "新しい在留カードを会社に出してもらうときに、「銀行にも見せましたか」と一言そえると防げます"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "七十七銀行の例は公式の案内によるものです（確認日：2026-10-26）。手続きは銀行ごとに違います。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "在留期限前后，银行账户和海外汇款被冻结：怎么预防，被停了怎么办",
+  "description_zh": "即使正在申请在留期间更新，只要超过了在银行登记的期限，取款・转账・海外汇款都可能被停。原因、预防时要给银行看的材料、被停后的处理方法。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "即使正在申请在留期间更新、合法在日本，<strong>只要超过了在银行登记的在留期限，取款・转账・海外汇款就可能被停</strong>。在期限前告诉银行“正在申请更新”并出示证明，就能避免。"
+        }
+      ]
+    },
+    {
+      "heading": "一、为什么会被停",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "银行按你登记的在留期限管理账户。新在留卡的信息不会自动传给银行",
+            "过期账户被转卖、用于诈骗的情况时有发生，所以银行加强了核查",
+            "例：七十七银行从2026年2月16日起，对超过登记在留期间且未出示在留卡的人，停止其普通存款的取款・转账・自动扣款"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、能证明“正在申请更新”的东西",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "申请方式",
+            "证明"
+          ],
+          "rows": [
+            [
+              "在入管窗口申请",
+              "在留卡背面的“在留期間更新許可申請中”印章"
+            ],
+            [
+              "网上申请",
+              "申请受理完成邮件（第二天收到，附受理编号）。和在留卡一起带着"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "只要在期限前提出申请，在出结果之前、最长到期限后2个月，都可以合法留在日本（特例期间）。"
+        }
+      ]
+    },
+    {
+      "heading": "三、被停之前要做的事",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "到期前确认",
+          "items": [
+            "确认了在银行登记的在留期限（App・存折・柜台）",
+            "在到期前告诉银行“正在申请更新”",
+            "出示了申请中的证明（背面印章或受理邮件）",
+            "拿到新在留卡后，马上给银行看",
+            "也在汇款公司（Wise 等）登记新在留卡",
+            "确认了工资账户・信用卡扣款账户不会被停"
+          ],
+          "done": "准备好了，账户被停的风险小多了。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        }
+      ]
+    },
+    {
+      "heading": "四、已经被停了怎么办",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "带上存折或提款卡，以及新在留卡（还没拿到就带申请中的证明）去柜台",
+            "有的银行看到申请中的证明后，会解除限制到期限后2个月（七十七银行的例子）",
+            "如果快到发工资・交房租的日子，也把情况说清楚",
+            "各银行手续不同，去之前先打电话确认要带什么"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、海外汇款要特别注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "海外汇款比普通转账核查更严。在留期限快到时，可能直接不受理汇款",
+            "汇款公司也一样，登记的在留卡过期后，提交新卡之前可能无法汇款",
+            "如果给家里汇钱的日子和续签时间重叠，最好提前汇",
+            "回国时，在注销账户之前，先决定剩下的钱怎么转走"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、给公司负责人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "外国员工的账户被停，就取不出工资。对快要续签的员工，请提醒他们去银行登记",
+            "收新在留卡复印件时，顺便问一句“银行那边也给看了吗”，就能预防"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "七十七银行的例子来自其官方公告（确认日：2026-10-26）。各银行手续不同。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "在留期限前後，銀行帳戶和海外匯款被凍結：怎麼預防，被停了怎麼辦",
+  "description_zh-TW": "即使正在申請在留期間更新，只要超過了在銀行登記的期限，取款・轉賬・海外匯款都可能被停。原因、預防時要給銀行看的材料、被停後的處理方法。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "即使正在申請在留期間更新、合法在日本，<strong>只要超過了在銀行登記的在留期限，取款・轉賬・海外匯款就可能被停</strong>。在期限前告訴銀行“正在申請更新”並出示證明，就能避免。"
+        }
+      ]
+    },
+    {
+      "heading": "一、為什麼會被停",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "銀行按你登記的在留期限管理帳戶。新在留卡的資訊不會自動傳給銀行",
+            "過期帳戶被轉賣、用於詐騙的情況時有發生，所以銀行加強了核查",
+            "例：七十七銀行從2026年2月16日起，對超過登記在留期間且未出示在留卡的人，停止其普通存款的取款・轉賬・自動扣款"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、能證明“正在申請更新”的東西",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "申請方式",
+            "證明"
+          ],
+          "rows": [
+            [
+              "在入管視窗申請",
+              "在留卡背面的“在留期間更新許可申請中”印章"
+            ],
+            [
+              "網上申請",
+              "申請受理完成郵件（第二天收到，附受理編號）。和在留卡一起帶著"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "只要在期限前提出申請，在出結果之前、最長到期限後2個月，都可以合法留在日本（特例期間）。"
+        }
+      ]
+    },
+    {
+      "heading": "三、被停之前要做的事",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "到期前確認",
+          "items": [
+            "確認了在銀行登記的在留期限（App・存摺・櫃檯）",
+            "在到期前告訴銀行“正在申請更新”",
+            "出示了申請中的證明（背面印章或受理郵件）",
+            "拿到新在留卡後，馬上給銀行看",
+            "也在匯款公司（Wise 等）登記新在留卡",
+            "確認了工資帳戶・信用卡扣款帳戶不會被停"
+          ],
+          "done": "準備好了，帳戶被停的風險小多了。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        }
+      ]
+    },
+    {
+      "heading": "四、已經被停了怎麼辦",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "帶上存摺或提款卡，以及新在留卡（還沒拿到就帶申請中的證明）去櫃檯",
+            "有的銀行看到申請中的證明後，會解除限制到期限後2個月（七十七銀行的例子）",
+            "如果快到發工資・交房租的日子，也把情況說清楚",
+            "各銀行手續不同，去之前先打電話確認要帶什麼"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、海外匯款要特別注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "海外匯款比普通轉賬核查更嚴。在留期限快到時，可能直接不受理匯款",
+            "匯款公司也一樣，登記的在留卡過期後，提交新卡之前可能無法匯款",
+            "如果給家裡匯錢的日子和續簽時間重疊，最好提前匯",
+            "回國時，在登出帳戶之前，先決定剩下的錢怎麼轉走"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、給公司負責人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "外國員工的帳戶被停，就取不出工資。對快要續簽的員工，請提醒他們去銀行登記",
+            "收新在留卡影印件時，順便問一句“銀行那邊也給看了嗎”，就能預防"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "七十七銀行的例子來自其官方公告（確認日：2026-10-26）。各銀行手續不同。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Bank Account and International Transfers Frozen Around Your Visa Expiry: How to Prevent It and What to Do",
+  "description_en": "Even while your residence renewal is being processed, withdrawals, transfers and international transfers can be blocked once the date registered with your bank passes. Why it happens, what to show the bank, and what to do if it is blocked.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "Even if you have applied to renew and are legally in Japan, <strong>once the residence expiry date registered with your bank passes, withdrawals, transfers and international transfers can be blocked</strong>. Tell the bank before the date that you are renewing and show proof, and you can prevent it."
+        }
+      ]
+    },
+    {
+      "heading": "1. Why it happens",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Banks manage accounts by the expiry date you registered. Your new residence card is not passed to the bank automatically",
+            "Expired accounts are sometimes sold and used for fraud, so banks have tightened their checks",
+            "Example: from 16 February 2026, the 77 Bank blocks withdrawals, transfers and direct debits on ordinary accounts of people whose registered period has passed and who have not shown their residence card"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Proof that you are renewing",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "How you applied",
+            "Proof"
+          ],
+          "rows": [
+            [
+              "At the immigration office",
+              "The \"application for extension in progress\" stamp on the back of your residence card"
+            ],
+            [
+              "Online",
+              "The application receipt email (arrives the next day, with a receipt number). Carry it with your residence card"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "If you applied before the expiry date, you may stay legally until a decision is made or until two months after the expiry date, whichever comes first (the special period)."
+        }
+      ]
+    },
+    {
+      "heading": "3. What to do before it gets blocked",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Check before the expiry date",
+          "items": [
+            "I checked the expiry date registered with my bank (app, passbook or counter)",
+            "I told the bank before the date that I am renewing",
+            "I showed proof of the application (stamp or receipt email)",
+            "I will show my new residence card to the bank as soon as I get it",
+            "I will also register the new card with my money transfer service (e.g. Wise)",
+            "I checked that my salary account and card payment account will not be blocked"
+          ],
+          "done": "You're set. The risk of a blocked account is much lower now.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        }
+      ]
+    },
+    {
+      "heading": "4. If it is already blocked",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Go to the counter with your passbook or cash card and your new residence card (or proof of application if you do not have it yet)",
+            "Some banks lift the restriction until two months after the expiry date when you show proof of application (77 Bank example)",
+            "If payday or rent is coming up, tell them",
+            "Procedures differ by bank, so call first to check what to bring"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Extra care for international transfers",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "International transfers are checked more strictly than domestic ones. Near your expiry date, the transfer itself may be refused",
+            "Money transfer services may also stop you sending once the registered residence card expires, until you submit the new one",
+            "If your usual remittance date falls during renewal, send early",
+            "When leaving Japan, decide how to move the remaining money before closing the account"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. For employers",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "If a foreign employee's account is blocked, they cannot withdraw their salary. Remind employees close to renewal to update their bank",
+            "When collecting a copy of the new residence card, simply asking \"Have you shown it to your bank too?\" prevents most problems"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "The 77 Bank example is from its official notice (checked: 2026-10-26). Procedures differ by bank."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Tài khoản ngân hàng và chuyển tiền quốc tế bị khóa quanh hạn lưu trú: cách phòng tránh và xử lý",
+  "description_vi": "Dù đang xin gia hạn lưu trú, khi quá hạn đã đăng ký với ngân hàng, việc rút tiền, chuyển khoản, chuyển tiền quốc tế có thể bị khóa. Lý do, giấy tờ cần cho ngân hàng xem, và cách xử lý khi đã bị khóa.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Dù đang xin gia hạn và ở Nhật hợp pháp, <strong>khi quá hạn lưu trú đã đăng ký với ngân hàng, rút tiền, chuyển khoản và chuyển tiền quốc tế có thể bị khóa</strong>. Báo cho ngân hàng \"đang xin gia hạn\" và cho xem giấy chứng minh trước hạn là tránh được."
+        }
+      ]
+    },
+    {
+      "heading": "1. Vì sao bị khóa",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Ngân hàng quản lý tài khoản theo hạn lưu trú bạn đã đăng ký. Thông tin thẻ cư trú mới không tự động chuyển cho ngân hàng",
+            "Tài khoản quá hạn đôi khi bị bán và dùng để lừa đảo, nên ngân hàng siết kiểm tra",
+            "Ví dụ: từ 16/2/2026, ngân hàng 77 (Shichijushichi) khóa rút tiền, chuyển khoản, trích nợ tự động ở tài khoản thường của người quá hạn đăng ký mà chưa trình thẻ cư trú"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Giấy chứng minh \"đang xin gia hạn\"",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Cách nộp đơn",
+            "Giấy chứng minh"
+          ],
+          "rows": [
+            [
+              "Tại quầy cục xuất nhập cảnh",
+              "Dấu \"đang xin gia hạn\" (在留期間更新許可申請中) ở mặt sau thẻ cư trú"
+            ],
+            [
+              "Trực tuyến",
+              "Email xác nhận đã nhận đơn (đến vào ngày hôm sau, có số tiếp nhận). Mang theo cùng thẻ cư trú"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Nếu đã nộp đơn trước hạn, bạn được ở hợp pháp đến khi có kết quả hoặc tối đa 2 tháng sau ngày hết hạn (thời gian đặc biệt)."
+        }
+      ]
+    },
+    {
+      "heading": "3. Việc cần làm trước khi bị khóa",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Kiểm tra trước ngày hết hạn",
+          "items": [
+            "Đã kiểm tra hạn lưu trú đăng ký với ngân hàng (ứng dụng, sổ, quầy)",
+            "Đã báo ngân hàng \"đang xin gia hạn\" trước hạn",
+            "Đã cho xem giấy chứng minh (dấu mặt sau hoặc email tiếp nhận)",
+            "Nhận thẻ cư trú mới sẽ cho ngân hàng xem ngay",
+            "Cũng đăng ký thẻ mới với công ty chuyển tiền (Wise…)",
+            "Đã kiểm tra tài khoản nhận lương, tài khoản trả thẻ không bị khóa"
+          ],
+          "done": "Đã sẵn sàng. Nguy cơ bị khóa tài khoản giảm nhiều.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        }
+      ]
+    },
+    {
+      "heading": "4. Nếu đã bị khóa",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Mang sổ hoặc thẻ rút tiền và thẻ cư trú mới (chưa có thì mang giấy chứng minh đang xin) đến quầy",
+            "Có ngân hàng sẽ mở khóa đến 2 tháng sau ngày hết hạn khi bạn cho xem giấy chứng minh (ví dụ ngân hàng 77)",
+            "Nếu sắp đến ngày lương hay trả tiền nhà, hãy nói rõ",
+            "Thủ tục mỗi ngân hàng khác nhau, gọi điện hỏi cần mang gì trước khi đi"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Lưu ý riêng cho chuyển tiền quốc tế",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Chuyển tiền quốc tế bị kiểm tra chặt hơn chuyển khoản thường. Gần hạn lưu trú có thể bị từ chối chuyển",
+            "Công ty chuyển tiền cũng có thể ngừng cho gửi khi thẻ cư trú đã đăng ký hết hạn, cho đến khi bạn nộp thẻ mới",
+            "Nếu ngày gửi tiền về nhà trùng thời gian gia hạn, hãy gửi sớm",
+            "Khi về nước, quyết định cách chuyển số tiền còn lại trước khi đóng tài khoản"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Gửi người phụ trách ở công ty",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Nếu tài khoản của nhân viên nước ngoài bị khóa, họ không rút được lương. Hãy nhắc nhân viên sắp gia hạn cập nhật với ngân hàng",
+            "Khi nhận bản sao thẻ cư trú mới, chỉ cần hỏi thêm \"Đã cho ngân hàng xem chưa?\" là phòng được phần lớn rắc rối"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Ví dụ ngân hàng 77 theo thông báo chính thức (ngày kiểm tra: 2026-10-26). Thủ tục mỗi ngân hàng khác nhau."
+        }
+      ]
+    }
+  ],
+  "title_ko": "재류 기한 전후로 은행 계좌·해외 송금이 막힐 때: 막는 방법과 막혔을 때 대처",
+  "description_ko": "재류 기간 갱신을 신청 중이어도, 은행에 신고한 기한이 지나면 출금·이체·해외 송금이 막힐 수 있습니다. 막히는 이유, 막기 위해 은행에 보여 줄 것, 막혔을 때 대처법.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "재류 기간 갱신을 신청 중이고 합법적으로 일본에 있어도, <strong>은행에 신고한 재류 기한이 지나면 출금·이체·해외 송금이 막힐 수 있습니다</strong>. 기한 전에 은행에 \"갱신 신청 중\"이라고 알리고 증명을 보여 주면 막을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 왜 막히는가",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "은행은 신고된 재류 기한으로 계좌를 관리합니다. 새 재류카드 정보는 자동으로 은행에 전달되지 않습니다",
+            "기한이 지난 계좌가 팔려 사기에 쓰이는 일이 있어, 은행이 확인을 엄격하게 하고 있습니다",
+            "예: 77은행(七十七銀行)은 2026년 2월 16일부터, 신고한 재류 기간이 지났는데 재류카드를 보여 주지 않은 사람의 보통예금에서 출금·이체·자동이체를 막고 있습니다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. \"갱신 신청 중\"의 증명",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "신청 방법",
+            "증명이 되는 것"
+          ],
+          "rows": [
+            [
+              "입관 창구에서 신청",
+              "재류카드 뒷면의 \"在留期間更新許可申請中\" 도장"
+            ],
+            [
+              "온라인으로 신청",
+              "신청 접수 완료 메일(다음 날 도착, 접수 번호 포함). 재류카드와 함께 소지"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "기한까지 신청했다면, 결과가 나올 때까지 또는 기한으로부터 2개월까지 합법적으로 일본에 있을 수 있습니다(특례 기간)."
+        }
+      ]
+    },
+    {
+      "heading": "3. 막히기 전에 할 일",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "기한 전에 확인",
+          "items": [
+            "은행에 신고한 재류 기한을 확인했다(앱·통장·창구)",
+            "기한 전에 은행에 \"갱신 신청 중\"이라고 알렸다",
+            "신청 중 증명(뒷면 도장 또는 접수 메일)을 보여 줬다",
+            "새 재류카드를 받으면 바로 은행에 보여 준다",
+            "송금 회사(Wise 등)에도 새 재류카드를 등록한다",
+            "급여 계좌·카드 결제 계좌가 막히지 않는지 확인했다"
+          ],
+          "done": "준비됐습니다. 계좌가 막힐 걱정이 줄었습니다.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        }
+      ]
+    },
+    {
+      "heading": "4. 이미 막혔다면",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "통장이나 현금카드와 새 재류카드(아직이면 신청 중 증명)를 가지고 창구로",
+            "신청 중 증명을 보여 주면 기한으로부터 2개월까지 제한을 풀어 주는 은행이 있음(77은행 예)",
+            "월급날·월세 납부일이 가까우면 그 사정도 전달",
+            "은행마다 절차가 다르니 가기 전에 전화로 준비물 확인"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 해외 송금에서 특히 주의할 점",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "해외 송금은 일반 이체보다 확인이 엄격합니다. 재류 기한이 가까우면 송금 자체를 받아 주지 않을 수 있습니다",
+            "송금 회사도 등록한 재류카드가 만료되면, 새 카드를 낼 때까지 보낼 수 없게 될 수 있습니다",
+            "생활비를 보내는 날이 갱신 시기와 겹치면 미리 보내 두세요",
+            "귀국할 때는 계좌를 닫기 전에 남은 돈을 어떻게 옮길지 정해 두세요"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. 회사 담당자께",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "외국인 직원의 계좌가 막히면 급여를 찾을 수 없습니다. 갱신 시기가 가까운 직원에게 은행 신고를 권해 주세요",
+            "새 재류카드 사본을 받을 때 \"은행에도 보여 줬나요?\" 한마디면 대부분 막을 수 있습니다"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "77은행 예는 공식 안내 기준입니다(확인일: 2026-10-26). 절차는 은행마다 다릅니다."
+        }
+      ]
+    }
+  ]
+}

@@ -18,7 +18,12 @@ const title: string = d[`title_${lang}`];
 const desc: string = d[`description_${lang}`];
 const sections: any[] = d[`sections_${lang}`];
 const name = (SECTION_NAMES.kurashi as Record<string, string>)[lang];
-const hasAffiliate = (programsData as any).programs.some((p: any) => p.affiliate_url);
+// PR の表示は、この記事の「立場」の欄（disclosure）に書いた案件だけで決める
+const usedIds: string[] = sections.flatMap((sec: any) => (sec.blocks || []).filter((b: any) => b.t === 'disclosure').flatMap((b: any) => b.ids || []));
+const hasAffiliate = (programsData as any).programs.some((p: any) => usedIds.includes(p.id) && p.affiliate_url);
+// 同じシリーズ（group）のほかの記事
+const series = article.group ? (kurashiIndex as any).articles.filter((a: any) => a.group === article.group && a.id !== article.id && a.langs.includes(lang)) : [];
+const SERIES: Record<string, string> = { ja: 'このシリーズの記事', zh: '本系列的其他文章', 'zh-TW': '本系列的其他文章', en: 'More in this series', vi: 'Các bài khác trong loạt này', ko: '이 시리즈의 다른 글' };
 const PR: Record<string, string> = { ja: 'PR　この記事は広告を含みます', zh: 'PR　本文包含广告', 'zh-TW': 'PR　本文包含廣告', en: 'PR: This article contains ads', vi: 'PR: Bài viết có quảng cáo', ko: 'PR　이 글에는 광고가 포함되어 있습니다' };
 const CHECKED: Record<string, string> = { ja: '確認日', zh: '确认日', 'zh-TW': '確認日', en: 'Checked', vi: 'Ngày kiểm tra', ko: '확인일' };
 const SEP = ['en', 'vi', 'ko'].includes(lang) ? ': ' : '：';
@@ -39,6 +44,20 @@ const alternates = [
     <h1 class="career-article-title">{title}</h1>
     <p class="career-article-checked">{CHECKED[lang] || CHECKED.ja}{SEP}{d.checked}</p>
     <CareerBlocks sections={sections} lang={lang} />
+    {series.length > 0 && (
+      <section class="career-article-section">
+        <h2 class="career-article-section-title">{SERIES[lang] || SERIES.ja}</h2>
+        <div class="ios-list">
+          {series.map((a: any) => (
+            <a class="ios-row ios-tone--green" href={`/${lang}${a.url}`}>
+              <span class="ios-ico" aria-hidden="true">{a.icon}</span>
+              <span class="ios-text"><span class="ios-title">{a[`title_${lang}`]}</span><span class="ios-sub">{a[`sub_${lang}`]}</span></span>
+              <span class="ios-chev" aria-hidden="true">›</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
   </div>
   <div data-pagefind-body style="display:none">{title} {desc}</div>
   <script src="/js/kurashi.js" is:inline defer></script>

@@ -1,0 +1,1206 @@
+{
+  "id": "remit-first-time",
+  "checked": "2026-10-26",
+  "title_ja": "初めての海外送金：登録で止まらない準備と、「相手が受け取る金額」の計算機",
+  "description_ja": "初めて海外送金をする人へ。必要なもの（在留カード・マイナンバーなど）、使えるようになるまでの日数、手数料のほかにかかるお金、相手が受け取る金額をその場で計算できる計算機。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "初めての海外送金は、銀行でも送金会社でも、本人確認とマイナンバーの提出が必要で、使えるようになるまで数日かかることがあります。<strong>送る日の1週間前には準備を始めましょう。</strong>比べるときは、手数料ではなく「相手が受け取る金額」で見ます。"
+        }
+      ]
+    },
+    {
+      "heading": "一、必要なもの",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "もの",
+            "なぜ必要か"
+          ],
+          "rows": [
+            [
+              "本人確認書類（在留カード・マイナンバーカードなど）",
+              "法律で本人確認が義務づけられているため"
+            ],
+            [
+              "マイナンバー",
+              "2016年1月から、海外送金ではマイナンバーの届け出が必要（税務署への報告に使う）"
+            ],
+            [
+              "日本の銀行口座（またはデビットカード）",
+              "送るお金を入れるため。クレジットカードでは入れられないサービスが多い"
+            ],
+            [
+              "受取人の情報",
+              "名前・住所・口座など（書き方は「海外送金の書き方」の記事）"
+            ],
+            [
+              "金額が大きいとき：目的とお金の出どころの書類",
+              "学費の請求書、給与明細など"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、使えるようになるまで",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "送り方",
+            "目安"
+          ],
+          "rows": [
+            [
+              "銀行の窓口",
+              "手続きの当日〜。送金の実行は翌営業日以降のことが多い"
+            ],
+            [
+              "銀行のインターネット",
+              "海外送金の利用の申し込みが別に必要なことがある"
+            ],
+            [
+              "送金サービス",
+              "登録と本人確認（顔写真の撮影など）に数営業日"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、送金にかかる4つのお金",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "お金",
+            "内容"
+          ],
+          "rows": [
+            [
+              "送金手数料",
+              "送る側が払う。例：三菱UFJ銀行のインターネットで他の銀行あて3,000円"
+            ],
+            [
+              "為替の上乗せ",
+              "銀行や送金会社のレートと、市場のレートの差。手数料の表には出ない"
+            ],
+            [
+              "中継銀行の手数料",
+              "途中の銀行が送金額から引く"
+            ],
+            [
+              "受取銀行の手数料",
+              "相手の銀行が引く。国や銀行によって違う"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "「手数料0円」でも、為替の上乗せで実際にはお金がかかっていることがあります。だから「相手が受け取る金額」で比べます。"
+        }
+      ]
+    },
+    {
+      "heading": "四、計算機：相手が受け取る金額",
+      "blocks": [
+        {
+          "t": "remitcalc",
+          "amount": 100000,
+          "mid": 21.5,
+          "svcs": [
+            {
+              "fee": 3000,
+              "rate": 22.0
+            },
+            {
+              "fee": 1500,
+              "rate": 21.6
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "使い方：送金サービスや銀行の見積もりの画面で、「手数料」と「適用レート」を見て入れます",
+            "「実質のコスト」は、手数料と為替の上乗せを合わせた、本当にかかったお金です",
+            "最初に入っている数字は使い方の例です。自分の見積もりの数字に変えてください"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、よくある疑問",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "疑問",
+            "答え"
+          ],
+          "rows": [
+            [
+              "1回にいくらまで送れる？",
+              "サービスによって違います。1回100万円までのサービスもあります。大きな金額は、銀行か、高額に対応したサービスで"
+            ],
+            [
+              "100万円を超えると税務署に知られる？",
+              "1回100万円を超える海外送金は、銀行・送金会社から税務署に報告されます（国外送金等調書）。報告であって、税金がかかるわけではありません"
+            ],
+            [
+              "家族への仕送りに税金はかかる？",
+              "生活費・学費として必要な分を、その都度送るなら、贈与税はかかりません"
+            ],
+            [
+              "分けて送ったほうがいい？",
+              "上限や報告を避けるために分けると、怪しい取引として確認されることがあります。必要な金額をそのまま送りましょう"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、次の一歩",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "使う方法を決めて、登録する（送る日の1週間前）",
+            "受取人の情報をもらう",
+            "計算機で受取額を確かめて送る",
+            "控えを保存する（扶養控除にも使える）"
+          ]
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "海外送金のサービスの一つ。送金前の画面に、手数料と相手が受け取る金額が表示されます。初めての人は本人確認とマイナンバーの提出が必要です。"
+        },
+        {
+          "t": "note",
+          "text": "手数料などは各社の公式サイトで確かめたものです（確認日：2026-10-26）。変わることがあるので、送る前に確かめてください。"
+        }
+      ]
+    },
+    {
+      "heading": "七、この記事の立場",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_zh": "第一次从日本汇款回国：注册不卡壳的准备，和“对方实际收到多少”计算器",
+  "description_zh": "第一次从日本海外汇款的人看这里：要准备什么（在留卡・个人编号等）、多久才能用、手续费之外还有哪些费用，以及当场算出对方实际收到多少的计算器。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "第一次海外汇款，无论银行还是汇款公司，都需要身份验证和提交个人编号（My Number），可能要几天才能用。<strong>最好在汇款前一周开始准备。</strong>比较时不要只看手续费，要看“对方实际收到多少”。"
+        }
+      ]
+    },
+    {
+      "heading": "一、要准备的东西",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "东西",
+            "为什么需要"
+          ],
+          "rows": [
+            [
+              "身份证件（在留卡・个人编号卡等）",
+              "法律规定必须验证身份"
+            ],
+            [
+              "个人编号（My Number）",
+              "2016年1月起，海外汇款必须登记个人编号（用于向税务署报告）"
+            ],
+            [
+              "日本的银行账户（或借记卡）",
+              "用来支付要汇的钱。很多服务不能用信用卡"
+            ],
+            [
+              "收款人信息",
+              "姓名・地址・账号等（填写方法见《海外汇款怎么填》）"
+            ],
+            [
+              "金额大时：用途和资金来源的材料",
+              "学费账单、工资单等"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、多久能用",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "汇款方式",
+            "参考"
+          ],
+          "rows": [
+            [
+              "银行柜台",
+              "办理当天起。实际汇出多在下一个工作日以后"
+            ],
+            [
+              "网上银行",
+              "有时需要另外申请开通海外汇款"
+            ],
+            [
+              "汇款服务",
+              "注册和身份验证（拍照等）要几个工作日"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、汇款的4种费用",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "费用",
+            "内容"
+          ],
+          "rows": [
+            [
+              "汇款手续费",
+              "汇款方支付。例：三菱UFJ银行网银汇到其他银行3,000日元"
+            ],
+            [
+              "汇率加价",
+              "银行或汇款公司的汇率与市场汇率的差。手续费表里看不到"
+            ],
+            [
+              "中转行手续费",
+              "中途的银行从汇款额里扣"
+            ],
+            [
+              "收款行手续费",
+              "对方银行扣。因国家和银行而异"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "就算“手续费0元”，也可能通过汇率加价实际收了钱。所以要按“对方实际收到多少”来比较。"
+        }
+      ]
+    },
+    {
+      "heading": "四、计算器：对方实际收到多少",
+      "blocks": [
+        {
+          "t": "remitcalc",
+          "amount": 100000,
+          "mid": 21.5,
+          "svcs": [
+            {
+              "fee": 3000,
+              "rate": 22.0
+            },
+            {
+              "fee": 1500,
+              "rate": 21.6
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "用法：在汇款服务或银行的报价页面，看“手续费”和“适用汇率”填进去",
+            "“实际成本”是手续费加汇率加价，真正花掉的钱",
+            "预设的数字只是示范，请换成你自己的报价"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、常见疑问",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "疑问",
+            "回答"
+          ],
+          "rows": [
+            [
+              "一次最多能汇多少？",
+              "因服务而异。有的服务单笔上限100万日元。大额请用银行或支持大额的服务"
+            ],
+            [
+              "超过100万日元会被税务署知道吗？",
+              "单笔超过100万日元的海外汇款，银行・汇款公司会向税务署报告（国外送金等调书）。这只是报告，不是收税"
+            ],
+            [
+              "给家人汇生活费要交税吗？",
+              "作为生活费・学费，按需要每次汇款的话，不用交赠与税"
+            ],
+            [
+              "分几次汇比较好吗？",
+              "为了躲避上限或报告而拆分，可能被当成可疑交易来核查。需要多少就汇多少"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、下一步",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "决定用哪种方式并注册（汇款前一周）",
+            "向对方要收款信息",
+            "用计算器确认到账金额后汇款",
+            "保存回执（报扶养扣除也能用）"
+          ]
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "海外汇款服务之一。汇款前的页面会显示手续费和对方实际收到的金额。第一次使用需要身份验证和提交个人编号。"
+        },
+        {
+          "t": "note",
+          "text": "手续费等信息来自各公司官网（确认日：2026-10-26）。可能会变，汇款前请再确认。"
+        }
+      ]
+    },
+    {
+      "heading": "七、本文的立场",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "第一次從日本匯款回國：註冊不卡殼的準備，和“對方實際收到多少”計算器",
+  "description_zh-TW": "第一次從日本海外匯款的人看這裡：要準備什麼（在留卡・個人編號等）、多久才能用、手續費之外還有哪些費用，以及當場算出對方實際收到多少的計算器。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "第一次海外匯款，無論銀行還是匯款公司，都需要身份驗證和提交個人編號（My Number），可能要幾天才能用。<strong>最好在匯款前一週開始準備。</strong>比較時不要只看手續費，要看“對方實際收到多少”。"
+        }
+      ]
+    },
+    {
+      "heading": "一、要準備的東西",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "東西",
+            "為什麼需要"
+          ],
+          "rows": [
+            [
+              "身份證件（在留卡・個人編號卡等）",
+              "法律規定必須驗證身份"
+            ],
+            [
+              "個人編號（My Number）",
+              "2016年1月起，海外匯款必須登記個人編號（用於向稅務署報告）"
+            ],
+            [
+              "日本的銀行帳戶（或簽帳金融卡）",
+              "用來支付要匯的錢。很多服務不能用信用卡"
+            ],
+            [
+              "收款人資訊",
+              "姓名・地址・帳號等（填寫方法見《海外匯款怎麼填》）"
+            ],
+            [
+              "金額大時：用途和資金來源的材料",
+              "學費賬單、工資單等"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、多久能用",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "匯款方式",
+            "參考"
+          ],
+          "rows": [
+            [
+              "銀行櫃檯",
+              "辦理當天起。實際匯出多在下一個工作日以後"
+            ],
+            [
+              "網路銀行",
+              "有時需要另外申請開通海外匯款"
+            ],
+            [
+              "匯款服務",
+              "註冊和身份驗證（拍照等）要幾個工作日"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、匯款的4種費用",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "費用",
+            "內容"
+          ],
+          "rows": [
+            [
+              "匯款手續費",
+              "匯款方支付。例：三菱UFJ銀行網銀匯到其他銀行3,000日圓"
+            ],
+            [
+              "匯率加價",
+              "銀行或匯款公司的匯率與市場匯率的差。手續費表裡看不到"
+            ],
+            [
+              "中轉行手續費",
+              "中途的銀行從匯款額里扣"
+            ],
+            [
+              "收款行手續費",
+              "對方銀行扣。因國家和銀行而異"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "就算“手續費0元”，也可能透過匯率加價實際收了錢。所以要按“對方實際收到多少”來比較。"
+        }
+      ]
+    },
+    {
+      "heading": "四、計算器：對方實際收到多少",
+      "blocks": [
+        {
+          "t": "remitcalc",
+          "amount": 100000,
+          "mid": 21.5,
+          "svcs": [
+            {
+              "fee": 3000,
+              "rate": 22.0
+            },
+            {
+              "fee": 1500,
+              "rate": 21.6
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "用法：在匯款服務或銀行的報價頁面，看“手續費”和“適用匯率”填進去",
+            "“實際成本”是手續費加匯率加價，真正花掉的錢",
+            "預設的數字只是示範，請換成你自己的報價"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、常見疑問",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "疑問",
+            "回答"
+          ],
+          "rows": [
+            [
+              "一次最多能匯多少？",
+              "因服務而異。有的服務單筆上限100萬日圓。大額請用銀行或支援大額的服務"
+            ],
+            [
+              "超過100萬日圓會被稅務署知道嗎？",
+              "單筆超過100萬日圓的海外匯款，銀行・匯款公司會向稅務署報告（國外送金等調書）。這只是報告，不是收稅"
+            ],
+            [
+              "給家人匯生活費要交稅嗎？",
+              "作為生活費・學費，按需要每次匯款的話，不用交贈與稅"
+            ],
+            [
+              "分幾次匯比較好嗎？",
+              "為了躲避上限或報告而拆分，可能被當成可疑交易來核查。需要多少就匯多少"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、下一步",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "決定用哪種方式並註冊（匯款前一週）",
+            "向對方要收款資訊",
+            "用計算器確認到賬金額後匯款",
+            "儲存回執（報扶養扣除也能用）"
+          ]
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "海外匯款服務之一。匯款前的頁面會顯示手續費和對方實際收到的金額。第一次使用需要身份驗證和提交個人編號。"
+        },
+        {
+          "t": "note",
+          "text": "手續費等資訊來自各公司官網（確認日：2026-10-26）。可能會變，匯款前請再確認。"
+        }
+      ]
+    },
+    {
+      "heading": "七、本文的立場",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_en": "Your First International Transfer from Japan: Get Set Up Without Delays, Plus a \"How Much Arrives\" Calculator",
+  "description_en": "For first-time senders: what you need (residence card, My Number, etc.), how long until you can send, the costs besides the fee, and a calculator that shows how much the recipient actually gets.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "For your first international transfer, banks and money transfer companies both require identity verification and your My Number, and it can take a few days before you can send. <strong>Start preparing a week before you need to send.</strong> When comparing, look at how much the recipient actually gets, not just the fee."
+        }
+      ]
+    },
+    {
+      "heading": "1. What you need",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "Why"
+          ],
+          "rows": [
+            [
+              "ID (residence card, My Number card, etc.)",
+              "Identity checks are required by law"
+            ],
+            [
+              "My Number",
+              "Since January 2016, My Number must be provided for international transfers (used for reports to the tax office)"
+            ],
+            [
+              "A Japanese bank account (or debit card)",
+              "To pay in the money. Many services do not accept credit cards"
+            ],
+            [
+              "Recipient details",
+              "Name, address, account, etc. (see the article on how to fill in a transfer)"
+            ],
+            [
+              "For large amounts: proof of purpose and source of funds",
+              "Tuition invoice, payslips, etc."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. How long until you can send",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Method",
+            "Usual time"
+          ],
+          "rows": [
+            [
+              "Bank counter",
+              "From the same day. The transfer itself often goes out the next business day or later"
+            ],
+            [
+              "Online banking",
+              "You may need to apply separately to use international transfers"
+            ],
+            [
+              "Money transfer service",
+              "A few business days for sign-up and identity checks (photo, etc.)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. The 4 costs of a transfer",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Cost",
+            "What it is"
+          ],
+          "rows": [
+            [
+              "Transfer fee",
+              "Paid by the sender. Example: MUFG Bank online, 3,000 yen to another bank"
+            ],
+            [
+              "Exchange-rate markup",
+              "The gap between the bank's or company's rate and the market rate. Not shown in the fee table"
+            ],
+            [
+              "Intermediary bank fee",
+              "Deducted from the amount by a bank along the way"
+            ],
+            [
+              "Receiving bank fee",
+              "Deducted by the recipient's bank. Varies by country and bank"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Even with a \"0 yen fee\", the exchange-rate markup can still cost you money. That is why you compare by how much arrives."
+        }
+      ]
+    },
+    {
+      "heading": "4. Calculator: how much the recipient gets",
+      "blocks": [
+        {
+          "t": "remitcalc",
+          "amount": 100000,
+          "mid": 21.5,
+          "svcs": [
+            {
+              "fee": 3000,
+              "rate": 22.0
+            },
+            {
+              "fee": 1500,
+              "rate": 21.6
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "How to use: on the quote screen of a service or bank, find the fee and the rate applied, and enter them",
+            "\"Real cost\" is the fee plus the exchange-rate markup: what the transfer really cost you",
+            "The numbers already filled in are just an example. Replace them with your own quotes"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Common questions",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Question",
+            "Answer"
+          ],
+          "rows": [
+            [
+              "How much can I send at once?",
+              "It depends on the service. Some have a limit of 1 million yen per transfer. For large amounts, use a bank or a service that handles them"
+            ],
+            [
+              "Will the tax office know if I send over 1 million yen?",
+              "Banks and transfer companies report international transfers of more than 1 million yen to the tax office. It is a report, not a tax"
+            ],
+            [
+              "Is money for my family taxed?",
+              "No gift tax if you send living or education costs as they are needed"
+            ],
+            [
+              "Should I split it into smaller transfers?",
+              "Splitting to avoid limits or reports can be flagged as suspicious. Send the amount you actually need"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Next steps",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Choose a method and sign up (a week before)",
+            "Get the recipient details",
+            "Check the amount with the calculator, then send",
+            "Keep the receipt (also useful for the dependent deduction)"
+          ]
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "One of the international money transfer services. Before you send, the screen shows the fee and how much the recipient will get. First-time users need identity verification and to submit their My Number."
+        },
+        {
+          "t": "note",
+          "text": "Fees were checked on each company's official site (checked: 2026-10-26). They can change, so check before sending."
+        }
+      ]
+    },
+    {
+      "heading": "7. Our position",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_vi": "Lần đầu chuyển tiền quốc tế từ Nhật: chuẩn bị để không bị kẹt khi đăng ký, và máy tính \"người nhận được bao nhiêu\"",
+  "description_vi": "Dành cho người lần đầu gửi tiền về nước: cần chuẩn bị gì (thẻ cư trú, My Number…), bao lâu mới gửi được, các khoản tiền ngoài phí, và máy tính cho biết người nhận thực nhận bao nhiêu.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Lần đầu chuyển tiền quốc tế, dù qua ngân hàng hay công ty chuyển tiền, đều cần xác minh danh tính và nộp My Number, có thể mất vài ngày mới gửi được. <strong>Hãy bắt đầu chuẩn bị trước ngày gửi một tuần.</strong> Khi so sánh, hãy nhìn \"người nhận thực nhận bao nhiêu\", không chỉ nhìn phí."
+        }
+      ]
+    },
+    {
+      "heading": "1. Cần chuẩn bị",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Thứ cần",
+            "Vì sao"
+          ],
+          "rows": [
+            [
+              "Giấy tờ tùy thân (thẻ cư trú, thẻ My Number…)",
+              "Luật bắt buộc xác minh danh tính"
+            ],
+            [
+              "My Number",
+              "Từ tháng 1/2016, chuyển tiền quốc tế phải khai My Number (dùng để báo cáo cơ quan thuế)"
+            ],
+            [
+              "Tài khoản ngân hàng Nhật (hoặc thẻ ghi nợ)",
+              "Để nạp tiền gửi. Nhiều dịch vụ không nhận thẻ tín dụng"
+            ],
+            [
+              "Thông tin người nhận",
+              "Tên, địa chỉ, tài khoản… (xem bài \"Cách điền chuyển tiền quốc tế\")"
+            ],
+            [
+              "Khi số tiền lớn: giấy tờ mục đích và nguồn tiền",
+              "Hóa đơn học phí, phiếu lương…"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Bao lâu thì dùng được",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Cách gửi",
+            "Thời gian"
+          ],
+          "rows": [
+            [
+              "Quầy ngân hàng",
+              "Từ ngày làm thủ tục. Lệnh thường được thực hiện từ ngày làm việc kế tiếp"
+            ],
+            [
+              "Ngân hàng trực tuyến",
+              "Có khi phải đăng ký riêng để dùng chuyển tiền quốc tế"
+            ],
+            [
+              "Dịch vụ chuyển tiền",
+              "Vài ngày làm việc để đăng ký và xác minh (chụp ảnh…)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Bốn khoản tiền khi chuyển",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Khoản",
+            "Nội dung"
+          ],
+          "rows": [
+            [
+              "Phí chuyển",
+              "Người gửi trả. Ví dụ: MUFG trực tuyến gửi sang ngân hàng khác 3.000 yên"
+            ],
+            [
+              "Phần cộng thêm vào tỷ giá",
+              "Chênh lệch giữa tỷ giá của ngân hàng/công ty và tỷ giá thị trường. Không hiện trong bảng phí"
+            ],
+            [
+              "Phí ngân hàng trung gian",
+              "Ngân hàng ở giữa trừ vào số tiền gửi"
+            ],
+            [
+              "Phí ngân hàng nhận",
+              "Ngân hàng bên kia trừ. Tùy nước và ngân hàng"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Dù \"phí 0 yên\", bạn vẫn có thể mất tiền qua phần cộng thêm vào tỷ giá. Vì vậy hãy so bằng số tiền người nhận thực nhận."
+        }
+      ]
+    },
+    {
+      "heading": "4. Máy tính: người nhận thực nhận bao nhiêu",
+      "blocks": [
+        {
+          "t": "remitcalc",
+          "amount": 100000,
+          "dir": "b",
+          "mid": 175,
+          "svcs": [
+            {
+              "fee": 3000,
+              "rate": 170
+            },
+            {
+              "fee": 1500,
+              "rate": 173
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Cách dùng: trên màn hình báo giá của dịch vụ hoặc ngân hàng, xem \"phí\" và \"tỷ giá áp dụng\" rồi nhập vào",
+            "\"Chi phí thực\" là phí cộng phần cộng thêm vào tỷ giá: số tiền bạn thực sự mất",
+            "Các số có sẵn chỉ là ví dụ (đồng Việt Nam). Hãy thay bằng báo giá của bạn"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Câu hỏi thường gặp",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Câu hỏi",
+            "Trả lời"
+          ],
+          "rows": [
+            [
+              "Một lần gửi được tối đa bao nhiêu?",
+              "Tùy dịch vụ. Có dịch vụ giới hạn 1 triệu yên mỗi lần. Số tiền lớn thì dùng ngân hàng hoặc dịch vụ hỗ trợ số tiền lớn"
+            ],
+            [
+              "Gửi trên 1 triệu yên thì cơ quan thuế có biết không?",
+              "Ngân hàng, công ty chuyển tiền báo cáo cơ quan thuế các lần chuyển quốc tế trên 1 triệu yên. Đây là báo cáo, không phải đánh thuế"
+            ],
+            [
+              "Gửi tiền cho gia đình có bị đánh thuế không?",
+              "Gửi sinh hoạt phí, học phí theo nhu cầu từng lần thì không bị thuế tặng cho"
+            ],
+            [
+              "Có nên chia nhỏ để gửi?",
+              "Chia nhỏ để né hạn mức hay báo cáo có thể bị coi là giao dịch đáng ngờ. Hãy gửi đúng số tiền cần"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Bước tiếp theo",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Chọn cách gửi và đăng ký (trước một tuần)",
+            "Xin thông tin người nhận",
+            "Dùng máy tính kiểm tra số tiền nhận rồi gửi",
+            "Lưu biên nhận (dùng được cho khấu trừ người phụ thuộc)"
+          ]
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "Một dịch vụ chuyển tiền quốc tế. Trước khi gửi, màn hình hiện phí và số tiền người nhận sẽ nhận. Lần đầu cần xác minh danh tính và nộp My Number."
+        },
+        {
+          "t": "note",
+          "text": "Phí được kiểm tra trên trang chính thức của từng công ty (ngày kiểm tra: 2026-10-26). Có thể thay đổi, hãy kiểm tra trước khi gửi."
+        }
+      ]
+    },
+    {
+      "heading": "7. Lập trường của bài viết",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ],
+  "title_ko": "일본에서 처음 해외 송금: 가입에서 막히지 않는 준비와 \"받는 사람이 받는 금액\" 계산기",
+  "description_ko": "처음 해외 송금하는 분께: 필요한 것(재류카드·마이넘버 등), 보낼 수 있게 되기까지의 기간, 수수료 외에 드는 돈, 받는 사람이 실제로 받는 금액을 바로 계산하는 계산기.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "처음 해외 송금을 할 때는 은행이든 송금 회사든 본인 확인과 마이넘버 제출이 필요해서, 쓸 수 있게 되기까지 며칠 걸릴 수 있습니다. <strong>보내는 날 1주일 전에는 준비를 시작하세요.</strong> 비교할 때는 수수료가 아니라 \"받는 사람이 받는 금액\"을 봅니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 필요한 것",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "것",
+            "왜 필요한가"
+          ],
+          "rows": [
+            [
+              "신분증(재류카드·마이넘버 카드 등)",
+              "법으로 본인 확인이 의무이기 때문"
+            ],
+            [
+              "마이넘버",
+              "2016년 1월부터 해외 송금에는 마이넘버 신고가 필요(세무서 보고에 사용)"
+            ],
+            [
+              "일본 은행 계좌(또는 직불카드)",
+              "보낼 돈을 넣기 위해. 신용카드로는 넣을 수 없는 서비스가 많음"
+            ],
+            [
+              "받는 사람 정보",
+              "이름·주소·계좌 등(\"해외 송금 작성법\" 글 참고)"
+            ],
+            [
+              "금액이 클 때: 목적과 자금 출처 서류",
+              "학비 청구서, 급여 명세서 등"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 쓸 수 있게 되기까지",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "보내는 방법",
+            "기준"
+          ],
+          "rows": [
+            [
+              "은행 창구",
+              "신청 당일부터. 실제 송금은 다음 영업일 이후인 경우가 많음"
+            ],
+            [
+              "인터넷 뱅킹",
+              "해외 송금 이용 신청이 따로 필요할 수 있음"
+            ],
+            [
+              "송금 서비스",
+              "가입과 본인 확인(사진 촬영 등)에 영업일 며칠"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 송금에 드는 4가지 비용",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "비용",
+            "내용"
+          ],
+          "rows": [
+            [
+              "송금 수수료",
+              "보내는 쪽이 냄. 예: 미쓰비시UFJ은행 인터넷으로 다른 은행 앞 3,000엔"
+            ],
+            [
+              "환율 가산",
+              "은행·송금 회사의 환율과 시장 환율의 차이. 수수료 표에는 나오지 않음"
+            ],
+            [
+              "중개 은행 수수료",
+              "중간 은행이 송금액에서 뺌"
+            ],
+            [
+              "받는 은행 수수료",
+              "상대 은행이 뺌. 국가·은행마다 다름"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "\"수수료 0엔\"이라도 환율 가산으로 실제로는 돈이 들 수 있습니다. 그래서 \"받는 사람이 받는 금액\"으로 비교합니다."
+        }
+      ]
+    },
+    {
+      "heading": "4. 계산기: 받는 사람이 받는 금액",
+      "blocks": [
+        {
+          "t": "remitcalc",
+          "amount": 100000,
+          "dir": "b",
+          "mid": 9.3,
+          "svcs": [
+            {
+              "fee": 3000,
+              "rate": 9.0
+            },
+            {
+              "fee": 1500,
+              "rate": 9.2
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "사용법: 송금 서비스나 은행의 견적 화면에서 \"수수료\"와 \"적용 환율\"을 보고 입력합니다",
+            "\"실질 비용\"은 수수료와 환율 가산을 합친, 실제로 든 돈입니다",
+            "처음 들어 있는 숫자는 예시(원화)입니다. 자신의 견적 숫자로 바꾸세요"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 자주 묻는 질문",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "질문",
+            "답"
+          ],
+          "rows": [
+            [
+              "한 번에 얼마까지 보낼 수 있나?",
+              "서비스마다 다릅니다. 1회 100만 엔까지인 서비스도 있습니다. 큰 금액은 은행이나 고액에 대응하는 서비스로"
+            ],
+            [
+              "100만 엔을 넘으면 세무서가 아나?",
+              "1회 100만 엔을 넘는 해외 송금은 은행·송금 회사가 세무서에 보고합니다(국외송금등조서). 보고일 뿐 세금이 붙는 것은 아닙니다"
+            ],
+            [
+              "가족에게 보내는 생활비에 세금이 붙나?",
+              "생활비·학비로 필요한 만큼 그때그때 보내면 증여세는 붙지 않습니다"
+            ],
+            [
+              "나눠서 보내는 게 좋을까?",
+              "한도나 보고를 피하려고 나누면 의심 거래로 확인받을 수 있습니다. 필요한 금액을 그대로 보내세요"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. 다음 단계",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "보낼 방법을 정하고 가입(보내는 날 1주일 전)",
+            "받는 사람 정보 받기",
+            "계산기로 수취액을 확인하고 송금",
+            "영수증 저장(부양공제에도 사용 가능)"
+          ]
+        },
+        {
+          "t": "offerbtn",
+          "id": "wise",
+          "text": "해외 송금 서비스 중 하나. 보내기 전 화면에 수수료와 받는 사람이 받을 금액이 표시됩니다. 처음이면 본인 확인과 마이넘버 제출이 필요합니다."
+        },
+        {
+          "t": "note",
+          "text": "수수료 등은 각 회사 공식 사이트에서 확인했습니다(확인일: 2026-10-26). 바뀔 수 있으니 보내기 전에 확인하세요."
+        }
+      ]
+    },
+    {
+      "heading": "7. 이 글의 입장",
+      "blocks": [
+        {
+          "t": "disclosure",
+          "ids": [
+            "wise"
+          ]
+        }
+      ]
+    }
+  ]
+}

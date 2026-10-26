@@ -1,6 +1,141 @@
 {
   "articles": [
     {
+      "id": "remit-form",
+      "langs": [
+        "ja",
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko"
+      ],
+      "group": "remit",
+      "icon": "✍️",
+      "url": "/kurashi/remit-form/",
+      "updated": "2026-10-26",
+      "title_ja": "海外送金の書き方：目的・名前・住所・SWIFT コードの記入例（国別の注意つき）",
+      "sub_ja": "目的の英語の早見表・相手からもらう情報・送る前のチェック",
+      "title_zh": "从日本海外汇款怎么填：汇款用途・姓名・地址・SWIFT 代码填写范例（附各国注意事项）",
+      "sub_zh": "用途英文对照表・要向对方要的信息・汇款前检查",
+      "title_zh-TW": "從日本海外匯款怎麼填：匯款用途・姓名・地址・SWIFT 代碼填寫範例（附各國注意事項）",
+      "sub_zh-TW": "用途英文對照表・要向對方要的資訊・匯款前檢查",
+      "title_en": "How to Fill In an International Transfer from Japan: Purpose, Name, Address and SWIFT Code Examples (with Country Notes)",
+      "sub_en": "Purpose wording, details to get from the recipient, pre-transfer checklist",
+      "title_vi": "Cách điền chuyển tiền quốc tế từ Nhật: mẫu ghi mục đích, tên, địa chỉ, mã SWIFT (kèm lưu ý theo từng nước)",
+      "sub_vi": "Bảng mục đích bằng tiếng Anh, thông tin cần xin người nhận, kiểm tra trước khi gửi",
+      "title_ko": "일본에서 해외 송금 작성법: 송금 목적·이름·주소·SWIFT 코드 작성 예시 (국가별 주의점 포함)",
+      "sub_ko": "목적 영어 표·받는 사람에게 받을 정보·보내기 전 체크"
+    },
+    {
+      "id": "remit-not-arrived",
+      "langs": [
+        "ja",
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko"
+      ],
+      "group": "remit",
+      "icon": "🔍",
+      "url": "/kurashi/remit-not-arrived/",
+      "updated": "2026-10-26",
+      "title_ja": "海外送金が届かない・戻ってきた・相手が受け取れない：原因と、まずやること",
+      "sub_ja": "原因の早見表・問い合わせで伝えること・組戻し・支付宝と微信の条件",
+      "title_zh": "海外汇款迟迟不到账・被退回・对方收不到：原因和第一步该做什么",
+      "sub_zh": "原因速查表・查询时要说什么・退汇（組戻し）・支付宝和微信的收款条件",
+      "title_zh-TW": "海外匯款遲遲不到賬・被退回・對方收不到：原因和第一步該做什麼",
+      "sub_zh-TW": "原因速查表・查詢時要說什麼・退匯（組戻し）・支付寶和微信的收款條件",
+      "title_en": "International Transfer Not Arrived, Returned, or Can't Be Received: Causes and What to Do First",
+      "sub_en": "Quick cause table, what to tell the bank, recalling a transfer, Alipay and WeChat conditions",
+      "title_vi": "Chuyển tiền quốc tế không đến, bị trả lại, người nhận không nhận được: nguyên nhân và việc cần làm trước tiên",
+      "sub_vi": "Bảng nguyên nhân, cần nói gì khi hỏi, hủy lệnh chuyển, điều kiện nhận qua Alipay và WeChat",
+      "title_ko": "해외 송금이 도착하지 않음·반송됨·받는 사람이 못 받음: 원인과 먼저 할 일",
+      "sub_ko": "원인 한눈에 보기·문의할 때 말할 것·송금 취소(組戻し)·알리페이와 위챗 조건"
+    },
+    {
+      "id": "remit-first-time",
+      "langs": [
+        "ja",
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko"
+      ],
+      "group": "remit",
+      "icon": "🧮",
+      "url": "/kurashi/remit-first-time/",
+      "updated": "2026-10-26",
+      "title_ja": "初めての海外送金：登録で止まらない準備と、「相手が受け取る金額」の計算機",
+      "sub_ja": "必要なもの・使えるまでの日数・4つのお金・受取額の計算機",
+      "title_zh": "第一次从日本汇款回国：注册不卡壳的准备，和“对方实际收到多少”计算器",
+      "sub_zh": "要准备什么・多久能用・4种费用・到账金额计算器",
+      "title_zh-TW": "第一次從日本匯款回國：註冊不卡殼的準備，和“對方實際收到多少”計算器",
+      "sub_zh-TW": "要準備什麼・多久能用・4種費用・到賬金額計算器",
+      "title_en": "Your First International Transfer from Japan: Get Set Up Without Delays, Plus a \"How Much Arrives\" Calculator",
+      "sub_en": "What you need, how long setup takes, the 4 costs, received-amount calculator",
+      "title_vi": "Lần đầu chuyển tiền quốc tế từ Nhật: chuẩn bị để không bị kẹt khi đăng ký, và máy tính \"người nhận được bao nhiêu\"",
+      "sub_vi": "Cần gì, bao lâu dùng được, 4 khoản tiền, máy tính số tiền nhận",
+      "title_ko": "일본에서 처음 해외 송금: 가입에서 막히지 않는 준비와 \"받는 사람이 받는 금액\" 계산기",
+      "sub_ko": "필요한 것·사용까지 걸리는 기간·4가지 비용·수취액 계산기"
+    },
+    {
+      "id": "remit-visa-expiry",
+      "langs": [
+        "ja",
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko"
+      ],
+      "group": "remit",
+      "icon": "🪪",
+      "url": "/kurashi/remit-visa-expiry/",
+      "updated": "2026-10-26",
+      "title_ja": "在留期限の前後で、銀行口座や海外送金が止まる：防ぎ方と、止まったときの対処",
+      "sub_ja": "更新の申請中でも止まる理由・銀行に見せるもの・送金会社の場合",
+      "title_zh": "在留期限前后，银行账户和海外汇款被冻结：怎么预防，被停了怎么办",
+      "sub_zh": "为什么续签申请中也会被停・要给银行看什么・汇款公司的情况",
+      "title_zh-TW": "在留期限前後，銀行帳戶和海外匯款被凍結：怎麼預防，被停了怎麼辦",
+      "sub_zh-TW": "為什麼續簽申請中也會被停・要給銀行看什麼・匯款公司的情況",
+      "title_en": "Bank Account and International Transfers Frozen Around Your Visa Expiry: How to Prevent It and What to Do",
+      "sub_en": "Why it happens even during renewal, what to show the bank, transfer services",
+      "title_vi": "Tài khoản ngân hàng và chuyển tiền quốc tế bị khóa quanh hạn lưu trú: cách phòng tránh và xử lý",
+      "sub_vi": "Vì sao đang gia hạn vẫn bị khóa, cần cho ngân hàng xem gì, với công ty chuyển tiền",
+      "title_ko": "재류 기한 전후로 은행 계좌·해외 송금이 막힐 때: 막는 방법과 막혔을 때 대처",
+      "sub_ko": "갱신 신청 중에도 막히는 이유·은행에 보여 줄 것·송금 회사의 경우"
+    },
+    {
+      "id": "remit-family-tax",
+      "langs": [
+        "ja",
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko"
+      ],
+      "group": "remit",
+      "icon": "🧾",
+      "url": "/kurashi/remit-family-tax/",
+      "updated": "2026-10-26",
+      "title_ja": "仕送りで税金を減らす：海外の家族を扶養に入れる条件と、残すべき送金の記録",
+      "sub_ja": "年齢ごとの条件・認められる記録・ビザへの影響と迷ったときの判断",
+      "title_zh": "汇生活费回国也能少交税：把海外家人列为扶养的条件，和必须保存的汇款记录",
+      "sub_zh": "各年龄的条件・认可的记录・对签证的影响和判断方法",
+      "title_zh-TW": "匯生活費回國也能少交稅：把海外家人列為扶養的條件，和必須儲存的匯款記錄",
+      "sub_zh-TW": "各年齡的條件・認可的記錄・對簽證的影響和判斷方法",
+      "title_en": "Pay Less Tax by Supporting Family Abroad: Conditions for Claiming Them as Dependents and the Transfer Records to Keep",
+      "sub_en": "Conditions by age, accepted records, visa effects and how to decide",
+      "title_vi": "Gửi tiền về nhà mà giảm được thuế: điều kiện khai người thân ở nước ngoài là người phụ thuộc và giấy tờ chuyển tiền cần giữ",
+      "sub_vi": "Điều kiện theo tuổi, giấy tờ được chấp nhận, ảnh hưởng đến visa và cách quyết định",
+      "title_ko": "생활비 송금으로 세금 줄이기: 해외 가족을 부양가족으로 넣는 조건과 남겨야 할 송금 기록",
+      "sub_ko": "나이별 조건·인정되는 기록·비자 영향과 판단 방법"
+    },
+    {
       "id": "first-credit-card",
       "langs": [
         "zh",
@@ -24,7 +159,8 @@
       "title_vi": "Thẻ tín dụng đầu tiên ở Nhật: chọn thẻ nào? Tìm thẻ hợp với bạn trong 30 giây và mẹo đăng ký không thất bại (kèm lưu ý cho người nước ngoài)",
       "sub_vi": "Trắc nghiệm 30 giây・tính điểm mỗi năm・danh sách kiểm tra",
       "title_ko": "일본에서 첫 신용카드, 무엇을 고를까? 30초 만에 나에게 맞는 카드 찾기・신청에서 실패하지 않는 요령 (외국인 주의점 포함)",
-      "sub_ko": "30초 진단・연간 포인트 계산・신청 전 체크리스트"
+      "sub_ko": "30초 진단・연간 포인트 계산・신청 전 체크리스트",
+      "group": "card"
     }
   ]
 }
