@@ -29,6 +29,14 @@ const hubUrl = `${langPathPrefix}/career/`;
 // frontmatter里按?from=选文案，必须在浏览器里读当前URL后再显示——
 // 下面把完整的banner文案表（当前语言版本）传给客户端脚本，运行时查表展示。
 const careerBannerMap: Record<string, { text: string; cta: string }> = tf(referral, 'banner', lang) as Record<string, { text: string; cta: string }>;
+const SPAM_NOTE: Record<string, string> = {
+  ja: '返信が迷惑メールのフォルダに入ることがあります。数日たっても届かないときは、迷惑メールのフォルダもご確認ください。',
+  zh: '回复邮件有时会被放进垃圾邮件文件夹。几天后还没收到的话，请也看一下垃圾邮件文件夹。',
+  'zh-TW': '回覆郵件有時會被放進垃圾郵件資料夾。幾天後還沒收到的話，請也看一下垃圾郵件資料夾。',
+  en: 'Our reply may land in your spam folder. If you have not heard from us in a few days, please check your spam folder.',
+  vi: 'Thư trả lời đôi khi bị chuyển vào thư mục thư rác. Nếu sau vài ngày chưa nhận được, hãy kiểm tra cả thư mục thư rác.',
+  ko: '답장이 스팸 메일함으로 갈 수 있습니다. 며칠이 지나도 받지 못하셨다면 스팸 메일함도 확인해 주세요.'
+};  // 送信完了の画面に出す一言（10/27。info@kurawise.com からの返信が迷惑メールに入ることがあるため）
 ---
 
 {/* 要望の登録フォームは検索に出さない（10/26） */}
@@ -75,6 +83,7 @@ const careerBannerMap: Record<string, { text: string; cta: string }> = tf(referr
       </div>
       <h1 class="career-contact-success-title">{cp.successTitle}</h1>
       <p class="career-contact-success-body">{cp.successBody}</p>
+      <p class="career-contact-success-body" style="font-size:13px;opacity:.8">{SPAM_NOTE[lang] || SPAM_NOTE.en}</p>
       <a href={hubUrl} class="career-contact-back-link">← {cp.backToHub}</a>
     </div>
 
