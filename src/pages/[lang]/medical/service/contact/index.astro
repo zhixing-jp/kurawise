@@ -42,6 +42,7 @@ const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
 
       <form id="medConsultForm" class="med-consult-form" novalidate>
         <input type="hidden" name="lang" value={lang} />
+        <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
 
         <div class="med-consult-field">
           <label for="fName">{t(cp.fieldName)} <span class="med-consult-required">*{t(cp.requiredMark)}</span></label>
@@ -198,6 +199,7 @@ const breadcrumbLabels: Record<string, string> = SECTION_NAMES.medical;
       } else { init(); }
     })();
   </script>
+  <script is:inline src="/js/web3forms-key.js"></script>
   <script is:inline src="/js/consult-form.js"></script>
 
 </Base>

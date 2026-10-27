@@ -41,9 +41,9 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
     { t: 'h2', text: '4. 第三者への提供' },
     { t: 'p', text: '法令に基づく場合を除き、ご本人の同意なく第三者に提供しません。' },
     { t: 'h2', text: '5. 外部のサービスの利用' },
-    { t: 'p', text: '当サイトは、次のサービスを利用しています。いずれも日本国外（米国）の事業者で、情報が国外のサーバーに保存されることがあります。' },
+    { t: 'p', text: '当サイトは、次のサービスを利用しています。いずれも日本国外（米国・インド）の事業者で、情報が国外のサーバーに保存されることがあります。' },
     { t: 'ul', items: [
-      'Supabase（Supabase, Inc.、米国）：フォームの内容の保存',
+      'Web3Forms（Web3Creative、インド。サーバーは米国）：フォームの内容をメールで届ける（内容は保存されません）',
       'Google アナリティクス（Google LLC、米国）：アクセス解析',
       'Gmail（Google LLC、米国）：お問い合わせメールの受信',
       'Cloudflare（Cloudflare, Inc.、米国）：サイトの配信、メールの転送'
@@ -93,9 +93,9 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
     { t: 'h2', text: '4. 向第三方提供' },
     { t: 'p', text: '除法律规定的情况外，未经本人同意，不会向第三方提供。' },
     { t: 'h2', text: '5. 使用的外部服务' },
-    { t: 'p', text: '本站使用以下服务。这些都是日本以外（美国）的企业，信息可能保存在日本以外的服务器上。' },
+    { t: 'p', text: '本站使用以下服务。这些都是日本以外（美国・印度）的企业，信息可能保存在日本以外的服务器上。' },
     { t: 'ul', items: [
-      'Supabase（Supabase, Inc.，美国）：保存表单内容',
+      'Web3Forms（Web3Creative，印度；服务器在美国）：把表单内容以邮件发送（不保存内容）',
       'Google Analytics（Google LLC，美国）：访问分析',
       'Gmail（Google LLC，美国）：接收咨询邮件',
       'Cloudflare（Cloudflare, Inc.，美国）：网站发布、邮件转发'
@@ -145,9 +145,9 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
     { t: 'h2', text: '4. 提供給第三方' },
     { t: 'p', text: '除法律規定的情況外，未經本人同意，不會提供給第三方。' },
     { t: 'h2', text: '5. 使用的外部服務' },
-    { t: 'p', text: '本站使用以下服務。這些都是日本以外（美國）的企業，資料可能儲存在日本以外的伺服器上。' },
+    { t: 'p', text: '本站使用以下服務。這些都是日本以外（美國・印度）的企業，資料可能儲存在日本以外的伺服器上。' },
     { t: 'ul', items: [
-      'Supabase（Supabase, Inc.，美國）：儲存表單內容',
+      'Web3Forms（Web3Creative，印度；伺服器在美國）：將表單內容以郵件寄送（不儲存內容）',
       'Google Analytics（Google LLC，美國）：流量分析',
       'Gmail（Google LLC，美國）：接收諮詢郵件',
       'Cloudflare（Cloudflare, Inc.，美國）：網站發布、郵件轉寄'
@@ -197,9 +197,9 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
     { t: 'h2', text: '4. Sharing with third parties' },
     { t: 'p', text: 'We do not share your information with third parties without your consent, except where required by law.' },
     { t: 'h2', text: '5. External services we use' },
-    { t: 'p', text: 'The Site uses the following services. All are operated by companies outside Japan (in the United States), and information may be stored on servers outside Japan.' },
+    { t: 'p', text: 'The Site uses the following services. All are operated by companies outside Japan (in the United States and India), and information may be stored on servers outside Japan.' },
     { t: 'ul', items: [
-      'Supabase (Supabase, Inc., USA): storing form submissions',
+      'Web3Forms (Web3Creative, India; servers in the USA): delivering form submissions by email (submissions are not stored)',
       'Google Analytics (Google LLC, USA): analytics',
       'Gmail (Google LLC, USA): receiving inquiry emails',
       'Cloudflare (Cloudflare, Inc., USA): delivering the Site and forwarding email'
@@ -249,9 +249,9 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
     { t: 'h2', text: '4. Cung cấp cho bên thứ ba' },
     { t: 'p', text: 'Chúng tôi không cung cấp thông tin cho bên thứ ba khi chưa có sự đồng ý của bạn, trừ trường hợp pháp luật quy định.' },
     { t: 'h2', text: '5. Dịch vụ bên ngoài được sử dụng' },
-    { t: 'p', text: 'Trang web sử dụng các dịch vụ sau. Tất cả đều là doanh nghiệp ngoài Nhật Bản (Hoa Kỳ), và thông tin có thể được lưu trên máy chủ ngoài Nhật Bản.' },
+    { t: 'p', text: 'Trang web sử dụng các dịch vụ sau. Tất cả đều là doanh nghiệp ngoài Nhật Bản (Hoa Kỳ, Ấn Độ), và thông tin có thể được lưu trên máy chủ ngoài Nhật Bản.' },
     { t: 'ul', items: [
-      'Supabase (Supabase, Inc., Hoa Kỳ): lưu nội dung biểu mẫu',
+      'Web3Forms (Web3Creative, Ấn Độ; máy chủ ở Hoa Kỳ): gửi nội dung biểu mẫu qua email (không lưu nội dung)',
       'Google Analytics (Google LLC, Hoa Kỳ): phân tích truy cập',
       'Gmail (Google LLC, Hoa Kỳ): nhận email liên hệ',
       'Cloudflare (Cloudflare, Inc., Hoa Kỳ): phân phối trang web, chuyển tiếp email'
@@ -301,9 +301,9 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
     { t: 'h2', text: '4. 제3자 제공' },
     { t: 'p', text: '법령에 따른 경우를 제외하고, 본인의 동의 없이 제3자에게 제공하지 않습니다.' },
     { t: 'h2', text: '5. 이용하는 외부 서비스' },
-    { t: 'p', text: '본 사이트는 다음 서비스를 이용합니다. 모두 일본 밖(미국)의 사업자이며, 정보가 일본 밖의 서버에 저장될 수 있습니다.' },
+    { t: 'p', text: '본 사이트는 다음 서비스를 이용합니다. 모두 일본 밖(미국·인도)의 사업자이며, 정보가 일본 밖의 서버에 저장될 수 있습니다.' },
     { t: 'ul', items: [
-      'Supabase(Supabase, Inc., 미국): 양식 내용 저장',
+      'Web3Forms(Web3Creative, 인도. 서버는 미국): 양식 내용을 이메일로 전달(내용은 저장하지 않음)',
       'Google Analytics(Google LLC, 미국): 접속 분석',
       'Gmail(Google LLC, 미국): 문의 메일 수신',
       'Cloudflare(Cloudflare, Inc., 미국): 사이트 배포, 메일 전달'

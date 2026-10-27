@@ -12,3 +12,8 @@
 /en/medical/service/*   /en/medical/   301
 /vi/medical/service/*   /vi/medical/   301
 /ko/medical/service/*   /ko/medical/   301
+# 2026-10-27：有料ガイド（購入・ログイン・ダウンロード）のページは一旦外した。販売が決まったら戻す
+/guides/*   /zh/   302
+/guides     /zh/   302
+/download/* /zh/   302
+/download   /zh/   302
