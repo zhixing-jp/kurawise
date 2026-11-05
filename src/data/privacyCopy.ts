@@ -46,7 +46,7 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
       'Web3Forms（Web3Creative、インド。サーバーは米国）：フォームの内容をメールで届ける（内容は保存されません）',
       'Google アナリティクス（Google LLC、米国）：アクセス解析',
       'Gmail（Google LLC、米国）：お問い合わせメールの受信',
-      'Cloudflare（Cloudflare, Inc.、米国）：サイトの配信、メールの転送'
+      'Cloudflare（Cloudflare, Inc.、米国）：サイトの配信、メールの転送、記事の閲覧数の集計（ページのアドレスと日付だけ。個人を特定する情報は保存しません）'
     ] },
     { t: 'p', text: `米国の個人情報保護の制度は、${PPC}のウェブサイトで確認できます。` },
     { t: 'h2', text: '6. 外部への送信' },
@@ -98,7 +98,7 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
       'Web3Forms（Web3Creative，印度；服务器在美国）：把表单内容以邮件发送（不保存内容）',
       'Google Analytics（Google LLC，美国）：访问分析',
       'Gmail（Google LLC，美国）：接收咨询邮件',
-      'Cloudflare（Cloudflare, Inc.，美国）：网站发布、邮件转发'
+      'Cloudflare（Cloudflare, Inc.，美国）：网站发布、邮件转发、文章阅读次数的统计（只记录页面地址和日期，不保存可识别个人的信息）'
     ] },
     { t: 'p', text: `美国的个人信息保护制度，可以在日本${PPC}的网站上查看。` },
     { t: 'h2', text: '6. 向外部发送的信息' },
@@ -150,7 +150,7 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
       'Web3Forms（Web3Creative，印度；伺服器在美國）：將表單內容以郵件寄送（不儲存內容）',
       'Google Analytics（Google LLC，美國）：流量分析',
       'Gmail（Google LLC，美國）：接收諮詢郵件',
-      'Cloudflare（Cloudflare, Inc.，美國）：網站發布、郵件轉寄'
+      'Cloudflare（Cloudflare, Inc.，美國）：網站發布、郵件轉寄、文章閱讀次數的統計（只記錄頁面網址和日期，不儲存可識別個人的資訊）'
     ] },
     { t: 'p', text: `美國的個人資料保護制度，可以在日本${PPC}的網站上查看。` },
     { t: 'h2', text: '6. 傳送到外部的資料' },
@@ -202,7 +202,7 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
       'Web3Forms (Web3Creative, India; servers in the USA): delivering form submissions by email (submissions are not stored)',
       'Google Analytics (Google LLC, USA): analytics',
       'Gmail (Google LLC, USA): receiving inquiry emails',
-      'Cloudflare (Cloudflare, Inc., USA): delivering the Site and forwarding email'
+      'Cloudflare (Cloudflare, Inc., USA): delivering the Site, forwarding email, and counting article views (only the page address and date; no information that identifies you is stored)'
     ] },
     { t: 'p', text: 'Information on the US personal information protection system is available on the website of Japan\'s Personal Information Protection Commission.' },
     { t: 'h2', text: '6. Information sent to external parties' },
@@ -254,7 +254,7 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
       'Web3Forms (Web3Creative, Ấn Độ; máy chủ ở Hoa Kỳ): gửi nội dung biểu mẫu qua email (không lưu nội dung)',
       'Google Analytics (Google LLC, Hoa Kỳ): phân tích truy cập',
       'Gmail (Google LLC, Hoa Kỳ): nhận email liên hệ',
-      'Cloudflare (Cloudflare, Inc., Hoa Kỳ): phân phối trang web, chuyển tiếp email'
+      'Cloudflare (Cloudflare, Inc., Hoa Kỳ): phân phối trang web, chuyển tiếp email, đếm lượt xem bài viết (chỉ địa chỉ trang và ngày; không lưu thông tin nhận dạng cá nhân)'
     ] },
     { t: 'p', text: 'Thông tin về chế độ bảo vệ thông tin cá nhân của Hoa Kỳ có trên trang web của Ủy ban Bảo vệ Thông tin Cá nhân Nhật Bản.' },
     { t: 'h2', text: '6. Thông tin gửi ra bên ngoài' },
@@ -306,7 +306,7 @@ export const PRIVACY_BODY: Record<L, Block[]> = {
       'Web3Forms(Web3Creative, 인도. 서버는 미국): 양식 내용을 이메일로 전달(내용은 저장하지 않음)',
       'Google Analytics(Google LLC, 미국): 접속 분석',
       'Gmail(Google LLC, 미국): 문의 메일 수신',
-      'Cloudflare(Cloudflare, Inc., 미국): 사이트 배포, 메일 전달'
+      'Cloudflare(Cloudflare, Inc., 미국): 사이트 배포, 메일 전달, 글 조회수 집계(페이지 주소와 날짜만. 개인을 식별하는 정보는 저장하지 않음)'
     ] },
     { t: 'p', text: '미국의 개인정보 보호 제도는 일본 개인정보보호위원회 웹사이트에서 확인할 수 있습니다.' },
     { t: 'h2', text: '6. 외부로 전송되는 정보' },

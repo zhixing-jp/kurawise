@@ -10,6 +10,8 @@ import { articles } from '../data/careerNav';
 import kurashiIndex from '../../public/data/kurashi/index.json';
 import medicalIndex from '../../public/data/medical/index.json';
 import { readFileSync, existsSync } from 'node:fs';
+import rescueIndex from '../../public/data/rescue/index.json';
+import { HOME_PICKS, POPULAR_MAX, TOTAL } from '../data/homePicks';
 interface Props { lang: string; }
 const { lang } = Astro.props;
 const p = (m: Record<string, string>) => m[lang] || m.en;
@@ -22,6 +24,9 @@ const HERO = {
 };
 const UI = {
   menu: { ja: 'メニュー', zh: '栏目', 'zh-TW': '欄目', en: 'Sections', vi: 'Chuyên mục', ko: '메뉴' },
+  picks: { ja: '人気・おすすめの記事', zh: '热门・推荐文章', 'zh-TW': '熱門・推薦文章', en: 'Popular & recommended', vi: 'Bài được đọc nhiều & đề xuất', ko: '인기·추천 글' },
+  hot: { ja: '人気', zh: '热门', 'zh-TW': '熱門', en: 'Popular', vi: 'Đọc nhiều', ko: '인기' },
+  rec: { ja: 'おすすめ', zh: '推荐', 'zh-TW': '推薦', en: 'Recommended', vi: 'Đề xuất', ko: '추천' },
   latest: { ja: '新着・更新', zh: '最新・更新', 'zh-TW': '最新・更新', en: 'New & updated', vi: 'Mới & cập nhật', ko: '새 글·업데이트' },
   about: { ja: 'Kurawise について', zh: '关于 Kurawise', 'zh-TW': '關於 Kurawise', en: 'About Kurawise', vi: 'Về Kurawise', ko: 'Kurawise 소개' },
   aboutTitle: { ja: '運営者情報', zh: '运营者信息', 'zh-TW': '營運者資訊', en: 'Who we are', vi: 'Thông tin người vận hành', ko: '운영자 정보' },
@@ -50,6 +55,15 @@ const fromMedical: Latest[] = (medicalIndex as any).pages.flatMap((m: any) => {
   if (!checked) return [];
   return [{ href: `${pre}${m.url}`, title: (lang === 'zh' ? m.title : m[`title_${lang}`]) || m.title, updated: checked }];
 });
+// 人気・おすすめ（11/5）：記事のアドレス → 題名の一覧（この言語にある記事だけ）。人気の記事の題名を出すのに使う
+const titleMap: Record<string, string> = {};
+for (const a of fromCareerAll()) titleMap[a.href] = a.title;
+for (const a of (kurashiIndex as any).articles) if (a.langs.includes(lang) && a[`title_${lang}`]) titleMap[`${pre}${a.url}`] = a[`title_${lang}`];
+for (const m of (medicalIndex as any).pages) { const t = (lang === 'zh' ? m.title : m[`title_${lang}`]) || m.title; if (t) titleMap[`${pre}${m.url}`] = t; }
+for (const sc of (rescueIndex as any).scenes) { const t = sc[`title_${lang}`] || (lang === 'ja' ? '' : sc.title); if (t) titleMap[`${pre}/rescue/${sc.id}/`] = t; }
+function fromCareerAll() { return articles(lang).map((a) => ({ href: a.href, title: a.title })); }
+// おすすめ：この言語にある記事だけ（サイトを作るときにページに書き込む。人気の数字が取れなくても必ず出る）
+const picks = HOME_PICKS.map((x) => ({ href: `${pre}${x.path}`, title: titleMap[`${pre}${x.path}`] })).filter((x) => x.title).slice(0, TOTAL);
 const latest = [...fromKurashi, ...fromCareer, ...fromMedical]
   .filter((a) => a.title)
   .sort((a, b) => b.updated.localeCompare(a.updated))
@@ -75,6 +89,18 @@ const latest = [...fromKurashi, ...fromCareer, ...fromMedical]
     </div>
   </section>
 
+  {picks.length > 0 && (
+    <section class="cblock" data-home-picks data-lang={lang} data-total={TOTAL} data-popmax={POPULAR_MAX}
+      data-titles={JSON.stringify(titleMap)} data-picks={JSON.stringify(picks)} data-hot={p(UI.hot)} data-rec={p(UI.rec)}>
+      <h2 class="cblock-head"><span aria-hidden="true">⭐</span>{p(UI.picks)}</h2>
+      <ul class="career-latest home-picks" data-list>
+        {picks.map((a) => (
+          <li><a href={a.href}><span class="home-pick-badge home-pick-badge--rec">⭐ {p(UI.rec)}</span><span class="career-latest-title">{a.title}</span></a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
   <div class="cblock-row">
     {latest.length > 0 && (
       <section class="cblock">
@@ -98,3 +124,27 @@ const latest = [...fromKurashi, ...fromCareer, ...fromMedical]
     </section>
   </div>
 </main>
+<script is:inline>
+  // 人気・おすすめ：人気の記事（/api/popular）が取れたら、おすすめの上に差し込む。取れなければ、おすすめのまま。
+  (function () {
+    var box = document.querySelector('[data-home-picks]');
+    if (!box) return;
+    var titles = JSON.parse(box.getAttribute('data-titles') || '{}');
+    var picks = JSON.parse(box.getAttribute('data-picks') || '[]');
+    var total = +box.getAttribute('data-total') || 5, popMax = +box.getAttribute('data-popmax') || 3;
+    var hot = box.getAttribute('data-hot'), rec = box.getAttribute('data-rec');
+    fetch('/api/popular?lang=' + encodeURIComponent(box.getAttribute('data-lang')))
+      .then(function (r) { return r.ok ? r.json() : { items: [] }; })
+      .then(function (d) {
+        var pop = (d.items || []).filter(function (h) { return titles[h]; }).slice(0, popMax);
+        if (!pop.length) return;
+        var rows = pop.map(function (h) { return { href: h, title: titles[h], hot: true }; });
+        picks.forEach(function (x) { if (rows.length < total && pop.indexOf(x.href) < 0) rows.push({ href: x.href, title: x.title, hot: false }); });
+        var esc = function (t) { var e = document.createElement('span'); e.textContent = t; return e.innerHTML; };
+        box.querySelector('[data-list]').innerHTML = rows.map(function (x) {
+          return '<li><a href="' + x.href + '"><span class="home-pick-badge home-pick-badge--' + (x.hot ? 'hot">🔥 ' + esc(hot) : 'rec">⭐ ' + esc(rec)) + '</span><span class="career-latest-title">' + esc(x.title) + '</span></a></li>';
+        }).join('');
+      })
+      .catch(function () {});
+  })();
+</script>
