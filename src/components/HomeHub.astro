@@ -3,10 +3,13 @@
 // 役割は「受付と案内図」：何のサイトかを伝え、5つのセクションへ同じ重さで案内する。特定のセクションを目立たせない。
 //   ① 一言の紹介（日本語版だけ「日本」を入れない）＋「6言語対応」
 //   ② メニュー（5つのセクション。タブバーと同じ順番・同じ名前）
-//   ③ 新着・更新（更新日のある記事から自動で4本）
+//   ③ 新着・更新（日付のある記事から自動で5本。全セクション）
 //   ④ Kurawise について
 import { SECTION_NAMES, type SectionKey } from '../data/sectionNames';
 import { articles } from '../data/careerNav';
+import kurashiIndex from '../../public/data/kurashi/index.json';
+import medicalIndex from '../../public/data/medical/index.json';
+import { readFileSync, existsSync } from 'node:fs';
 interface Props { lang: string; }
 const { lang } = Astro.props;
 const p = (m: Record<string, string>) => m[lang] || m.en;
@@ -31,8 +34,26 @@ const ROWS: { key: SectionKey; icon: string; tone: string; href: string; sub: Re
   { key: 'kurashi', icon: '💰', tone: 'green', href: `${pre}/kurashi/`, sub: { ja: 'お金・契約・節約の知恵', zh: '钱・合约・省钱的智慧', 'zh-TW': '錢・合約・省錢的智慧', en: 'Money, contracts and saving tips', vi: 'Tiền bạc, hợp đồng và mẹo tiết kiệm', ko: '돈·계약·절약의 지혜' } },
   { key: 'apps', icon: '📱', tone: 'gray', href: '/apps/', sub: { ja: '暮らしに役立つアプリ', zh: '对生活有帮助的应用', 'zh-TW': '對生活有幫助的應用程式', en: 'Apps that make daily life easier', vi: 'Ứng dụng hữu ích cho cuộc sống', ko: '생활에 도움이 되는 앱' } }
 ];
-// 新着：更新日のある記事（今は仕事＆ビザ。暮らしの記事・病院の確認日が入れば、ここに足す）
-const latest = articles(lang).filter((a) => a.updated).sort((a, b) => (b.updated || '').localeCompare(a.updated || '')).slice(0, 4);
+// 新着（11/5 改）：日付のある記事を、全セクションから新しい順に5本。サイトを作るたびに自動で選び直す（記事を PUSH すれば反映）。
+//   仕事＆ビザ … public/data/career/index.json の updated
+//   暮らし＆お金の知恵 … public/data/kurashi/index.json の updated（その言語に訳がある記事だけ）
+//   病院＆医療 … 各記事の JSON の checked（確認日）がある記事だけ
+type Latest = { href: string; title: string; updated: string };
+const fromCareer: Latest[] = articles(lang).filter((a) => a.updated).map((a) => ({ href: a.href, title: a.title, updated: a.updated as string }));
+const fromKurashi: Latest[] = (kurashiIndex as any).articles
+  .filter((a: any) => a.updated && a.langs.includes(lang))
+  .map((a: any) => ({ href: `${pre}${a.url}`, title: a[`title_${lang}`], updated: a.updated }));
+const fromMedical: Latest[] = (medicalIndex as any).pages.flatMap((m: any) => {
+  const f = `public/data/medical/${m.id}.json`;
+  if (!existsSync(f)) return [];
+  const checked = JSON.parse(readFileSync(f, 'utf-8')).checked;
+  if (!checked) return [];
+  return [{ href: `${pre}${m.url}`, title: (lang === 'zh' ? m.title : m[`title_${lang}`]) || m.title, updated: checked }];
+});
+const latest = [...fromKurashi, ...fromCareer, ...fromMedical]
+  .filter((a) => a.title)
+  .sort((a, b) => b.updated.localeCompare(a.updated))
+  .slice(0, 5);
 ---
 <main class="hub-page home-hub">
   <section class="home-hero">
