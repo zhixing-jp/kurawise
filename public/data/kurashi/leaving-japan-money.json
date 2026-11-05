@@ -1,0 +1,1198 @@
+{
+  "id": "leaving-japan-money",
+  "checked": "2026-11-05",
+  "title_ja": "帰国が決まったら、お金と口座でやること：住民税・年金の脱退一時金・送金・口座の解約（出国前チェック表）",
+  "description_ja": "日本を離れて帰国するときの、お金と口座の手続きをやる順番にまとめました。住民税の払い方、年金の脱退一時金（出国後2年以内）、残ったお金の送り方、口座の解約、口座の売買が犯罪であること、現金の持ち出しの申告まで。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "やる順番は<strong>「住民税と未払いを片付ける → 年金の脱退一時金の準備 → 残ったお金を送る → 口座を閉じる」</strong>です。<strong>口座を人に売る・あげるのは犯罪</strong>です。<strong>100万円を超える現金を持って出国するときは、税関への申告</strong>が必要です。"
+        }
+      ]
+    },
+    {
+      "heading": "一、やる順番（出国の1か月前から）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "いつ",
+            "やること"
+          ],
+          "rows": [
+            [
+              "1か月前",
+              "会社に退職日・最後の給料の日を確かめる。家賃・携帯・電気ガスの解約日を決める"
+            ],
+            [
+              "2〜3週間前",
+              "住民税の払い方を決める（一括で払う／納税管理人を決める）"
+            ],
+            [
+              "1〜2週間前",
+              "市区町村で転出届、国民健康保険・国民年金の手続き"
+            ],
+            [
+              "最後の給料が入った後",
+              "残ったお金を送る。口座を解約する"
+            ],
+            [
+              "出国の日",
+              "空港で在留カードを返す（再入国の予定がなければ）。現金100万円超なら税関に申告"
+            ],
+            [
+              "出国後2年以内",
+              "年金の脱退一時金を請求する"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、住民税",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>その年の1月1日に日本に住んでいた人は、その年度の住民税を払う</strong>。年の途中で出国しても同じ",
+            "出国前に市区町村で残りを一括で払うか、日本に住む人を<strong>納税管理人</strong>に決めて、代わりに払ってもらう",
+            "払わずに出国すると、次に日本へ来るときのビザの審査で不利になることがある"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、年金の脱退一時金",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "項目",
+            "内容"
+          ],
+          "rows": [
+            [
+              "もらえる人",
+              "日本国籍でなく、年金に6か月以上入り、10年に届かず、日本に住所がなくなった人"
+            ],
+            [
+              "請求の期限",
+              "<strong>日本に住所がなくなった日から2年以内</strong>"
+            ],
+            [
+              "数える期間の上限",
+              "60か月（5年）"
+            ],
+            [
+              "金額の例（国民年金）",
+              "最後に払った月が2026年4月〜2027年3月なら、6〜12か月で53,760円、60か月以上で537,600円"
+            ],
+            [
+              "税金",
+              "厚生年金の分は20.42%の所得税が引かれる。出国前に納税管理人を決めておけば、確定申告で戻ることがある"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "請求書は日本年金機構のサイトから取れます。出国前に転出届を出しておくと、手続きがスムーズです。"
+        }
+      ]
+    },
+    {
+      "heading": "四、残ったお金を送る",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "最後の給料・退職金が入る日を確かめてから送る",
+            "送り方・書き方・届かないときは、海外送金シリーズを参照",
+            "1回100万円を超える海外送金は、銀行・送金会社から税務署に報告される（税金がかかるわけではない）"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "海外送金の書き方",
+              "href": "/ja/kurashi/remit-form/"
+            },
+            {
+              "text": "初めての海外送金と受取額の計算機",
+              "href": "/ja/kurashi/remit-first-time/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、口座と携帯",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "もの",
+            "やること",
+            "注意"
+          ],
+          "rows": [
+            [
+              "銀行口座",
+              "原則として出国前に解約する",
+              "<strong>口座を人に売る・あげる・貸すのは犯罪</strong>（犯罪収益移転防止法）。詐欺に使われ、あなたも罪に問われる"
+            ],
+            [
+              "脱退一時金などの受け取り",
+              "海外の自分の口座でも受け取れる",
+              "日本の口座で受け取るなら、出国後も使えるか銀行に確かめる"
+            ],
+            [
+              "携帯電話",
+              "解約し、端末の分割払いの残りも精算",
+              "未払いは信用情報に残り、次に来日したときの契約に響く"
+            ],
+            [
+              "クレジットカード",
+              "解約するか、引き落とし口座を確かめる",
+              "口座を閉じた後の引き落としの失敗に注意"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、空港で",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "再入国の予定がなければ、出国の審査で在留カードを返す",
+            "<strong>100万円相当を超える現金・小切手など</strong>を持って出国するときは、税関で申告する（外国のお金も合わせて計算）"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "出国の前に",
+          "items": [
+            "住民税を払った、または納税管理人を決めた",
+            "転出届と、国民健康保険・国民年金の手続きをした",
+            "最後の給料が入った後に、残ったお金を送った",
+            "銀行口座を解約した（人に渡していない）",
+            "携帯・電気ガス・家賃を精算した",
+            "脱退一時金の請求書と、必要な書類の写しを持った"
+          ],
+          "done": "準備ができました。気をつけてお帰りください。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "出典：日本年金機構「脱退一時金」（2026年4月1日更新）、神戸市「海外に転出する方の市県民税」、大学の帰国の手続きの案内。確認日：2026-11-05。手続きは市区町村・銀行ごとに違うことがあるので、早めに確かめてください。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "决定回国后，钱和账户要办的事：住民税・年金退出一次性补助金・汇款・注销账户（出国前检查清单）",
+  "description_zh": "离开日本回国时，钱和账户的手续按顺序整理：住民税怎么缴、年金退出一次性补助金（出国后2年内）、剩下的钱怎么汇、注销账户、买卖账户是犯罪、携带现金出境要申报。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "顺序是<strong>“结清住民税和欠款 → 准备年金退出一次性补助金 → 汇走剩下的钱 → 注销账户”</strong>。<strong>把账户卖给别人・送给别人是犯罪。</strong><strong>携带超过100万日元的现金出境，要向海关申报。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、办理顺序（出国前1个月开始）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "什么时候",
+            "要做的事"
+          ],
+          "rows": [
+            [
+              "1个月前",
+              "向公司确认离职日・最后一笔工资的发放日。决定房租・手机・水电燃气的解约日"
+            ],
+            [
+              "2〜3周前",
+              "决定住民税怎么缴（一次缴清／指定纳税管理人）"
+            ],
+            [
+              "1〜2周前",
+              "在市区町村办转出届，办国民健康保险・国民年金的手续"
+            ],
+            [
+              "最后一笔工资到账后",
+              "汇走剩下的钱，注销账户"
+            ],
+            [
+              "出国当天",
+              "在机场交还在留卡（不打算再入境的话）。现金超过100万日元要向海关申报"
+            ],
+            [
+              "出国后2年内",
+              "申请年金退出一次性补助金"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、住民税",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>当年1月1日住在日本的人，要缴该年度的住民税</strong>。年中出国也一样",
+            "出国前在市区町村一次缴清余额，或者指定一位住在日本的人做<strong>纳税管理人</strong>代缴",
+            "不缴就出国，下次来日本申请签证时可能会不利"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、年金退出一次性补助金（脱退一時金）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "项目",
+            "内容"
+          ],
+          "rows": [
+            [
+              "谁能领",
+              "没有日本国籍，加入年金6个月以上、不满10年，已经不在日本居住的人"
+            ],
+            [
+              "申请期限",
+              "<strong>从不在日本居住之日起2年内</strong>"
+            ],
+            [
+              "计算期间上限",
+              "60个月（5年）"
+            ],
+            [
+              "金额举例（国民年金）",
+              "最后缴费月在2026年4月〜2027年3月的话，6〜12个月是53,760日元，60个月以上是537,600日元"
+            ],
+            [
+              "税",
+              "厚生年金部分会扣20.42%的所得税。出国前指定纳税管理人，通过确定申告有时能退回"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "申请表可以从日本年金机构的网站下载。出国前办好转出届，手续会更顺利。"
+        }
+      ]
+    },
+    {
+      "heading": "四、汇走剩下的钱",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "确认最后一笔工资・离职金到账日后再汇",
+            "怎么汇・怎么填・汇不到怎么办，请看海外汇款系列文章",
+            "单笔超过100万日元的海外汇款，银行・汇款公司会向税务署报告（不是要交税）"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "海外汇款怎么填",
+              "href": "/zh/kurashi/remit-form/"
+            },
+            {
+              "text": "第一次汇款和到账金额计算器",
+              "href": "/zh/kurashi/remit-first-time/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、账户和手机",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "东西",
+            "要做的事",
+            "注意"
+          ],
+          "rows": [
+            [
+              "银行账户",
+              "原则上出国前注销",
+              "<strong>把账户卖给・送给・借给别人是犯罪</strong>（犯罪收益转移防止法）。账户会被用于诈骗，你也会被追责"
+            ],
+            [
+              "领退出一次性补助金等",
+              "也可以汇到自己在海外的账户",
+              "要用日本的账户领的话，先问银行出国后还能不能用"
+            ],
+            [
+              "手机",
+              "解约，并结清手机分期的余款",
+              "欠费会留在信用记录里，影响下次来日本时的签约"
+            ],
+            [
+              "信用卡",
+              "注销，或确认扣款账户",
+              "注意账户注销后扣款失败"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、在机场",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "不打算再入境的话，在出境审查时交还在留卡",
+            "携带<strong>超过100万日元等值的现金・支票等</strong>出境时，要向海关申报（外币也合并计算）"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "出国前",
+          "items": [
+            "缴清了住民税，或指定了纳税管理人",
+            "办了转出届，以及国民健康保险・国民年金的手续",
+            "最后一笔工资到账后，汇走了剩下的钱",
+            "注销了银行账户（没有交给别人）",
+            "结清了手机・水电燃气・房租",
+            "带上了退出一次性补助金的申请表和需要的文件复印件"
+          ],
+          "done": "准备好了，一路平安。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "出处：日本年金机构《脱退一时金》（2026年4月1日更新）、神户市《迁出到海外的人的市县民税》、大学的回国手续说明。确认日：2026-11-05。手续可能因市区町村・银行而异，请尽早确认。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "決定回國後，錢和帳戶要辦的事：住民稅・年金退出一次性補助金・匯款・登出帳戶（出國前檢查清單）",
+  "description_zh-TW": "離開日本回國時，錢和帳戶的手續按順序整理：住民稅怎麼繳、年金退出一次性補助金（出國後2年內）、剩下的錢怎麼匯、登出帳戶、買賣帳戶是犯罪、攜帶現金出境要申報。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "順序是<strong>“結清住民稅和欠款 → 準備年金退出一次性補助金 → 匯走剩下的錢 → 登出帳戶”</strong>。<strong>把帳戶賣給別人・送給別人是犯罪。</strong><strong>攜帶超過100萬日圓的現金出境，要向海關申報。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、辦理順序（出國前1個月開始）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "什麼時候",
+            "要做的事"
+          ],
+          "rows": [
+            [
+              "1個月前",
+              "向公司確認離職日・最後一筆工資的發放日。決定房租・手機・水電燃氣的解約日"
+            ],
+            [
+              "2〜3周前",
+              "決定住民稅怎麼繳（一次繳清／指定納稅管理人）"
+            ],
+            [
+              "1〜2周前",
+              "在市區町村辦轉出屆，辦國民健康保險・國民年金的手續"
+            ],
+            [
+              "最後一筆工資到賬後",
+              "匯走剩下的錢，登出帳戶"
+            ],
+            [
+              "出國當天",
+              "在機場交還在留卡（不打算再入境的話）。現金超過100萬日圓要向海關申報"
+            ],
+            [
+              "出國後2年內",
+              "申請年金退出一次性補助金"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、住民稅",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>當年1月1日住在日本的人，要繳該年度的住民稅</strong>。年中出國也一樣",
+            "出國前在市區町村一次繳清餘額，或者指定一位住在日本的人做<strong>納稅管理人</strong>代繳",
+            "不繳就出國，下次來日本申請簽證時可能會不利"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、年金退出一次性補助金（脫退一時金）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "專案",
+            "內容"
+          ],
+          "rows": [
+            [
+              "誰能領",
+              "沒有日本國籍，加入年金6個月以上、不滿10年，已經不在日本居住的人"
+            ],
+            [
+              "申請期限",
+              "<strong>從不在日本居住之日起2年內</strong>"
+            ],
+            [
+              "計算期間上限",
+              "60個月（5年）"
+            ],
+            [
+              "金額舉例（國民年金）",
+              "最後繳費月在2026年4月〜2027年3月的話，6〜12個月是53,760日圓，60個月以上是537,600日圓"
+            ],
+            [
+              "稅",
+              "厚生年金部分會扣20.42%的所得稅。出國前指定納稅管理人，透過確定申告有時能退回"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "申請表可以從日本年金機構的網站下載。出國前辦好轉出屆，手續會更順利。"
+        }
+      ]
+    },
+    {
+      "heading": "四、匯走剩下的錢",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "確認最後一筆工資・離職金到賬日後再匯",
+            "怎麼匯・怎麼填・匯不到怎麼辦，請看海外匯款系列文章",
+            "單筆超過100萬日圓的海外匯款，銀行・匯款公司會向稅務署報告（不是要交稅）"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "海外匯款怎麼填",
+              "href": "/zh-TW/kurashi/remit-form/"
+            },
+            {
+              "text": "第一次匯款和到賬金額計算器",
+              "href": "/zh-TW/kurashi/remit-first-time/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、帳戶和手機",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "東西",
+            "要做的事",
+            "注意"
+          ],
+          "rows": [
+            [
+              "銀行帳戶",
+              "原則上出國前登出",
+              "<strong>把帳戶賣給・送給・借給別人是犯罪</strong>（犯罪收益轉移防止法）。帳戶會被用於詐騙，你也會被追責"
+            ],
+            [
+              "領退出一次性補助金等",
+              "也可以匯到自己在海外的帳戶",
+              "要用日本的帳戶領的話，先問銀行出國後還能不能用"
+            ],
+            [
+              "手機",
+              "解約，並結清手機分期的餘款",
+              "欠費會留在信用記錄裡，影響下次來日本時的簽約"
+            ],
+            [
+              "信用卡",
+              "登出，或確認扣款帳戶",
+              "注意帳戶登出後扣款失敗"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、在機場",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "不打算再入境的話，在出境審查時交還在留卡",
+            "攜帶<strong>超過100萬日圓等值的現金・支票等</strong>出境時，要向海關申報（外幣也合併計算）"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "出國前",
+          "items": [
+            "繳清了住民稅，或指定了納稅管理人",
+            "辦了轉出屆，以及國民健康保險・國民年金的手續",
+            "最後一筆工資到賬後，匯走了剩下的錢",
+            "登出了銀行帳戶（沒有交給別人）",
+            "結清了手機・水電燃氣・房租",
+            "帶上了退出一次性補助金的申請表和需要的檔案影印件"
+          ],
+          "done": "準備好了，一路平安。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "出處：日本年金機構《脫退一時金》（2026年4月1日更新）、神戶市《遷出到海外的人的市縣民稅》、大學的回國手續說明。確認日：2026-11-05。手續可能因市區町村・銀行而異，請儘早確認。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Leaving Japan for Good? Money and Bank Accounts: Resident Tax, Pension Lump-Sum Refund, Sending Money and Closing Accounts (Pre-Departure Checklist)",
+  "description_en": "The money and bank steps when leaving Japan, in order: paying resident tax, the pension lump-sum withdrawal payment (claim within 2 years), sending your money home, closing accounts, why selling an account is a crime, and declaring cash at customs.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "The order is <strong>settle resident tax and unpaid bills → prepare the pension lump-sum refund → send your remaining money → close your account</strong>. <strong>Selling or giving away your bank account is a crime.</strong> <strong>If you leave with more than 1 million yen in cash, you must declare it at customs.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. Order of steps (start a month before)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "When",
+            "What to do"
+          ],
+          "rows": [
+            [
+              "1 month before",
+              "Confirm your last working day and last payday. Decide when to end rent, phone and utilities"
+            ],
+            [
+              "2–3 weeks before",
+              "Decide how to pay resident tax (pay in full / appoint a tax representative)"
+            ],
+            [
+              "1–2 weeks before",
+              "Move-out notification (tenshutsu todoke) at the city office; National Health Insurance and Pension procedures"
+            ],
+            [
+              "After your last salary arrives",
+              "Send remaining money home. Close your account"
+            ],
+            [
+              "Departure day",
+              "Return your residence card at the airport (if not coming back). Declare cash over 1 million yen at customs"
+            ],
+            [
+              "Within 2 years after leaving",
+              "Claim the pension lump-sum withdrawal payment"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Resident tax",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>If you lived in Japan on January 1, you owe that year’s resident tax</strong>, even if you leave mid-year",
+            "Pay the rest in full at the city office before leaving, or appoint someone in Japan as your <strong>tax representative (nōzei kanrinin)</strong> to pay for you",
+            "Leaving without paying can count against you when you apply for a visa again"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Pension lump-sum withdrawal payment (dattai ichijikin)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Who can claim",
+              "Non-Japanese nationals who paid into the pension for 6 months or more but less than 10 years, and no longer live in Japan"
+            ],
+            [
+              "Deadline",
+              "<strong>Within 2 years of the day you stopped living in Japan</strong>"
+            ],
+            [
+              "Maximum counted",
+              "60 months (5 years)"
+            ],
+            [
+              "Example (National Pension)",
+              "If your last payment month is April 2026 – March 2027: 53,760 yen for 6–12 months, 537,600 yen for 60 months or more"
+            ],
+            [
+              "Tax",
+              "20.42% income tax is withheld from the employee pension portion. If you appoint a tax representative before leaving, you may get it back by filing a tax return"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "The claim form is on the Japan Pension Service website. Filing your move-out notification before leaving makes the process smoother."
+        }
+      ]
+    },
+    {
+      "heading": "4. Sending your remaining money",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Wait until your last salary and any retirement pay have arrived",
+            "For how to send, how to fill in the form and what to do if it doesn’t arrive, see our money transfer series",
+            "Single international transfers over 1 million yen are reported to the tax office by banks and transfer companies (this is a report, not a tax)"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "How to fill in an international transfer",
+              "href": "/en/kurashi/remit-form/"
+            },
+            {
+              "text": "Your first international transfer and calculator",
+              "href": "/en/kurashi/remit-first-time/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Bank account and phone",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "What to do",
+            "Note"
+          ],
+          "rows": [
+            [
+              "Bank account",
+              "Close it before you leave, as a rule",
+              "<strong>Selling, giving or lending your account is a crime</strong> (Act on Prevention of Transfer of Criminal Proceeds). It gets used for fraud, and you can be held responsible"
+            ],
+            [
+              "Receiving the lump-sum refund etc.",
+              "You can receive it in your own overseas account",
+              "If you want it paid to a Japanese account, ask the bank whether the account can stay open after you leave"
+            ],
+            [
+              "Mobile phone",
+              "Cancel and pay off any remaining device installments",
+              "Unpaid bills stay on your credit record and can affect contracts when you come back"
+            ],
+            [
+              "Credit card",
+              "Cancel it, or check the payment account",
+              "Watch for failed payments after your account is closed"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. At the airport",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "If you’re not coming back, return your residence card at departure immigration",
+            "If you carry <strong>cash, cheques, etc. worth over 1 million yen</strong>, declare it at customs (foreign currency is included)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Before departure",
+          "items": [
+            "Paid resident tax, or appointed a tax representative",
+            "Filed the move-out notification and did health insurance and pension procedures",
+            "Sent remaining money after my last salary arrived",
+            "Closed my bank account (didn’t give it to anyone)",
+            "Settled phone, utilities and rent",
+            "Have the lump-sum claim form and copies of needed documents"
+          ],
+          "done": "You’re ready. Safe travels.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "Sources: Japan Pension Service, Lump-sum Withdrawal Payment (updated April 1, 2026); Kobe City, resident tax for people moving abroad; university guides on returning home. Checked: 2026-11-05. Procedures differ by city and bank, so check early."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Đã quyết định về nước: những việc về tiền và tài khoản — thuế cư trú, tiền rút lương hưu một lần, chuyển tiền, đóng tài khoản (danh sách trước khi xuất cảnh)",
+  "description_vi": "Các thủ tục về tiền và tài khoản khi rời Nhật về nước, theo thứ tự: cách đóng thuế cư trú, tiền rút lương hưu một lần (xin trong 2 năm sau khi xuất cảnh), gửi số tiền còn lại, đóng tài khoản, mua bán tài khoản là phạm tội, khai báo tiền mặt mang ra nước ngoài.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Thứ tự là <strong>“trả xong thuế cư trú và các khoản nợ → chuẩn bị tiền rút lương hưu một lần → gửi số tiền còn lại → đóng tài khoản”</strong>. <strong>Bán hoặc cho người khác tài khoản là phạm tội.</strong> <strong>Mang trên 1 triệu yên tiền mặt khi xuất cảnh phải khai báo hải quan.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. Thứ tự (bắt đầu từ 1 tháng trước)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Khi nào",
+            "Việc cần làm"
+          ],
+          "rows": [
+            [
+              "1 tháng trước",
+              "Hỏi công ty ngày nghỉ việc và ngày trả lương cuối. Quyết định ngày hủy hợp đồng nhà, điện thoại, điện nước gas"
+            ],
+            [
+              "2–3 tuần trước",
+              "Quyết định cách đóng thuế cư trú (đóng một lần / chọn người quản lý nộp thuế)"
+            ],
+            [
+              "1–2 tuần trước",
+              "Nộp thông báo chuyển đi (転出届) ở ủy ban; làm thủ tục bảo hiểm y tế quốc dân, lương hưu quốc dân"
+            ],
+            [
+              "Sau khi nhận lương cuối",
+              "Gửi số tiền còn lại. Đóng tài khoản"
+            ],
+            [
+              "Ngày xuất cảnh",
+              "Trả thẻ cư trú ở sân bay (nếu không định quay lại). Tiền mặt trên 1 triệu yên phải khai hải quan"
+            ],
+            [
+              "Trong 2 năm sau khi xuất cảnh",
+              "Xin tiền rút lương hưu một lần"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Thuế cư trú",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Người sống ở Nhật vào ngày 1/1 phải đóng thuế cư trú của năm đó</strong>, kể cả khi xuất cảnh giữa năm",
+            "Trước khi đi, đóng hết phần còn lại một lần ở ủy ban, hoặc chọn một người sống ở Nhật làm <strong>người quản lý nộp thuế (納税管理人)</strong> để đóng thay",
+            "Không đóng mà xuất cảnh có thể bất lợi khi xin visa sang Nhật lần sau"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Tiền rút lương hưu một lần (脱退一時金)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Hạng mục",
+            "Nội dung"
+          ],
+          "rows": [
+            [
+              "Ai được nhận",
+              "Người không có quốc tịch Nhật, đã tham gia lương hưu từ 6 tháng trở lên nhưng dưới 10 năm, và không còn sống ở Nhật"
+            ],
+            [
+              "Hạn xin",
+              "<strong>Trong vòng 2 năm kể từ ngày không còn địa chỉ ở Nhật</strong>"
+            ],
+            [
+              "Thời gian tính tối đa",
+              "60 tháng (5 năm)"
+            ],
+            [
+              "Ví dụ số tiền (lương hưu quốc dân)",
+              "Nếu tháng đóng cuối là 4/2026–3/2027: 6–12 tháng là 53.760 yên, từ 60 tháng là 537.600 yên"
+            ],
+            [
+              "Thuế",
+              "Phần lương hưu phúc lợi bị trừ 20,42% thuế thu nhập. Nếu chọn người quản lý nộp thuế trước khi đi, có thể được hoàn qua quyết toán thuế"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Mẫu đơn có trên trang của Cơ quan Lương hưu Nhật Bản. Nộp thông báo chuyển đi trước khi xuất cảnh sẽ giúp thủ tục suôn sẻ hơn."
+        }
+      ]
+    },
+    {
+      "heading": "4. Gửi số tiền còn lại",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Đợi lương cuối và tiền thôi việc vào tài khoản rồi mới gửi",
+            "Cách gửi, cách điền, khi tiền không đến: xem loạt bài về chuyển tiền quốc tế",
+            "Mỗi lần chuyển trên 1 triệu yên ra nước ngoài sẽ được ngân hàng, công ty chuyển tiền báo cho cơ quan thuế (chỉ là báo cáo, không phải đánh thuế)"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Cách điền chuyển tiền quốc tế",
+              "href": "/vi/kurashi/remit-form/"
+            },
+            {
+              "text": "Lần đầu chuyển tiền và máy tính số tiền nhận",
+              "href": "/vi/kurashi/remit-first-time/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Tài khoản và điện thoại",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Thứ",
+            "Việc cần làm",
+            "Lưu ý"
+          ],
+          "rows": [
+            [
+              "Tài khoản ngân hàng",
+              "Về nguyên tắc đóng trước khi xuất cảnh",
+              "<strong>Bán, cho, cho mượn tài khoản là phạm tội</strong> (Luật phòng chống chuyển giao tiền phạm tội). Tài khoản sẽ bị dùng để lừa đảo, bạn cũng bị truy cứu"
+            ],
+            [
+              "Nhận tiền rút lương hưu...",
+              "Có thể nhận vào tài khoản của bạn ở nước ngoài",
+              "Nếu muốn nhận vào tài khoản ở Nhật, hỏi ngân hàng xem sau khi xuất cảnh còn dùng được không"
+            ],
+            [
+              "Điện thoại",
+              "Hủy hợp đồng và trả hết tiền trả góp máy",
+              "Nợ sẽ lưu trong thông tin tín dụng, ảnh hưởng hợp đồng khi sang Nhật lần sau"
+            ],
+            [
+              "Thẻ tín dụng",
+              "Hủy thẻ hoặc kiểm tra tài khoản trích nợ",
+              "Chú ý trích nợ thất bại sau khi đóng tài khoản"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Ở sân bay",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Nếu không định quay lại, trả thẻ cư trú khi làm thủ tục xuất cảnh",
+            "Mang <strong>tiền mặt, séc... trị giá trên 1 triệu yên</strong> khi xuất cảnh thì phải khai hải quan (tính cả ngoại tệ)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Trước khi xuất cảnh",
+          "items": [
+            "Đã đóng thuế cư trú hoặc chọn người quản lý nộp thuế",
+            "Đã nộp thông báo chuyển đi và làm thủ tục bảo hiểm, lương hưu",
+            "Đã gửi số tiền còn lại sau khi nhận lương cuối",
+            "Đã đóng tài khoản ngân hàng (không đưa cho ai)",
+            "Đã thanh toán điện thoại, điện nước gas, tiền nhà",
+            "Đã mang mẫu đơn xin tiền rút lương hưu và bản sao giấy tờ cần thiết"
+          ],
+          "done": "Đã sẵn sàng. Thượng lộ bình an.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Nguồn: Cơ quan Lương hưu Nhật Bản “Tiền rút lương hưu một lần” (cập nhật 1/4/2026); thành phố Kobe về thuế cư trú khi chuyển ra nước ngoài; hướng dẫn thủ tục về nước của trường đại học. Ngày kiểm tra: 2026-11-05. Thủ tục có thể khác tùy địa phương và ngân hàng, hãy kiểm tra sớm."
+        }
+      ]
+    }
+  ],
+  "title_ko": "귀국이 정해졌다면, 돈과 계좌에 관해 할 일: 주민세·연금 탈퇴일시금·송금·계좌 해지(출국 전 체크리스트)",
+  "description_ko": "일본을 떠나 귀국할 때 돈과 계좌 수속을 순서대로 정리했습니다. 주민세 납부 방법, 연금 탈퇴일시금(출국 후 2년 이내), 남은 돈 송금, 계좌 해지, 계좌 매매가 범죄라는 점, 현금 반출 신고까지.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "순서는 <strong>“주민세와 미납을 정리 → 연금 탈퇴일시금 준비 → 남은 돈을 보낸다 → 계좌를 닫는다”</strong>입니다. <strong>계좌를 남에게 팔거나 주는 것은 범죄</strong>입니다. <strong>100만 엔을 넘는 현금을 가지고 출국할 때는 세관에 신고</strong>해야 합니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 할 순서(출국 1개월 전부터)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "언제",
+            "할 일"
+          ],
+          "rows": [
+            [
+              "1개월 전",
+              "회사에 퇴직일·마지막 급여일을 확인. 집세·휴대폰·전기가스 해지일을 정한다"
+            ],
+            [
+              "2~3주 전",
+              "주민세 납부 방법을 정한다(일괄 납부 / 납세관리인 지정)"
+            ],
+            [
+              "1~2주 전",
+              "시구정촌에서 전출신고, 국민건강보험·국민연금 수속"
+            ],
+            [
+              "마지막 급여가 들어온 후",
+              "남은 돈을 보낸다. 계좌를 해지한다"
+            ],
+            [
+              "출국일",
+              "공항에서 재류카드 반납(재입국 예정이 없으면). 현금 100만 엔 초과면 세관에 신고"
+            ],
+            [
+              "출국 후 2년 이내",
+              "연금 탈퇴일시금 청구"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 주민세",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>그해 1월 1일에 일본에 살았던 사람은 그 연도의 주민세를 낸다</strong>. 연중에 출국해도 마찬가지",
+            "출국 전에 시구정촌에서 남은 금액을 한꺼번에 내거나, 일본에 사는 사람을 <strong>납세관리인</strong>으로 정해 대신 내게 한다",
+            "내지 않고 출국하면 다음에 일본에 올 때 비자 심사에서 불리해질 수 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 연금 탈퇴일시금(脱退一時金)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "항목",
+            "내용"
+          ],
+          "rows": [
+            [
+              "받을 수 있는 사람",
+              "일본 국적이 아니고, 연금에 6개월 이상 가입했으나 10년에 못 미치고, 일본에 주소가 없어진 사람"
+            ],
+            [
+              "청구 기한",
+              "<strong>일본에 주소가 없어진 날부터 2년 이내</strong>"
+            ],
+            [
+              "계산 기간 상한",
+              "60개월(5년)"
+            ],
+            [
+              "금액 예(국민연금)",
+              "마지막 납부 월이 2026년 4월~2027년 3월이면 6~12개월 53,760엔, 60개월 이상 537,600엔"
+            ],
+            [
+              "세금",
+              "후생연금 부분은 20.42%의 소득세가 떼어진다. 출국 전에 납세관리인을 정해 두면 확정신고로 돌려받을 수 있는 경우가 있다"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "청구서는 일본연금기구 사이트에서 받을 수 있습니다. 출국 전에 전출신고를 해 두면 수속이 원활합니다."
+        }
+      ]
+    },
+    {
+      "heading": "4. 남은 돈 보내기",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "마지막 급여·퇴직금이 들어오는 날을 확인한 후에 보낸다",
+            "보내는 법·작성법·도착하지 않을 때는 해외 송금 시리즈 참고",
+            "1회 100만 엔을 넘는 해외 송금은 은행·송금 회사가 세무서에 보고한다(세금이 붙는 것은 아님)"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "해외 송금 작성법",
+              "href": "/ko/kurashi/remit-form/"
+            },
+            {
+              "text": "처음 해외 송금과 수취액 계산기",
+              "href": "/ko/kurashi/remit-first-time/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 계좌와 휴대폰",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "것",
+            "할 일",
+            "주의"
+          ],
+          "rows": [
+            [
+              "은행 계좌",
+              "원칙적으로 출국 전에 해지",
+              "<strong>계좌를 팔거나 주거나 빌려주는 것은 범죄</strong>(범죄수익이전방지법). 사기에 쓰이고 본인도 죄를 물을 수 있다"
+            ],
+            [
+              "탈퇴일시금 등 수령",
+              "해외의 본인 계좌로도 받을 수 있다",
+              "일본 계좌로 받으려면 출국 후에도 쓸 수 있는지 은행에 확인"
+            ],
+            [
+              "휴대폰",
+              "해지하고 단말기 할부 잔액도 정산",
+              "미납은 신용정보에 남아 다음에 일본에 올 때 계약에 영향"
+            ],
+            [
+              "신용카드",
+              "해지하거나 결제 계좌를 확인",
+              "계좌를 닫은 후 결제 실패에 주의"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. 공항에서",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "재입국 예정이 없으면 출국 심사에서 재류카드를 반납",
+            "<strong>100만 엔 상당을 넘는 현금·수표 등</strong>을 가지고 출국할 때는 세관에 신고(외화도 합산)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "출국 전에",
+          "items": [
+            "주민세를 냈거나 납세관리인을 정했다",
+            "전출신고와 국민건강보험·국민연금 수속을 했다",
+            "마지막 급여가 들어온 후 남은 돈을 보냈다",
+            "은행 계좌를 해지했다(남에게 주지 않았다)",
+            "휴대폰·전기가스·집세를 정산했다",
+            "탈퇴일시금 청구서와 필요한 서류 사본을 챙겼다"
+          ],
+          "done": "준비됐습니다. 조심히 돌아가세요.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "출처: 일본연금기구 「탈퇴일시금」(2026년 4월 1일 갱신), 고베시 「해외로 전출하는 분의 시현민세」, 대학의 귀국 수속 안내. 확인일: 2026-11-05. 수속은 시구정촌·은행마다 다를 수 있으니 일찍 확인하세요."
+        }
+      ]
+    }
+  ]
+}

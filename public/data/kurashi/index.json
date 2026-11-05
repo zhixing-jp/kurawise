@@ -136,6 +136,33 @@
       "sub_ko": "나이별 조건·인정되는 기록·비자 영향과 판단 방법"
     },
     {
+      "id": "leaving-japan-money",
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "group": "remit",
+      "icon": "✈️",
+      "url": "/kurashi/leaving-japan-money/",
+      "updated": "2026-11-05",
+      "title_ja": "帰国が決まったら、お金と口座でやること：住民税・年金の脱退一時金・送金・口座の解約（出国前チェック表）",
+      "sub_ja": "やる順番・住民税・脱退一時金・口座・空港での注意",
+      "title_zh": "决定回国后，钱和账户要办的事：住民税・年金退出一次性补助金・汇款・注销账户（出国前检查清单）",
+      "sub_zh": "办理顺序・住民税・退出一次性补助金・账户・机场注意",
+      "title_zh-TW": "決定回國後，錢和帳戶要辦的事：住民稅・年金退出一次性補助金・匯款・登出帳戶（出國前檢查清單）",
+      "sub_zh-TW": "辦理順序・住民稅・退出一次性補助金・帳戶・機場注意",
+      "title_en": "Leaving Japan for Good? Money and Bank Accounts: Resident Tax, Pension Lump-Sum Refund, Sending Money and Closing Accounts (Pre-Departure Checklist)",
+      "sub_en": "Order of steps, resident tax, lump-sum refund, accounts, at the airport",
+      "title_vi": "Đã quyết định về nước: những việc về tiền và tài khoản — thuế cư trú, tiền rút lương hưu một lần, chuyển tiền, đóng tài khoản (danh sách trước khi xuất cảnh)",
+      "sub_vi": "Thứ tự, thuế cư trú, tiền rút lương hưu, tài khoản, lưu ý ở sân bay",
+      "title_ko": "귀국이 정해졌다면, 돈과 계좌에 관해 할 일: 주민세·연금 탈퇴일시금·송금·계좌 해지(출국 전 체크리스트)",
+      "sub_ko": "할 순서·주민세·탈퇴일시금·계좌·공항에서의 주의"
+    },
+    {
       "id": "first-credit-card",
       "langs": [
         "zh",
@@ -161,6 +188,33 @@
       "title_ko": "일본에서 첫 신용카드, 무엇을 고를까? 30초 만에 나에게 맞는 카드 찾기・신청에서 실패하지 않는 요령 (외국인 주의점 포함)",
       "sub_ko": "30초 진단・연간 포인트 계산・신청 전 체크리스트",
       "group": "card"
+    },
+    {
+      "id": "card-fraud",
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "group": "card",
+      "icon": "🛡️",
+      "url": "/kurashi/card-fraud/",
+      "updated": "2026-11-05",
+      "title_ja": "クレジットカードの不正利用・フィッシング：気づいたら最初にやることと、補償を受けるための条件",
+      "sub_ja": "最初の5つの手順・補償の条件・よくある手口・防ぎ方",
+      "title_zh": "信用卡被盗刷・钓鱼诈骗：发现后第一时间要做的事，和获得赔偿的条件",
+      "sub_zh": "最初5个步骤・赔偿条件・常见手法・预防",
+      "title_zh-TW": "信用卡被盜刷・釣魚詐騙：發現後第一時間要做的事，和獲得賠償的條件",
+      "sub_zh-TW": "最初5個步驟・賠償條件・常見手法・預防",
+      "title_en": "Credit Card Fraud and Phishing: What to Do First and the Conditions for Getting Your Money Back",
+      "sub_en": "First 5 steps, compensation conditions, common scams, prevention",
+      "title_vi": "Thẻ tín dụng bị dùng trái phép, lừa đảo phishing: việc cần làm đầu tiên và điều kiện để được bồi thường",
+      "sub_vi": "5 bước đầu tiên, điều kiện bồi thường, thủ đoạn thường gặp, cách phòng",
+      "title_ko": "신용카드 부정 사용·피싱: 알아차렸을 때 가장 먼저 할 일과 보상받기 위한 조건",
+      "sub_ko": "처음 5단계·보상 조건·흔한 수법·예방법"
     }
   ]
 }

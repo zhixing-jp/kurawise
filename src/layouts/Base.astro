@@ -407,7 +407,7 @@ const jsonLd = {
 
   <!-- 言語の案内：ブラウザの言語とページの言語が違うときだけ表示（base.js が表示を判断） -->
   {langSuggestEligible && (
-    <div id="langSuggest" class="lang-suggest" hidden>
+    <div id="langSuggest" class="lang-suggest" hidden data-langs={alternates ? alternates.map((a) => a.hreflang === 'zh-CN' ? 'zh' : a.hreflang).filter((l) => l !== 'x-default').join(',') : ''}>
       <span class="lang-suggest-text"></span>
       <a class="lang-suggest-link" href="#"></a>
       <button type="button" class="lang-suggest-close" aria-label="Close">✕</button>

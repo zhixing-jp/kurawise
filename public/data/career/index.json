@@ -243,6 +243,69 @@
         "newjob"
       ],
       "featured": false
+    },
+    {
+      "id": "insurance-arrears-visa",
+      "group": "visa",
+      "updated": "2026-11-05",
+      "url": "/career/insurance-arrears-visa/",
+      "situations": [
+        "renew",
+        "pr",
+        "family"
+      ],
+      "featured": true,
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "title": "健康保险・年金未缴，会影响签证更新：2027年起的新机制，和现在该做的事",
+      "description": "政府将从2027年起，把国民健康保险・国民年金的未缴情况用于签证（在留资格）更新・变更的审查。时间表、容易欠缴的人、有欠缴时怎么申请分期・减免，一次讲清楚。",
+      "title_ja": "健康保険・年金の未納が、ビザの更新に響く：2027年からの新しい仕組みと、今やること",
+      "description_ja": "政府は2027年から、国民健康保険・国民年金の未納をビザ（在留資格）の更新・変更の審査に使う仕組みを始めます。時期、対象になりやすい人、未納があるときの分割・免除の相談の手順をまとめました。",
+      "title_zh-TW": "健康保險・年金未繳，會影響簽證更新：2027年起的新機制，和現在該做的事",
+      "description_zh-TW": "政府將從2027年起，把國民健康保險・國民年金的未繳情況用於簽證（在留資格）更新・變更的審查。時間表、容易欠繳的人、有欠繳時怎麼申請分期・減免，一次講清楚。",
+      "title_en": "Unpaid Health Insurance or Pension Can Affect Your Visa Renewal: The New System from 2027 and What to Do Now",
+      "description_en": "From 2027 the government will use unpaid National Health Insurance and National Pension premiums in visa (status of residence) renewal and change reviews. The timeline, who is most likely to fall behind, and how to arrange installments or exemptions.",
+      "title_vi": "Nợ phí bảo hiểm y tế, lương hưu sẽ ảnh hưởng gia hạn visa: cơ chế mới từ 2027 và việc cần làm ngay",
+      "description_vi": "Từ năm 2027, chính phủ sẽ dùng thông tin nợ phí bảo hiểm y tế quốc dân và lương hưu quốc dân khi xét gia hạn, thay đổi tư cách lưu trú. Mốc thời gian, những người dễ bị nợ, và cách xin trả góp, miễn giảm.",
+      "title_ko": "건강보험·연금 미납이 비자 갱신에 영향: 2027년부터의 새 제도와 지금 할 일",
+      "description_ko": "정부는 2027년부터 국민건강보험·국민연금 미납을 비자(재류자격) 갱신·변경 심사에 활용합니다. 일정, 미납이 되기 쉬운 사람, 미납이 있을 때 분할·면제를 상담하는 순서를 정리했습니다."
+    },
+    {
+      "id": "year-end-adjustment-2026",
+      "group": "onboard",
+      "updated": "2026-11-05",
+      "url": "/career/year-end-adjustment-2026/",
+      "situations": [
+        "newjob",
+        "change"
+      ],
+      "featured": false,
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "title": "2026年的年末调整不吃亏：变化点，和要交的表格怎么填（换了工作的人・有扶养家人的人）",
+      "description": "2026年度（令和8年分）的年末调整：基础扣除最高104万日元，扶养家人的所得上限变成62万日元（只有工资的话，年收入136万日元以下）。变化速查表、要交的3份表格、换工作的人・扶养海外家人的人要注意的地方，一次讲清楚。",
+      "title_ja": "2026年の年末調整で損しない：変わった点と、出す書類の書き方（転職した人・家族を扶養している人）",
+      "description_ja": "2026年分（令和8年分）の年末調整は、基礎控除が最大104万円、扶養の所得の上限が62万円（給与だけなら年収136万円以下）に変わりました。変更点の早見表、出す3つの書類、転職した人・海外の家族を扶養している人の注意をまとめました。",
+      "title_zh-TW": "2026年的年末調整不吃虧：變化點，和要交的表格怎麼填（換了工作的人・有扶養家人的人）",
+      "description_zh-TW": "2026年度（令和8年分）的年末調整：基礎扣除最高104萬日圓，扶養家人的所得上限變成62萬日圓（只有工資的話，年收入136萬日圓以下）。變化速查表、要交的3份表格、換工作的人・扶養海外家人的人要注意的地方，一次講清楚。",
+      "title_en": "Don’t Lose Money on Your 2026 Year-End Tax Adjustment: What Changed and How to Fill In the Forms (Job Changers, People Supporting Family)",
+      "description_en": "For the 2026 year-end tax adjustment, the basic deduction rises to up to 1.04 million yen and the income limit for dependents to 620,000 yen (salary up to 1.36 million yen). What changed, the 3 forms to submit, and notes for job changers and people supporting family abroad.",
+      "title_vi": "Không bị thiệt khi điều chỉnh thuế cuối năm 2026: những điểm thay đổi và cách điền tờ khai (người chuyển việc, người nuôi người phụ thuộc)",
+      "description_vi": "Điều chỉnh thuế cuối năm 2026: khấu trừ cơ bản tối đa 1,04 triệu yên, giới hạn thu nhập của người phụ thuộc thành 620.000 yên (nếu chỉ có lương thì thu nhập năm đến 1,36 triệu yên). Bảng thay đổi, 3 tờ khai cần nộp, lưu ý cho người chuyển việc và người nuôi người thân ở nước ngoài.",
+      "title_ko": "2026년 연말정산에서 손해 보지 않기: 바뀐 점과 서류 작성법(이직한 사람·가족을 부양하는 사람)",
+      "description_ko": "2026년분 연말정산은 기초공제가 최대 104만 엔, 부양가족의 소득 상한이 62만 엔(급여만 있으면 연 수입 136만 엔 이하)으로 바뀌었습니다. 변경점 조견표, 제출할 3가지 서류, 이직한 사람·해외 가족을 부양하는 사람의 주의점을 정리했습니다."
     }
   ]
 }

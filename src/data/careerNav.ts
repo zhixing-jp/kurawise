@@ -61,7 +61,8 @@ export const UI: Record<string, Record<L, string>> = {
 export type Article = { id: string; group: string; title: string; desc: string; href: string; updated?: string; featured?: boolean; situations: string[] };
 
 export function articles(lang: string): Article[] {
-  return (careerIndex.pages as any[]).map((p) => ({
+  // langs がある記事は、その言語だけ（11/5：新しい記事は日本語・簡体・繁体から）
+  return (careerIndex.pages as any[]).filter((p) => !p.langs || p.langs.includes(lang)).map((p) => ({
     id: p.id, group: p.group, featured: !!p.featured, updated: p.updated, situations: p.situations || [],
     title: (lang === 'zh' ? p.title : p[`title_${lang}`]) || p.title,
     desc: (lang === 'zh' ? p.description : p[`description_${lang}`]) || p.description,

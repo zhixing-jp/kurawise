@@ -1,6 +1,6 @@
 {
   "id": "remit-family-tax",
-  "checked": "2026-10-26",
+  "checked": "2026-11-05",
   "title_ja": "仕送りで税金を減らす：海外の家族を扶養に入れる条件と、残すべき送金の記録",
   "description_ja": "海外に住む家族も、条件を満たせば扶養控除の対象になり、税金が減ります。年齢ごとの条件、送金の記録として認められるもの・認められないもの、よくある失敗、出す時期をまとめました。",
   "sections_ja": [
@@ -27,24 +27,24 @@
           "rows": [
             [
               "16〜29歳",
-              "所得が年58万円以下",
+              "所得が年62万円以下",
               "親族関係書類＋送金関係書類"
             ],
             [
               "30〜69歳",
-              "所得が年58万円以下で、次のどれか：①留学で海外にいる　②障害がある　③あなたから年38万円以上の送金",
+              "所得が年62万円以下で、次のどれか：①留学で海外にいる　②障害がある　③あなたから年38万円以上の送金",
               "親族関係書類＋送金関係書類（③は年38万円以上の送金の記録。①は留学のビザなどの書類も）"
             ],
             [
               "70歳以上",
-              "所得が年58万円以下",
+              "所得が年62万円以下",
               "親族関係書類＋送金関係書類"
             ]
           ]
         },
         {
           "t": "note",
-          "text": "所得の条件は2025年分から58万円です（それまでは48万円）。16歳未満の家族は、所得税の扶養控除の対象ではありません。"
+          "text": "所得の条件は2026年分から62万円です（2025年分は58万円、それまでは48万円）。16歳未満の家族は、所得税の扶養控除の対象ではありません。"
         }
       ]
     },
@@ -229,24 +229,24 @@
           "rows": [
             [
               "16〜29岁",
-              "年所得58万日元以下",
+              "年所得62万日元以下",
               "亲属关系材料＋汇款关系材料"
             ],
             [
               "30〜69岁",
-              "年所得58万日元以下，并且符合以下任一项：①在海外留学　②有残疾　③你每年给他汇款38万日元以上",
+              "年所得62万日元以下，并且符合以下任一项：①在海外留学　②有残疾　③你每年给他汇款38万日元以上",
               "亲属关系材料＋汇款关系材料（③需要每年38万日元以上的汇款记录；①还需要留学签证等材料）"
             ],
             [
               "70岁以上",
-              "年所得58万日元以下",
+              "年所得62万日元以下",
               "亲属关系材料＋汇款关系材料"
             ]
           ]
         },
         {
           "t": "note",
-          "text": "所得条件从2025年起为58万日元（之前是48万日元）。未满16岁的家人，不适用所得税的扶养扣除。"
+          "text": "所得条件从2026年起为62万日元（2025年为58万日元，之前是48万日元）。未满16岁的家人，不适用所得税的扶养扣除。"
         }
       ]
     },
@@ -431,24 +431,24 @@
           "rows": [
             [
               "16〜29歲",
-              "年所得58萬日圓以下",
+              "年所得62萬日圓以下",
               "親屬關係材料＋匯款關係材料"
             ],
             [
               "30〜69歲",
-              "年所得58萬日圓以下，並且符合以下任一項：①在海外留學　②有殘疾　③你每年給他匯款38萬日圓以上",
+              "年所得62萬日圓以下，並且符合以下任一項：①在海外留學　②有殘疾　③你每年給他匯款38萬日圓以上",
               "親屬關係材料＋匯款關係材料（③需要每年38萬日圓以上的匯款記錄；①還需要留學簽證等材料）"
             ],
             [
               "70歲以上",
-              "年所得58萬日圓以下",
+              "年所得62萬日圓以下",
               "親屬關係材料＋匯款關係材料"
             ]
           ]
         },
         {
           "t": "note",
-          "text": "所得條件從2025年起為58萬日圓（之前是48萬日圓）。未滿16歲的家人，不適用所得稅的扶養扣除。"
+          "text": "所得條件從2026年起為62萬日圓（2025年為58萬日圓，之前是48萬日圓）。未滿16歲的家人，不適用所得稅的扶養扣除。"
         }
       ]
     },
@@ -633,24 +633,24 @@
           "rows": [
             [
               "16–29",
-              "Income of 580,000 yen or less a year",
+              "Income of 620,000 yen or less a year",
               "Relationship documents + transfer documents"
             ],
             [
               "30–69",
-              "Income of 580,000 yen or less, plus one of: (1) studying abroad, (2) has a disability, (3) receives 380,000 yen or more a year from you",
+              "Income of 620,000 yen or less, plus one of: (1) studying abroad, (2) has a disability, (3) receives 380,000 yen or more a year from you",
               "Relationship documents + transfer documents (for (3), records of 380,000 yen or more a year; for (1), also student visa documents)"
             ],
             [
               "70 and over",
-              "Income of 580,000 yen or less a year",
+              "Income of 620,000 yen or less a year",
               "Relationship documents + transfer documents"
             ]
           ]
         },
         {
           "t": "note",
-          "text": "The income limit is 580,000 yen from 2025 (480,000 yen before). Children under 16 do not count for the income tax dependent deduction."
+          "text": "The income limit is 620,000 yen from 2026 (580,000 yen in 2025, 480,000 yen before). Children under 16 do not count for the income tax dependent deduction."
         }
       ]
     },
@@ -835,24 +835,24 @@
           "rows": [
             [
               "16–29",
-              "Thu nhập từ 580.000 yên/năm trở xuống",
+              "Thu nhập từ 620.000 yên/năm trở xuống",
               "Giấy tờ quan hệ + giấy tờ chuyển tiền"
             ],
             [
               "30–69",
-              "Thu nhập từ 580.000 yên trở xuống và thuộc một trong: (1) đang du học ở nước ngoài, (2) có khuyết tật, (3) nhận từ bạn 380.000 yên/năm trở lên",
+              "Thu nhập từ 620.000 yên trở xuống và thuộc một trong: (1) đang du học ở nước ngoài, (2) có khuyết tật, (3) nhận từ bạn 380.000 yên/năm trở lên",
               "Giấy tờ quan hệ + giấy tờ chuyển tiền (trường hợp (3) cần giấy tờ chuyển từ 380.000 yên/năm; (1) cần thêm giấy tờ visa du học)"
             ],
             [
               "Từ 70",
-              "Thu nhập từ 580.000 yên/năm trở xuống",
+              "Thu nhập từ 620.000 yên/năm trở xuống",
               "Giấy tờ quan hệ + giấy tờ chuyển tiền"
             ]
           ]
         },
         {
           "t": "note",
-          "text": "Mức thu nhập là 580.000 yên từ năm 2025 (trước đó 480.000 yên). Người thân dưới 16 tuổi không được tính khấu trừ người phụ thuộc trong thuế thu nhập."
+          "text": "Mức thu nhập là 620.000 yên từ năm 2026 (năm 2025 là 580.000 yên, trước đó 480.000 yên). Người thân dưới 16 tuổi không được tính khấu trừ người phụ thuộc trong thuế thu nhập."
         }
       ]
     },
@@ -1037,24 +1037,24 @@
           "rows": [
             [
               "16~29세",
-              "소득이 연 58만 엔 이하",
+              "소득이 연 62만 엔 이하",
               "친족관계서류 + 송금관계서류"
             ],
             [
               "30~69세",
-              "소득이 연 58만 엔 이하이고 다음 중 하나: ① 해외 유학 중 ② 장애가 있음 ③ 당신에게서 연 38만 엔 이상 송금",
+              "소득이 연 62만 엔 이하이고 다음 중 하나: ① 해외 유학 중 ② 장애가 있음 ③ 당신에게서 연 38만 엔 이상 송금",
               "친족관계서류 + 송금관계서류(③은 연 38만 엔 이상 송금 기록, ①은 유학 비자 등 서류도)"
             ],
             [
               "70세 이상",
-              "소득이 연 58만 엔 이하",
+              "소득이 연 62만 엔 이하",
               "친족관계서류 + 송금관계서류"
             ]
           ]
         },
         {
           "t": "note",
-          "text": "소득 조건은 2025년분부터 58만 엔입니다(그전에는 48만 엔). 16세 미만 가족은 소득세 부양공제 대상이 아닙니다."
+          "text": "소득 조건은 2026년분부터 62만 엔입니다(2025년분은 58만 엔, 그전에는 48만 엔). 16세 미만 가족은 소득세 부양공제 대상이 아닙니다."
         }
       ]
     },

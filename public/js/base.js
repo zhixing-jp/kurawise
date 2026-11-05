@@ -123,6 +123,9 @@ function initLangSuggest(pageLang) {
   if (!box) return;
   const sys = systemSiteLang();
   if (!sys || sys === pageLang) return;
+  // 訳のある言語が決まっているページ（data-langs）では、その中の言語だけを案内する（11/5）
+  const allowed = (box.getAttribute('data-langs') || '').split(',').filter(Boolean);
+  if (allowed.length && allowed.indexOf(sys) < 0) return;
   let chosen = null, dismissed = null;
   try { chosen = localStorage.getItem('lj_lang_chosen'); dismissed = localStorage.getItem('lj_lang_suggest_dismissed'); } catch (e) {}
   if (chosen === pageLang) return;

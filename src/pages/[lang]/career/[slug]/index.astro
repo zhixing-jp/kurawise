@@ -22,6 +22,7 @@ export async function getStaticPaths() {
   const results = [];
   for (const lang of langs) {
     for (const p of pages) {
+      if (p.langs && !p.langs.includes(lang)) continue;  // 訳のない言語はページを作らない（11/5）
       let pageData: any = {};
       try {
         const articleRaw = await readFile(`public/data/career/${p.id}.json`, 'utf-8');
@@ -32,6 +33,7 @@ export async function getStaticPaths() {
       // group字段只存在于index.json（文章列表），不在每篇文章各自的内容json里，
       // 需要在这里合并进pageData，模板才能读到pageData.group传给悬浮banner分组
       pageData.group = p.group;
+      pageData.langs = p.langs;
       results.push({
         params: { lang, slug: p.id },
         props: { lang, slug: p.id, pageData }
@@ -98,10 +100,15 @@ const shareLabels: Record<string, Record<string, string>> = {
   ja: { line: 'LINEで共有', whatsapp: 'WhatsAppで共有', wechat: 'WeChatで共有（リンクをコピー）', wechatCopied: 'リンクをコピーしました。WeChatで貼り付けて送信してください' }
 };
 const currentShareLabels = shareLabels[lang] || shareLabels.en;
+// 訳のある言語だけを hreflang に出す（langs がある記事。11/5）
+const alternates = pageData.langs ? [
+  ...pageData.langs.map((l: string) => ({ hreflang: l === 'zh' ? 'zh-CN' : l, href: `https://kurawise.com/${l}/career/${slug}/` })),
+  { hreflang: 'x-default', href: `https://kurawise.com/${pageData.langs.includes('ja') ? 'ja' : pageData.langs[0]}/career/${slug}/` }
+] : undefined;
 import CareerBlocks from '../../../../components/CareerBlocks.astro';
 ---
 
-<Base title={`${pageTitle} | Kurawise`} description={pageDesc} careerCss={true} careerGroup={pageData.group}>
+<Base title={`${pageTitle} | Kurawise`} description={pageDesc} careerCss={true} careerGroup={pageData.group} alternates={alternates}>
 
   <Breadcrumb crumbs={[{ label: hubLabels[lang] || hubLabels.en, url: hubUrl }, { label: pageTitle }]} cssClass="career-breadcrumb" />
 

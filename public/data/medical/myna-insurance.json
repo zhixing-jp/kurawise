@@ -1,0 +1,766 @@
+{
+  "id": "myna-insurance",
+  "checked": "2026-11-05",
+  "title_ja": "紙の保険証はもう使えない：マイナ保険証・資格確認書での受診と、忘れた・期限切れのときの対処",
+  "description_ja": "2026年8月から、病院・薬局では原則としてマイナ保険証か資格確認書が必要になりました。窓口で出すもの、忘れたときの払い戻し、外国人のマイナンバーカードの期限（在留期限まで）の注意をまとめました。",
+  "crumb_ja": "マイナ保険証と資格確認書",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "<strong>2026年8月1日から、病院・薬局では原則として「マイナ保険証」か「資格確認書」が必要</strong>です（期限切れの紙の保険証を使える特例は7月31日で終わりました）。どちらも持っていないと、窓口でいったん<strong>全額（10割）</strong>を払うことがあります。外国人は、マイナンバーカードの期限が<strong>在留期限と同じ</strong>なので、ビザを更新したらカードの手続きも忘れずに。"
+        }
+      ]
+    },
+    {
+      "heading": "一、窓口で何を出す？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "あなたの状況",
+            "窓口で出すもの"
+          ],
+          "rows": [
+            [
+              "マイナンバーカードを保険証として登録済み",
+              "マイナンバーカード（受付の機械で顔認証か4けたの暗証番号）"
+            ],
+            [
+              "登録していない・カードがない",
+              "資格確認書（加入している保険から無料で届く）"
+            ],
+            [
+              "機械でうまく読み取れない",
+              "マイナンバーカード＋「資格情報のお知らせ」、またはマイナポータルの資格情報の画面"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "マイナ保険証で受診すると、窓口で「限度額の情報の提供」に同意するだけで、高い医療費の支払いが上限までになります（高額療養費）。"
+        }
+      ]
+    },
+    {
+      "heading": "二、忘れた・持っていないとき",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "窓口で、いったん全額（10割）を払うことがある",
+            "後日、同じ病院で保険の確認ができれば、差額を返してもらえることがある（病院に聞く）",
+            "できないときは、加入している保険（会社員は健康保険組合・協会けんぽ、国民健康保険は市区町村）に「療養費」を申請して払い戻しを受ける。領収書と診療明細書を必ずとっておく"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "受診の前に病院へ電話して「保険の確認書類を忘れました」と伝えると、対応を教えてもらえます。"
+        }
+      ]
+    },
+    {
+      "heading": "三、外国人が特に気をつけること",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "こと",
+            "内容"
+          ],
+          "rows": [
+            [
+              "カードの期限",
+              "中長期在留者のマイナンバーカードは、<strong>在留期間の満了日まで</strong>しか使えない"
+            ],
+            [
+              "ビザを更新したら",
+              "新しい在留カードを持って、<strong>住んでいる市区町村の窓口で、マイナンバーカードの期限を延ばす手続き</strong>をする。しないと、保険証としても使えなくなる"
+            ],
+            [
+              "電子証明書の期限",
+              "カードの電子証明書は、発行から5回目の誕生日まで。切れても3か月は保険証として使えるが、その後は資格確認書が必要"
+            ],
+            [
+              "特定在留カード",
+              "2026年6月14日から、在留カードとマイナンバーカードを1枚にした「特定在留カード」を希望すれば作れる（入管・市区町村の手続きのときに申請）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、資格確認書が届かない・なくしたとき",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "会社員・その家族：会社の担当者を通して、健康保険組合か協会けんぽへ",
+            "国民健康保険：住んでいる市区町村の窓口へ",
+            "引っ越し・転職・退職をしたら、加入する保険が変わる。新しい保険の手続きが済むまで、古い書類は使えない"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "受診の前に確かめる",
+          "items": [
+            "マイナンバーカードを保険証として登録したか（マイナポータルで確認できる）",
+            "登録していないなら、資格確認書が手元にある",
+            "カードの期限（外国人は在留期限）が切れていない",
+            "ビザを更新した後、市区町村でカードの期限を延ばした",
+            "4けたの暗証番号を覚えている（顔認証でも可）"
+          ],
+          "done": "準備ができました。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "紙の保険証の特例の終了と、忘れたときの扱いは厚生労働省の案内と解説記事（2026年7月）、特定在留カードは千葉市の案内によります。確認日：2026-11-05。手続きは保険や市区町村ごとに違うことがあるので、加入先で確かめてください。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "纸质保险证已经不能用了：用マイナ保险证・资格确认书看病，忘带・过期怎么办",
+  "description_zh": "从2026年8月起，医院・药局原则上需要マイナ保险证或资格确认书。窗口要出示什么、忘带时怎么退款、外国人的个人编号卡（マイナンバーカード）期限只到在留期限为止要注意的地方，一次讲清楚。",
+  "crumb_zh": "マイナ保险证和资格确认书",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "<strong>从2026年8月1日起，医院・药局原则上需要“マイナ保险证”或“资格确认书”</strong>（过期纸质保险证也能用的特例已在7月31日结束）。两样都没有的话，可能要在窗口先付<strong>全额（10成）</strong>。外国人的个人编号卡<strong>期限和在留期限相同</strong>，续签之后别忘了办卡的手续。"
+        }
+      ]
+    },
+    {
+      "heading": "一、窗口要出示什么？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "你的情况",
+            "窗口出示"
+          ],
+          "rows": [
+            [
+              "已把个人编号卡登记为保险证",
+              "个人编号卡（在前台机器上刷脸或输入4位密码）"
+            ],
+            [
+              "没登记・没有卡",
+              "资格确认书（所加入的保险会免费寄来）"
+            ],
+            [
+              "机器读不出来",
+              "个人编号卡＋“资格信息通知（資格情報のお知らせ）”，或マイナポータル上的资格信息画面"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "用マイナ保险证看病时，只要在窗口同意“提供限额信息”，高额医疗费就只需付到上限（高额疗养费）。"
+        }
+      ]
+    },
+    {
+      "heading": "二、忘带・没有时",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "窗口可能要先付全额（10成）",
+            "之后在同一家医院确认了保险，有时可以退还差额（问医院）",
+            "不行的话，向所加入的保险（公司职员是健康保险组合・协会けんぽ，国民健康保险是市区町村）申请“疗养费”退款。收据和诊疗明细一定要保存好"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "看病前先给医院打电话，说「保険の確認書類を忘れました」，医院会告诉你怎么处理。"
+        }
+      ]
+    },
+    {
+      "heading": "三、外国人特别要注意",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "事项",
+            "内容"
+          ],
+          "rows": [
+            [
+              "卡的期限",
+              "中长期在留者的个人编号卡，<strong>只能用到在留期间的到期日</strong>"
+            ],
+            [
+              "续签之后",
+              "带着新的在留卡，<strong>去住址所在的市区町村窗口，办理延长个人编号卡期限的手续</strong>。不办的话，卡也不能当保险证用"
+            ],
+            [
+              "电子证明书的期限",
+              "卡里的电子证明书到发卡后第5个生日为止。过期后3个月内还能当保险证用，之后需要资格确认书"
+            ],
+            [
+              "特定在留卡",
+              "从2026年6月14日起，可以申请把在留卡和个人编号卡合为一张的“特定在留卡”（在入管・市区町村办手续时申请）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、没收到・弄丢资格确认书时",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "公司职员・家属：通过公司的负责人，联系健康保险组合或协会けんぽ",
+            "国民健康保险：去住址所在的市区町村窗口",
+            "搬家・换工作・辞职后，所加入的保险会变。新保险的手续办好之前，旧的文件不能用"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "看病前确认",
+          "items": [
+            "已把个人编号卡登记为保险证（可在マイナポータル确认）",
+            "没登记的话，手上有资格确认书",
+            "卡没有过期（外国人看在留期限）",
+            "续签后，已在市区町村延长了卡的期限",
+            "记得4位密码（也可以刷脸）"
+          ],
+          "done": "准备好了。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "纸质保险证特例的结束和忘带时的处理，依据厚生劳动省的说明和解说文章（2026年7月）；特定在留卡依据千叶市的说明。确认日：2026-11-05。手续可能因保险或市区町村而异，请向所加入的保险确认。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "紙質保險證已經不能用了：用マイナ保險證・資格確認書看病，忘帶・過期怎麼辦",
+  "description_zh-TW": "從2026年8月起，醫院・藥局原則上需要マイナ保險證或資格確認書。視窗要出示什麼、忘帶時怎麼退款、外國人的個人編號卡（マイナンバーカード）期限只到在留期限為止要注意的地方，一次講清楚。",
+  "crumb_zh-TW": "マイナ保險證和資格確認書",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "<strong>從2026年8月1日起，醫院・藥局原則上需要“マイナ保險證”或“資格確認書”</strong>（過期紙質保險證也能用的特例已在7月31日結束）。兩樣都沒有的話，可能要在視窗先付<strong>全額（10成）</strong>。外國人的個人編號卡<strong>期限和在留期限相同</strong>，續簽之後別忘了辦卡的手續。"
+        }
+      ]
+    },
+    {
+      "heading": "一、視窗要出示什麼？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "你的情況",
+            "視窗出示"
+          ],
+          "rows": [
+            [
+              "已把個人編號卡登記為保險證",
+              "個人編號卡（在前臺機器上刷臉或輸入4位密碼）"
+            ],
+            [
+              "沒登記・沒有卡",
+              "資格確認書（所加入的保險會免費寄來）"
+            ],
+            [
+              "機器讀不出來",
+              "個人編號卡＋“資格資訊通知（資格情報のお知らせ）”，或マイナポータル上的資格資訊畫面"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "用マイナ保險證看病時，只要在視窗同意“提供限額資訊”，高額醫療費就只需付到上限（高額療養費）。"
+        }
+      ]
+    },
+    {
+      "heading": "二、忘帶・沒有時",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "視窗可能要先付全額（10成）",
+            "之後在同一家醫院確認了保險，有時可以退還差額（問醫院）",
+            "不行的話，向所加入的保險（公司職員是健康保險組合・協會けんぽ，國民健康保險是市區町村）申請“療養費”退款。收據和診療明細一定要儲存好"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "看病前先給醫院打電話，說「保険の確認書類を忘れました」，醫院會告訴你怎麼處理。"
+        }
+      ]
+    },
+    {
+      "heading": "三、外國人特別要注意",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "事項",
+            "內容"
+          ],
+          "rows": [
+            [
+              "卡的期限",
+              "中長期在留者的個人編號卡，<strong>只能用到在留期間的到期日</strong>"
+            ],
+            [
+              "續簽之後",
+              "帶著新的在留卡，<strong>去住址所在的市區町村視窗，辦理延長個人編號卡期限的手續</strong>。不辦的話，卡也不能當保險證用"
+            ],
+            [
+              "電子證明書的期限",
+              "卡里的電子證明書到髮卡後第5個生日為止。過期後3個月內還能當保險證用，之後需要資格確認書"
+            ],
+            [
+              "特定在留卡",
+              "從2026年6月14日起，可以申請把在留卡和個人編號卡合為一張的“特定在留卡”（在入管・市區町村辦手續時申請）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、沒收到・弄丟資格確認書時",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "公司職員・家屬：透過公司的負責人，聯絡健康保險組合或協會けんぽ",
+            "國民健康保險：去住址所在的市區町村視窗",
+            "搬家・換工作・辭職後，所加入的保險會變。新保險的手續辦好之前，舊的檔案不能用"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "看病前確認",
+          "items": [
+            "已把個人編號卡登記為保險證（可在マイナポータル確認）",
+            "沒登記的話，手上有資格確認書",
+            "卡沒有過期（外國人看在留期限）",
+            "續簽後，已在市區町村延長了卡的期限",
+            "記得4位密碼（也可以刷臉）"
+          ],
+          "done": "準備好了。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "紙質保險證特例的結束和忘帶時的處理，依據厚生勞動省的說明和解說文章（2026年7月）；特定在留卡依據千葉市的說明。確認日：2026-11-05。手續可能因保險或市區町村而異，請向所加入的保險確認。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Paper Health Insurance Cards No Longer Work: Seeing a Doctor with the My Number Insurance Card or Eligibility Certificate, and What to Do If You Forget",
+  "description_en": "Since August 2026, clinics and pharmacies generally require the My Number insurance card or an eligibility certificate. What to show at the counter, getting a refund if you forget, and why foreign residents’ My Number cards expire with their residence period.",
+  "crumb_en": "My Number insurance card",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "<strong>Since August 1, 2026, clinics and pharmacies generally require the My Number insurance card or an eligibility certificate (shikaku kakuninsho)</strong>. The special rule allowing expired paper cards ended on July 31. Without either, you may have to pay <strong>the full cost (100%)</strong> at the counter first. For foreign residents, the My Number card <strong>expires on the same day as your residence period</strong>, so update the card after you renew your visa."
+        }
+      ]
+    },
+    {
+      "heading": "1. What to show at the counter",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Your situation",
+            "What to show"
+          ],
+          "rows": [
+            [
+              "My Number card registered as your insurance card",
+              "Your My Number card (face recognition or 4-digit PIN at the reception machine)"
+            ],
+            [
+              "Not registered, or no card",
+              "Eligibility certificate (sent free by your insurer)"
+            ],
+            [
+              "The machine can’t read your card",
+              "Your My Number card plus the “eligibility information notice” (shikaku jōhō no oshirase), or the eligibility screen in Mynaportal"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "If you use the My Number insurance card and agree to share your “limit information” at the reception machine, large medical bills are capped at the counter automatically (high-cost medical expense benefit)."
+        }
+      ]
+    },
+    {
+      "heading": "2. If you forgot it or don’t have it",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "You may have to pay the full cost (100%) first",
+            "If the clinic can confirm your insurance later, it may refund the difference (ask the clinic)",
+            "If not, apply to your insurer for a refund (“ryōyōhi”): company employees through their health insurance society or Kyokai Kenpo, National Health Insurance at your city office. Keep the receipt and the itemized statement"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Call the clinic before going and say 「保険の確認書類を忘れました」 (Hoken no kakunin shorui o wasuremashita — “I forgot my insurance documents”). They will tell you what to do."
+        }
+      ]
+    },
+    {
+      "heading": "3. For foreign residents",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Card expiry",
+              "A mid- to long-term resident’s My Number card is valid <strong>only until the end of your period of stay</strong>"
+            ],
+            [
+              "After renewing your visa",
+              "Take your new residence card to <strong>your city or ward office and extend your My Number card’s validity</strong>. If you don’t, it can’t be used as an insurance card"
+            ],
+            [
+              "Electronic certificate",
+              "The card’s electronic certificate expires on your 5th birthday after issue. It still works as an insurance card for 3 months after that; then you need an eligibility certificate"
+            ],
+            [
+              "Specified residence card",
+              "Since June 14, 2026, you can choose a single card combining the residence card and My Number card (apply during immigration or city office procedures)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. If the certificate doesn’t arrive or you lose it",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Employees and their families: ask your company’s HR to contact the health insurance society or Kyokai Kenpo",
+            "National Health Insurance: your city or ward office",
+            "Moving, changing jobs or leaving a job changes your insurer. Old documents can’t be used once the new insurance starts"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Before seeing a doctor",
+          "items": [
+            "My My Number card is registered as an insurance card (check in Mynaportal)",
+            "If not, I have my eligibility certificate",
+            "My card hasn’t expired (for foreign residents: my period of stay)",
+            "After renewing my visa, I extended the card at the city office",
+            "I remember my 4-digit PIN (or can use face recognition)"
+          ],
+          "done": "You’re ready.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "End of the paper-card special rule and handling when you forget: Ministry of Health guidance and an explainer (July 2026). Specified residence card: Chiba City guidance. Checked: 2026-11-05. Procedures can differ by insurer or city, so check with yours."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Thẻ bảo hiểm giấy không còn dùng được: đi khám bằng thẻ bảo hiểm My Number hoặc giấy xác nhận tư cách, và cách xử lý khi quên hoặc hết hạn",
+  "description_vi": "Từ tháng 8/2026, bệnh viện và nhà thuốc về nguyên tắc yêu cầu thẻ bảo hiểm My Number hoặc giấy xác nhận tư cách. Đưa gì ở quầy, cách lấy lại tiền khi quên thẻ, và lưu ý thẻ My Number của người nước ngoài chỉ có hạn đến hết thời hạn lưu trú.",
+  "crumb_vi": "Thẻ bảo hiểm My Number",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "<strong>Từ ngày 1/8/2026, bệnh viện và nhà thuốc về nguyên tắc yêu cầu “thẻ bảo hiểm My Number” hoặc “giấy xác nhận tư cách” (資格確認書)</strong> (ngoại lệ cho dùng thẻ giấy hết hạn đã kết thúc ngày 31/7). Nếu không có cả hai, bạn có thể phải trả trước <strong>toàn bộ chi phí (100%)</strong> tại quầy. Thẻ My Number của người nước ngoài <strong>hết hạn cùng ngày với thời hạn lưu trú</strong>, nên sau khi gia hạn visa đừng quên làm thủ tục cho thẻ."
+        }
+      ]
+    },
+    {
+      "heading": "1. Đưa gì ở quầy?",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Tình trạng của bạn",
+            "Đưa ở quầy"
+          ],
+          "rows": [
+            [
+              "Đã đăng ký thẻ My Number làm thẻ bảo hiểm",
+              "Thẻ My Number (nhận diện khuôn mặt hoặc mã PIN 4 số ở máy tiếp nhận)"
+            ],
+            [
+              "Chưa đăng ký, không có thẻ",
+              "Giấy xác nhận tư cách (bảo hiểm gửi miễn phí)"
+            ],
+            [
+              "Máy không đọc được thẻ",
+              "Thẻ My Number + “thông báo thông tin tư cách” (資格情報のお知らせ), hoặc màn hình thông tin tư cách trên Mynaportal"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Khi khám bằng thẻ bảo hiểm My Number, chỉ cần đồng ý “cung cấp thông tin hạn mức” ở máy tiếp nhận là chi phí y tế lớn sẽ chỉ phải trả đến mức trần (trợ cấp chi phí y tế cao)."
+        }
+      ]
+    },
+    {
+      "heading": "2. Khi quên hoặc không có",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Có thể phải trả trước toàn bộ (100%) tại quầy",
+            "Sau đó, nếu cùng bệnh viện xác nhận được bảo hiểm, có thể được trả lại phần chênh lệch (hỏi bệnh viện)",
+            "Nếu không, nộp đơn xin hoàn tiền (療養費) cho bảo hiểm bạn tham gia (nhân viên công ty: hiệp hội bảo hiểm y tế/Kyokai Kenpo; bảo hiểm y tế quốc dân: ủy ban thành phố). Giữ lại hóa đơn và bảng kê chi tiết"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Gọi điện cho bệnh viện trước khi đi và nói 「保険の確認書類を忘れました」 (Hoken no kakunin shorui o wasuremashita — “Tôi quên giấy tờ bảo hiểm”), họ sẽ hướng dẫn cách xử lý."
+        }
+      ]
+    },
+    {
+      "heading": "3. Người nước ngoài đặc biệt lưu ý",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Việc",
+            "Nội dung"
+          ],
+          "rows": [
+            [
+              "Hạn của thẻ",
+              "Thẻ My Number của người lưu trú trung và dài hạn <strong>chỉ dùng được đến ngày hết hạn lưu trú</strong>"
+            ],
+            [
+              "Sau khi gia hạn visa",
+              "Mang thẻ cư trú mới <strong>đến ủy ban quận/thành phố nơi sống để gia hạn thời hạn thẻ My Number</strong>. Nếu không, thẻ không dùng được làm thẻ bảo hiểm"
+            ],
+            [
+              "Hạn chứng thư điện tử",
+              "Chứng thư điện tử trong thẻ hết hạn vào sinh nhật thứ 5 kể từ khi cấp. Sau khi hết hạn vẫn dùng làm thẻ bảo hiểm được 3 tháng, sau đó cần giấy xác nhận tư cách"
+            ],
+            [
+              "Thẻ cư trú đặc định",
+              "Từ 14/6/2026, có thể đăng ký “thẻ cư trú đặc định” gộp thẻ cư trú và thẻ My Number làm một (đăng ký khi làm thủ tục ở cục xuất nhập cảnh hoặc ủy ban)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Không nhận được hoặc làm mất giấy xác nhận tư cách",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Nhân viên công ty và gia đình: liên hệ hiệp hội bảo hiểm y tế hoặc Kyokai Kenpo qua người phụ trách ở công ty",
+            "Bảo hiểm y tế quốc dân: quầy ủy ban quận/thành phố nơi sống",
+            "Chuyển nhà, chuyển việc, nghỉ việc sẽ làm thay đổi bảo hiểm. Khi bảo hiểm mới bắt đầu, giấy tờ cũ không dùng được"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Trước khi đi khám",
+          "items": [
+            "Đã đăng ký thẻ My Number làm thẻ bảo hiểm (kiểm tra trên Mynaportal)",
+            "Nếu chưa, đang có giấy xác nhận tư cách",
+            "Thẻ chưa hết hạn (người nước ngoài: thời hạn lưu trú)",
+            "Sau khi gia hạn visa, đã gia hạn thẻ ở ủy ban",
+            "Nhớ mã PIN 4 số (hoặc dùng nhận diện khuôn mặt)"
+          ],
+          "done": "Đã sẵn sàng.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Việc kết thúc ngoại lệ thẻ giấy và cách xử lý khi quên thẻ theo hướng dẫn của Bộ Y tế và bài giải thích (7/2026); thẻ cư trú đặc định theo hướng dẫn của thành phố Chiba. Ngày kiểm tra: 2026-11-05. Thủ tục có thể khác tùy bảo hiểm hoặc địa phương, hãy hỏi nơi bạn tham gia."
+        }
+      ]
+    }
+  ],
+  "title_ko": "종이 보험증은 이제 못 쓴다: 마이나 보험증·자격확인서로 진료받기, 잊었거나 기한이 지났을 때",
+  "description_ko": "2026년 8월부터 병원·약국에서는 원칙적으로 마이나 보험증이나 자격확인서가 필요합니다. 창구에서 낼 것, 잊었을 때 돌려받는 방법, 외국인의 마이넘버 카드는 재류 기한까지라는 주의점을 정리했습니다.",
+  "crumb_ko": "마이나 보험증과 자격확인서",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "<strong>2026년 8월 1일부터 병원·약국에서는 원칙적으로 “마이나 보험증”이나 “자격확인서”가 필요</strong>합니다(기한이 지난 종이 보험증을 쓸 수 있던 특례는 7월 31일에 끝났습니다). 둘 다 없으면 창구에서 먼저 <strong>전액(10할)</strong>을 내야 할 수 있습니다. 외국인의 마이넘버 카드는 <strong>재류 기한과 같은 날 만료</strong>되므로, 비자를 갱신하면 카드 수속도 잊지 마세요."
+        }
+      ]
+    },
+    {
+      "heading": "1. 창구에서 무엇을 내나?",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "내 상황",
+            "창구에서 낼 것"
+          ],
+          "rows": [
+            [
+              "마이넘버 카드를 보험증으로 등록함",
+              "마이넘버 카드(접수 기계에서 얼굴 인증 또는 4자리 비밀번호)"
+            ],
+            [
+              "등록 안 함·카드 없음",
+              "자격확인서(가입한 보험에서 무료로 보내 줌)"
+            ],
+            [
+              "기계가 카드를 못 읽음",
+              "마이넘버 카드 + “자격정보 안내(資格情報のお知らせ)”, 또는 마이나포털의 자격정보 화면"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "마이나 보험증으로 진료받을 때 접수 기계에서 “한도액 정보 제공”에 동의만 하면, 큰 의료비도 상한까지만 내면 됩니다(고액요양비)."
+        }
+      ]
+    },
+    {
+      "heading": "2. 잊었거나 없을 때",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "창구에서 먼저 전액(10할)을 낼 수 있다",
+            "나중에 같은 병원에서 보험이 확인되면 차액을 돌려받을 수 있다(병원에 문의)",
+            "안 되면 가입한 보험(회사원은 건강보험조합·협회켄포, 국민건강보험은 시구정촌)에 “요양비”를 신청해 돌려받는다. 영수증과 진료 명세서를 꼭 보관"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "진료 전에 병원에 전화해 「保険の確認書類を忘れました」(호켄노 카쿠닌 쇼루이오 와스레마시타, “보험 서류를 잊었습니다”)라고 하면 대응 방법을 알려 줍니다."
+        }
+      ]
+    },
+    {
+      "heading": "3. 외국인이 특히 주의할 점",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "항목",
+            "내용"
+          ],
+          "rows": [
+            [
+              "카드의 기한",
+              "중장기 재류자의 마이넘버 카드는 <strong>재류 기간 만료일까지만</strong> 쓸 수 있다"
+            ],
+            [
+              "비자를 갱신했다면",
+              "새 재류카드를 가지고 <strong>사는 시구정촌 창구에서 마이넘버 카드의 기한 연장 수속</strong>을 한다. 하지 않으면 보험증으로도 쓸 수 없다"
+            ],
+            [
+              "전자증명서의 기한",
+              "카드의 전자증명서는 발급 후 5번째 생일까지. 만료 후 3개월은 보험증으로 쓸 수 있지만, 그 후에는 자격확인서가 필요"
+            ],
+            [
+              "특정 재류카드",
+              "2026년 6월 14일부터 재류카드와 마이넘버 카드를 한 장으로 합친 “특정 재류카드”를 원하면 만들 수 있다(입관·시구정촌 수속 때 신청)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 자격확인서가 오지 않거나 잃어버렸을 때",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "회사원·그 가족: 회사 담당자를 통해 건강보험조합이나 협회켄포에",
+            "국민건강보험: 사는 시구정촌 창구에",
+            "이사·이직·퇴직을 하면 가입하는 보험이 바뀐다. 새 보험이 시작되면 이전 서류는 쓸 수 없다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "진료 전에 확인",
+          "items": [
+            "마이넘버 카드를 보험증으로 등록했다(마이나포털에서 확인 가능)",
+            "등록하지 않았다면 자격확인서가 있다",
+            "카드 기한(외국인은 재류 기한)이 지나지 않았다",
+            "비자 갱신 후 시구정촌에서 카드 기한을 연장했다",
+            "4자리 비밀번호를 기억한다(얼굴 인증도 가능)"
+          ],
+          "done": "준비됐습니다.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "종이 보험증 특례 종료와 잊었을 때의 처리는 후생노동성 안내와 해설 기사(2026년 7월), 특정 재류카드는 지바시 안내에 따릅니다. 확인일: 2026-11-05. 수속은 보험이나 시구정촌마다 다를 수 있으니 가입처에 확인하세요."
+        }
+      ]
+    }
+  ]
+}

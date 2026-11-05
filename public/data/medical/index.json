@@ -169,6 +169,81 @@
       "description_en": "Where to go first, what it costs, what \"foreign-language support\" really means, and what to do at night or on weekends in Osaka and Kansai. With three questions to ask by phone and a checklist for your visit.",
       "description_vi": "Nên đi đâu trước, chi phí khoảng bao nhiêu, \"hỗ trợ ngoại ngữ\" thực tế là gì, và làm gì vào ban đêm hay cuối tuần ở Osaka・Kansai. Kèm 3 câu hỏi nên hỏi qua điện thoại và danh sách chuẩn bị.",
       "description_ko": "오사카・간사이에서 아플 때 먼저 어디로 갈지, 비용은 얼마인지, \"외국어 지원\"이 실제로 무엇인지, 밤이나 주말에는 어떻게 할지. 전화로 확인할 3가지 질문과 진료 준비 목록 포함."
+    },
+    {
+      "id": "fever-flu",
+      "group": "action",
+      "url": "/medical/fever-flu/",
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "title": "冬天突然发烧",
+      "description": "必须马上叫119的症状・就诊时机・电话怎么说・休息天数",
+      "title_ja": "冬の急な発熱",
+      "description_ja": "すぐ119番の症状・受診のタイミング・電話の言い方・休む日数",
+      "title_zh-TW": "冬天突然發燒",
+      "description_zh-TW": "必須馬上叫119的症狀・就診時機・電話怎麼說・休息天數",
+      "title_en": "Sudden fever in winter",
+      "description_en": "Call-119 symptoms, when to go, what to say on the phone, days off",
+      "title_vi": "Sốt đột ngột mùa đông",
+      "description_vi": "Triệu chứng phải gọi 119, thời điểm đi khám, câu nói qua điện thoại, số ngày nghỉ",
+      "title_ko": "겨울의 갑작스러운 발열",
+      "description_ko": "바로 119를 불러야 할 증상·진료 시기·전화로 말하는 법·쉬는 날수"
+    },
+    {
+      "id": "myna-insurance",
+      "group": "action",
+      "url": "/medical/myna-insurance/",
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "title": "マイナ保险证和资格确认书",
+      "description": "窗口出示什么・忘带时・外国人的卡片期限",
+      "title_ja": "マイナ保険証と資格確認書",
+      "description_ja": "窓口で出すもの・忘れたとき・外国人のカードの期限",
+      "title_zh-TW": "マイナ保險證和資格確認書",
+      "description_zh-TW": "視窗出示什麼・忘帶時・外國人的卡片期限",
+      "title_en": "My Number insurance card",
+      "description_en": "What to show, if you forget it, card expiry for foreign residents",
+      "title_vi": "Thẻ bảo hiểm My Number",
+      "description_vi": "Đưa gì ở quầy, khi quên thẻ, hạn thẻ của người nước ngoài",
+      "title_ko": "마이나 보험증과 자격확인서",
+      "description_ko": "창구에서 낼 것·잊었을 때·외국인 카드의 기한"
+    },
+    {
+      "id": "high-cost-medical",
+      "group": "reference",
+      "url": "/medical/high-cost-medical/",
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "title": "高额疗养费",
+      "description": "上限速查表・让窗口只付到上限的方法・退款",
+      "title_ja": "高額療養費",
+      "description_ja": "上限の早見表・窓口で上限までにする方法・払い戻し",
+      "title_zh-TW": "高額療養費",
+      "description_zh-TW": "上限速查表・讓視窗只付到上限的方法・退款",
+      "title_en": "High-cost medical expenses",
+      "description_en": "Limit table, capping the bill at the counter, refunds",
+      "title_vi": "Chi phí y tế cao",
+      "description_vi": "Bảng mức trần, cách chỉ trả đến mức trần ở quầy, hoàn tiền",
+      "title_ko": "고액요양비",
+      "description_ko": "상한 조견표·창구에서 상한까지만 내는 방법·환급"
     }
   ]
 }

@@ -1,0 +1,1036 @@
+{
+  "id": "high-cost-medical",
+  "checked": "2026-11-05",
+  "title_ja": "医療費が高くなったら：高額療養費の上限と、2026年8月からの変更（年間の上限ができた）",
+  "description_ja": "1か月の医療費の自己負担には上限があります。2026年8月からの上限の早見表（70歳未満）、新しくできた年間の上限、マイナ保険証で窓口の支払いを上限までにする方法、払い戻しの期限をまとめました。",
+  "crumb_ja": "高額療養費",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "1か月（1日〜末日）の医療費の自己負担には<strong>上限</strong>があります。年収約370〜770万円の人なら、医療費が100万円かかっても、払うのは<strong>約9.3万円</strong>です。<strong>マイナ保険証を使えば、手続きなしで窓口の支払いが上限まで</strong>になります。2026年8月から上限が少し上がり、<strong>1年間（8月〜翌7月）の上限</strong>も新しくできました。"
+        }
+      ]
+    },
+    {
+      "heading": "一、上限の早見表（70歳未満、2026年8月〜2027年7月）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "年収の目安",
+            "1か月の上限",
+            "4回目以降",
+            "年間の上限"
+          ],
+          "rows": [
+            [
+              "約1,160万円〜",
+              "270,300円＋（医療費−901,000円）×1%",
+              "140,100円",
+              "168万円"
+            ],
+            [
+              "約770〜1,160万円",
+              "179,100円＋（医療費−597,000円）×1%",
+              "93,000円",
+              "111万円"
+            ],
+            [
+              "約370〜770万円",
+              "85,800円＋（医療費−286,000円）×1%",
+              "44,400円",
+              "53万円"
+            ],
+            [
+              "〜約370万円",
+              "61,500円",
+              "44,400円",
+              "53万円"
+            ],
+            [
+              "住民税非課税",
+              "36,900円",
+              "24,600円",
+              "29万円"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "「4回目以降」：同じ世帯で、直近12か月に3回上限に達すると、4回目から下がる",
+            "「年間の上限」：8月〜翌年7月の自己負担の合計がここに届いたら、それ以上は払わなくてよい",
+            "2027年8月に、もう一度見直しの予定"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、計算の例（年収約370〜770万円の人）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "1か月の医療費（10割）",
+            "3割負担なら",
+            "高額療養費を使うと"
+          ],
+          "rows": [
+            [
+              "30万円",
+              "9万円",
+              "約8.6万円"
+            ],
+            [
+              "100万円",
+              "30万円",
+              "<strong>約9.3万円</strong>"
+            ],
+            [
+              "200万円",
+              "60万円",
+              "約10.3万円"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、窓口の支払いを上限までにする方法",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>マイナ保険証で受診し、受付の機械で「限度額の情報の提供」に同意する</strong>。これで手続きは要らない",
+            "マイナ保険証を使わない・使えない病院なら、加入している保険に「限度額適用認定証」を申請し、窓口で見せる（有効期限は1年）",
+            "間に合わず多く払ったときは、あとで保険に申請して払い戻しを受ける。<strong>2年以内</strong>ならさかのぼれるので、領収書をとっておく"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、知っておきたい注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "月ごと（1日〜末日）に計算する。月をまたぐ入院は、月ごとに別々に数える",
+            "入院中の食事代、差額ベッド代、先進医療などは対象外",
+            "同じ保険に入っている家族の自己負担は、1人2万1千円以上のものを合算できる（世帯合算）",
+            "国民健康保険の保険料を滞納していると、認定証が出ないことがある"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、外国人の場合",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "日本の公的な医療保険（社会保険・国民健康保険）に入っていれば、国籍に関係なく使える",
+            "保険料の未納は、ビザの更新に響く仕組みも始まる（下の記事）。払えないときは、放置せず市区町村に相談する"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "健康保険・年金の未納がビザの更新に響く",
+              "href": "/ja/career/insurance-arrears-visa/"
+            },
+            {
+              "text": "マイナ保険証と資格確認書",
+              "href": "/ja/medical/myna-insurance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "高い医療費がかかりそうなとき",
+          "items": [
+            "自分の年収の区分を確かめた",
+            "マイナ保険証で受診し、限度額の情報の提供に同意した（または認定証を用意した）",
+            "領収書と診療明細書をとっておく",
+            "家族の医療費も合算できるか確かめた"
+          ],
+          "done": "準備ができました。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "上限の金額は、厚生労働省「高額療養費制度を利用される皆さまへ」（2026年7月31日更新）と、それに基づく製薬会社の患者向け資料（2026年7月）によります。年収の区分は目安です。正確な区分と金額は、加入している保険で確かめてください。確認日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "医疗费很高时：高额疗养费的上限，和2026年8月起的变化（新增年度上限）",
+  "description_zh": "一个月的医疗费自付部分有上限。2026年8月起的上限速查表（未满70岁）、新增的年度上限、用マイナ保险证让窗口只付到上限的方法、退款的期限，一次讲清楚。",
+  "crumb_zh": "高额疗养费",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "一个月（1日〜月底）的医疗费自付部分有<strong>上限</strong>。年收入约370〜770万日元的人，就算医疗费花了100万日元，也只需付<strong>约9.3万日元</strong>。<strong>用マイナ保险证看病，不用办手续，窗口就只收到上限</strong>。2026年8月起，上限稍有提高，还新增了<strong>一年（8月〜次年7月）的上限</strong>。"
+        }
+      ]
+    },
+    {
+      "heading": "一、上限速查表（未满70岁，2026年8月〜2027年7月）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "年收入大约",
+            "每月上限",
+            "第4次起",
+            "年度上限"
+          ],
+          "rows": [
+            [
+              "约1,160万日元以上",
+              "270,300日元＋（医疗费−901,000日元）×1%",
+              "140,100日元",
+              "168万日元"
+            ],
+            [
+              "约770〜1,160万日元",
+              "179,100日元＋（医疗费−597,000日元）×1%",
+              "93,000日元",
+              "111万日元"
+            ],
+            [
+              "约370〜770万日元",
+              "85,800日元＋（医疗费−286,000日元）×1%",
+              "44,400日元",
+              "53万日元"
+            ],
+            [
+              "约370万日元以下",
+              "61,500日元",
+              "44,400日元",
+              "53万日元"
+            ],
+            [
+              "免征住民税",
+              "36,900日元",
+              "24,600日元",
+              "29万日元"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "“第4次起”：同一家庭在最近12个月内有3次达到上限，第4次起上限降低",
+            "“年度上限”：8月〜次年7月的自付合计达到这个金额后，就不用再付了",
+            "预计2027年8月再调整一次"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、计算例（年收入约370〜770万日元的人）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "一个月的医疗费（10成）",
+            "按3成自付",
+            "用了高额疗养费"
+          ],
+          "rows": [
+            [
+              "30万日元",
+              "9万日元",
+              "约8.6万日元"
+            ],
+            [
+              "100万日元",
+              "30万日元",
+              "<strong>约9.3万日元</strong>"
+            ],
+            [
+              "200万日元",
+              "60万日元",
+              "约10.3万日元"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、让窗口只付到上限的方法",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>用マイナ保险证看病，在前台机器上同意“提供限额信息”</strong>。这样就不用办手续",
+            "不用或不能用マイナ保险证的医院：向所加入的保险申请“限度额适用认定证”，在窗口出示（有效期1年）",
+            "来不及而多付了的话，事后向保险申请退款。<strong>2年内</strong>都可以追溯，所以收据要保存好"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、需要注意的地方",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "按月（1日〜月底）计算。跨月住院，每个月分开算",
+            "住院伙食费、单人病房差价、先进医疗等不在范围内",
+            "同一保险的家人，每人2.1万日元以上的自付部分可以合计（家庭合计）",
+            "如果拖欠国民健康保险费，可能拿不到认定证"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、外国人的情况",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "只要加入了日本的公共医疗保险（社会保险・国民健康保险），不论国籍都能用",
+            "保险费未缴，今后会影响签证更新（见下文）。交不起时，不要放着不管，去市区町村咨询"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "健康保险・年金未缴会影响签证更新",
+              "href": "/zh/career/insurance-arrears-visa/"
+            },
+            {
+              "text": "マイナ保险证和资格确认书",
+              "href": "/zh/medical/myna-insurance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "可能会花大笔医疗费时",
+          "items": [
+            "确认了自己的收入区间",
+            "用マイナ保险证看病，并同意了提供限额信息（或准备了认定证）",
+            "保存好收据和诊疗明细",
+            "确认了家人的医疗费能不能合计"
+          ],
+          "done": "准备好了。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "上限金额依据厚生劳动省《致使用高额疗养费制度的各位》（2026年7月31日更新）和据此制作的制药公司患者资料（2026年7月）。收入区间只是大约。准确的区间和金额，请向所加入的保险确认。确认日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "醫療費很高時：高額療養費的上限，和2026年8月起的變化（新增年度上限）",
+  "description_zh-TW": "一個月的醫療費自付部分有上限。2026年8月起的上限速查表（未滿70歲）、新增的年度上限、用マイナ保險證讓視窗只付到上限的方法、退款的期限，一次講清楚。",
+  "crumb_zh-TW": "高額療養費",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "一個月（1日〜月底）的醫療費自付部分有<strong>上限</strong>。年收入約370〜770萬日圓的人，就算醫療費花了100萬日圓，也只需付<strong>約9.3萬日圓</strong>。<strong>用マイナ保險證看病，不用辦手續，視窗就只收到上限</strong>。2026年8月起，上限稍有提高，還新增了<strong>一年（8月〜次年7月）的上限</strong>。"
+        }
+      ]
+    },
+    {
+      "heading": "一、上限速查表（未滿70歲，2026年8月〜2027年7月）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "年收入大約",
+            "每月上限",
+            "第4次起",
+            "年度上限"
+          ],
+          "rows": [
+            [
+              "約1,160萬日圓以上",
+              "270,300日圓＋（醫療費−901,000日圓）×1%",
+              "140,100日圓",
+              "168萬日圓"
+            ],
+            [
+              "約770〜1,160萬日圓",
+              "179,100日圓＋（醫療費−597,000日圓）×1%",
+              "93,000日圓",
+              "111萬日圓"
+            ],
+            [
+              "約370〜770萬日圓",
+              "85,800日圓＋（醫療費−286,000日圓）×1%",
+              "44,400日圓",
+              "53萬日圓"
+            ],
+            [
+              "約370萬日圓以下",
+              "61,500日圓",
+              "44,400日圓",
+              "53萬日圓"
+            ],
+            [
+              "免徵住民稅",
+              "36,900日圓",
+              "24,600日圓",
+              "29萬日圓"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "“第4次起”：同一家庭在最近12個月內有3次達到上限，第4次起上限降低",
+            "“年度上限”：8月〜次年7月的自付合計達到這個金額後，就不用再付了",
+            "預計2027年8月再調整一次"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、計算例（年收入約370〜770萬日圓的人）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "一個月的醫療費（10成）",
+            "按3成自付",
+            "用了高額療養費"
+          ],
+          "rows": [
+            [
+              "30萬日圓",
+              "9萬日圓",
+              "約8.6萬日圓"
+            ],
+            [
+              "100萬日圓",
+              "30萬日圓",
+              "<strong>約9.3萬日圓</strong>"
+            ],
+            [
+              "200萬日圓",
+              "60萬日圓",
+              "約10.3萬日圓"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、讓視窗只付到上限的方法",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>用マイナ保險證看病，在前臺機器上同意“提供限額資訊”</strong>。這樣就不用辦手續",
+            "不用或不能用マイナ保險證的醫院：向所加入的保險申請“限度額適用認定證”，在視窗出示（有效期1年）",
+            "來不及而多付了的話，事後向保險申請退款。<strong>2年內</strong>都可以追溯，所以收據要儲存好"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、需要注意的地方",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "按月（1日〜月底）計算。跨月住院，每個月分開算",
+            "住院伙食費、單人病房差價、先進醫療等不在範圍內",
+            "同一保險的家人，每人2.1萬日圓以上的自付部分可以合計（家庭合計）",
+            "如果拖欠國民健康保險費，可能拿不到認定證"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、外國人的情況",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "只要加入了日本的公共醫療保險（社會保險・國民健康保險），不論國籍都能用",
+            "保險費未繳，今後會影響簽證更新（見下文）。交不起時，不要放著不管，去市區町村諮詢"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "健康保險・年金未繳會影響簽證更新",
+              "href": "/zh-TW/career/insurance-arrears-visa/"
+            },
+            {
+              "text": "マイナ保險證和資格確認書",
+              "href": "/zh-TW/medical/myna-insurance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "可能會花大筆醫療費時",
+          "items": [
+            "確認了自己的收入區間",
+            "用マイナ保險證看病，並同意了提供限額資訊（或準備了認定證）",
+            "儲存好收據和診療明細",
+            "確認了家人的醫療費能不能合計"
+          ],
+          "done": "準備好了。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "上限金額依據厚生勞動省《致使用高額療養費制度的各位》（2026年7月31日更新）和據此製作的製藥公司患者資料（2026年7月）。收入區間只是大約。準確的區間和金額，請向所加入的保險確認。確認日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_en": "When Medical Bills Get Big: High-Cost Medical Expense Limits and the August 2026 Changes (New Annual Cap)",
+  "description_en": "What you pay for medical care each month has a cap. The limit table from August 2026 (under 70), the new annual cap, how the My Number insurance card caps the bill at the counter, and the refund deadline.",
+  "crumb_en": "High-cost medical expenses",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "What you pay for medical care in one calendar month has a <strong>cap</strong>. With an annual income of about 3.7–7.7 million yen, even a 1 million yen treatment costs you only <strong>about 93,000 yen</strong>. <strong>With the My Number insurance card, the counter charges only up to the cap, with no paperwork.</strong> From August 2026 the caps rose slightly and an <strong>annual cap (August to the following July)</strong> was added."
+        }
+      ]
+    },
+    {
+      "heading": "1. Limit table (under 70, August 2026 – July 2027)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Annual income (approx.)",
+            "Monthly cap",
+            "From 4th time",
+            "Annual cap"
+          ],
+          "rows": [
+            [
+              "About 11.6M yen and up",
+              "270,300 yen + (medical cost − 901,000 yen) × 1%",
+              "140,100 yen",
+              "1.68M yen"
+            ],
+            [
+              "About 7.7–11.6M yen",
+              "179,100 yen + (medical cost − 597,000 yen) × 1%",
+              "93,000 yen",
+              "1.11M yen"
+            ],
+            [
+              "About 3.7–7.7M yen",
+              "85,800 yen + (medical cost − 286,000 yen) × 1%",
+              "44,400 yen",
+              "530,000 yen"
+            ],
+            [
+              "Up to about 3.7M yen",
+              "61,500 yen",
+              "44,400 yen",
+              "530,000 yen"
+            ],
+            [
+              "Resident-tax exempt",
+              "36,900 yen",
+              "24,600 yen",
+              "290,000 yen"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "“From 4th time”: if a household reached the cap 3 times in the last 12 months, the cap drops from the 4th time",
+            "“Annual cap”: once your total from August to the following July reaches this amount, you pay nothing more that year",
+            "Another revision is planned for August 2027"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Examples (annual income about 3.7–7.7M yen)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Medical cost in a month (100%)",
+            "At 30% copay",
+            "With the benefit"
+          ],
+          "rows": [
+            [
+              "300,000 yen",
+              "90,000 yen",
+              "About 86,000 yen"
+            ],
+            [
+              "1,000,000 yen",
+              "300,000 yen",
+              "<strong>About 93,000 yen</strong>"
+            ],
+            [
+              "2,000,000 yen",
+              "600,000 yen",
+              "About 103,000 yen"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. How to pay only up to the cap at the counter",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Use the My Number insurance card and agree to share “limit information” at the reception machine.</strong> No other paperwork needed",
+            "If you don’t or can’t use it, apply to your insurer for a “limit certificate” (gendogaku tekiyō ninteishō) and show it at the counter (valid 1 year)",
+            "If you paid more, apply to your insurer for a refund. You can claim <strong>up to 2 years</strong> back, so keep your receipts"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Points to know",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Calculated per calendar month (1st to end of month). A hospital stay across two months counts as two separate months",
+            "Hospital meals, private-room charges and advanced treatments are not covered",
+            "Family members on the same insurance can combine copays of 21,000 yen or more each (household total)",
+            "If you are behind on National Health Insurance premiums, you may not be issued a limit certificate"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. For foreign residents",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "If you are in Japan’s public health insurance (employee insurance or National Health Insurance), it applies regardless of nationality",
+            "Unpaid premiums will soon affect visa renewals (see below). If you can’t pay, talk to your city office instead of ignoring it"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Unpaid health insurance and pension can affect visa renewal",
+              "href": "/en/career/insurance-arrears-visa/"
+            },
+            {
+              "text": "My Number insurance card and eligibility certificate",
+              "href": "/en/medical/myna-insurance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "When a big medical bill is likely",
+          "items": [
+            "Checked my income bracket",
+            "Used the My Number insurance card and agreed to share limit information (or prepared a limit certificate)",
+            "Keeping receipts and itemized statements",
+            "Checked whether family members’ bills can be combined"
+          ],
+          "done": "You’re ready.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "Amounts are from the Ministry of Health page on high-cost medical expenses (updated July 31, 2026) and a pharmaceutical company’s patient guide based on it (July 2026). Income brackets are approximate. Confirm your exact bracket and amounts with your insurer. Checked: 2026-11-05."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Khi chi phí y tế cao: mức trần trợ cấp chi phí y tế cao và thay đổi từ 8/2026 (có thêm mức trần cả năm)",
+  "description_vi": "Phần tự chi trả chi phí y tế mỗi tháng có mức trần. Bảng mức trần từ 8/2026 (dưới 70 tuổi), mức trần cả năm mới, cách dùng thẻ bảo hiểm My Number để chỉ trả đến mức trần ở quầy, và thời hạn xin hoàn tiền.",
+  "crumb_vi": "Chi phí y tế cao",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Phần tự chi trả chi phí y tế trong một tháng (ngày 1 đến cuối tháng) có <strong>mức trần</strong>. Người có thu nhập năm khoảng 3,7–7,7 triệu yên, dù điều trị hết 1 triệu yên cũng chỉ trả <strong>khoảng 93.000 yên</strong>. <strong>Dùng thẻ bảo hiểm My Number thì không cần thủ tục, ở quầy chỉ trả đến mức trần.</strong> Từ 8/2026, mức trần tăng nhẹ và có thêm <strong>mức trần cả năm (từ tháng 8 đến tháng 7 năm sau)</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "1. Bảng mức trần (dưới 70 tuổi, 8/2026 – 7/2027)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Thu nhập năm (ước tính)",
+            "Mức trần mỗi tháng",
+            "Từ lần thứ 4",
+            "Mức trần cả năm"
+          ],
+          "rows": [
+            [
+              "Khoảng 11,6 triệu yên trở lên",
+              "270.300 yên + (chi phí − 901.000 yên) × 1%",
+              "140.100 yên",
+              "1,68 triệu yên"
+            ],
+            [
+              "Khoảng 7,7–11,6 triệu yên",
+              "179.100 yên + (chi phí − 597.000 yên) × 1%",
+              "93.000 yên",
+              "1,11 triệu yên"
+            ],
+            [
+              "Khoảng 3,7–7,7 triệu yên",
+              "85.800 yên + (chi phí − 286.000 yên) × 1%",
+              "44.400 yên",
+              "530.000 yên"
+            ],
+            [
+              "Đến khoảng 3,7 triệu yên",
+              "61.500 yên",
+              "44.400 yên",
+              "530.000 yên"
+            ],
+            [
+              "Miễn thuế cư trú",
+              "36.900 yên",
+              "24.600 yên",
+              "290.000 yên"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "“Từ lần thứ 4”: nếu cùng hộ gia đình đã chạm mức trần 3 lần trong 12 tháng gần nhất, từ lần thứ 4 mức trần giảm",
+            "“Mức trần cả năm”: khi tổng tự chi trả từ tháng 8 đến tháng 7 năm sau đạt mức này, không phải trả thêm",
+            "Dự kiến điều chỉnh lại vào 8/2027"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Ví dụ (thu nhập năm khoảng 3,7–7,7 triệu yên)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Chi phí y tế trong tháng (100%)",
+            "Tự trả 30%",
+            "Khi dùng trợ cấp"
+          ],
+          "rows": [
+            [
+              "300.000 yên",
+              "90.000 yên",
+              "Khoảng 86.000 yên"
+            ],
+            [
+              "1.000.000 yên",
+              "300.000 yên",
+              "<strong>Khoảng 93.000 yên</strong>"
+            ],
+            [
+              "2.000.000 yên",
+              "600.000 yên",
+              "Khoảng 103.000 yên"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Cách chỉ trả đến mức trần ở quầy",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Khám bằng thẻ bảo hiểm My Number và đồng ý “cung cấp thông tin hạn mức” ở máy tiếp nhận.</strong> Không cần thủ tục khác",
+            "Nếu không dùng được, xin “giấy chứng nhận áp dụng hạn mức” (限度額適用認定証) từ bảo hiểm và đưa ở quầy (hiệu lực 1 năm)",
+            "Nếu đã trả nhiều hơn, nộp đơn hoàn tiền cho bảo hiểm. Có thể xin lại <strong>trong vòng 2 năm</strong>, hãy giữ hóa đơn"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Điều cần biết",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Tính theo từng tháng (ngày 1 đến cuối tháng). Nằm viện qua hai tháng thì tính riêng từng tháng",
+            "Tiền ăn khi nằm viện, phụ phí phòng riêng, điều trị tiên tiến... không được tính",
+            "Người nhà cùng bảo hiểm có thể cộng gộp phần tự trả từ 21.000 yên trở lên của mỗi người (cộng gộp hộ gia đình)",
+            "Nếu nợ phí bảo hiểm y tế quốc dân, có thể không được cấp giấy chứng nhận hạn mức"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Người nước ngoài",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Nếu tham gia bảo hiểm y tế công của Nhật (bảo hiểm xã hội hoặc bảo hiểm y tế quốc dân), dùng được bất kể quốc tịch",
+            "Nợ phí bảo hiểm sắp ảnh hưởng đến việc gia hạn visa (xem bài dưới). Nếu không trả nổi, đừng bỏ mặc, hãy đến ủy ban để được tư vấn"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Nợ phí bảo hiểm y tế, lương hưu ảnh hưởng gia hạn visa",
+              "href": "/vi/career/insurance-arrears-visa/"
+            },
+            {
+              "text": "Thẻ bảo hiểm My Number và giấy xác nhận tư cách",
+              "href": "/vi/medical/myna-insurance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Khi có thể tốn nhiều chi phí y tế",
+          "items": [
+            "Đã biết mức thu nhập của mình",
+            "Đã khám bằng thẻ bảo hiểm My Number và đồng ý cung cấp thông tin hạn mức (hoặc chuẩn bị giấy chứng nhận)",
+            "Đang giữ hóa đơn và bảng kê chi tiết",
+            "Đã xem chi phí của người nhà có cộng gộp được không"
+          ],
+          "done": "Đã sẵn sàng.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Số tiền theo trang của Bộ Y tế về trợ cấp chi phí y tế cao (cập nhật 31/7/2026) và tài liệu cho bệnh nhân của một công ty dược dựa trên đó (7/2026). Mức thu nhập chỉ là ước tính. Hãy hỏi bảo hiểm bạn tham gia để biết chính xác. Ngày kiểm tra: 2026-11-05."
+        }
+      ]
+    }
+  ],
+  "title_ko": "의료비가 많이 나오면: 고액요양비의 상한과 2026년 8월부터의 변경(연간 상한 신설)",
+  "description_ko": "한 달 의료비의 본인 부담에는 상한이 있습니다. 2026년 8월부터의 상한 조견표(70세 미만), 새로 생긴 연간 상한, 마이나 보험증으로 창구에서 상한까지만 내는 방법, 환급 기한을 정리했습니다.",
+  "crumb_ko": "고액요양비",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "한 달(1일~말일) 의료비의 본인 부담에는 <strong>상한</strong>이 있습니다. 연 수입 약 370~770만 엔인 사람은 의료비가 100만 엔 들어도 <strong>약 9.3만 엔</strong>만 냅니다. <strong>마이나 보험증을 쓰면 수속 없이 창구에서 상한까지만 냅니다.</strong> 2026년 8월부터 상한이 조금 오르고, <strong>1년(8월~다음 해 7월)의 상한</strong>도 새로 생겼습니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 상한 조견표(70세 미만, 2026년 8월~2027년 7월)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "연 수입(기준)",
+            "월 상한",
+            "4회째부터",
+            "연간 상한"
+          ],
+          "rows": [
+            [
+              "약 1,160만 엔 이상",
+              "270,300엔 + (의료비 − 901,000엔) × 1%",
+              "140,100엔",
+              "168만 엔"
+            ],
+            [
+              "약 770~1,160만 엔",
+              "179,100엔 + (의료비 − 597,000엔) × 1%",
+              "93,000엔",
+              "111만 엔"
+            ],
+            [
+              "약 370~770만 엔",
+              "85,800엔 + (의료비 − 286,000엔) × 1%",
+              "44,400엔",
+              "53만 엔"
+            ],
+            [
+              "~약 370만 엔",
+              "61,500엔",
+              "44,400엔",
+              "53만 엔"
+            ],
+            [
+              "주민세 비과세",
+              "36,900엔",
+              "24,600엔",
+              "29만 엔"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "“4회째부터”: 같은 세대가 최근 12개월에 3번 상한에 도달하면 4회째부터 낮아진다",
+            "“연간 상한”: 8월~다음 해 7월의 본인 부담 합계가 이 금액에 도달하면 그 이상은 내지 않아도 된다",
+            "2027년 8월에 다시 조정 예정"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 계산 예(연 수입 약 370~770만 엔)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "한 달 의료비(10할)",
+            "3할 부담",
+            "고액요양비를 쓰면"
+          ],
+          "rows": [
+            [
+              "30만 엔",
+              "9만 엔",
+              "약 8.6만 엔"
+            ],
+            [
+              "100만 엔",
+              "30만 엔",
+              "<strong>약 9.3만 엔</strong>"
+            ],
+            [
+              "200만 엔",
+              "60만 엔",
+              "약 10.3만 엔"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 창구에서 상한까지만 내는 방법",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>마이나 보험증으로 진료받고 접수 기계에서 “한도액 정보 제공”에 동의한다.</strong> 다른 수속은 필요 없다",
+            "마이나 보험증을 쓰지 않거나 쓸 수 없는 병원이면, 가입한 보험에 “한도액 적용 인정증”을 신청해 창구에서 보여 준다(유효 기간 1년)",
+            "늦어서 많이 냈다면 나중에 보험에 신청해 돌려받는다. <strong>2년 이내</strong>면 소급할 수 있으니 영수증을 보관한다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 알아 둘 주의점",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "월별(1일~말일)로 계산한다. 달을 넘기는 입원은 달마다 따로 센다",
+            "입원 중 식비, 1인실 차액, 선진의료 등은 대상 외",
+            "같은 보험에 든 가족의 본인 부담은 1인 2만 1천 엔 이상인 것을 합산할 수 있다(세대 합산)",
+            "국민건강보험료를 체납하면 인정증이 나오지 않을 수 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 외국인의 경우",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "일본의 공적 의료보험(사회보험·국민건강보험)에 가입했다면 국적과 관계없이 쓸 수 있다",
+            "보험료 미납은 곧 비자 갱신에 영향을 주는 제도도 시작된다(아래 글). 낼 수 없을 때는 방치하지 말고 시구정촌에 상담"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "건강보험·연금 미납이 비자 갱신에 영향",
+              "href": "/ko/career/insurance-arrears-visa/"
+            },
+            {
+              "text": "마이나 보험증과 자격확인서",
+              "href": "/ko/medical/myna-insurance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "의료비가 많이 나올 것 같을 때",
+          "items": [
+            "내 소득 구분을 확인했다",
+            "마이나 보험증으로 진료받고 한도액 정보 제공에 동의했다(또는 인정증을 준비했다)",
+            "영수증과 진료 명세서를 보관한다",
+            "가족의 의료비도 합산할 수 있는지 확인했다"
+          ],
+          "done": "준비됐습니다.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "상한 금액은 후생노동성 「고액요양비 제도를 이용하시는 분께」(2026년 7월 31일 갱신)와 이를 바탕으로 한 제약회사의 환자용 자료(2026년 7월)에 따릅니다. 연 수입 구분은 기준입니다. 정확한 구분과 금액은 가입한 보험에 확인하세요. 확인일: 2026-11-05."
+        }
+      ]
+    }
+  ]
+}

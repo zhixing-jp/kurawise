@@ -49,6 +49,7 @@ const fromKurashi: Latest[] = (kurashiIndex as any).articles
   .filter((a: any) => a.updated && a.langs.includes(lang))
   .map((a: any) => ({ href: `${pre}${a.url}`, title: a[`title_${lang}`], updated: a.updated }));
 const fromMedical: Latest[] = (medicalIndex as any).pages.flatMap((m: any) => {
+  if (m.langs && !m.langs.includes(lang)) return [];
   const f = `public/data/medical/${m.id}.json`;
   if (!existsSync(f)) return [];
   const checked = JSON.parse(readFileSync(f, 'utf-8')).checked;
@@ -59,7 +60,7 @@ const fromMedical: Latest[] = (medicalIndex as any).pages.flatMap((m: any) => {
 const titleMap: Record<string, string> = {};
 for (const a of fromCareerAll()) titleMap[a.href] = a.title;
 for (const a of (kurashiIndex as any).articles) if (a.langs.includes(lang) && a[`title_${lang}`]) titleMap[`${pre}${a.url}`] = a[`title_${lang}`];
-for (const m of (medicalIndex as any).pages) { const t = (lang === 'zh' ? m.title : m[`title_${lang}`]) || m.title; if (t) titleMap[`${pre}${m.url}`] = t; }
+for (const m of (medicalIndex as any).pages) { if (m.langs && !m.langs.includes(lang)) continue; const t = (lang === 'zh' ? m.title : m[`title_${lang}`]) || m.title; if (t) titleMap[`${pre}${m.url}`] = t; }
 for (const sc of (rescueIndex as any).scenes) { const t = sc[`title_${lang}`] || (lang === 'ja' ? '' : sc.title); if (t) titleMap[`${pre}/rescue/${sc.id}/`] = t; }
 function fromCareerAll() { return articles(lang).map((a) => ({ href: a.href, title: a.title })); }
 // おすすめ：この言語にある記事だけ（サイトを作るときにページに書き込む。人気の数字が取れなくても必ず出る）

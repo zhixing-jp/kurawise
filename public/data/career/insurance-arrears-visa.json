@@ -1,0 +1,1016 @@
+{
+  "title_ja": "健康保険・年金の未納が、ビザの更新に響く：2027年からの新しい仕組みと、今やること",
+  "description_ja": "政府は2027年から、国民健康保険・国民年金の未納をビザ（在留資格）の更新・変更の審査に使う仕組みを始めます。時期、対象になりやすい人、未納があるときの分割・免除の相談の手順をまとめました。",
+  "checked_ja": "内容の確認日：2026年11月5日",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "政府は、<strong>2027年3月から入管が国民健康保険・国民年金の納付情報を受け取る仕組み</strong>を始め、厚生労働大臣は<strong>2027年6月から、長く未納がある人の更新・変更を原則として認めない</strong>方針を示しています。今すぐ、未納がないかを確かめてください。<strong>払えないときに「免除」や「分割」の手続きをすれば、それは未納ではありません。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、いつ・何が変わる？",
+      "blocks": [
+        {
+          "t": "timeline",
+          "items": [
+            {
+              "date": "2025.11",
+              "text": "厚生労働大臣が、2027年6月から未納を在留審査に使う方針を発表（報道）"
+            },
+            {
+              "date": "2026.1.23",
+              "text": "政府の「総合的対応策」。すべての在留申請で、社会保険のルールを守っていることを示す書類の提出を求めることを「実施済み」とした"
+            },
+            {
+              "date": "2027.3",
+              "text": "入管が、国民健康保険料・国民年金保険料の納付情報を関係機関から受け取り始める",
+              "hl": true
+            },
+            {
+              "date": "2027.4",
+              "text": "永住の要件を明確にする改正法の施行。故意に税金や保険料を払わないことが、永住の取消しの対象に"
+            },
+            {
+              "date": "2027.6",
+              "text": "長期の未納がある人の更新・変更を原則として認めない（予定。期間などの基準は今後決まる）",
+              "hl": true
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "「どのくらいの期間の未納か」などの細かい基準は、これから省令などで決まります（2026年11月時点で未確定）。"
+        }
+      ]
+    },
+    {
+      "heading": "二、自分は対象？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "働き方",
+            "入っている保険",
+            "未納になりやすい場面"
+          ],
+          "rows": [
+            [
+              "会社員（社会保険）",
+              "健康保険・厚生年金（給料から天引き）",
+              "<strong>退職してから次の会社に入るまでの間</strong>。国民健康保険・国民年金への切り替えを忘れる"
+            ],
+            [
+              "自営・フリーランス、短時間のアルバイト",
+              "国民健康保険・国民年金（自分で払う）",
+              "払い忘れ、口座の残高不足"
+            ],
+            [
+              "留学生",
+              "国民健康保険・国民年金",
+              "国民年金の「学生納付特例」を申請していない"
+            ],
+            [
+              "家族滞在の家族",
+              "国民健康保険など",
+              "家族の分の保険料を払っていない"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、今やること",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>未納がないか確かめる</strong>：国民健康保険は住んでいる市区町村の窓口、国民年金は「ねんきんネット」か年金事務所で",
+            "<strong>未納があれば、すぐ窓口で相談する</strong>：分割で払う相談ができる。国民年金は過去2年分までさかのぼって払える",
+            "<strong>払えないなら、減免・免除の申請をする</strong>：国民年金の免除・納付猶予・学生納付特例、国民健康保険の減免。承認されれば「未納」にはならない",
+            "<strong>口座振替にする</strong>：払い忘れを防ぐ",
+            "<strong>退職したら14日以内に</strong>、市区町村で国民健康保険・国民年金の手続きをする（次の会社が決まっていても、間が空くなら必要）"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "窓口で言う日本語",
+            ""
+          ],
+          "rows": [
+            [
+              "保険料の未納がないか確かめたい",
+              "「国民健康保険料の納付状況を確認したいです。」"
+            ],
+            [
+              "分けて払いたい",
+              "「未納の分を、分割で払う相談をしたいです。」"
+            ],
+            [
+              "払えない",
+              "「収入が少なく払えません。減免や免除の申請はできますか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、永住を考えている人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "永住の審査では、すでに税金・保険料の支払い状況が重く見られている。2026年10月改定のガイドラインでは、今は未納がなくても、過去に滞納していれば原則として不利に評価される",
+            "世帯単位で見られるので、配偶者・家族の分も確かめる"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "永住の新しい基準（2026年）",
+              "href": "/ja/career/permanent-residence-2026/"
+            },
+            {
+              "text": "在留期限の前後で口座が止まる",
+              "href": "/ja/kurashi/remit-visa-expiry/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "更新の前に確かめる",
+          "items": [
+            "国民健康保険料に未納がない（市区町村で確認）",
+            "国民年金に未納がない（ねんきんネットで確認）",
+            "払えなかった期間は、免除・猶予・学生納付特例の手続きをした",
+            "転職・退職の間の期間も、保険と年金の手続きをした",
+            "家族の分も確かめた"
+          ],
+          "done": "準備ができました。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "出典：外国人の受入れ・秩序ある共生のための総合的対応策（2026年1月23日）、厚生労働大臣の会見の報道（2025年11月）、出入国在留管理庁「永住許可に関するガイドライン」（2026年10月1日改定）。確認日：2026-11-05。運用の細かい点は今後決まるので、更新の前に最新の情報を確かめてください。"
+        }
+      ]
+    }
+  ],
+  "title": "健康保险・年金未缴，会影响签证更新：2027年起的新机制，和现在该做的事",
+  "description": "政府将从2027年起，把国民健康保险・国民年金的未缴情况用于签证（在留资格）更新・变更的审查。时间表、容易欠缴的人、有欠缴时怎么申请分期・减免，一次讲清楚。",
+  "checked": "内容确认日期：2026年11月5日",
+  "sections": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "政府将<strong>从2027年3月起，让入管接收国民健康保险・国民年金的缴费信息</strong>；厚生劳动大臣表示，<strong>从2027年6月起，长期未缴的人原则上不批准更新・变更</strong>。现在就确认一下有没有欠缴。<strong>交不起时办了“免除”或“分期”的手续，就不算未缴。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、什么时候・有什么变化？",
+      "blocks": [
+        {
+          "t": "timeline",
+          "items": [
+            {
+              "date": "2025.11",
+              "text": "厚生劳动大臣宣布，从2027年6月起把未缴情况用于在留审查（报道）"
+            },
+            {
+              "date": "2026.1.23",
+              "text": "政府“综合应对措施”：所有在留申请都要提交能证明遵守社会保险规定的文件，已列为“已实施”"
+            },
+            {
+              "date": "2027.3",
+              "text": "入管开始从相关机构接收国民健康保险费・国民年金保险费的缴费信息",
+              "hl": true
+            },
+            {
+              "date": "2027.4",
+              "text": "明确永住要件的修正法施行。故意不缴税金・保险费，可能被取消永住"
+            },
+            {
+              "date": "2027.6",
+              "text": "长期未缴的人，原则上不批准更新・变更（预定。期间等标准今后决定）",
+              "hl": true
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "“欠缴多久才算”等具体标准，今后会由省令等决定（截至2026年11月尚未确定）。"
+        }
+      ]
+    },
+    {
+      "heading": "二、我有关系吗？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "工作方式",
+            "加入的保险",
+            "容易欠缴的情况"
+          ],
+          "rows": [
+            [
+              "公司职员（社会保险）",
+              "健康保险・厚生年金（从工资里扣）",
+              "<strong>辞职到下一家公司入职之间</strong>，忘了转成国民健康保险・国民年金"
+            ],
+            [
+              "自营・自由职业、短时间打工",
+              "国民健康保险・国民年金（自己缴）",
+              "忘了缴、账户余额不足"
+            ],
+            [
+              "留学生",
+              "国民健康保险・国民年金",
+              "没申请国民年金的“学生缴费特例”"
+            ],
+            [
+              "家族滞在的家属",
+              "国民健康保险等",
+              "没缴家人的保险费"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、现在该做的事",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>确认有没有欠缴</strong>：国民健康保险去住址所在的市区町村窗口，国民年金用“ねんきんネット”或去年金事务所",
+            "<strong>有欠缴就马上去窗口咨询</strong>：可以商量分期缴。国民年金可以补缴过去2年",
+            "<strong>交不起就申请减免・免除</strong>：国民年金的免除・缓缴・学生缴费特例，国民健康保险的减免。批准后就不算“未缴”",
+            "<strong>改成账户自动扣款</strong>：防止忘缴",
+            "<strong>辞职后14天内</strong>，去市区町村办国民健康保险・国民年金的手续（就算下一家公司已定，只要中间有空档也要办）"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "想说的事",
+            "窗口用的日语"
+          ],
+          "rows": [
+            [
+              "想确认有没有欠缴",
+              "「国民健康保険料の納付状況を確認したいです。」"
+            ],
+            [
+              "想分期缴",
+              "「未納の分を、分割で払う相談をしたいです。」"
+            ],
+            [
+              "交不起",
+              "「収入が少なく払えません。減免や免除の申請はできますか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、打算申请永住的人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "永住审查已经很看重税金・保险费的缴纳情况。2026年10月修订的指南规定：即使现在没有欠缴，过去有过拖欠，原则上也会被消极评价",
+            "按家庭单位审查，配偶・家人的也要确认"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "永住的新标准（2026年）",
+              "href": "/zh/career/permanent-residence-2026/"
+            },
+            {
+              "text": "在留期限前后银行账户被冻结",
+              "href": "/zh/kurashi/remit-visa-expiry/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "续签前确认",
+          "items": [
+            "国民健康保险费没有欠缴（在市区町村确认）",
+            "国民年金没有欠缴（在ねんきんネット确认）",
+            "交不起的期间，办了免除・缓缴・学生缴费特例",
+            "换工作・辞职之间的期间，也办了保险和年金的手续",
+            "家人的也确认了"
+          ],
+          "done": "准备好了。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "出处：《为接纳外国人・有序共生的综合应对措施》（2026年1月23日）、厚生劳动大臣记者会的报道（2025年11月）、出入国在留管理厅《永住许可指南》（2026年10月1日修订）。确认日：2026-11-05。具体运用今后才定，续签前请确认最新信息。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "健康保險・年金未繳，會影響簽證更新：2027年起的新機制，和現在該做的事",
+  "description_zh-TW": "政府將從2027年起，把國民健康保險・國民年金的未繳情況用於簽證（在留資格）更新・變更的審查。時間表、容易欠繳的人、有欠繳時怎麼申請分期・減免，一次講清楚。",
+  "checked_zh-TW": "內容確認日期：2026年11月5日",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "政府將<strong>從2027年3月起，讓入管接收國民健康保險・國民年金的繳費資訊</strong>；厚生勞動大臣表示，<strong>從2027年6月起，長期未繳的人原則上不批准更新・變更</strong>。現在就確認一下有沒有欠繳。<strong>交不起時辦了“免除”或“分期”的手續，就不算未繳。</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "一、什麼時候・有什麼變化？",
+      "blocks": [
+        {
+          "t": "timeline",
+          "items": [
+            {
+              "date": "2025.11",
+              "text": "厚生勞動大臣宣佈，從2027年6月起把未繳情況用於在留審查（報道）"
+            },
+            {
+              "date": "2026.1.23",
+              "text": "政府“綜合應對措施”：所有在留申請都要提交能證明遵守社會保險規定的檔案，已列為“已實施”"
+            },
+            {
+              "date": "2027.3",
+              "text": "入管開始從相關機構接收國民健康保險費・國民年金保險費的繳費資訊",
+              "hl": true
+            },
+            {
+              "date": "2027.4",
+              "text": "明確永住要件的修正法施行。故意不繳稅金・保險費，可能被取消永住"
+            },
+            {
+              "date": "2027.6",
+              "text": "長期未繳的人，原則上不批准更新・變更（預定。期間等標準今後決定）",
+              "hl": true
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "“欠繳多久才算”等具體標準，今後會由省令等決定（截至2026年11月尚未確定）。"
+        }
+      ]
+    },
+    {
+      "heading": "二、我有關係嗎？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "工作方式",
+            "加入的保險",
+            "容易欠繳的情況"
+          ],
+          "rows": [
+            [
+              "公司職員（社會保險）",
+              "健康保險・厚生年金（從工資里扣）",
+              "<strong>辭職到下一家公司入職之間</strong>，忘了轉成國民健康保險・國民年金"
+            ],
+            [
+              "自營・自由職業、短時間打工",
+              "國民健康保險・國民年金（自己繳）",
+              "忘了繳、帳戶餘額不足"
+            ],
+            [
+              "留學生",
+              "國民健康保險・國民年金",
+              "沒申請國民年金的“學生繳費特例”"
+            ],
+            [
+              "家族滯在的家屬",
+              "國民健康保險等",
+              "沒繳家人的保險費"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、現在該做的事",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>確認有沒有欠繳</strong>：國民健康保險去住址所在的市區町村視窗，國民年金用“ねんきんネット”或去年金事務所",
+            "<strong>有欠繳就馬上去視窗諮詢</strong>：可以商量分期繳。國民年金可以補繳過去2年",
+            "<strong>交不起就申請減免・免除</strong>：國民年金的免除・緩繳・學生繳費特例，國民健康保險的減免。批准後就不算“未繳”",
+            "<strong>改成帳戶自動扣款</strong>：防止忘繳",
+            "<strong>辭職後14天內</strong>，去市區町村辦國民健康保險・國民年金的手續（就算下一家公司已定，只要中間有空檔也要辦）"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "想說的事",
+            "視窗用的日語"
+          ],
+          "rows": [
+            [
+              "想確認有沒有欠繳",
+              "「國民健康保険料の納付狀況を確認したいです。」"
+            ],
+            [
+              "想分期繳",
+              "「未納の分を、分割で払う相談をしたいです。」"
+            ],
+            [
+              "交不起",
+              "「収入が少なく払えません。減免や免除の申請はできますか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、打算申請永住的人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "永住審查已經很看重稅金・保險費的繳納情況。2026年10月修訂的指南規定：即使現在沒有欠繳，過去有過拖欠，原則上也會被消極評價",
+            "按家庭單位審查，配偶・家人的也要確認"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "永住的新標準（2026年）",
+              "href": "/zh-TW/career/permanent-residence-2026/"
+            },
+            {
+              "text": "在留期限前後銀行帳戶被凍結",
+              "href": "/zh-TW/kurashi/remit-visa-expiry/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "續簽前確認",
+          "items": [
+            "國民健康保險費沒有欠繳（在市區町村確認）",
+            "國民年金沒有欠繳（在ねんきんネット確認）",
+            "交不起的期間，辦了免除・緩繳・學生繳費特例",
+            "換工作・辭職之間的期間，也辦了保險和年金的手續",
+            "家人的也確認了"
+          ],
+          "done": "準備好了。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "出處：《為接納外國人・有序共生的綜合應對措施》（2026年1月23日）、厚生勞動大臣記者會的報道（2025年11月）、出入國在留管理廳《永住許可指南》（2026年10月1日修訂）。確認日：2026-11-05。具體運用今後才定，續簽前請確認最新資訊。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Unpaid Health Insurance or Pension Can Affect Your Visa Renewal: The New System from 2027 and What to Do Now",
+  "description_en": "From 2027 the government will use unpaid National Health Insurance and National Pension premiums in visa (status of residence) renewal and change reviews. The timeline, who is most likely to fall behind, and how to arrange installments or exemptions.",
+  "checked_en": "Content checked: November 5, 2026",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "From <strong>March 2027, immigration will start receiving National Health Insurance and National Pension payment data</strong>, and the health minister has said that <strong>from June 2027, people with long-term unpaid premiums will in principle not be granted renewals or changes</strong>. Check now whether you owe anything. <strong>If you can’t pay and you apply for an exemption or installments, that does not count as unpaid.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. What changes and when",
+      "blocks": [
+        {
+          "t": "timeline",
+          "items": [
+            {
+              "date": "2025.11",
+              "text": "Health minister announces unpaid premiums will be used in residence reviews from June 2027 (news reports)"
+            },
+            {
+              "date": "2026.1.23",
+              "text": "Government “comprehensive measures”: requiring documents showing compliance with social insurance rules in all residence applications is listed as “implemented”"
+            },
+            {
+              "date": "2027.3",
+              "text": "Immigration begins receiving National Health Insurance and National Pension payment data from other agencies",
+              "hl": true
+            },
+            {
+              "date": "2027.4",
+              "text": "Amended law clarifying permanent residence requirements takes effect. Deliberately not paying taxes or premiums can lead to revocation"
+            },
+            {
+              "date": "2027.6",
+              "text": "Renewals and changes in principle not granted for long-term non-payment (planned; details to be decided)",
+              "hl": true
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Details such as how long counts as “long-term” will be set later by ministerial ordinance (not yet decided as of November 2026)."
+        }
+      ]
+    },
+    {
+      "heading": "2. Does this affect me?",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "How you work",
+            "Your insurance",
+            "When people often fall behind"
+          ],
+          "rows": [
+            [
+              "Company employee",
+              "Employee health insurance and pension (deducted from pay)",
+              "<strong>Between leaving one job and starting the next</strong> — forgetting to switch to National Health Insurance and National Pension"
+            ],
+            [
+              "Self-employed, freelance, part-time only",
+              "National Health Insurance and National Pension (you pay yourself)",
+              "Forgetting to pay, not enough money in the account"
+            ],
+            [
+              "International students",
+              "National Health Insurance and National Pension",
+              "Not applying for the pension “student payment special rule”"
+            ],
+            [
+              "Family stay",
+              "National Health Insurance, etc.",
+              "Not paying premiums for family members"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. What to do now",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Check for unpaid premiums.</strong> National Health Insurance at your city office; National Pension on “Nenkin Net” or at a pension office",
+            "<strong>If you owe anything, go to the counter right away</strong> and ask about paying in installments. National Pension can be paid up to 2 years back",
+            "<strong>If you can’t pay, apply for a reduction or exemption.</strong> Pension exemption, deferral or student special rule; National Health Insurance reduction. Once approved, it is not “unpaid”",
+            "<strong>Switch to automatic bank payment</strong> to avoid forgetting",
+            "<strong>Within 14 days of leaving a job</strong>, register for National Health Insurance and National Pension at your city office (even if you have a new job lined up, if there is a gap)"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "What you want to say",
+            "Japanese at the counter"
+          ],
+          "rows": [
+            [
+              "I want to check for unpaid premiums",
+              "「国民健康保険料の納付状況を確認したいです。」"
+            ],
+            [
+              "I want to pay in installments",
+              "「未納の分を、分割で払う相談をしたいです。」"
+            ],
+            [
+              "I can’t pay",
+              "「収入が少なく払えません。減免や免除の申請はできますか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. If you’re thinking about permanent residence",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Tax and premium payment records already weigh heavily. Under the guidelines revised in October 2026, even if nothing is unpaid now, past arrears count against you in principle",
+            "Reviews look at the whole household, so check your spouse’s and family’s records too"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "New permanent residence rules (2026)",
+              "href": "/en/career/permanent-residence-2026/"
+            },
+            {
+              "text": "Bank accounts frozen around your visa expiry",
+              "href": "/en/kurashi/remit-visa-expiry/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Before your renewal",
+          "items": [
+            "No unpaid National Health Insurance (checked at the city office)",
+            "No unpaid National Pension (checked on Nenkin Net)",
+            "Applied for exemption, deferral or the student rule for periods I couldn’t pay",
+            "Handled insurance and pension for any gap between jobs",
+            "Checked my family’s records too"
+          ],
+          "done": "You’re ready.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "Sources: Comprehensive Measures for Accepting Foreign Nationals and Orderly Coexistence (January 23, 2026); news reports on the health minister’s press conference (November 2025); Immigration Services Agency, Permanent Residence Guidelines (revised October 1, 2026). Checked: 2026-11-05. Details are still being decided, so check the latest information before you renew."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Nợ phí bảo hiểm y tế, lương hưu sẽ ảnh hưởng gia hạn visa: cơ chế mới từ 2027 và việc cần làm ngay",
+  "description_vi": "Từ năm 2027, chính phủ sẽ dùng thông tin nợ phí bảo hiểm y tế quốc dân và lương hưu quốc dân khi xét gia hạn, thay đổi tư cách lưu trú. Mốc thời gian, những người dễ bị nợ, và cách xin trả góp, miễn giảm.",
+  "checked_vi": "Ngày kiểm tra nội dung: 5/11/2026",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "<strong>Từ tháng 3/2027, cục xuất nhập cảnh bắt đầu nhận thông tin đóng phí bảo hiểm y tế quốc dân và lương hưu quốc dân</strong>; Bộ trưởng Y tế cho biết <strong>từ tháng 6/2027, người nợ phí lâu dài về nguyên tắc sẽ không được gia hạn, thay đổi</strong>. Hãy kiểm tra ngay xem mình có nợ không. <strong>Nếu không đóng nổi mà đã làm thủ tục “miễn” hoặc “trả góp” thì không bị tính là nợ.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. Khi nào, thay đổi gì?",
+      "blocks": [
+        {
+          "t": "timeline",
+          "items": [
+            {
+              "date": "2025.11",
+              "text": "Bộ trưởng Y tế công bố sẽ dùng thông tin nợ phí khi xét lưu trú từ 6/2027 (báo chí)"
+            },
+            {
+              "date": "2026.1.23",
+              "text": "“Biện pháp tổng hợp” của chính phủ: yêu cầu nộp giấy tờ chứng minh tuân thủ quy định bảo hiểm xã hội trong mọi hồ sơ lưu trú được ghi là “đã thực hiện”"
+            },
+            {
+              "date": "2027.3",
+              "text": "Cục xuất nhập cảnh bắt đầu nhận thông tin đóng phí bảo hiểm y tế quốc dân, lương hưu quốc dân",
+              "hl": true
+            },
+            {
+              "date": "2027.4",
+              "text": "Luật sửa đổi làm rõ điều kiện vĩnh trú có hiệu lực. Cố ý không đóng thuế, phí có thể bị hủy vĩnh trú"
+            },
+            {
+              "date": "2027.6",
+              "text": "Người nợ phí lâu dài về nguyên tắc không được gia hạn, thay đổi (dự kiến; chi tiết sẽ quyết định sau)",
+              "hl": true
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Các tiêu chuẩn cụ thể như “nợ bao lâu” sẽ được quy định sau bằng thông tư (chưa quyết định tính đến 11/2026)."
+        }
+      ]
+    },
+    {
+      "heading": "2. Mình có liên quan không?",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Cách làm việc",
+            "Bảo hiểm tham gia",
+            "Lúc dễ bị nợ"
+          ],
+          "rows": [
+            [
+              "Nhân viên công ty",
+              "Bảo hiểm y tế, lương hưu phúc lợi (trừ vào lương)",
+              "<strong>Khoảng thời gian từ khi nghỉ việc đến khi vào công ty mới</strong>, quên chuyển sang bảo hiểm y tế quốc dân, lương hưu quốc dân"
+            ],
+            [
+              "Tự kinh doanh, làm tự do, chỉ làm thêm",
+              "Bảo hiểm y tế quốc dân, lương hưu quốc dân (tự đóng)",
+              "Quên đóng, tài khoản không đủ tiền"
+            ],
+            [
+              "Du học sinh",
+              "Bảo hiểm y tế quốc dân, lương hưu quốc dân",
+              "Chưa xin “chế độ đặc biệt cho sinh viên” của lương hưu"
+            ],
+            [
+              "Gia đình (visa đoàn tụ)",
+              "Bảo hiểm y tế quốc dân...",
+              "Chưa đóng phí cho người nhà"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Việc cần làm ngay",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Kiểm tra có nợ không</strong>: bảo hiểm y tế quốc dân hỏi ở ủy ban nơi sống, lương hưu quốc dân xem trên “Nenkin Net” hoặc văn phòng lương hưu",
+            "<strong>Nếu có nợ, đến quầy tư vấn ngay</strong>: có thể bàn trả góp. Lương hưu quốc dân có thể đóng bù tối đa 2 năm trước",
+            "<strong>Nếu không đóng nổi, xin giảm hoặc miễn</strong>: miễn, hoãn, chế độ cho sinh viên của lương hưu; giảm phí bảo hiểm y tế quốc dân. Khi được duyệt sẽ không bị tính là “nợ”",
+            "<strong>Chuyển sang trừ tự động qua ngân hàng</strong> để không quên",
+            "<strong>Trong vòng 14 ngày sau khi nghỉ việc</strong>, làm thủ tục bảo hiểm y tế quốc dân, lương hưu quốc dân ở ủy ban (kể cả khi đã có công ty mới nhưng có khoảng trống)"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Điều muốn nói",
+            "Tiếng Nhật ở quầy"
+          ],
+          "rows": [
+            [
+              "Muốn kiểm tra có nợ không",
+              "「国民健康保険料の納付状況を確認したいです。」"
+            ],
+            [
+              "Muốn trả góp",
+              "「未納の分を、分割で払う相談をしたいです。」"
+            ],
+            [
+              "Không đóng nổi",
+              "「収入が少なく払えません。減免や免除の申請はできますか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Người đang tính xin vĩnh trú",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Khi xét vĩnh trú, việc đóng thuế và phí đã được xem rất kỹ. Theo hướng dẫn sửa đổi 10/2026, dù bây giờ không nợ nhưng trước đây từng chậm đóng thì về nguyên tắc vẫn bị đánh giá bất lợi",
+            "Xét theo cả hộ gia đình, nên kiểm tra cả vợ/chồng và người nhà"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Tiêu chuẩn vĩnh trú mới (2026)",
+              "href": "/vi/career/permanent-residence-2026/"
+            },
+            {
+              "text": "Tài khoản ngân hàng bị khóa quanh hạn lưu trú",
+              "href": "/vi/kurashi/remit-visa-expiry/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Trước khi gia hạn",
+          "items": [
+            "Không nợ phí bảo hiểm y tế quốc dân (đã hỏi ở ủy ban)",
+            "Không nợ lương hưu quốc dân (đã xem trên Nenkin Net)",
+            "Đã xin miễn, hoãn, chế độ sinh viên cho thời gian không đóng nổi",
+            "Đã làm thủ tục bảo hiểm và lương hưu cho khoảng trống giữa hai công việc",
+            "Đã kiểm tra cả người nhà"
+          ],
+          "done": "Đã sẵn sàng.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Nguồn: Biện pháp tổng hợp về tiếp nhận người nước ngoài và cùng chung sống có trật tự (23/1/2026); tin báo về họp báo của Bộ trưởng Y tế (11/2025); Hướng dẫn cấp vĩnh trú của Cục Quản lý Xuất nhập cảnh (sửa đổi 1/10/2026). Ngày kiểm tra: 2026-11-05. Chi tiết còn đang được quyết định, hãy kiểm tra thông tin mới nhất trước khi gia hạn."
+        }
+      ]
+    }
+  ],
+  "title_ko": "건강보험·연금 미납이 비자 갱신에 영향: 2027년부터의 새 제도와 지금 할 일",
+  "description_ko": "정부는 2027년부터 국민건강보험·국민연금 미납을 비자(재류자격) 갱신·변경 심사에 활용합니다. 일정, 미납이 되기 쉬운 사람, 미납이 있을 때 분할·면제를 상담하는 순서를 정리했습니다.",
+  "checked_ko": "내용 확인일: 2026년 11월 5일",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "정부는 <strong>2027년 3월부터 입관이 국민건강보험·국민연금 납부 정보를 받는 제도</strong>를 시작하고, 후생노동대신은 <strong>2027년 6월부터 장기 미납자의 갱신·변경을 원칙적으로 허가하지 않는다</strong>는 방침을 밝혔습니다. 지금 바로 미납이 없는지 확인하세요. <strong>낼 수 없을 때 “면제”나 “분할” 수속을 하면 미납이 아닙니다.</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "1. 언제·무엇이 바뀌나?",
+      "blocks": [
+        {
+          "t": "timeline",
+          "items": [
+            {
+              "date": "2025.11",
+              "text": "후생노동대신이 2027년 6월부터 미납을 재류 심사에 활용하는 방침 발표(보도)"
+            },
+            {
+              "date": "2026.1.23",
+              "text": "정부 “종합적 대응책”: 모든 재류 신청에 사회보험 규정 준수를 증명하는 서류 제출을 요구하는 것을 “실시 완료”로 함"
+            },
+            {
+              "date": "2027.3",
+              "text": "입관이 관계 기관으로부터 국민건강보험료·국민연금보험료 납부 정보를 받기 시작",
+              "hl": true
+            },
+            {
+              "date": "2027.4",
+              "text": "영주 요건을 명확히 하는 개정법 시행. 고의로 세금·보험료를 내지 않으면 영주 취소 대상"
+            },
+            {
+              "date": "2027.6",
+              "text": "장기 미납자는 갱신·변경을 원칙적으로 불허(예정. 기간 등의 기준은 앞으로 결정)",
+              "hl": true
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "“얼마나 미납해야 해당하는지” 등 세부 기준은 앞으로 성령 등으로 정해집니다(2026년 11월 현재 미확정)."
+        }
+      ]
+    },
+    {
+      "heading": "2. 나는 대상인가?",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "일하는 방식",
+            "가입한 보험",
+            "미납되기 쉬운 경우"
+          ],
+          "rows": [
+            [
+              "회사원(사회보험)",
+              "건강보험·후생연금(급여에서 공제)",
+              "<strong>퇴직 후 다음 회사에 들어가기까지의 기간</strong>. 국민건강보험·국민연금으로 전환을 잊음"
+            ],
+            [
+              "자영업·프리랜서, 단시간 아르바이트",
+              "국민건강보험·국민연금(직접 납부)",
+              "납부를 잊음, 계좌 잔액 부족"
+            ],
+            [
+              "유학생",
+              "국민건강보험·국민연금",
+              "국민연금 “학생 납부 특례”를 신청하지 않음"
+            ],
+            [
+              "가족체재의 가족",
+              "국민건강보험 등",
+              "가족의 보험료를 내지 않음"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 지금 할 일",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>미납이 없는지 확인</strong>: 국민건강보험은 사는 시구정촌 창구, 국민연금은 “넨킨넷” 또는 연금사무소에서",
+            "<strong>미납이 있으면 바로 창구에서 상담</strong>: 분할 납부를 상담할 수 있다. 국민연금은 과거 2년분까지 소급해 낼 수 있다",
+            "<strong>낼 수 없으면 감면·면제 신청</strong>: 국민연금의 면제·납부 유예·학생 납부 특례, 국민건강보험의 감면. 승인되면 “미납”이 아니다",
+            "<strong>계좌 이체로 바꾼다</strong>: 납부를 잊지 않도록",
+            "<strong>퇴직하면 14일 이내에</strong> 시구정촌에서 국민건강보험·국민연금 수속(다음 회사가 정해져도 공백이 있으면 필요)"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "하고 싶은 말",
+            "창구에서 쓰는 일본어"
+          ],
+          "rows": [
+            [
+              "미납이 없는지 확인하고 싶다",
+              "「国民健康保険料の納付状況を確認したいです。」"
+            ],
+            [
+              "나눠서 내고 싶다",
+              "「未納の分を、分割で払う相談をしたいです。」"
+            ],
+            [
+              "낼 수 없다",
+              "「収入が少なく払えません。減免や免除の申請はできますか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 영주를 생각하는 사람",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "영주 심사에서는 이미 세금·보험료 납부 상황을 중요하게 본다. 2026년 10월 개정 가이드라인에서는 지금 미납이 없어도 과거에 체납했다면 원칙적으로 불리하게 평가된다",
+            "세대 단위로 보므로 배우자·가족 것도 확인한다"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "영주의 새 기준(2026년)",
+              "href": "/ko/career/permanent-residence-2026/"
+            },
+            {
+              "text": "재류 기한 전후로 계좌가 막힐 때",
+              "href": "/ko/kurashi/remit-visa-expiry/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "갱신 전에 확인",
+          "items": [
+            "국민건강보험료 미납이 없다(시구정촌에서 확인)",
+            "국민연금 미납이 없다(넨킨넷에서 확인)",
+            "낼 수 없던 기간은 면제·유예·학생 납부 특례 수속을 했다",
+            "이직·퇴직 사이 기간도 보험과 연금 수속을 했다",
+            "가족 것도 확인했다"
+          ],
+          "done": "준비됐습니다.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "출처: 외국인 수용·질서 있는 공생을 위한 종합적 대응책(2026년 1월 23일), 후생노동대신 회견 보도(2025년 11월), 출입국재류관리청 「영주 허가에 관한 가이드라인」(2026년 10월 1일 개정). 확인일: 2026-11-05. 운용의 세부 사항은 앞으로 정해지므로 갱신 전에 최신 정보를 확인하세요."
+        }
+      ]
+    }
+  ]
+}

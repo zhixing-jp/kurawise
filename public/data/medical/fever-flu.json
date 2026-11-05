@@ -1,0 +1,1222 @@
+{
+  "id": "fever-flu",
+  "checked": "2026-11-05",
+  "title_ja": "冬の急な発熱、インフルエンザかも？　受診の目安・夜間の動き方・休む日数（2026-27年）",
+  "description_ja": "2026-27年のインフルエンザは8月末に全国で流行入り。熱が出たときに、すぐ119番が必要な症状、受診に適したタイミング（12〜48時間）、電話での言い方、夜間・休日の動き方、学校や会社を休む日数をまとめました。",
+  "crumb_ja": "冬の急な発熱",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "今季のインフルエンザは、<strong>2026年8月28日に全国で流行入り</strong>しました（過去2番目の早さ）。熱が出たら、まず「すぐ119番が必要な症状」がないかを見ます。なければ、<strong>発症から12〜48時間のうちに、電話をしてから</strong>近くのクリニックか発熱外来へ。抗インフルエンザ薬は、48時間を過ぎると効きにくくなります。"
+        }
+      ]
+    },
+    {
+      "heading": "一、すぐ119番の症状（迷わず呼ぶ）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "だれ",
+            "症状"
+          ],
+          "rows": [
+            [
+              "大人・子ども共通",
+              "息が苦しい、唇が紫色／呼びかけへの反応が鈍い、意識がおかしい／けいれんが止まらない／胸の強い痛み"
+            ],
+            [
+              "子ども",
+              "水分がとれず、半日以上おしっこが出ない／ぐったりして目が合わない／意味不明なことを言う、急におびえる"
+            ],
+            [
+              "高齢者・持病のある人",
+              "急に食べられない・動けない／いつもと様子がまったく違う"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "呼ぶか迷ったら、大人は <strong>#7119</strong>（救急安心センター、実施地域のみ）、子どもは <strong>#8000</strong>（子ども医療電話相談）へ。どちらも基本は日本語です。"
+        }
+      ]
+    },
+    {
+      "heading": "二、受診するタイミング",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "発症からの時間",
+            "ポイント"
+          ],
+          "rows": [
+            [
+              "12時間より前",
+              "検査で陰性に出やすい。急ぐ症状がなく元気なら、時間をおいてからのほうが確実なことがある"
+            ],
+            [
+              "12〜48時間",
+              "<strong>受診にいちばん適した時間</strong>。検査も薬も効果が出やすい"
+            ],
+            [
+              "48時間より後",
+              "薬の効果は下がる。それでも、高齢者・持病のある人・妊娠中・小さな子どもは受診する"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、受診の前にやること",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>先に電話する</strong>：発熱の人は時間や入口を分けている病院が多く、予約が要ることもある",
+            "<strong>持ち物</strong>：マイナ保険証か資格確認書、お薬手帳、現金（カードが使えない診療所もある）",
+            "<strong>マスクをして行く</strong>（車や徒歩で。待合室で人に近づかない）",
+            "<strong>メモ</strong>：いつから・最高の体温・ほかの症状・周りに同じ症状の人がいるか・飲んだ薬"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "伝えたいこと",
+            "電話での日本語"
+          ],
+          "rows": [
+            [
+              "熱があって受診したい",
+              "「熱があります。今日、診てもらえますか。」"
+            ],
+            [
+              "いつから",
+              "「きのうの夜から、38度5分の熱があります。」"
+            ],
+            [
+              "インフルエンザが心配",
+              "「インフルエンザの検査をお願いできますか。」"
+            ],
+            [
+              "行き方を聞く",
+              "「どの入口から入ればいいですか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、夜・休日に熱が出たら",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "急ぐ症状があれば 119",
+            "迷ったら #7119（大人）・#8000（子ども）",
+            "住んでいる市区町村の「休日急病診療所」（時間は地域ごとに違うので、行く前に電話）",
+            "厚生労働省の「医療情報ネット（ナビイ）」で、その日に開いている病院を探す"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "夜間・休日に病院を探す方法",
+              "href": "/ja/medical/night-emergency-clinic/"
+            },
+            {
+              "text": "救急車の呼び方",
+              "href": "/ja/medical/calling-ambulance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、学校・会社はいつまで休む？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "目安"
+          ],
+          "rows": [
+            [
+              "学校（小学生以上）",
+              "<strong>発症した翌日から5日たち、かつ熱が下がった翌日から2日たつまで</strong>（学校保健安全法の基準）"
+            ],
+            [
+              "幼稚園・保育園",
+              "発症後5日、かつ熱が下がってから3日"
+            ],
+            [
+              "会社",
+              "法律の決まりはない。就業規則で決まる。多くの会社が学校の基準を目安にしているので、上司か人事に確認"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "例：月曜に発症し、水曜に熱が下がった小学生は、発症の翌日（火）から5日＝土曜まで、解熱の翌日（木）から2日＝金曜まで休みます。長いほうの土曜まで出席停止なので、月曜から登校できます。"
+        }
+      ]
+    },
+    {
+      "heading": "六、家で気をつけること",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "水分をこまめにとる（経口補水液、スープなど）",
+            "部屋の湿度を50〜60%に保つ",
+            "解熱剤は、医師・薬剤師が出したものを使う。特に子どもは、自己判断で大人用の薬を飲ませない",
+            "薬を飲んだ後の子どもは、急に走り出すなどの異常な行動に注意し、少なくとも2日間は1人にしない"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "熱が出たときに確かめる",
+          "items": [
+            "息苦しさ・意識・けいれんなど、すぐ119番の症状はない",
+            "発症した時刻と、最高の体温をメモした",
+            "受診の前に病院へ電話した",
+            "マイナ保険証か資格確認書、お薬手帳を持った",
+            "学校・会社に連絡し、休む日数の決まりを確かめた"
+          ],
+          "done": "準備ができました。お大事にしてください。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "この記事は受診の流れについての一般的な情報で、医療上の助言ではありません。流行の状況は厚生労働省の発表（2026年8月28日）、受診の目安は神奈川県の案内、出席停止の期間は学校保健安全法施行規則によります。確認日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "冬天突然发烧，是不是流感？就诊时机・夜间怎么办・要休息几天（2026-27年）",
+  "description_zh": "2026-27年的流感在8月底就已全国流行。发烧时哪些症状要马上叫119，什么时候去医院最合适（发病后12〜48小时），打电话怎么说，夜间・休息日怎么办，学校和公司要休几天，一次讲清楚。",
+  "crumb_zh": "冬天突然发烧",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "这一季的流感<strong>在2026年8月28日就已全国进入流行期</strong>（史上第二早）。发烧后，先看有没有“必须马上叫119的症状”。没有的话，<strong>在发病后12〜48小时内，先打电话，再去</strong>附近的诊所或发热门诊。抗流感药超过48小时，效果就会变差。"
+        }
+      ]
+    },
+    {
+      "heading": "一、必须马上叫119的症状（不要犹豫）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "对象",
+            "症状"
+          ],
+          "rows": [
+            [
+              "大人・孩子",
+              "呼吸困难、嘴唇发紫／叫了反应迟钝、意识不清／抽搐停不下来／胸口剧痛"
+            ],
+            [
+              "孩子",
+              "喝不下水，半天以上没有小便／精神萎靡、眼神不对／胡言乱语、突然害怕"
+            ],
+            [
+              "老人・有慢性病的人",
+              "突然吃不下、动不了／和平时完全不一样"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "拿不准要不要叫救护车：大人打 <strong>#7119</strong>（急救咨询，部分地区），孩子打 <strong>#8000</strong>（儿童医疗咨询）。基本都是日语。"
+        }
+      ]
+    },
+    {
+      "heading": "二、什么时候去医院",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "发病后的时间",
+            "要点"
+          ],
+          "rows": [
+            [
+              "不到12小时",
+              "检查容易出现假阴性。没有紧急症状、精神还好的话，过一段时间再去更准"
+            ],
+            [
+              "12〜48小时",
+              "<strong>最适合就诊的时间</strong>。检查和药都容易见效"
+            ],
+            [
+              "超过48小时",
+              "药效会下降。但老人、有慢性病的人、孕妇、小孩子，还是要去看"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、去医院前要做的事",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>先打电话</strong>：很多医院把发烧病人的时间和入口分开，有时需要预约",
+            "<strong>要带的东西</strong>：マイナ保险证或资格确认书、用药手册（お薬手帳）、现金（有的诊所不能刷卡）",
+            "<strong>戴口罩去</strong>（开车或步行，在候诊室不要靠近别人）",
+            "<strong>写好备忘</strong>：从什么时候开始、最高体温、其他症状、身边有没有同样症状的人、吃过什么药"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "想说的事",
+            "电话里的日语"
+          ],
+          "rows": [
+            [
+              "发烧想看病",
+              "「熱があります。今日、診てもらえますか。」"
+            ],
+            [
+              "从什么时候开始",
+              "「きのうの夜から、38度5分の熱があります。」"
+            ],
+            [
+              "担心是流感",
+              "「インフルエンザの検査をお願いできますか。」"
+            ],
+            [
+              "问怎么进去",
+              "「どの入口から入ればいいですか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、晚上・休息日发烧怎么办",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "有紧急症状就打119",
+            "拿不准就打 #7119（大人）・#8000（孩子）",
+            "去所在市区町村的“休日急病诊疗所”（各地时间不同，去之前先打电话）",
+            "在厚生劳动省的“医疗信息网（ナビイ）”上找当天开门的医院"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "夜间・休息日怎么找医院",
+              "href": "/zh/medical/night-emergency-clinic/"
+            },
+            {
+              "text": "怎么叫救护车",
+              "href": "/zh/medical/calling-ambulance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、学校・公司要休几天？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "标准"
+          ],
+          "rows": [
+            [
+              "学校（小学以上）",
+              "<strong>发病次日起满5天，并且退烧次日起满2天</strong>（学校保健安全法的标准）"
+            ],
+            [
+              "幼儿园・保育园",
+              "发病后5天，并且退烧后3天"
+            ],
+            [
+              "公司",
+              "法律没有规定，看公司的就业规则。很多公司参考学校的标准，请向上司或人事确认"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "例：周一发病、周三退烧的小学生，发病次日（周二）起5天＝到周六；退烧次日（周四）起2天＝到周五。以较长的周六为准停课，下周一可以上学。"
+        }
+      ]
+    },
+    {
+      "heading": "六、在家要注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "勤补水（口服补液、汤等）",
+            "室内湿度保持在50〜60%",
+            "退烧药用医生・药剂师开的。特别是孩子，不要自己给孩子吃大人的药",
+            "吃药后的孩子，要注意突然跑出去等异常行为，至少2天不要让孩子独处"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "发烧时确认",
+          "items": [
+            "没有呼吸困难・意识不清・抽搐等要马上叫119的症状",
+            "记下了发病时间和最高体温",
+            "去医院前先打了电话",
+            "带上了マイナ保险证或资格确认书、用药手册",
+            "联系了学校・公司，确认了要休几天"
+          ],
+          "done": "准备好了，请多保重。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "本文只是就医流程的一般信息，不是医疗建议。流行情况依据厚生劳动省的发表（2026年8月28日），就诊时机依据神奈川县的说明，停课天数依据学校保健安全法施行规则。确认日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "冬天突然發燒，是不是流感？就診時機・夜間怎麼辦・要休息幾天（2026-27年）",
+  "description_zh-TW": "2026-27年的流感在8月底就已全國流行。發燒時哪些症狀要馬上叫119，什麼時候去醫院最合適（發病後12〜48小時），打電話怎麼說，夜間・休息日怎麼辦，學校和公司要休幾天，一次講清楚。",
+  "crumb_zh-TW": "冬天突然發燒",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "這一季的流感<strong>在2026年8月28日就已全國進入流行期</strong>（史上第二早）。發燒後，先看有沒有“必須馬上叫119的症狀”。沒有的話，<strong>在發病後12〜48小時內，先打電話，再去</strong>附近的診所或發熱門診。抗流感藥超過48小時，效果就會變差。"
+        }
+      ]
+    },
+    {
+      "heading": "一、必須馬上叫119的症狀（不要猶豫）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "物件",
+            "症狀"
+          ],
+          "rows": [
+            [
+              "大人・孩子",
+              "呼吸困難、嘴唇發紫／叫了反應遲鈍、意識不清／抽搐停不下來／胸口劇痛"
+            ],
+            [
+              "孩子",
+              "喝不下水，半天以上沒有小便／精神萎靡、眼神不對／胡言亂語、突然害怕"
+            ],
+            [
+              "老人・有慢性病的人",
+              "突然吃不下、動不了／和平時完全不一樣"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "拿不準要不要叫救護車：大人打 <strong>#7119</strong>（急救諮詢，部分地區），孩子打 <strong>#8000</strong>（兒童醫療諮詢）。基本都是日語。"
+        }
+      ]
+    },
+    {
+      "heading": "二、什麼時候去醫院",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "發病後的時間",
+            "要點"
+          ],
+          "rows": [
+            [
+              "不到12小時",
+              "檢查容易出現假陰性。沒有緊急症狀、精神還好的話，過一段時間再去更準"
+            ],
+            [
+              "12〜48小時",
+              "<strong>最適合就診的時間</strong>。檢查和藥都容易見效"
+            ],
+            [
+              "超過48小時",
+              "藥效會下降。但老人、有慢性病的人、孕婦、小孩子，還是要去看"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、去醫院前要做的事",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>先打電話</strong>：很多醫院把發燒病人的時間和入口分開，有時需要預約",
+            "<strong>要帶的東西</strong>：マイナ保險證或資格確認書、用藥手冊（お薬手帳）、現金（有的診所不能刷卡）",
+            "<strong>戴口罩去</strong>（開車或步行，在候診室不要靠近別人）",
+            "<strong>寫好備忘</strong>：從什麼時候開始、最高體溫、其他症狀、身邊有沒有同樣症狀的人、吃過什麼藥"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "想說的事",
+            "電話裡的日語"
+          ],
+          "rows": [
+            [
+              "發燒想看病",
+              "「熱があります。今日、診てもらえますか。」"
+            ],
+            [
+              "從什麼時候開始",
+              "「きのうの夜から、38度5分の熱があります。」"
+            ],
+            [
+              "擔心是流感",
+              "「インフルエンザの検査をお願いできますか。」"
+            ],
+            [
+              "問怎麼進去",
+              "「どの入口から入ればいいですか。」"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、晚上・休息日發燒怎麼辦",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "有緊急症狀就打119",
+            "拿不準就打 #7119（大人）・#8000（孩子）",
+            "去所在市區町村的“休日急病診療所”（各地時間不同，去之前先打電話）",
+            "在厚生勞動省的“醫療資訊網（ナビイ）”上找當天開門的醫院"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "夜間・休息日怎麼找醫院",
+              "href": "/zh-TW/medical/night-emergency-clinic/"
+            },
+            {
+              "text": "怎麼叫救護車",
+              "href": "/zh-TW/medical/calling-ambulance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、學校・公司要休幾天？",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "標準"
+          ],
+          "rows": [
+            [
+              "學校（小學以上）",
+              "<strong>發病次日起滿5天，並且退燒次日起滿2天</strong>（學校保健安全法的標準）"
+            ],
+            [
+              "幼兒園・保育園",
+              "發病後5天，並且退燒後3天"
+            ],
+            [
+              "公司",
+              "法律沒有規定，看公司的就業規則。很多公司參考學校的標準，請向上司或人事確認"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "例：週一發病、週三退燒的小學生，發病次日（週二）起5天＝到週六；退燒次日（週四）起2天＝到週五。以較長的週六為準停課，下週一可以上學。"
+        }
+      ]
+    },
+    {
+      "heading": "六、在家要注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "勤補水（口服補液、湯等）",
+            "室內溼度保持在50〜60%",
+            "退燒藥用醫生・藥劑師開的。特別是孩子，不要自己給孩子吃大人的藥",
+            "吃藥後的孩子，要注意突然跑出去等異常行為，至少2天不要讓孩子獨處"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "七、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "發燒時確認",
+          "items": [
+            "沒有呼吸困難・意識不清・抽搐等要馬上叫119的症狀",
+            "記下了發病時間和最高體溫",
+            "去醫院前先打了電話",
+            "帶上了マイナ保險證或資格確認書、用藥手冊",
+            "聯絡了學校・公司，確認了要休幾天"
+          ],
+          "done": "準備好了，請多保重。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "本文只是就醫流程的一般資訊，不是醫療建議。流行情況依據厚生勞動省的發表（2026年8月28日），就診時機依據神奈川縣的說明，停課天數依據學校保健安全法施行規則。確認日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Sudden Fever in Winter — Could It Be Flu? When to See a Doctor, What to Do at Night, and How Long to Stay Home (2026–27)",
+  "description_en": "The 2026–27 flu season began nationwide at the end of August. Symptoms that need an ambulance right away, the best time to see a doctor (12–48 hours), what to say on the phone in Japanese, what to do at night or on holidays, and how many days to stay off school or work.",
+  "crumb_en": "Sudden fever in winter",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "This season’s flu <strong>reached epidemic level nationwide on August 28, 2026</strong> (the second-earliest on record). If you get a fever, first check for symptoms that need 119 right away. If there are none, <strong>call first, then visit a clinic or fever outpatient service 12–48 hours after symptoms start</strong>. Flu medicine works poorly if started more than 48 hours in."
+        }
+      ]
+    },
+    {
+      "heading": "1. Call 119 right away for these symptoms",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Who",
+            "Symptoms"
+          ],
+          "rows": [
+            [
+              "Adults and children",
+              "Trouble breathing, purple lips / slow to respond, confused / seizures that don’t stop / severe chest pain"
+            ],
+            [
+              "Children",
+              "Can’t drink and hasn’t urinated for half a day or more / limp, won’t make eye contact / talking nonsense, suddenly frightened"
+            ],
+            [
+              "Older people, people with chronic illness",
+              "Suddenly can’t eat or move / completely unlike their usual self"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Not sure whether to call an ambulance? Adults: <strong>#7119</strong> (emergency advice line, some areas). Children: <strong>#8000</strong> (child medical advice line). Both are mainly in Japanese."
+        }
+      ]
+    },
+    {
+      "heading": "2. When to see a doctor",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Time since symptoms started",
+            "Key point"
+          ],
+          "rows": [
+            [
+              "Under 12 hours",
+              "Tests often come back falsely negative. If there are no urgent symptoms and you feel OK, waiting a bit can give a more reliable result"
+            ],
+            [
+              "12–48 hours",
+              "<strong>The best time to go.</strong> Tests and medicine both work well"
+            ],
+            [
+              "Over 48 hours",
+              "Medicine is less effective, but older people, people with chronic illness, pregnant women and small children should still go"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Before you go",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Call first.</strong> Many clinics use separate hours or entrances for patients with fever, and some need a booking",
+            "<strong>Bring</strong> your My Number insurance card or eligibility certificate (shikaku kakuninsho), your medicine notebook (okusuri techo), and cash (some clinics don’t take cards)",
+            "<strong>Wear a mask</strong> (go by car or on foot; keep away from others in the waiting room)",
+            "<strong>Write down</strong> when it started, your highest temperature, other symptoms, whether people around you are sick, and any medicine you took"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "What you want to say",
+            "Japanese to use on the phone"
+          ],
+          "rows": [
+            [
+              "I have a fever and want to be seen",
+              "「熱があります。今日、診てもらえますか。」(Netsu ga arimasu. Kyō, mite moraemasu ka?)"
+            ],
+            [
+              "Since when",
+              "「きのうの夜から、38度5分の熱があります。」(Kinō no yoru kara, sanjūhachido gobu no netsu ga arimasu.)"
+            ],
+            [
+              "Worried it’s flu",
+              "「インフルエンザの検査をお願いできますか。」(Infuruenza no kensa o onegai dekimasu ka?)"
+            ],
+            [
+              "Which entrance",
+              "「どの入口から入ればいいですか。」(Dono iriguchi kara haireba ii desu ka?)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Fever at night or on a holiday",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Urgent symptoms: call 119",
+            "Not sure: #7119 (adults) or #8000 (children)",
+            "Your city’s holiday emergency clinic (kyūjitsu kyūbyō shinryōjo). Hours differ by area, so call before going",
+            "Search the Ministry of Health’s Iryo Joho Net (Navii) for places open that day"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Finding a clinic at night or on holidays",
+              "href": "/en/medical/night-emergency-clinic/"
+            },
+            {
+              "text": "How to call an ambulance",
+              "href": "/en/medical/calling-ambulance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. How long to stay off school or work",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Guideline"
+          ],
+          "rows": [
+            [
+              "School (elementary and up)",
+              "<strong>Until 5 days have passed since the day after symptoms started, and 2 days since the day after the fever went down</strong> (School Health and Safety Act)"
+            ],
+            [
+              "Kindergarten, nursery",
+              "5 days after symptoms started, and 3 days after the fever went down"
+            ],
+            [
+              "Work",
+              "No legal rule; it depends on company rules. Many companies follow the school guideline, so check with your manager or HR"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Example: an elementary pupil whose symptoms started on Monday and whose fever went down on Wednesday stays home until Saturday (5 days from Tuesday) and until Friday (2 days from Thursday). The longer one is Saturday, so they can go back on Monday."
+        }
+      ]
+    },
+    {
+      "heading": "6. Care at home",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Drink often (oral rehydration solution, soup, etc.)",
+            "Keep room humidity at 50–60%",
+            "Use fever medicine prescribed by a doctor or recommended by a pharmacist. Never give adult medicine to children on your own",
+            "After children take flu medicine, watch for unusual behavior such as suddenly running off, and don’t leave them alone for at least 2 days"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "When you have a fever",
+          "items": [
+            "No call-119 symptoms (trouble breathing, confusion, seizures)",
+            "Wrote down when it started and the highest temperature",
+            "Called the clinic before going",
+            "Have my insurance card or certificate and medicine notebook",
+            "Told school or work, and checked how long to stay home"
+          ],
+          "done": "You’re ready. Get well soon.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "This article is general information about seeing a doctor, not medical advice. Epidemic status: Ministry of Health announcement (August 28, 2026). Timing: Kanagawa Prefecture guidance. Days off: School Health and Safety Act enforcement rules. Checked: 2026-11-05."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Sốt đột ngột mùa đông, có phải cúm không? Khi nào đi khám, ban đêm làm gì, nghỉ học/nghỉ làm mấy ngày (2026–27)",
+  "description_vi": "Mùa cúm 2026–27 đã bùng phát toàn quốc từ cuối tháng 8. Triệu chứng phải gọi xe cấp cứu ngay, thời điểm đi khám tốt nhất (12–48 giờ), câu tiếng Nhật nói qua điện thoại, cách xử lý ban đêm và ngày nghỉ, số ngày phải nghỉ học/nghỉ làm.",
+  "crumb_vi": "Sốt đột ngột mùa đông",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Mùa cúm năm nay <strong>đã bước vào giai đoạn dịch trên toàn quốc ngày 28/8/2026</strong> (sớm thứ hai từ trước đến nay). Khi bị sốt, trước tiên hãy xem có “triệu chứng phải gọi 119 ngay” không. Nếu không, <strong>trong khoảng 12–48 giờ sau khi phát bệnh, hãy gọi điện trước rồi mới đến</strong> phòng khám gần nhà hoặc phòng khám sốt. Thuốc trị cúm bắt đầu uống sau 48 giờ sẽ kém hiệu quả."
+        }
+      ]
+    },
+    {
+      "heading": "1. Gọi 119 ngay nếu có các triệu chứng sau",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Ai",
+            "Triệu chứng"
+          ],
+          "rows": [
+            [
+              "Người lớn và trẻ em",
+              "Khó thở, môi tím tái / gọi phản ứng chậm, lú lẫn / co giật không dứt / đau ngực dữ dội"
+            ],
+            [
+              "Trẻ em",
+              "Không uống được nước, nửa ngày trở lên không đi tiểu / lả người, không nhìn vào mắt / nói lung tung, đột nhiên sợ hãi"
+            ],
+            [
+              "Người già, người có bệnh nền",
+              "Đột nhiên không ăn được, không cử động được / khác hẳn thường ngày"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Phân vân có nên gọi xe cấp cứu: người lớn gọi <strong>#7119</strong> (tư vấn cấp cứu, một số vùng), trẻ em gọi <strong>#8000</strong> (tư vấn y tế cho trẻ em). Cả hai chủ yếu bằng tiếng Nhật."
+        }
+      ]
+    },
+    {
+      "heading": "2. Khi nào nên đi khám",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Thời gian từ khi phát bệnh",
+            "Điểm chính"
+          ],
+          "rows": [
+            [
+              "Dưới 12 giờ",
+              "Xét nghiệm dễ ra âm tính giả. Nếu không có triệu chứng gấp và vẫn khỏe, đợi thêm một chút có thể cho kết quả chính xác hơn"
+            ],
+            [
+              "12–48 giờ",
+              "<strong>Thời điểm tốt nhất để đi khám.</strong> Xét nghiệm và thuốc đều dễ có hiệu quả"
+            ],
+            [
+              "Sau 48 giờ",
+              "Thuốc kém hiệu quả hơn. Nhưng người già, người có bệnh nền, phụ nữ mang thai, trẻ nhỏ vẫn nên đi khám"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Việc cần làm trước khi đi khám",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Gọi điện trước</strong>: nhiều nơi tách giờ hoặc lối vào cho người bị sốt, có nơi cần đặt hẹn",
+            "<strong>Mang theo</strong>: thẻ bảo hiểm My Number hoặc giấy xác nhận tư cách (資格確認書), sổ thuốc (お薬手帳), tiền mặt (có phòng khám không nhận thẻ)",
+            "<strong>Đeo khẩu trang</strong> (đi ô tô hoặc đi bộ, trong phòng chờ không đến gần người khác)",
+            "<strong>Ghi lại</strong>: bắt đầu từ lúc nào, nhiệt độ cao nhất, triệu chứng khác, người xung quanh có bị giống không, đã uống thuốc gì"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Điều muốn nói",
+            "Tiếng Nhật nói qua điện thoại"
+          ],
+          "rows": [
+            [
+              "Bị sốt, muốn đi khám",
+              "「熱があります。今日、診てもらえますか。」(Netsu ga arimasu. Kyō, mite moraemasu ka?)"
+            ],
+            [
+              "Từ khi nào",
+              "「きのうの夜から、38度5分の熱があります。」(Kinō no yoru kara, sanjūhachido gobu no netsu ga arimasu.)"
+            ],
+            [
+              "Lo là bị cúm",
+              "「インフルエンザの検査をお願いできますか。」(Infuruenza no kensa o onegai dekimasu ka?)"
+            ],
+            [
+              "Hỏi lối vào",
+              "「どの入口から入ればいいですか。」(Dono iriguchi kara haireba ii desu ka?)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Sốt vào ban đêm hoặc ngày nghỉ",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "Có triệu chứng gấp thì gọi 119",
+            "Phân vân thì gọi #7119 (người lớn) hoặc #8000 (trẻ em)",
+            "Đến “phòng khám cấp cứu ngày nghỉ” (休日急病診療所) của nơi mình sống (giờ mỗi nơi khác nhau, gọi điện trước khi đi)",
+            "Tìm bệnh viện mở cửa hôm đó trên “Iryo Joho Net (Navii)” của Bộ Y tế"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Cách tìm bệnh viện ban đêm, ngày nghỉ",
+              "href": "/vi/medical/night-emergency-clinic/"
+            },
+            {
+              "text": "Cách gọi xe cấp cứu",
+              "href": "/vi/medical/calling-ambulance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Nghỉ học, nghỉ làm đến khi nào?",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Tiêu chuẩn"
+          ],
+          "rows": [
+            [
+              "Trường học (từ tiểu học)",
+              "<strong>Đến khi qua 5 ngày tính từ ngày hôm sau ngày phát bệnh, và qua 2 ngày tính từ ngày hôm sau ngày hết sốt</strong> (theo Luật An toàn Sức khỏe Trường học)"
+            ],
+            [
+              "Mẫu giáo, nhà trẻ",
+              "5 ngày sau khi phát bệnh, và 3 ngày sau khi hết sốt"
+            ],
+            [
+              "Công ty",
+              "Luật không quy định, tùy nội quy công ty. Nhiều công ty theo tiêu chuẩn của trường học, hãy hỏi cấp trên hoặc bộ phận nhân sự"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Ví dụ: học sinh tiểu học phát bệnh thứ Hai, hết sốt thứ Tư: 5 ngày từ thứ Ba = đến thứ Bảy, 2 ngày từ thứ Năm = đến thứ Sáu. Lấy mốc dài hơn là thứ Bảy, nên từ thứ Hai tuần sau có thể đi học."
+        }
+      ]
+    },
+    {
+      "heading": "6. Chăm sóc tại nhà",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Uống nước thường xuyên (dung dịch bù nước, súp...)",
+            "Giữ độ ẩm trong phòng 50–60%",
+            "Dùng thuốc hạ sốt do bác sĩ, dược sĩ đưa. Đặc biệt với trẻ em, không tự ý cho uống thuốc của người lớn",
+            "Sau khi trẻ uống thuốc, chú ý hành vi bất thường như đột nhiên chạy ra ngoài, ít nhất 2 ngày không để trẻ ở một mình"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Khi bị sốt",
+          "items": [
+            "Không có triệu chứng phải gọi 119 (khó thở, lú lẫn, co giật)",
+            "Đã ghi giờ phát bệnh và nhiệt độ cao nhất",
+            "Đã gọi điện cho phòng khám trước khi đi",
+            "Đã mang thẻ bảo hiểm hoặc giấy xác nhận, sổ thuốc",
+            "Đã báo trường/công ty và hỏi số ngày nghỉ"
+          ],
+          "done": "Đã sẵn sàng. Mau khỏe nhé.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Bài viết là thông tin chung về quy trình đi khám, không phải lời khuyên y tế. Tình hình dịch theo công bố của Bộ Y tế (28/8/2026), thời điểm đi khám theo hướng dẫn của tỉnh Kanagawa, số ngày nghỉ học theo quy tắc thi hành Luật An toàn Sức khỏe Trường học. Ngày kiểm tra: 2026-11-05."
+        }
+      ]
+    }
+  ],
+  "title_ko": "겨울에 갑자기 열이 난다면, 독감일까? 진료 시기·야간 대처·쉬는 날수(2026–27년)",
+  "description_ko": "2026–27년 독감은 8월 말에 전국 유행이 시작되었습니다. 바로 구급차가 필요한 증상, 진료에 가장 좋은 시기(12~48시간), 전화로 말하는 일본어, 야간·휴일 대처, 학교·회사를 쉬는 날수를 정리했습니다.",
+  "crumb_ko": "겨울의 갑작스러운 발열",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "이번 시즌 독감은 <strong>2026년 8월 28일에 전국 유행이 시작</strong>되었습니다(역대 두 번째로 빠름). 열이 나면 먼저 “바로 119가 필요한 증상”이 있는지 봅니다. 없다면 <strong>발병 후 12~48시간 안에, 먼저 전화를 하고</strong> 가까운 클리닉이나 발열 외래로 가세요. 독감 약은 48시간이 지나면 효과가 떨어집니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 바로 119를 불러야 할 증상",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "대상",
+            "증상"
+          ],
+          "rows": [
+            [
+              "어른·아이 공통",
+              "숨쉬기 힘들다, 입술이 보라색 / 불러도 반응이 둔하다, 의식이 이상하다 / 경련이 멈추지 않는다 / 심한 가슴 통증"
+            ],
+            [
+              "아이",
+              "물을 못 마시고 반나절 이상 소변이 없다 / 축 처지고 눈을 맞추지 않는다 / 이상한 말을 하거나 갑자기 무서워한다"
+            ],
+            [
+              "고령자·지병이 있는 사람",
+              "갑자기 먹지 못하고 움직이지 못한다 / 평소와 완전히 다르다"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "구급차를 부를지 망설여지면 어른은 <strong>#7119</strong>(구급 상담, 일부 지역), 아이는 <strong>#8000</strong>(어린이 의료 전화 상담). 모두 기본적으로 일본어입니다."
+        }
+      ]
+    },
+    {
+      "heading": "2. 진료받을 시기",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "발병 후 시간",
+            "포인트"
+          ],
+          "rows": [
+            [
+              "12시간 전",
+              "검사에서 음성이 나오기 쉽다. 급한 증상이 없고 기운이 있으면 조금 기다리는 편이 정확할 수 있다"
+            ],
+            [
+              "12~48시간",
+              "<strong>진료에 가장 좋은 시간.</strong> 검사도 약도 효과가 잘 나온다"
+            ],
+            [
+              "48시간 이후",
+              "약의 효과는 떨어진다. 그래도 고령자·지병이 있는 사람·임신 중·어린아이는 진료를 받는다"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 진료 전에 할 일",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>먼저 전화한다</strong>: 발열 환자는 시간이나 입구를 따로 정한 병원이 많고, 예약이 필요할 때도 있다",
+            "<strong>준비물</strong>: 마이나 보험증 또는 자격확인서, 약 수첩(お薬手帳), 현금(카드를 못 쓰는 진료소도 있다)",
+            "<strong>마스크를 쓰고 간다</strong>(차나 도보로. 대기실에서 다른 사람에게 가까이 가지 않는다)",
+            "<strong>메모</strong>: 언제부터, 최고 체온, 다른 증상, 주변에 같은 증상인 사람이 있는지, 먹은 약"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "전하고 싶은 것",
+            "전화로 하는 일본어"
+          ],
+          "rows": [
+            [
+              "열이 나서 진료받고 싶다",
+              "「熱があります。今日、診てもらえますか。」(네쓰가 아리마스. 쿄오, 미테 모라에마스카?)"
+            ],
+            [
+              "언제부터",
+              "「きのうの夜から、38度5分の熱があります。」(키노오노 요루카라, 산주하치도 고부노 네쓰가 아리마스.)"
+            ],
+            [
+              "독감이 걱정된다",
+              "「インフルエンザの検査をお願いできますか。」(인후루엔자노 켄사오 오네가이 데키마스카?)"
+            ],
+            [
+              "입구를 묻는다",
+              "「どの入口から入ればいいですか。」(도노 이리구치카라 하이레바 이이데스카?)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 밤·휴일에 열이 나면",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "급한 증상이 있으면 119",
+            "망설여지면 #7119(어른)·#8000(아이)",
+            "사는 시구정촌의 “휴일 급병 진료소”(시간은 지역마다 다르니 가기 전에 전화)",
+            "후생노동성의 “의료정보넷(나비이)”에서 그날 문을 연 병원을 찾는다"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "야간·휴일에 병원 찾는 법",
+              "href": "/ko/medical/night-emergency-clinic/"
+            },
+            {
+              "text": "구급차 부르는 법",
+              "href": "/ko/medical/calling-ambulance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 학교·회사는 언제까지 쉬나?",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "기준"
+          ],
+          "rows": [
+            [
+              "학교(초등학생 이상)",
+              "<strong>발병 다음 날부터 5일이 지나고, 열이 내린 다음 날부터 2일이 지날 때까지</strong>(학교보건안전법 기준)"
+            ],
+            [
+              "유치원·어린이집",
+              "발병 후 5일, 그리고 열이 내린 후 3일"
+            ],
+            [
+              "회사",
+              "법률로 정해진 것은 없고 취업규칙에 따른다. 많은 회사가 학교 기준을 참고하니 상사나 인사부에 확인"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "예: 월요일에 발병하고 수요일에 열이 내린 초등학생은 발병 다음 날(화)부터 5일 = 토요일까지, 해열 다음 날(목)부터 2일 = 금요일까지. 긴 쪽인 토요일까지 출석 정지이므로 다음 월요일부터 등교할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "heading": "6. 집에서 주의할 점",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "수분을 자주 섭취(경구 보수액, 수프 등)",
+            "방 습도를 50~60%로 유지",
+            "해열제는 의사·약사가 준 것을 쓴다. 특히 아이에게 마음대로 어른 약을 먹이지 않는다",
+            "약을 먹은 아이는 갑자기 뛰쳐나가는 등 이상 행동에 주의하고, 적어도 2일간은 혼자 두지 않는다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "열이 날 때 확인",
+          "items": [
+            "호흡곤란·의식 이상·경련 등 바로 119가 필요한 증상은 없다",
+            "발병 시각과 최고 체온을 메모했다",
+            "진료 전에 병원에 전화했다",
+            "마이나 보험증이나 자격확인서, 약 수첩을 챙겼다",
+            "학교·회사에 연락하고 쉬는 날수를 확인했다"
+          ],
+          "done": "준비됐습니다. 빨리 나으세요.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "이 글은 진료 절차에 관한 일반적인 정보이며 의료 조언이 아닙니다. 유행 상황은 후생노동성 발표(2026년 8월 28일), 진료 시기는 가나가와현 안내, 출석 정지 기간은 학교보건안전법 시행규칙에 따릅니다. 확인일: 2026-11-05."
+        }
+      ]
+    }
+  ]
+}

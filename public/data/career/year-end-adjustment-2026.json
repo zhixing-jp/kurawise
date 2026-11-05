@@ -1,0 +1,1094 @@
+{
+  "title_ja": "2026年の年末調整で損しない：変わった点と、出す書類の書き方（転職した人・家族を扶養している人）",
+  "description_ja": "2026年分（令和8年分）の年末調整は、基礎控除が最大104万円、扶養の所得の上限が62万円（給与だけなら年収136万円以下）に変わりました。変更点の早見表、出す3つの書類、転職した人・海外の家族を扶養している人の注意をまとめました。",
+  "checked_ja": "内容の確認日：2026年11月5日",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "2026年分（令和8年分）から、<strong>基礎控除が最大104万円</strong>に、<strong>扶養の所得の上限が58万円→62万円</strong>（給与だけなら年収136万円以下）に変わりました。11月までの毎月の給料の税金は前のままなので、<strong>12月の年末調整でまとめて反映され、多くの人は税金が戻ります</strong>。書類は今年の様式で出してください。"
+        }
+      ]
+    },
+    {
+      "heading": "一、変わった点（早見表）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "項目",
+            "2025年分",
+            "2026年分"
+          ],
+          "rows": [
+            [
+              "基礎控除（合計所得489万円以下）",
+              "68万〜95万円",
+              "<strong>104万円</strong>"
+            ],
+            [
+              "基礎控除（489万〜655万円）",
+              "63万円",
+              "67万円"
+            ],
+            [
+              "基礎控除（655万〜2,350万円）",
+              "58万円",
+              "62万円"
+            ],
+            [
+              "給与所得控除の最低額",
+              "65万円",
+              "74万円"
+            ],
+            [
+              "扶養の家族の所得の上限",
+              "58万円（給与123万円）",
+              "<strong>62万円（給与136万円）</strong>"
+            ],
+            [
+              "一般の生命保険料控除（23歳未満の扶養の家族がいる人）",
+              "上限4万円",
+              "上限6万円"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "2026年分・2027年分の金額です。2028年分から、また変わる予定です。"
+        }
+      ]
+    },
+    {
+      "heading": "二、会社に出す3つの書類",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "書類",
+            "書くこと",
+            "注意"
+          ],
+          "rows": [
+            [
+              "扶養控除等（異動）申告書",
+              "扶養している家族",
+              "上限が62万円に上がったので、<strong>新しく扶養に入れられる家族がいないか</strong>確かめる"
+            ],
+            [
+              "基礎控除申告書兼配偶者控除等申告書兼特定親族特別控除申告書兼所得金額調整控除申告書",
+              "自分と配偶者の所得の見込み、19〜22歳の子の所得",
+              "<strong>19〜22歳の子のアルバイト収入が136万〜197万円</strong>なら「特定親族特別控除」。親が申告する"
+            ],
+            [
+              "保険料控除申告書",
+              "生命保険・地震保険・自分で払った国民年金・iDeCo など",
+              "保険会社から届く証明書を添付。家族の国民年金を自分が払ったなら、自分の控除になる"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、ケース別の注意",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "こんな人",
+            "やること"
+          ],
+          "rows": [
+            [
+              "今年転職した",
+              "<strong>前の会社の源泉徴収票</strong>を、今の会社に出す。出さないと自分で確定申告"
+            ],
+            [
+              "年の途中で退職し、今は働いていない",
+              "年末調整はない。確定申告すると税金が戻ることが多い"
+            ],
+            [
+              "副業の所得が20万円を超える",
+              "年末調整の後に、自分で確定申告"
+            ],
+            [
+              "住宅ローンの控除の2年目以降",
+              "銀行の残高証明書と控除の申告書を会社に出す（1年目は確定申告）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、海外の家族を扶養に入れる人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "家族だと分かる書類（出生証明書・戸籍など）と、<strong>送金の記録</strong>が必要。外国語の書類には日本語訳をつける",
+            "30〜69歳の家族は、留学・障害のどちらかか、<strong>あなたから年38万円以上の送金</strong>が条件",
+            "家族の所得の上限も62万円",
+            "現金の手渡しは記録にならず、認められない。1人ずつ本人に送る"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "仕送りで税金を減らす（扶養の条件と送金の記録）",
+              "href": "/ja/kurashi/remit-family-tax/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、間に合わなかった・間違えたら",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "1月に源泉徴収票をもらう前なら、会社がやり直せることがある。すぐ担当者に言う",
+            "もらった後なら、<strong>自分で確定申告（還付申告）</strong>。5年以内なら出せる"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "書類を出す前に",
+          "items": [
+            "今年の様式（令和8年分）を使っている",
+            "新しく扶養に入れられる家族がいないか確かめた（所得62万円以下）",
+            "19〜22歳の子の収入を確かめた",
+            "保険料の証明書をそろえた",
+            "転職した人は、前の会社の源泉徴収票を出した",
+            "海外の家族の分は、送金の記録と日本語訳をそろえた"
+          ],
+          "done": "準備ができました。会社に出しましょう。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "出典：国税庁「令和8年分 年末調整のしかた」に基づく税理士事務所の解説（2026年9月〜10月）。確認日：2026-11-05。個別の事情は、会社の担当者か税務署で確かめてください。"
+        }
+      ]
+    }
+  ],
+  "title": "2026年的年末调整不吃亏：变化点，和要交的表格怎么填（换了工作的人・有扶养家人的人）",
+  "description": "2026年度（令和8年分）的年末调整：基础扣除最高104万日元，扶养家人的所得上限变成62万日元（只有工资的话，年收入136万日元以下）。变化速查表、要交的3份表格、换工作的人・扶养海外家人的人要注意的地方，一次讲清楚。",
+  "checked": "内容确认日期：2026年11月5日",
+  "sections": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "从2026年度（令和8年分）起，<strong>基础扣除最高104万日元</strong>，<strong>扶养家人的所得上限从58万变成62万日元</strong>（只有工资的话，年收入136万日元以下）。11月之前每月工资扣的税还是旧标准，<strong>所以会在12月的年末调整里一起反映，多数人会退税</strong>。表格请用今年的格式。"
+        }
+      ]
+    },
+    {
+      "heading": "一、变化点（速查表）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "项目",
+            "2025年度",
+            "2026年度"
+          ],
+          "rows": [
+            [
+              "基础扣除（合计所得489万日元以下）",
+              "68万〜95万日元",
+              "<strong>104万日元</strong>"
+            ],
+            [
+              "基础扣除（489万〜655万日元）",
+              "63万日元",
+              "67万日元"
+            ],
+            [
+              "基础扣除（655万〜2,350万日元）",
+              "58万日元",
+              "62万日元"
+            ],
+            [
+              "工资所得扣除的最低额",
+              "65万日元",
+              "74万日元"
+            ],
+            [
+              "扶养家人的所得上限",
+              "58万日元（工资123万日元）",
+              "<strong>62万日元（工资136万日元）</strong>"
+            ],
+            [
+              "一般人寿保险费扣除（有未满23岁扶养家人的人）",
+              "上限4万日元",
+              "上限6万日元"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "以上是2026年度・2027年度的金额。2028年度起预计还会变。"
+        }
+      ]
+    },
+    {
+      "heading": "二、要交给公司的3份表格",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "表格",
+            "填什么",
+            "注意"
+          ],
+          "rows": [
+            [
+              "扶养控除等（异动）申告书",
+              "扶养的家人",
+              "上限提高到62万日元，看看<strong>有没有新的家人可以列入扶养</strong>"
+            ],
+            [
+              "基础控除申告书兼配偶者控除等申告书兼特定亲族特别控除申告书兼所得金额调整控除申告书",
+              "自己和配偶的预计所得、19〜22岁孩子的所得",
+              "<strong>19〜22岁孩子的打工收入在136万〜197万日元</strong>的话，适用“特定亲族特别扣除”，由父母申报"
+            ],
+            [
+              "保险料控除申告书",
+              "人寿保险・地震保险・自己缴的国民年金・iDeCo等",
+              "附上保险公司寄来的证明书。替家人缴的国民年金，算在自己的扣除里"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、分情况注意",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "这样的人",
+            "要做的事"
+          ],
+          "rows": [
+            [
+              "今年换了工作",
+              "把<strong>前一家公司的源泉征收票</strong>交给现在的公司。不交的话，要自己做确定申告"
+            ],
+            [
+              "年中辞职，现在没工作",
+              "没有年末调整。做确定申告多半能退税"
+            ],
+            [
+              "副业所得超过20万日元",
+              "年末调整后，自己做确定申告"
+            ],
+            [
+              "房贷扣除的第2年起",
+              "把银行的余额证明书和扣除申告书交给公司（第1年要做确定申告）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、把海外家人列入扶养的人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "需要证明亲属关系的文件（出生证明・户口簿等）和<strong>汇款记录</strong>。外文文件要附日语翻译",
+            "30〜69岁的家人，需要是留学・残疾之一，或者<strong>你每年给他汇款38万日元以上</strong>",
+            "家人的所得上限也是62万日元",
+            "当面给现金不算记录，不被认可。要分别直接汇给本人"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "汇生活费也能少交税（扶养条件和汇款记录）",
+              "href": "/zh/kurashi/remit-family-tax/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、来不及・填错了",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "1月拿到源泉征收票之前，公司有时可以重新计算。马上告诉负责人",
+            "拿到之后，就<strong>自己做确定申告（退税申告）</strong>。5年内都可以申报"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "交表格之前",
+          "items": [
+            "用的是今年的格式（令和8年分）",
+            "确认了有没有新的家人可以列入扶养（所得62万日元以下）",
+            "确认了19〜22岁孩子的收入",
+            "保险费的证明书都齐了",
+            "换了工作的人，交了前一家公司的源泉征收票",
+            "海外家人的部分，汇款记录和日语翻译都准备好了"
+          ],
+          "done": "准备好了，交给公司吧。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "出处：依据国税厅《令和8年分 年末调整的办法》的税理士事务所解说（2026年9月〜10月）。确认日：2026-11-05。个别情况请向公司负责人或税务署确认。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "2026年的年末調整不吃虧：變化點，和要交的表格怎麼填（換了工作的人・有扶養家人的人）",
+  "description_zh-TW": "2026年度（令和8年分）的年末調整：基礎扣除最高104萬日圓，扶養家人的所得上限變成62萬日圓（只有工資的話，年收入136萬日圓以下）。變化速查表、要交的3份表格、換工作的人・扶養海外家人的人要注意的地方，一次講清楚。",
+  "checked_zh-TW": "內容確認日期：2026年11月5日",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "從2026年度（令和8年分）起，<strong>基礎扣除最高104萬日圓</strong>，<strong>扶養家人的所得上限從58萬變成62萬日圓</strong>（只有工資的話，年收入136萬日圓以下）。11月之前每月工資扣的稅還是舊標準，<strong>所以會在12月的年末調整裡一起反映，多數人會退稅</strong>。表格請用今年的格式。"
+        }
+      ]
+    },
+    {
+      "heading": "一、變化點（速查表）",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "專案",
+            "2025年度",
+            "2026年度"
+          ],
+          "rows": [
+            [
+              "基礎扣除（合計所得489萬日圓以下）",
+              "68萬〜95萬日圓",
+              "<strong>104萬日圓</strong>"
+            ],
+            [
+              "基礎扣除（489萬〜655萬日圓）",
+              "63萬日圓",
+              "67萬日圓"
+            ],
+            [
+              "基礎扣除（655萬〜2,350萬日圓）",
+              "58萬日圓",
+              "62萬日圓"
+            ],
+            [
+              "工資所得扣除的最低額",
+              "65萬日圓",
+              "74萬日圓"
+            ],
+            [
+              "扶養家人的所得上限",
+              "58萬日圓（工資123萬日圓）",
+              "<strong>62萬日圓（工資136萬日圓）</strong>"
+            ],
+            [
+              "一般人壽保險費扣除（有未滿23歲扶養家人的人）",
+              "上限4萬日圓",
+              "上限6萬日圓"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "以上是2026年度・2027年度的金額。2028年度起預計還會變。"
+        }
+      ]
+    },
+    {
+      "heading": "二、要交給公司的3份表格",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "表格",
+            "填什麼",
+            "注意"
+          ],
+          "rows": [
+            [
+              "扶養控除等（異動）申告書",
+              "扶養的家人",
+              "上限提高到62萬日圓，看看<strong>有沒有新的家人可以列入扶養</strong>"
+            ],
+            [
+              "基礎控除申告書兼配偶者控除等申告書兼特定親族特別控除申告書兼所得金額調整控除申告書",
+              "自己和配偶的預計所得、19〜22歲孩子的所得",
+              "<strong>19〜22歲孩子的打工收入在136萬〜197萬日圓</strong>的話，適用“特定親族特別扣除”，由父母申報"
+            ],
+            [
+              "保險料控除申告書",
+              "人壽保險・地震保險・自己繳的國民年金・iDeCo等",
+              "附上保險公司寄來的證明書。替家人繳的國民年金，算在自己的扣除裡"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "三、分情況注意",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "這樣的人",
+            "要做的事"
+          ],
+          "rows": [
+            [
+              "今年換了工作",
+              "把<strong>前一家公司的源泉徵收票</strong>交給現在的公司。不交的話，要自己做確定申告"
+            ],
+            [
+              "年中辭職，現在沒工作",
+              "沒有年末調整。做確定申告多半能退稅"
+            ],
+            [
+              "副業所得超過20萬日圓",
+              "年末調整後，自己做確定申告"
+            ],
+            [
+              "房貸扣除的第2年起",
+              "把銀行的餘額證明書和扣除申告書交給公司（第1年要做確定申告）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、把海外家人列入扶養的人",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "需要證明親屬關係的檔案（出生證明・戶口簿等）和<strong>匯款記錄</strong>。外文檔案要附日語翻譯",
+            "30〜69歲的家人，需要是留學・殘疾之一，或者<strong>你每年給他匯款38萬日圓以上</strong>",
+            "家人的所得上限也是62萬日圓",
+            "當面給現金不算記錄，不被認可。要分別直接匯給本人"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "匯生活費也能少交稅（扶養條件和匯款記錄）",
+              "href": "/zh-TW/kurashi/remit-family-tax/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、來不及・填錯了",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "1月拿到源泉徵收票之前，公司有時可以重新計算。馬上告訴負責人",
+            "拿到之後，就<strong>自己做確定申告（退稅申告）</strong>。5年內都可以申報"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "交表格之前",
+          "items": [
+            "用的是今年的格式（令和8年分）",
+            "確認了有沒有新的家人可以列入扶養（所得62萬日圓以下）",
+            "確認了19〜22歲孩子的收入",
+            "保險費的證明書都齊了",
+            "換了工作的人，交了前一家公司的源泉徵收票",
+            "海外家人的部分，匯款記錄和日語翻譯都準備好了"
+          ],
+          "done": "準備好了，交給公司吧。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "出處：依據國稅廳《令和8年分 年末調整的辦法》的稅理士事務所解說（2026年9月〜10月）。確認日：2026-11-05。個別情況請向公司負責人或稅務署確認。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Don’t Lose Money on Your 2026 Year-End Tax Adjustment: What Changed and How to Fill In the Forms (Job Changers, People Supporting Family)",
+  "description_en": "For the 2026 year-end tax adjustment, the basic deduction rises to up to 1.04 million yen and the income limit for dependents to 620,000 yen (salary up to 1.36 million yen). What changed, the 3 forms to submit, and notes for job changers and people supporting family abroad.",
+  "checked_en": "Content checked: November 5, 2026",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "From 2026, <strong>the basic deduction is up to 1.04 million yen</strong> and <strong>the income limit for dependents rises from 580,000 to 620,000 yen</strong> (salary up to 1.36 million yen). Tax withheld from monthly pay through November still uses the old rules, <strong>so the difference is settled in the December year-end adjustment and most people get money back</strong>. Use this year’s forms."
+        }
+      ]
+    },
+    {
+      "heading": "1. What changed",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "2025",
+            "2026"
+          ],
+          "rows": [
+            [
+              "Basic deduction (total income up to 4.89M yen)",
+              "680,000–950,000 yen",
+              "<strong>1,040,000 yen</strong>"
+            ],
+            [
+              "Basic deduction (4.89M–6.55M yen)",
+              "630,000 yen",
+              "670,000 yen"
+            ],
+            [
+              "Basic deduction (6.55M–23.5M yen)",
+              "580,000 yen",
+              "620,000 yen"
+            ],
+            [
+              "Minimum employment income deduction",
+              "650,000 yen",
+              "740,000 yen"
+            ],
+            [
+              "Income limit for dependents",
+              "580,000 yen (salary 1.23M yen)",
+              "<strong>620,000 yen (salary 1.36M yen)</strong>"
+            ],
+            [
+              "General life insurance deduction (with a dependent under 23)",
+              "Up to 40,000 yen",
+              "Up to 60,000 yen"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "These amounts apply to 2026 and 2027. Further changes are planned from 2028."
+        }
+      ]
+    },
+    {
+      "heading": "2. The 3 forms you give your employer",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Form",
+            "What to fill in",
+            "Note"
+          ],
+          "rows": [
+            [
+              "Dependent deduction declaration (fuyō kōjo tō shinkokusho)",
+              "Family members you support",
+              "The limit is now 620,000 yen, so check <strong>whether anyone new now qualifies</strong>"
+            ],
+            [
+              "Basic / spouse / specified relative deduction declaration (combined form)",
+              "Expected income for you and your spouse; income of children aged 19–22",
+              "If a child aged 19–22 earns <strong>1.36M–1.97M yen from part-time work</strong>, claim the “specified relative special deduction.” The parent claims it"
+            ],
+            [
+              "Insurance premium deduction declaration",
+              "Life and earthquake insurance, National Pension you paid yourself, iDeCo, etc.",
+              "Attach the certificates from your insurers. National Pension you paid for family members counts as your deduction"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Notes by situation",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "If you…",
+            "Do this"
+          ],
+          "rows": [
+            [
+              "Changed jobs this year",
+              "Give your <strong>previous employer’s withholding slip (gensen chōshūhyō)</strong> to your current employer. Otherwise you must file a tax return yourself"
+            ],
+            [
+              "Left your job mid-year and aren’t working",
+              "No year-end adjustment. Filing a tax return often gets you a refund"
+            ],
+            [
+              "Have side income over 200,000 yen",
+              "File a tax return yourself after the year-end adjustment"
+            ],
+            [
+              "Claim the mortgage deduction (2nd year onward)",
+              "Give your employer the bank’s balance certificate and the deduction form (year 1 needs a tax return)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. If you support family abroad",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "You need documents proving the relationship (birth certificate, household register, etc.) and <strong>records of money transfers</strong>. Attach Japanese translations of foreign documents",
+            "Family aged 30–69 qualify only if studying abroad, disabled, or <strong>receiving at least 380,000 yen a year from you</strong>",
+            "Their income limit is also 620,000 yen",
+            "Cash handed over leaves no record and isn’t accepted. Send money to each person separately"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Pay less tax by supporting family abroad",
+              "href": "/en/kurashi/remit-family-tax/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Missed it or made a mistake?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Before you receive your withholding slip in January, your employer may be able to redo it. Tell HR right away",
+            "After that, <strong>file a tax return yourself (refund return)</strong>. You can file within 5 years"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Before submitting",
+          "items": [
+            "Using this year’s (2026) forms",
+            "Checked whether anyone new qualifies as a dependent (income up to 620,000 yen)",
+            "Checked the income of any child aged 19–22",
+            "Have all insurance certificates",
+            "If I changed jobs, gave my previous employer’s withholding slip",
+            "For family abroad, have transfer records and Japanese translations"
+          ],
+          "done": "You’re ready. Hand them in.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "Source: tax accountants’ explanations based on the National Tax Agency’s 2026 year-end adjustment guide (September–October 2026). Checked: 2026-11-05. For your own situation, ask your employer’s HR or the tax office."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Không bị thiệt khi điều chỉnh thuế cuối năm 2026: những điểm thay đổi và cách điền tờ khai (người chuyển việc, người nuôi người phụ thuộc)",
+  "description_vi": "Điều chỉnh thuế cuối năm 2026: khấu trừ cơ bản tối đa 1,04 triệu yên, giới hạn thu nhập của người phụ thuộc thành 620.000 yên (nếu chỉ có lương thì thu nhập năm đến 1,36 triệu yên). Bảng thay đổi, 3 tờ khai cần nộp, lưu ý cho người chuyển việc và người nuôi người thân ở nước ngoài.",
+  "checked_vi": "Ngày kiểm tra nội dung: 5/11/2026",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Từ năm 2026, <strong>khấu trừ cơ bản tối đa 1,04 triệu yên</strong>, <strong>giới hạn thu nhập của người phụ thuộc tăng từ 580.000 lên 620.000 yên</strong> (nếu chỉ có lương thì đến 1,36 triệu yên/năm). Thuế trừ vào lương hằng tháng đến tháng 11 vẫn theo cách cũ, <strong>nên phần chênh lệch sẽ được tính trong lần điều chỉnh cuối năm vào tháng 12 và đa số người sẽ được hoàn thuế</strong>. Hãy dùng mẫu tờ khai của năm nay."
+        }
+      ]
+    },
+    {
+      "heading": "1. Những điểm thay đổi",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Hạng mục",
+            "2025",
+            "2026"
+          ],
+          "rows": [
+            [
+              "Khấu trừ cơ bản (tổng thu nhập đến 4,89 triệu yên)",
+              "680.000–950.000 yên",
+              "<strong>1.040.000 yên</strong>"
+            ],
+            [
+              "Khấu trừ cơ bản (4,89–6,55 triệu yên)",
+              "630.000 yên",
+              "670.000 yên"
+            ],
+            [
+              "Khấu trừ cơ bản (6,55–23,5 triệu yên)",
+              "580.000 yên",
+              "620.000 yên"
+            ],
+            [
+              "Mức tối thiểu khấu trừ thu nhập từ lương",
+              "650.000 yên",
+              "740.000 yên"
+            ],
+            [
+              "Giới hạn thu nhập của người phụ thuộc",
+              "580.000 yên (lương 1,23 triệu yên)",
+              "<strong>620.000 yên (lương 1,36 triệu yên)</strong>"
+            ],
+            [
+              "Khấu trừ bảo hiểm nhân thọ thông thường (có người phụ thuộc dưới 23 tuổi)",
+              "Tối đa 40.000 yên",
+              "Tối đa 60.000 yên"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Đây là số tiền cho năm 2026 và 2027. Dự kiến từ năm 2028 sẽ thay đổi tiếp."
+        }
+      ]
+    },
+    {
+      "heading": "2. 3 tờ khai nộp cho công ty",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Tờ khai",
+            "Điền gì",
+            "Lưu ý"
+          ],
+          "rows": [
+            [
+              "Tờ khai khấu trừ người phụ thuộc (扶養控除等申告書)",
+              "Người thân bạn nuôi",
+              "Giới hạn đã tăng lên 620.000 yên, hãy xem <strong>có người thân mới đủ điều kiện không</strong>"
+            ],
+            [
+              "Tờ khai khấu trừ cơ bản / vợ chồng / người thân đặc định (tờ gộp)",
+              "Thu nhập dự kiến của bạn và vợ/chồng, thu nhập của con 19–22 tuổi",
+              "Nếu con 19–22 tuổi có <strong>thu nhập làm thêm 1,36–1,97 triệu yên</strong> thì áp dụng “khấu trừ đặc biệt người thân đặc định”, do cha mẹ khai"
+            ],
+            [
+              "Tờ khai khấu trừ phí bảo hiểm",
+              "Bảo hiểm nhân thọ, động đất, lương hưu quốc dân tự đóng, iDeCo...",
+              "Đính kèm giấy chứng nhận do công ty bảo hiểm gửi. Lương hưu quốc dân bạn đóng cho người nhà được tính vào khấu trừ của bạn"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Lưu ý theo từng trường hợp",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Nếu bạn",
+            "Cần làm"
+          ],
+          "rows": [
+            [
+              "Chuyển việc trong năm nay",
+              "Nộp <strong>phiếu khấu trừ thuế tại nguồn (源泉徴収票) của công ty cũ</strong> cho công ty hiện tại. Nếu không, phải tự quyết toán thuế"
+            ],
+            [
+              "Nghỉ việc giữa năm và hiện không làm",
+              "Không có điều chỉnh cuối năm. Quyết toán thuế thường sẽ được hoàn"
+            ],
+            [
+              "Thu nhập phụ trên 200.000 yên",
+              "Tự quyết toán thuế sau khi điều chỉnh cuối năm"
+            ],
+            [
+              "Khấu trừ vay mua nhà từ năm thứ 2",
+              "Nộp giấy xác nhận dư nợ của ngân hàng và tờ khai khấu trừ cho công ty (năm đầu phải quyết toán)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Người nuôi người thân ở nước ngoài",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Cần giấy tờ chứng minh quan hệ (giấy khai sinh, sổ hộ khẩu...) và <strong>giấy tờ chuyển tiền</strong>. Giấy tờ tiếng nước ngoài cần kèm bản dịch tiếng Nhật",
+            "Người thân 30–69 tuổi phải là đang du học, khuyết tật, hoặc <strong>nhận từ bạn 380.000 yên/năm trở lên</strong>",
+            "Giới hạn thu nhập của người thân cũng là 620.000 yên",
+            "Đưa tiền mặt tận tay không có giấy tờ, không được chấp nhận. Gửi riêng cho từng người"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Gửi tiền về nhà mà giảm được thuế",
+              "href": "/vi/kurashi/remit-family-tax/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Không kịp hoặc khai sai",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Trước khi nhận phiếu khấu trừ thuế tại nguồn vào tháng 1, công ty có thể tính lại. Hãy báo người phụ trách ngay",
+            "Sau đó thì <strong>tự quyết toán thuế (khai hoàn thuế)</strong>. Có thể nộp trong vòng 5 năm"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Trước khi nộp tờ khai",
+          "items": [
+            "Đang dùng mẫu của năm nay (2026)",
+            "Đã xem có người thân mới đủ điều kiện phụ thuộc không (thu nhập đến 620.000 yên)",
+            "Đã xem thu nhập của con 19–22 tuổi",
+            "Đã đủ giấy chứng nhận phí bảo hiểm",
+            "Người chuyển việc đã nộp phiếu khấu trừ của công ty cũ",
+            "Phần người thân ở nước ngoài đã có giấy tờ chuyển tiền và bản dịch tiếng Nhật"
+          ],
+          "done": "Đã sẵn sàng. Hãy nộp cho công ty.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Nguồn: giải thích của văn phòng thuế dựa trên hướng dẫn điều chỉnh thuế cuối năm 2026 của Cục Thuế Quốc gia (9–10/2026). Ngày kiểm tra: 2026-11-05. Trường hợp riêng hãy hỏi người phụ trách ở công ty hoặc cơ quan thuế."
+        }
+      ]
+    }
+  ],
+  "title_ko": "2026년 연말정산에서 손해 보지 않기: 바뀐 점과 서류 작성법(이직한 사람·가족을 부양하는 사람)",
+  "description_ko": "2026년분 연말정산은 기초공제가 최대 104만 엔, 부양가족의 소득 상한이 62만 엔(급여만 있으면 연 수입 136만 엔 이하)으로 바뀌었습니다. 변경점 조견표, 제출할 3가지 서류, 이직한 사람·해외 가족을 부양하는 사람의 주의점을 정리했습니다.",
+  "checked_ko": "내용 확인일: 2026년 11월 5일",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "2026년분부터 <strong>기초공제가 최대 104만 엔</strong>, <strong>부양가족의 소득 상한이 58만 엔→62만 엔</strong>(급여만 있으면 연 수입 136만 엔 이하)으로 바뀌었습니다. 11월까지 매달 급여에서 떼는 세금은 이전 그대로이므로, <strong>12월 연말정산에서 한꺼번에 반영되어 많은 사람이 세금을 돌려받습니다</strong>. 서류는 올해 양식으로 내세요."
+        }
+      ]
+    },
+    {
+      "heading": "1. 바뀐 점(조견표)",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "항목",
+            "2025년분",
+            "2026년분"
+          ],
+          "rows": [
+            [
+              "기초공제(합계소득 489만 엔 이하)",
+              "68만~95만 엔",
+              "<strong>104만 엔</strong>"
+            ],
+            [
+              "기초공제(489만~655만 엔)",
+              "63만 엔",
+              "67만 엔"
+            ],
+            [
+              "기초공제(655만~2,350만 엔)",
+              "58만 엔",
+              "62만 엔"
+            ],
+            [
+              "급여소득공제 최저액",
+              "65만 엔",
+              "74만 엔"
+            ],
+            [
+              "부양가족의 소득 상한",
+              "58만 엔(급여 123만 엔)",
+              "<strong>62만 엔(급여 136만 엔)</strong>"
+            ],
+            [
+              "일반 생명보험료 공제(23세 미만 부양가족이 있는 사람)",
+              "상한 4만 엔",
+              "상한 6만 엔"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "2026년분·2027년분 금액입니다. 2028년분부터 다시 바뀔 예정입니다."
+        }
+      ]
+    },
+    {
+      "heading": "2. 회사에 내는 3가지 서류",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "서류",
+            "쓸 내용",
+            "주의"
+          ],
+          "rows": [
+            [
+              "부양공제등(이동)신고서",
+              "부양하는 가족",
+              "상한이 62만 엔으로 올랐으니 <strong>새로 부양가족에 넣을 수 있는 가족이 없는지</strong> 확인"
+            ],
+            [
+              "기초공제·배우자공제·특정친족특별공제 신고서(통합 양식)",
+              "본인과 배우자의 예상 소득, 19~22세 자녀의 소득",
+              "<strong>19~22세 자녀의 아르바이트 수입이 136만~197만 엔</strong>이면 “특정친족특별공제”. 부모가 신고"
+            ],
+            [
+              "보험료공제신고서",
+              "생명보험·지진보험·본인이 낸 국민연금·iDeCo 등",
+              "보험사가 보낸 증명서를 첨부. 가족의 국민연금을 본인이 냈다면 본인의 공제가 된다"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 경우별 주의",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "이런 사람",
+            "할 일"
+          ],
+          "rows": [
+            [
+              "올해 이직했다",
+              "<strong>이전 회사의 원천징수표</strong>를 지금 회사에 낸다. 내지 않으면 직접 확정신고"
+            ],
+            [
+              "연중 퇴직하고 지금은 일하지 않는다",
+              "연말정산이 없다. 확정신고를 하면 세금을 돌려받는 경우가 많다"
+            ],
+            [
+              "부업 소득이 20만 엔을 넘는다",
+              "연말정산 후 직접 확정신고"
+            ],
+            [
+              "주택대출 공제 2년째 이후",
+              "은행의 잔액증명서와 공제 신고서를 회사에 낸다(1년째는 확정신고)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 해외 가족을 부양가족으로 넣는 사람",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "가족임을 알 수 있는 서류(출생증명서·가족관계증명서 등)와 <strong>송금 기록</strong>이 필요. 외국어 서류에는 일본어 번역을 붙인다",
+            "30~69세 가족은 유학·장애 중 하나이거나 <strong>본인에게서 연 38만 엔 이상 송금</strong>이 조건",
+            "가족의 소득 상한도 62만 엔",
+            "현금 직접 전달은 기록이 남지 않아 인정되지 않는다. 한 명씩 본인에게 보낸다"
+          ]
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "생활비 송금으로 세금 줄이기",
+              "href": "/ko/kurashi/remit-family-tax/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 늦었거나 잘못 썼다면",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "1월에 원천징수표를 받기 전이면 회사가 다시 할 수 있는 경우가 있다. 바로 담당자에게 말한다",
+            "받은 후라면 <strong>직접 확정신고(환급신고)</strong>. 5년 이내면 낼 수 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "서류를 내기 전에",
+          "items": [
+            "올해(2026년분) 양식을 쓰고 있다",
+            "새로 부양가족에 넣을 수 있는 가족이 없는지 확인했다(소득 62만 엔 이하)",
+            "19~22세 자녀의 수입을 확인했다",
+            "보험료 증명서를 모았다",
+            "이직한 사람은 이전 회사의 원천징수표를 냈다",
+            "해외 가족 몫은 송금 기록과 일본어 번역을 준비했다"
+          ],
+          "done": "준비됐습니다. 회사에 내세요.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "출처: 국세청 「2026년분 연말정산 방법」에 근거한 세무사 사무소의 해설(2026년 9~10월). 확인일: 2026-11-05. 개별 사정은 회사 담당자나 세무서에 확인하세요."
+        }
+      ]
+    }
+  ]
+}

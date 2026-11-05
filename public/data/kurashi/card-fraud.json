@@ -1,0 +1,838 @@
+{
+  "id": "card-fraud",
+  "checked": "2026-11-05",
+  "title_ja": "クレジットカードの不正利用・フィッシング：気づいたら最初にやることと、補償を受けるための条件",
+  "description_ja": "身に覚えのない請求に気づいたら、まずカード会社に連絡してカードを止めます。最初にやる5つの手順、補償を受ける条件（多くは届け出の60日前まで）、よくあるフィッシングの手口と防ぎ方をまとめました。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "身に覚えのない請求を見つけたら、<strong>すぐカード会社の紛失・盗難の窓口（多くは24時間）に連絡して、カードを止めます</strong>。補償は、<strong>届け出た日から60日前までの分</strong>とするカード会社が多いので、明細は毎月確かめましょう。2025年の不正利用の被害は<strong>510.5億円</strong>で、その9割以上が<strong>カード番号の盗用</strong>です。"
+        }
+      ]
+    },
+    {
+      "heading": "一、気づいたら最初にやること",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>カード会社に連絡してカードを止める</strong>（カードの裏の電話番号。アプリで一時停止できるカードも多い）",
+            "<strong>明細を見て、身に覚えのない請求を全部伝える</strong>（日付・店名・金額）",
+            "<strong>偽のサイトにパスワードを入れたなら、すぐ変える</strong>。同じパスワードを使っているほかのサービスも",
+            "<strong>警察に相談する</strong>（警察相談専用電話 #9110）。カード会社から求められたら被害届を出す",
+            "<strong>新しいカードが届いたら</strong>、公共料金・携帯・サブスクの支払いのカード番号を変える"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、補償を受けるための条件",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "内容"
+          ],
+          "rows": [
+            [
+              "補償の期間",
+              "多くのカード会社は「届け出た日から60日前まで」。カードの規約で必ず確かめる"
+            ],
+            [
+              "対象にならないことがある",
+              "家族が使った／暗証番号を使った取引で、本人に大きな落ち度がある／届け出がとても遅い"
+            ],
+            [
+              "フィッシングの場合",
+              "自分で入力した場合も、審査のうえ補償されることが多い。ただし、あきらかな不注意だと対象外になることもある"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "補償の条件はカード会社ごとに違います。使っているカードの会員規約の「不正利用」「紛失・盗難」の項目を一度見ておきましょう。"
+        }
+      ]
+    },
+    {
+      "heading": "三、よくある手口",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "手口",
+            "見分け方"
+          ],
+          "rows": [
+            [
+              "SMS「お荷物をお届けに来ましたが不在」",
+              "宅配業者はSMSでカード番号を聞かない"
+            ],
+            [
+              "メール・SMS「カードの利用を制限しました。確認してください」",
+              "カード会社のふりをした偽物が多い。リンクを押さず、公式アプリで確かめる"
+            ],
+            [
+              "とても安い通販サイト",
+              "会社の住所・電話が書いていない、日本語がおかしい、振込先が個人名"
+            ],
+            [
+              "電話「カード会社です。暗証番号を教えてください」",
+              "カード会社が暗証番号を聞くことはない"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、防ぎ方",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "メールやSMSのリンクから、カード番号やパスワードを入れない。必ず公式アプリかブックマークから開く",
+            "カードの<strong>利用通知</strong>（使うたびにアプリやメールで届く）をオンにする",
+            "ネットの買い物は、本人認証（3Dセキュア）のある店で",
+            "明細は毎月確かめる。使っていないカードも",
+            "ネット用と普段用でカードを分けると、被害が出ても片方だけで済む"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、外国人の場合",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "日本語の電話が不安なら、まずアプリやサイトでカードを一時停止する。その後で窓口に連絡すればよい",
+            "外国語の窓口があるカード会社もある（会員サイトで確認）",
+            "在留カードの情報やパスポートの写真を求めるメール・SMSも、フィッシングを疑う"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、チェック表",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "今すぐ確かめる",
+          "items": [
+            "カードの紛失・盗難の窓口の電話番号を、スマホに登録した",
+            "利用通知をオンにした",
+            "先月の明細に、身に覚えのない請求がない",
+            "補償の期間（何日前までか）を規約で確かめた",
+            "ネットで使うパスワードを、サービスごとに分けている"
+          ],
+          "done": "準備ができました。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "note",
+          "text": "被害の金額は日本クレジット協会の集計（2026年3月6日公表）、補償の期間の例は鹿児島県の消費生活の相談事例によります。確認日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "信用卡被盗刷・钓鱼诈骗：发现后第一时间要做的事，和获得赔偿的条件",
+  "description_zh": "发现不认识的扣款，先联系卡公司把卡停掉。最初要做的5个步骤、获得赔偿的条件（多为申报日前60天内）、常见的钓鱼手法和预防方法，一次讲清楚。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "发现不认识的扣款，<strong>马上联系卡公司的挂失窗口（多为24小时），把卡停掉</strong>。很多卡公司只赔<strong>申报日往前60天以内</strong>的损失，所以每个月都要看账单。2025年日本信用卡盗刷损失<strong>510.5亿日元</strong>，其中九成以上是<strong>卡号被盗用</strong>。"
+        }
+      ]
+    },
+    {
+      "heading": "一、发现后最先要做的事",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>联系卡公司，把卡停掉</strong>（卡背面的电话号码。很多卡可以在App里临时冻结）",
+            "<strong>看账单，把不认识的扣款全部告诉卡公司</strong>（日期・商家・金额）",
+            "<strong>如果在假网站输入过密码，马上改</strong>。用同一个密码的其他服务也要改",
+            "<strong>找警察咨询</strong>（警察咨询专线 #9110）。卡公司要求的话，就报案",
+            "<strong>新卡寄到后</strong>，把水电・手机・订阅服务的扣款卡号换成新的"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、获得赔偿的条件",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "内容"
+          ],
+          "rows": [
+            [
+              "赔偿期间",
+              "多数卡公司是“申报日往前60天以内”。一定要看自己卡的规约"
+            ],
+            [
+              "可能不赔",
+              "家人用的／用密码完成的交易而本人有重大过失／申报太晚"
+            ],
+            [
+              "钓鱼诈骗的情况",
+              "就算是自己输入的，审核后多数也会赔。但明显不注意的话，也可能不赔"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "赔偿条件各卡公司不同。请看一下自己卡的会员规约里“盗用”“挂失”的部分。"
+        }
+      ]
+    },
+    {
+      "heading": "三、常见手法",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "手法",
+            "怎么识别"
+          ],
+          "rows": [
+            [
+              "短信“您的包裹送达但无人在家”",
+              "快递公司不会用短信问卡号"
+            ],
+            [
+              "邮件・短信“您的卡已被限制使用，请确认”",
+              "很多是冒充卡公司的假消息。不要点链接，用官方App确认"
+            ],
+            [
+              "价格特别便宜的网店",
+              "没写公司地址・电话，日语奇怪，收款人是个人名字"
+            ],
+            [
+              "电话“我是卡公司，请告诉我密码”",
+              "卡公司不会问你的密码"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、怎么预防",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "不要从邮件・短信的链接输入卡号或密码。一定从官方App或书签打开",
+            "打开卡的<strong>消费通知</strong>（每次刷卡都会通过App或邮件通知）",
+            "网购选有本人认证（3D Secure）的店",
+            "每个月看账单，不用的卡也要看",
+            "网购用卡和日常用卡分开，就算被盗也只影响一张"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、外国人的情况",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "如果担心日语电话，先在App或网站上临时冻结卡，之后再联系窗口",
+            "有的卡公司有外语窗口（在会员网站确认）",
+            "要你提供在留卡信息或护照照片的邮件・短信，也要怀疑是钓鱼"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、检查清单",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "现在就确认",
+          "items": [
+            "把卡的挂失电话存进了手机",
+            "打开了消费通知",
+            "上个月的账单里没有不认识的扣款",
+            "在规约里确认了赔偿期间（往前多少天）",
+            "网上用的密码，每个服务都不同"
+          ],
+          "done": "准备好了。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "note",
+          "text": "损失金额依据日本信用卡协会的统计（2026年3月6日公布），赔偿期间的例子依据鹿儿岛县的消费生活咨询案例。确认日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "信用卡被盜刷・釣魚詐騙：發現後第一時間要做的事，和獲得賠償的條件",
+  "description_zh-TW": "發現不認識的扣款，先聯絡卡公司把卡停掉。最初要做的5個步驟、獲得賠償的條件（多為申報日前60天內）、常見的釣魚手法和預防方法，一次講清楚。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "發現不認識的扣款，<strong>馬上聯絡卡公司的掛失視窗（多為24小時），把卡停掉</strong>。很多卡公司只賠<strong>申報日往前60天以內</strong>的損失，所以每個月都要看帳單。2025年日本信用卡盜刷損失<strong>510.5億日圓</strong>，其中九成以上是<strong>卡號被盜用</strong>。"
+        }
+      ]
+    },
+    {
+      "heading": "一、發現後最先要做的事",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>聯絡卡公司，把卡停掉</strong>（卡背面的電話號碼。很多卡可以在App裡臨時凍結）",
+            "<strong>看帳單，把不認識的扣款全部告訴卡公司</strong>（日期・商家・金額）",
+            "<strong>如果在假網站輸入過密碼，馬上改</strong>。用同一個密碼的其他服務也要改",
+            "<strong>找警察諮詢</strong>（警察諮詢專線 #9110）。卡公司要求的話，就報案",
+            "<strong>新卡寄到後</strong>，把水電・手機・訂閱服務的扣款卡號換成新的"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "二、獲得賠償的條件",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "內容"
+          ],
+          "rows": [
+            [
+              "賠償期間",
+              "多數卡公司是“申報日往前60天以內”。一定要看自己卡的規約"
+            ],
+            [
+              "可能不賠",
+              "家人用的／用密碼完成的交易而本人有重大過失／申報太晚"
+            ],
+            [
+              "釣魚詐騙的情況",
+              "就算是自己輸入的，稽核後多數也會賠。但明顯不注意的話，也可能不賠"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "賠償條件各卡公司不同。請看一下自己卡的會員規約裡“盜用”“掛失”的部分。"
+        }
+      ]
+    },
+    {
+      "heading": "三、常見手法",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "手法",
+            "怎麼識別"
+          ],
+          "rows": [
+            [
+              "簡訊“您的包裹送達但無人在家”",
+              "快遞公司不會用簡訊問卡號"
+            ],
+            [
+              "郵件・簡訊“您的卡已被限制使用，請確認”",
+              "很多是冒充卡公司的假訊息。不要點連結，用官方App確認"
+            ],
+            [
+              "價格特別便宜的網店",
+              "沒寫公司地址・電話，日語奇怪，收款人是個人名字"
+            ],
+            [
+              "電話“我是卡公司，請告訴我密碼”",
+              "卡公司不會問你的密碼"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "四、怎麼預防",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "不要從郵件・簡訊的連結輸入卡號或密碼。一定從官方App或書籤開啟",
+            "開啟卡的<strong>消費通知</strong>（每次刷卡都會透過App或郵件通知）",
+            "網購選有本人認證（3D Secure）的店",
+            "每個月看帳單，不用的卡也要看",
+            "網購用卡和日常用卡分開，就算被盜也隻影響一張"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、外國人的情況",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "如果擔心日語電話，先在App或網站上臨時凍結卡，之後再聯絡視窗",
+            "有的卡公司有外語視窗（在會員網站確認）",
+            "要你提供在留卡資訊或護照照片的郵件・簡訊，也要懷疑是釣魚"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、檢查清單",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "現在就確認",
+          "items": [
+            "把卡的掛失電話存進了手機",
+            "開啟了消費通知",
+            "上個月的帳單裡沒有不認識的扣款",
+            "在規約裡確認了賠償期間（往前多少天）",
+            "網上用的密碼，每個服務都不同"
+          ],
+          "done": "準備好了。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "note",
+          "text": "損失金額依據日本信用卡協會的統計（2026年3月6日公佈），賠償期間的例子依據鹿兒島縣的消費生活諮詢案例。確認日：2026-11-05。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Credit Card Fraud and Phishing: What to Do First and the Conditions for Getting Your Money Back",
+  "description_en": "If you see a charge you didn’t make, contact your card company and stop the card first. The first 5 steps, the conditions for compensation (often up to 60 days before you report), common phishing scams and how to avoid them.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "If you find a charge you didn’t make, <strong>call your card company’s lost/stolen line (usually 24 hours) and stop the card right away</strong>. Many card companies only cover <strong>charges up to 60 days before you report them</strong>, so check your statement every month. Card fraud losses in Japan were <strong>51.05 billion yen</strong> in 2025, and over 90% came from <strong>stolen card numbers</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "1. What to do first",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Call your card company and stop the card</strong> (number on the back of the card; many cards can be locked in the app)",
+            "<strong>Check your statement and report every charge you don’t recognize</strong> (date, merchant, amount)",
+            "<strong>If you entered a password on a fake site, change it now</strong>, and on any other service using the same password",
+            "<strong>Contact the police</strong> (police consultation line #9110). File a report if your card company asks",
+            "<strong>When the new card arrives</strong>, update the card number for utilities, phone and subscriptions"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Conditions for compensation",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Coverage period",
+              "Many companies cover charges “up to 60 days before the day you report.” Always check your card’s terms"
+            ],
+            [
+              "May not be covered",
+              "Used by a family member / PIN-based transactions where you were seriously careless / reported very late"
+            ],
+            [
+              "Phishing cases",
+              "Often covered after review even if you typed the details yourself, but obvious carelessness can lead to refusal"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Conditions differ by card company. Look at the “fraudulent use” and “loss/theft” sections of your card’s member terms."
+        }
+      ]
+    },
+    {
+      "heading": "3. Common scams",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Scam",
+            "How to spot it"
+          ],
+          "rows": [
+            [
+              "SMS: “We tried to deliver your parcel but you were out”",
+              "Delivery companies never ask for card numbers by SMS"
+            ],
+            [
+              "Email/SMS: “Your card has been restricted, please confirm”",
+              "Often fake messages pretending to be the card company. Don’t tap the link; check in the official app"
+            ],
+            [
+              "Online shops with very low prices",
+              "No company address or phone, strange Japanese, payment to a personal name"
+            ],
+            [
+              "Phone call: “This is your card company, tell us your PIN”",
+              "Card companies never ask for your PIN"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. How to protect yourself",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Never enter card numbers or passwords from links in emails or SMS. Open the official app or a bookmark",
+            "Turn on <strong>usage alerts</strong> (a notice in the app or by email every time the card is used)",
+            "Shop online at stores with 3-D Secure identity checks",
+            "Check statements every month, including cards you don’t use",
+            "Use separate cards for online and everyday shopping, so a leak affects only one"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. For foreign residents",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "If you’re nervous about calling in Japanese, lock the card in the app or website first, then contact the company",
+            "Some card companies have foreign-language support (check the member site)",
+            "Be suspicious of emails or SMS asking for your residence card details or a photo of your passport"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Checklist",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Check now",
+          "items": [
+            "Saved my card company’s lost/stolen number in my phone",
+            "Turned on usage alerts",
+            "No unknown charges on last month’s statement",
+            "Checked the coverage period (how many days back) in the terms",
+            "Use different passwords for each online service"
+          ],
+          "done": "You’re ready.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "note",
+          "text": "Losses: Japan Consumer Credit Association figures (released March 6, 2026). Example of the coverage period: Kagoshima Prefecture consumer case. Checked: 2026-11-05."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Thẻ tín dụng bị dùng trái phép, lừa đảo phishing: việc cần làm đầu tiên và điều kiện để được bồi thường",
+  "description_vi": "Thấy khoản thanh toán lạ, trước tiên hãy liên hệ công ty thẻ để khóa thẻ. 5 bước đầu tiên, điều kiện bồi thường (thường là 60 ngày trước ngày báo), các thủ đoạn phishing thường gặp và cách phòng tránh.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Thấy khoản thanh toán mình không làm, <strong>hãy gọi ngay đường dây báo mất thẻ của công ty thẻ (thường 24 giờ) để khóa thẻ</strong>. Nhiều công ty chỉ bồi thường <strong>các khoản trong vòng 60 ngày trước ngày báo</strong>, nên hãy xem sao kê mỗi tháng. Năm 2025, thiệt hại do dùng thẻ trái phép ở Nhật là <strong>51,05 tỷ yên</strong>, trên 90% là do <strong>bị đánh cắp số thẻ</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "1. Việc cần làm đầu tiên",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Gọi công ty thẻ để khóa thẻ</strong> (số ở mặt sau thẻ; nhiều thẻ có thể khóa tạm trong ứng dụng)",
+            "<strong>Xem sao kê và báo tất cả khoản lạ</strong> (ngày, cửa hàng, số tiền)",
+            "<strong>Nếu đã nhập mật khẩu vào trang giả, đổi ngay</strong>, cả các dịch vụ khác dùng cùng mật khẩu",
+            "<strong>Báo cảnh sát</strong> (đường dây tư vấn cảnh sát #9110). Nếu công ty thẻ yêu cầu thì nộp đơn trình báo",
+            "<strong>Khi nhận thẻ mới</strong>, đổi số thẻ cho tiền điện nước, điện thoại, dịch vụ đăng ký định kỳ"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Điều kiện để được bồi thường",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Nội dung"
+          ],
+          "rows": [
+            [
+              "Thời gian bồi thường",
+              "Nhiều công ty là “trong vòng 60 ngày trước ngày báo”. Hãy xem quy định của thẻ"
+            ],
+            [
+              "Có thể không được bồi thường",
+              "Người nhà dùng / giao dịch dùng mã PIN mà bản thân có lỗi nghiêm trọng / báo quá muộn"
+            ],
+            [
+              "Trường hợp phishing",
+              "Dù tự mình nhập, sau khi xét thường vẫn được bồi thường. Nhưng nếu bất cẩn rõ ràng có thể không được"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Điều kiện khác nhau tùy công ty thẻ. Hãy đọc phần “sử dụng trái phép” và “mất, bị trộm” trong quy định hội viên của thẻ."
+        }
+      ]
+    },
+    {
+      "heading": "3. Thủ đoạn thường gặp",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Thủ đoạn",
+            "Cách nhận biết"
+          ],
+          "rows": [
+            [
+              "SMS “Đã giao hàng nhưng bạn vắng nhà”",
+              "Công ty giao hàng không hỏi số thẻ qua SMS"
+            ],
+            [
+              "Email/SMS “Thẻ của bạn đã bị hạn chế, hãy xác nhận”",
+              "Thường là tin giả mạo công ty thẻ. Đừng bấm đường link, kiểm tra trong ứng dụng chính thức"
+            ],
+            [
+              "Trang bán hàng giá rẻ bất thường",
+              "Không ghi địa chỉ, điện thoại công ty, tiếng Nhật kỳ lạ, người nhận tiền là tên cá nhân"
+            ],
+            [
+              "Điện thoại “Đây là công ty thẻ, cho biết mã PIN”",
+              "Công ty thẻ không bao giờ hỏi mã PIN"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Cách phòng tránh",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Không nhập số thẻ, mật khẩu từ đường link trong email, SMS. Luôn mở từ ứng dụng chính thức hoặc dấu trang",
+            "Bật <strong>thông báo sử dụng thẻ</strong> (mỗi lần dùng thẻ sẽ có thông báo qua ứng dụng hoặc email)",
+            "Mua hàng online ở nơi có xác thực 3D Secure",
+            "Xem sao kê mỗi tháng, kể cả thẻ không dùng",
+            "Tách thẻ dùng online và thẻ dùng hằng ngày, nếu bị lộ chỉ ảnh hưởng một thẻ"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Người nước ngoài",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Nếu ngại gọi điện bằng tiếng Nhật, hãy khóa tạm thẻ trong ứng dụng hoặc trang web trước, sau đó mới liên hệ",
+            "Có công ty thẻ có hỗ trợ ngoại ngữ (kiểm tra trên trang hội viên)",
+            "Email, SMS yêu cầu thông tin thẻ cư trú hoặc ảnh hộ chiếu cũng cần nghi ngờ là phishing"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Danh sách kiểm tra",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Kiểm tra ngay",
+          "items": [
+            "Đã lưu số báo mất thẻ vào điện thoại",
+            "Đã bật thông báo sử dụng thẻ",
+            "Sao kê tháng trước không có khoản lạ",
+            "Đã xem thời gian bồi thường (bao nhiêu ngày trước) trong quy định",
+            "Mỗi dịch vụ online dùng mật khẩu khác nhau"
+          ],
+          "done": "Đã sẵn sàng.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "note",
+          "text": "Số tiền thiệt hại theo thống kê của Hiệp hội Tín dụng Nhật Bản (công bố 6/3/2026); ví dụ thời gian bồi thường theo trường hợp tư vấn tiêu dùng của tỉnh Kagoshima. Ngày kiểm tra: 2026-11-05."
+        }
+      ]
+    }
+  ],
+  "title_ko": "신용카드 부정 사용·피싱: 알아차렸을 때 가장 먼저 할 일과 보상받기 위한 조건",
+  "description_ko": "모르는 청구를 발견하면 먼저 카드사에 연락해 카드를 정지합니다. 처음 할 5단계, 보상 조건(대부분 신고일 60일 전까지), 흔한 피싱 수법과 예방법을 정리했습니다.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "모르는 청구를 발견하면 <strong>바로 카드사의 분실·도난 창구(대부분 24시간)에 연락해 카드를 정지</strong>하세요. 많은 카드사가 <strong>신고일로부터 60일 전까지의 금액</strong>만 보상하므로 명세서는 매달 확인하세요. 2025년 일본의 카드 부정 사용 피해는 <strong>510.5억 엔</strong>이며, 그중 90% 이상이 <strong>카드 번호 도용</strong>입니다."
+        }
+      ]
+    },
+    {
+      "heading": "1. 알아차렸을 때 가장 먼저 할 일",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>카드사에 연락해 카드를 정지</strong>(카드 뒷면의 전화번호. 앱에서 일시 정지할 수 있는 카드도 많다)",
+            "<strong>명세서를 보고 모르는 청구를 모두 알린다</strong>(날짜·가게·금액)",
+            "<strong>가짜 사이트에 비밀번호를 입력했다면 바로 변경</strong>. 같은 비밀번호를 쓰는 다른 서비스도",
+            "<strong>경찰에 상담</strong>(경찰 상담 전용 전화 #9110). 카드사가 요구하면 피해 신고",
+            "<strong>새 카드가 오면</strong> 공과금·휴대폰·구독의 결제 카드 번호를 바꾼다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 보상받기 위한 조건",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            [
+              "보상 기간",
+              "많은 카드사가 “신고일로부터 60일 전까지”. 카드 약관에서 꼭 확인"
+            ],
+            [
+              "보상되지 않을 수 있음",
+              "가족이 사용 / 비밀번호를 쓴 거래로 본인에게 큰 과실 / 신고가 매우 늦음"
+            ],
+            [
+              "피싱의 경우",
+              "본인이 입력했어도 심사 후 보상되는 경우가 많다. 다만 명백한 부주의면 대상 외가 될 수도 있다"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "보상 조건은 카드사마다 다릅니다. 쓰고 있는 카드의 회원 약관에서 “부정 사용”, “분실·도난” 항목을 한번 보세요."
+        }
+      ]
+    },
+    {
+      "heading": "3. 흔한 수법",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "수법",
+            "구별법"
+          ],
+          "rows": [
+            [
+              "문자 “택배를 배달하러 왔으나 부재중”",
+              "택배 회사는 문자로 카드 번호를 묻지 않는다"
+            ],
+            [
+              "메일·문자 “카드 이용을 제한했습니다. 확인하세요”",
+              "카드사를 사칭한 가짜가 많다. 링크를 누르지 말고 공식 앱에서 확인"
+            ],
+            [
+              "지나치게 싼 쇼핑 사이트",
+              "회사 주소·전화가 없다, 일본어가 이상하다, 입금처가 개인 이름"
+            ],
+            [
+              "전화 “카드사입니다. 비밀번호를 알려 주세요”",
+              "카드사는 비밀번호를 묻지 않는다"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 예방법",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "메일·문자의 링크로 카드 번호나 비밀번호를 입력하지 않는다. 반드시 공식 앱이나 즐겨찾기로 연다",
+            "카드 <strong>이용 알림</strong>(쓸 때마다 앱이나 메일로 옴)을 켠다",
+            "온라인 쇼핑은 본인 인증(3D 시큐어)이 있는 곳에서",
+            "명세서는 매달 확인한다. 쓰지 않는 카드도",
+            "온라인용과 일상용 카드를 나누면 피해가 나도 한쪽만으로 끝난다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 외국인의 경우",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "일본어 전화가 불안하면 먼저 앱이나 사이트에서 카드를 일시 정지한다. 그 후 창구에 연락하면 된다",
+            "외국어 창구가 있는 카드사도 있다(회원 사이트에서 확인)",
+            "재류카드 정보나 여권 사진을 요구하는 메일·문자도 피싱을 의심한다"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. 체크리스트",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "지금 확인",
+          "items": [
+            "카드 분실·도난 창구 번호를 휴대폰에 저장했다",
+            "이용 알림을 켰다",
+            "지난달 명세서에 모르는 청구가 없다",
+            "보상 기간(며칠 전까지)을 약관에서 확인했다",
+            "온라인 서비스마다 비밀번호를 다르게 쓴다"
+          ],
+          "done": "준비됐습니다.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "note",
+          "text": "피해 금액은 일본크레디트협회 집계(2026년 3월 6일 발표), 보상 기간 예는 가고시마현 소비생활 상담 사례에 따릅니다. 확인일: 2026-11-05."
+        }
+      ]
+    }
+  ]
+}
