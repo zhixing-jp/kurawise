@@ -215,6 +215,33 @@
       "sub_vi": "5 bước đầu tiên, điều kiện bồi thường, thủ đoạn thường gặp, cách phòng",
       "title_ko": "신용카드 부정 사용·피싱: 알아차렸을 때 가장 먼저 할 일과 보상받기 위한 조건",
       "sub_ko": "처음 5단계·보상 조건·흔한 수법·예방법"
+    },
+    {
+      "id": "tax-free-refund-2026",
+      "langs": [
+        "zh",
+        "zh-TW",
+        "en",
+        "vi",
+        "ko",
+        "ja"
+      ],
+      "group": "shopping",
+      "icon": "🛍️",
+      "url": "/kurashi/tax-free-refund-2026/",
+      "updated": "2026-11-06",
+      "title_ja": "2026年11月から免税が変わった：買うとき・空港・返金の3ステップと、お金が戻らない7つの例",
+      "sub_ja": "新旧の比較・空港の手順・返金されない例・家族が来るときの注意",
+      "title_zh": "日本退税2026年11月起变了：购物・机场・退款3步，和拿不回钱的7种情况",
+      "sub_zh": "新旧对比・机场步骤・退不了的情况・亲友来日本时的注意",
+      "title_zh-TW": "日本退稅2026年11月起變了：購物・機場・退款3步，和拿不回錢的7種情況",
+      "sub_zh-TW": "新舊對比・機場步驟・退不了的情況・親友來日本時的注意",
+      "title_en": "Japan’s Tax-Free Shopping Changed in November 2026: 3 Steps (Shop, Airport, Refund) and 7 Ways to Lose Your Refund",
+      "sub_en": "Old vs new, airport steps, no-refund cases, tips for visiting family",
+      "title_vi": "Miễn thuế ở Nhật thay đổi từ tháng 11/2026: 3 bước (mua hàng, sân bay, hoàn tiền) và 7 trường hợp không được hoàn tiền",
+      "sub_vi": "So sánh cũ và mới, thủ tục sân bay, trường hợp không được hoàn, lưu ý khi người thân sang",
+      "title_ko": "2026년 11월부터 일본 면세가 바뀌었다: 구매·공항·환급 3단계와 돈을 못 돌려받는 7가지 경우",
+      "sub_ko": "이전과 비교·공항 절차·환급 안 되는 경우·가족이 올 때 주의점"
     }
   ]
 }

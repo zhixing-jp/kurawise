@@ -29,9 +29,10 @@ const INTRO: Record<string, string> = {
   ja: 'クレジットカード・携帯電話・銀行・海外送金・部屋の契約など、暮らしのお金で損をしないための知恵を、具体的な数字で比べて紹介します。日本で暮らすすべての人に向けて書き、外国人の場合の注意点も添えています。' };
 const GROUPS: Record<string, Record<string, string>> = {
   remit: { ja: '海外送金で困ったとき', zh: '海外汇款遇到问题时', 'zh-TW': '海外匯款遇到問題時', en: 'Sending money abroad: when you get stuck', vi: 'Khi gặp khó khăn với chuyển tiền ra nước ngoài', ko: '해외 송금으로 곤란할 때' },
-  card: { ja: 'クレジットカード', zh: '信用卡', 'zh-TW': '信用卡', en: 'Credit cards', vi: 'Thẻ tín dụng', ko: '신용카드' }
+  card: { ja: 'クレジットカード', zh: '信用卡', 'zh-TW': '信用卡', en: 'Credit cards', vi: 'Thẻ tín dụng', ko: '신용카드' },
+  shopping: { ja: '買い物・免税', zh: '购物・免税', 'zh-TW': '購物・免稅', en: 'Shopping & tax-free', vi: 'Mua sắm & miễn thuế', ko: '쇼핑·면세' }
 };
-const ICON: Record<string, string> = { remit: '💸', card: '💳' };
+const ICON: Record<string, string> = { remit: '💸', card: '💳', shopping: '🛍️' };
 const groupOrder: string[] = [];
 for (const a of list) { const g = a.group || 'other'; if (!groupOrder.includes(g)) groupOrder.push(g); }
 const HEAD: Record<string, string> = { ja: '記事の一覧', zh: '文章列表', 'zh-TW': '文章列表', en: 'Articles', vi: 'Bài viết', ko: '글 목록' };

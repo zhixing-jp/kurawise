@@ -1,0 +1,1348 @@
+{
+  "id": "tax-free-refund-2026",
+  "checked": "2026-11-06",
+  "title_ja": "2026年11月から免税が変わった：買うとき・空港・返金の3ステップと、お金が戻らない7つの例",
+  "description_ja": "2026年11月1日から、免税は「いったん税込で払い、出国のときに空港の税関で確認を受けてから消費税分が返ってくる」仕組み（リファンド方式）になりました。新旧の違い、空港での手順、返金されない7つの例、家族や友人が日本に来るときの注意をまとめました。",
+  "sections_ja": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "<strong>2026年11月1日の購入分から</strong>、免税店では<strong>いったん消費税込みの値段で払い</strong>、出国のときに空港・港の<strong>税関で持ち出しの確認</strong>を受けてから、消費税分が返ってきます。確認は<strong>購入日から90日以内</strong>、<strong>荷物を預ける前</strong>に。同じレシートの品物が1つでも欠けると、<strong>そのレシートの全部が返金の対象外</strong>になります。"
+        }
+      ]
+    },
+    {
+      "heading": "1. 何が変わったか",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "項目",
+            "2026年10月まで",
+            "2026年11月から"
+          ],
+          "rows": [
+            [
+              "お店で払う金額",
+              "税抜き（その場で免税）",
+              "<strong>税込み</strong>（あとで返金）"
+            ],
+            [
+              "税金が戻るタイミング",
+              "買ったとき",
+              "<strong>出国時の税関確認のあと</strong>"
+            ],
+            [
+              "消耗品（食品・化粧品・薬など）の上限",
+              "1日50万円まで",
+              "<strong>上限なし</strong>（自分で持ち出せる量まで）"
+            ],
+            [
+              "消耗品の特殊包装（開けられない袋）",
+              "あり",
+              "<strong>なし</strong>。ただし日本で開けて使う・食べると返金なし"
+            ],
+            [
+              "一般物品と消耗品の区別",
+              "あり（合算に条件）",
+              "<strong>なし</strong>（合わせて5,000円以上でOK）"
+            ],
+            [
+              "最低購入額",
+              "同じ店・同じ日に税抜5,000円以上",
+              "同じ（税抜5,000円以上）"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "移行期間はありません。11月1日以降に買った免税品は、すべて新しい仕組みです。"
+        }
+      ]
+    },
+    {
+      "heading": "2. 3つのステップ",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "いつ",
+            "やること",
+            "注意"
+          ],
+          "rows": [
+            [
+              "買うとき",
+              "パスポートを見せ、税込みで払う。<strong>返金の受け取り方法を登録</strong>",
+              "受け取り方法（空港での現金・クレジットカード・口座・アプリなど）と<strong>手数料はお店ごとに違う</strong>。その場で確認"
+            ],
+            [
+              "出国の日（空港・港）",
+              "<strong>荷物を預ける前</strong>に、出発ロビーの端末にパスポートをかざす。「グリーン」なら終わり、「レッド」なら係員が品物を確認",
+              "免税品は<strong>全部手元に</strong>。預けたあとは手続きできず、荷物も戻せない。搭乗手続きまでに終える"
+            ],
+            [
+              "返金",
+              "税関の確認とお店の確認が済んだら、登録した方法で消費税分が戻る",
+              "戻るまでの日数は方法・事業者によって違う"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "成田・羽田・関西・中部・福岡・新千歳・那覇では、Visit Japan Web でのオンライン手続きも使えます（在留資格が「短期滞在」「外交」「公用」の人だけ）。"
+        }
+      ]
+    },
+    {
+      "heading": "3. お金が戻らない7つの例",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "こんなとき",
+            "防ぎ方"
+          ],
+          "rows": [
+            [
+              "免税品を入れたスーツケースを<strong>先に預けた</strong>",
+              "空港に着いたら、まず税関確認。それからチェックイン"
+            ],
+            [
+              "お菓子・化粧品を<strong>日本で開けて食べた・使った</strong>",
+              "日本で使う分は、免税にしないで買う"
+            ],
+            [
+              "<strong>購入日から90日</strong>を過ぎて出国した",
+              "11月1日に買ったら1月30日まで。長期滞在の人は特に注意"
+            ],
+            [
+              "同じレシートの品物を<strong>1つ人にあげた・家に置いてきた</strong>",
+              "お土産で渡す物は、レシートを分けて買う（免税にしない）"
+            ],
+            [
+              "空港に<strong>遅く着いて</strong>手続きが終わらなかった",
+              "国際線は早めに。手続きの途中で時間切れになると返金なし"
+            ],
+            [
+              "そもそも<strong>対象ではない人</strong>が免税で買った",
+              "日本に住んでいる人・働いている人は対象外（下の表）"
+            ],
+            [
+              "<strong>ほかの人の分</strong>を代わりに買った",
+              "免税は、自分で持ち出す本人の買い物だけ。転売目的も不可"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "すでに返金を受けていても、あとで税関確認がないと分かった場合は、返金した事業者などに返すよう求められることがあります。"
+        }
+      ]
+    },
+    {
+      "heading": "4. 対象になる人・ならない人",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "人",
+            "免税"
+          ],
+          "rows": [
+            [
+              "観光などで来た外国人（在留資格「短期滞在」など）",
+              "<strong>対象</strong>"
+            ],
+            [
+              "日本に住んでいる・働いている外国人（就労ビザ・留学・永住など）",
+              "<strong>対象外</strong>"
+            ],
+            [
+              "海外に2年以上住んでいる日本人（一時帰国）",
+              "対象（海外に住んでいることの証明が必要。マイナンバーカードでも確認可）"
+            ],
+            [
+              "クルーズ船で来た人",
+              "対象（船に乗る前に、港で税関確認）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 家族や友人が日本に来るとき",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>日本に住んでいる人は免税を使えません</strong>。家族のパスポートで、自分の物を免税で買うのは不可です。",
+            "家族が日本にいる間に<strong>あなたに渡す物・家で使う物は、免税にしない</strong>で買ってもらいます。",
+            "<strong>空港まで送るとき</strong>は、税関確認の時間を足して早めに出発。免税品は預ける荷物とは別にまとめておくと楽です。",
+            "<strong>返金の受け取り方法</strong>は、買うときにお店で決めます。現金を空港で受け取る方法は、対応していない店もあります。",
+            "自分で国際郵便で送る方法（別送）は、2025年3月末で終わりました。<strong>お店が直接海外へ送る</strong>サービスは免税のまま使えます。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. チェックリスト（来る家族・友人に転送用）",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "免税で買う前・出国の前に",
+          "items": [
+            "自分は対象（「短期滞在」など）だと確認した",
+            "買うときに、返金の受け取り方法と手数料を確認した",
+            "日本で使う・食べる物、人にあげる物は免税にしていない",
+            "出国日は、いちばん早い購入日から90日以内",
+            "免税品とレシートを、預けない手荷物にまとめた",
+            "空港には、税関確認の時間を足して早めに着く"
+          ],
+          "done": "これで空港でも慌てません。",
+          "hint": "チェックはこの画面の中だけで、どこにも送信されません。"
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "観光庁：旅行者向けの案内（日本語・英語・中国語・韓国語のチラシと動画あり）",
+              "href": "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00021.html"
+            },
+            {
+              "text": "国税庁：輸出物品販売場制度のリファンド方式への見直し",
+              "href": "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "出典：観光庁「免税制度（旅行者向け特設ページ）」、国税庁「輸出物品販売場制度のリファンド方式への見直し」。確認日：2026-11-06。返金の方法と手数料は、お店や返金の事業者ごとに確認してください。"
+        }
+      ]
+    }
+  ],
+  "title_zh": "日本退税2026年11月起变了：购物・机场・退款3步，和拿不回钱的7种情况",
+  "description_zh": "从2026年11月1日起，日本免税改成“先付含税价，出境时在机场海关确认后，再退还消费税”（退款方式）。新旧对比、机场怎么办、拿不回钱的7种情况、亲友来日本时要注意的地方，一次讲清楚。",
+  "sections_zh": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "结论",
+          "text": "<strong>2026年11月1日起买的东西</strong>，在免税店要<strong>先按含消费税的价格付款</strong>，出境时在机场・港口的<strong>海关确认带出境</strong>之后，才退还消费税。确认要在<strong>购买日起90天内</strong>、<strong>托运行李之前</strong>完成。同一张收据上的东西只要少一件，<strong>整张收据都不能退</strong>。"
+        }
+      ]
+    },
+    {
+      "heading": "一、变了什么",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "项目",
+            "到2026年10月",
+            "2026年11月起"
+          ],
+          "rows": [
+            [
+              "在店里付的钱",
+              "不含税（当场免税）",
+              "<strong>含税</strong>（之后退款）"
+            ],
+            [
+              "什么时候退税",
+              "购买时",
+              "<strong>出境时海关确认之后</strong>"
+            ],
+            [
+              "消耗品（食品・化妆品・药等）的上限",
+              "每天50万日元",
+              "<strong>没有上限</strong>（自己能带出境的量）"
+            ],
+            [
+              "消耗品的特殊包装（不能拆的袋子）",
+              "有",
+              "<strong>取消</strong>。但在日本拆开用了・吃了就不能退"
+            ],
+            [
+              "一般物品和消耗品的区分",
+              "有（合计有条件）",
+              "<strong>取消</strong>（合计满5,000日元即可）"
+            ],
+            [
+              "最低购买金额",
+              "同一家店・同一天不含税5,000日元以上",
+              "不变（不含税5,000日元以上）"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "没有过渡期。11月1日以后买的免税商品，全部按新规则。"
+        }
+      ]
+    },
+    {
+      "heading": "二、3个步骤",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "什么时候",
+            "要做的事",
+            "注意"
+          ],
+          "rows": [
+            [
+              "购买时",
+              "出示护照，按含税价付款。<strong>登记退款方式</strong>",
+              "退款方式（机场现金・信用卡・银行账户・App等）和<strong>手续费每家店都不同</strong>，当场确认"
+            ],
+            [
+              "出境当天（机场・港口）",
+              "<strong>托运行李之前</strong>，在出发大厅的机器上扫护照。显示“绿色”就完成，“红色”由工作人员检查商品",
+              "免税商品要<strong>全部带在身边</strong>。托运后不能再办，行李也拿不回来。要在值机前办完"
+            ],
+            [
+              "退款",
+              "海关确认和店家确认之后，按登记的方式退还消费税",
+              "到账天数因方式和公司而不同"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "成田・羽田・关西・中部・福冈・新千岁・那霸机场，也可以用 Visit Japan Web 在线办理（只限在留资格为“短期滞在”“外交”“公用”的人）。"
+        }
+      ]
+    },
+    {
+      "heading": "三、拿不回钱的7种情况",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "这种时候",
+            "怎么避免"
+          ],
+          "rows": [
+            [
+              "装免税品的行李箱<strong>先托运了</strong>",
+              "到机场先办海关确认，再值机"
+            ],
+            [
+              "零食・化妆品<strong>在日本拆开吃了・用了</strong>",
+              "在日本要用的，不要用免税买"
+            ],
+            [
+              "<strong>超过购买日起90天</strong>才出境",
+              "11月1日买的，要在1月30日前出境。长住的人特别注意"
+            ],
+            [
+              "同一张收据上的东西<strong>有一件送了人・放在了家里</strong>",
+              "要送人的东西，分开结账（不用免税）"
+            ],
+            [
+              "<strong>到机场太晚</strong>，手续没办完",
+              "国际航班早点到。办到一半时间不够，就不能退"
+            ],
+            [
+              "本来<strong>不符合条件的人</strong>用免税买了",
+              "住在日本・在日本工作的人不能免税（见下表）"
+            ],
+            [
+              "<strong>替别人</strong>买",
+              "免税只限自己带出境的本人购物。转卖目的也不行"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "就算已经拿到退款，之后发现没有海关确认的话，可能会被要求把钱还给退款公司等。"
+        }
+      ]
+    },
+    {
+      "heading": "四、谁能免税・谁不能",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "人",
+            "免税"
+          ],
+          "rows": [
+            [
+              "来旅游等的外国人（在留资格“短期滞在”等）",
+              "<strong>可以</strong>"
+            ],
+            [
+              "住在日本・在日本工作的外国人（工作签证・留学・永住等）",
+              "<strong>不可以</strong>"
+            ],
+            [
+              "在海外住了2年以上的日本人（临时回国）",
+              "可以（需要住在海外的证明。也可以用My Number卡确认）"
+            ],
+            [
+              "坐邮轮来的人",
+              "可以（上船前在港口办海关确认）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、亲友来日本时，在日本的你要注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>住在日本的人不能免税</strong>。用家人的护照，免税买自己的东西，是不可以的。",
+            "家人在日本期间<strong>要给你的东西・在家里用的东西，不要用免税买</strong>。",
+            "<strong>送他们去机场时</strong>，算上海关确认的时间，早点出发。把免税品和托运行李分开放，会轻松很多。",
+            "<strong>退款方式</strong>在购买时就要在店里决定。在机场领现金的方式，有的店不支持。",
+            "自己用国际邮寄寄回去（另行寄送）的方式，2025年3月底已经取消。<strong>由店家直接寄到海外</strong>的服务，仍然可以免税。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、检查清单（转给要来日本的亲友）",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "免税购物前・出境前",
+          "items": [
+            "确认自己符合条件（“短期滞在”等）",
+            "购买时确认了退款方式和手续费",
+            "在日本要用・要吃的，要送人的，没有用免税买",
+            "出境日在最早的购买日起90天内",
+            "免税品和收据，都放在不托运的随身行李里",
+            "算上海关确认的时间，早点到机场"
+          ],
+          "done": "这样到了机场也不会慌。",
+          "hint": "勾选只留在你的手机画面上，不会发送。"
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "日本观光厅：给旅客的说明（有日・英・中・韩语的传单和视频）",
+              "href": "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00021.html"
+            },
+            {
+              "text": "日本国税厅：免税店制度改为退款方式",
+              "href": "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "出处：日本观光厅“免税制度（旅客专页）”、日本国税厅“出口物品销售场制度改为退款方式”。确认日：2026-11-06。退款方式和手续费，请向店家或退款公司确认。"
+        }
+      ]
+    }
+  ],
+  "title_zh-TW": "日本退稅2026年11月起變了：購物・機場・退款3步，和拿不回錢的7種情況",
+  "description_zh-TW": "從2026年11月1日起，日本免稅改成“先付含稅價，出境時在機場海關確認後，再退還消費稅”（退款方式）。新舊對比、機場怎麼辦、拿不回錢的7種情況、親友來日本時要注意的地方，一次講清楚。",
+  "sections_zh-TW": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "結論",
+          "text": "<strong>2026年11月1日起買的東西</strong>，在免稅店要<strong>先按含消費稅的價格付款</strong>，出境時在機場・港口的<strong>海關確認帶出境</strong>之後，才退還消費稅。確認要在<strong>購買日起90天內</strong>、<strong>托執行李之前</strong>完成。同一張收據上的東西只要少一件，<strong>整張收據都不能退</strong>。"
+        }
+      ]
+    },
+    {
+      "heading": "一、變了什麼",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "專案",
+            "到2026年10月",
+            "2026年11月起"
+          ],
+          "rows": [
+            [
+              "在店裡付的錢",
+              "不含稅（當場免稅）",
+              "<strong>含稅</strong>（之後退款）"
+            ],
+            [
+              "什麼時候退稅",
+              "購買時",
+              "<strong>出境時海關確認之後</strong>"
+            ],
+            [
+              "消耗品（食品・化妝品・藥等）的上限",
+              "每天50萬日元",
+              "<strong>沒有上限</strong>（自己能帶出境的量）"
+            ],
+            [
+              "消耗品的特殊包裝（不能拆的袋子）",
+              "有",
+              "<strong>取消</strong>。但在日本拆開用了・吃了就不能退"
+            ],
+            [
+              "一般物品和消耗品的區分",
+              "有（合計有條件）",
+              "<strong>取消</strong>（合計滿5,000日元即可）"
+            ],
+            [
+              "最低購買金額",
+              "同一家店・同一天不含稅5,000日元以上",
+              "不變（不含稅5,000日元以上）"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "沒有過渡期。11月1日以後買的免稅商品，全部按新規則。"
+        }
+      ]
+    },
+    {
+      "heading": "二、3個步驟",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "什麼時候",
+            "要做的事",
+            "注意"
+          ],
+          "rows": [
+            [
+              "購買時",
+              "出示護照，按含稅價付款。<strong>登記退款方式</strong>",
+              "退款方式（機場現金・信用卡・銀行帳戶・App等）和<strong>手續費每家店都不同</strong>，當場確認"
+            ],
+            [
+              "出境當天（機場・港口）",
+              "<strong>托執行李之前</strong>，在出發大廳的機器上掃護照。顯示“綠色”就完成，“紅色”由工作人員檢查商品",
+              "免稅商品要<strong>全部帶在身邊</strong>。託運後不能再辦，行李也拿不回來。要在報到前辦完"
+            ],
+            [
+              "退款",
+              "海關確認和店家確認之後，按登記的方式退還消費稅",
+              "入帳天數因方式和公司而不同"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "成田・羽田・關西・中部・福岡・新千歲・那霸機場，也可以用 Visit Japan Web 線上辦理（只限在留資格為“短期滯在”“外交”“公用”的人）。"
+        }
+      ]
+    },
+    {
+      "heading": "三、拿不回錢的7種情況",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "這種時候",
+            "怎麼避免"
+          ],
+          "rows": [
+            [
+              "裝免稅品的行李箱<strong>先託運了</strong>",
+              "到機場先辦海關確認，再報到"
+            ],
+            [
+              "零食・化妝品<strong>在日本拆開吃了・用了</strong>",
+              "在日本要用的，不要用免稅買"
+            ],
+            [
+              "<strong>超過購買日起90天</strong>才出境",
+              "11月1日買的，要在1月30日前出境。長住的人特別注意"
+            ],
+            [
+              "同一張收據上的東西<strong>有一件送了人・放在了家裡</strong>",
+              "要送人的東西，分開結賬（不用免稅）"
+            ],
+            [
+              "<strong>到機場太晚</strong>，手續沒辦完",
+              "國際航班早點到。辦到一半時間不夠，就不能退"
+            ],
+            [
+              "本來<strong>不符合條件的人</strong>用免稅買了",
+              "住在日本・在日本工作的人不能免稅（見下表）"
+            ],
+            [
+              "<strong>替別人</strong>買",
+              "免稅只限自己帶出境的本人購物。轉賣目的也不行"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "就算已經拿到退款，之後發現沒有海關確認的話，可能會被要求把錢還給退款公司等。"
+        }
+      ]
+    },
+    {
+      "heading": "四、誰能免稅・誰不能",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "人",
+            "免稅"
+          ],
+          "rows": [
+            [
+              "來旅遊等的外國人（在留資格“短期滯在”等）",
+              "<strong>可以</strong>"
+            ],
+            [
+              "住在日本・在日本工作的外國人（工作簽證・留學・永住等）",
+              "<strong>不可以</strong>"
+            ],
+            [
+              "在海外住了2年以上的日本人（臨時回國）",
+              "可以（需要住在海外的證明。也可以用My Number卡確認）"
+            ],
+            [
+              "坐郵輪來的人",
+              "可以（上船前在港口辦海關確認）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "五、親友來日本時，在日本的你要注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>住在日本的人不能免稅</strong>。用家人的護照，免稅買自己的東西，是不可以的。",
+            "家人在日本期間<strong>要給你的東西・在家裡用的東西，不要用免稅買</strong>。",
+            "<strong>送他們去機場時</strong>，算上海關確認的時間，早點出發。把免稅品和托執行李分開放，會輕鬆很多。",
+            "<strong>退款方式</strong>在購買時就要在店裡決定。在機場領現金的方式，有的店不支援。",
+            "自己用國際郵寄寄回去（另行寄送）的方式，2025年3月底已經取消。<strong>由店家直接寄到海外</strong>的服務，仍然可以免稅。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "六、檢查清單（轉給要來日本的親友）",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "免稅購物前・出境前",
+          "items": [
+            "確認自己符合條件（“短期滯在”等）",
+            "購買時確認了退款方式和手續費",
+            "在日本要用・要吃的，要送人的，沒有用免稅買",
+            "出境日在最早的購買日起90天內",
+            "免稅品和收據，都放在不託運的隨身行李裡",
+            "算上海關確認的時間，早點到機場"
+          ],
+          "done": "這樣到了機場也不會慌。",
+          "hint": "勾選只留在你的手機畫面上，不會傳送。"
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "日本觀光廳：給旅客的說明（有日・英・中・韓語的傳單和影片）",
+              "href": "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00021.html"
+            },
+            {
+              "text": "日本國稅廳：免稅店制度改為退款方式",
+              "href": "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "出處：日本觀光廳“免稅制度（旅客專頁）”、日本國稅廳“出口物品銷售場制度改為退款方式”。確認日：2026-11-06。退款方式和手續費，請向店家或退款公司確認。"
+        }
+      ]
+    }
+  ],
+  "title_en": "Japan’s Tax-Free Shopping Changed in November 2026: 3 Steps (Shop, Airport, Refund) and 7 Ways to Lose Your Refund",
+  "description_en": "From November 1, 2026, tax-free shopping in Japan works as a refund: you pay the tax-inclusive price, customs confirms the goods at departure, and then the consumption tax is refunded. Old vs new rules, what to do at the airport, 7 cases with no refund, and tips when family or friends visit Japan.",
+  "sections_en": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Bottom line",
+          "text": "For purchases <strong>from November 1, 2026</strong>, tax-free shops charge the <strong>tax-inclusive price</strong>. The consumption tax is refunded only after <strong>customs confirms at the airport or seaport</strong> that you are taking the goods out of Japan. Do it <strong>within 90 days of purchase</strong> and <strong>before checking in your bags</strong>. If even one item on a receipt is missing, <strong>nothing on that receipt is refunded</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "1. What changed",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "Until Oct 2026",
+            "From Nov 2026"
+          ],
+          "rows": [
+            [
+              "What you pay in the shop",
+              "Tax-free on the spot",
+              "<strong>Tax-inclusive</strong> (refund later)"
+            ],
+            [
+              "When you get the tax back",
+              "At purchase",
+              "<strong>After customs confirmation at departure</strong>"
+            ],
+            [
+              "Limit on consumables (food, cosmetics, medicine)",
+              "¥500,000 per day",
+              "<strong>No limit</strong> (what you can carry out yourself)"
+            ],
+            [
+              "Sealed packaging for consumables",
+              "Required",
+              "<strong>Abolished</strong>, but no refund if you open and use or eat them in Japan"
+            ],
+            [
+              "General goods vs consumables",
+              "Separate",
+              "<strong>No distinction</strong> (¥5,000 combined is enough)"
+            ],
+            [
+              "Minimum purchase",
+              "¥5,000+ before tax, same shop, same day",
+              "Same (¥5,000+ before tax)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "There is no transition period. All tax-free goods bought on or after November 1 follow the new rules."
+        }
+      ]
+    },
+    {
+      "heading": "2. The 3 steps",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "When",
+            "What to do",
+            "Watch out"
+          ],
+          "rows": [
+            [
+              "At the shop",
+              "Show your passport and pay the tax-inclusive price. <strong>Register how you want the refund</strong>",
+              "Refund methods (cash at the airport, credit card, bank, app, etc.) and <strong>fees differ by shop</strong>. Check on the spot"
+            ],
+            [
+              "Departure day (airport/seaport)",
+              "<strong>Before checking in bags</strong>, scan your passport at a kiosk in the departure lobby. “Green” means done; “Red” means an officer checks the goods",
+              "Keep <strong>all tax-free goods with you</strong>. You cannot do it after checking bags, and checked bags cannot be retrieved. Finish before check-in"
+            ],
+            [
+              "Refund",
+              "After customs and the shop confirm, the tax is refunded by the method you registered",
+              "How long it takes depends on the method and provider"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "At Narita, Haneda, Kansai, Chubu, Fukuoka, New Chitose and Naha, you can also use Visit Japan Web online (only for “Temporary Visitor”, “Diplomat” or “Official” status)."
+        }
+      ]
+    },
+    {
+      "heading": "3. 7 ways to lose your refund",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "If you…",
+            "How to avoid it"
+          ],
+          "rows": [
+            [
+              "<strong>Checked in</strong> the suitcase with tax-free goods first",
+              "At the airport, do customs confirmation first, then check in"
+            ],
+            [
+              "<strong>Opened and ate or used</strong> snacks or cosmetics in Japan",
+              "Don’t buy tax-free what you will use in Japan"
+            ],
+            [
+              "Left Japan <strong>more than 90 days after purchase</strong>",
+              "Bought on Nov 1? Leave by Jan 30. Watch out on long stays"
+            ],
+            [
+              "<strong>Gave away or left behind one item</strong> from the same receipt",
+              "Pay for gifts separately (not tax-free)"
+            ],
+            [
+              "Arrived at the airport <strong>too late</strong> to finish",
+              "Arrive early. If time runs out mid-procedure, no refund"
+            ],
+            [
+              "<strong>Weren’t eligible</strong> in the first place",
+              "People living or working in Japan are not eligible (see below)"
+            ],
+            [
+              "Bought <strong>for someone else</strong>",
+              "Tax-free is only for the person who carries the goods out. No resale"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Even if you already got the refund, you may be asked to pay it back if customs confirmation turns out to be missing."
+        }
+      ]
+    },
+    {
+      "heading": "4. Who is eligible",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Person",
+            "Tax-free"
+          ],
+          "rows": [
+            [
+              "Foreign visitors (e.g. “Temporary Visitor” status)",
+              "<strong>Yes</strong>"
+            ],
+            [
+              "Foreigners living or working in Japan (work visa, student, permanent resident, etc.)",
+              "<strong>No</strong>"
+            ],
+            [
+              "Japanese nationals living abroad for 2+ years (visiting home)",
+              "Yes (proof of residence abroad needed; My Number Card can also be used)"
+            ],
+            [
+              "Cruise passengers",
+              "Yes (customs confirmation at the port before boarding)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. When family or friends visit you in Japan",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>If you live in Japan, you can’t shop tax-free</strong>. Using a family member’s passport to buy things for yourself is not allowed.",
+            "Things they will <strong>give you or use at your home</strong> should not be bought tax-free.",
+            "<strong>When you take them to the airport</strong>, leave early to allow time for customs. Pack tax-free goods separately from checked bags.",
+            "The <strong>refund method</strong> is chosen at the shop. Not every shop offers cash at the airport.",
+            "Sending goods yourself by international mail was abolished at the end of March 2025. <strong>Direct shipping abroad by the shop</strong> is still tax-free."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Checklist (forward this to visiting family and friends)",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Before tax-free shopping and before departure",
+          "items": [
+            "I’m eligible (e.g. “Temporary Visitor”)",
+            "I checked the refund method and fees when buying",
+            "Nothing I’ll use, eat or give away in Japan was bought tax-free",
+            "My departure is within 90 days of my earliest purchase",
+            "Tax-free goods and receipts are in my carry-on, not checked bags",
+            "I’ll arrive at the airport early to allow time for customs"
+          ],
+          "done": "You’re ready for the airport.",
+          "hint": "Your ticks stay on this screen only and are not sent anywhere."
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Japan Tourism Agency: guide for travelers (leaflets and videos in Japanese, English, Chinese and Korean)",
+              "href": "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00021.html"
+            },
+            {
+              "text": "National Tax Agency: tax-free shop system moves to refund method (Japanese)",
+              "href": "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Sources: Japan Tourism Agency (tax-free page for travelers), National Tax Agency (refund method revision). Checked: 2026-11-06. Check refund methods and fees with the shop or refund provider."
+        }
+      ]
+    }
+  ],
+  "title_vi": "Miễn thuế ở Nhật thay đổi từ tháng 11/2026: 3 bước (mua hàng, sân bay, hoàn tiền) và 7 trường hợp không được hoàn tiền",
+  "description_vi": "Từ ngày 1/11/2026, miễn thuế ở Nhật chuyển sang hình thức hoàn tiền: trả giá đã gồm thuế, hải quan xác nhận khi xuất cảnh, sau đó mới hoàn lại thuế tiêu dùng. So sánh quy định cũ và mới, thủ tục ở sân bay, 7 trường hợp không được hoàn tiền, lưu ý khi người thân, bạn bè sang Nhật.",
+  "sections_vi": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "Kết luận",
+          "text": "Với hàng mua <strong>từ ngày 1/11/2026</strong>, cửa hàng miễn thuế sẽ thu <strong>giá đã gồm thuế tiêu dùng</strong>. Thuế chỉ được hoàn lại sau khi <strong>hải quan ở sân bay, cảng xác nhận</strong> bạn mang hàng ra khỏi Nhật. Phải làm <strong>trong vòng 90 ngày kể từ ngày mua</strong> và <strong>trước khi ký gửi hành lý</strong>. Chỉ cần thiếu một món trong cùng một hóa đơn, <strong>cả hóa đơn đó sẽ không được hoàn</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "1. Những gì đã thay đổi",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Mục",
+            "Đến 10/2026",
+            "Từ 11/2026"
+          ],
+          "rows": [
+            [
+              "Số tiền trả ở cửa hàng",
+              "Chưa gồm thuế (miễn ngay)",
+              "<strong>Đã gồm thuế</strong> (hoàn sau)"
+            ],
+            [
+              "Khi nào được trả lại thuế",
+              "Lúc mua",
+              "<strong>Sau khi hải quan xác nhận lúc xuất cảnh</strong>"
+            ],
+            [
+              "Giới hạn hàng tiêu hao (thực phẩm, mỹ phẩm, thuốc)",
+              "500.000 yên/ngày",
+              "<strong>Không giới hạn</strong> (lượng tự mang ra được)"
+            ],
+            [
+              "Bao bì niêm phong cho hàng tiêu hao",
+              "Có",
+              "<strong>Bỏ</strong>. Nhưng mở ra dùng, ăn ở Nhật thì không được hoàn"
+            ],
+            [
+              "Phân biệt hàng thông thường và hàng tiêu hao",
+              "Có",
+              "<strong>Không còn</strong> (cộng chung từ 5.000 yên là được)"
+            ],
+            [
+              "Số tiền mua tối thiểu",
+              "Từ 5.000 yên chưa thuế, cùng cửa hàng, cùng ngày",
+              "Không đổi (từ 5.000 yên chưa thuế)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Không có thời gian chuyển tiếp. Mọi hàng miễn thuế mua từ ngày 1/11 đều theo quy định mới."
+        }
+      ]
+    },
+    {
+      "heading": "2. 3 bước",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Khi nào",
+            "Việc cần làm",
+            "Lưu ý"
+          ],
+          "rows": [
+            [
+              "Khi mua",
+              "Xuất trình hộ chiếu, trả giá đã gồm thuế. <strong>Đăng ký cách nhận tiền hoàn</strong>",
+              "Cách nhận (tiền mặt ở sân bay, thẻ tín dụng, tài khoản, ứng dụng…) và <strong>phí khác nhau tùy cửa hàng</strong>. Hỏi ngay tại chỗ"
+            ],
+            [
+              "Ngày xuất cảnh (sân bay, cảng)",
+              "<strong>Trước khi ký gửi hành lý</strong>, quét hộ chiếu ở máy tại sảnh khởi hành. “Xanh” là xong, “Đỏ” thì nhân viên kiểm tra hàng",
+              "Mang <strong>toàn bộ hàng miễn thuế bên mình</strong>. Đã ký gửi thì không làm được, cũng không lấy lại hành lý được. Phải xong trước khi làm thủ tục lên máy bay"
+            ],
+            [
+              "Hoàn tiền",
+              "Sau khi hải quan và cửa hàng xác nhận, thuế được hoàn theo cách đã đăng ký",
+              "Số ngày nhận tiền tùy cách nhận và đơn vị xử lý"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Tại Narita, Haneda, Kansai, Chubu, Fukuoka, New Chitose và Naha có thể làm trực tuyến bằng Visit Japan Web (chỉ cho tư cách lưu trú “Lưu trú ngắn hạn”, “Ngoại giao”, “Công vụ”)."
+        }
+      ]
+    },
+    {
+      "heading": "3. 7 trường hợp không được hoàn tiền",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Khi bạn…",
+            "Cách tránh"
+          ],
+          "rows": [
+            [
+              "<strong>Ký gửi trước</strong> vali có hàng miễn thuế",
+              "Đến sân bay, làm xác nhận hải quan trước rồi mới check-in"
+            ],
+            [
+              "<strong>Mở ra ăn, dùng</strong> bánh kẹo, mỹ phẩm ở Nhật",
+              "Thứ dùng ở Nhật thì đừng mua miễn thuế"
+            ],
+            [
+              "Xuất cảnh <strong>quá 90 ngày kể từ ngày mua</strong>",
+              "Mua ngày 1/11 thì xuất cảnh trước 30/1. Ở lâu cần đặc biệt chú ý"
+            ],
+            [
+              "<strong>Tặng người khác hoặc để lại một món</strong> trong cùng hóa đơn",
+              "Quà tặng thì thanh toán riêng (không miễn thuế)"
+            ],
+            [
+              "Đến sân bay <strong>quá muộn</strong>, không làm xong thủ tục",
+              "Đến sớm. Hết giờ giữa chừng là không được hoàn"
+            ],
+            [
+              "Vốn dĩ <strong>không thuộc diện</strong> được miễn thuế",
+              "Người sống, làm việc ở Nhật không được (xem bảng dưới)"
+            ],
+            [
+              "<strong>Mua hộ người khác</strong>",
+              "Miễn thuế chỉ dành cho chính người mang hàng ra. Không được mua để bán lại"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Dù đã nhận tiền hoàn, nếu sau đó phát hiện không có xác nhận hải quan, bạn có thể bị yêu cầu trả lại tiền."
+        }
+      ]
+    },
+    {
+      "heading": "4. Ai được miễn thuế",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Người",
+            "Miễn thuế"
+          ],
+          "rows": [
+            [
+              "Người nước ngoài sang du lịch… (tư cách “Lưu trú ngắn hạn”…)",
+              "<strong>Được</strong>"
+            ],
+            [
+              "Người nước ngoài sống, làm việc ở Nhật (visa lao động, du học, vĩnh trú…)",
+              "<strong>Không được</strong>"
+            ],
+            [
+              "Người Nhật sống ở nước ngoài từ 2 năm trở lên (về nước tạm thời)",
+              "Được (cần giấy tờ chứng minh sống ở nước ngoài; cũng có thể dùng thẻ My Number)"
+            ],
+            [
+              "Người đến bằng tàu du lịch",
+              "Được (xác nhận hải quan tại cảng trước khi lên tàu)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Khi người thân, bạn bè sang Nhật",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Người sống ở Nhật không được miễn thuế</strong>. Không được dùng hộ chiếu của người thân để mua đồ miễn thuế cho mình.",
+            "Những thứ người thân <strong>sẽ đưa cho bạn hoặc dùng ở nhà bạn</strong> thì đừng mua miễn thuế.",
+            "<strong>Khi đưa ra sân bay</strong>, hãy đi sớm để có thời gian cho hải quan. Để hàng miễn thuế riêng với hành lý ký gửi sẽ tiện hơn.",
+            "<strong>Cách nhận tiền hoàn</strong> được chọn ngay tại cửa hàng khi mua. Không phải cửa hàng nào cũng có nhận tiền mặt ở sân bay.",
+            "Cách tự gửi bưu điện quốc tế (gửi riêng) đã bị bỏ từ cuối tháng 3/2025. <strong>Dịch vụ cửa hàng gửi thẳng ra nước ngoài</strong> vẫn được miễn thuế."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. Danh sách kiểm tra (gửi cho người thân, bạn bè sắp sang)",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "Trước khi mua miễn thuế và trước khi xuất cảnh",
+          "items": [
+            "Đã xác nhận mình thuộc diện được (“Lưu trú ngắn hạn”…)",
+            "Khi mua đã hỏi cách nhận tiền hoàn và phí",
+            "Không mua miễn thuế những thứ sẽ dùng, ăn hoặc tặng ở Nhật",
+            "Ngày xuất cảnh trong vòng 90 ngày kể từ ngày mua sớm nhất",
+            "Hàng miễn thuế và hóa đơn để trong hành lý xách tay, không ký gửi",
+            "Sẽ đến sân bay sớm để có thời gian cho hải quan"
+          ],
+          "done": "Vậy là ra sân bay không còn lo.",
+          "hint": "Dấu tích chỉ lưu trên màn hình này, không gửi đi đâu."
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "Cục Du lịch Nhật Bản: hướng dẫn cho du khách (tờ rơi, video tiếng Nhật, Anh, Trung, Hàn)",
+              "href": "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00021.html"
+            },
+            {
+              "text": "Cục Thuế Quốc gia Nhật Bản: chuyển sang hình thức hoàn tiền (tiếng Nhật)",
+              "href": "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Nguồn: Cục Du lịch Nhật Bản (trang miễn thuế cho du khách), Cục Thuế Quốc gia Nhật Bản (chuyển sang hình thức hoàn tiền). Ngày kiểm tra: 2026-11-06. Hãy hỏi cửa hàng hoặc đơn vị hoàn tiền về cách nhận và phí."
+        }
+      ]
+    }
+  ],
+  "title_ko": "2026년 11월부터 일본 면세가 바뀌었다: 구매·공항·환급 3단계와 돈을 못 돌려받는 7가지 경우",
+  "description_ko": "2026년 11월 1일부터 일본 면세는 “일단 세금 포함 가격으로 결제하고, 출국 때 공항 세관 확인을 받은 뒤 소비세를 환급받는” 방식(리펀드 방식)이 되었습니다. 이전과의 차이, 공항 절차, 환급받지 못하는 7가지 경우, 가족·친구가 일본에 올 때의 주의점을 정리했습니다.",
+  "sections_ko": [
+    {
+      "heading": null,
+      "blocks": [
+        {
+          "t": "lead",
+          "label": "결론",
+          "text": "<strong>2026년 11월 1일 구매분부터</strong> 면세점에서는 <strong>일단 소비세 포함 가격으로 결제</strong>하고, 출국 때 공항·항구 <strong>세관에서 반출 확인</strong>을 받은 뒤 소비세가 환급됩니다. 확인은 <strong>구매일로부터 90일 이내</strong>, <strong>짐을 맡기기 전</strong>에 해야 합니다. 같은 영수증의 물건이 하나라도 없으면 <strong>그 영수증 전체가 환급 대상에서 빠집니다</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "1. 무엇이 바뀌었나",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "항목",
+            "2026년 10월까지",
+            "2026년 11월부터"
+          ],
+          "rows": [
+            [
+              "매장에서 내는 금액",
+              "세금 제외(그 자리에서 면세)",
+              "<strong>세금 포함</strong>(나중에 환급)"
+            ],
+            [
+              "세금이 돌아오는 시점",
+              "구매할 때",
+              "<strong>출국 시 세관 확인 후</strong>"
+            ],
+            [
+              "소모품(식품·화장품·약 등) 상한",
+              "하루 50만 엔",
+              "<strong>상한 없음</strong>(직접 가지고 나갈 수 있는 양)"
+            ],
+            [
+              "소모품 특수 포장(뜯을 수 없는 봉투)",
+              "있음",
+              "<strong>폐지</strong>. 단, 일본에서 뜯어 쓰거나 먹으면 환급 없음"
+            ],
+            [
+              "일반 물품과 소모품 구분",
+              "있음",
+              "<strong>없음</strong>(합쳐서 5,000엔 이상이면 OK)"
+            ],
+            [
+              "최저 구매액",
+              "같은 매장·같은 날 세전 5,000엔 이상",
+              "동일(세전 5,000엔 이상)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "경과 기간은 없습니다. 11월 1일 이후에 산 면세품은 모두 새 방식입니다."
+        }
+      ]
+    },
+    {
+      "heading": "2. 3단계",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "언제",
+            "할 일",
+            "주의"
+          ],
+          "rows": [
+            [
+              "구매할 때",
+              "여권을 보여 주고 세금 포함 가격으로 결제. <strong>환급 받을 방법을 등록</strong>",
+              "환급 방법(공항 현금·신용카드·계좌·앱 등)과 <strong>수수료는 매장마다 다름</strong>. 그 자리에서 확인"
+            ],
+            [
+              "출국일(공항·항구)",
+              "<strong>짐을 맡기기 전</strong> 출발 로비의 단말기에 여권을 대기. “그린”이면 끝, “레드”면 직원이 물건을 확인",
+              "면세품은 <strong>전부 몸에 지닐 것</strong>. 맡긴 뒤에는 절차 불가, 짐도 되찾을 수 없음. 탑승 수속 전까지 끝내기"
+            ],
+            [
+              "환급",
+              "세관 확인과 매장 확인이 끝나면 등록한 방법으로 소비세가 돌아옴",
+              "돌아오기까지의 일수는 방법·사업자마다 다름"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "나리타·하네다·간사이·주부·후쿠오카·신치토세·나하 공항에서는 Visit Japan Web 온라인 절차도 쓸 수 있습니다(체류 자격이 “단기체재”“외교”“공용”인 사람만)."
+        }
+      ]
+    },
+    {
+      "heading": "3. 돈을 못 돌려받는 7가지 경우",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "이럴 때",
+            "피하는 법"
+          ],
+          "rows": [
+            [
+              "면세품이 든 캐리어를 <strong>먼저 맡겼다</strong>",
+              "공항에 도착하면 먼저 세관 확인, 그다음 체크인"
+            ],
+            [
+              "과자·화장품을 <strong>일본에서 뜯어 먹었다·썼다</strong>",
+              "일본에서 쓸 것은 면세로 사지 않기"
+            ],
+            [
+              "<strong>구매일로부터 90일</strong>이 지나 출국했다",
+              "11월 1일에 샀다면 1월 30일까지. 장기 체류자는 특히 주의"
+            ],
+            [
+              "같은 영수증의 물건 <strong>하나를 남에게 줬다·집에 두고 왔다</strong>",
+              "선물할 물건은 따로 결제(면세 X)"
+            ],
+            [
+              "공항에 <strong>늦게 도착</strong>해 절차를 못 끝냈다",
+              "국제선은 일찍. 절차 도중 시간이 다 되면 환급 없음"
+            ],
+            [
+              "원래 <strong>대상이 아닌 사람</strong>이 면세로 샀다",
+              "일본에 살거나 일하는 사람은 대상 외(아래 표)"
+            ],
+            [
+              "<strong>다른 사람 몫</strong>을 대신 샀다",
+              "면세는 직접 가지고 나가는 본인의 구매만. 되팔기 목적도 불가"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "이미 환급을 받았더라도 나중에 세관 확인이 없었던 것으로 밝혀지면, 환급한 사업자 등에 돌려주라는 요구를 받을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "heading": "4. 대상인 사람·아닌 사람",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "사람",
+            "면세"
+          ],
+          "rows": [
+            [
+              "관광 등으로 온 외국인(체류 자격 “단기체재” 등)",
+              "<strong>대상</strong>"
+            ],
+            [
+              "일본에 살거나 일하는 외국인(취업 비자·유학·영주 등)",
+              "<strong>대상 외</strong>"
+            ],
+            [
+              "해외에 2년 이상 사는 일본인(일시 귀국)",
+              "대상(해외 거주 증명 필요. 마이넘버 카드로도 확인 가능)"
+            ],
+            [
+              "크루즈선으로 온 사람",
+              "대상(배에 타기 전 항구에서 세관 확인)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 가족·친구가 일본에 올 때",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>일본에 사는 사람은 면세를 쓸 수 없습니다</strong>. 가족 여권으로 내 물건을 면세로 사는 것은 안 됩니다.",
+            "가족이 일본에 있는 동안 <strong>나에게 줄 물건·집에서 쓸 물건은 면세로 사지 않게</strong> 합니다.",
+            "<strong>공항까지 배웅할 때</strong>는 세관 확인 시간을 더해 일찍 출발. 면세품은 맡길 짐과 따로 챙기면 편합니다.",
+            "<strong>환급 받는 방법</strong>은 살 때 매장에서 정합니다. 공항 현금 수령은 지원하지 않는 매장도 있습니다.",
+            "직접 국제우편으로 보내는 방법(별송)은 2025년 3월 말에 끝났습니다. <strong>매장이 해외로 직접 보내는</strong> 서비스는 면세 그대로 이용할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6. 체크리스트(일본에 오는 가족·친구에게 전달용)",
+      "blocks": [
+        {
+          "t": "checklist",
+          "title": "면세로 사기 전·출국 전",
+          "items": [
+            "나는 대상(“단기체재” 등)임을 확인했다",
+            "살 때 환급 방법과 수수료를 확인했다",
+            "일본에서 쓰거나 먹을 것, 남에게 줄 것은 면세로 사지 않았다",
+            "출국일은 가장 이른 구매일로부터 90일 이내",
+            "면세품과 영수증은 맡기지 않는 기내 짐에 모았다",
+            "세관 확인 시간을 더해 공항에 일찍 도착한다"
+          ],
+          "done": "이제 공항에서도 당황하지 않습니다.",
+          "hint": "체크는 이 화면에만 남고 어디에도 전송되지 않습니다."
+        },
+        {
+          "t": "links",
+          "items": [
+            {
+              "text": "일본 관광청: 여행자 안내(일본어·영어·중국어·한국어 전단과 동영상)",
+              "href": "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00021.html"
+            },
+            {
+              "text": "일본 국세청: 면세점 제도의 리펀드 방식 전환(일본어)",
+              "href": "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "text": "출처: 일본 관광청 “면세 제도(여행자용 특설 페이지)”, 일본 국세청 “수출물품 판매장 제도의 리펀드 방식 전환”. 확인일: 2026-11-06. 환급 방법과 수수료는 매장이나 환급 사업자에게 확인하세요."
+        }
+      ]
+    }
+  ]
+}
