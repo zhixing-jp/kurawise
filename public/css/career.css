@@ -631,3 +631,8 @@
 .ob-remit .ob-small { display: block; font-weight: 400; }
 .ob-offer { margin: 6px 0 14px; }
 .ob-offer-text { font-size: 14.5px; line-height: 1.7; color: var(--t1); margin: 0; }
+
+/* 図（2026-11-06）：記事の中の示意図。横幅いっぱい・角丸・枠 */
+.cb-fig { margin: 6px 0 14px; }
+.cb-fig img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--r-md); background: #fff; }
+.cb-fig figcaption { font-size: 13px; color: var(--t2); margin-top: 6px; }

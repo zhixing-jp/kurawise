@@ -49,6 +49,8 @@ function maxOf(items: any[]) { return Math.max(...items.map((i) => i.value)); }
         <ol class="cb-list cb-ol">{b.items.map((i: string) => <li set:html={i} />)}</ol>
       ) : b.t === 'ul' ? (
         <ul class="cb-list">{b.items.map((i: string) => <li set:html={i} />)}</ul>
+      ) : b.t === 'figure' ? (
+        <figure class="cb-fig"><img src={b.src} width={b.w} height={b.h} alt={b.alt} loading="lazy" decoding="async" />{b.caption && <figcaption set:html={b.caption} />}</figure>
       ) : b.t === 'note' ? (
         <p class="cb-note" set:html={b.text} />
       ) : b.t === 'links' ? (

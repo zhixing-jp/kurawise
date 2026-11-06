@@ -98,7 +98,67 @@
       ]
     },
     {
-      "heading": "3. お金が戻らない7つの例",
+      "heading": "3. 空港で、どこで・どうやるか",
+      "blocks": [
+        {
+          "t": "figure",
+          "src": "/img/kurashi/tax-free-flow-ja.webp",
+          "w": 1080,
+          "h": 2139,
+          "alt": "空港での免税の返金の流れ：チェックイン前に免税手続端末でパスポート→グリーンなら終了・レッドなら税関検査→荷物を預ける→保安検査・出国審査→現金またはカード等で返金"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "空港に着いたら、<strong>チェックインカウンターに行く前に</strong>、国際線出発ロビー（保安検査の手前）にある<strong>「免税手続端末（Customs Tax Refund）」</strong>へ行く",
+            "購入した本人が<strong>パスポートを端末にかざす</strong>。免税品は全部手元に",
+            "画面が<strong>「グリーン」なら終わり</strong>。<strong>「レッド」なら</strong>近くの<strong>税関の検査場所</strong>で品物を見せる",
+            "ここで初めて、<strong>荷物を預けてチェックイン</strong>",
+            "<strong>現金で受け取る</strong>なら、空港の<strong>現金返金端末・カウンター</strong>でパスポートをかざす（約1分。日本円のみ）。<strong>カード・QRコード決済・銀行振込</strong>なら、買ったときに案内された方法で手続き（空港での作業は不要）"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "空港",
+            "税関確認（チェックイン前）",
+            "現金の返金"
+          ],
+          "rows": [
+            [
+              "成田",
+              "第1ターミナル中央ビル4階・第2ターミナル本館3階（保安検査前、5:30〜23:00）",
+              "保安検査前の端末（6:00〜24:00）、保安検査後の端末（24時間）"
+            ],
+            [
+              "羽田 第3ターミナル",
+              "3階 保安検査前（24時間、13台）",
+              "3階 保安検査後のセルフ還付端末（24時間）"
+            ],
+            [
+              "関西",
+              "第1ターミナル4階 出発ロビー（12台）・第2ターミナル（4台）",
+              "出国審査を通ったあとの端末・カウンター"
+            ],
+            [
+              "そのほか（中部・福岡・新千歳・那覇・神戸など）",
+              "国際線出発ロビーの保安検査前",
+              "空港の案内で「Tax Refund」を確認"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "<strong>保安検査・出国審査を通ったあとは、税関確認はできません</strong>。混んでいるときは、出発ロビーの専用Wi-Fiにつないで Visit Japan Web で手続きすることもできます（対象の7空港・「短期滞在」などの人だけ）。"
+        },
+        {
+          "t": "note",
+          "text": "<strong>お店によっては、空港での現金返金に対応していません</strong>。買うときに「空港で現金で返金できますか？」と聞いておくと安心です。"
+        }
+      ]
+    },
+    {
+      "heading": "4. お金が戻らない7つの例",
       "blocks": [
         {
           "t": "table",
@@ -144,7 +204,7 @@
       ]
     },
     {
-      "heading": "4. 対象になる人・ならない人",
+      "heading": "5. 対象になる人・ならない人",
       "blocks": [
         {
           "t": "table",
@@ -174,7 +234,7 @@
       ]
     },
     {
-      "heading": "5. 家族や友人が日本に来るとき",
+      "heading": "6. 家族や友人が日本に来るとき",
       "blocks": [
         {
           "t": "ul",
@@ -189,7 +249,7 @@
       ]
     },
     {
-      "heading": "6. チェックリスト（来る家族・友人に転送用）",
+      "heading": "7. チェックリスト（来る家族・友人に転送用）",
       "blocks": [
         {
           "t": "checklist",
@@ -220,7 +280,7 @@
         },
         {
           "t": "note",
-          "text": "出典：観光庁「免税制度（旅行者向け特設ページ）」、国税庁「輸出物品販売場制度のリファンド方式への見直し」。確認日：2026-11-06。返金の方法と手数料は、お店や返金の事業者ごとに確認してください。"
+          "text": "出典：観光庁「免税制度（旅行者向け特設ページ）」、国税庁「輸出物品販売場制度のリファンド方式への見直し」、税関、成田・羽田・関西空港の案内。確認日：2026-11-06。返金の方法と手数料は、お店や返金の事業者ごとに確認してください。"
         }
       ]
     }
@@ -322,7 +382,67 @@
       ]
     },
     {
-      "heading": "三、拿不回钱的7种情况",
+      "heading": "三、在机场具体在哪办・怎么办",
+      "blocks": [
+        {
+          "t": "figure",
+          "src": "/img/kurashi/tax-free-flow-zh.webp",
+          "w": 1080,
+          "h": 2031,
+          "alt": "机场退税流程：值机前在免税手续机扫护照→绿色完成・红色到海关检查→托运值机→安检・出境审查→领现金或退到卡等"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "到了机场，<strong>先不要去值机柜台</strong>，到国际线出发大厅（安检前）的<strong>“免税手续机（Customs Tax Refund）”</strong>",
+            "由购买本人<strong>把护照放到机器上扫描</strong>。免税品全部带在身边",
+            "屏幕显示<strong>“绿色”就完成</strong>。<strong>显示“红色”</strong>，到旁边的<strong>海关检查处</strong>出示商品",
+            "办完之后，<strong>再去托运行李・值机</strong>",
+            "<strong>要领现金</strong>的话，在机场的<strong>现金退款机・柜台</strong>扫护照领取（约1分钟，只有日元）。<strong>退到信用卡・扫码支付・银行账户</strong>的话，按购买时店家告诉你的方法办理（机场不用另外操作）"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "机场",
+            "海关确认（值机前）",
+            "领现金"
+          ],
+          "rows": [
+            [
+              "成田",
+              "第1航站楼中央楼4楼・第2航站楼本馆3楼（安检前，5:30〜23:00）",
+              "安检前的机器（6:00〜24:00）、安检后的机器（24小时）"
+            ],
+            [
+              "羽田 第3航站楼",
+              "3楼安检前（24小时，13台）",
+              "3楼安检后的自助退税机（24小时）"
+            ],
+            [
+              "关西",
+              "第1航站楼4楼出发大厅（12台）・第2航站楼（4台）",
+              "过了出境审查之后的机器・柜台"
+            ],
+            [
+              "其他（中部・福冈・新千岁・那霸・神户等）",
+              "国际线出发大厅的安检前",
+              "看机场的“Tax Refund”指示"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "<strong>过了安检・出境审查，就不能再办海关确认了</strong>。排队人多时，也可以在出发大厅连上专用Wi-Fi，用 Visit Japan Web 在手机上办（只限对应的7个机场・“短期滞在”等身份的人）。"
+        },
+        {
+          "t": "note",
+          "text": "<strong>有的店不支持在机场领现金</strong>。购买时先问一句：“空港で現金で返金できますか？”（在机场可以领现金退款吗？）比较放心。"
+        }
+      ]
+    },
+    {
+      "heading": "四、拿不回钱的7种情况",
       "blocks": [
         {
           "t": "table",
@@ -368,7 +488,7 @@
       ]
     },
     {
-      "heading": "四、谁能免税・谁不能",
+      "heading": "五、谁能免税・谁不能",
       "blocks": [
         {
           "t": "table",
@@ -398,7 +518,7 @@
       ]
     },
     {
-      "heading": "五、亲友来日本时，在日本的你要注意",
+      "heading": "六、亲友来日本时，在日本的你要注意",
       "blocks": [
         {
           "t": "ul",
@@ -413,7 +533,7 @@
       ]
     },
     {
-      "heading": "六、检查清单（转给要来日本的亲友）",
+      "heading": "七、检查清单（转给要来日本的亲友）",
       "blocks": [
         {
           "t": "checklist",
@@ -444,7 +564,7 @@
         },
         {
           "t": "note",
-          "text": "出处：日本观光厅“免税制度（旅客专页）”、日本国税厅“出口物品销售场制度改为退款方式”。确认日：2026-11-06。退款方式和手续费，请向店家或退款公司确认。"
+          "text": "出处：日本观光厅“免税制度（旅客专页）”、日本国税厅“出口物品销售场制度改为退款方式”、日本海关、成田・羽田・关西机场的说明。确认日：2026-11-06。退款方式和手续费，请向店家或退款公司确认。"
         }
       ]
     }
@@ -546,7 +666,67 @@
       ]
     },
     {
-      "heading": "三、拿不回錢的7種情況",
+      "heading": "三、在機場具體在哪辦・怎麼辦",
+      "blocks": [
+        {
+          "t": "figure",
+          "src": "/img/kurashi/tax-free-flow-zh-TW.webp",
+          "w": 1080,
+          "h": 2031,
+          "alt": "機場退稅流程：報到前在免稅手續機掃護照→綠色完成・紅色到海關檢查→託運報到→安檢・出境審查→領現金或退到卡等"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "到了機場，<strong>先不要去報到櫃臺</strong>，到國際線出發大廳（安檢前）的<strong>“免稅手續機（Customs Tax Refund）”</strong>",
+            "由購買本人<strong>把護照放到機器上掃描</strong>。免稅品全部帶在身邊",
+            "螢幕顯示<strong>“綠色”就完成</strong>。<strong>顯示“紅色”</strong>，到旁邊的<strong>海關檢查處</strong>出示商品",
+            "辦完之後，<strong>再去托執行李・報到</strong>",
+            "<strong>要領現金</strong>的話，在機場的<strong>現金退款機・櫃檯</strong>掃護照領取（約1分鐘，只有日元）。<strong>退到信用卡・掃碼支付・銀行帳戶</strong>的話，按購買時店家告訴你的方法辦理（機場不用另外操作）"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "機場",
+            "海關確認（報到前）",
+            "領現金"
+          ],
+          "rows": [
+            [
+              "成田",
+              "第1航站樓中央樓4樓・第2航站樓本館3樓（安檢前，5:30〜23:00）",
+              "安檢前的機器（6:00〜24:00）、安檢後的機器（24小時）"
+            ],
+            [
+              "羽田 第3航站樓",
+              "3樓安檢前（24小時，13臺）",
+              "3樓安檢後的自助退稅機（24小時）"
+            ],
+            [
+              "關西",
+              "第1航站樓4樓出發大廳（12臺）・第2航站樓（4臺）",
+              "過了出境審查之後的機器・櫃檯"
+            ],
+            [
+              "其他（中部・福岡・新千歲・那霸・神戶等）",
+              "國際線出發大廳的安檢前",
+              "看機場的“Tax Refund”指示"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "<strong>過了安檢・出境審查，就不能再辦海關確認了</strong>。排隊人多時，也可以在出發大廳連上專用Wi-Fi，用 Visit Japan Web 在手機上辦（只限對應的7個機場・“短期滯在”等身份的人）。"
+        },
+        {
+          "t": "note",
+          "text": "<strong>有的店不支援在機場領現金</strong>。購買時先問一句：“空港で現金で返金できますか？”（在機場可以領現金退款嗎？）比較放心。"
+        }
+      ]
+    },
+    {
+      "heading": "四、拿不回錢的7種情況",
       "blocks": [
         {
           "t": "table",
@@ -592,7 +772,7 @@
       ]
     },
     {
-      "heading": "四、誰能免稅・誰不能",
+      "heading": "五、誰能免稅・誰不能",
       "blocks": [
         {
           "t": "table",
@@ -622,7 +802,7 @@
       ]
     },
     {
-      "heading": "五、親友來日本時，在日本的你要注意",
+      "heading": "六、親友來日本時，在日本的你要注意",
       "blocks": [
         {
           "t": "ul",
@@ -637,7 +817,7 @@
       ]
     },
     {
-      "heading": "六、檢查清單（轉給要來日本的親友）",
+      "heading": "七、檢查清單（轉給要來日本的親友）",
       "blocks": [
         {
           "t": "checklist",
@@ -668,7 +848,7 @@
         },
         {
           "t": "note",
-          "text": "出處：日本觀光廳“免稅制度（旅客專頁）”、日本國稅廳“出口物品銷售場制度改為退款方式”。確認日：2026-11-06。退款方式和手續費，請向店家或退款公司確認。"
+          "text": "出處：日本觀光廳“免稅制度（旅客專頁）”、日本國稅廳“出口物品銷售場制度改為退款方式”、日本海關、成田・羽田・關西機場的說明。確認日：2026-11-06。退款方式和手續費，請向店家或退款公司確認。"
         }
       ]
     }
@@ -770,7 +950,67 @@
       ]
     },
     {
-      "heading": "3. 7 ways to lose your refund",
+      "heading": "3. Where and how at the airport",
+      "blocks": [
+        {
+          "t": "figure",
+          "src": "/img/kurashi/tax-free-flow-en.webp",
+          "w": 1080,
+          "h": 2174,
+          "alt": "Airport refund flow: scan passport at kiosk before check-in → green done / red customs inspection → check in bags → security and passport control → cash or card refund"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "At the airport, <strong>before going to the check-in counter</strong>, find the <strong>“Customs Tax Refund” kiosks</strong> in the international departure lobby (before security)",
+            "The buyer <strong>scans their own passport</strong> at the kiosk, with all tax-free goods at hand",
+            "<strong>“Green” = done</strong>. <strong>“Red”</strong> = show the goods at the nearby <strong>customs inspection area</strong>",
+            "Only then <strong>check in your bags</strong>",
+            "<strong>For cash</strong>, scan your passport at a <strong>cash refund kiosk or counter</strong> in the airport (about 1 minute, Japanese yen only). <strong>For card, QR payment or bank transfer</strong>, follow the method the shop gave you (nothing more to do at the airport)"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Airport",
+            "Customs check (before check-in)",
+            "Cash refund"
+          ],
+          "rows": [
+            [
+              "Narita",
+              "T1 Central Building 4F, T2 Main Building 3F (before security, 5:30–23:00)",
+              "Kiosks before security (6:00–24:00) and after security (24 h)"
+            ],
+            [
+              "Haneda Terminal 3",
+              "3F before security (24 h, 13 kiosks)",
+              "Self Tax Refund kiosks, 3F after security (24 h)"
+            ],
+            [
+              "Kansai",
+              "T1 4F departure lobby (12 kiosks), T2 (4 kiosks)",
+              "Kiosks and counter after passport control"
+            ],
+            [
+              "Others (Chubu, Fukuoka, New Chitose, Naha, Kobe, etc.)",
+              "International departure lobby, before security",
+              "Follow the “Tax Refund” signs"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "<strong>After security and passport control, you can no longer do the customs check</strong>. If kiosks are crowded, you can connect to the dedicated Wi-Fi in the departure lobby and use Visit Japan Web (7 airports, “Temporary Visitor” etc. only)."
+        },
+        {
+          "t": "note",
+          "text": "<strong>Some shops don’t support cash refunds at the airport</strong>. Ask when you buy: “Kūkō de genkin de henkin dekimasu ka?” (Can I get a cash refund at the airport?)"
+        }
+      ]
+    },
+    {
+      "heading": "4. 7 ways to lose your refund",
       "blocks": [
         {
           "t": "table",
@@ -816,7 +1056,7 @@
       ]
     },
     {
-      "heading": "4. Who is eligible",
+      "heading": "5. Who is eligible",
       "blocks": [
         {
           "t": "table",
@@ -846,7 +1086,7 @@
       ]
     },
     {
-      "heading": "5. When family or friends visit you in Japan",
+      "heading": "6. When family or friends visit you in Japan",
       "blocks": [
         {
           "t": "ul",
@@ -861,7 +1101,7 @@
       ]
     },
     {
-      "heading": "6. Checklist (forward this to visiting family and friends)",
+      "heading": "7. Checklist (forward this to visiting family and friends)",
       "blocks": [
         {
           "t": "checklist",
@@ -892,7 +1132,7 @@
         },
         {
           "t": "note",
-          "text": "Sources: Japan Tourism Agency (tax-free page for travelers), National Tax Agency (refund method revision). Checked: 2026-11-06. Check refund methods and fees with the shop or refund provider."
+          "text": "Sources: Japan Tourism Agency (tax-free page for travelers), National Tax Agency (refund method revision), Japan Customs, and the Narita, Haneda and Kansai airport guides. Checked: 2026-11-06. Check refund methods and fees with the shop or refund provider."
         }
       ]
     }
@@ -994,7 +1234,67 @@
       ]
     },
     {
-      "heading": "3. 7 trường hợp không được hoàn tiền",
+      "heading": "3. Ở sân bay, làm ở đâu và làm thế nào",
+      "blocks": [
+        {
+          "t": "figure",
+          "src": "/img/kurashi/tax-free-flow-vi.webp",
+          "w": 1080,
+          "h": 2174,
+          "alt": "Quy trình hoàn thuế ở sân bay: quét hộ chiếu ở máy trước check-in → xanh xong / đỏ kiểm tra hải quan → ký gửi hành lý → an ninh, xuất cảnh → nhận tiền mặt hoặc qua thẻ"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "Đến sân bay, <strong>trước khi ra quầy check-in</strong>, hãy tìm <strong>máy “Customs Tax Refund”</strong> ở sảnh khởi hành quốc tế (trước khu kiểm tra an ninh)",
+            "Chính người mua <strong>đặt hộ chiếu lên máy để quét</strong>. Mang toàn bộ hàng miễn thuế bên mình",
+            "Màn hình <strong>“Xanh” là xong</strong>. <strong>“Đỏ”</strong> thì đưa hàng cho <strong>khu kiểm tra hải quan</strong> gần đó xem",
+            "Sau đó mới <strong>ký gửi hành lý, check-in</strong>",
+            "<strong>Muốn nhận tiền mặt</strong> thì quét hộ chiếu ở <strong>máy hoặc quầy hoàn tiền mặt</strong> trong sân bay (khoảng 1 phút, chỉ yên Nhật). <strong>Nhận qua thẻ, ví QR, chuyển khoản</strong> thì làm theo cách cửa hàng đã hướng dẫn (không cần làm gì thêm ở sân bay)"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Sân bay",
+            "Xác nhận hải quan (trước check-in)",
+            "Hoàn tiền mặt"
+          ],
+          "rows": [
+            [
+              "Narita",
+              "Nhà ga 1 tòa trung tâm tầng 4, nhà ga 2 tòa chính tầng 3 (trước an ninh, 5:30–23:00)",
+              "Máy trước an ninh (6:00–24:00), máy sau an ninh (24 giờ)"
+            ],
+            [
+              "Haneda nhà ga 3",
+              "Tầng 3 trước an ninh (24 giờ, 13 máy)",
+              "Máy tự hoàn thuế tầng 3 sau an ninh (24 giờ)"
+            ],
+            [
+              "Kansai",
+              "Nhà ga 1 tầng 4 sảnh khởi hành (12 máy), nhà ga 2 (4 máy)",
+              "Máy và quầy sau khu xuất cảnh"
+            ],
+            [
+              "Sân bay khác (Chubu, Fukuoka, New Chitose, Naha, Kobe…)",
+              "Sảnh khởi hành quốc tế, trước an ninh",
+              "Theo biển chỉ dẫn “Tax Refund”"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "<strong>Qua an ninh và xuất cảnh rồi thì không xác nhận hải quan được nữa</strong>. Khi máy đông, có thể kết nối Wi-Fi riêng ở sảnh khởi hành và làm bằng Visit Japan Web (7 sân bay, chỉ cho “Lưu trú ngắn hạn”…)."
+        },
+        {
+          "t": "note",
+          "text": "<strong>Một số cửa hàng không hỗ trợ hoàn tiền mặt ở sân bay</strong>. Khi mua hãy hỏi: “空港で現金で返金できますか？” (Ở sân bay có nhận hoàn tiền mặt được không?)"
+        }
+      ]
+    },
+    {
+      "heading": "4. 7 trường hợp không được hoàn tiền",
       "blocks": [
         {
           "t": "table",
@@ -1040,7 +1340,7 @@
       ]
     },
     {
-      "heading": "4. Ai được miễn thuế",
+      "heading": "5. Ai được miễn thuế",
       "blocks": [
         {
           "t": "table",
@@ -1070,7 +1370,7 @@
       ]
     },
     {
-      "heading": "5. Khi người thân, bạn bè sang Nhật",
+      "heading": "6. Khi người thân, bạn bè sang Nhật",
       "blocks": [
         {
           "t": "ul",
@@ -1085,7 +1385,7 @@
       ]
     },
     {
-      "heading": "6. Danh sách kiểm tra (gửi cho người thân, bạn bè sắp sang)",
+      "heading": "7. Danh sách kiểm tra (gửi cho người thân, bạn bè sắp sang)",
       "blocks": [
         {
           "t": "checklist",
@@ -1116,7 +1416,7 @@
         },
         {
           "t": "note",
-          "text": "Nguồn: Cục Du lịch Nhật Bản (trang miễn thuế cho du khách), Cục Thuế Quốc gia Nhật Bản (chuyển sang hình thức hoàn tiền). Ngày kiểm tra: 2026-11-06. Hãy hỏi cửa hàng hoặc đơn vị hoàn tiền về cách nhận và phí."
+          "text": "Nguồn: Cục Du lịch Nhật Bản (trang miễn thuế cho du khách), Cục Thuế Quốc gia Nhật Bản (chuyển sang hình thức hoàn tiền), Hải quan Nhật Bản và hướng dẫn của sân bay Narita, Haneda, Kansai. Ngày kiểm tra: 2026-11-06. Hãy hỏi cửa hàng hoặc đơn vị hoàn tiền về cách nhận và phí."
         }
       ]
     }
@@ -1218,7 +1518,67 @@
       ]
     },
     {
-      "heading": "3. 돈을 못 돌려받는 7가지 경우",
+      "heading": "3. 공항에서 어디서·어떻게 하나",
+      "blocks": [
+        {
+          "t": "figure",
+          "src": "/img/kurashi/tax-free-flow-ko.webp",
+          "w": 1080,
+          "h": 2069,
+          "alt": "공항 환급 순서: 체크인 전 단말기에 여권→그린 끝/레드 세관 검사→짐 맡기기→보안 검사·출국 심사→현금 또는 카드 등으로 환급"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "공항에 도착하면 <strong>체크인 카운터에 가기 전에</strong> 국제선 출발 로비(보안 검사 전)의 <strong>“면세 수속 단말기(Customs Tax Refund)”</strong>로 간다",
+            "구매한 본인이 <strong>여권을 단말기에 댄다</strong>. 면세품은 전부 손에",
+            "화면이 <strong>“그린”이면 끝</strong>. <strong>“레드”면</strong> 근처 <strong>세관 검사 장소</strong>에서 물건을 보여 준다",
+            "그다음에 <strong>짐을 맡기고 체크인</strong>",
+            "<strong>현금으로 받으려면</strong> 공항의 <strong>현금 환급 단말기·카운터</strong>에서 여권을 댄다(약 1분, 엔화만). <strong>카드·QR 결제·계좌 이체</strong>는 살 때 안내받은 방법으로 진행(공항에서 따로 할 일 없음)"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "공항",
+            "세관 확인(체크인 전)",
+            "현금 환급"
+          ],
+          "rows": [
+            [
+              "나리타",
+              "제1터미널 중앙빌딩 4층·제2터미널 본관 3층(보안 검사 전, 5:30~23:00)",
+              "보안 검사 전 단말기(6:00~24:00), 보안 검사 후 단말기(24시간)"
+            ],
+            [
+              "하네다 제3터미널",
+              "3층 보안 검사 전(24시간, 13대)",
+              "3층 보안 검사 후 셀프 환급 단말기(24시간)"
+            ],
+            [
+              "간사이",
+              "제1터미널 4층 출발 로비(12대)·제2터미널(4대)",
+              "출국 심사 후 단말기·카운터"
+            ],
+            [
+              "그 밖(주부·후쿠오카·신치토세·나하·고베 등)",
+              "국제선 출발 로비 보안 검사 전",
+              "공항의 “Tax Refund” 안내 확인"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "text": "<strong>보안 검사·출국 심사를 지나면 세관 확인을 할 수 없습니다</strong>. 붐빌 때는 출발 로비의 전용 Wi-Fi에 연결해 Visit Japan Web으로 할 수도 있습니다(해당 7개 공항, “단기체재” 등만)."
+        },
+        {
+          "t": "note",
+          "text": "<strong>공항 현금 환급을 지원하지 않는 매장도 있습니다</strong>. 살 때 “空港で現金で返金できますか？”(공항에서 현금으로 환급받을 수 있나요?)라고 물어 두면 안심입니다."
+        }
+      ]
+    },
+    {
+      "heading": "4. 돈을 못 돌려받는 7가지 경우",
       "blocks": [
         {
           "t": "table",
@@ -1264,7 +1624,7 @@
       ]
     },
     {
-      "heading": "4. 대상인 사람·아닌 사람",
+      "heading": "5. 대상인 사람·아닌 사람",
       "blocks": [
         {
           "t": "table",
@@ -1294,7 +1654,7 @@
       ]
     },
     {
-      "heading": "5. 가족·친구가 일본에 올 때",
+      "heading": "6. 가족·친구가 일본에 올 때",
       "blocks": [
         {
           "t": "ul",
@@ -1309,7 +1669,7 @@
       ]
     },
     {
-      "heading": "6. 체크리스트(일본에 오는 가족·친구에게 전달용)",
+      "heading": "7. 체크리스트(일본에 오는 가족·친구에게 전달용)",
       "blocks": [
         {
           "t": "checklist",
@@ -1340,7 +1700,7 @@
         },
         {
           "t": "note",
-          "text": "출처: 일본 관광청 “면세 제도(여행자용 특설 페이지)”, 일본 국세청 “수출물품 판매장 제도의 리펀드 방식 전환”. 확인일: 2026-11-06. 환급 방법과 수수료는 매장이나 환급 사업자에게 확인하세요."
+          "text": "출처: 일본 관광청 “면세 제도(여행자용 특설 페이지)”, 일본 국세청 “수출물품 판매장 제도의 리펀드 방식 전환”, 일본 세관, 나리타·하네다·간사이 공항 안내. 확인일: 2026-11-06. 환급 방법과 수수료는 매장이나 환급 사업자에게 확인하세요."
         }
       ]
     }
