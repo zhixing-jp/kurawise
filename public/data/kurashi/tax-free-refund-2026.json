@@ -1,6 +1,6 @@
 {
   "id": "tax-free-refund-2026",
-  "checked": "2026-11-06",
+  "checked": "2026-11-07",
   "title_ja": "2026年11月から免税が変わった：買うとき・空港・返金の3ステップと、お金が戻らない7つの例",
   "description_ja": "2026年11月1日から、免税は「いったん税込で払い、出国のときに空港の税関で確認を受けてから消費税分が返ってくる」仕組み（リファンド方式）になりました。新旧の違い、空港での手順、返金されない7つの例、家族や友人が日本に来るときの注意をまとめました。",
   "sections_ja": [
@@ -104,14 +104,14 @@
           "t": "figure",
           "src": "/img/kurashi/tax-free-flow-ja.webp",
           "w": 1080,
-          "h": 2139,
+          "h": 2328,
           "alt": "空港での免税の返金の流れ：チェックイン前に免税手続端末でパスポート→グリーンなら終了・レッドなら税関検査→荷物を預ける→保安検査・出国審査→現金またはカード等で返金"
         },
         {
           "t": "ol",
           "items": [
             "空港に着いたら、<strong>チェックインカウンターに行く前に</strong>、国際線出発ロビー（保安検査の手前）にある<strong>「免税手続端末（Customs Tax Refund）」</strong>へ行く",
-            "購入した本人が<strong>パスポートを端末にかざす</strong>。免税品は全部手元に",
+            "購入した本人が<strong>パスポートを端末にかざす</strong>。免税品は全部手元に（<strong>スーツケースに入れたままでOK。まだ預けない</strong>）",
             "画面が<strong>「グリーン」なら終わり</strong>。<strong>「レッド」なら</strong>近くの<strong>税関の検査場所</strong>で品物を見せる",
             "ここで初めて、<strong>荷物を預けてチェックイン</strong>",
             "<strong>現金で受け取る</strong>なら、空港の<strong>現金返金端末・カウンター</strong>でパスポートをかざす（約1分。日本円のみ）。<strong>カード・QRコード決済・銀行振込</strong>なら、買ったときに案内された方法で手続き（空港での作業は不要）"
@@ -154,6 +154,11 @@
         {
           "t": "note",
           "text": "<strong>お店によっては、空港での現金返金に対応していません</strong>。買うときに「空港で現金で返金できますか？」と聞いておくと安心です。"
+        },
+        {
+          "t": "lead",
+          "label": "大事なポイント",
+          "text": "・<strong>いつもより早めに空港へ</strong>。端末に並ぶことや、検査になることがあります<br>・<strong>買った本人が、自分のパスポートで</strong>。家族それぞれが買った分は、それぞれが手続きします<br>・<strong>全員が検査されるわけではありません</strong>。検査はレッドのときだけ。レッドになる基準は公表されていません<br>・レッドで<strong>検査を受けなくても出国はできます</strong>が、<strong>その商品は返金されません</strong><br>・<strong>返金までの日数と手数料</strong>は、お店や返金の事業者ごとに違います。買うときに確認"
         }
       ]
     },
@@ -241,7 +246,7 @@
           "items": [
             "<strong>日本に住んでいる人は免税を使えません</strong>。家族のパスポートで、自分の物を免税で買うのは不可です。",
             "家族が日本にいる間に<strong>あなたに渡す物・家で使う物は、免税にしない</strong>で買ってもらいます。",
-            "<strong>空港まで送るとき</strong>は、税関確認の時間を足して早めに出発。免税品は預ける荷物とは別にまとめておくと楽です。",
+            "<strong>空港まで送るとき</strong>は、税関確認の時間を足して早めに出発。<strong>量が多いときは、免税品を1つのスーツケースの上のほうにまとめ</strong>、レシートは1つの袋に入れておくと、検査になってもすぐ見せられます。持ちきれないほど買うなら、<strong>お店から海外へ直接送ってもらう</strong>方法もあります（免税のまま）。",
             "<strong>返金の受け取り方法</strong>は、買うときにお店で決めます。現金を空港で受け取る方法は、対応していない店もあります。",
             "自分で国際郵便で送る方法（別送）は、2025年3月末で終わりました。<strong>お店が直接海外へ送る</strong>サービスは免税のまま使えます。"
           ]
@@ -249,7 +254,25 @@
       ]
     },
     {
-      "heading": "7. チェックリスト（来る家族・友人に転送用）",
+      "heading": "7. よくある質問",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Q1. 全員・全部の商品が検査されますか？</strong><br><strong>されません</strong>。端末で「グリーン」なら終わり。<strong>「レッド」のときだけ</strong>品物を確認します。基準は公表されていません。",
+            "<strong>Q2. レッドで、検査を受けたくないときは？</strong><br>出国はできますが、<strong>その商品は返金されません</strong>。",
+            "<strong>Q3. 買いすぎて持ちきれないときは？</strong><br>お店で<strong>直送</strong>を頼みます。お店が国際運送の契約をし、<strong>その場で運送会社に商品を渡して</strong>海外へ送ります。",
+            "<strong>Q4. 直送した商品も、空港で確認が要りますか？</strong><br><strong>要りません</strong>。自分で持ち出す物ではないので、空港での税関確認はありません。",
+            "<strong>Q5. 自分で郵便局から送ってもいいですか？</strong><br><strong>免税になりません</strong>。自分でEMSなどで送る「別送」は、2025年3月末で終わりました。",
+            "<strong>Q6. 直送に金額や方法の決まりはありますか？</strong><br>5,000円以上の条件はありません。方法は<strong>お店で契約する国際運送で、その場で引き渡す</strong>ものだけです。送料は別。<strong>直送できない店もあります</strong>。",
+            "<strong>Q7. 直送した商品に、届いた国で税金はかかりますか？</strong><br><strong>かかる場合があります</strong>。届いた国・地域のルールで、品物や金額によって輸入の税金がかかります。",
+            "<strong>Q8. 返金までどのくらい？手数料は？</strong><br><strong>お店や返金の事業者ごとに違います</strong>。買うときに、返金の方法・日数・手数料を確認してください。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8. チェックリスト（来る家族・友人に転送用）",
       "blocks": [
         {
           "t": "checklist",
@@ -259,7 +282,7 @@
             "買うときに、返金の受け取り方法と手数料を確認した",
             "日本で使う・食べる物、人にあげる物は免税にしていない",
             "出国日は、いちばん早い購入日から90日以内",
-            "免税品とレシートを、預けない手荷物にまとめた",
+            "免税品は1つのスーツケースの上のほうにまとめ、レシートは1つの袋に入れた",
             "空港には、税関確認の時間を足して早めに着く"
           ],
           "done": "これで空港でも慌てません。",
@@ -280,7 +303,7 @@
         },
         {
           "t": "note",
-          "text": "出典：観光庁「免税制度（旅行者向け特設ページ）」、国税庁「輸出物品販売場制度のリファンド方式への見直し」、税関、成田・羽田・関西空港の案内。確認日：2026-11-06。返金の方法と手数料は、お店や返金の事業者ごとに確認してください。"
+          "text": "出典：観光庁「免税制度（旅行者向け特設ページ）」、国税庁「輸出物品販売場制度のリファンド方式への見直し」、税関、成田・羽田・関西空港の案内。確認日：2026-11-07。返金の方法と手数料は、お店や返金の事業者ごとに確認してください。"
         }
       ]
     }
@@ -388,14 +411,14 @@
           "t": "figure",
           "src": "/img/kurashi/tax-free-flow-zh.webp",
           "w": 1080,
-          "h": 2031,
+          "h": 2153,
           "alt": "机场退税流程：值机前在免税手续机扫护照→绿色完成・红色到海关检查→托运值机→安检・出境审查→领现金或退到卡等"
         },
         {
           "t": "ol",
           "items": [
             "到了机场，<strong>先不要去值机柜台</strong>，到国际线出发大厅（安检前）的<strong>“免税手续机（Customs Tax Refund）”</strong>",
-            "由购买本人<strong>把护照放到机器上扫描</strong>。免税品全部带在身边",
+            "由购买本人<strong>把护照放到机器上扫描</strong>。免税品全部带在身边（<strong>放在行李箱里也可以，只是先别托运</strong>）",
             "屏幕显示<strong>“绿色”就完成</strong>。<strong>显示“红色”</strong>，到旁边的<strong>海关检查处</strong>出示商品",
             "办完之后，<strong>再去托运行李・值机</strong>",
             "<strong>要领现金</strong>的话，在机场的<strong>现金退款机・柜台</strong>扫护照领取（约1分钟，只有日元）。<strong>退到信用卡・扫码支付・银行账户</strong>的话，按购买时店家告诉你的方法办理（机场不用另外操作）"
@@ -438,6 +461,11 @@
         {
           "t": "note",
           "text": "<strong>有的店不支持在机场领现金</strong>。购买时先问一句：“空港で現金で返金できますか？”（在机场可以领现金退款吗？）比较放心。"
+        },
+        {
+          "t": "lead",
+          "label": "重要提醒",
+          "text": "・<strong>比平时早点到机场</strong>。可能要排队，也可能被抽查<br>・<strong>谁买的，谁扫自己的护照</strong>。一家人各自买的，各自办<br>・<strong>不是每个人都要检查</strong>。只有显示红色才检查，红色的标准没有公开<br>・红色时<strong>不接受检查也可以出境</strong>，但<strong>这些商品不退税</strong><br>・<strong>到账时间和手续费</strong>因店家和退款公司而不同，购买时问清楚"
         }
       ]
     },
@@ -525,7 +553,7 @@
           "items": [
             "<strong>住在日本的人不能免税</strong>。用家人的护照，免税买自己的东西，是不可以的。",
             "家人在日本期间<strong>要给你的东西・在家里用的东西，不要用免税买</strong>。",
-            "<strong>送他们去机场时</strong>，算上海关确认的时间，早点出发。把免税品和托运行李分开放，会轻松很多。",
+            "<strong>送他们去机场时</strong>，算上海关确认的时间，早点出发。<strong>买得多的话，把免税品集中放在一个行李箱的上层</strong>，收据统一装一个袋子，被抽查时马上就能拿出来。多到带不走的，<strong>可以让店家直接寄到海外</strong>（仍然免税）。",
             "<strong>退款方式</strong>在购买时就要在店里决定。在机场领现金的方式，有的店不支持。",
             "自己用国际邮寄寄回去（另行寄送）的方式，2025年3月底已经取消。<strong>由店家直接寄到海外</strong>的服务，仍然可以免税。"
           ]
@@ -533,7 +561,25 @@
       ]
     },
     {
-      "heading": "七、检查清单（转给要来日本的亲友）",
+      "heading": "七、常见问题",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Q1. 每个人、每件商品都会被检查吗？</strong><br><strong>不会</strong>。扫护照后显示绿色就完成，<strong>只有红色</strong>才检查商品。红色的标准没有公开。",
+            "<strong>Q2. 红色了，不想接受检查会怎样？</strong><br>可以照常出境，但<strong>这些商品不退税</strong>。",
+            "<strong>Q3. 买太多带不走，怎么办？</strong><br>在店里办<strong>直邮</strong>：店家签国际物流合同，<strong>当场把商品交给物流公司</strong>，寄到海外。",
+            "<strong>Q4. 直邮的东西，机场还要办海关确认吗？</strong><br><strong>不用</strong>。不是自己带出境，机场不用办海关确认。",
+            "<strong>Q5. 可以自己去邮局寄回国吗？</strong><br><strong>不能免税</strong>。自己用EMS等寄的“另行寄送”，2025年3月底已经取消。",
+            "<strong>Q6. 直邮有金额、方式的要求吗？</strong><br>没有5,000日元的最低限制。方式只能是<strong>店里签约的国际物流、当场交货</strong>。运费另付，<strong>不是每家店都能办</strong>。",
+            "<strong>Q7. 直邮寄到后，要交税吗？</strong><br><strong>可能要</strong>。按寄到的国家・地区的规定，看物品和金额，可能要交进口税。",
+            "<strong>Q8. 退款要多久？有手续费吗？</strong><br><strong>因店家和退款公司而不同</strong>。购买时问清：退款方式、到账时间、手续费。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "八、检查清单（转给要来日本的亲友）",
       "blocks": [
         {
           "t": "checklist",
@@ -543,7 +589,7 @@
             "购买时确认了退款方式和手续费",
             "在日本要用・要吃的，要送人的，没有用免税买",
             "出境日在最早的购买日起90天内",
-            "免税品和收据，都放在不托运的随身行李里",
+            "免税品集中放在一个行李箱的上层，收据统一装一个袋子",
             "算上海关确认的时间，早点到机场"
           ],
           "done": "这样到了机场也不会慌。",
@@ -564,7 +610,7 @@
         },
         {
           "t": "note",
-          "text": "出处：日本观光厅“免税制度（旅客专页）”、日本国税厅“出口物品销售场制度改为退款方式”、日本海关、成田・羽田・关西机场的说明。确认日：2026-11-06。退款方式和手续费，请向店家或退款公司确认。"
+          "text": "出处：日本观光厅“免税制度（旅客专页）”、日本国税厅“出口物品销售场制度改为退款方式”、日本海关、成田・羽田・关西机场的说明。确认日：2026-11-07。退款方式和手续费，请向店家或退款公司确认。"
         }
       ]
     }
@@ -672,14 +718,14 @@
           "t": "figure",
           "src": "/img/kurashi/tax-free-flow-zh-TW.webp",
           "w": 1080,
-          "h": 2031,
+          "h": 2153,
           "alt": "機場退稅流程：報到前在免稅手續機掃護照→綠色完成・紅色到海關檢查→託運報到→安檢・出境審查→領現金或退到卡等"
         },
         {
           "t": "ol",
           "items": [
             "到了機場，<strong>先不要去報到櫃臺</strong>，到國際線出發大廳（安檢前）的<strong>“免稅手續機（Customs Tax Refund）”</strong>",
-            "由購買本人<strong>把護照放到機器上掃描</strong>。免稅品全部帶在身邊",
+            "由購買本人<strong>把護照放到機器上掃描</strong>。免稅品全部帶在身邊（<strong>放在行李箱裡也可以，只是先別託運</strong>）",
             "螢幕顯示<strong>“綠色”就完成</strong>。<strong>顯示“紅色”</strong>，到旁邊的<strong>海關檢查處</strong>出示商品",
             "辦完之後，<strong>再去托執行李・報到</strong>",
             "<strong>要領現金</strong>的話，在機場的<strong>現金退款機・櫃檯</strong>掃護照領取（約1分鐘，只有日元）。<strong>退到信用卡・掃碼支付・銀行帳戶</strong>的話，按購買時店家告訴你的方法辦理（機場不用另外操作）"
@@ -722,6 +768,11 @@
         {
           "t": "note",
           "text": "<strong>有的店不支援在機場領現金</strong>。購買時先問一句：“空港で現金で返金できますか？”（在機場可以領現金退款嗎？）比較放心。"
+        },
+        {
+          "t": "lead",
+          "label": "重要提醒",
+          "text": "・<strong>比平時早點到機場</strong>。可能要排隊，也可能被抽查<br>・<strong>誰買的，誰掃自己的護照</strong>。一家人各自買的，各自辦<br>・<strong>不是每個人都要檢查</strong>。只有顯示紅色才檢查，紅色的標準沒有公開<br>・紅色時<strong>不接受檢查也可以出境</strong>，但<strong>這些商品不退稅</strong><br>・<strong>到賬時間和手續費</strong>因店家和退款公司而不同，購買時問清楚"
         }
       ]
     },
@@ -809,7 +860,7 @@
           "items": [
             "<strong>住在日本的人不能免稅</strong>。用家人的護照，免稅買自己的東西，是不可以的。",
             "家人在日本期間<strong>要給你的東西・在家裡用的東西，不要用免稅買</strong>。",
-            "<strong>送他們去機場時</strong>，算上海關確認的時間，早點出發。把免稅品和托執行李分開放，會輕鬆很多。",
+            "<strong>送他們去機場時</strong>，算上海關確認的時間，早點出發。<strong>買得多的話，把免稅品集中放在一個行李箱的上層</strong>，收據統一裝一個袋子，被抽查時馬上就能拿出來。多到帶不走的，<strong>可以讓店家直接寄到海外</strong>（仍然免稅）。",
             "<strong>退款方式</strong>在購買時就要在店裡決定。在機場領現金的方式，有的店不支援。",
             "自己用國際郵寄寄回去（另行寄送）的方式，2025年3月底已經取消。<strong>由店家直接寄到海外</strong>的服務，仍然可以免稅。"
           ]
@@ -817,7 +868,25 @@
       ]
     },
     {
-      "heading": "七、檢查清單（轉給要來日本的親友）",
+      "heading": "七、常見問題",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Q1. 每個人、每件商品都會被檢查嗎？</strong><br><strong>不會</strong>。掃護照後顯示綠色就完成，<strong>只有紅色</strong>才檢查商品。紅色的標準沒有公開。",
+            "<strong>Q2. 紅色了，不想接受檢查會怎樣？</strong><br>可以照常出境，但<strong>這些商品不退稅</strong>。",
+            "<strong>Q3. 買太多帶不走，怎麼辦？</strong><br>在店裡辦<strong>直郵</strong>：店家籤國際物流合同，<strong>當場把商品交給物流公司</strong>，寄到海外。",
+            "<strong>Q4. 直郵的東西，機場還要辦海關確認嗎？</strong><br><strong>不用</strong>。不是自己帶出境，機場不用辦海關確認。",
+            "<strong>Q5. 可以自己去郵局寄回國嗎？</strong><br><strong>不能免稅</strong>。自己用EMS等寄的“另行寄送”，2025年3月底已經取消。",
+            "<strong>Q6. 直郵有金額、方式的要求嗎？</strong><br>沒有5,000日元的最低限制。方式只能是<strong>店裡簽約的國際物流、當場交貨</strong>。運費另付，<strong>不是每家店都能辦</strong>。",
+            "<strong>Q7. 直郵寄到後，要交稅嗎？</strong><br><strong>可能要</strong>。按寄到的國家・地區的規定，看物品和金額，可能要交進口稅。",
+            "<strong>Q8. 退款要多久？有手續費嗎？</strong><br><strong>因店家和退款公司而不同</strong>。購買時問清：退款方式、到賬時間、手續費。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "八、檢查清單（轉給要來日本的親友）",
       "blocks": [
         {
           "t": "checklist",
@@ -827,7 +896,7 @@
             "購買時確認了退款方式和手續費",
             "在日本要用・要吃的，要送人的，沒有用免稅買",
             "出境日在最早的購買日起90天內",
-            "免稅品和收據，都放在不託運的隨身行李裡",
+            "免稅品集中放在一個行李箱的上層，收據統一裝一個袋子",
             "算上海關確認的時間，早點到機場"
           ],
           "done": "這樣到了機場也不會慌。",
@@ -848,7 +917,7 @@
         },
         {
           "t": "note",
-          "text": "出處：日本觀光廳“免稅制度（旅客專頁）”、日本國稅廳“出口物品銷售場制度改為退款方式”、日本海關、成田・羽田・關西機場的說明。確認日：2026-11-06。退款方式和手續費，請向店家或退款公司確認。"
+          "text": "出處：日本觀光廳“免稅制度（旅客專頁）”、日本國稅廳“出口物品銷售場制度改為退款方式”、日本海關、成田・羽田・關西機場的說明。確認日：2026-11-07。退款方式和手續費，請向店家或退款公司確認。"
         }
       ]
     }
@@ -956,14 +1025,14 @@
           "t": "figure",
           "src": "/img/kurashi/tax-free-flow-en.webp",
           "w": 1080,
-          "h": 2174,
+          "h": 2328,
           "alt": "Airport refund flow: scan passport at kiosk before check-in → green done / red customs inspection → check in bags → security and passport control → cash or card refund"
         },
         {
           "t": "ol",
           "items": [
             "At the airport, <strong>before going to the check-in counter</strong>, find the <strong>“Customs Tax Refund” kiosks</strong> in the international departure lobby (before security)",
-            "The buyer <strong>scans their own passport</strong> at the kiosk, with all tax-free goods at hand",
+            "The buyer <strong>scans their own passport</strong> at the kiosk, with all tax-free goods at hand (<strong>they can stay in your suitcase, just don’t check it in yet</strong>)",
             "<strong>“Green” = done</strong>. <strong>“Red”</strong> = show the goods at the nearby <strong>customs inspection area</strong>",
             "Only then <strong>check in your bags</strong>",
             "<strong>For cash</strong>, scan your passport at a <strong>cash refund kiosk or counter</strong> in the airport (about 1 minute, Japanese yen only). <strong>For card, QR payment or bank transfer</strong>, follow the method the shop gave you (nothing more to do at the airport)"
@@ -1006,6 +1075,11 @@
         {
           "t": "note",
           "text": "<strong>Some shops don’t support cash refunds at the airport</strong>. Ask when you buy: “Kūkō de genkin de henkin dekimasu ka?” (Can I get a cash refund at the airport?)"
+        },
+        {
+          "t": "lead",
+          "label": "Key points",
+          "text": "・<strong>Get to the airport earlier than usual</strong>. There may be a queue, and you may be inspected<br>・<strong>The buyer uses their own passport</strong>. Family members who bought separately each do their own<br>・<strong>Not everyone is inspected</strong>. Only “Red” means inspection; the criteria are not published<br>・If you skip the inspection on “Red”, <strong>you can still leave Japan</strong>, but <strong>those goods are not refunded</strong><br>・<strong>Refund timing and fees</strong> vary by shop and refund provider. Ask when you buy"
         }
       ]
     },
@@ -1093,7 +1167,7 @@
           "items": [
             "<strong>If you live in Japan, you can’t shop tax-free</strong>. Using a family member’s passport to buy things for yourself is not allowed.",
             "Things they will <strong>give you or use at your home</strong> should not be bought tax-free.",
-            "<strong>When you take them to the airport</strong>, leave early to allow time for customs. Pack tax-free goods separately from checked bags.",
+            "<strong>When you take them to the airport</strong>, leave early to allow time for customs. <strong>If they bought a lot, pack the tax-free goods together near the top of one suitcase</strong> and keep all receipts in one pouch, so they can be shown quickly if inspected. Too much to carry? <strong>Shops can ship directly abroad</strong> (still tax-free).",
             "The <strong>refund method</strong> is chosen at the shop. Not every shop offers cash at the airport.",
             "Sending goods yourself by international mail was abolished at the end of March 2025. <strong>Direct shipping abroad by the shop</strong> is still tax-free."
           ]
@@ -1101,7 +1175,25 @@
       ]
     },
     {
-      "heading": "7. Checklist (forward this to visiting family and friends)",
+      "heading": "7. FAQ",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Q1. Is everyone, and every item, inspected?</strong><br><strong>No</strong>. “Green” on the kiosk means done. Goods are checked <strong>only on “Red”</strong>. The criteria are not published.",
+            "<strong>Q2. What if I get “Red” and don’t want to be inspected?</strong><br>You can still leave Japan, but <strong>those goods are not refunded</strong>.",
+            "<strong>Q3. I bought too much to carry. What can I do?</strong><br>Ask the shop for <strong>direct shipping</strong>. The shop arranges international transport and <strong>hands the goods to the carrier on the spot</strong>.",
+            "<strong>Q4. Do directly shipped goods need the airport customs check?</strong><br><strong>No</strong>. You don’t carry them out, so there is no airport check for them.",
+            "<strong>Q5. Can I send things home myself from the post office?</strong><br><strong>Not tax-free</strong>. Sending goods yourself (EMS etc.) was abolished at the end of March 2025.",
+            "<strong>Q6. Are there rules on amount or method for direct shipping?</strong><br>There is no ¥5,000 minimum. The only method is <strong>international transport arranged by the shop, handed over on the spot</strong>. Shipping is extra, and <strong>not every shop offers it</strong>.",
+            "<strong>Q7. Will I pay tax when the shipment arrives?</strong><br><strong>Possibly</strong>. Import tax may apply under the rules of the destination country or region, depending on the goods and value.",
+            "<strong>Q8. How long does the refund take? Are there fees?</strong><br><strong>It depends on the shop and refund provider</strong>. Ask about the method, timing and fees when you buy."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8. Checklist (forward this to visiting family and friends)",
       "blocks": [
         {
           "t": "checklist",
@@ -1111,7 +1203,7 @@
             "I checked the refund method and fees when buying",
             "Nothing I’ll use, eat or give away in Japan was bought tax-free",
             "My departure is within 90 days of my earliest purchase",
-            "Tax-free goods and receipts are in my carry-on, not checked bags",
+            "Tax-free goods are packed together near the top of one suitcase, receipts in one pouch",
             "I’ll arrive at the airport early to allow time for customs"
           ],
           "done": "You’re ready for the airport.",
@@ -1132,7 +1224,7 @@
         },
         {
           "t": "note",
-          "text": "Sources: Japan Tourism Agency (tax-free page for travelers), National Tax Agency (refund method revision), Japan Customs, and the Narita, Haneda and Kansai airport guides. Checked: 2026-11-06. Check refund methods and fees with the shop or refund provider."
+          "text": "Sources: Japan Tourism Agency (tax-free page for travelers), National Tax Agency (refund method revision), Japan Customs, and the Narita, Haneda and Kansai airport guides. Checked: 2026-11-07. Check refund methods and fees with the shop or refund provider."
         }
       ]
     }
@@ -1240,14 +1332,14 @@
           "t": "figure",
           "src": "/img/kurashi/tax-free-flow-vi.webp",
           "w": 1080,
-          "h": 2174,
+          "h": 2328,
           "alt": "Quy trình hoàn thuế ở sân bay: quét hộ chiếu ở máy trước check-in → xanh xong / đỏ kiểm tra hải quan → ký gửi hành lý → an ninh, xuất cảnh → nhận tiền mặt hoặc qua thẻ"
         },
         {
           "t": "ol",
           "items": [
             "Đến sân bay, <strong>trước khi ra quầy check-in</strong>, hãy tìm <strong>máy “Customs Tax Refund”</strong> ở sảnh khởi hành quốc tế (trước khu kiểm tra an ninh)",
-            "Chính người mua <strong>đặt hộ chiếu lên máy để quét</strong>. Mang toàn bộ hàng miễn thuế bên mình",
+            "Chính người mua <strong>đặt hộ chiếu lên máy để quét</strong>. Mang toàn bộ hàng miễn thuế bên mình (<strong>để trong vali cũng được, chỉ là chưa ký gửi</strong>)",
             "Màn hình <strong>“Xanh” là xong</strong>. <strong>“Đỏ”</strong> thì đưa hàng cho <strong>khu kiểm tra hải quan</strong> gần đó xem",
             "Sau đó mới <strong>ký gửi hành lý, check-in</strong>",
             "<strong>Muốn nhận tiền mặt</strong> thì quét hộ chiếu ở <strong>máy hoặc quầy hoàn tiền mặt</strong> trong sân bay (khoảng 1 phút, chỉ yên Nhật). <strong>Nhận qua thẻ, ví QR, chuyển khoản</strong> thì làm theo cách cửa hàng đã hướng dẫn (không cần làm gì thêm ở sân bay)"
@@ -1290,6 +1382,11 @@
         {
           "t": "note",
           "text": "<strong>Một số cửa hàng không hỗ trợ hoàn tiền mặt ở sân bay</strong>. Khi mua hãy hỏi: “空港で現金で返金できますか？” (Ở sân bay có nhận hoàn tiền mặt được không?)"
+        },
+        {
+          "t": "lead",
+          "label": "Điểm quan trọng",
+          "text": "・<strong>Đến sân bay sớm hơn bình thường</strong>. Có thể phải xếp hàng hoặc bị kiểm tra<br>・<strong>Người mua dùng hộ chiếu của chính mình</strong>. Người nhà mua riêng thì mỗi người tự làm<br>・<strong>Không phải ai cũng bị kiểm tra</strong>. Chỉ khi “Đỏ” mới kiểm tra; tiêu chí không được công bố<br>・Khi “Đỏ”, <strong>không chịu kiểm tra vẫn xuất cảnh được</strong>, nhưng <strong>những món đó không được hoàn thuế</strong><br>・<strong>Thời gian nhận tiền và phí</strong> tùy cửa hàng, đơn vị hoàn tiền. Hỏi khi mua"
         }
       ]
     },
@@ -1377,7 +1474,7 @@
           "items": [
             "<strong>Người sống ở Nhật không được miễn thuế</strong>. Không được dùng hộ chiếu của người thân để mua đồ miễn thuế cho mình.",
             "Những thứ người thân <strong>sẽ đưa cho bạn hoặc dùng ở nhà bạn</strong> thì đừng mua miễn thuế.",
-            "<strong>Khi đưa ra sân bay</strong>, hãy đi sớm để có thời gian cho hải quan. Để hàng miễn thuế riêng với hành lý ký gửi sẽ tiện hơn.",
+            "<strong>Khi đưa ra sân bay</strong>, hãy đi sớm để có thời gian cho hải quan. <strong>Nếu mua nhiều, hãy gom hàng miễn thuế vào phía trên của một vali</strong> và để hóa đơn chung một túi, khi bị kiểm tra có thể đưa ra ngay. Mua nhiều quá không mang được thì <strong>nhờ cửa hàng gửi thẳng ra nước ngoài</strong> (vẫn được miễn thuế).",
             "<strong>Cách nhận tiền hoàn</strong> được chọn ngay tại cửa hàng khi mua. Không phải cửa hàng nào cũng có nhận tiền mặt ở sân bay.",
             "Cách tự gửi bưu điện quốc tế (gửi riêng) đã bị bỏ từ cuối tháng 3/2025. <strong>Dịch vụ cửa hàng gửi thẳng ra nước ngoài</strong> vẫn được miễn thuế."
           ]
@@ -1385,7 +1482,25 @@
       ]
     },
     {
-      "heading": "7. Danh sách kiểm tra (gửi cho người thân, bạn bè sắp sang)",
+      "heading": "7. Câu hỏi thường gặp",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Q1. Có phải ai, món nào cũng bị kiểm tra?</strong><br><strong>Không</strong>. Máy báo “Xanh” là xong. <strong>Chỉ khi “Đỏ”</strong> mới kiểm tra hàng. Tiêu chí không được công bố.",
+            "<strong>Q2. Bị “Đỏ” mà không muốn kiểm tra thì sao?</strong><br>Vẫn xuất cảnh được, nhưng <strong>những món đó không được hoàn thuế</strong>.",
+            "<strong>Q3. Mua nhiều quá không mang được thì làm sao?</strong><br>Nhờ cửa hàng <strong>gửi thẳng</strong>: cửa hàng ký hợp đồng vận chuyển quốc tế và <strong>giao hàng cho đơn vị vận chuyển ngay tại chỗ</strong>.",
+            "<strong>Q4. Hàng gửi thẳng có cần xác nhận hải quan ở sân bay không?</strong><br><strong>Không cần</strong>. Bạn không tự mang ra nên không có xác nhận ở sân bay.",
+            "<strong>Q5. Tự gửi ở bưu điện có được không?</strong><br><strong>Không được miễn thuế</strong>. Cách tự gửi (EMS…) đã bị bỏ từ cuối tháng 3/2025.",
+            "<strong>Q6. Gửi thẳng có quy định về số tiền, cách gửi không?</strong><br>Không có mức tối thiểu 5.000 yên. Chỉ được dùng <strong>vận chuyển quốc tế do cửa hàng ký, giao ngay tại chỗ</strong>. Phí gửi riêng, <strong>không phải cửa hàng nào cũng làm</strong>.",
+            "<strong>Q7. Hàng gửi thẳng về đến nơi có phải nộp thuế không?</strong><br><strong>Có thể</strong>. Theo quy định của nước, vùng nhận hàng, tùy món và giá trị mà có thể phải nộp thuế nhập khẩu.",
+            "<strong>Q8. Bao lâu thì nhận được tiền? Có phí không?</strong><br><strong>Tùy cửa hàng và đơn vị hoàn tiền</strong>. Khi mua hãy hỏi cách hoàn, thời gian và phí."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8. Danh sách kiểm tra (gửi cho người thân, bạn bè sắp sang)",
       "blocks": [
         {
           "t": "checklist",
@@ -1395,7 +1510,7 @@
             "Khi mua đã hỏi cách nhận tiền hoàn và phí",
             "Không mua miễn thuế những thứ sẽ dùng, ăn hoặc tặng ở Nhật",
             "Ngày xuất cảnh trong vòng 90 ngày kể từ ngày mua sớm nhất",
-            "Hàng miễn thuế và hóa đơn để trong hành lý xách tay, không ký gửi",
+            "Hàng miễn thuế gom ở phía trên một vali, hóa đơn để chung một túi",
             "Sẽ đến sân bay sớm để có thời gian cho hải quan"
           ],
           "done": "Vậy là ra sân bay không còn lo.",
@@ -1416,7 +1531,7 @@
         },
         {
           "t": "note",
-          "text": "Nguồn: Cục Du lịch Nhật Bản (trang miễn thuế cho du khách), Cục Thuế Quốc gia Nhật Bản (chuyển sang hình thức hoàn tiền), Hải quan Nhật Bản và hướng dẫn của sân bay Narita, Haneda, Kansai. Ngày kiểm tra: 2026-11-06. Hãy hỏi cửa hàng hoặc đơn vị hoàn tiền về cách nhận và phí."
+          "text": "Nguồn: Cục Du lịch Nhật Bản (trang miễn thuế cho du khách), Cục Thuế Quốc gia Nhật Bản (chuyển sang hình thức hoàn tiền), Hải quan Nhật Bản và hướng dẫn của sân bay Narita, Haneda, Kansai. Ngày kiểm tra: 2026-11-07. Hãy hỏi cửa hàng hoặc đơn vị hoàn tiền về cách nhận và phí."
         }
       ]
     }
@@ -1524,14 +1639,14 @@
           "t": "figure",
           "src": "/img/kurashi/tax-free-flow-ko.webp",
           "w": 1080,
-          "h": 2069,
+          "h": 2153,
           "alt": "공항 환급 순서: 체크인 전 단말기에 여권→그린 끝/레드 세관 검사→짐 맡기기→보안 검사·출국 심사→현금 또는 카드 등으로 환급"
         },
         {
           "t": "ol",
           "items": [
             "공항에 도착하면 <strong>체크인 카운터에 가기 전에</strong> 국제선 출발 로비(보안 검사 전)의 <strong>“면세 수속 단말기(Customs Tax Refund)”</strong>로 간다",
-            "구매한 본인이 <strong>여권을 단말기에 댄다</strong>. 면세품은 전부 손에",
+            "구매한 본인이 <strong>여권을 단말기에 댄다</strong>. 면세품은 전부 손에(<strong>캐리어에 넣은 채로 OK, 아직 맡기지 않기</strong>)",
             "화면이 <strong>“그린”이면 끝</strong>. <strong>“레드”면</strong> 근처 <strong>세관 검사 장소</strong>에서 물건을 보여 준다",
             "그다음에 <strong>짐을 맡기고 체크인</strong>",
             "<strong>현금으로 받으려면</strong> 공항의 <strong>현금 환급 단말기·카운터</strong>에서 여권을 댄다(약 1분, 엔화만). <strong>카드·QR 결제·계좌 이체</strong>는 살 때 안내받은 방법으로 진행(공항에서 따로 할 일 없음)"
@@ -1574,6 +1689,11 @@
         {
           "t": "note",
           "text": "<strong>공항 현금 환급을 지원하지 않는 매장도 있습니다</strong>. 살 때 “空港で現金で返金できますか？”(공항에서 현금으로 환급받을 수 있나요?)라고 물어 두면 안심입니다."
+        },
+        {
+          "t": "lead",
+          "label": "중요 포인트",
+          "text": "・<strong>평소보다 일찍 공항에</strong>. 줄을 서거나 검사를 받을 수 있습니다<br>・<strong>구매한 본인이 자기 여권으로</strong>. 가족이 각자 산 것은 각자 절차를 밟습니다<br>・<strong>모두가 검사를 받는 것은 아닙니다</strong>. “레드”일 때만 검사하며, 기준은 공개되지 않았습니다<br>・레드일 때 <strong>검사를 받지 않아도 출국은 할 수 있지만</strong>, <strong>그 물건은 환급되지 않습니다</strong><br>・<strong>환급까지 걸리는 기간과 수수료</strong>는 매장·환급 사업자마다 다릅니다. 살 때 확인"
         }
       ]
     },
@@ -1661,7 +1781,7 @@
           "items": [
             "<strong>일본에 사는 사람은 면세를 쓸 수 없습니다</strong>. 가족 여권으로 내 물건을 면세로 사는 것은 안 됩니다.",
             "가족이 일본에 있는 동안 <strong>나에게 줄 물건·집에서 쓸 물건은 면세로 사지 않게</strong> 합니다.",
-            "<strong>공항까지 배웅할 때</strong>는 세관 확인 시간을 더해 일찍 출발. 면세품은 맡길 짐과 따로 챙기면 편합니다.",
+            "<strong>공항까지 배웅할 때</strong>는 세관 확인 시간을 더해 일찍 출발. <strong>많이 샀다면 면세품을 캐리어 하나의 위쪽에 모으고</strong> 영수증은 봉투 하나에 넣어 두면 검사 때 바로 보여 줄 수 있습니다. 들고 가기 어려울 만큼 샀다면 <strong>매장에서 해외로 직접 보내는</strong> 방법도 있습니다(면세 그대로).",
             "<strong>환급 받는 방법</strong>은 살 때 매장에서 정합니다. 공항 현금 수령은 지원하지 않는 매장도 있습니다.",
             "직접 국제우편으로 보내는 방법(별송)은 2025년 3월 말에 끝났습니다. <strong>매장이 해외로 직접 보내는</strong> 서비스는 면세 그대로 이용할 수 있습니다."
           ]
@@ -1669,7 +1789,25 @@
       ]
     },
     {
-      "heading": "7. 체크리스트(일본에 오는 가족·친구에게 전달용)",
+      "heading": "7. 자주 묻는 질문",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Q1. 모든 사람, 모든 물건을 검사하나요?</strong><br><strong>아닙니다</strong>. 단말기에서 “그린”이면 끝. <strong>“레드”일 때만</strong> 물건을 확인합니다. 기준은 공개되지 않았습니다.",
+            "<strong>Q2. 레드인데 검사를 받고 싶지 않으면?</strong><br>출국은 할 수 있지만 <strong>그 물건은 환급되지 않습니다</strong>.",
+            "<strong>Q3. 너무 많이 사서 들고 갈 수 없으면?</strong><br>매장에 <strong>직송</strong>을 부탁합니다. 매장이 국제 운송 계약을 하고 <strong>그 자리에서 운송 회사에 물건을 넘겨</strong> 해외로 보냅니다.",
+            "<strong>Q4. 직송한 물건도 공항에서 세관 확인이 필요한가요?</strong><br><strong>필요 없습니다</strong>. 직접 가지고 나가는 물건이 아니므로 공항 확인이 없습니다.",
+            "<strong>Q5. 직접 우체국에서 보내도 되나요?</strong><br><strong>면세가 되지 않습니다</strong>. 직접 EMS 등으로 보내는 “별송”은 2025년 3월 말로 끝났습니다.",
+            "<strong>Q6. 직송에 금액이나 방법의 조건이 있나요?</strong><br>5,000엔 이상 조건은 없습니다. 방법은 <strong>매장이 계약한 국제 운송으로, 그 자리에서 인도</strong>하는 것뿐입니다. 배송비는 별도, <strong>직송이 안 되는 매장도 있습니다</strong>.",
+            "<strong>Q7. 직송한 물건이 도착하면 세금이 붙나요?</strong><br><strong>붙을 수 있습니다</strong>. 도착한 국가·지역의 규정에 따라 물건과 금액에 따라 수입 관련 세금이 부과될 수 있습니다.",
+            "<strong>Q8. 환급까지 얼마나 걸리나요? 수수료는?</strong><br><strong>매장·환급 사업자마다 다릅니다</strong>. 살 때 환급 방법·기간·수수료를 확인하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8. 체크리스트(일본에 오는 가족·친구에게 전달용)",
       "blocks": [
         {
           "t": "checklist",
@@ -1679,7 +1817,7 @@
             "살 때 환급 방법과 수수료를 확인했다",
             "일본에서 쓰거나 먹을 것, 남에게 줄 것은 면세로 사지 않았다",
             "출국일은 가장 이른 구매일로부터 90일 이내",
-            "면세품과 영수증은 맡기지 않는 기내 짐에 모았다",
+            "면세품은 캐리어 하나의 위쪽에 모으고, 영수증은 봉투 하나에 넣었다",
             "세관 확인 시간을 더해 공항에 일찍 도착한다"
           ],
           "done": "이제 공항에서도 당황하지 않습니다.",
@@ -1700,7 +1838,7 @@
         },
         {
           "t": "note",
-          "text": "출처: 일본 관광청 “면세 제도(여행자용 특설 페이지)”, 일본 국세청 “수출물품 판매장 제도의 리펀드 방식 전환”, 일본 세관, 나리타·하네다·간사이 공항 안내. 확인일: 2026-11-06. 환급 방법과 수수료는 매장이나 환급 사업자에게 확인하세요."
+          "text": "출처: 일본 관광청 “면세 제도(여행자용 특설 페이지)”, 일본 국세청 “수출물품 판매장 제도의 리펀드 방식 전환”, 일본 세관, 나리타·하네다·간사이 공항 안내. 확인일: 2026-11-07. 환급 방법과 수수료는 매장이나 환급 사업자에게 확인하세요."
         }
       ]
     }
