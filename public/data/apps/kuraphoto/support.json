@@ -222,6 +222,7 @@
         {
           "t": "ul",
           "items": [
+            "<strong>1.1</strong>（2026 年 11 月）— 写真だけ・動画だけを選んで取り込む、前回と同じ設定で始める、選んだものをゴミ箱に入れる、見当たらないファイルを見て選んで取り込む、重複の削除を 1 つのフォルダにまとめてゴミ箱へ、終わったら音で知らせる、ログのフォルダを開く",
             "<strong>1.0</strong>（2026 年）— 最初のリリース"
           ]
         }
@@ -496,6 +497,7 @@
         {
           "t": "ul",
           "items": [
+            "<strong>1.1</strong> (November 2026) — Import photos only or videos only, start with the last settings, move chosen items to the Trash, view and choose missing files to import, duplicates deleted together in one folder in the Trash, completion sound, open the log folder",
             "<strong>1.0</strong> (2026) — First release"
           ]
         }
@@ -771,6 +773,7 @@
         {
           "t": "ul",
           "items": [
+            "<strong>1.1</strong> (November 2026) — Nur Fotos oder nur Videos importieren, mit den letzten Einstellungen starten, ausgewählte Objekte in den Papierkorb legen, fehlende Dateien ansehen und zum Import auswählen, gelöschte Duplikate gesammelt in einem Ordner im Papierkorb, Ton bei Abschluss, Protokollordner öffnen",
             "<strong>1.0</strong> (2026) — Erste Veröffentlichung"
           ]
         }
@@ -1046,6 +1049,7 @@
         {
           "t": "ul",
           "items": [
+            "<strong>1.1</strong> (novembre 2026) — Importer uniquement les photos ou les vidéos, démarrer avec les derniers réglages, placer les éléments choisis dans la corbeille, voir et choisir les fichiers manquants à importer, doublons supprimés regroupés dans un seul dossier de la corbeille, son de fin, ouvrir le dossier des journaux",
             "<strong>1.0</strong> (2026) — Première version"
           ]
         }
@@ -1321,6 +1325,7 @@
         {
           "t": "ul",
           "items": [
+            "<strong>1.1</strong>(2026년 11월) — 사진만·동영상만 가져오기, 지난번과 같은 설정으로 시작, 선택한 항목을 휴지통으로 이동, 누락된 파일을 보고 골라서 가져오기, 삭제한 중복 항목을 한 폴더로 모아 휴지통으로, 완료 알림음, 로그 폴더 열기",
             "<strong>1.0</strong>(2026년) — 첫 출시"
           ]
         }
@@ -1596,6 +1601,7 @@
         {
           "t": "ul",
           "items": [
+            "<strong>1.1</strong>（2026 年 11 月）— 可只导入照片或只导入视频、以上次的设置开始、将所选项目移到废纸篓、查看并选择缺少的文件导入、删除的重复项集中到一个文件夹移到废纸篓、完成提示音、打开日志文件夹",
             "<strong>1.0</strong>（2026 年）— 首次发布"
           ]
         }
@@ -1871,6 +1877,7 @@
         {
           "t": "ul",
           "items": [
+            "<strong>1.1</strong>（2026 年 11 月）— 可只匯入照片或只匯入影片、以上次的設定開始、將所選項目移到垃圾桶、檢視並選擇缺少的檔案匯入、刪除的重複項目集中到一個資料夾移到垃圾桶、完成提示音、打開記錄資料夾",
             "<strong>1.0</strong>（2026 年）— 首次發布"
           ]
         }

@@ -1,6 +1,6 @@
 {
   "_note": "KuraPhoto の公開ページ（/kuraphoto/）の設定。本文は support.json・mac/guide.json・iphone/guide.json・privacy.json。iosReleased を true にすると、本文の only: \"ios\" と <!--ios-->…<!--/ios--> を出し、only: \"mac\" と <!--mac-only-->…<!--/mac-only--> を消す（false では逆）。iPhone 版の使い方（iphone/）は、審査で見られるため false でもページを作る（ほかのページからはリンクしない）。以前の Mac 版の使い方（help/）は public/_redirects で mac/ へ転送する（Mac 版 1.0・1.1 のアプリが help/ を開くため消さない）。",
-  "iosReleased": false,
+  "iosReleased": true,
   "icon": "/kuraphoto/img/kuraphoto-icon-256.png",
   "ogImage": "https://kurawise.com/kuraphoto/img/kuraphoto-icon-512.png",
   "pages": [
