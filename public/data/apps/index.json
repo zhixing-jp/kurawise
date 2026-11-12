@@ -1,0 +1,18 @@
+{
+  "_note": "アプリの一覧（/apps/）。新しいアプリはここに 1 つ足し、本文は public/data/apps/<アプリ>/ に置く。url・desc はサイトの言語ごと（ない言語は en を使う）。",
+  "apps": [
+    {
+      "id": "kuraphoto",
+      "name": "KuraPhoto",
+      "icon": "/kuraphoto/img/kuraphoto-icon-256.png",
+      "url": { "ja": "/kuraphoto/", "en": "/kuraphoto/en/", "zh": "/kuraphoto/zh-hans/", "zh-TW": "/kuraphoto/zh-hant/", "ko": "/kuraphoto/ko/" },
+      "desc": {
+        "ja": "iPhone・SD カード・Android・「写真」アプリの写真と動画を、撮影日ごとのフォルダに整理する Mac アプリ。",
+        "en": "A Mac app that organizes photos and videos from iPhone, SD cards, Android, and the Photos app into folders by date taken.",
+        "zh": "将 iPhone、SD 卡、Android 和\"照片\"App 中的照片和视频按拍摄日期整理到文件夹的 Mac App。",
+        "zh-TW": "將 iPhone、SD 卡、Android 和「照片」App 中的照片和影片依拍攝日期整理到資料夾的 Mac App。",
+        "ko": "iPhone·SD 카드·Android·‘사진’ 앱의 사진과 동영상을 촬영일별 폴더로 정리하는 Mac 앱."
+      }
+    }
+  ]
+}

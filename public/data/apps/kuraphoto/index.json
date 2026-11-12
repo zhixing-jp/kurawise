@@ -1,0 +1,30 @@
+{
+  "_note": "KuraPhoto の公開ページ（/kuraphoto/）の設定。本文は support.json・mac/guide.json・iphone/guide.json・privacy.json。iosReleased を true にすると、本文の only: \"ios\" と <!--ios-->…<!--/ios--> を出し、only: \"mac\" と <!--mac-only-->…<!--/mac-only--> を消す（false では逆）。iPhone 版の使い方（iphone/）は、審査で見られるため false でもページを作る（ほかのページからはリンクしない）。以前の Mac 版の使い方（help/）は public/_redirects で mac/ へ転送する（Mac 版 1.0・1.1 のアプリが help/ を開くため消さない）。",
+  "iosReleased": false,
+  "icon": "/kuraphoto/img/kuraphoto-icon-256.png",
+  "ogImage": "https://kurawise.com/kuraphoto/img/kuraphoto-icon-512.png",
+  "pages": [
+    { "key": "support", "path": "", "file": "support.json" },
+    { "key": "mac", "path": "mac/", "file": "mac/guide.json" },
+    { "key": "iphone", "path": "iphone/", "file": "iphone/guide.json" },
+    { "key": "privacy", "path": "privacy/", "file": "privacy.json" }
+  ],
+  "langs": [
+    { "folder": "ja", "htmlLang": "ja", "label": "日本語", "siteLang": "ja" },
+    { "folder": "en", "htmlLang": "en", "label": "English", "siteLang": "en" },
+    { "folder": "de", "htmlLang": "de", "label": "Deutsch", "siteLang": "en" },
+    { "folder": "fr", "htmlLang": "fr", "label": "Français", "siteLang": "en" },
+    { "folder": "ko", "htmlLang": "ko", "label": "한국어", "siteLang": "ko" },
+    { "folder": "zh-hans", "htmlLang": "zh-Hans", "label": "简体中文", "siteLang": "zh" },
+    { "folder": "zh-hant", "htmlLang": "zh-Hant", "label": "繁體中文", "siteLang": "zh-TW" }
+  ],
+  "crumbs": {
+    "ja": { "apps": "アプリ", "mac": "使い方ガイド", "iphone": "使い方ガイド（iPhone・iPad）", "privacy": "プライバシーポリシー" },
+    "en": { "apps": "Apps", "mac": "User Guide", "iphone": "iPhone & iPad Guide", "privacy": "Privacy Policy" },
+    "de": { "apps": "Apps", "mac": "Anleitung", "iphone": "Anleitung iPhone & iPad", "privacy": "Datenschutz" },
+    "fr": { "apps": "Apps", "mac": "Guide", "iphone": "Guide iPhone et iPad", "privacy": "Confidentialité" },
+    "ko": { "apps": "앱", "mac": "사용 설명서", "iphone": "iPhone·iPad 사용 설명서", "privacy": "개인정보 처리방침" },
+    "zh-hans": { "apps": "应用", "mac": "使用指南", "iphone": "iPhone 和 iPad 使用指南", "privacy": "隐私政策" },
+    "zh-hant": { "apps": "應用程式", "mac": "使用指南", "iphone": "iPhone 和 iPad 使用指南", "privacy": "隱私權政策" }
+  }
+}

@@ -1,0 +1,1927 @@
+{
+  "_note": "KuraPhoto の公開ページの本文（support.json）。言語ごとに title_／head_title_／description_／sections_ を持つ。",
+  "title_ja": "KuraPhoto",
+  "head_title_ja": "KuraPhoto サポート｜Kurawise",
+  "description_ja": "iPhone・SD カード・Android・「写真」アプリの写真と動画を、撮影日ごとのフォルダに整理する Mac アプリ KuraPhoto のサポートページ。機能、無料版と Pro、よくある質問、お問い合わせ。",
+  "sections_ja": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "iPhone・SD カード・外付けディスク・Android・「写真」アプリの写真と動画を、撮影日ごとのフォルダにきれいに整理する Mac アプリです。取り込み元の写真は消さず、取り込み漏れがないかまで確かめます。",
+          "only": "mac"
+        },
+        {
+          "t": "intro",
+          "text": "写真と動画を、撮影日ごとのフォルダにきれいに整理するアプリです。Mac では iPhone・SD カード・外付けディスク・Android・「写真」アプリから取り込み、iPhone・iPad では外付け SSD・NAS へ書き出します。どちらも、保存できていないものがないかまで確かめます。",
+          "only": "ios"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "使い方",
+              "href": "mac/",
+              "text": "使い方ガイドを見る",
+              "only": "mac"
+            },
+            {
+              "title": "使い方（Mac）",
+              "href": "mac/",
+              "text": "Mac 版の使い方ガイド",
+              "only": "ios"
+            },
+            {
+              "title": "使い方（iPhone・iPad）",
+              "href": "iphone/",
+              "text": "iPhone・iPad 版の使い方ガイド",
+              "only": "ios"
+            },
+            {
+              "title": "お問い合わせ",
+              "href": "mailto:kuraphoto@kurawise.com",
+              "text": "kuraphoto@kurawise.com"
+            },
+            {
+              "title": "プライバシー",
+              "href": "privacy/",
+              "text": "プライバシーポリシー"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "できること",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Mac",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>iPhone・iPad から取り込む</strong>：ケーブルでつなぐだけ。Live Photos や編集情報もそのまま。取り込み済みは自動でとばします。",
+            "<strong>外部メモリから取り込む</strong>：SD・microSD・CF カード、USB メモリ、外付けディスク、デジカメ、Android スマホに対応。",
+            "<strong>フォルダを整理する</strong>：別の場所へコピーするか、フォルダの中で並べ替え（元に戻せます）。",
+            "<strong>写真ライブラリから取り込む</strong>：「写真」アプリの原本を普通のフォルダに取り出します。ライブラリは変更しません。",
+            "<strong>重複チェック</strong>：同じ写真や、サイズ・形式だけ違うコピーを見つけて片付けます（元に戻せます）。",
+            "<strong>取り込み漏れチェック</strong>：保存先にすべてそろっているかを月ごとに調べ、レポート（PDF・CSV）にします。"
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "iPhone・iPad",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>書き出す</strong>：写真と動画を、外付け SSD・USB メモリ・NAS などへ撮影日ごとのフォルダで書き出します。書き出し済みは自動でとばします。",
+            "<strong>確かめる</strong>：書き出し先にすべて保存できているかを月ごとに調べます。",
+            "<strong>空き容量を作る</strong>：保存済みと確かめた写真・動画だけを選んで、iPhone から削除します（Pro）。",
+            "<strong>重複を片付ける</strong>：同じ写真のコピー（サイズ違い・形式違いも）を見つけます。"
+          ],
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "無料版と Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "機能",
+            "無料版",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "読み込み・中身の確認・試しに確認（ドライラン）",
+              "○",
+              "○"
+            ],
+            [
+              "取り込み・整理",
+              "1 日 100 件まで",
+              "件数無制限"
+            ],
+            [
+              "重複を見つける",
+              "○",
+              "○"
+            ],
+            [
+              "重複の結合・削除",
+              "—",
+              "○"
+            ],
+            [
+              "取り込み漏れチェック（結果の表示）",
+              "○",
+              "○"
+            ],
+            [
+              "レポートの保存（PDF・CSV）・残りを取り込む",
+              "—",
+              "○"
+            ],
+            [
+              "元に戻す・続きから取り込む",
+              "○",
+              "○"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "上の表は Mac 版です。iPhone・iPad 版は、書き出しが 1 日 100 件まで無料で、Pro では件数無制限・空き容量を作る・重複の削除・JPEG 変換・結果の保存が使えます（<a href=\"iphone/#pro\">くわしく</a>）。",
+          "only": "ios"
+        },
+        {
+          "t": "note",
+          "text": "Pro は買い切り（月額料金なし）で、ファミリー共有に対応しています。<!--ios-->Mac 版と iPhone・iPad 版で共通です（どちらで買っても、同じ Apple アカウントなら両方で使えます）。<!--/ios-->価格は App Store でご確認ください。"
+        }
+      ]
+    },
+    {
+      "heading": "動作環境",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "macOS 14 Sonoma 以降（Apple シリコン・Intel）",
+            "<!--ios-->iOS 17・iPadOS 17 以降（iPhone・iPad 版）<!--/ios-->",
+            "日本語・英語・ドイツ語・フランス語・韓国語・中国語（簡体字・繁体字）に対応（Mac の言語に合わせて表示）",
+            "iPhone・iPad から取り込む場合：USB ケーブル（iPhone のロック解除と「このコンピュータを信頼」が必要）",
+            "Android から取り込む場合：USB の設定を「写真を転送（PTP）」にしてください"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "よくある質問",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "元の写真が消えたり、書き換えられたりしませんか？",
+              "a": "<p>いいえ。取り込み・整理はすべて「コピー」で、取り込み元の写真は消しません。「このフォルダ内で整理」で移動した場合も、「元に戻す」で整理前の配置に戻せます。重複チェックで片付けたものも、元に戻せます。完全に削除する機能はありません。</p>"
+            },
+            {
+              "q": "無料版ではどこまで使えますか？",
+              "a": "<p>読み込み、中身の確認、試しに確認、重複を見つける、取り込み漏れの確認、元に戻す、続きから取り込むは制限なく使えます。取り込み・整理は、すべての作業の合計で 1 日 100 件までです（0 時に 100 件に戻ります）。翌日に同じ操作をすると続きから取り込めます（取り込み済みは自動でとばし、件数にも数えません）。</p>"
+            },
+            {
+              "q": "Android やデジカメからも取り込めますか？",
+              "a": "<p>はい。Android は USB でつなぎ、通知の「USB の設定」で「写真を転送（PTP）」を選んでください。デジカメは SD カードをカードリーダーで読むか、USB でつないで「PC 接続」「PTP」などのモードにしてください。詳しくは<a href=\"mac/#external\">使い方ガイド</a>をご覧ください。</p>"
+            },
+            {
+              "q": "iPhone をつないでも表示されません",
+              "a": "<p>iPhone のロックを解除し、「このコンピュータを信頼しますか？」で「信頼」を選んでください。ケーブルやハブを替えると改善することがあります。詳しくは<a href=\"mac/#trouble\">使い方ガイド</a>をご覧ください。</p>"
+            },
+            {
+              "q": "iPhone の写真の一部が取り込めません",
+              "a": "<p>iPhone で「iCloud 写真」と「iPhone のストレージを最適化」がオンの場合、原本が iCloud にしかない写真はケーブルでは取り込めません（Apple の仕様です）。同じ Apple アカウントで「iCloud 写真」をオンにしている Mac なら、「写真ライブラリから取り込む」で取り込めます。</p>"
+            },
+            {
+              "q": "途中で止まったり、ケーブルが抜けたりしました",
+              "a": "<p>もう一度つなぐと「続きから取り込む」が表示され、取り込み済みのものをとばして再開できます。</p>"
+            },
+            {
+              "q": "購入を復元したい",
+              "a": "<p>Mac ではアプリのメニュー「KuraPhoto › 購入を復元」を選んでください<!--ios-->。iPhone・iPad では、設定（右上の歯車）の「購入を復元」を押してください<!--/ios-->（購入したときと同じ Apple アカウントでサインインしている必要があります）。</p>"
+            },
+            {
+              "q": "返金してほしい",
+              "a": "<p>App Store での購入は Apple が販売・決済を行っているため、返金は Apple が受け付けています。<a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a> から手続きしてください。</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "お問い合わせ",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "不具合のご報告・ご要望は <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> までお送りください。<strong>通常 2〜3 営業日以内に返信します</strong>（土日祝日・年末年始を除く）。"
+        },
+        {
+          "t": "p",
+          "text": "macOS のバージョン、取り込み元（iPhone の機種など）、保存先のフォルダにある「KuraPhoto ログ」フォルダのログを添えていただくと、調査がスムーズです。いただいた情報は返信と不具合の調査にだけ使います（<a href=\"privacy/\">プライバシーポリシー</a>）。"
+        }
+      ]
+    },
+    {
+      "heading": "バージョン履歴",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>1.0</strong>（2026 年）— 最初のリリース"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "heading": "ご利用にあたっての注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>iPhone などから元の写真を消す前に、必ず「取り込み漏れチェック」で、すべて保存できていることを確かめてください。</strong>KuraPhoto が元の写真を消すことはありません。",
+            "<!--ios-->iPhone・iPad 版の「空き容量を作る」「重複を片付ける」で削除したものは、「写真」アプリの「最近削除した項目」に 30 日間残ります。iCloud 写真を使っている場合、同じ Apple アカウントのすべての機器と iCloud からも消えます。<!--/ios-->",
+            "重複チェックの「削除」は、ゴミ箱に入れるだけです。ゴミ箱を空にすると元に戻せません。iCloud Drive のフォルダで削除すると、同じ Apple アカウントのほかの機器からも消えます。",
+            "撮影日は、写真・動画に記録された日時で判断します。カメラの時計がずれていた場合は、その日時のフォルダに入ります。",
+            "iPhone で「iCloud 写真」を使っている場合、原本が iCloud にしかない写真はケーブルでは取り込めません（「写真ライブラリから取り込む」を使ってください）。",
+            "大切な写真は、KuraPhoto の保存先とは別の場所にもバックアップを取ることをおすすめします。法令で認められる範囲で、データの消失・破損などによる損害について、当方は責任を負いかねます。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "heading": "Pro の購入について",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro は<strong>買い切り</strong>です。サブスクリプション（定期購入）や月額料金はありません。価格は App Store に表示されます。",
+            "支払い・領収・返金は Apple が行います。返金は <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a> から申し込めます。",
+            "同じ Apple アカウントでサインインしているほかの Mac<!--ios-->・iPhone・iPad<!--/ios--> でも、「購入を復元」で使えます。ファミリー共有にも対応しています。",
+            "無料版では、すべての作業の合計で 1 日 100 件まで取り込み・整理できます。Pro では件数が無制限になり、重複の結合・削除、レポートの保存（PDF・CSV）、「残りを取り込む」が使えます。",
+            "購入した Pro の機能は、今後のアップデートでも引き続き使えます。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "使用許諾",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "KuraPhoto のご利用には、Apple の<a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">標準使用許諾契約（EULA）</a>が適用されます。"
+        },
+        {
+          "t": "intro",
+          "text": "© 2026 Kurawise"
+        }
+      ]
+    }
+  ],
+  "title_en": "KuraPhoto",
+  "head_title_en": "KuraPhoto Support | Kurawise",
+  "description_en": "Support for KuraPhoto, the Mac app that organizes photos and videos from iPhone, SD cards, Android, and the Photos app into folders by date taken. Features, Free and Pro, FAQ, and contact.",
+  "sections_en": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "A Mac app that neatly organizes photos and videos from your iPhone, SD cards, external disks, Android phones, and the Photos app into folders by date taken. It never deletes your originals, and it even checks that nothing was missed.",
+          "only": "mac"
+        },
+        {
+          "t": "intro",
+          "text": "Apps that neatly organize photos and videos into folders by date taken. On a Mac, import from your iPhone, SD cards, external disks, Android phones, and the Photos app; on iPhone and iPad, export to an external SSD or NAS. Both check that nothing was missed.",
+          "only": "ios"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "How to use",
+              "href": "mac/",
+              "text": "Read the user guide",
+              "only": "mac"
+            },
+            {
+              "title": "How to use (Mac)",
+              "href": "mac/",
+              "text": "Mac user guide",
+              "only": "ios"
+            },
+            {
+              "title": "How to use (iPhone and iPad)",
+              "href": "iphone/",
+              "text": "iPhone and iPad user guide",
+              "only": "ios"
+            },
+            {
+              "title": "Contact",
+              "href": "mailto:kuraphoto@kurawise.com",
+              "text": "kuraphoto@kurawise.com"
+            },
+            {
+              "title": "Privacy",
+              "href": "privacy/",
+              "text": "Privacy policy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What it does",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Mac",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Import from iPhone or iPad</strong>: just connect a cable. Live Photos and edit data come along, and anything already imported is skipped automatically.",
+            "<strong>Import from external storage</strong>: SD, microSD, and CF cards, USB drives, external disks, digital cameras, and Android phones.",
+            "<strong>Organize folders</strong>: copy to another location, or rearrange within the folder (can be undone).",
+            "<strong>Import from Photos Library</strong>: extracts originals from the Photos app into regular folders. Your library is never changed.",
+            "<strong>Duplicate Check</strong>: finds identical photos and copies that differ only in size or format, and cleans them up (can be undone).",
+            "<strong>Missing Files Check</strong>: checks month by month that everything is in your destination and creates a report (PDF, CSV)."
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "iPhone and iPad",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Export</strong>: export photos and videos to an external SSD, USB drive, NAS, and more, in folders by date. Items already exported are skipped.",
+            "<strong>Verify</strong>: check month by month that everything is saved at the destination.",
+            "<strong>Free Up Space</strong>: delete from your iPhone only items confirmed as saved (Pro).",
+            "<strong>Clean Up Duplicates</strong>: find copies of the same photo, even in other sizes or formats."
+          ],
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "Free and Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Feature",
+            "Free",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "Loading, browsing, trial run (dry run)",
+              "✓",
+              "✓"
+            ],
+            [
+              "Importing and organizing",
+              "Up to 100 per day",
+              "Unlimited"
+            ],
+            [
+              "Finding duplicates",
+              "✓",
+              "✓"
+            ],
+            [
+              "Merging and deleting duplicates",
+              "—",
+              "✓"
+            ],
+            [
+              "Missing Files Check (viewing results)",
+              "✓",
+              "✓"
+            ],
+            [
+              "Saving reports (PDF, CSV) and Import Remaining",
+              "—",
+              "✓"
+            ],
+            [
+              "Undo and Continue Import",
+              "✓",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The table above is for the Mac app. On iPhone and iPad, exporting is free for up to 100 items per day; Pro adds unlimited exporting, Free Up Space, deleting duplicates, JPEG conversion, and saving results (<a href=\"iphone/#pro\">details</a>). Pro is shared between the Mac and iPhone/iPad apps: buy it on either and use it on both with the same Apple Account.",
+          "only": "ios"
+        },
+        {
+          "t": "note",
+          "text": "Pro is a one-time purchase (no subscription) and supports Family Sharing. See the App Store for pricing."
+        }
+      ]
+    },
+    {
+      "heading": "System requirements",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "macOS 14 Sonoma or later (Apple silicon and Intel)",
+            "<!--ios-->iOS 17 / iPadOS 17 or later (iPhone and iPad app)<!--/ios-->",
+            "Available in English, German, French, Japanese, Korean, and Chinese (Simplified and Traditional), following your Mac’s language",
+            "Importing from iPhone or iPad: a USB cable (unlock the iPhone and choose “Trust This Computer”)",
+            "Importing from Android: set the USB mode to “Transfer photos (PTP)”"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Frequently asked questions",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "Will my original photos be deleted or changed?",
+              "a": "<p>No. Importing and organizing always copy, and photos on the source are never deleted. If you use “Organize Within This Folder” to move files, “Undo” returns them to their previous layout. Anything cleaned up with Duplicate Check can also be undone. KuraPhoto has no permanent-delete feature.</p>"
+            },
+            {
+              "q": "What can I do with the free version?",
+              "a": "<p>Loading, browsing, trial runs, finding duplicates, checking for missing files, undo, and continuing imports are unlimited. Importing and organizing are limited to 100 items per day in total (it resets at midnight). Repeat the same action the next day to continue (already imported items are skipped automatically and don’t count).</p>"
+            },
+            {
+              "q": "Can I import from Android phones or digital cameras?",
+              "a": "<p>Yes. For Android, connect by USB and choose “Transfer photos (PTP)” under “USB settings” in the notification. For a digital camera, read the SD card with a card reader, or connect by USB and set the camera to “PC connection”, “PTP”, or a similar mode. See the <a href=\"mac/#external\">user guide</a> for details.</p>"
+            },
+            {
+              "q": "My iPhone doesn’t appear when I connect it",
+              "a": "<p>Unlock the iPhone and choose “Trust” when “Trust This Computer?” appears. Trying a different cable or hub may help. See the <a href=\"mac/#trouble\">user guide</a> for details.</p>"
+            },
+            {
+              "q": "Some photos on my iPhone can’t be imported",
+              "a": "<p>When iCloud Photos and “Optimize iPhone Storage” are on, photos whose originals are only in iCloud can’t be imported over a cable (this is how Apple’s system works). On a Mac with iCloud Photos turned on for the same Apple Account, you can import them with “Import from Photos Library”.</p>"
+            },
+            {
+              "q": "The import stopped or the cable came loose",
+              "a": "<p>Reconnect and “Continue Import” appears. It skips what’s already imported and picks up where it left off.</p>"
+            },
+            {
+              "q": "How do I restore my purchase?",
+              "a": "<p>Choose “KuraPhoto › Restore Purchases” from the menu bar (you must be signed in with the same Apple Account you used to buy).</p><!--ios--><p>On iPhone or iPad, tap “Restore Purchases” in the settings (gear icon at the top right).</p><!--/ios-->"
+            },
+            {
+              "q": "I’d like a refund",
+              "a": "<p>Purchases on the App Store are sold and processed by Apple, so refunds are handled by Apple. Please request one at <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a>.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Contact",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Please send bug reports and requests to <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>. <strong>We usually reply within 2–3 business days</strong> (excluding weekends and Japanese holidays). You can write to us in English."
+        },
+        {
+          "t": "p",
+          "text": "Including your macOS version, the source (such as your iPhone model), and the logs in the “KuraPhoto Logs” folder in your destination folder helps us investigate faster. Information you send is used only to reply and investigate the issue (<a href=\"privacy/\">privacy policy</a>)."
+        }
+      ]
+    },
+    {
+      "heading": "Version history",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>1.0</strong> (2026) — First release"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "heading": "Before you use KuraPhoto",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<!--ios-->Items deleted with Free Up Space or Clean Up Duplicates in the iPhone and iPad app stay in “Recently Deleted” in the Photos app for 30 days. If you use iCloud Photos, they are also removed from iCloud and all devices using the same Apple Account.<!--/ios-->",
+            "<strong>Before deleting originals from your iPhone or other devices, always run the Missing Files Check to confirm everything has been saved.</strong> KuraPhoto never deletes your originals.",
+            "“Delete” in Duplicate Check only moves files to the Trash. Once you empty the Trash, they can’t be restored. Deleting in an iCloud Drive folder also removes the files from your other devices signed in to the same Apple Account.",
+            "Dates are taken from the date and time recorded in each photo or video. If your camera’s clock was wrong, files are sorted into folders for that recorded date.",
+            "If you use iCloud Photos on your iPhone, photos whose originals are stored only in iCloud can’t be imported by cable (use “Import from Photos Library” instead).",
+            "We recommend keeping a backup of important photos somewhere other than your KuraPhoto destination. To the extent permitted by law, we are not liable for damages caused by data loss or corruption."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "heading": "About purchasing Pro",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro is a <strong>one-time purchase</strong>. There is no subscription or monthly fee. The price is shown on the App Store.",
+            "Payment, receipts, and refunds are handled by Apple. You can request a refund at <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a>.",
+            "You can use Pro on your other Macs signed in to the same Apple Account with “Restore Purchases”. Family Sharing is supported.",
+            "<!--ios-->Pro bought on the Mac also works in the iPhone and iPad app (and vice versa) with the same Apple Account.<!--/ios-->",
+            "The free version can import and organize up to 100 items per day in total. Pro removes the limit and adds merging and deleting duplicates, saving reports (PDF, CSV), and “Import Remaining”.",
+            "Pro features you purchase remain available in future updates."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "License",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Use of KuraPhoto is governed by Apple’s <a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">Standard End User License Agreement (EULA)</a>."
+        },
+        {
+          "t": "intro",
+          "text": "© 2026 Kurawise"
+        }
+      ]
+    }
+  ],
+  "title_de": "KuraPhoto",
+  "head_title_de": "KuraPhoto Support | Kurawise",
+  "description_de": "Support für KuraPhoto, die Mac-App, die Fotos und Videos von iPhone, SD-Karten, Android und aus der Fotos-App nach Aufnahmedatum ordnet. Funktionen, Kostenlos und Pro, FAQ und Kontakt.",
+  "sections_de": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "Eine Mac-App, die Fotos und Videos von iPhone, SD-Karten, externen Festplatten, Android-Smartphones und aus der Fotos-App sauber in Ordner nach Aufnahmedatum sortiert. Ihre Originale werden nie gelöscht – und KuraPhoto prüft sogar, ob nichts fehlt.",
+          "only": "mac"
+        },
+        {
+          "t": "intro",
+          "text": "Apps, die Fotos und Videos sauber in Ordner nach Aufnahmedatum sortieren. Auf dem Mac importieren Sie von iPhone, SD-Karten, externen Festplatten, Android-Smartphones und aus der Fotos-App; auf iPhone und iPad exportieren Sie auf eine externe SSD oder ein NAS. Beide prüfen, ob nichts fehlt.",
+          "only": "ios"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "Anleitung",
+              "href": "mac/",
+              "text": "Anleitung lesen",
+              "only": "mac"
+            },
+            {
+              "title": "Anleitung (Mac)",
+              "href": "mac/",
+              "text": "Anleitung für den Mac",
+              "only": "ios"
+            },
+            {
+              "title": "Anleitung (iPhone und iPad)",
+              "href": "iphone/",
+              "text": "Anleitung für iPhone und iPad",
+              "only": "ios"
+            },
+            {
+              "title": "Kontakt",
+              "href": "mailto:kuraphoto@kurawise.com",
+              "text": "kuraphoto@kurawise.com"
+            },
+            {
+              "title": "Datenschutz",
+              "href": "privacy/",
+              "text": "Datenschutzrichtlinie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Funktionen",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Mac",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Von iPhone oder iPad importieren</strong>: einfach per Kabel verbinden. Live Photos und Bearbeitungsdaten bleiben erhalten, bereits Importiertes wird automatisch übersprungen.",
+            "<strong>Von externem Speicher importieren</strong>: SD-, microSD- und CF-Karten, USB-Sticks, externe Festplatten, Digitalkameras und Android-Smartphones.",
+            "<strong>Ordner ordnen</strong>: an einen anderen Ort kopieren oder innerhalb des Ordners umsortieren (widerrufbar).",
+            "<strong>Aus Fotos-Mediathek importieren</strong>: exportiert die Originale aus der Fotos-App in normale Ordner. Ihre Mediathek bleibt unverändert.",
+            "<strong>Duplikatprüfung</strong>: findet identische Fotos und Kopien, die sich nur in Größe oder Format unterscheiden, und räumt sie auf (widerrufbar).",
+            "<strong>Vollständigkeitsprüfung</strong>: prüft Monat für Monat, ob alles im Zielordner ist, und erstellt einen Bericht (PDF, CSV)."
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "iPhone und iPad",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Exportieren</strong>: Fotos und Videos auf externe SSD, USB-Stick, NAS und mehr exportieren, in Ordnern nach Datum. Bereits Exportiertes wird übersprungen.",
+            "<strong>Prüfen</strong>: Monat für Monat prüfen, ob alles am Ziel gesichert ist.",
+            "<strong>Speicher freigeben</strong>: Nur nachweislich gesicherte Objekte vom iPhone löschen (Pro).",
+            "<strong>Duplikate aufräumen</strong>: Kopien desselben Fotos finden, auch in anderer Größe oder anderem Format."
+          ],
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "Kostenlos und Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Funktion",
+            "Kostenlos",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "Laden, Durchsehen, Probelauf",
+              "✓",
+              "✓"
+            ],
+            [
+              "Importieren und Ordnen",
+              "Bis zu 100 pro Tag",
+              "Unbegrenzt"
+            ],
+            [
+              "Duplikate finden",
+              "✓",
+              "✓"
+            ],
+            [
+              "Duplikate zusammenführen und löschen",
+              "—",
+              "✓"
+            ],
+            [
+              "Vollständigkeitsprüfung (Ergebnis anzeigen)",
+              "✓",
+              "✓"
+            ],
+            [
+              "Berichte sichern (PDF, CSV) und Rest importieren",
+              "—",
+              "✓"
+            ],
+            [
+              "Widerrufen und Import fortsetzen",
+              "✓",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Die Tabelle oben gilt für die Mac-App. Auf iPhone und iPad ist der Export von bis zu 100 Objekten pro Tag kostenlos; Pro bietet unbegrenzten Export, Speicher freigeben, Löschen von Duplikaten, JPEG-Umwandlung und das Sichern von Ergebnissen (<a href=\"iphone/#pro\">Details</a>). Pro gilt für Mac und iPhone/iPad gemeinsam: auf einem Gerät kaufen und mit derselben Apple-ID auf beiden nutzen.",
+          "only": "ios"
+        },
+        {
+          "t": "note",
+          "text": "Pro ist ein Einmalkauf (kein Abo) und unterstützt die Familienfreigabe. Den Preis finden Sie im App Store."
+        }
+      ]
+    },
+    {
+      "heading": "Systemvoraussetzungen",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "macOS 14 Sonoma oder neuer (Apple Chip und Intel)",
+            "<!--ios-->iOS 17 / iPadOS 17 oder neuer (App für iPhone und iPad)<!--/ios-->",
+            "Verfügbar auf Deutsch, Englisch, Französisch, Japanisch, Koreanisch und Chinesisch (vereinfacht und traditionell) – passend zur Sprache Ihres Mac",
+            "Import von iPhone oder iPad: USB-Kabel (iPhone entsperren und „Diesem Computer vertrauen“ wählen)",
+            "Import von Android: USB-Modus „Fotos übertragen (PTP)“ einstellen"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Häufige Fragen",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "Werden meine Originalfotos gelöscht oder verändert?",
+              "a": "<p>Nein. Importieren und Ordnen erfolgen immer als Kopie; Fotos auf der Quelle werden nie gelöscht. Wenn Sie mit „In diesem Ordner ordnen“ Dateien verschieben, stellt „Widerrufen“ den vorherigen Zustand wieder her. Auch mit der Duplikatprüfung Aufgeräumtes lässt sich widerrufen. KuraPhoto hat keine Funktion zum endgültigen Löschen.</p>"
+            },
+            {
+              "q": "Was kann ich mit der kostenlosen Version tun?",
+              "a": "<p>Laden, Durchsehen, Probeläufe, Duplikatsuche, Vollständigkeitsprüfung, Widerrufen und Import fortsetzen sind unbegrenzt. Importieren und Ordnen sind auf insgesamt 100 Dateien pro Tag begrenzt (ab Mitternacht wieder 100). Wiederholen Sie am nächsten Tag denselben Vorgang, um weiter zu importieren (bereits Importiertes wird automatisch übersprungen und nicht gezählt).</p>"
+            },
+            {
+              "q": "Kann ich von Android-Smartphones oder Digitalkameras importieren?",
+              "a": "<p>Ja. Verbinden Sie ein Android-Gerät per USB und wählen Sie in der Benachrichtigung unter „USB-Einstellungen“ „Fotos übertragen (PTP)“. Bei einer Digitalkamera lesen Sie die SD-Karte mit einem Kartenleser oder verbinden die Kamera per USB im Modus „PC-Verbindung“, „PTP“ o. Ä. Details finden Sie in der <a href=\"mac/#external\">Anleitung</a>.</p>"
+            },
+            {
+              "q": "Mein iPhone wird nicht angezeigt",
+              "a": "<p>Entsperren Sie das iPhone und wählen Sie bei „Diesem Computer vertrauen?“ „Vertrauen“. Ein anderes Kabel oder ein anderer Hub kann helfen. Details finden Sie in der <a href=\"mac/#trouble\">Anleitung</a>.</p>"
+            },
+            {
+              "q": "Einige Fotos vom iPhone lassen sich nicht importieren",
+              "a": "<p>Wenn iCloud-Fotos und „iPhone-Speicher optimieren“ aktiv sind, können Fotos, deren Original nur in iCloud liegt, nicht per Kabel importiert werden (so funktioniert Apples System). Auf einem Mac mit iCloud-Fotos für denselben Apple Account importieren Sie sie mit „Aus Fotos-Mediathek importieren“.</p>"
+            },
+            {
+              "q": "Der Import wurde unterbrochen oder das Kabel hat sich gelöst",
+              "a": "<p>Verbinden Sie das Gerät erneut – dann erscheint „Import fortsetzen“. Bereits Importiertes wird übersprungen, und es geht dort weiter, wo es aufgehört hat.</p>"
+            },
+            {
+              "q": "Wie stelle ich meinen Kauf wieder her?",
+              "a": "<p>Wählen Sie in der Menüleiste „KuraPhoto › Käufe wiederherstellen“ (Sie müssen mit demselben Apple Account angemeldet sein, mit dem Sie gekauft haben).</p><!--ios--><p>Auf iPhone oder iPad tippen Sie in den Einstellungen (Zahnrad oben rechts) auf „Käufe wiederherstellen“.</p><!--/ios-->"
+            },
+            {
+              "q": "Ich möchte eine Rückerstattung",
+              "a": "<p>Käufe im App Store werden von Apple verkauft und abgewickelt, daher bearbeitet Apple auch Rückerstattungen. Bitte beantragen Sie diese unter <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a>.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Kontakt",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Bitte senden Sie Fehlerberichte und Wünsche an <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>. <strong>Wir antworten in der Regel innerhalb von 2–3 Werktagen</strong> (ohne Wochenenden und japanische Feiertage). Sie können uns auch auf Englisch schreiben."
+        },
+        {
+          "t": "p",
+          "text": "Wenn Sie Ihre macOS-Version, die Quelle (z. B. Ihr iPhone-Modell) und die Protokolle aus dem Ordner „KuraPhoto Protokolle“ in Ihrem Zielordner mitsenden, können wir schneller helfen. Ihre Angaben verwenden wir nur für die Antwort und die Fehlersuche (<a href=\"privacy/\">Datenschutzrichtlinie</a>)."
+        }
+      ]
+    },
+    {
+      "heading": "Versionsverlauf",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>1.0</strong> (2026) — Erste Veröffentlichung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "heading": "Hinweise zur Nutzung",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<!--ios-->Mit „Speicher freigeben“ oder „Duplikate aufräumen“ in der App für iPhone und iPad Gelöschtes bleibt 30 Tage unter „Zuletzt gelöscht“ in der Fotos-App. Mit iCloud-Fotos wird es auch aus iCloud und von allen Geräten mit derselben Apple-ID entfernt.<!--/ios-->",
+            "<strong>Bevor Sie Originale vom iPhone oder anderen Geräten löschen, prüfen Sie mit der Vollständigkeitsprüfung, dass alles gesichert ist.</strong> KuraPhoto löscht niemals Ihre Originale.",
+            "„Löschen“ in der Duplikatprüfung legt Dateien nur in den Papierkorb. Nach dem Entleeren des Papierkorbs lassen sie sich nicht wiederherstellen. Beim Löschen in einem iCloud Drive-Ordner werden die Dateien auch von Ihren anderen Geräten mit demselben Apple Account entfernt.",
+            "Das Datum wird aus dem in Foto oder Video gespeicherten Aufnahmedatum gelesen. War die Uhr der Kamera falsch eingestellt, landen die Dateien im Ordner dieses Datums.",
+            "Wenn Sie iCloud-Fotos auf dem iPhone nutzen, lassen sich Fotos, deren Original nur in iCloud liegt, nicht per Kabel importieren (verwenden Sie „Aus Fotos-Mediathek importieren“).",
+            "Wir empfehlen, wichtige Fotos zusätzlich an einem anderen Ort als dem KuraPhoto-Ziel zu sichern. Soweit gesetzlich zulässig, haften wir nicht für Schäden durch Datenverlust oder -beschädigung."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "heading": "Zum Kauf von Pro",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro ist ein <strong>Einmalkauf</strong>. Es gibt kein Abo und keine monatlichen Gebühren. Der Preis wird im App Store angezeigt.",
+            "Zahlung, Belege und Rückerstattungen werden von Apple abgewickelt. Eine Rückerstattung können Sie unter <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a> anfordern.",
+            "Auf Ihren anderen Macs mit demselben Apple Account nutzen Sie Pro über „Käufe wiederherstellen“. Die Familienfreigabe wird unterstützt.",
+            "<!--ios-->Auf dem Mac gekauftes Pro gilt mit derselben Apple-ID auch in der App für iPhone und iPad (und umgekehrt).<!--/ios-->",
+            "Die kostenlose Version importiert und ordnet insgesamt bis zu 100 Dateien pro Tag. Pro hebt die Begrenzung auf und bietet Zusammenführen und Löschen von Duplikaten, Berichte sichern (PDF, CSV) und „Rest importieren“.",
+            "Gekaufte Pro-Funktionen bleiben auch in künftigen Updates verfügbar."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Lizenz",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Für die Nutzung von KuraPhoto gilt Apples <a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">Standard-Endbenutzer-Lizenzvertrag (EULA)</a>."
+        },
+        {
+          "t": "intro",
+          "text": "© 2026 Kurawise"
+        }
+      ]
+    }
+  ],
+  "title_fr": "KuraPhoto",
+  "head_title_fr": "Assistance KuraPhoto | Kurawise",
+  "description_fr": "Assistance pour KuraPhoto, l’app Mac qui range les photos et vidéos de l’iPhone, des cartes SD, d’Android et de l’app Photos par date de prise de vue. Fonctionnalités, Gratuit et Pro, FAQ et contact.",
+  "sections_fr": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "Une app Mac qui range proprement les photos et vidéos de votre iPhone, de vos cartes SD, disques externes, smartphones Android et de l’app Photos dans des dossiers par date de prise de vue. Elle ne supprime jamais vos originaux et vérifie même que rien ne manque.",
+          "only": "mac"
+        },
+        {
+          "t": "intro",
+          "text": "Des apps qui rangent proprement les photos et vidéos dans des dossiers par date de prise de vue. Sur Mac, importez depuis l’iPhone, les cartes SD, les disques externes, les smartphones Android et l’app Photos ; sur iPhone et iPad, exportez vers un SSD externe ou un NAS. Les deux vérifient que rien ne manque.",
+          "only": "ios"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "Mode d’emploi",
+              "href": "mac/",
+              "text": "Lire le guide d’utilisation",
+              "only": "mac"
+            },
+            {
+              "title": "Mode d’emploi (Mac)",
+              "href": "mac/",
+              "text": "Guide pour Mac",
+              "only": "ios"
+            },
+            {
+              "title": "Mode d’emploi (iPhone et iPad)",
+              "href": "iphone/",
+              "text": "Guide pour iPhone et iPad",
+              "only": "ios"
+            },
+            {
+              "title": "Contact",
+              "href": "mailto:kuraphoto@kurawise.com",
+              "text": "kuraphoto@kurawise.com"
+            },
+            {
+              "title": "Confidentialité",
+              "href": "privacy/",
+              "text": "Politique de confidentialité"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fonctionnalités",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Mac",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Importer depuis un iPhone ou iPad</strong> : il suffit de brancher un câble. Les Live Photos et les données de modification sont conservées, et ce qui est déjà importé est ignoré automatiquement.",
+            "<strong>Importer depuis un stockage externe</strong> : cartes SD, microSD et CF, clés USB, disques externes, appareils photo et smartphones Android.",
+            "<strong>Organiser des dossiers</strong> : copier vers un autre emplacement ou réorganiser dans le dossier (annulable).",
+            "<strong>Importer depuis la photothèque</strong> : extrait les originaux de l’app Photos dans des dossiers ordinaires. Votre photothèque n’est jamais modifiée.",
+            "<strong>Vérification des doublons</strong> : trouve les photos identiques et les copies ne différant que par la taille ou le format, et les range (annulable).",
+            "<strong>Vérification des fichiers manquants</strong> : vérifie mois par mois que tout se trouve dans la destination et crée un rapport (PDF, CSV)."
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "iPhone et iPad",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Exporter</strong> : exportez photos et vidéos vers un SSD externe, une clé USB, un NAS, etc., dans des dossiers par date. Les éléments déjà exportés sont ignorés.",
+            "<strong>Vérifier</strong> : vérifiez mois par mois que tout est enregistré dans la destination.",
+            "<strong>Libérer de l’espace</strong> : supprimez de l’iPhone uniquement les éléments confirmés comme enregistrés (Pro).",
+            "<strong>Nettoyer les doublons</strong> : trouvez les copies d’une même photo, même en autre taille ou format."
+          ],
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "Gratuit et Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Fonction",
+            "Gratuit",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "Chargement, consultation, essai (simulation)",
+              "✓",
+              "✓"
+            ],
+            [
+              "Importation et organisation",
+              "Jusqu’à 100 par jour",
+              "Illimité"
+            ],
+            [
+              "Recherche des doublons",
+              "✓",
+              "✓"
+            ],
+            [
+              "Fusion et suppression des doublons",
+              "—",
+              "✓"
+            ],
+            [
+              "Vérification des fichiers manquants (affichage du résultat)",
+              "✓",
+              "✓"
+            ],
+            [
+              "Enregistrement des rapports (PDF, CSV) et Importer le reste",
+              "—",
+              "✓"
+            ],
+            [
+              "Annuler et Reprendre l’importation",
+              "✓",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le tableau ci-dessus concerne l’app Mac. Sur iPhone et iPad, l’export est gratuit jusqu’à 100 éléments par jour ; Pro ajoute l’export illimité, Libérer de l’espace, la suppression des doublons, la conversion JPEG et l’enregistrement des résultats (<a href=\"iphone/#pro\">détails</a>). Pro est commun au Mac et à l’iPhone/iPad : achetez-le sur l’un et utilisez-le sur les deux avec le même compte Apple.",
+          "only": "ios"
+        },
+        {
+          "t": "note",
+          "text": "Pro est un achat unique (sans abonnement) et prend en charge le partage familial. Consultez le prix dans l’App Store."
+        }
+      ]
+    },
+    {
+      "heading": "Configuration requise",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "macOS 14 Sonoma ou version ultérieure (puce Apple et Intel)",
+            "<!--ios-->iOS 17 / iPadOS 17 ou ultérieur (app iPhone et iPad)<!--/ios-->",
+            "Disponible en français, anglais, allemand, japonais, coréen et chinois (simplifié et traditionnel), selon la langue de votre Mac",
+            "Importation depuis un iPhone ou iPad : un câble USB (déverrouillez l’iPhone et choisissez « Se fier à cet ordinateur »)",
+            "Importation depuis Android : réglez le mode USB sur « Transférer des photos (PTP) »"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Questions fréquentes",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "Mes photos originales seront-elles supprimées ou modifiées ?",
+              "a": "<p>Non. L’importation et l’organisation se font toujours par copie, et les photos de la source ne sont jamais supprimées. Si vous déplacez des fichiers avec « Organiser dans ce dossier », « Annuler » rétablit la disposition précédente. Ce qui a été rangé avec la vérification des doublons peut aussi être annulé. KuraPhoto n’a aucune fonction de suppression définitive.</p>"
+            },
+            {
+              "q": "Que puis-je faire avec la version gratuite ?",
+              "a": "<p>Le chargement, la consultation, les essais, la recherche de doublons, la vérification des fichiers manquants, l’annulation et la reprise d’importation sont illimités. L’importation et l’organisation sont limitées à 100 éléments par jour au total (remise à zéro à minuit). Refaites la même action le lendemain pour continuer (les éléments déjà importés sont ignorés automatiquement et ne comptent pas).</p>"
+            },
+            {
+              "q": "Puis-je importer depuis un smartphone Android ou un appareil photo ?",
+              "a": "<p>Oui. Pour Android, branchez en USB et choisissez « Transférer des photos (PTP) » dans « Paramètres USB » de la notification. Pour un appareil photo, lisez la carte SD avec un lecteur, ou branchez en USB en mode « Connexion PC », « PTP » ou équivalent. Voir le <a href=\"mac/#external\">guide d’utilisation</a>.</p>"
+            },
+            {
+              "q": "Mon iPhone n’apparaît pas",
+              "a": "<p>Déverrouillez l’iPhone et choisissez « Se fier » lorsque « Se fier à cet ordinateur ? » s’affiche. Changer de câble ou de hub peut aider. Voir le <a href=\"mac/#trouble\">guide d’utilisation</a>.</p>"
+            },
+            {
+              "q": "Certaines photos de mon iPhone ne s’importent pas",
+              "a": "<p>Lorsque Photos iCloud et « Optimiser le stockage de l’iPhone » sont activés, les photos dont l’original est uniquement dans iCloud ne peuvent pas être importées par câble (c’est le fonctionnement du système d’Apple). Sur un Mac où Photos iCloud est activé pour le même compte Apple, importez-les avec « Importer depuis la photothèque ».</p>"
+            },
+            {
+              "q": "L’importation s’est arrêtée ou le câble s’est débranché",
+              "a": "<p>Rebranchez l’appareil : « Reprendre l’importation » s’affiche. Ce qui est déjà importé est ignoré et l’importation reprend là où elle s’était arrêtée.</p>"
+            },
+            {
+              "q": "Comment restaurer mon achat ?",
+              "a": "<p>Choisissez « KuraPhoto › Restaurer les achats » dans la barre des menus (vous devez être connecté avec le même compte Apple que lors de l’achat).</p><!--ios--><p>Sur iPhone ou iPad, touchez « Restaurer les achats » dans les réglages (roue dentée en haut à droite).</p><!--/ios-->"
+            },
+            {
+              "q": "Je souhaite un remboursement",
+              "a": "<p>Les achats sur l’App Store sont vendus et traités par Apple ; les remboursements sont donc gérés par Apple. Faites votre demande sur <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a>.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Contact",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Envoyez vos signalements de bugs et suggestions à <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>. <strong>Nous répondons généralement sous 2 à 3 jours ouvrés</strong> (hors week-ends et jours fériés japonais). Vous pouvez aussi nous écrire en anglais."
+        },
+        {
+          "t": "p",
+          "text": "Joindre votre version de macOS, la source (par exemple le modèle de votre iPhone) et les journaux du dossier « Journaux KuraPhoto » situé dans votre dossier de destination nous aide à enquêter plus vite. Les informations envoyées servent uniquement à vous répondre et à analyser le problème (<a href=\"privacy/\">politique de confidentialité</a>)."
+        }
+      ]
+    },
+    {
+      "heading": "Historique des versions",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>1.0</strong> (2026) — Première version"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "heading": "Avant d’utiliser KuraPhoto",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<!--ios-->Les éléments supprimés avec Libérer de l’espace ou Nettoyer les doublons dans l’app iPhone et iPad restent 30 jours dans « Supprimés récemment » de l’app Photos. Avec Photos iCloud, ils disparaissent aussi d’iCloud et de tous les appareils utilisant le même compte Apple.<!--/ios-->",
+            "<strong>Avant de supprimer les originaux de votre iPhone ou d’autres appareils, vérifiez toujours avec la vérification des fichiers manquants que tout a été enregistré.</strong> KuraPhoto ne supprime jamais vos originaux.",
+            "« Supprimer » dans la vérification des doublons place seulement les fichiers dans la Corbeille. Une fois la Corbeille vidée, ils ne peuvent plus être récupérés. Supprimer dans un dossier iCloud Drive retire aussi les fichiers de vos autres appareils connectés au même compte Apple.",
+            "Les dates proviennent de la date et de l’heure enregistrées dans chaque photo ou vidéo. Si l’horloge de l’appareil photo était fausse, les fichiers sont rangés dans le dossier de cette date.",
+            "Si vous utilisez Photos iCloud sur votre iPhone, les photos dont l’original se trouve uniquement dans iCloud ne peuvent pas être importées par câble (utilisez « Importer depuis la photothèque »).",
+            "Nous vous recommandons de conserver une sauvegarde de vos photos importantes ailleurs que dans la destination de KuraPhoto. Dans les limites autorisées par la loi, nous ne sommes pas responsables des dommages causés par la perte ou la corruption de données."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "heading": "Achat de Pro",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro est un <strong>achat unique</strong>. Il n’y a ni abonnement ni frais mensuels. Le prix est indiqué sur l’App Store.",
+            "Le paiement, les reçus et les remboursements sont gérés par Apple. Vous pouvez demander un remboursement sur <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a>.",
+            "Sur vos autres Mac connectés au même compte Apple, utilisez « Restaurer les achats ». Le partage familial est pris en charge.",
+            "<!--ios-->Pro acheté sur Mac fonctionne aussi dans l’app iPhone et iPad (et inversement) avec le même compte Apple.<!--/ios-->",
+            "La version gratuite permet d’importer et d’organiser jusqu’à 100 éléments par jour au total. Pro supprime la limite et ajoute la fusion et la suppression des doublons, l’enregistrement des rapports (PDF, CSV) et « Importer le reste ».",
+            "Les fonctions Pro achetées restent disponibles dans les futures mises à jour."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Licence",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "L’utilisation de KuraPhoto est régie par le <a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">contrat de licence utilisateur final standard d’Apple (EULA)</a>."
+        },
+        {
+          "t": "intro",
+          "text": "© 2026 Kurawise"
+        }
+      ]
+    }
+  ],
+  "title_ko": "KuraPhoto",
+  "head_title_ko": "KuraPhoto 지원 | Kurawise",
+  "description_ko": "iPhone·SD 카드·Android·‘사진’ 앱의 사진과 동영상을 촬영일별 폴더로 정리하는 Mac 앱 KuraPhoto의 지원 페이지. 기능, 무료 버전과 Pro, 자주 묻는 질문, 문의.",
+  "sections_ko": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "iPhone, SD 카드, 외장 디스크, Android 스마트폰, ‘사진’ 앱의 사진과 동영상을 촬영일별 폴더로 깔끔하게 정리하는 Mac 앱입니다. 원본 사진은 지우지 않으며, 누락된 것이 없는지까지 확인합니다.",
+          "only": "mac"
+        },
+        {
+          "t": "intro",
+          "text": "사진과 동영상을 촬영일별 폴더로 깔끔하게 정리하는 앱입니다. Mac에서는 iPhone·SD 카드·외장 디스크·Android·‘사진’ 앱에서 가져오고, iPhone·iPad에서는 외장 SSD·NAS로 내보냅니다. 둘 다 누락된 것이 없는지까지 확인합니다.",
+          "only": "ios"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "사용법",
+              "href": "mac/",
+              "text": "사용 설명서 보기",
+              "only": "mac"
+            },
+            {
+              "title": "사용법(Mac)",
+              "href": "mac/",
+              "text": "Mac용 사용 설명서",
+              "only": "ios"
+            },
+            {
+              "title": "사용법(iPhone·iPad)",
+              "href": "iphone/",
+              "text": "iPhone·iPad용 사용 설명서",
+              "only": "ios"
+            },
+            {
+              "title": "문의",
+              "href": "mailto:kuraphoto@kurawise.com",
+              "text": "kuraphoto@kurawise.com"
+            },
+            {
+              "title": "개인정보",
+              "href": "privacy/",
+              "text": "개인정보 처리방침"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "할 수 있는 일",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Mac",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>iPhone·iPad에서 가져오기</strong>: 케이블로 연결하기만 하면 됩니다. Live Photos와 편집 정보도 그대로 가져오며, 이미 가져온 것은 자동으로 건너뜁니다.",
+            "<strong>외부 메모리에서 가져오기</strong>: SD·microSD·CF 카드, USB 메모리, 외장 디스크, 디지털카메라, Android 스마트폰을 지원합니다.",
+            "<strong>폴더 정리</strong>: 다른 위치로 복사하거나 폴더 안에서 재배치합니다(되돌릴 수 있음).",
+            "<strong>사진 보관함에서 가져오기</strong>: ‘사진’ 앱의 원본을 일반 폴더로 꺼냅니다. 보관함은 변경하지 않습니다.",
+            "<strong>중복 확인</strong>: 같은 사진이나 크기·형식만 다른 복사본을 찾아 정리합니다(되돌릴 수 있음).",
+            "<strong>누락 확인</strong>: 저장 위치에 모두 들어 있는지 월별로 확인하고 보고서(PDF·CSV)로 만듭니다."
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "iPhone·iPad",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>내보내기</strong>: 사진과 동영상을 외장 SSD·USB 메모리·NAS 등으로 촬영일별 폴더에 내보냅니다. 이미 내보낸 항목은 자동으로 건너뜁니다.",
+            "<strong>확인하기</strong>: 내보낼 위치에 모두 저장됐는지 월별로 확인합니다.",
+            "<strong>공간 확보</strong>: 저장된 것으로 확인된 사진·동영상만 골라 iPhone에서 삭제합니다(Pro).",
+            "<strong>중복 정리</strong>: 같은 사진의 사본(크기·형식이 달라도)을 찾습니다."
+          ],
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "무료 버전과 Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "기능",
+            "무료 버전",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "읽기·내용 확인·시험 확인(드라이런)",
+              "✓",
+              "✓"
+            ],
+            [
+              "가져오기·정리",
+              "하루 100개까지",
+              "개수 무제한"
+            ],
+            [
+              "중복 찾기",
+              "✓",
+              "✓"
+            ],
+            [
+              "중복 병합·삭제",
+              "—",
+              "✓"
+            ],
+            [
+              "누락 확인(결과 보기)",
+              "✓",
+              "✓"
+            ],
+            [
+              "보고서 저장(PDF·CSV)·나머지 가져오기",
+              "—",
+              "✓"
+            ],
+            [
+              "되돌리기·이어서 가져오기",
+              "✓",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "위 표는 Mac 앱 기준입니다. iPhone·iPad 앱은 하루 100개까지 무료로 내보낼 수 있으며, Pro에서는 무제한 내보내기·공간 확보·중복 삭제·JPEG 변환·결과 저장을 사용할 수 있습니다(<a href=\"iphone/#pro\">자세히</a>). Pro는 Mac 앱과 iPhone·iPad 앱 공통입니다(어느 쪽에서 구입해도 같은 Apple 계정이면 둘 다 사용 가능).",
+          "only": "ios"
+        },
+        {
+          "t": "note",
+          "text": "Pro는 한 번 구입으로 계속 사용(월 요금 없음)하며 가족 공유를 지원합니다. 가격은 App Store에서 확인하세요."
+        }
+      ]
+    },
+    {
+      "heading": "지원 환경",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "macOS 14 Sonoma 이상(Apple 실리콘·Intel)",
+            "<!--ios-->iOS 17·iPadOS 17 이상(iPhone·iPad 앱)<!--/ios-->",
+            "한국어·영어·독일어·프랑스어·일본어·중국어(간체·번체) 지원(Mac의 언어에 맞춰 표시)",
+            "iPhone·iPad에서 가져오는 경우: USB 케이블(iPhone 잠금 해제와 ‘이 컴퓨터 신뢰’ 필요)",
+            "Android에서 가져오는 경우: USB 설정을 ‘사진 전송(PTP)’으로 해 주세요"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "자주 묻는 질문",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "원본 사진이 지워지거나 바뀌지 않나요?",
+              "a": "<p>아니요. 가져오기와 정리는 모두 ‘복사’이며, 가져올 위치의 사진은 지우지 않습니다. ‘이 폴더 안에서 정리’로 이동한 경우에도 ‘되돌리기’로 정리 전 배치로 돌릴 수 있습니다. 중복 확인으로 정리한 것도 되돌릴 수 있습니다. 완전히 삭제하는 기능은 없습니다.</p>"
+            },
+            {
+              "q": "무료 버전으로 어디까지 쓸 수 있나요?",
+              "a": "<p>읽기, 내용 확인, 시험 확인, 중복 찾기, 누락 확인, 되돌리기, 이어서 가져오기는 제한 없이 쓸 수 있습니다. 가져오기·정리는 모든 작업을 합쳐 하루 100개까지입니다(자정에 다시 100개가 됩니다). 다음 날 같은 작업을 하면 이어서 가져올 수 있습니다(이미 가져온 것은 자동으로 건너뛰고 개수에도 포함하지 않습니다).</p>"
+            },
+            {
+              "q": "Android나 디지털카메라에서도 가져올 수 있나요?",
+              "a": "<p>네. Android는 USB로 연결하고 알림의 ‘USB 설정’에서 ‘사진 전송(PTP)’을 선택하세요. 디지털카메라는 SD 카드를 카드 리더로 읽거나, USB로 연결하여 ‘PC 연결’, ‘PTP’ 등의 모드로 설정하세요. 자세한 내용은 <a href=\"mac/#external\">사용 설명서</a>를 참조하세요.</p>"
+            },
+            {
+              "q": "iPhone을 연결해도 표시되지 않습니다",
+              "a": "<p>iPhone의 잠금을 해제하고 ‘이 컴퓨터를 신뢰하겠습니까?’에서 ‘신뢰’를 선택하세요. 케이블이나 허브를 바꾸면 나아지기도 합니다. 자세한 내용은 <a href=\"mac/#trouble\">사용 설명서</a>를 참조하세요.</p>"
+            },
+            {
+              "q": "iPhone 사진 일부를 가져올 수 없습니다",
+              "a": "<p>iPhone에서 iCloud 사진과 ‘iPhone 저장 공간 최적화’가 켜져 있으면, 원본이 iCloud에만 있는 사진은 케이블로 가져올 수 없습니다(Apple의 사양입니다). 같은 Apple 계정으로 iCloud 사진을 켠 Mac이라면 ‘사진 보관함에서 가져오기’로 가져올 수 있습니다.</p>"
+            },
+            {
+              "q": "도중에 멈추거나 케이블이 빠졌습니다",
+              "a": "<p>다시 연결하면 ‘이어서 가져오기’가 표시되며, 이미 가져온 것은 건너뛰고 이어서 진행할 수 있습니다.</p>"
+            },
+            {
+              "q": "구입 내역을 복원하고 싶습니다",
+              "a": "<p>메뉴 막대에서 ‘KuraPhoto › 구입 내역 복원’을 선택하세요(구입할 때와 같은 Apple 계정으로 로그인되어 있어야 합니다).</p><!--ios--><p>iPhone·iPad에서는 설정(오른쪽 위 톱니바퀴)의 ‘구입 내역 복원’을 누르세요.</p><!--/ios-->"
+            },
+            {
+              "q": "환불받고 싶습니다",
+              "a": "<p>App Store 구입은 Apple이 판매·결제를 처리하므로 환불도 Apple이 접수합니다. <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a>에서 신청해 주세요.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "문의",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "오류 보고와 요청은 <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>으로 보내 주세요. <strong>보통 2~3 영업일 이내에 답장합니다</strong>(주말·일본 공휴일 제외). 영어로 보내셔도 됩니다."
+        },
+        {
+          "t": "p",
+          "text": "macOS 버전, 가져올 위치(iPhone 기종 등), 저장 위치 폴더에 있는 ‘KuraPhoto 로그’ 폴더의 로그를 함께 보내 주시면 조사가 빨라집니다. 보내 주신 정보는 답장과 오류 조사에만 사용합니다(<a href=\"privacy/\">개인정보 처리방침</a>)."
+        }
+      ]
+    },
+    {
+      "heading": "버전 기록",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>1.0</strong>(2026년) — 첫 출시"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "heading": "이용 시 주의 사항",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<!--ios-->iPhone·iPad 앱의 ‘공간 확보’와 ‘중복 정리’로 삭제한 항목은 사진 앱의 ‘최근 삭제된 항목’에 30일간 남습니다. iCloud 사진을 사용하면 같은 Apple 계정의 모든 기기와 iCloud에서도 삭제됩니다.<!--/ios-->",
+            "<strong>iPhone 등에서 원본 사진을 지우기 전에 반드시 ‘누락 확인’으로 모두 저장되었는지 확인해 주세요.</strong> KuraPhoto가 원본 사진을 지우는 일은 없습니다.",
+            "중복 확인의 ‘삭제’는 휴지통에 넣을 뿐입니다. 휴지통을 비우면 되돌릴 수 없습니다. iCloud Drive 폴더에서 삭제하면 같은 Apple 계정의 다른 기기에서도 사라집니다.",
+            "촬영일은 사진·동영상에 기록된 일시로 판단합니다. 카메라 시계가 틀렸다면 그 일시의 폴더에 들어갑니다.",
+            "iPhone에서 ‘iCloud 사진’을 사용하는 경우, 원본이 iCloud에만 있는 사진은 케이블로 가져올 수 없습니다(‘사진 보관함에서 가져오기’를 이용해 주세요).",
+            "중요한 사진은 KuraPhoto의 저장 위치와는 다른 곳에도 백업해 두기를 권장합니다. 법령이 허용하는 범위에서, 데이터의 손실·손상 등으로 인한 손해에 대해 책임을 지지 않습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "heading": "Pro 구입 안내",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro는 <strong>단품 구매</strong>입니다. 구독이나 월 요금은 없습니다. 가격은 App Store에 표시됩니다.",
+            "결제·영수증·환불은 Apple이 처리합니다. 환불은 <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a>에서 신청할 수 있습니다.",
+            "같은 Apple 계정으로 로그인한 다른 Mac에서도 ‘구입 내역 복원’으로 사용할 수 있습니다. 가족 공유를 지원합니다.",
+            "<!--ios-->Mac에서 구입한 Pro는 같은 Apple 계정이면 iPhone·iPad 앱에서도 사용할 수 있습니다(반대도 마찬가지).<!--/ios-->",
+            "무료 버전은 모든 작업을 합쳐 하루 100개까지 가져오고 정리할 수 있습니다. Pro는 개수 제한이 없으며, 중복 병합·삭제, 보고서 저장(PDF·CSV), ‘나머지 가져오기’를 쓸 수 있습니다.",
+            "구입한 Pro 기능은 앞으로의 업데이트에서도 계속 사용할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "사용권",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "KuraPhoto 사용에는 Apple의 <a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">표준 최종 사용자 사용권 계약(EULA)</a>이 적용됩니다."
+        },
+        {
+          "t": "intro",
+          "text": "© 2026 Kurawise"
+        }
+      ]
+    }
+  ],
+  "title_zh-hans": "KuraPhoto",
+  "head_title_zh-hans": "KuraPhoto 支持 | Kurawise",
+  "description_zh-hans": "KuraPhoto 支持页面。这款 Mac App 可将 iPhone、SD 卡、Android 和“照片”App 中的照片和视频按拍摄日期整理到文件夹。功能、免费版与 Pro、常见问题、联系方式。",
+  "sections_zh-hans": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "一款 Mac App，可将 iPhone、SD 卡、外置磁盘、Android 手机以及“照片”App 中的照片和视频，按拍摄日期整齐地整理到文件夹中。绝不删除原始照片，还会检查有无遗漏。",
+          "only": "mac"
+        },
+        {
+          "t": "intro",
+          "text": "将照片和视频按拍摄日期整齐地整理到文件夹的 App。在 Mac 上从 iPhone、SD 卡、外置磁盘、Android 手机和“照片”App 导入；在 iPhone 和 iPad 上导出到外置 SSD 或 NAS。两者都会检查有无遗漏。",
+          "only": "ios"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "使用方法",
+              "href": "mac/",
+              "text": "查看使用指南",
+              "only": "mac"
+            },
+            {
+              "title": "使用方法（Mac）",
+              "href": "mac/",
+              "text": "Mac 版使用指南",
+              "only": "ios"
+            },
+            {
+              "title": "使用方法（iPhone 和 iPad）",
+              "href": "iphone/",
+              "text": "iPhone 和 iPad 版使用指南",
+              "only": "ios"
+            },
+            {
+              "title": "联系我们",
+              "href": "mailto:kuraphoto@kurawise.com",
+              "text": "kuraphoto@kurawise.com"
+            },
+            {
+              "title": "隐私",
+              "href": "privacy/",
+              "text": "隐私政策"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "主要功能",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Mac",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>从 iPhone 或 iPad 导入</strong>：只需用数据线连接。实况照片和编辑信息完整保留，已导入的内容会自动跳过。",
+            "<strong>从外部存储导入</strong>：支持 SD、microSD、CF 卡，U 盘，外置磁盘，数码相机和 Android 手机。",
+            "<strong>整理文件夹</strong>：复制到其他位置，或在文件夹内重新排列（可撤销）。",
+            "<strong>从照片图库导入</strong>：将“照片”App 的原片导出到普通文件夹。绝不修改您的图库。",
+            "<strong>重复检查</strong>：查找相同的照片以及仅大小或格式不同的副本，并一起整理（可撤销）。",
+            "<strong>遗漏检查</strong>：按月检查是否已全部保存到保存位置，并生成报告（PDF、CSV）。"
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "iPhone 和 iPad",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>导出</strong>：将照片和视频按拍摄日期导出到外置 SSD、U 盘、NAS 等的文件夹中。已导出的项目会自动跳过。",
+            "<strong>检查</strong>：按月检查导出位置是否已全部保存。",
+            "<strong>释放空间</strong>：只选择已确认保存的照片和视频，从 iPhone 删除（Pro）。",
+            "<strong>清理重复项</strong>：找出同一照片的副本（即使大小或格式不同）。"
+          ],
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "免费版与 Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "功能",
+            "免费版",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "读取、查看内容、试运行",
+              "✓",
+              "✓"
+            ],
+            [
+              "导入与整理",
+              "每天最多 100 个",
+              "无限制"
+            ],
+            [
+              "查找重复项",
+              "✓",
+              "✓"
+            ],
+            [
+              "合并与删除重复项",
+              "—",
+              "✓"
+            ],
+            [
+              "遗漏检查（查看结果）",
+              "✓",
+              "✓"
+            ],
+            [
+              "保存报告（PDF、CSV）与导入剩余部分",
+              "—",
+              "✓"
+            ],
+            [
+              "撤销与继续导入",
+              "✓",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "上表为 Mac 版。iPhone 和 iPad 版每天可免费导出最多 100 项；Pro 可使用无限制导出、释放空间、删除重复项、JPEG 转换和保存结果（<a href=\"iphone/#pro\">详情</a>）。Pro 在 Mac 版和 iPhone/iPad 版之间通用：在任一处购买，使用同一 Apple 账户即可在两者上使用。",
+          "only": "ios"
+        },
+        {
+          "t": "note",
+          "text": "Pro 为一次买断（无月费），支持家人共享。价格请在 App Store 中查看。"
+        }
+      ]
+    },
+    {
+      "heading": "系统要求",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "macOS 14 Sonoma 或更高版本（Apple 芯片与 Intel）",
+            "<!--ios-->iOS 17 / iPadOS 17 或更高版本（iPhone 和 iPad 版）<!--/ios-->",
+            "支持简体中文、繁体中文、英语、德语、法语、日语、韩语（跟随 Mac 的语言显示）",
+            "从 iPhone 或 iPad 导入时：需要 USB 数据线（需解锁 iPhone 并选择“信任此电脑”）",
+            "从 Android 导入时：请将 USB 模式设为“传输照片（PTP）”"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "常见问题",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "原始照片会被删除或修改吗？",
+              "a": "<p>不会。导入和整理都是“复制”，来源中的照片不会被删除。即使使用“在此文件夹内整理”移动了文件，也可以通过“撤销”恢复到整理前的状态。通过重复检查整理的内容也可以撤销。本 App 没有彻底删除的功能。</p>"
+            },
+            {
+              "q": "免费版可以用到什么程度？",
+              "a": "<p>读取、查看内容、试运行、查找重复项、遗漏检查、撤销、继续导入均无限制。导入与整理所有操作合计每天最多 100 个（零点恢复为 100 个）。第二天重复相同操作即可继续导入（已导入的会自动跳过，且不计入数量）。</p>"
+            },
+            {
+              "q": "可以从 Android 手机或数码相机导入吗？",
+              "a": "<p>可以。Android 请通过 USB 连接，在通知的“USB 设置”中选择“传输照片（PTP）”。数码相机可用读卡器读取 SD 卡，或通过 USB 连接并设为“PC 连接”“PTP”等模式。详情请参阅<a href=\"mac/#external\">使用指南</a>。</p>"
+            },
+            {
+              "q": "连接 iPhone 后没有显示",
+              "a": "<p>请解锁 iPhone，在“要信任此电脑吗？”中选择“信任”。更换数据线或扩展坞有时会改善。详情请参阅<a href=\"mac/#trouble\">使用指南</a>。</p>"
+            },
+            {
+              "q": "iPhone 中有部分照片无法导入",
+              "a": "<p>如果 iPhone 开启了 iCloud 照片和“优化 iPhone 储存空间”，原片仅存于 iCloud 的照片无法通过数据线导入（这是 Apple 的机制）。在使用同一 Apple 账户并开启 iCloud 照片的 Mac 上，可通过“从照片图库导入”导入。</p>"
+            },
+            {
+              "q": "中途停止或数据线松脱了",
+              "a": "<p>重新连接后会显示“继续导入”，将跳过已导入的内容并从中断处继续。</p>"
+            },
+            {
+              "q": "想要恢复购买",
+              "a": "<p>请在菜单栏中选择“KuraPhoto › 恢复购买”（需登录购买时使用的同一 Apple 账户）。</p><!--ios--><p>在 iPhone 或 iPad 上，请在设置（右上角齿轮）中点按“恢复购买”。</p><!--/ios-->"
+            },
+            {
+              "q": "想要退款",
+              "a": "<p>App Store 中的购买由 Apple 销售和结算，因此退款由 Apple 受理。请通过 <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a> 申请。</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "联系我们",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "问题反馈与建议请发送至 <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>。<strong>我们通常会在 2–3 个工作日内回复</strong>（周末及日本节假日除外）。也可以用英语来信。"
+        },
+        {
+          "t": "p",
+          "text": "如能附上 macOS 版本、导入来源（如 iPhone 机型）以及保存位置文件夹中“KuraPhoto 日志”文件夹内的日志，将有助于更快地调查。您提供的信息仅用于回复和调查问题（<a href=\"privacy/\">隐私政策</a>）。"
+        }
+      ]
+    },
+    {
+      "heading": "版本历史",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>1.0</strong>（2026 年）— 首次发布"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "heading": "使用须知",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<!--ios-->在 iPhone 和 iPad 版中通过“释放空间”或“清理重复项”删除的项目，会在“照片”App 的“最近删除”中保留 30 天。如果使用 iCloud 照片，同一 Apple 账户的所有设备和 iCloud 中的项目也会被删除。<!--/ios-->",
+            "<strong>从 iPhone 等设备删除原片之前，请务必用“遗漏检查”确认已全部保存。</strong>KuraPhoto 绝不会删除原片。",
+            "重复检查中的“删除”只是移到废纸篓。清空废纸篓后将无法恢复。在 iCloud 云盘的文件夹中删除时，同一 Apple 账户的其他设备上也会消失。",
+            "拍摄日期以照片和视频中记录的日期时间为准。若相机时钟有误，文件会放入该日期的文件夹。",
+            "如果 iPhone 使用“iCloud 照片”，原片仅存于 iCloud 的照片无法通过数据线导入（请使用“从照片图库导入”）。",
+            "建议将重要照片在 KuraPhoto 保存位置以外的地方另行备份。在法律允许的范围内，对于数据丢失或损坏等造成的损失，我们不承担责任。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "heading": "关于购买 Pro",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro 为<strong>一次买断</strong>，没有订阅或月费。价格以 App Store 显示为准。",
+            "付款、收据和退款由 Apple 处理。可在 <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a> 申请退款。",
+            "在登录同一 Apple 账户的其他 Mac 上，可通过“恢复购买”使用。支持家人共享。",
+            "<!--ios-->在 Mac 上购买的 Pro，使用同一 Apple 账户在 iPhone 和 iPad 版中也可使用（反之亦然）。<!--/ios-->",
+            "免费版所有操作合计每天最多可导入与整理 100 个。Pro 无数量限制，并可合并与删除重复项、保存报告（PDF、CSV）以及“导入剩余部分”。",
+            "已购买的 Pro 功能在今后的更新中也可继续使用。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "使用许可",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "KuraPhoto 的使用适用 Apple 的<a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">标准最终用户许可协议（EULA）</a>。"
+        },
+        {
+          "t": "intro",
+          "text": "© 2026 Kurawise"
+        }
+      ]
+    }
+  ],
+  "title_zh-hant": "KuraPhoto",
+  "head_title_zh-hant": "KuraPhoto 支援 | Kurawise",
+  "description_zh-hant": "KuraPhoto 支援頁面。這款 Mac App 可將 iPhone、SD 卡、Android 和「照片」App 中的照片和影片依拍攝日期整理到資料夾。功能、免費版與 Pro、常見問題、聯絡方式。",
+  "sections_zh-hant": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "一款 Mac App，可將 iPhone、SD 卡、外接磁碟、Android 手機以及「照片」App 中的照片和影片，依拍攝日期整齊地整理到資料夾中。絕不刪除原始照片，還會檢查有無遺漏。",
+          "only": "mac"
+        },
+        {
+          "t": "intro",
+          "text": "將照片和影片依拍攝日期整齊地整理到資料夾的 App。在 Mac 上從 iPhone、SD 卡、外接磁碟、Android 手機和「照片」App 匯入；在 iPhone 和 iPad 上匯出到外接 SSD 或 NAS。兩者都會檢查有無遺漏。",
+          "only": "ios"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "使用方法",
+              "href": "mac/",
+              "text": "查看使用指南",
+              "only": "mac"
+            },
+            {
+              "title": "使用方法（Mac）",
+              "href": "mac/",
+              "text": "Mac 版使用指南",
+              "only": "ios"
+            },
+            {
+              "title": "使用方法（iPhone 和 iPad）",
+              "href": "iphone/",
+              "text": "iPhone 和 iPad 版使用指南",
+              "only": "ios"
+            },
+            {
+              "title": "聯絡我們",
+              "href": "mailto:kuraphoto@kurawise.com",
+              "text": "kuraphoto@kurawise.com"
+            },
+            {
+              "title": "隱私",
+              "href": "privacy/",
+              "text": "隱私權政策"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "主要功能",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Mac",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>從 iPhone 或 iPad 匯入</strong>：只需用連接線連接。原況照片和編輯資訊完整保留，已匯入的內容會自動略過。",
+            "<strong>從外部儲存裝置匯入</strong>：支援 SD、microSD、CF 卡，USB 隨身碟，外接磁碟，數位相機和 Android 手機。",
+            "<strong>整理資料夾</strong>：拷貝到其他位置，或在資料夾內重新排列（可還原）。",
+            "<strong>從照片圖庫匯入</strong>：將「照片」App 的原始檔匯出到一般資料夾。絕不修改您的圖庫。",
+            "<strong>重複檢查</strong>：尋找相同的照片以及僅大小或格式不同的副本，並一起整理（可還原）。",
+            "<strong>遺漏檢查</strong>：按月檢查是否已全部儲存到儲存位置，並產生報告（PDF、CSV）。"
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "iPhone 和 iPad",
+          "only": "ios"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>匯出</strong>：將照片和影片依拍攝日期匯出到外接 SSD、USB 隨身碟、NAS 等的資料夾中。已匯出的項目會自動略過。",
+            "<strong>檢查</strong>：按月檢查匯出位置是否已全部儲存。",
+            "<strong>釋放空間</strong>：只選擇已確認儲存的照片和影片，從 iPhone 刪除（Pro）。",
+            "<strong>清理重複項目</strong>：找出同一照片的副本（即使大小或格式不同）。"
+          ],
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "免費版與 Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "功能",
+            "免費版",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "讀取、查看內容、試行",
+              "✓",
+              "✓"
+            ],
+            [
+              "匯入與整理",
+              "每天最多 100 個",
+              "無限制"
+            ],
+            [
+              "尋找重複項目",
+              "✓",
+              "✓"
+            ],
+            [
+              "合併與刪除重複項目",
+              "—",
+              "✓"
+            ],
+            [
+              "遺漏檢查（查看結果）",
+              "✓",
+              "✓"
+            ],
+            [
+              "儲存報告（PDF、CSV）與匯入剩餘部分",
+              "—",
+              "✓"
+            ],
+            [
+              "還原與繼續匯入",
+              "✓",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "上表為 Mac 版。iPhone 和 iPad 版每天可免費匯出最多 100 項；Pro 可使用無限制匯出、釋放空間、刪除重複項目、JPEG 轉換和儲存結果（<a href=\"iphone/#pro\">詳情</a>）。Pro 在 Mac 版和 iPhone/iPad 版之間通用：在任一處購買，使用同一 Apple 帳號即可在兩者上使用。",
+          "only": "ios"
+        },
+        {
+          "t": "note",
+          "text": "Pro 為一次買斷（無月費），支援家人共享。價格請在 App Store 中查看。"
+        }
+      ]
+    },
+    {
+      "heading": "系統需求",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "macOS 14 Sonoma 或以上版本（Apple 晶片與 Intel）",
+            "<!--ios-->iOS 17 / iPadOS 17 或以上版本（iPhone 和 iPad 版）<!--/ios-->",
+            "支援繁體中文、簡體中文、英文、德文、法文、日文、韓文（依 Mac 的語言顯示）",
+            "從 iPhone 或 iPad 匯入時：需要 USB 連接線（需解鎖 iPhone 並選擇「信任這部電腦」）",
+            "從 Android 匯入時：請將 USB 模式設為「傳輸照片（PTP）」"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "常見問題",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "原始照片會被刪除或修改嗎？",
+              "a": "<p>不會。匯入和整理都是「拷貝」，來源中的照片不會被刪除。即使使用「在此資料夾內整理」移動了檔案，也可以透過「還原」恢復到整理前的狀態。透過重複檢查整理的內容也可以還原。本 App 沒有徹底刪除的功能。</p>"
+            },
+            {
+              "q": "免費版可以用到什麼程度？",
+              "a": "<p>讀取、查看內容、試行、尋找重複項目、遺漏檢查、還原、繼續匯入均無限制。匯入與整理所有操作合計每天最多 100 個（零點恢復為 100 個）。隔天重複相同操作即可繼續匯入（已匯入的會自動略過，且不計入數量）。</p>"
+            },
+            {
+              "q": "可以從 Android 手機或數位相機匯入嗎？",
+              "a": "<p>可以。Android 請透過 USB 連接，在通知的「USB 設定」中選擇「傳輸照片（PTP）」。數位相機可用讀卡機讀取 SD 卡，或透過 USB 連接並設為「PC 連接」「PTP」等模式。詳情請參閱<a href=\"mac/#external\">使用指南</a>。</p>"
+            },
+            {
+              "q": "連接 iPhone 後沒有顯示",
+              "a": "<p>請解鎖 iPhone，在「要信任這部電腦嗎？」中選擇「信任」。更換連接線或集線器有時會改善。詳情請參閱<a href=\"mac/#trouble\">使用指南</a>。</p>"
+            },
+            {
+              "q": "iPhone 中有部分照片無法匯入",
+              "a": "<p>如果 iPhone 開啟了 iCloud 照片和「最佳化 iPhone 儲存空間」，原始檔僅存於 iCloud 的照片無法透過連接線匯入（這是 Apple 的機制）。在使用同一 Apple 帳號並開啟 iCloud 照片的 Mac 上，可透過「從照片圖庫匯入」匯入。</p>"
+            },
+            {
+              "q": "中途停止或連接線鬆脫了",
+              "a": "<p>重新連接後會顯示「繼續匯入」，將略過已匯入的內容並從中斷處繼續。</p>"
+            },
+            {
+              "q": "想要回復購買項目",
+              "a": "<p>請在選單列中選擇「KuraPhoto › 回復購買項目」（需登入購買時使用的同一 Apple 帳號）。</p><!--ios--><p>在 iPhone 或 iPad 上，請在設定（右上角齒輪）中點一下「回復購買項目」。</p><!--/ios-->"
+            },
+            {
+              "q": "想要退款",
+              "a": "<p>App Store 中的購買由 Apple 銷售和結帳，因此退款由 Apple 受理。請透過 <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a> 申請。</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "聯絡我們",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "問題回報與建議請寄至 <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>。<strong>我們通常會在 2–3 個工作天內回覆</strong>（週末及日本國定假日除外）。也可以用英文來信。"
+        },
+        {
+          "t": "p",
+          "text": "如能附上 macOS 版本、匯入來源（如 iPhone 機型）以及儲存位置資料夾中「KuraPhoto 記錄」資料夾內的記錄，將有助於更快地調查。您提供的資訊僅用於回覆和調查問題（<a href=\"privacy/\">隱私權政策</a>）。"
+        }
+      ]
+    },
+    {
+      "heading": "版本記錄",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>1.0</strong>（2026 年）— 首次發布"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "heading": "使用須知",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<!--ios-->在 iPhone 和 iPad 版中透過「釋放空間」或「清理重複項目」刪除的項目，會在「照片」App 的「最近刪除」中保留 30 天。如果使用 iCloud 照片，同一 Apple 帳號的所有裝置和 iCloud 中的項目也會被刪除。<!--/ios-->",
+            "<strong>從 iPhone 等裝置刪除原始檔之前，請務必用「遺漏檢查」確認已全部儲存。</strong>KuraPhoto 絕不會刪除原始檔。",
+            "重複檢查中的「刪除」只是移到垃圾桶。清空垃圾桶後將無法還原。在 iCloud 雲碟的資料夾中刪除時，同一 Apple 帳號的其他裝置上也會消失。",
+            "拍攝日期以照片和影片中記錄的日期時間為準。若相機時鐘有誤，檔案會放入該日期的資料夾。",
+            "如果 iPhone 使用「iCloud 照片」，原始檔僅存於 iCloud 的照片無法透過連接線匯入（請使用「從照片圖庫匯入」）。",
+            "建議將重要照片在 KuraPhoto 儲存位置以外的地方另行備份。在法律允許的範圍內，對於資料遺失或損毀等造成的損害，我們不負擔責任。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "heading": "關於購買 Pro",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro 為<strong>一次買斷</strong>，沒有訂閱或月費。價格以 App Store 顯示為準。",
+            "付款、收據和退款由 Apple 處理。可在 <a href=\"https://reportaproblem.apple.com/\">reportaproblem.apple.com</a> 申請退款。",
+            "在登入同一 Apple 帳號的其他 Mac 上，可透過「回復購買項目」使用。支援家人共享。",
+            "<!--ios-->在 Mac 上購買的 Pro，使用同一 Apple 帳號在 iPhone 和 iPad 版中也可使用（反之亦然）。<!--/ios-->",
+            "免費版所有操作合計每天最多可匯入與整理 100 個。Pro 無數量限制，並可合併與刪除重複項目、儲存報告（PDF、CSV）以及「匯入剩餘部分」。",
+            "已購買的 Pro 功能在今後的更新中也可繼續使用。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "使用授權",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "KuraPhoto 的使用適用 Apple 的<a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">標準終端使用者授權合約（EULA）</a>。"
+        },
+        {
+          "t": "intro",
+          "text": "© 2026 Kurawise"
+        }
+      ]
+    }
+  ]
+}

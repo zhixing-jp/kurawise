@@ -17,3 +17,8 @@
 /guides     /zh/   302
 /download/* /zh/   302
 /download   /zh/   302
+# 2026-11-12：KuraPhoto の Mac 版の使い方を help/ から mac/ へ（iPhone 版の iphone/ と並べるため）。Mac 版 1.0・1.1 のアプリと掲載文が help/ を開くので残す
+/kuraphoto/help/*         /kuraphoto/mac/           301
+/kuraphoto/help           /kuraphoto/mac/           301
+/kuraphoto/:lang/help/*   /kuraphoto/:lang/mac/     301
+/kuraphoto/:lang/help     /kuraphoto/:lang/mac/     301

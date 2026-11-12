@@ -1,0 +1,1317 @@
+{
+  "_note": "KuraPhoto の公開ページの本文（privacy.json）。言語ごとに title_／head_title_／description_／sections_ を持つ。",
+  "title_ja": "プライバシーポリシー",
+  "head_title_ja": "プライバシーポリシー｜KuraPhoto｜Kurawise",
+  "description_ja": "KuraPhoto のプライバシーポリシー。写真や個人情報を当方のサーバーへ送らず、処理はすべて Mac の中で行います。",
+  "sections_ja": [
+    {
+      "blocks": [
+        {
+          "t": "note",
+          "text": "KuraPhoto（macOS アプリ）／ 制定日・最終更新日：2026年10月18日",
+          "only": "mac"
+        },
+        {
+          "t": "note",
+          "text": "KuraPhoto（macOS・iOS・iPadOS アプリ）／ 制定日：2026年10月18日　最終更新日：iPhone・iPad 版の公開日",
+          "only": "ios"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise（以下「当方」）は、<!--mac-only-->macOS アプリ<!--/mac-only--><!--ios-->Mac・iPhone・iPad 用のアプリ<!--/ios-->「KuraPhoto」（以下「本アプリ」）の利用者のプライバシーを尊重し、次のとおり取り扱います。"
+        }
+      ]
+    },
+    {
+      "heading": "1. 要約",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "本アプリは、<strong>利用者の個人情報・写真・動画・利用状況を、当方のサーバーへ送信・収集しません</strong>。当方はそのようなサーバーを運用していません。",
+            "写真・動画の読み込み、整理、重複チェック、取り込み漏れチェックは、<strong>すべて利用者の <!--mac-only-->Mac<!--/mac-only--><!--ios-->機器（Mac・iPhone・iPad）<!--/ios--> の中だけで行います</strong>。",
+            "広告、トラッキング、外部の解析サービスは使用していません。",
+            "当方が受け取るのは、利用者が自分からお問い合わせのメールを送った場合の、その内容だけです（第 3 項）。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 本アプリが扱う情報と目的",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "情報",
+            "目的",
+            "保存場所・送信先"
+          ],
+          "rows": [
+            [
+              "利用者が選んだフォルダ・機器（iPhone、SD カードなど）の写真・動画、およびその撮影日時・位置情報などのメタデータ",
+              "撮影日ごとのフォルダへの整理、取り込み済みの判定、重複チェック、取り込み漏れチェック",
+              "利用者の Mac の中だけ。外部へ送信しません"
+            ],
+            [
+              "「写真」アプリのライブラリ（利用者が許可した場合のみ）",
+              "写真・動画の原本を取り出してフォルダに整理するため。ライブラリの写真を変更・削除することはありません",
+              "利用者の Mac の中だけ。原本が iCloud にしかない場合は、macOS の「写真」の仕組みが Apple の iCloud からダウンロードします"
+            ],
+            [
+              "<!--ios-->iPhone・iPad の写真ライブラリ（利用者が許可した場合のみ）<!--/ios-->",
+              "<!--ios-->写真・動画の原本を、利用者が選んだ書き出し先へ書き出すため。書き出し済みの判定、「確かめる」、重複の検出のため。「空き容量を作る」「重複を片付ける」で利用者が選んで確認したものに限り、削除します（「最近削除した項目」に 30 日間残ります）<!--/ios-->",
+              "<!--ios-->利用者の iPhone・iPad と、利用者が選んだ書き出し先だけ。原本が iCloud にしかない場合は、iOS の「写真」の仕組みが Apple の iCloud からダウンロードします<!--/ios-->"
+            ],
+            [
+              "撮影場所の位置情報（緯度・経度）",
+              "「撮影場所の地名もフォルダ名に付ける」を利用者がオンにした場合のみ、地名を調べるため",
+              "地名の取得のため、緯度・経度が Apple の地図サービス（<!--mac-only-->macOS<!--/mac-only--><!--ios-->macOS・iOS<!--/ios--> 標準の機能）へ送信されます。当方には送信されません"
+            ],
+            [
+              "設定、前回の保存先、処理の記録（ログ、元に戻すための記録、重複チェックの解析結果、取り出したファイルのサイズの記録、読み取った撮影日・位置情報、調べた地名）",
+              "次回も同じ設定で使えるようにするため、中断からの再開や「元に戻す」のため、処理を速くするため",
+              "利用者の Mac の中（アプリの設定、保存先のフォルダ内、アプリ専用の保存場所）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. お問い合わせで受け取る情報",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "利用者がお問い合わせのメールを送った場合、当方はメールアドレス・本文・添付されたファイル（ログなど）を受け取ります。これらは返信と不具合の調査にだけ使い、第三者に提供しません。対応が終わった後は、必要な期間を過ぎたものから削除します。削除をご希望の場合は、いつでもお申し付けください。"
+        }
+      ]
+    },
+    {
+      "heading": "4. データの保存と削除",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "本アプリが扱うデータは、すべて利用者の <!--mac-only-->Mac<!--/mac-only--><!--ios-->機器と、利用者が選んだ保存先・書き出し先<!--/ios--> の中にあり、当方は保有していません。次の方法で、利用者自身でいつでも削除できます。"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>アプリの設定と記録</strong>：本アプリをゴミ箱に入れて削除し、「ライブラリ › Containers」の中の「com.kurawise.kuraphoto」フォルダを削除します。",
+            "<strong>保存先の記録</strong>：保存先のフォルダにある「KuraPhoto ログ」フォルダと、「元に戻す」用の隠しフォルダ（名前が「.KuraPhoto-」で始まるもの）を削除します。削除すると、それ以前の整理を「元に戻す」ことはできなくなります。ログは 3 年たつと、次の作業のときに自動的に削除されます。",
+            "<strong>写真ライブラリなどへのアクセスの許可</strong>：macOS の「システム設定 › プライバシーとセキュリティ」で、いつでも取り消せます。",
+            "<!--ios--><strong>iPhone・iPad</strong>：本アプリを削除すると、アプリの設定と記録（「ファイル」アプリの「この iPhone 内 › KuraPhoto」を含む）も削除されます。書き出し先の「KuraPhoto ログ」フォルダは、「ファイル」アプリで削除できます。写真へのアクセスと通知は、「設定」アプリの KuraPhoto でいつでも取り消せます。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 第三者への提供",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "当方は、利用者の情報を第三者に提供・販売しません。地名の取得（利用者が有効にした場合）と iCloud からの原本のダウンロードは、Apple が提供する macOS の標準機能を通じて行われ、その取り扱いは <a href=\"https://www.apple.com/jp/legal/privacy/\">Apple のプライバシーポリシー</a>に従います。"
+        }
+      ]
+    },
+    {
+      "heading": "6. アプリ内課金",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "本アプリの購入およびアプリ内課金は、Apple の App Store を通じて処理されます。当方が利用者の氏名、支払い情報、Apple アカウントの情報を受け取ることはありません。"
+        }
+      ]
+    },
+    {
+      "heading": "7. クラッシュレポート",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "利用者が <!--mac-only-->macOS<!--/mac-only--><!--ios-->macOS・iOS<!--/ios--> の設定で「App デベロッパと共有」を許可している場合に限り、Apple を通じて匿名のクラッシュレポートが当方に提供されることがあります。これは不具合の修正にのみ使用します。この共有は、macOS の「システム設定 › プライバシーとセキュリティ › 解析と改善」<!--ios-->、iPhone・iPad の「設定 › プライバシーとセキュリティ › 解析と改善」<!--/ios-->でいつでもオフにできます。"
+        }
+      ]
+    },
+    {
+      "heading": "8. アクセス権限",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>写真ライブラリ</strong>：「写真ライブラリから取り込む」を使う場合のみ求めます。読み取りのみで、変更・削除は行いません。",
+            "<strong>ファイルとフォルダ</strong>：利用者がパネルで選んだフォルダ・ファイルにのみアクセスします。",
+            "<strong>USB 機器</strong>：iPhone・カメラなどから写真を取り込むために使用します。",
+            "<strong>通知</strong>：処理の完了をお知らせするために使用します（許可しなくても本アプリは使えます）。",
+            "<!--ios--><strong>iPhone・iPad の写真</strong>：書き出しのために「フルアクセス」を求めます。iOS では読み取りだけの許可がないためです。削除は、利用者が選んで確認し、iOS の確認でも「削除」を押した場合だけ行います。<!--/ios-->",
+            "<!--ios--><strong>iPhone・iPad の通知</strong>：利用者がオンにした場合だけ、書き出しの時期をお知らせします。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. 子どものプライバシー",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "本アプリは、年齢にかかわらず個人情報を収集しません。"
+        }
+      ]
+    },
+    {
+      "heading": "10. 本ポリシーの変更",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "内容を変更する場合は、このページで更新日とともにお知らせします。"
+        }
+      ]
+    },
+    {
+      "heading": "11. お問い合わせ",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Kurawise（運営：智行）<br> メール：<a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>（通常 2〜3 営業日以内に返信します）<br> ウェブサイト：<a href=\"https://kurawise.com/\">https://kurawise.com/</a>"
+        }
+      ]
+    }
+  ],
+  "title_en": "Privacy Policy",
+  "head_title_en": "Privacy Policy | KuraPhoto | Kurawise",
+  "description_en": "KuraPhoto privacy policy. Your photos and personal data are never sent to our servers; everything is processed on your Mac.",
+  "sections_en": [
+    {
+      "blocks": [
+        {
+          "t": "note",
+          "text": "KuraPhoto (macOS app) / Effective and last updated: October 18, 2026",
+          "only": "mac"
+        },
+        {
+          "t": "note",
+          "text": "KuraPhoto (macOS, iOS, and iPadOS app) / Effective: October 18, 2026 · Last updated: release date of the iPhone and iPad app",
+          "only": "ios"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise (“we”) respects the privacy of users of the macOS app “KuraPhoto” (the “App”) and handles information as follows.",
+          "only": "mac"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise (“we”) respects the privacy of users of “KuraPhoto” for Mac, iPhone, and iPad (the “App”) and handles information as follows.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "1. Summary",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "The App <strong>does not send or collect your personal information, photos, videos, or usage data to any server of ours</strong>. We do not operate any such server.",
+            "Reading, organizing, duplicate checking, and missing-files checking of photos and videos <strong>all happen only on your Mac</strong>.",
+            "We use no advertising, tracking, or third-party analytics.",
+            "The only information we receive is the content of emails you choose to send us (Section 3).",
+            "<!--ios-->In the iPhone and iPad app, too, everything happens only on your device and in the export destination you choose.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Information the App handles and why",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Information",
+            "Purpose",
+            "Where it is stored / sent"
+          ],
+          "rows": [
+            [
+              "Photos and videos in folders or devices you choose (iPhone, SD card, etc.) and their metadata, such as date taken and location",
+              "Organizing into folders by date, detecting already imported items, duplicate checks, missing-files checks",
+              "Only on your Mac. Never sent externally"
+            ],
+            [
+              "The Photos app library (only if you allow access)",
+              "Extracting original photos and videos into folders. Photos in the library are never changed or deleted",
+              "Only on your Mac. If an original is only in iCloud, macOS Photos downloads it from Apple’s iCloud"
+            ],
+            [
+              "<!--ios-->The Photos library on iPhone and iPad (only if you allow access)<!--/ios-->",
+              "<!--ios-->Exporting originals to the destination you choose, detecting already exported items, Verify, and finding duplicates. Items are deleted only when you select and confirm them in Free Up Space or Clean Up Duplicates (they stay in Recently Deleted for 30 days)<!--/ios-->",
+              "<!--ios-->Only on your iPhone or iPad and in the destination you choose. If an original is only in iCloud, iOS Photos downloads it from Apple’s iCloud<!--/ios-->"
+            ],
+            [
+              "Location where photos were taken (latitude and longitude)",
+              "Only when you turn on “Also add the place name to folder names”, to look up place names",
+              "Latitude and longitude are sent to Apple’s map service (a standard macOS feature) to get place names. Nothing is sent to us"
+            ],
+            [
+              "Settings, last destination, and processing records (logs, undo records, duplicate-check analysis results, records of extracted file sizes, dates taken and locations already read, place names looked up)",
+              "To reuse your settings, resume after interruptions, enable “Undo”, and speed up processing",
+              "On your Mac (app settings, inside the destination folder, the App’s own storage area)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Information we receive when you contact us",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "If you email us, we receive your email address, the message, and any attached files (such as logs). We use them only to reply and to investigate issues, and we do not share them with third parties. After your inquiry is resolved, we delete them once they are no longer needed. You may ask us to delete them at any time."
+        }
+      ]
+    },
+    {
+      "heading": "4. Data retention and deletion",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "All data the App handles stays on your Mac; we do not hold it. You can delete it yourself at any time:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>App settings and records</strong>: move the App to the Trash, then delete the “com.kurawise.kuraphoto” folder in “Library › Containers”.",
+            "<strong>Records in the destination</strong>: delete the “KuraPhoto Logs” folder and the hidden “Undo” folders (names starting with “.KuraPhoto-”) in your destination folder. After deletion, earlier organizing can no longer be undone. Logs older than 3 years are deleted automatically during the next operation.",
+            "<strong>Permissions such as Photos library access</strong>: revoke them at any time in macOS “System Settings › Privacy &amp; Security”.",
+            "<!--ios--><strong>iPhone and iPad</strong>: deleting the App also deletes its settings and records (including Files › On My iPhone › KuraPhoto). The “KuraPhoto Logs” folder in the destination can be deleted in the Files app. Photos access and notifications can be revoked at any time in the Settings app under KuraPhoto.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Sharing with third parties",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "We do not share or sell your information to third parties. Place-name lookup (if you enable it) and downloading originals from iCloud are performed through standard macOS features provided by Apple and are governed by <a href=\"https://www.apple.com/legal/privacy/\">Apple’s Privacy Policy</a>."
+        }
+      ]
+    },
+    {
+      "heading": "6. In-app purchases",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Purchases of the App and in-app purchases are processed by Apple’s App Store. We never receive your name, payment information, or Apple Account information."
+        }
+      ]
+    },
+    {
+      "heading": "7. Crash reports",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Only if you allow “Share with app developers” in macOS settings, anonymous crash reports may be provided to us through Apple. We use them solely to fix bugs. You can turn this off at any time in macOS “System Settings › Privacy &amp; Security › Analytics &amp; Improvements”."
+        },
+        {
+          "t": "p",
+          "text": "On iPhone and iPad, you can turn this off in Settings › Privacy &amp; Security › Analytics &amp; Improvements.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "8. Permissions",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Photos library</strong>: requested only when you use “Import from Photos Library”. Read-only; nothing is changed or deleted.",
+            "<strong>Files and folders</strong>: the App accesses only the folders and files you choose in a panel.",
+            "<strong>USB devices</strong>: used to import photos from iPhones, cameras, and similar devices.",
+            "<strong>Notifications</strong>: used to let you know when processing finishes (the App works without this permission).",
+            "<!--ios--><strong>Photos on iPhone and iPad</strong>: “Full Access” is requested for exporting, because iOS has no read-only option. Items are deleted only when you select and confirm them and then tap “Delete” in the iOS confirmation.<!--/ios-->",
+            "<!--ios--><strong>Notifications on iPhone and iPad</strong>: used only for export reminders, if you turn them on.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. Children’s privacy",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The App does not collect personal information from anyone, regardless of age."
+        }
+      ]
+    },
+    {
+      "heading": "10. Changes to this policy",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "If we change this policy, we will announce it on this page along with the update date."
+        }
+      ]
+    },
+    {
+      "heading": "11. Contact",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Kurawise (operated by 智行)<br> Email: <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> (we usually reply within 2–3 business days)<br> Website: <a href=\"https://kurawise.com/\">https://kurawise.com/</a>"
+        },
+        {
+          "t": "note",
+          "text": "If there is any discrepancy between language versions, the Japanese version prevails."
+        }
+      ]
+    }
+  ],
+  "title_de": "Datenschutzrichtlinie",
+  "head_title_de": "Datenschutzrichtlinie | KuraPhoto | Kurawise",
+  "description_de": "Datenschutzrichtlinie von KuraPhoto. Ihre Fotos und persönlichen Daten werden nie an unsere Server gesendet; alles wird auf Ihrem Mac verarbeitet.",
+  "sections_de": [
+    {
+      "blocks": [
+        {
+          "t": "note",
+          "text": "KuraPhoto (macOS-App) / Gültig ab und zuletzt aktualisiert: 18. Oktober 2026",
+          "only": "mac"
+        },
+        {
+          "t": "note",
+          "text": "KuraPhoto (App für macOS, iOS und iPadOS) / Gültig ab: 18. Oktober 2026 · Zuletzt aktualisiert: Veröffentlichung der App für iPhone und iPad",
+          "only": "ios"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise („wir“) respektiert die Privatsphäre der Nutzer der macOS-App „KuraPhoto“ (die „App“) und geht mit Informationen wie folgt um.",
+          "only": "mac"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise („wir“) respektiert die Privatsphäre der Nutzer von „KuraPhoto“ für Mac, iPhone und iPad (die „App“) und verarbeitet Informationen wie folgt.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "1. Zusammenfassung",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Die App <strong>sendet oder erhebt keine personenbezogenen Daten, Fotos, Videos oder Nutzungsdaten an bzw. auf unseren Servern</strong>. Wir betreiben keine solchen Server.",
+            "Lesen, Ordnen, Duplikatprüfung und Vollständigkeitsprüfung von Fotos und Videos <strong>erfolgen ausschließlich auf Ihrem Mac</strong>.",
+            "Wir verwenden keine Werbung, kein Tracking und keine Analysedienste Dritter.",
+            "Wir erhalten nur den Inhalt von E-Mails, die Sie uns selbst senden (Abschnitt 3).",
+            "<!--ios-->Auch in der App für iPhone und iPad geschieht alles nur auf Ihrem Gerät und am von Ihnen gewählten Exportziel.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Von der App verarbeitete Informationen und Zweck",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Information",
+            "Zweck",
+            "Speicherort / Empfänger"
+          ],
+          "rows": [
+            [
+              "Fotos und Videos in von Ihnen gewählten Ordnern oder Geräten (iPhone, SD-Karte usw.) sowie deren Metadaten wie Aufnahmedatum und Ort",
+              "Ordnen nach Datum, Erkennen bereits importierter Dateien, Duplikatprüfung, Vollständigkeitsprüfung",
+              "Nur auf Ihrem Mac. Keine Übermittlung nach außen"
+            ],
+            [
+              "Die Mediathek der Fotos-App (nur wenn Sie den Zugriff erlauben)",
+              "Exportieren der Originalfotos und -videos in Ordner. Fotos in der Mediathek werden nie geändert oder gelöscht",
+              "Nur auf Ihrem Mac. Liegt ein Original nur in iCloud, lädt die Fotos-App von macOS es aus Apples iCloud"
+            ],
+            [
+              "<!--ios-->Die Fotos-Mediathek auf iPhone und iPad (nur wenn Sie den Zugriff erlauben)<!--/ios-->",
+              "<!--ios-->Export der Originale an das von Ihnen gewählte Ziel, Erkennen bereits exportierter Objekte, Prüfen und Duplikatsuche. Gelöscht wird nur, was Sie in „Speicher freigeben“ oder „Duplikate aufräumen“ auswählen und bestätigen (es bleibt 30 Tage unter „Zuletzt gelöscht“)<!--/ios-->",
+              "<!--ios-->Nur auf Ihrem iPhone oder iPad und am von Ihnen gewählten Ziel. Liegt ein Original nur in iCloud, lädt die Fotos-App von iOS es aus Apples iCloud<!--/ios-->"
+            ],
+            [
+              "Aufnahmeort (Breiten- und Längengrad)",
+              "Nur wenn Sie „Ortsnamen auch an Ordnernamen anfügen“ aktivieren, um Ortsnamen abzufragen",
+              "Breiten- und Längengrad werden an Apples Kartendienst (eine Standardfunktion von macOS) gesendet. An uns wird nichts gesendet"
+            ],
+            [
+              "Einstellungen, letztes Ziel und Verarbeitungsdaten (Protokolle, Daten zum Widerrufen, Analyseergebnisse der Duplikatprüfung, gespeicherte Dateigrößen, gelesene Aufnahmedaten und Orte, ermittelte Ortsnamen)",
+              "Wiederverwendung Ihrer Einstellungen, Fortsetzen nach Unterbrechungen, „Widerrufen“ und schnellere Verarbeitung",
+              "Auf Ihrem Mac (App-Einstellungen, im Zielordner, im eigenen Speicherbereich der App)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Informationen, die wir bei einer Kontaktaufnahme erhalten",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Wenn Sie uns eine E-Mail senden, erhalten wir Ihre E-Mail-Adresse, die Nachricht und angehängte Dateien (z. B. Protokolle). Wir verwenden sie nur für die Antwort und die Fehlersuche und geben sie nicht an Dritte weiter. Nach Abschluss Ihrer Anfrage löschen wir sie, sobald sie nicht mehr benötigt werden. Sie können die Löschung jederzeit verlangen."
+        }
+      ]
+    },
+    {
+      "heading": "4. Speicherung und Löschung",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Alle von der App verarbeiteten Daten bleiben auf Ihrem Mac; wir speichern sie nicht. Sie können sie jederzeit selbst löschen:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>App-Einstellungen und -Daten</strong>: Bewegen Sie die App in den Papierkorb und löschen Sie den Ordner „com.kurawise.kuraphoto“ unter „Library › Containers“.",
+            "<strong>Daten im Zielordner</strong>: Löschen Sie den Ordner „KuraPhoto Protokolle“ und die versteckten Ordner zum Widerrufen (Namen beginnen mit „.KuraPhoto-“) in Ihrem Zielordner. Danach kann früheres Ordnen nicht mehr widerrufen werden. Protokolle, die älter als 3 Jahre sind, werden beim nächsten Vorgang automatisch gelöscht.",
+            "<strong>Berechtigungen wie der Zugriff auf die Fotos-Mediathek</strong>: jederzeit widerrufbar unter „Systemeinstellungen › Datenschutz &amp; Sicherheit“.",
+            "<!--ios--><strong>iPhone und iPad</strong>: Beim Löschen der App werden auch ihre Einstellungen und Daten gelöscht (einschließlich Dateien › Auf meinem iPhone › KuraPhoto). Den Ordner „KuraPhoto Protokolle“ am Ziel können Sie in der Dateien-App löschen. Fotozugriff und Mitteilungen lassen sich jederzeit in der Einstellungen-App unter KuraPhoto widerrufen.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Weitergabe an Dritte",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Wir geben Ihre Informationen nicht an Dritte weiter und verkaufen sie nicht. Die Abfrage von Ortsnamen (falls aktiviert) und das Laden von Originalen aus iCloud erfolgen über Standardfunktionen von macOS, die Apple bereitstellt, und unterliegen <a href=\"https://www.apple.com/de/legal/privacy/\">Apples Datenschutzrichtlinie</a>."
+        }
+      ]
+    },
+    {
+      "heading": "6. In-App-Käufe",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Käufe der App und In-App-Käufe werden über Apples App Store abgewickelt. Wir erhalten weder Ihren Namen noch Zahlungsinformationen oder Daten Ihres Apple Accounts."
+        }
+      ]
+    },
+    {
+      "heading": "7. Absturzberichte",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Nur wenn Sie in den macOS-Einstellungen „Mit App-Entwicklern teilen“ erlauben, können uns über Apple anonyme Absturzberichte bereitgestellt werden. Wir nutzen sie ausschließlich zur Fehlerbehebung. Sie können dies jederzeit unter „Systemeinstellungen › Datenschutz &amp; Sicherheit › Analyse &amp; Verbesserungen“ deaktivieren."
+        },
+        {
+          "t": "p",
+          "text": "Auf iPhone und iPad schalten Sie dies unter Einstellungen › Datenschutz &amp; Sicherheit › Analyse &amp; Verbesserungen aus.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "8. Berechtigungen",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Fotos-Mediathek</strong>: wird nur angefragt, wenn Sie „Aus Fotos-Mediathek importieren“ nutzen. Nur Lesezugriff; nichts wird geändert oder gelöscht.",
+            "<strong>Dateien und Ordner</strong>: Die App greift nur auf Ordner und Dateien zu, die Sie in einem Auswahlfenster wählen.",
+            "<strong>USB-Geräte</strong>: zum Importieren von Fotos von iPhones, Kameras und ähnlichen Geräten.",
+            "<strong>Mitteilungen</strong>: um Sie über das Ende der Verarbeitung zu informieren (die App funktioniert auch ohne diese Berechtigung).",
+            "<!--ios--><strong>Fotos auf iPhone und iPad</strong>: Für den Export wird „Voller Zugriff“ angefragt, da iOS keinen reinen Lesezugriff kennt. Gelöscht wird nur, was Sie auswählen und bestätigen und anschließend in der iOS-Abfrage mit „Löschen“ freigeben.<!--/ios-->",
+            "<!--ios--><strong>Mitteilungen auf iPhone und iPad</strong>: nur für Export-Erinnerungen, wenn Sie sie einschalten.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. Datenschutz von Kindern",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Die App erhebt unabhängig vom Alter keine personenbezogenen Daten."
+        }
+      ]
+    },
+    {
+      "heading": "10. Änderungen dieser Richtlinie",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Änderungen geben wir auf dieser Seite mit dem Aktualisierungsdatum bekannt."
+        }
+      ]
+    },
+    {
+      "heading": "11. Kontakt",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Kurawise (betrieben von 智行)<br> E-Mail: <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> (Antwort in der Regel innerhalb von 2–3 Werktagen)<br> Website: <a href=\"https://kurawise.com/\">https://kurawise.com/</a>"
+        },
+        {
+          "t": "note",
+          "text": "Bei Abweichungen zwischen den Sprachfassungen ist die japanische Fassung maßgeblich."
+        }
+      ]
+    }
+  ],
+  "title_fr": "Politique de confidentialité",
+  "head_title_fr": "Politique de confidentialité | KuraPhoto | Kurawise",
+  "description_fr": "Politique de confidentialité de KuraPhoto. Vos photos et données personnelles ne sont jamais envoyées à nos serveurs ; tout est traité sur votre Mac.",
+  "sections_fr": [
+    {
+      "blocks": [
+        {
+          "t": "note",
+          "text": "KuraPhoto (app macOS) / En vigueur et mise à jour le 18 octobre 2026",
+          "only": "mac"
+        },
+        {
+          "t": "note",
+          "text": "KuraPhoto (app macOS, iOS et iPadOS) / En vigueur le 18 octobre 2026 · Mise à jour : date de sortie de l’app iPhone et iPad",
+          "only": "ios"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise (« nous ») respecte la vie privée des utilisateurs de l’app macOS « KuraPhoto » (l’« App ») et traite les informations comme suit.",
+          "only": "mac"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise (« nous ») respecte la vie privée des utilisateurs de « KuraPhoto » pour Mac, iPhone et iPad (l’« App ») et traite les informations comme suit.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "1. Résumé",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "L’App <strong>n’envoie ni ne collecte vos informations personnelles, photos, vidéos ou données d’utilisation sur nos serveurs</strong>. Nous n’exploitons aucun serveur de ce type.",
+            "La lecture, l’organisation, la vérification des doublons et la vérification des fichiers manquants <strong>se font uniquement sur votre Mac</strong>.",
+            "Nous n’utilisons ni publicité, ni suivi, ni outil d’analyse tiers.",
+            "Les seules informations que nous recevons sont le contenu des e-mails que vous choisissez de nous envoyer (section 3).",
+            "<!--ios-->Dans l’app iPhone et iPad aussi, tout se passe uniquement sur votre appareil et dans la destination d’export que vous choisissez.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. Informations traitées par l’App et finalités",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Information",
+            "Finalité",
+            "Stockage / destinataire"
+          ],
+          "rows": [
+            [
+              "Photos et vidéos des dossiers ou appareils que vous choisissez (iPhone, carte SD, etc.) et leurs métadonnées (date de prise de vue, lieu)",
+              "Organisation par date, détection des éléments déjà importés, vérification des doublons et des fichiers manquants",
+              "Uniquement sur votre Mac. Jamais envoyées à l’extérieur"
+            ],
+            [
+              "La photothèque de l’app Photos (uniquement si vous autorisez l’accès)",
+              "Extraction des photos et vidéos originales dans des dossiers. Les photos de la photothèque ne sont jamais modifiées ni supprimées",
+              "Uniquement sur votre Mac. Si un original est uniquement dans iCloud, l’app Photos de macOS le télécharge depuis iCloud d’Apple"
+            ],
+            [
+              "<!--ios-->La photothèque de l’iPhone et de l’iPad (uniquement si vous autorisez l’accès)<!--/ios-->",
+              "<!--ios-->Export des originaux vers la destination choisie, détection des éléments déjà exportés, Vérifier et recherche de doublons. Seuls les éléments que vous sélectionnez et confirmez dans Libérer de l’espace ou Nettoyer les doublons sont supprimés (ils restent 30 jours dans Supprimés récemment)<!--/ios-->",
+              "<!--ios-->Uniquement sur votre iPhone ou iPad et dans la destination choisie. Si un original n’est que dans iCloud, l’app Photos d’iOS le télécharge depuis iCloud d’Apple<!--/ios-->"
+            ],
+            [
+              "Lieu de prise de vue (latitude et longitude)",
+              "Uniquement si vous activez « Ajouter aussi le nom du lieu aux dossiers », pour rechercher les noms de lieux",
+              "La latitude et la longitude sont envoyées au service de cartes d’Apple (fonction standard de macOS). Rien ne nous est envoyé"
+            ],
+            [
+              "Réglages, dernière destination et enregistrements de traitement (journaux, données d’annulation, résultats d’analyse des doublons, tailles des fichiers extraits, dates de prise de vue et lieux lus, noms de lieux obtenus)",
+              "Réutiliser vos réglages, reprendre après une interruption, permettre « Annuler » et accélérer le traitement",
+              "Sur votre Mac (réglages de l’App, dans le dossier de destination, espace de stockage propre à l’App)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Informations reçues lorsque vous nous contactez",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Si vous nous envoyez un e-mail, nous recevons votre adresse e-mail, votre message et les fichiers joints (par exemple des journaux). Nous les utilisons uniquement pour vous répondre et analyser les problèmes, et ne les communiquons pas à des tiers. Une fois votre demande traitée, nous les supprimons dès qu’elles ne sont plus nécessaires. Vous pouvez demander leur suppression à tout moment."
+        }
+      ]
+    },
+    {
+      "heading": "4. Conservation et suppression des données",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Toutes les données traitées par l’App restent sur votre Mac ; nous ne les détenons pas. Vous pouvez les supprimer vous-même à tout moment :"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Réglages et enregistrements de l’App</strong> : placez l’App dans la Corbeille, puis supprimez le dossier « com.kurawise.kuraphoto » dans « Bibliothèque › Containers ».",
+            "<strong>Enregistrements dans la destination</strong> : supprimez le dossier « Journaux KuraPhoto » et les dossiers masqués d’annulation (noms commençant par « .KuraPhoto- ») dans votre dossier de destination. Après suppression, les organisations précédentes ne peuvent plus être annulées. Les journaux de plus de 3 ans sont supprimés automatiquement lors de l’opération suivante.",
+            "<strong>Autorisations, comme l’accès à la photothèque</strong> : révocables à tout moment dans « Réglages Système › Confidentialité et sécurité ».",
+            "<!--ios--><strong>iPhone et iPad</strong> : supprimer l’App supprime aussi ses réglages et enregistrements (y compris Fichiers › Sur mon iPhone › KuraPhoto). Le dossier « Journaux KuraPhoto » de la destination peut être supprimé dans l’app Fichiers. L’accès aux photos et les notifications sont révocables à tout moment dans l’app Réglages, sous KuraPhoto.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Partage avec des tiers",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Nous ne partageons ni ne vendons vos informations à des tiers. La recherche des noms de lieux (si vous l’activez) et le téléchargement des originaux depuis iCloud passent par des fonctions standard de macOS fournies par Apple et sont régis par la <a href=\"https://www.apple.com/fr/legal/privacy/\">politique de confidentialité d’Apple</a>."
+        }
+      ]
+    },
+    {
+      "heading": "6. Achats intégrés",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Les achats de l’App et les achats intégrés sont traités par l’App Store d’Apple. Nous ne recevons jamais votre nom, vos informations de paiement ni les informations de votre compte Apple."
+        }
+      ]
+    },
+    {
+      "heading": "7. Rapports de plantage",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Uniquement si vous autorisez « Partager avec les développeurs d’apps » dans les réglages de macOS, des rapports de plantage anonymes peuvent nous être fournis par Apple. Nous les utilisons uniquement pour corriger des bugs. Vous pouvez désactiver ce partage à tout moment dans « Réglages Système › Confidentialité et sécurité › Analyse et améliorations »."
+        },
+        {
+          "t": "p",
+          "text": "Sur iPhone et iPad, désactivez-le dans Réglages › Confidentialité et sécurité › Analyses et améliorations.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "8. Autorisations",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Photothèque</strong> : demandée uniquement lorsque vous utilisez « Importer depuis la photothèque ». Lecture seule ; rien n’est modifié ni supprimé.",
+            "<strong>Fichiers et dossiers</strong> : l’App n’accède qu’aux dossiers et fichiers que vous choisissez dans une fenêtre de sélection.",
+            "<strong>Appareils USB</strong> : pour importer des photos depuis des iPhone, appareils photo et appareils similaires.",
+            "<strong>Notifications</strong> : pour vous prévenir de la fin du traitement (l’App fonctionne sans cette autorisation).",
+            "<!--ios--><strong>Photos sur iPhone et iPad</strong> : l’« accès complet » est demandé pour l’export, car iOS ne propose pas d’accès en lecture seule. La suppression n’a lieu que pour les éléments que vous sélectionnez et confirmez, puis après « Supprimer » dans la confirmation d’iOS.<!--/ios-->",
+            "<!--ios--><strong>Notifications sur iPhone et iPad</strong> : uniquement pour les rappels d’export, si vous les activez.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. Confidentialité des enfants",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "L’App ne collecte d’informations personnelles auprès de personne, quel que soit son âge."
+        }
+      ]
+    },
+    {
+      "heading": "10. Modifications de cette politique",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Toute modification sera annoncée sur cette page avec sa date de mise à jour."
+        }
+      ]
+    },
+    {
+      "heading": "11. Contact",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Kurawise (exploité par 智行)<br> E-mail : <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> (réponse généralement sous 2 à 3 jours ouvrés)<br> Site web : <a href=\"https://kurawise.com/\">https://kurawise.com/</a>"
+        },
+        {
+          "t": "note",
+          "text": "En cas de divergence entre les versions linguistiques, la version japonaise prévaut."
+        }
+      ]
+    }
+  ],
+  "title_ko": "개인정보 처리방침",
+  "head_title_ko": "개인정보 처리방침 | KuraPhoto | Kurawise",
+  "description_ko": "KuraPhoto 개인정보 처리방침. 사진과 개인정보를 당사 서버로 보내지 않으며 모든 처리는 Mac 안에서 이루어집니다.",
+  "sections_ko": [
+    {
+      "blocks": [
+        {
+          "t": "note",
+          "text": "KuraPhoto(macOS 앱) / 시행일·최종 수정일: 2026년 10월 18일",
+          "only": "mac"
+        },
+        {
+          "t": "note",
+          "text": "KuraPhoto(macOS·iOS·iPadOS 앱) / 시행일: 2026년 10월 18일 · 최종 수정일: iPhone·iPad 앱 출시일",
+          "only": "ios"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise(이하 ‘당사’)는 macOS 앱 ‘KuraPhoto’(이하 ‘본 앱’) 이용자의 개인정보를 존중하며, 다음과 같이 취급합니다.",
+          "only": "mac"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise(이하 ‘당사’)는 Mac·iPhone·iPad용 앱 ‘KuraPhoto’(이하 ‘본 앱’) 이용자의 개인정보를 존중하며 다음과 같이 취급합니다.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "1. 요약",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "본 앱은 <strong>이용자의 개인정보·사진·동영상·이용 현황을 당사 서버로 전송하거나 수집하지 않습니다</strong>. 당사는 그러한 서버를 운영하지 않습니다.",
+            "사진·동영상의 읽기, 정리, 중복 확인, 누락 확인은 <strong>모두 이용자의 Mac 안에서만 이루어집니다</strong>.",
+            "광고, 추적, 외부 분석 서비스를 사용하지 않습니다.",
+            "당사가 받는 정보는 이용자가 직접 보낸 문의 이메일의 내용뿐입니다(제3항).",
+            "<!--ios-->iPhone·iPad 앱에서도 모든 처리는 이용자의 기기와 이용자가 선택한 내보낼 위치 안에서만 이루어집니다.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 본 앱이 다루는 정보와 목적",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "정보",
+            "목적",
+            "저장 위치·전송처"
+          ],
+          "rows": [
+            [
+              "이용자가 선택한 폴더·기기(iPhone, SD 카드 등)의 사진·동영상과 촬영 일시·위치 정보 등의 메타데이터",
+              "촬영일별 폴더로 정리, 이미 가져온 항목 판정, 중복 확인, 누락 확인",
+              "이용자의 Mac 안에서만. 외부로 전송하지 않습니다"
+            ],
+            [
+              "‘사진’ 앱의 보관함(이용자가 허용한 경우에만)",
+              "사진·동영상 원본을 꺼내 폴더에 정리하기 위해. 보관함의 사진은 변경·삭제하지 않습니다",
+              "이용자의 Mac 안에서만. 원본이 iCloud에만 있는 경우 macOS의 ‘사진’이 Apple의 iCloud에서 다운로드합니다"
+            ],
+            [
+              "<!--ios-->iPhone·iPad의 사진 보관함(이용자가 허용한 경우에만)<!--/ios-->",
+              "<!--ios-->원본을 이용자가 선택한 내보낼 위치로 내보내기, 내보낸 항목 판정, 확인하기, 중복 찾기. ‘공간 확보’와 ‘중복 정리’에서 이용자가 선택하고 확인한 항목만 삭제합니다(‘최근 삭제된 항목’에 30일간 남음)<!--/ios-->",
+              "<!--ios-->이용자의 iPhone·iPad와 이용자가 선택한 내보낼 위치에만. 원본이 iCloud에만 있으면 iOS ‘사진’의 기능이 Apple iCloud에서 다운로드합니다<!--/ios-->"
+            ],
+            [
+              "촬영 장소의 위치 정보(위도·경도)",
+              "이용자가 ‘촬영 장소의 지명도 폴더 이름에 붙이기’를 켠 경우에만 지명을 조회하기 위해",
+              "지명 조회를 위해 위도·경도가 Apple의 지도 서비스(macOS 기본 기능)로 전송됩니다. 당사로는 전송되지 않습니다"
+            ],
+            [
+              "설정, 지난 저장 위치, 처리 기록(로그, 되돌리기용 기록, 중복 확인 분석 결과, 꺼낸 파일 크기 기록, 읽어 들인 촬영 일시·위치 정보, 조회한 지명)",
+              "다음에도 같은 설정으로 쓰기 위해, 중단 후 재개와 ‘되돌리기’를 위해, 처리 속도를 높이기 위해",
+              "이용자의 Mac 안(앱 설정, 저장 위치 폴더 안, 앱 전용 저장 공간)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 문의 시 받는 정보",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "이용자가 문의 이메일을 보낸 경우, 당사는 이메일 주소·본문·첨부 파일(로그 등)을 받습니다. 이는 답장과 오류 조사에만 사용하며 제3자에게 제공하지 않습니다. 문의 처리가 끝난 후 필요 기간이 지난 것부터 삭제합니다. 삭제를 원하시면 언제든지 요청해 주세요."
+        }
+      ]
+    },
+    {
+      "heading": "4. 데이터 보관과 삭제",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "본 앱이 다루는 데이터는 모두 이용자의 Mac 안에 있으며 당사는 보유하지 않습니다. 다음 방법으로 이용자가 직접 언제든지 삭제할 수 있습니다."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>앱 설정과 기록</strong>: 본 앱을 휴지통으로 옮겨 삭제하고, ‘라이브러리 › Containers’ 안의 ‘com.kurawise.kuraphoto’ 폴더를 삭제합니다.",
+            "<strong>저장 위치의 기록</strong>: 저장 위치 폴더의 ‘KuraPhoto 로그’ 폴더와 ‘되돌리기’용 숨김 폴더(이름이 ‘.KuraPhoto-’로 시작하는 것)를 삭제합니다. 삭제하면 그 이전의 정리를 되돌릴 수 없습니다. 3년이 지난 로그는 다음 작업 때 자동으로 삭제됩니다.",
+            "<strong>사진 보관함 등에 대한 접근 권한</strong>: macOS의 ‘시스템 설정 › 개인정보 보호 및 보안’에서 언제든지 해제할 수 있습니다.",
+            "<!--ios--><strong>iPhone·iPad</strong>: 본 앱을 삭제하면 앱의 설정과 기록(‘파일’ 앱의 ‘나의 iPhone › KuraPhoto’ 포함)도 삭제됩니다. 내보낼 위치의 ‘KuraPhoto 로그’ 폴더는 ‘파일’ 앱에서 삭제할 수 있습니다. 사진 접근과 알림은 ‘설정’ 앱의 KuraPhoto에서 언제든지 취소할 수 있습니다.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 제3자 제공",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "당사는 이용자의 정보를 제3자에게 제공하거나 판매하지 않습니다. 지명 조회(이용자가 켠 경우)와 iCloud 원본 다운로드는 Apple이 제공하는 macOS 기본 기능을 통해 이루어지며, 그 취급은 <a href=\"https://www.apple.com/kr/legal/privacy/\">Apple 개인정보 처리방침</a>을 따릅니다."
+        }
+      ]
+    },
+    {
+      "heading": "6. 앱 내 구입",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "본 앱의 구입과 앱 내 구입은 Apple의 App Store를 통해 처리됩니다. 당사는 이용자의 이름, 결제 정보, Apple 계정 정보를 받지 않습니다."
+        }
+      ]
+    },
+    {
+      "heading": "7. 충돌 보고서",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "이용자가 macOS 설정에서 ‘앱 개발자와 공유’를 허용한 경우에 한해, Apple을 통해 익명 충돌 보고서가 당사에 제공될 수 있습니다. 이는 오류 수정에만 사용합니다. 이 공유는 macOS의 ‘시스템 설정 › 개인정보 보호 및 보안 › 분석 및 향상’에서 언제든지 끌 수 있습니다."
+        },
+        {
+          "t": "p",
+          "text": "iPhone·iPad에서는 ‘설정 › 개인정보 보호 및 보안 › 분석 및 향상’에서 끌 수 있습니다.",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "8. 접근 권한",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>사진 보관함</strong>: ‘사진 보관함에서 가져오기’를 사용할 때만 요청합니다. 읽기 전용이며 변경·삭제하지 않습니다.",
+            "<strong>파일과 폴더</strong>: 이용자가 선택 창에서 고른 폴더·파일에만 접근합니다.",
+            "<strong>USB 기기</strong>: iPhone·카메라 등에서 사진을 가져오기 위해 사용합니다.",
+            "<strong>알림</strong>: 처리 완료를 알리기 위해 사용합니다(허용하지 않아도 본 앱을 쓸 수 있습니다).",
+            "<!--ios--><strong>iPhone·iPad의 사진</strong>: iOS에는 읽기 전용 권한이 없으므로 내보내기를 위해 ‘전체 접근’을 요청합니다. 삭제는 이용자가 선택하고 확인한 뒤 iOS 확인에서도 ‘삭제’를 누른 경우에만 이루어집니다.<!--/ios-->",
+            "<!--ios--><strong>iPhone·iPad의 알림</strong>: 이용자가 켠 경우에만 내보내기 시기를 알립니다.<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. 아동의 개인정보",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "본 앱은 연령과 관계없이 개인정보를 수집하지 않습니다."
+        }
+      ]
+    },
+    {
+      "heading": "10. 본 방침의 변경",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "내용을 변경하는 경우 이 페이지에 수정일과 함께 알립니다."
+        }
+      ]
+    },
+    {
+      "heading": "11. 문의",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Kurawise(운영: 智行)<br> 이메일: <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>(보통 2~3 영업일 이내에 답장합니다)<br> 웹사이트: <a href=\"https://kurawise.com/\">https://kurawise.com/</a>"
+        },
+        {
+          "t": "note",
+          "text": "언어별 버전 간에 차이가 있는 경우 일본어 버전이 우선합니다."
+        }
+      ]
+    }
+  ],
+  "title_zh-hans": "隐私政策",
+  "head_title_zh-hans": "隐私政策 | KuraPhoto | Kurawise",
+  "description_zh-hans": "KuraPhoto 隐私政策。照片和个人信息绝不会发送到我们的服务器，所有处理均在您的 Mac 上进行。",
+  "sections_zh-hans": [
+    {
+      "blocks": [
+        {
+          "t": "note",
+          "text": "KuraPhoto（macOS App）／ 生效及最近更新日期：2026 年 10 月 18 日",
+          "only": "mac"
+        },
+        {
+          "t": "note",
+          "text": "KuraPhoto（macOS、iOS 和 iPadOS App）／ 生效日期：2026 年 10 月 18 日　最近更新日期：iPhone 和 iPad 版发布日",
+          "only": "ios"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise（以下简称“我们”）尊重 macOS App“KuraPhoto”（以下简称“本 App”）用户的隐私，并按以下方式处理相关信息。",
+          "only": "mac"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise（以下简称“我们”）尊重 Mac、iPhone 和 iPad 版“KuraPhoto”（以下简称“本 App”）用户的隐私，并按以下方式处理。",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "1. 概要",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "本 App <strong>不会将用户的个人信息、照片、视频或使用情况发送或收集到我们的服务器</strong>。我们不运营此类服务器。",
+            "照片和视频的读取、整理、重复检查和遗漏检查<strong>全部仅在用户的 Mac 上进行</strong>。",
+            "我们不使用广告、追踪或第三方分析服务。",
+            "我们收到的信息仅限于用户主动发送给我们的咨询邮件内容（第 3 条）。",
+            "<!--ios-->iPhone 和 iPad 版同样只在您的设备和您选择的导出位置中进行所有处理。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 本 App 处理的信息及目的",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "信息",
+            "目的",
+            "保存位置／发送对象"
+          ],
+          "rows": [
+            [
+              "用户选择的文件夹或设备（iPhone、SD 卡等）中的照片和视频，及其拍摄日期、位置等元数据",
+              "按拍摄日期整理到文件夹、判定是否已导入、重复检查、遗漏检查",
+              "仅在用户的 Mac 上。不会发送到外部"
+            ],
+            [
+              "“照片”App 的图库（仅在用户允许时）",
+              "导出照片和视频原片并整理到文件夹。不会更改或删除图库中的照片",
+              "仅在用户的 Mac 上。原片仅存于 iCloud 时，由 macOS 的“照片”从 Apple 的 iCloud 下载"
+            ],
+            [
+              "<!--ios-->iPhone 和 iPad 的照片图库（仅在用户允许时）<!--/ios-->",
+              "<!--ios-->将原片导出到用户选择的导出位置、判断是否已导出、检查和查找重复项。仅删除用户在“释放空间”或“清理重复项”中选择并确认的项目（会在“最近删除”中保留 30 天）<!--/ios-->",
+              "<!--ios-->仅在用户的 iPhone、iPad 和用户选择的导出位置中。原片仅存于 iCloud 时，由 iOS“照片”的机制从 Apple 的 iCloud 下载<!--/ios-->"
+            ],
+            [
+              "拍摄地点的位置信息（纬度、经度）",
+              "仅在用户开启“在文件夹名称中添加拍摄地点”时，用于查询地名",
+              "为查询地名，纬度和经度会发送到 Apple 的地图服务（macOS 标准功能）。不会发送给我们"
+            ],
+            [
+              "设置、上次的保存位置、处理记录（日志、用于撤销的记录、重复检查的分析结果、已导出文件大小的记录、已读取的拍摄日期与位置信息、已查询的地名）",
+              "以便下次沿用相同设置、中断后继续及“撤销”、加快处理速度",
+              "用户的 Mac 上（App 设置、保存位置文件夹内、App 专用存储区域）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 咨询时收到的信息",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "用户发送咨询邮件时，我们会收到邮箱地址、正文及附件（日志等）。这些信息仅用于回复和调查问题，不会提供给第三方。处理完成后，超过必要期限的将依次删除。如需删除，请随时告知。"
+        }
+      ]
+    },
+    {
+      "heading": "4. 数据的保存与删除",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "本 App 处理的数据全部保存在用户的 Mac 上，我们并不持有。用户可随时通过以下方式自行删除："
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>App 的设置与记录</strong>：将本 App 移到废纸篓删除，并删除“资源库 › Containers”中的“com.kurawise.kuraphoto”文件夹。",
+            "<strong>保存位置中的记录</strong>：删除保存位置文件夹中的“KuraPhoto 日志”文件夹，以及用于“撤销”的隐藏文件夹（名称以“.KuraPhoto-”开头）。删除后将无法撤销此前的整理。超过 3 年的日志会在下次操作时自动删除。",
+            "<strong>照片图库等访问权限</strong>：可随时在 macOS 的“系统设置 › 隐私与安全性”中取消。",
+            "<!--ios--><strong>iPhone 和 iPad</strong>：删除本 App 后，App 的设置与记录（包括“文件”App 的“我的 iPhone › KuraPhoto”）也会被删除。导出位置中的“KuraPhoto 日志”文件夹可在“文件”App 中删除。照片访问权限和通知可随时在“设置”App 的 KuraPhoto 中取消。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 向第三方提供",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "我们不会向第三方提供或出售用户的信息。地名查询（在用户开启时）和从 iCloud 下载原片，是通过 Apple 提供的 macOS 标准功能进行的，其处理遵循 <a href=\"https://www.apple.com.cn/legal/privacy/\">Apple 隐私政策</a>。"
+        }
+      ]
+    },
+    {
+      "heading": "6. App 内购买",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "本 App 的购买及 App 内购买通过 Apple 的 App Store 处理。我们不会收到用户的姓名、支付信息或 Apple 账户信息。"
+        }
+      ]
+    },
+    {
+      "heading": "7. 崩溃报告",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "仅当用户在 macOS 设置中允许“与 App 开发者共享”时，Apple 才可能向我们提供匿名崩溃报告。我们仅将其用于修复问题。可随时在 macOS 的“系统设置 › 隐私与安全性 › 分析与改进”中关闭此共享。"
+        },
+        {
+          "t": "p",
+          "text": "在 iPhone 和 iPad 上，可在“设置 › 隐私与安全性 › 分析与改进”中关闭。",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "8. 访问权限",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>照片图库</strong>：仅在使用“从照片图库导入”时请求。仅读取，不会更改或删除。",
+            "<strong>文件与文件夹</strong>：仅访问用户在选择窗口中选定的文件夹和文件。",
+            "<strong>USB 设备</strong>：用于从 iPhone、相机等设备导入照片。",
+            "<strong>通知</strong>：用于通知处理完成（不允许也可使用本 App）。",
+            "<!--ios--><strong>iPhone 和 iPad 的照片</strong>：由于 iOS 没有只读权限，导出时会请求“完全访问”。仅在用户选择并确认，且在 iOS 的确认中点按“删除”时才会删除。<!--/ios-->",
+            "<!--ios--><strong>iPhone 和 iPad 的通知</strong>：仅在用户开启时用于提醒导出。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. 儿童隐私",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "无论年龄，本 App 都不收集个人信息。"
+        }
+      ]
+    },
+    {
+      "heading": "10. 本政策的变更",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "如有变更，将在本页面连同更新日期一并公布。"
+        }
+      ]
+    },
+    {
+      "heading": "11. 联系我们",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Kurawise（运营者：智行）<br> 邮箱：<a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>（通常在 2–3 个工作日内回复）<br> 网站：<a href=\"https://kurawise.com/\">https://kurawise.com/</a>"
+        },
+        {
+          "t": "note",
+          "text": "各语言版本之间如有不一致，以日语版本为准。"
+        }
+      ]
+    }
+  ],
+  "title_zh-hant": "隱私權政策",
+  "head_title_zh-hant": "隱私權政策 | KuraPhoto | Kurawise",
+  "description_zh-hant": "KuraPhoto 隱私權政策。照片和個人資訊絕不會傳送到我們的伺服器，所有處理均在您的 Mac 上進行。",
+  "sections_zh-hant": [
+    {
+      "blocks": [
+        {
+          "t": "note",
+          "text": "KuraPhoto（macOS App）／ 生效及最近更新日期：2026 年 10 月 18 日",
+          "only": "mac"
+        },
+        {
+          "t": "note",
+          "text": "KuraPhoto（macOS、iOS 和 iPadOS App）／ 生效日期：2026 年 10 月 18 日　最近更新日期：iPhone 和 iPad 版發布日",
+          "only": "ios"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise（以下簡稱「我們」）尊重 macOS App「KuraPhoto」（以下簡稱「本 App」）使用者的隱私，並依以下方式處理相關資訊。",
+          "only": "mac"
+        },
+        {
+          "t": "p",
+          "text": "Kurawise（以下簡稱「我們」）尊重 Mac、iPhone 和 iPad 版「KuraPhoto」（以下簡稱「本 App」）使用者的隱私，並按以下方式處理。",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "1. 概要",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "本 App <strong>不會將使用者的個人資訊、照片、影片或使用情況傳送或蒐集到我們的伺服器</strong>。我們不營運此類伺服器。",
+            "照片和影片的讀取、整理、重複檢查和遺漏檢查<strong>全部僅在使用者的 Mac 上進行</strong>。",
+            "我們不使用廣告、追蹤或第三方分析服務。",
+            "我們收到的資訊僅限於使用者主動寄給我們的詢問郵件內容（第 3 條）。",
+            "<!--ios-->iPhone 和 iPad 版同樣只在您的裝置和您選擇的匯出位置中進行所有處理。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2. 本 App 處理的資訊及目的",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "資訊",
+            "目的",
+            "儲存位置／傳送對象"
+          ],
+          "rows": [
+            [
+              "使用者選擇的資料夾或裝置（iPhone、SD 卡等）中的照片和影片，及其拍攝日期、位置等後設資料",
+              "依拍攝日期整理到資料夾、判定是否已匯入、重複檢查、遺漏檢查",
+              "僅在使用者的 Mac 上。不會傳送到外部"
+            ],
+            [
+              "「照片」App 的圖庫（僅在使用者允許時）",
+              "匯出照片和影片原始檔並整理到資料夾。不會更改或刪除圖庫中的照片",
+              "僅在使用者的 Mac 上。原始檔僅存於 iCloud 時，由 macOS 的「照片」從 Apple 的 iCloud 下載"
+            ],
+            [
+              "<!--ios-->iPhone 和 iPad 的照片圖庫（僅在使用者允許時）<!--/ios-->",
+              "<!--ios-->將原始檔匯出到使用者選擇的匯出位置、判斷是否已匯出、檢查和尋找重複項目。僅刪除使用者在「釋放空間」或「清理重複項目」中選擇並確認的項目（會在「最近刪除」中保留 30 天）<!--/ios-->",
+              "<!--ios-->僅在使用者的 iPhone、iPad 和使用者選擇的匯出位置中。原始檔僅存於 iCloud 時，由 iOS「照片」的機制從 Apple 的 iCloud 下載<!--/ios-->"
+            ],
+            [
+              "拍攝地點的位置資訊（緯度、經度）",
+              "僅在使用者開啟「在資料夾名稱中加上拍攝地點」時，用於查詢地名",
+              "為查詢地名，緯度和經度會傳送到 Apple 的地圖服務（macOS 標準功能）。不會傳送給我們"
+            ],
+            [
+              "設定、上次的儲存位置、處理記錄（記錄檔、用於還原的記錄、重複檢查的分析結果、已匯出檔案大小的記錄、已讀取的拍攝日期與位置資訊、已查詢的地名）",
+              "以便下次沿用相同設定、中斷後繼續及「還原」、加快處理速度",
+              "使用者的 Mac 上（App 設定、儲存位置資料夾內、App 專用儲存區域）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. 詢問時收到的資訊",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "使用者寄送詢問郵件時，我們會收到電子郵件地址、內文及附件（記錄檔等）。這些資訊僅用於回覆和調查問題，不會提供給第三方。處理完成後，超過必要期限的將依序刪除。如需刪除，請隨時告知。"
+        }
+      ]
+    },
+    {
+      "heading": "4. 資料的儲存與刪除",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "本 App 處理的資料全部儲存在使用者的 Mac 上，我們並不持有。使用者可隨時透過以下方式自行刪除："
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>App 的設定與記錄</strong>：將本 App 移到垃圾桶刪除，並刪除「資源庫 › Containers」中的「com.kurawise.kuraphoto」資料夾。",
+            "<strong>儲存位置中的記錄</strong>：刪除儲存位置資料夾中的「KuraPhoto 記錄」資料夾，以及用於「還原」的隱藏資料夾（名稱以「.KuraPhoto-」開頭）。刪除後將無法還原先前的整理。超過 3 年的記錄會在下次操作時自動刪除。",
+            "<strong>照片圖庫等取用權限</strong>：可隨時在 macOS 的「系統設定 › 隱私權與安全性」中取消。",
+            "<!--ios--><strong>iPhone 和 iPad</strong>：刪除本 App 後，App 的設定與記錄（包括「檔案」App 的「我的 iPhone › KuraPhoto」）也會被刪除。匯出位置中的「KuraPhoto 記錄」資料夾可在「檔案」App 中刪除。照片取用權限和通知可隨時在「設定」App 的 KuraPhoto 中取消。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. 向第三方提供",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "我們不會向第三方提供或出售使用者的資訊。地名查詢（在使用者開啟時）和從 iCloud 下載原始檔，是透過 Apple 提供的 macOS 標準功能進行的，其處理遵循 <a href=\"https://www.apple.com/tw/legal/privacy/\">Apple 隱私權政策</a>。"
+        }
+      ]
+    },
+    {
+      "heading": "6. App 內購買",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "本 App 的購買及 App 內購買透過 Apple 的 App Store 處理。我們不會收到使用者的姓名、付款資訊或 Apple 帳號資訊。"
+        }
+      ]
+    },
+    {
+      "heading": "7. 當機報告",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "僅當使用者在 macOS 設定中允許「與 App 開發者分享」時，Apple 才可能向我們提供匿名當機報告。我們僅將其用於修正問題。可隨時在 macOS 的「系統設定 › 隱私權與安全性 › 分析與改進」中關閉此分享。"
+        },
+        {
+          "t": "p",
+          "text": "在 iPhone 和 iPad 上，可在「設定 › 隱私權與安全性 › 分析與改進」中關閉。",
+          "only": "ios"
+        }
+      ]
+    },
+    {
+      "heading": "8. 取用權限",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "<strong>照片圖庫</strong>：僅在使用「從照片圖庫匯入」時請求。僅讀取，不會更改或刪除。",
+            "<strong>檔案與資料夾</strong>：僅取用使用者在選擇視窗中選定的資料夾和檔案。",
+            "<strong>USB 裝置</strong>：用於從 iPhone、相機等裝置匯入照片。",
+            "<strong>通知</strong>：用於通知處理完成（不允許也可使用本 App）。",
+            "<!--ios--><strong>iPhone 和 iPad 的照片</strong>：由於 iOS 沒有唯讀權限，匯出時會請求「完整取用」。僅在使用者選擇並確認，且在 iOS 的確認中點一下「刪除」時才會刪除。<!--/ios-->",
+            "<!--ios--><strong>iPhone 和 iPad 的通知</strong>：僅在使用者開啟時用於提醒匯出。<!--/ios-->"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. 兒童隱私",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "無論年齡，本 App 都不蒐集個人資訊。"
+        }
+      ]
+    },
+    {
+      "heading": "10. 本政策的變更",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "如有變更，將在本頁面連同更新日期一併公布。"
+        }
+      ]
+    },
+    {
+      "heading": "11. 聯絡我們",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Kurawise（營運者：智行）<br> 電子郵件：<a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>（通常在 2–3 個工作天內回覆）<br> 網站：<a href=\"https://kurawise.com/\">https://kurawise.com/</a>"
+        },
+        {
+          "t": "note",
+          "text": "各語言版本之間如有不一致，以日文版本為準。"
+        }
+      ]
+    }
+  ]
+}

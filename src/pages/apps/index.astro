@@ -1,9 +1,11 @@
 ---
 // 目标路径：src/pages/apps/index.astro → 映射为 /apps/
-// 应用版块一览页。各应用的公开页（支持・隐私政策）放在 public/应用名/ 下，独立设计、不带底部tab栏，
-// 例：/kuraphoto/。新增应用时，在下方 APPS 里加一项即可。
+// 应用版块一览页。一覧は public/data/apps/index.json（新增应用时在那里加一项），
+// 各应用的公开页本文は public/data/apps/<应用>/ の JSON（例：/kuraphoto/ は src/pages/kuraphoto/[...path].astro）。
 // 不进站内搜索（不加 data-pagefind-body），不计入内容阅读埋点。单一路径页面，文案按当前语言在客户端显示。
 import Base from '../../layouts/Base.astro';
+import appsData from '../../../public/data/apps/index.json';
+const APPS = appsData.apps;
 ---
 
 <Base title="アプリ | Kurawise" description="Kurawise が開発・提供しているアプリの一覧です。" skipReadTracking={true}>
@@ -16,22 +18,8 @@ import Base from '../../layouts/Base.astro';
     </section>
   </main>
 
-  <script is:inline>
-    // 应用一览：新增应用时在这里加一项。url 按语言指向该应用公开页的对应语言版本，没有的语言回落到 en。
-    var APPS = [
-      {
-        name: 'KuraPhoto',
-        icon: '/kuraphoto/img/kuraphoto-icon-256.png',
-        url: { ja: '/kuraphoto/', en: '/kuraphoto/en/', zh: '/kuraphoto/zh-hans/', 'zh-TW': '/kuraphoto/zh-hant/', ko: '/kuraphoto/ko/' },
-        desc: {
-          ja: 'iPhone・SD カード・Android・「写真」アプリの写真と動画を、撮影日ごとのフォルダに整理する Mac アプリ。',
-          en: 'A Mac app that organizes photos and videos from iPhone, SD cards, Android, and the Photos app into folders by date taken.',
-          zh: '将 iPhone、SD 卡、Android 和"照片"App 中的照片和视频按拍摄日期整理到文件夹的 Mac App。',
-          'zh-TW': '將 iPhone、SD 卡、Android 和「照片」App 中的照片和影片依拍攝日期整理到資料夾的 Mac App。',
-          ko: 'iPhone·SD 카드·Android·‘사진’ 앱의 사진과 동영상을 촬영일별 폴더로 정리하는 Mac 앱.'
-        }
-      }
-    ];
+  <script is:inline define:vars={{ APPS }}>
+    // 应用一览：数据在 public/data/apps/index.json。url 按语言指向该应用公开页的对应语言版本，没有的语言回落到 en。
     function renderAppsPage() {
       var titleMap = { zh: '应用', 'zh-TW': '應用程式', en: 'Apps', vi: 'Ứng dụng', ko: '앱', ja: 'アプリ' };
       var leadMap = {

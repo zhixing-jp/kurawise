@@ -1,0 +1,2530 @@
+{
+  "_note": "KuraPhoto の公開ページの本文（iphone/guide.json）。言語ごとに title_／head_title_／description_／sections_ を持つ。",
+  "title_ja": "KuraPhoto 使い方ガイド（iPhone・iPad）",
+  "head_title_ja": "使い方ガイド（iPhone・iPad）｜KuraPhoto｜Kurawise",
+  "description_ja": "iPhone・iPad 版 KuraPhoto の使い方。外付け SSD・NAS への書き出し、確かめる、空き容量を作る、重複を片付ける、iCloud 写真の注意点、困ったときの対処。",
+  "sections_ja": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "iPhone の写真と動画を、外付け SSD・USB メモリ・NAS などへ、撮影日ごとのフォルダ（例：2026 › 2026-10）で書き出します。消す前に、すべて保存できたかを確かめられます。"
+        },
+        {
+          "t": "note",
+          "text": "Mac 版の使い方は <a href=\"/kuraphoto/mac/\">こちら</a>。iPad でも同じように使えます（このページの「iPhone」は「iPad」と読み替えてください）。"
+        },
+        {
+          "t": "toc",
+          "items": [
+            {
+              "href": "#basics",
+              "text": "はじめに"
+            },
+            {
+              "href": "#destination",
+              "text": "書き出し先をつなぐ"
+            },
+            {
+              "href": "#export",
+              "text": "書き出す"
+            },
+            {
+              "href": "#verify",
+              "text": "確かめる"
+            },
+            {
+              "href": "#freeup",
+              "text": "空き容量を作る（Pro）"
+            },
+            {
+              "href": "#duplicates",
+              "text": "重複を片付ける"
+            },
+            {
+              "href": "#more",
+              "text": "そのほかの機能"
+            },
+            {
+              "href": "#icloud",
+              "text": "iCloud 写真を使っている方へ"
+            },
+            {
+              "href": "#pro",
+              "text": "無料版と Pro"
+            },
+            {
+              "href": "#trouble",
+              "text": "困ったときは"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "heading": "1. はじめに",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "ホーム画面に、まだ書き出していない写真・動画の数と、前回の書き出しがいつだったかが出ます。その下の 4 つから、したいことを選びます。"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "書き出す",
+              "text": "写真と動画を、撮影日ごとのフォルダで書き出します。書き出し済みは自動でとばします。"
+            },
+            {
+              "title": "確かめる",
+              "text": "書き出し先にすべて保存できているかを、月ごとに調べます。"
+            },
+            {
+              "title": "空き容量を作る",
+              "text": "保存済みと確かめたものだけを選んで、iPhone から削除します（Pro）。"
+            },
+            {
+              "title": "重複を片付ける",
+              "text": "同じ写真のコピー（サイズ違い・形式違いも）を見つけます。"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "はじめに「写真へのアクセス」を許可してください。原本を読むために「フルアクセス」が必要です。書き出しと確かめるは、写真を変更・削除しません。"
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "heading": "2. 書き出し先をつなぐ",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "「ファイル」アプリで見える場所なら、どこにでも書き出せます。"
+        },
+        {
+          "t": "table",
+          "head": [
+            "書き出し先",
+            "つなぎ方・注意点"
+          ],
+          "rows": [
+            [
+              "外付け SSD・USB メモリ",
+              "USB-C の iPhone はそのままつなぎます。Lightning の iPhone は「Lightning - USB 3 カメラアダプタ」などを使い、電源もつないでください。「ファイル」アプリの「場所」に出てきます。形式は exFAT・APFS がおすすめです（NTFS には書き込めません）。"
+            ],
+            [
+              "NAS・パソコン（ネットワーク）",
+              "先に「ファイル」アプリの右上の「…」から「サーバへ接続」で、NAS やパソコンの共有フォルダにつないでおきます（例：smb://192.168.1.10）。"
+            ],
+            [
+              "iCloud Drive など",
+              "選べますが、iCloud の容量を使います。iPhone の空きを作るためには、手元の SSD などがおすすめです。"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "書き出し先は覚えておくので、2 回目からは同じ SSD をつなぐだけです。"
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "heading": "3. 書き出す",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>書き出し先</strong>：「書き出し先のフォルダを選ぶ」で、SSD などのフォルダを選びます。",
+            "<strong>何を書き出すか</strong>：「まだ書き出していないものすべて」（おすすめ）、「期間を選ぶ」、「アルバムを選ぶ」から選びます。「両方｜写真だけ｜動画だけ」も選べます。",
+            "<strong>フォルダの分け方</strong>：年 / 月（おすすめ）、年 / 月 / 日、撮影場所の地名付き、アルバム名から選びます。",
+            "<strong>確認</strong>：件数・大きさ・書き出し先の空き・とばす件数を確かめて、「書き出しを始める」を押します。"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "書き出し済みのもの（書き出し先に同じ名前・同じ大きさのファイルがあるもの）は、自動でとばします。2 回目からは新しい写真だけが書き出されます。",
+            "Live Photos は写真と動画をそろえて書き出します。編集した写真は、はじめは撮影したままの写真を書き出し、編集の内容は .AAE ファイルで残します（設定で変えられます）。",
+            "<strong>iOS 26 以降</strong>：書き出し中にほかのアプリに切り替えたり、画面を消したりしても続きます。進み具合はロック画面などに出ます。アプリの切り替え画面で KuraPhoto を上にはらって閉じると止まります。",
+            "<strong>iOS 17・18</strong>：書き出しが終わるまで、KuraPhoto の画面を開いたままにしてください。",
+            "途中で止まっても、もう一度「書き出す」を始めれば続きから書き出します。",
+            "終わると、内訳（新しく書き出した・とばした・エラー）と、書き出し先にそろっているかを自動で確かめた結果が出ます。"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "書き出しの記録（ログ）は、書き出し先の「KuraPhoto ログ」フォルダに残ります。"
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "heading": "4. 確かめる",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "iPhone の写真・動画が、書き出し先にすべて保存できているかを、名前と大きさで調べます。何も変更しません。"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "「2025年8月〜2026年10月はすべて保存済み」のように、すべてそろっている期間と、月ごとの結果が出ます。",
+            "見当たらないものは、「見当たらない N 件を書き出す」でそのまま書き出せます。",
+            "名前は同じでも大きさが分からないもの（原本が iCloud にしかないもの）は「未確認」になります。",
+            "結果は PDF・CSV で保存できます（Pro）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeup",
+      "heading": "5. 空き容量を作る（Pro）",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "「確かめる」で保存済みと分かった写真・動画だけを選んで、iPhone から削除します。"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "書き出し先をつないで「保存済みの写真・動画を調べる」を押します。",
+            "容量の内訳（写真・動画・スクリーンショット）と、大きい動画の一覧が出ます。月ごと、または 1 枚ずつ選びます。",
+            "確認の画面で、件数・空く容量・書き出し先を確かめ、「書き出し先に保存されていることを確かめました」にチェックを入れて削除します。",
+            "最後に iOS の削除の確認が出ます。「削除」を押すと削除されます。"
+          ]
+        },
+        {
+          "t": "point",
+          "title": "安全のしくみ",
+          "items": [
+            "保存済みと確かめたものしか選べません。保存できていないもの、確かめられなかったもの、iCloud にしかないものは選べません。",
+            "削除の直前に、書き出し先に今もあるかをもう一度確かめます。見つからないものは削除しません。",
+            "1 回に削除できるのは 1,000 件までです。「すべて削除」はありません。",
+            "削除の記録を、iPhone（「ファイル」アプリの「この iPhone 内 › KuraPhoto」）と書き出し先の「KuraPhoto ログ」に残します。"
+          ]
+        },
+        {
+          "t": "warn",
+          "text": "削除したものは「写真」アプリの「最近削除した項目」に 30 日間残り、その間は戻せます。iPhone の空き容量が増えるのは、そこからも削除したとき（または 30 日たったとき）です。iCloud 写真を使っている場合、削除すると同じ Apple アカウントのすべての機器と iCloud からも消えます。"
+        }
+      ]
+    },
+    {
+      "id": "duplicates",
+      "heading": "6. 重複を片付ける",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "「同じ写真のコピー」（おすすめ）：解像度や形式（HEIC／JPEG）が違っても、見た目が同じものを探します。",
+            "「よく似た写真も」：連写など、10 分以内に撮ったよく似た写真も探します。残したい写真が含まれることがあるので、最初は削除の対象にしません。",
+            "残す 1 枚を自動で選びます。写真を押すと、残すものを変えられます。",
+            "探すのは無料です。削除は Pro の機能で、削除したものは「最近削除した項目」に 30 日間残ります。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "7. そのほかの機能",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "機能",
+            "内容"
+          ],
+          "rows": [
+            [
+              "スクリーンショット・画面収録",
+              "書き出しに含める／「スクリーンショット」フォルダに分ける／除く、から選べます。"
+            ],
+            [
+              "編集した写真",
+              "編集前の写真（はじめの設定）、編集後の写真（IMG_E1234 の形の名前）、両方から選べます。両方を書き出すと、「空き容量を作る」で編集した写真も選べます。"
+            ],
+            [
+              "HEIC を JPEG に変換（Pro）",
+              "撮影日・撮影場所は残します。変換したものは元の写真と違うファイルなので、「確かめる」「空き容量を作る」では保存済みと数えません。"
+            ],
+            [
+              "ウィジェット",
+              "ホーム画面・ロック画面に、まだ書き出していない件数と、前回の書き出しからの日数を出せます。"
+            ],
+            [
+              "書き出しのお知らせ",
+              "設定で、2 週間・1 か月・3 か月ごとに、書き出しの時期をお知らせできます。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icloud",
+      "heading": "8. iCloud 写真を使っている方へ",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "「iPhone のストレージを最適化」がオンだと、原本が iCloud にしかない写真があります。書き出すときに iCloud からダウンロードするので、時間と通信量がかかります（Wi-Fi をおすすめします）。",
+            "「重複を片付ける」は、iPhone にある縮小版で比べます（ダウンロードはしません）。",
+            "削除すると、同じ Apple アカウントのすべての機器と iCloud からも消えます。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "heading": "9. 無料版と Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "無料版",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "書き出す",
+              "1 日 100 件まで",
+              "無制限"
+            ],
+            [
+              "確かめる・容量の内訳・重複を見つける",
+              "制限なし",
+              "制限なし"
+            ],
+            [
+              "空き容量を作る・重複の削除",
+              "—",
+              "○"
+            ],
+            [
+              "HEIC を JPEG に変換・結果の保存（PDF・CSV）",
+              "—",
+              "○"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro は買い切りです。月額料金はなく、ファミリー共有に対応しています。",
+            "Mac 版の KuraPhoto で Pro を買った場合は、同じ Apple アカウントなら iPhone でも Pro です。設定（右上の歯車）の「購入を復元」を押してください。",
+            "無料版の 1 日の件数は、iPhone の日付で 0 時に戻ります（Mac 版とは別に数えます）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "heading": "10. 困ったときは",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "SSD をつないでも「ファイル」アプリに出てこない",
+              "a": "<p>ケーブルとアダプタを確かめ、Lightning の iPhone ではアダプタに電源をつないでください。NTFS 形式のディスクには書き込めません。Mac や Windows で exFAT に初期化すると使えます（中身は消えるので、先に移してください）。</p>"
+            },
+            {
+              "q": "NAS が選べない",
+              "a": "<p>先に「ファイル」アプリの「…」›「サーバへ接続」でつないでおくと、書き出し先を選ぶ画面に出てきます。iPhone と NAS が同じ Wi-Fi にあるか確かめてください。</p>"
+            },
+            {
+              "q": "書き出しが途中で止まった",
+              "a": "<p>もう一度「書き出す」を始めると、まだ書き出していないものだけを続きから書き出します。書き出し先の空きが足りないときは、安全に止まります。</p>"
+            },
+            {
+              "q": "削除したのに空き容量が増えない",
+              "a": "<p>削除したものは「写真」アプリの「最近削除した項目」に 30 日間残ります。すぐに空けたいときは、そこからも削除してください。</p>"
+            },
+            {
+              "q": "「確かめる」で見当たらないものがある",
+              "a": "<p>別の書き出し先に保存した、名前を変えた、JPEG に変換して書き出した、などが考えられます。「見当たらない N 件を書き出す」で、今の書き出し先に書き出せます。</p>"
+            },
+            {
+              "q": "写真が読み込めない",
+              "a": "<p>「設定」アプリ › KuraPhoto ›「写真」を「フルアクセス」にしてください。</p>"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "解決しないときは、設定の「メールで問い合わせる」からご連絡ください（アプリのバージョンなどが自動で入ります）。<br> メール：<a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a>　サポート：<a href=\"/kuraphoto/\">KuraPhoto サポート</a>"
+        }
+      ]
+    }
+  ],
+  "title_en": "KuraPhoto User Guide (iPhone and iPad)",
+  "head_title_en": "User Guide for iPhone and iPad | KuraPhoto | Kurawise",
+  "description_en": "How to use KuraPhoto on iPhone and iPad: exporting to an external SSD or NAS, Verify, Free Up Space, Clean Up Duplicates, iCloud Photos notes, and troubleshooting.",
+  "sections_en": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "Export the photos and videos on your iPhone to an external SSD, USB drive, NAS, and more, in folders by date taken (e.g. 2026 › 2026-10). Before you delete anything, check that everything was saved."
+        },
+        {
+          "t": "note",
+          "text": "Looking for the Mac app? See the <a href=\"/kuraphoto/en/mac/\">Mac user guide</a>. KuraPhoto works the same way on iPad (read “iPhone” as “iPad” on this page)."
+        },
+        {
+          "t": "toc",
+          "items": [
+            {
+              "href": "#basics",
+              "text": "Getting started"
+            },
+            {
+              "href": "#destination",
+              "text": "Connecting an export destination"
+            },
+            {
+              "href": "#export",
+              "text": "Export"
+            },
+            {
+              "href": "#verify",
+              "text": "Verify"
+            },
+            {
+              "href": "#freeup",
+              "text": "Free Up Space (Pro)"
+            },
+            {
+              "href": "#duplicates",
+              "text": "Clean Up Duplicates"
+            },
+            {
+              "href": "#more",
+              "text": "More features"
+            },
+            {
+              "href": "#icloud",
+              "text": "If you use iCloud Photos"
+            },
+            {
+              "href": "#pro",
+              "text": "Free and Pro"
+            },
+            {
+              "href": "#trouble",
+              "text": "Troubleshooting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "heading": "1. Getting started",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The Home screen shows how many photos and videos haven’t been exported yet and when you last exported. Below that, choose one of four tasks."
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "Export",
+              "text": "Export photos and videos in folders by date. Items already exported are skipped."
+            },
+            {
+              "title": "Verify",
+              "text": "Check month by month that everything is saved at the export destination."
+            },
+            {
+              "title": "Free Up Space",
+              "text": "Delete from your iPhone only items confirmed as saved (Pro)."
+            },
+            {
+              "title": "Clean Up Duplicates",
+              "text": "Find copies of the same photo, even in other sizes or formats."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "First, allow access to Photos. “Full Access” is needed to read the originals. Export and Verify never change or delete your photos."
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "heading": "2. Connecting an export destination",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "You can export anywhere the Files app can reach."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Destination",
+            "How to connect"
+          ],
+          "rows": [
+            [
+              "External SSD or USB drive",
+              "Connect it directly to an iPhone with USB-C. For an iPhone with Lightning, use an adapter such as the Lightning to USB 3 Camera Adapter with power connected. It appears under “Locations” in the Files app. exFAT or APFS is recommended (NTFS drives can’t be written to)."
+            ],
+            [
+              "NAS or computer (network)",
+              "First connect in the Files app: tap “…” at the top right, then “Connect to Server” (e.g. smb://192.168.1.10)."
+            ],
+            [
+              "iCloud Drive and others",
+              "Available, but it uses your iCloud storage. To free up space on your iPhone, a local SSD is recommended."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "KuraPhoto remembers the destination, so next time just connect the same SSD."
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "heading": "3. Export",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Destination</strong>: tap “Choose Export Folder” and pick a folder on your SSD or elsewhere.",
+            "<strong>What to export</strong>: everything not yet exported (recommended), a date range, or albums. You can also choose Both, Photos Only, or Videos Only.",
+            "<strong>Folder layout</strong>: Year / Month (recommended), Year / Month / Day, with place names, or by album.",
+            "<strong>Review</strong>: check the count, size, free space at the destination, and items to skip, then tap “Start Export”."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Items already exported (a file with the same name and size is at the destination) are skipped automatically, so next time only new photos are exported.",
+            "Live Photos are exported as photo and video together. Edited photos are exported as originally taken, with the edits kept in an .AAE file (you can change this in the settings).",
+            "<strong>iOS 26 and later</strong>: exporting continues when you switch to another app or turn off the screen. Progress appears on the Lock Screen and elsewhere. Swiping KuraPhoto away in the app switcher stops it.",
+            "<strong>iOS 17 and 18</strong>: keep KuraPhoto open until the export finishes.",
+            "If it stops, start “Export” again to continue where it left off.",
+            "When it finishes, you see a breakdown (newly exported, skipped, errors) and the result of an automatic check of the destination."
+          ]
+        },
+        {
+          "t": "note",
+          "text": "A log of each export is saved in the “KuraPhoto Logs” folder at the destination."
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "heading": "4. Verify",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Checks by name and size that every photo and video on your iPhone is saved at the export destination. Nothing is changed."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "You see the period where everything is saved (e.g. “Everything from August 2025 to October 2026 is saved”) and the result for each month.",
+            "Anything missing can be exported right away with “Export N missing items”.",
+            "Items with the same name but unknown size (originals stored only in iCloud) are shown as “Unverified”.",
+            "Results can be saved as PDF or CSV (Pro)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeup",
+      "heading": "5. Free Up Space (Pro)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Choose only photos and videos that Verify confirmed as saved, and delete them from your iPhone."
+        },
+        {
+          "t": "ol",
+          "items": [
+            "Connect the export destination and tap “Find Saved Photos and Videos”.",
+            "You see a storage breakdown (photos, videos, screenshots) and a list of the largest videos. Select by month or one by one.",
+            "On the confirmation screen, check the count, space freed, and destination, tick “I’ve confirmed the items are saved at the export destination”, and delete.",
+            "Finally, iOS asks for confirmation. Tap “Delete” to delete."
+          ]
+        },
+        {
+          "t": "point",
+          "title": "How it keeps you safe",
+          "items": [
+            "Only items confirmed as saved can be selected. Items not saved, not confirmed, or stored only in iCloud can’t be selected.",
+            "Right before deleting, KuraPhoto checks again that each item is still at the destination. Anything not found is not deleted.",
+            "Up to 1,000 items per run. There is no “Delete All”.",
+            "A record of each deletion is kept on your iPhone (Files app › On My iPhone › KuraPhoto) and in “KuraPhoto Logs” at the destination."
+          ]
+        },
+        {
+          "t": "warn",
+          "text": "Deleted items stay in “Recently Deleted” in the Photos app for 30 days and can be recovered during that time. Space on your iPhone is freed when they are deleted from there too (or after 30 days). If you use iCloud Photos, deleted items are also removed from iCloud and all devices using the same Apple Account."
+        }
+      ]
+    },
+    {
+      "id": "duplicates",
+      "heading": "6. Clean Up Duplicates",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "“Copies of the Same Photo” (recommended): finds photos that look the same even if the resolution or format (HEIC / JPEG) differs.",
+            "“Include Similar Photos”: also finds very similar photos taken within 10 minutes, such as bursts. Because they may include photos you want to keep, they aren’t selected for deletion at first.",
+            "KuraPhoto picks the one to keep. Tap a photo to change it.",
+            "Finding is free. Deleting is a Pro feature, and deleted items stay in “Recently Deleted” for 30 days."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "7. More features",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Feature",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Screenshots and screen recordings",
+              "Include them, put them in a separate “Screenshots” folder, or leave them out."
+            ],
+            [
+              "Edited photos",
+              "Export the original (default), the edited version (named like IMG_E1234), or both. If you export both, edited photos can also be selected in Free Up Space."
+            ],
+            [
+              "Convert HEIC to JPEG (Pro)",
+              "Capture date and location are kept. Converted files differ from the originals, so Verify and Free Up Space don’t count them as saved."
+            ],
+            [
+              "Widgets",
+              "Show the number of items not yet exported and the days since your last export on the Home Screen or Lock Screen."
+            ],
+            [
+              "Export reminders",
+              "In the settings, get a reminder every 2 weeks, 1 month, or 3 months."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icloud",
+      "heading": "8. If you use iCloud Photos",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "With “Optimize iPhone Storage” on, some originals are stored only in iCloud. They are downloaded from iCloud while exporting, which takes time and data (Wi-Fi recommended).",
+            "Clean Up Duplicates compares the smaller versions on your iPhone (nothing is downloaded).",
+            "Deleted items are also removed from iCloud and all devices using the same Apple Account."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "heading": "9. Free and Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Free",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "Export",
+              "Up to 100 items per day",
+              "Unlimited"
+            ],
+            [
+              "Verify, storage breakdown, finding duplicates",
+              "Unlimited",
+              "Unlimited"
+            ],
+            [
+              "Free Up Space, deleting duplicates",
+              "—",
+              "✓"
+            ],
+            [
+              "HEIC to JPEG, saving results (PDF, CSV)",
+              "—",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro is a one-time purchase. No subscription, and Family Sharing is supported.",
+            "If you bought Pro in KuraPhoto for Mac, it works on your iPhone with the same Apple Account. Tap “Restore Purchases” in the settings (gear icon at the top right).",
+            "The free daily count resets at midnight on your iPhone (counted separately from the Mac)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "heading": "10. Troubleshooting",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "My SSD doesn’t appear in the Files app",
+              "a": "<p>Check the cable and adapter; with a Lightning iPhone, connect power to the adapter. NTFS drives can’t be written to. Formatting the drive as exFAT on a Mac or Windows PC makes it usable (this erases it, so move its contents first).</p>"
+            },
+            {
+              "q": "I can’t choose my NAS",
+              "a": "<p>Connect first with “…” › “Connect to Server” in the Files app; it then appears when choosing the destination. Make sure your iPhone and the NAS are on the same Wi-Fi network.</p>"
+            },
+            {
+              "q": "The export stopped",
+              "a": "<p>Start “Export” again to export only what hasn’t been exported yet. If the destination runs low on space, the export stops safely.</p>"
+            },
+            {
+              "q": "I deleted items, but my free space didn’t increase",
+              "a": "<p>Deleted items stay in “Recently Deleted” in the Photos app for 30 days. To free the space now, delete them from there too.</p>"
+            },
+            {
+              "q": "Verify says some items are missing",
+              "a": "<p>They may have been saved to another destination, renamed, or exported as JPEG. Use “Export N missing items” to export them to the current destination.</p>"
+            },
+            {
+              "q": "Photos can’t be loaded",
+              "a": "<p>In the Settings app, go to KuraPhoto › Photos and choose “Full Access”.</p>"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "If that doesn’t help, use “Contact by Email” in the settings (your app version and other details are filled in automatically).<br> Email: <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> · Support: <a href=\"/kuraphoto/en/\">KuraPhoto Support</a>"
+        }
+      ]
+    }
+  ],
+  "title_de": "KuraPhoto Anleitung (iPhone und iPad)",
+  "head_title_de": "Anleitung für iPhone und iPad | KuraPhoto | Kurawise",
+  "description_de": "So nutzen Sie KuraPhoto auf iPhone und iPad: Export auf externe SSD oder NAS, Prüfen, Speicher freigeben, Duplikate aufräumen, Hinweise zu iCloud-Fotos und Problemlösung.",
+  "sections_de": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "Exportieren Sie die Fotos und Videos Ihres iPhone auf eine externe SSD, einen USB-Stick, ein NAS und mehr – in Ordnern nach Aufnahmedatum (z. B. 2026 › 2026-10). Bevor Sie etwas löschen, prüfen Sie, ob alles gesichert ist."
+        },
+        {
+          "t": "note",
+          "text": "Sie suchen die Mac-App? Siehe die <a href=\"/kuraphoto/de/mac/\">Anleitung für den Mac</a>. Auf dem iPad funktioniert KuraPhoto genauso (lesen Sie auf dieser Seite „iPad“ statt „iPhone“)."
+        },
+        {
+          "t": "toc",
+          "items": [
+            {
+              "href": "#basics",
+              "text": "Erste Schritte"
+            },
+            {
+              "href": "#destination",
+              "text": "Exportziel verbinden"
+            },
+            {
+              "href": "#export",
+              "text": "Exportieren"
+            },
+            {
+              "href": "#verify",
+              "text": "Prüfen"
+            },
+            {
+              "href": "#freeup",
+              "text": "Speicher freigeben (Pro)"
+            },
+            {
+              "href": "#duplicates",
+              "text": "Duplikate aufräumen"
+            },
+            {
+              "href": "#more",
+              "text": "Weitere Funktionen"
+            },
+            {
+              "href": "#icloud",
+              "text": "Wenn Sie iCloud-Fotos nutzen"
+            },
+            {
+              "href": "#pro",
+              "text": "Kostenlos und Pro"
+            },
+            {
+              "href": "#trouble",
+              "text": "Problemlösung"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "heading": "1. Erste Schritte",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Der Startbildschirm zeigt, wie viele Fotos und Videos noch nicht exportiert sind und wann Sie zuletzt exportiert haben. Darunter wählen Sie eine von vier Aufgaben."
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "Exportieren",
+              "text": "Fotos und Videos in Ordnern nach Datum exportieren. Bereits Exportiertes wird übersprungen."
+            },
+            {
+              "title": "Prüfen",
+              "text": "Monat für Monat prüfen, ob alles am Exportziel gesichert ist."
+            },
+            {
+              "title": "Speicher freigeben",
+              "text": "Nur nachweislich gesicherte Objekte vom iPhone löschen (Pro)."
+            },
+            {
+              "title": "Duplikate aufräumen",
+              "text": "Kopien desselben Fotos finden, auch in anderer Größe oder anderem Format."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Erlauben Sie zuerst den Zugriff auf Fotos. Für die Originale ist „Voller Zugriff“ nötig. Exportieren und Prüfen ändern oder löschen nie Ihre Fotos."
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "heading": "2. Exportziel verbinden",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Sie können überallhin exportieren, wo die Dateien-App Zugriff hat."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Exportziel",
+            "So verbinden Sie es"
+          ],
+          "rows": [
+            [
+              "Externe SSD oder USB-Stick",
+              "Bei einem iPhone mit USB-C direkt anschließen. Bei einem iPhone mit Lightning einen Adapter wie den Lightning-auf-USB-3-Kameraadapter mit angeschlossener Stromversorgung verwenden. Das Laufwerk erscheint in der Dateien-App unter „Orte“. Empfohlen sind exFAT oder APFS (auf NTFS-Laufwerke kann nicht geschrieben werden)."
+            ],
+            [
+              "NAS oder Computer (Netzwerk)",
+              "Zuerst in der Dateien-App oben rechts auf „…“ und dann auf „Mit Server verbinden“ tippen (z. B. smb://192.168.1.10)."
+            ],
+            [
+              "iCloud Drive und andere",
+              "Möglich, nutzt aber Ihren iCloud-Speicher. Um auf dem iPhone Platz zu schaffen, empfiehlt sich eine eigene SSD."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "KuraPhoto merkt sich das Exportziel – beim nächsten Mal schließen Sie einfach dieselbe SSD an."
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "heading": "3. Exportieren",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Exportziel</strong>: Tippen Sie auf „Exportordner wählen“ und wählen Sie einen Ordner, z. B. auf Ihrer SSD.",
+            "<strong>Was exportiert wird</strong>: „Alles noch nicht Exportierte“ (empfohlen), „Zeitraum wählen“ oder „Alben auswählen“. Außerdem „Beide“, „Nur Fotos“ oder „Nur Videos“.",
+            "<strong>Ordnerstruktur</strong>: Jahr / Monat (empfohlen), Jahr / Monat / Tag, mit Ortsnamen oder nach Album.",
+            "<strong>Übersicht</strong>: Anzahl, Größe, freien Speicher am Ziel und zu überspringende Objekte prüfen, dann auf „Export starten“ tippen."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bereits Exportiertes (eine Datei mit gleichem Namen und gleicher Größe liegt am Ziel) wird automatisch übersprungen – beim nächsten Mal werden nur neue Fotos exportiert.",
+            "Live Photos werden als Foto und Video zusammen exportiert. Bearbeitete Fotos werden zunächst im Originalzustand exportiert; die Bearbeitungen bleiben in einer .AAE-Datei erhalten (änderbar in den Einstellungen).",
+            "<strong>Ab iOS 26</strong>: Der Export läuft weiter, wenn Sie zu einer anderen App wechseln oder den Bildschirm ausschalten. Der Fortschritt erscheint u. a. auf dem Sperrbildschirm. Wenn Sie KuraPhoto im App-Umschalter nach oben wischen, wird er beendet.",
+            "<strong>iOS 17 und 18</strong>: Lassen Sie KuraPhoto geöffnet, bis der Export fertig ist.",
+            "Wurde der Export unterbrochen, starten Sie „Exportieren“ erneut – er wird fortgesetzt.",
+            "Am Ende sehen Sie eine Übersicht (neu exportiert, übersprungen, Fehler) und das Ergebnis einer automatischen Prüfung des Ziels."
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Ein Protokoll jedes Exports wird im Ordner „KuraPhoto Protokolle“ am Ziel gespeichert."
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "heading": "4. Prüfen",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Prüft anhand von Name und Größe, ob jedes Foto und Video Ihres iPhone am Exportziel gesichert ist. Es wird nichts geändert."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Sie sehen den Zeitraum, in dem alles gesichert ist (z. B. „August 2025 bis Oktober 2026: alles gesichert“), und das Ergebnis jedes Monats.",
+            "Fehlendes lässt sich mit „N fehlende Objekte exportieren“ sofort exportieren.",
+            "Objekte mit gleichem Namen, aber unbekannter Größe (Originale nur in iCloud) werden als „Nicht bestätigt“ angezeigt.",
+            "Ergebnisse lassen sich als PDF oder CSV sichern (Pro)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeup",
+      "heading": "5. Speicher freigeben (Pro)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Wählen Sie nur Fotos und Videos aus, die „Prüfen“ als gesichert bestätigt hat, und löschen Sie sie vom iPhone."
+        },
+        {
+          "t": "ol",
+          "items": [
+            "Verbinden Sie das Exportziel und tippen Sie auf „Gesicherte Fotos und Videos suchen“.",
+            "Sie sehen eine Aufschlüsselung (Fotos, Videos, Bildschirmfotos) und eine Liste der größten Videos. Wählen Sie nach Monat oder einzeln.",
+            "Prüfen Sie in der Bestätigung Anzahl, freiwerdenden Speicher und Ziel, setzen Sie das Häkchen bei „Ich habe bestätigt, dass die Objekte am Exportziel gesichert sind“ und löschen Sie.",
+            "Zum Schluss fragt iOS nach. Tippen Sie auf „Löschen“."
+          ]
+        },
+        {
+          "t": "point",
+          "title": "So bleiben Ihre Fotos sicher",
+          "items": [
+            "Nur als gesichert bestätigte Objekte sind auswählbar. Nicht gesicherte, nicht bestätigte oder nur in iCloud gespeicherte Objekte nicht.",
+            "Direkt vor dem Löschen prüft KuraPhoto erneut, ob jedes Objekt noch am Ziel liegt. Nicht Gefundenes wird nicht gelöscht.",
+            "Höchstens 1.000 Objekte pro Durchgang. Es gibt kein „Alle löschen“.",
+            "Jede Löschung wird auf dem iPhone (Dateien-App › Auf meinem iPhone › KuraPhoto) und in „KuraPhoto Protokolle“ am Ziel festgehalten."
+          ]
+        },
+        {
+          "t": "warn",
+          "text": "Gelöschtes bleibt 30 Tage unter „Zuletzt gelöscht“ in der Fotos-App und kann in dieser Zeit wiederhergestellt werden. Der Speicher wird frei, wenn Sie es auch dort löschen (oder nach 30 Tagen). Mit iCloud-Fotos wird Gelöschtes auch aus iCloud und von allen Geräten mit derselben Apple-ID entfernt."
+        }
+      ]
+    },
+    {
+      "id": "duplicates",
+      "heading": "6. Duplikate aufräumen",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "„Kopien desselben Fotos“ (empfohlen): findet gleich aussehende Fotos, auch bei anderer Auflösung oder anderem Format (HEIC / JPEG).",
+            "„Auch ähnliche Fotos“: findet zusätzlich sehr ähnliche Fotos, die innerhalb von 10 Minuten aufgenommen wurden (z. B. Serien). Da Fotos dabei sein können, die Sie behalten möchten, sind sie zunächst nicht zum Löschen ausgewählt.",
+            "KuraPhoto wählt das Foto zum Behalten. Tippen Sie auf ein Foto, um das zu ändern.",
+            "Das Finden ist kostenlos. Löschen ist eine Pro-Funktion; Gelöschtes bleibt 30 Tage unter „Zuletzt gelöscht“."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "7. Weitere Funktionen",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Funktion",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Bildschirmfotos und -aufnahmen",
+              "Einbeziehen, in einen eigenen Ordner „Bildschirmfotos“ legen oder weglassen."
+            ],
+            [
+              "Bearbeitete Fotos",
+              "Original (Standard), bearbeitete Version (Name wie IMG_E1234) oder beide exportieren. Bei beiden lassen sich bearbeitete Fotos auch in „Speicher freigeben“ auswählen."
+            ],
+            [
+              "HEIC in JPEG umwandeln (Pro)",
+              "Aufnahmedatum und -ort bleiben erhalten. Umgewandelte Dateien unterscheiden sich vom Original und zählen daher in „Prüfen“ und „Speicher freigeben“ nicht als gesichert."
+            ],
+            [
+              "Widgets",
+              "Zeigen auf Home- oder Sperrbildschirm die Zahl noch nicht exportierter Objekte und die Tage seit dem letzten Export."
+            ],
+            [
+              "Export-Erinnerung",
+              "In den Einstellungen: Erinnerung alle 2 Wochen, jeden Monat oder alle 3 Monate."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icloud",
+      "heading": "8. Wenn Sie iCloud-Fotos nutzen",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Mit „iPhone-Speicher optimieren“ liegen manche Originale nur in iCloud. Sie werden beim Export aus iCloud geladen; das kostet Zeit und Datenvolumen (WLAN empfohlen).",
+            "„Duplikate aufräumen“ vergleicht die kleineren Versionen auf dem iPhone (es wird nichts geladen).",
+            "Gelöschtes wird auch aus iCloud und von allen Geräten mit derselben Apple-ID entfernt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "heading": "9. Kostenlos und Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Kostenlos",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "Exportieren",
+              "Bis zu 100 Objekte pro Tag",
+              "Unbegrenzt"
+            ],
+            [
+              "Prüfen, Speicheraufschlüsselung, Duplikate finden",
+              "Unbegrenzt",
+              "Unbegrenzt"
+            ],
+            [
+              "Speicher freigeben, Duplikate löschen",
+              "—",
+              "✓"
+            ],
+            [
+              "HEIC in JPEG, Ergebnisse sichern (PDF, CSV)",
+              "—",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro ist ein einmaliger Kauf. Kein Abo, Familienfreigabe wird unterstützt.",
+            "Wenn Sie Pro in KuraPhoto für Mac gekauft haben, gilt es mit derselben Apple-ID auch auf dem iPhone. Tippen Sie in den Einstellungen (Zahnrad oben rechts) auf „Käufe wiederherstellen“.",
+            "Das kostenlose Tageskontingent wird um Mitternacht (iPhone-Zeit) zurückgesetzt und getrennt vom Mac gezählt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "heading": "10. Problemlösung",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "Meine SSD erscheint nicht in der Dateien-App",
+              "a": "<p>Prüfen Sie Kabel und Adapter; bei einem iPhone mit Lightning den Adapter mit Strom versorgen. Auf NTFS-Laufwerke kann nicht geschrieben werden. Nach dem Formatieren als exFAT auf einem Mac oder Windows-PC ist das Laufwerk nutzbar (dabei wird es gelöscht – Inhalte vorher verschieben).</p>"
+            },
+            {
+              "q": "Mein NAS lässt sich nicht auswählen",
+              "a": "<p>Verbinden Sie es zuerst in der Dateien-App über „…“ › „Mit Server verbinden“; dann erscheint es bei der Auswahl des Ziels. iPhone und NAS müssen im selben WLAN sein.</p>"
+            },
+            {
+              "q": "Der Export wurde unterbrochen",
+              "a": "<p>Starten Sie „Exportieren“ erneut – nur noch nicht Exportiertes wird exportiert. Wird der Speicher am Ziel knapp, stoppt der Export sicher.</p>"
+            },
+            {
+              "q": "Ich habe gelöscht, aber der Speicher ist nicht frei geworden",
+              "a": "<p>Gelöschtes bleibt 30 Tage unter „Zuletzt gelöscht“ in der Fotos-App. Löschen Sie es auch dort, um den Speicher sofort freizugeben.</p>"
+            },
+            {
+              "q": "„Prüfen“ meldet fehlende Objekte",
+              "a": "<p>Sie wurden vielleicht an einem anderen Ziel gesichert, umbenannt oder als JPEG exportiert. Mit „N fehlende Objekte exportieren“ exportieren Sie sie an das aktuelle Ziel.</p>"
+            },
+            {
+              "q": "Fotos lassen sich nicht laden",
+              "a": "<p>Wählen Sie in der Einstellungen-App unter KuraPhoto › Fotos „Voller Zugriff“.</p>"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Hilft das nicht, nutzen Sie „Per E-Mail kontaktieren“ in den Einstellungen (App-Version u. a. werden automatisch eingefügt).<br> E-Mail: <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> · Support: <a href=\"/kuraphoto/de/\">KuraPhoto Support</a>"
+        }
+      ]
+    }
+  ],
+  "title_fr": "Guide d’utilisation de KuraPhoto (iPhone et iPad)",
+  "head_title_fr": "Guide d’utilisation iPhone et iPad | KuraPhoto | Kurawise",
+  "description_fr": "Utiliser KuraPhoto sur iPhone et iPad : export vers un SSD externe ou un NAS, Vérifier, Libérer de l’espace, Nettoyer les doublons, Photos iCloud et résolution des problèmes.",
+  "sections_fr": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "Exportez les photos et vidéos de votre iPhone vers un SSD externe, une clé USB, un NAS et plus encore, dans des dossiers par date de prise de vue (ex. 2026 › 2026-10). Avant de supprimer quoi que ce soit, vérifiez que tout est enregistré."
+        },
+        {
+          "t": "note",
+          "text": "Vous cherchez l’app Mac ? Consultez le <a href=\"/kuraphoto/fr/mac/\">guide pour Mac</a>. KuraPhoto fonctionne de la même façon sur iPad (lisez « iPad » à la place de « iPhone » sur cette page)."
+        },
+        {
+          "t": "toc",
+          "items": [
+            {
+              "href": "#basics",
+              "text": "Pour commencer"
+            },
+            {
+              "href": "#destination",
+              "text": "Connecter une destination d’export"
+            },
+            {
+              "href": "#export",
+              "text": "Exporter"
+            },
+            {
+              "href": "#verify",
+              "text": "Vérifier"
+            },
+            {
+              "href": "#freeup",
+              "text": "Libérer de l’espace (Pro)"
+            },
+            {
+              "href": "#duplicates",
+              "text": "Nettoyer les doublons"
+            },
+            {
+              "href": "#more",
+              "text": "Autres fonctions"
+            },
+            {
+              "href": "#icloud",
+              "text": "Si vous utilisez Photos iCloud"
+            },
+            {
+              "href": "#pro",
+              "text": "Version gratuite et Pro"
+            },
+            {
+              "href": "#trouble",
+              "text": "Résolution des problèmes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "heading": "1. Pour commencer",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "L’écran d’accueil indique le nombre de photos et vidéos pas encore exportées et la date du dernier export. En dessous, choisissez l’une des quatre tâches."
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "Exporter",
+              "text": "Exportez photos et vidéos dans des dossiers par date. Les éléments déjà exportés sont ignorés."
+            },
+            {
+              "title": "Vérifier",
+              "text": "Vérifiez mois par mois que tout est enregistré dans la destination."
+            },
+            {
+              "title": "Libérer de l’espace",
+              "text": "Supprimez de l’iPhone uniquement les éléments confirmés comme enregistrés (Pro)."
+            },
+            {
+              "title": "Nettoyer les doublons",
+              "text": "Trouvez les copies d’une même photo, même en autre taille ou format."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Autorisez d’abord l’accès à Photos. L’« accès complet » est nécessaire pour lire les originaux. Exporter et Vérifier ne modifient ni ne suppriment jamais vos photos."
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "heading": "2. Connecter une destination d’export",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Vous pouvez exporter partout où l’app Fichiers a accès."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Destination",
+            "Comment la connecter"
+          ],
+          "rows": [
+            [
+              "SSD externe ou clé USB",
+              "Branchez-la directement sur un iPhone USB-C. Pour un iPhone Lightning, utilisez un adaptateur comme l’adaptateur Lightning vers USB 3 pour appareil photo, alimenté. Elle apparaît dans « Emplacements » de l’app Fichiers. exFAT ou APFS est recommandé (impossible d’écrire sur un disque NTFS)."
+            ],
+            [
+              "NAS ou ordinateur (réseau)",
+              "Connectez-vous d’abord dans l’app Fichiers : touchez « … » en haut à droite, puis « Se connecter au serveur » (ex. smb://192.168.1.10)."
+            ],
+            [
+              "iCloud Drive et autres",
+              "Possible, mais cela utilise votre stockage iCloud. Pour libérer de l’espace sur l’iPhone, un SSD personnel est recommandé."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "KuraPhoto mémorise la destination : la fois suivante, il suffit de brancher le même SSD."
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "heading": "3. Exporter",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>Destination</strong> : touchez « Choisir le dossier d’export » et choisissez un dossier, par exemple sur votre SSD.",
+            "<strong>Que exporter</strong> : « Tout ce qui n’a pas encore été exporté » (recommandé), « Choisir une période » ou « Choisir des albums ». Vous pouvez aussi choisir « Les deux », « Photos uniquement » ou « Vidéos uniquement ».",
+            "<strong>Organisation des dossiers</strong> : Année / Mois (recommandé), Année / Mois / Jour, avec noms de lieux ou par album.",
+            "<strong>Récapitulatif</strong> : vérifiez le nombre, la taille, l’espace libre dans la destination et les éléments ignorés, puis touchez « Démarrer l’export »."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Les éléments déjà exportés (un fichier de même nom et de même taille existe dans la destination) sont ignorés automatiquement : la fois suivante, seules les nouvelles photos sont exportées.",
+            "Les Live Photos sont exportées avec la photo et la vidéo ensemble. Les photos retouchées sont exportées telles que prises, les retouches étant conservées dans un fichier .AAE (modifiable dans les réglages).",
+            "<strong>iOS 26 et ultérieur</strong> : l’export continue si vous passez à une autre app ou éteignez l’écran. La progression s’affiche notamment sur l’écran verrouillé. Balayer KuraPhoto vers le haut dans le sélecteur d’apps l’arrête.",
+            "<strong>iOS 17 et 18</strong> : gardez KuraPhoto ouvert jusqu’à la fin de l’export.",
+            "S’il s’arrête, relancez « Exporter » pour reprendre là où il s’était arrêté.",
+            "À la fin, vous voyez un récapitulatif (nouveaux, ignorés, erreurs) et le résultat d’une vérification automatique de la destination."
+          ]
+        },
+        {
+          "t": "note",
+          "text": "Un journal de chaque export est enregistré dans le dossier « Journaux KuraPhoto » de la destination."
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "heading": "4. Vérifier",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Vérifie, par nom et taille, que chaque photo et vidéo de votre iPhone est enregistrée dans la destination. Rien n’est modifié."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Vous voyez la période où tout est enregistré (ex. « D’août 2025 à octobre 2026 : tout est enregistré ») et le résultat de chaque mois.",
+            "Ce qui manque peut être exporté immédiatement avec « Exporter N éléments introuvables ».",
+            "Les éléments de même nom mais de taille inconnue (originaux uniquement dans iCloud) sont indiqués « Non vérifié ».",
+            "Les résultats peuvent être enregistrés en PDF ou CSV (Pro)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeup",
+      "heading": "5. Libérer de l’espace (Pro)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Choisissez uniquement les photos et vidéos que Vérifier a confirmées comme enregistrées, et supprimez-les de l’iPhone."
+        },
+        {
+          "t": "ol",
+          "items": [
+            "Connectez la destination et touchez « Rechercher les photos et vidéos enregistrées ».",
+            "Vous voyez la répartition de l’espace (photos, vidéos, captures d’écran) et la liste des plus grosses vidéos. Sélectionnez par mois ou une par une.",
+            "Dans la confirmation, vérifiez le nombre, l’espace libéré et la destination, cochez « J’ai confirmé que les éléments sont enregistrés dans la destination », puis supprimez.",
+            "Enfin, iOS demande confirmation. Touchez « Supprimer »."
+          ]
+        },
+        {
+          "t": "point",
+          "title": "Comment vos photos restent protégées",
+          "items": [
+            "Seuls les éléments confirmés comme enregistrés peuvent être sélectionnés. Pas ceux non enregistrés, non vérifiés ou présents uniquement dans iCloud.",
+            "Juste avant la suppression, KuraPhoto vérifie à nouveau que chaque élément est toujours dans la destination. Ce qui est introuvable n’est pas supprimé.",
+            "1 000 éléments au maximum par opération. Il n’y a pas de « Tout supprimer ».",
+            "Chaque suppression est consignée sur l’iPhone (app Fichiers › Sur mon iPhone › KuraPhoto) et dans « Journaux KuraPhoto » de la destination."
+          ]
+        },
+        {
+          "t": "warn",
+          "text": "Les éléments supprimés restent 30 jours dans « Supprimés récemment » de l’app Photos et peuvent être récupérés pendant ce temps. L’espace est libéré lorsqu’ils y sont aussi supprimés (ou après 30 jours). Avec Photos iCloud, les éléments supprimés disparaissent aussi d’iCloud et de tous les appareils utilisant le même compte Apple."
+        }
+      ]
+    },
+    {
+      "id": "duplicates",
+      "heading": "6. Nettoyer les doublons",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "« Copies de la même photo » (recommandé) : trouve les photos identiques à l’œil, même si la résolution ou le format (HEIC / JPEG) diffère.",
+            "« Inclure les photos similaires » : trouve aussi les photos très proches prises à moins de 10 minutes d’intervalle, comme les rafales. Comme elles peuvent inclure des photos à garder, elles ne sont pas sélectionnées pour suppression au départ.",
+            "KuraPhoto choisit la photo à garder. Touchez une photo pour changer.",
+            "La recherche est gratuite. La suppression est une fonction Pro ; les éléments supprimés restent 30 jours dans « Supprimés récemment »."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "7. Autres fonctions",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Fonction",
+            "Détails"
+          ],
+          "rows": [
+            [
+              "Captures et enregistrements d’écran",
+              "Les inclure, les placer dans un dossier « Captures d’écran » à part, ou les exclure."
+            ],
+            [
+              "Photos retouchées",
+              "Exporter l’original (par défaut), la version retouchée (nom du type IMG_E1234) ou les deux. Avec les deux, les photos retouchées peuvent aussi être sélectionnées dans Libérer de l’espace."
+            ],
+            [
+              "Convertir HEIC en JPEG (Pro)",
+              "La date et le lieu de prise de vue sont conservés. Les fichiers convertis diffèrent des originaux : Vérifier et Libérer de l’espace ne les comptent donc pas comme enregistrés."
+            ],
+            [
+              "Widgets",
+              "Affichent sur l’écran d’accueil ou verrouillé le nombre d’éléments non exportés et le nombre de jours depuis le dernier export."
+            ],
+            [
+              "Rappels d’export",
+              "Dans les réglages : un rappel toutes les 2 semaines, tous les mois ou tous les 3 mois."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icloud",
+      "heading": "8. Si vous utilisez Photos iCloud",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Avec « Optimiser le stockage de l’iPhone », certains originaux ne sont que dans iCloud. Ils sont téléchargés pendant l’export, ce qui prend du temps et des données (Wi-Fi recommandé).",
+            "Nettoyer les doublons compare les versions réduites présentes sur l’iPhone (rien n’est téléchargé).",
+            "Les éléments supprimés disparaissent aussi d’iCloud et de tous les appareils utilisant le même compte Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "heading": "9. Version gratuite et Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "Gratuit",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "Exporter",
+              "Jusqu’à 100 éléments par jour",
+              "Illimité"
+            ],
+            [
+              "Vérifier, répartition de l’espace, recherche de doublons",
+              "Illimité",
+              "Illimité"
+            ],
+            [
+              "Libérer de l’espace, suppression des doublons",
+              "—",
+              "✓"
+            ],
+            [
+              "HEIC en JPEG, enregistrement des résultats (PDF, CSV)",
+              "—",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro est un achat unique. Sans abonnement, compatible avec le Partage familial.",
+            "Si vous avez acheté Pro dans KuraPhoto pour Mac, il fonctionne aussi sur l’iPhone avec le même compte Apple. Touchez « Restaurer les achats » dans les réglages (roue dentée en haut à droite).",
+            "Le quota gratuit quotidien se réinitialise à minuit (heure de l’iPhone) et est compté séparément du Mac."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "heading": "10. Résolution des problèmes",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "Mon SSD n’apparaît pas dans l’app Fichiers",
+              "a": "<p>Vérifiez le câble et l’adaptateur ; avec un iPhone Lightning, alimentez l’adaptateur. Impossible d’écrire sur un disque NTFS. Formaté en exFAT sur un Mac ou un PC Windows, il devient utilisable (cela l’efface : déplacez d’abord son contenu).</p>"
+            },
+            {
+              "q": "Je ne peux pas choisir mon NAS",
+              "a": "<p>Connectez-le d’abord via « … » › « Se connecter au serveur » dans l’app Fichiers ; il apparaît alors lors du choix de la destination. L’iPhone et le NAS doivent être sur le même réseau Wi-Fi.</p>"
+            },
+            {
+              "q": "L’export s’est arrêté",
+              "a": "<p>Relancez « Exporter » : seuls les éléments pas encore exportés le seront. Si l’espace manque dans la destination, l’export s’arrête en toute sécurité.</p>"
+            },
+            {
+              "q": "J’ai supprimé des éléments, mais l’espace libre n’a pas augmenté",
+              "a": "<p>Les éléments supprimés restent 30 jours dans « Supprimés récemment » de l’app Photos. Pour libérer l’espace tout de suite, supprimez-les aussi là.</p>"
+            },
+            {
+              "q": "Vérifier indique des éléments introuvables",
+              "a": "<p>Ils ont peut-être été enregistrés ailleurs, renommés ou exportés en JPEG. Utilisez « Exporter N éléments introuvables » pour les exporter vers la destination actuelle.</p>"
+            },
+            {
+              "q": "Les photos ne se chargent pas",
+              "a": "<p>Dans l’app Réglages, allez dans KuraPhoto › Photos et choisissez « Accès complet ».</p>"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Si le problème persiste, utilisez « Contacter par e-mail » dans les réglages (la version de l’app et d’autres informations sont ajoutées automatiquement).<br> E-mail : <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> · Assistance : <a href=\"/kuraphoto/fr/\">Assistance KuraPhoto</a>"
+        }
+      ]
+    }
+  ],
+  "title_ko": "KuraPhoto 사용 설명서(iPhone·iPad)",
+  "head_title_ko": "iPhone·iPad 사용 설명서 | KuraPhoto | Kurawise",
+  "description_ko": "iPhone·iPad용 KuraPhoto 사용법. 외장 SSD·NAS로 내보내기, 확인하기, 공간 확보, 중복 정리, iCloud 사진 주의 사항, 문제 해결.",
+  "sections_ko": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "iPhone의 사진과 동영상을 외장 SSD·USB 메모리·NAS 등으로 촬영일별 폴더(예: 2026 › 2026-10)에 내보냅니다. 지우기 전에 모두 저장됐는지 확인할 수 있습니다."
+        },
+        {
+          "t": "note",
+          "text": "Mac 앱 사용법은 <a href=\"/kuraphoto/ko/mac/\">여기</a>를 보세요. iPad에서도 똑같이 사용할 수 있습니다(이 페이지의 ‘iPhone’을 ‘iPad’로 바꿔 읽어 주세요)."
+        },
+        {
+          "t": "toc",
+          "items": [
+            {
+              "href": "#basics",
+              "text": "시작하기"
+            },
+            {
+              "href": "#destination",
+              "text": "내보낼 위치 연결하기"
+            },
+            {
+              "href": "#export",
+              "text": "내보내기"
+            },
+            {
+              "href": "#verify",
+              "text": "확인하기"
+            },
+            {
+              "href": "#freeup",
+              "text": "공간 확보(Pro)"
+            },
+            {
+              "href": "#duplicates",
+              "text": "중복 정리"
+            },
+            {
+              "href": "#more",
+              "text": "그 밖의 기능"
+            },
+            {
+              "href": "#icloud",
+              "text": "iCloud 사진을 사용하는 분께"
+            },
+            {
+              "href": "#pro",
+              "text": "무료 버전과 Pro"
+            },
+            {
+              "href": "#trouble",
+              "text": "문제 해결"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "heading": "1. 시작하기",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "홈 화면에 아직 내보내지 않은 사진·동영상 수와 마지막으로 내보낸 시기가 표시됩니다. 그 아래 4가지 중에서 하고 싶은 일을 고릅니다."
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "내보내기",
+              "text": "사진과 동영상을 촬영일별 폴더로 내보냅니다. 이미 내보낸 항목은 자동으로 건너뜁니다."
+            },
+            {
+              "title": "확인하기",
+              "text": "내보낼 위치에 모두 저장됐는지 월별로 확인합니다."
+            },
+            {
+              "title": "공간 확보",
+              "text": "저장된 것으로 확인된 항목만 골라 iPhone에서 삭제합니다(Pro)."
+            },
+            {
+              "title": "중복 정리",
+              "text": "같은 사진의 사본(크기·형식이 달라도)을 찾습니다."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "먼저 사진 접근을 허용해 주세요. 원본을 읽으려면 ‘전체 접근’이 필요합니다. 내보내기와 확인하기는 사진을 변경하거나 삭제하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "heading": "2. 내보낼 위치 연결하기",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "‘파일’ 앱에서 보이는 곳이면 어디든 내보낼 수 있습니다."
+        },
+        {
+          "t": "table",
+          "head": [
+            "내보낼 위치",
+            "연결 방법·주의 사항"
+          ],
+          "rows": [
+            [
+              "외장 SSD·USB 메모리",
+              "USB-C iPhone은 바로 연결합니다. Lightning iPhone은 ‘Lightning-USB 3 카메라 어댑터’ 등을 사용하고 전원도 연결하세요. ‘파일’ 앱의 ‘위치’에 나타납니다. exFAT·APFS 형식을 권장합니다(NTFS에는 쓸 수 없습니다)."
+            ],
+            [
+              "NAS·컴퓨터(네트워크)",
+              "먼저 ‘파일’ 앱 오른쪽 위의 ‘…’에서 ‘서버에 연결’로 NAS나 컴퓨터의 공유 폴더에 연결해 둡니다(예: smb://192.168.1.10)."
+            ],
+            [
+              "iCloud Drive 등",
+              "선택할 수 있지만 iCloud 용량을 사용합니다. iPhone 공간을 확보하려면 내 SSD 등을 권장합니다."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "내보낼 위치를 기억하므로 다음부터는 같은 SSD를 연결하기만 하면 됩니다."
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "heading": "3. 내보내기",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>내보낼 위치</strong>: ‘내보낼 폴더 선택’에서 SSD 등의 폴더를 고릅니다.",
+            "<strong>무엇을 내보낼지</strong>: ‘아직 내보내지 않은 항목 모두’(권장), ‘기간 선택’, ‘앨범 선택’ 중에서 고릅니다. ‘둘 다｜사진만｜동영상만’도 고를 수 있습니다.",
+            "<strong>폴더 나누기</strong>: 연 / 월(권장), 연 / 월 / 일, 촬영 장소의 지명 포함, 앨범별 중에서 고릅니다.",
+            "<strong>검토</strong>: 개수·크기·내보낼 위치의 여유 공간·건너뛸 개수를 확인하고 ‘내보내기 시작’을 누릅니다."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "이미 내보낸 항목(내보낼 위치에 이름과 크기가 같은 파일이 있는 것)은 자동으로 건너뜁니다. 다음부터는 새 사진만 내보냅니다.",
+            "Live Photos는 사진과 동영상을 함께 내보냅니다. 편집한 사진은 처음에는 촬영한 그대로 내보내고, 편집 내용은 .AAE 파일로 남깁니다(설정에서 바꿀 수 있습니다).",
+            "<strong>iOS 26 이상</strong>: 내보내는 중에 다른 앱으로 전환하거나 화면을 꺼도 계속됩니다. 진행 상황은 잠금 화면 등에 표시됩니다. 앱 전환기에서 KuraPhoto를 위로 쓸어 닫으면 멈춥니다.",
+            "<strong>iOS 17·18</strong>: 내보내기가 끝날 때까지 KuraPhoto 화면을 열어 두세요.",
+            "도중에 멈춰도 ‘내보내기’를 다시 시작하면 이어서 내보냅니다.",
+            "끝나면 내역(새로 내보냄·건너뜀·오류)과 내보낼 위치를 자동으로 확인한 결과가 표시됩니다."
+          ]
+        },
+        {
+          "t": "note",
+          "text": "내보내기 기록(로그)은 내보낼 위치의 ‘KuraPhoto 로그’ 폴더에 남습니다."
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "heading": "4. 확인하기",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "iPhone의 사진·동영상이 내보낼 위치에 모두 저장됐는지 이름과 크기로 확인합니다. 아무것도 변경하지 않습니다."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "‘2025년 8월~2026년 10월은 모두 저장됨’처럼 모두 저장된 기간과 월별 결과가 표시됩니다.",
+            "없는 항목은 ‘없는 N개 내보내기’로 바로 내보낼 수 있습니다.",
+            "이름은 같지만 크기를 알 수 없는 항목(원본이 iCloud에만 있는 것)은 ‘미확인’으로 표시됩니다.",
+            "결과는 PDF·CSV로 저장할 수 있습니다(Pro)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeup",
+      "heading": "5. 공간 확보(Pro)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "‘확인하기’에서 저장된 것으로 확인된 사진·동영상만 골라 iPhone에서 삭제합니다."
+        },
+        {
+          "t": "ol",
+          "items": [
+            "내보낼 위치를 연결하고 ‘저장된 사진·동영상 확인’을 누릅니다.",
+            "용량 내역(사진·동영상·스크린샷)과 큰 동영상 목록이 표시됩니다. 월별로 또는 1장씩 고릅니다.",
+            "확인 화면에서 개수·확보할 공간·내보낼 위치를 확인하고, ‘내보낼 위치에 저장되어 있음을 확인했습니다’에 체크한 뒤 삭제합니다.",
+            "마지막으로 iOS의 삭제 확인이 표시됩니다. ‘삭제’를 누르면 삭제됩니다."
+          ]
+        },
+        {
+          "t": "point",
+          "title": "안전장치",
+          "items": [
+            "저장된 것으로 확인된 항목만 선택할 수 있습니다. 저장되지 않은 항목, 확인할 수 없었던 항목, iCloud에만 있는 항목은 선택할 수 없습니다.",
+            "삭제 직전에 각 항목이 내보낼 위치에 아직 있는지 다시 확인합니다. 찾을 수 없는 항목은 삭제하지 않습니다.",
+            "한 번에 최대 1,000개까지 삭제할 수 있습니다. ‘모두 삭제’는 없습니다.",
+            "삭제 기록을 iPhone(‘파일’ 앱 › 나의 iPhone › KuraPhoto)과 내보낼 위치의 ‘KuraPhoto 로그’에 남깁니다."
+          ]
+        },
+        {
+          "t": "warn",
+          "text": "삭제한 항목은 사진 앱의 ‘최근 삭제된 항목’에 30일간 남아 있으며 그동안 복구할 수 있습니다. iPhone 공간은 거기서도 삭제했을 때(또는 30일이 지났을 때) 늘어납니다. iCloud 사진을 사용하면 같은 Apple 계정의 모든 기기와 iCloud에서도 삭제됩니다."
+        }
+      ]
+    },
+    {
+      "id": "duplicates",
+      "heading": "6. 중복 정리",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "‘같은 사진의 사본’(권장): 해상도나 형식(HEIC／JPEG)이 달라도 보기에 같은 사진을 찾습니다.",
+            "‘비슷한 사진도’: 연사처럼 10분 이내에 찍은 아주 비슷한 사진도 찾습니다. 남기고 싶은 사진이 포함될 수 있어 처음에는 삭제 대상으로 고르지 않습니다.",
+            "남길 1장을 자동으로 고릅니다. 사진을 누르면 바꿀 수 있습니다.",
+            "찾기는 무료입니다. 삭제는 Pro 기능이며, 삭제한 항목은 ‘최근 삭제된 항목’에 30일간 남습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "7. 그 밖의 기능",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "기능",
+            "내용"
+          ],
+          "rows": [
+            [
+              "스크린샷·화면 기록",
+              "포함하기 / ‘스크린샷’ 폴더로 따로 나누기 / 제외하기 중에서 고릅니다."
+            ],
+            [
+              "편집한 사진",
+              "편집 전(기본), 편집 후(IMG_E1234 형식의 이름), 둘 다 중에서 고릅니다. 둘 다 내보내면 ‘공간 확보’에서 편집한 사진도 선택할 수 있습니다."
+            ],
+            [
+              "HEIC를 JPEG로 변환(Pro)",
+              "촬영일·촬영 장소는 유지합니다. 변환한 파일은 원본과 다르므로 ‘확인하기’와 ‘공간 확보’에서는 저장된 것으로 세지 않습니다."
+            ],
+            [
+              "위젯",
+              "홈 화면·잠금 화면에 아직 내보내지 않은 개수와 마지막 내보내기 이후 일수를 표시합니다."
+            ],
+            [
+              "내보내기 알림",
+              "설정에서 2주·1개월·3개월마다 내보낼 때를 알려 드립니다."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icloud",
+      "heading": "8. iCloud 사진을 사용하는 분께",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "‘iPhone 저장 공간 최적화’가 켜져 있으면 원본이 iCloud에만 있는 사진이 있습니다. 내보낼 때 iCloud에서 다운로드하므로 시간과 데이터가 듭니다(Wi-Fi 권장).",
+            "‘중복 정리’는 iPhone에 있는 축소판으로 비교합니다(다운로드하지 않습니다).",
+            "삭제하면 같은 Apple 계정의 모든 기기와 iCloud에서도 삭제됩니다."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "heading": "9. 무료 버전과 Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "무료 버전",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "내보내기",
+              "하루 100개까지",
+              "무제한"
+            ],
+            [
+              "확인하기·용량 내역·중복 찾기",
+              "제한 없음",
+              "제한 없음"
+            ],
+            [
+              "공간 확보·중복 삭제",
+              "—",
+              "○"
+            ],
+            [
+              "HEIC를 JPEG로 변환·결과 저장(PDF·CSV)",
+              "—",
+              "○"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro는 단품 구매입니다. 월 요금이 없으며 가족 공유를 지원합니다.",
+            "Mac용 KuraPhoto에서 Pro를 구입했다면 같은 Apple 계정으로 iPhone에서도 Pro입니다. 설정(오른쪽 위 톱니바퀴)의 ‘구입 내역 복원’을 누르세요.",
+            "무료 버전의 하루 개수는 iPhone 날짜 기준 0시에 초기화됩니다(Mac과 따로 셉니다)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "heading": "10. 문제 해결",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "SSD를 연결해도 ‘파일’ 앱에 나타나지 않습니다",
+              "a": "<p>케이블과 어댑터를 확인하고, Lightning iPhone은 어댑터에 전원을 연결하세요. NTFS 형식 디스크에는 쓸 수 없습니다. Mac이나 Windows에서 exFAT로 초기화하면 사용할 수 있습니다(내용이 지워지므로 먼저 옮겨 두세요).</p>"
+            },
+            {
+              "q": "NAS를 선택할 수 없습니다",
+              "a": "<p>먼저 ‘파일’ 앱의 ‘…’ › ‘서버에 연결’로 연결해 두면 내보낼 위치를 고르는 화면에 나타납니다. iPhone과 NAS가 같은 Wi-Fi에 있는지 확인하세요.</p>"
+            },
+            {
+              "q": "내보내기가 도중에 멈췄습니다",
+              "a": "<p>‘내보내기’를 다시 시작하면 아직 내보내지 않은 항목만 이어서 내보냅니다. 내보낼 위치의 공간이 부족하면 안전하게 멈춥니다.</p>"
+            },
+            {
+              "q": "삭제했는데 공간이 늘지 않습니다",
+              "a": "<p>삭제한 항목은 사진 앱의 ‘최근 삭제된 항목’에 30일간 남습니다. 바로 공간을 확보하려면 거기서도 삭제하세요.</p>"
+            },
+            {
+              "q": "‘확인하기’에서 없는 항목이 있습니다",
+              "a": "<p>다른 위치에 저장했거나, 이름을 바꿨거나, JPEG로 변환해 내보냈을 수 있습니다. ‘없는 N개 내보내기’로 지금의 내보낼 위치에 내보낼 수 있습니다.</p>"
+            },
+            {
+              "q": "사진을 불러올 수 없습니다",
+              "a": "<p>‘설정’ 앱 › KuraPhoto › ‘사진’을 ‘전체 접근’으로 설정하세요.</p>"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "해결되지 않으면 설정의 ‘이메일로 문의’로 연락해 주세요(앱 버전 등이 자동으로 들어갑니다).<br> 이메일: <a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> · 지원: <a href=\"/kuraphoto/ko/\">KuraPhoto 지원</a>"
+        }
+      ]
+    }
+  ],
+  "title_zh-hans": "KuraPhoto 使用指南（iPhone 和 iPad）",
+  "head_title_zh-hans": "iPhone 和 iPad 使用指南 | KuraPhoto | Kurawise",
+  "description_zh-hans": "iPhone 和 iPad 版 KuraPhoto 使用方法：导出到外置 SSD 或 NAS、检查、释放空间、清理重复项、iCloud 照片注意事项及疑难解答。",
+  "sections_zh-hans": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "将 iPhone 中的照片和视频导出到外置 SSD、U 盘、NAS 等，按拍摄日期分到文件夹中（例：2026 › 2026-10）。删除之前，可以确认是否全部保存。"
+        },
+        {
+          "t": "note",
+          "text": "Mac App 的用法请看<a href=\"/kuraphoto/zh-hans/mac/\">这里</a>。iPad 上的用法相同（请将本页中的“iPhone”理解为“iPad”）。"
+        },
+        {
+          "t": "toc",
+          "items": [
+            {
+              "href": "#basics",
+              "text": "开始使用"
+            },
+            {
+              "href": "#destination",
+              "text": "连接导出位置"
+            },
+            {
+              "href": "#export",
+              "text": "导出"
+            },
+            {
+              "href": "#verify",
+              "text": "检查"
+            },
+            {
+              "href": "#freeup",
+              "text": "释放空间（Pro）"
+            },
+            {
+              "href": "#duplicates",
+              "text": "清理重复项"
+            },
+            {
+              "href": "#more",
+              "text": "其他功能"
+            },
+            {
+              "href": "#icloud",
+              "text": "使用 iCloud 照片的用户请注意"
+            },
+            {
+              "href": "#pro",
+              "text": "免费版与 Pro"
+            },
+            {
+              "href": "#trouble",
+              "text": "疑难解答"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "heading": "1. 开始使用",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "主屏幕会显示尚未导出的照片和视频数量，以及上次导出的时间。在下方的 4 项中选择要做的事。"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "导出",
+              "text": "按拍摄日期将照片和视频导出到文件夹。已导出的项目会自动跳过。"
+            },
+            {
+              "title": "检查",
+              "text": "按月检查导出位置是否已全部保存。"
+            },
+            {
+              "title": "释放空间",
+              "text": "只选择已确认保存的项目，从 iPhone 删除（Pro）。"
+            },
+            {
+              "title": "清理重复项",
+              "text": "找出同一照片的副本（即使大小或格式不同）。"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "首先请允许访问照片。读取原片需要“完全访问”。导出和检查绝不会修改或删除您的照片。"
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "heading": "2. 连接导出位置",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "只要“文件”App 能访问的位置，都可以导出。"
+        },
+        {
+          "t": "table",
+          "head": [
+            "导出位置",
+            "连接方法与注意事项"
+          ],
+          "rows": [
+            [
+              "外置 SSD、U 盘",
+              "USB-C 接口的 iPhone 可直接连接。Lightning 接口的 iPhone 请使用“Lightning/USB 3 相机转换器”等，并接上电源。它会出现在“文件”App 的“位置”中。建议使用 exFAT 或 APFS 格式（无法写入 NTFS）。"
+            ],
+            [
+              "NAS、电脑（网络）",
+              "请先在“文件”App 右上角的“…”中选择“连接服务器”，连接到 NAS 或电脑的共享文件夹（例：smb://192.168.1.10）。"
+            ],
+            [
+              "iCloud 云盘等",
+              "可以选择，但会占用 iCloud 空间。若要释放 iPhone 空间，建议使用自己的 SSD 等。"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "App 会记住导出位置，下次只需连接同一个 SSD。"
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "heading": "3. 导出",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>导出位置</strong>：点按“选择导出文件夹”，选择 SSD 等中的文件夹。",
+            "<strong>导出什么</strong>：从“所有尚未导出的项目”（推荐）、“选择期间”、“选择相簿”中选择。也可以选择“两者｜仅照片｜仅视频”。",
+            "<strong>文件夹划分</strong>：年 / 月（推荐）、年 / 月 / 日、加拍摄地点、按相簿。",
+            "<strong>确认</strong>：确认数量、大小、导出位置的可用空间和将跳过的数量，然后点按“开始导出”。"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "已导出的项目（导出位置有名称和大小都相同的文件）会自动跳过，下次只导出新照片。",
+            "实况照片会将照片和视频一起导出。编辑过的照片默认导出拍摄时的原片，编辑内容保存在 .AAE 文件中（可在设置中更改）。",
+            "<strong>iOS 26 及更高版本</strong>：导出时切换到其他 App 或关闭屏幕，导出仍会继续。进度会显示在锁定屏幕等位置。在 App 切换器中将 KuraPhoto 向上轻扫关闭会停止导出。",
+            "<strong>iOS 17 和 18</strong>：在导出完成前，请保持 KuraPhoto 画面打开。",
+            "中途停止时，再次开始“导出”即可继续。",
+            "完成后，会显示明细（新导出、跳过、错误）以及自动检查导出位置的结果。"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "导出记录（日志）保存在导出位置的“KuraPhoto 日志”文件夹中。"
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "heading": "4. 检查",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "按名称和大小检查 iPhone 中的照片和视频是否已全部保存到导出位置。不会更改任何内容。"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "会显示全部已保存的期间（例：“2025 年 8 月至 2026 年 10 月已全部保存”）和每月的结果。",
+            "缺少的项目可通过“导出未找到的 N 项”直接导出。",
+            "名称相同但大小未知的项目（原片仅存于 iCloud）会显示为“未确认”。",
+            "结果可以保存为 PDF 或 CSV（Pro）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeup",
+      "heading": "5. 释放空间（Pro）",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "只选择“检查”确认已保存的照片和视频，从 iPhone 删除。"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "连接导出位置，点按“查找已保存的照片和视频”。",
+            "会显示空间明细（照片、视频、截屏）和最大视频列表。可按月或逐张选择。",
+            "在确认画面中确认数量、可释放的空间和导出位置，勾选“我已确认这些项目已保存到导出位置”后删除。",
+            "最后会显示 iOS 的删除确认。点按“删除”即可删除。"
+          ]
+        },
+        {
+          "t": "point",
+          "title": "安全机制",
+          "items": [
+            "只能选择已确认保存的项目。未保存、未能确认或仅存于 iCloud 的项目无法选择。",
+            "删除前一刻，会再次确认每个项目仍在导出位置。找不到的项目不会被删除。",
+            "每次最多删除 1,000 项。没有“全部删除”。",
+            "删除记录会保存在 iPhone（“文件”App › 我的 iPhone › KuraPhoto）和导出位置的“KuraPhoto 日志”中。"
+          ]
+        },
+        {
+          "t": "warn",
+          "text": "删除的项目会在“照片”App 的“最近删除”中保留 30 天，在此期间可以恢复。从那里也删除后（或 30 天后），iPhone 的空间才会增加。如果使用 iCloud 照片，删除后同一 Apple 账户的所有设备和 iCloud 中的项目也会被删除。"
+        }
+      ]
+    },
+    {
+      "id": "duplicates",
+      "heading": "6. 清理重复项",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "“同一照片的副本”（推荐）：即使分辨率或格式（HEIC / JPEG）不同，也会找出看起来相同的照片。",
+            "“也包括相似照片”：还会找出连拍等 10 分钟内拍摄的非常相似的照片。由于其中可能有想保留的照片，最初不会被选为删除对象。",
+            "App 会自动选出要保留的一张。点按照片即可更改。",
+            "查找免费。删除是 Pro 功能，删除的项目会在“最近删除”中保留 30 天。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "7. 其他功能",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "功能",
+            "说明"
+          ],
+          "rows": [
+            [
+              "截屏和录屏",
+              "可选择包含、单独放入“截屏”文件夹或排除。"
+            ],
+            [
+              "编辑过的照片",
+              "可选择编辑前（默认）、编辑后（名称如 IMG_E1234）或两者。导出两者后，“释放空间”中也可以选择编辑过的照片。"
+            ],
+            [
+              "将 HEIC 转换为 JPEG（Pro）",
+              "保留拍摄日期和地点。转换后的文件与原片不同，因此“检查”和“释放空间”不会将其算作已保存。"
+            ],
+            [
+              "小组件",
+              "在主屏幕和锁定屏幕上显示尚未导出的数量和距上次导出的天数。"
+            ],
+            [
+              "导出提醒",
+              "可在设置中选择每 2 周、每月或每 3 个月提醒导出。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icloud",
+      "heading": "8. 使用 iCloud 照片的用户请注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "开启“优化 iPhone 储存空间”时，部分原片仅存于 iCloud。导出时会从 iCloud 下载，需要时间和流量（建议使用 Wi-Fi）。",
+            "“清理重复项”使用 iPhone 中的缩小版进行比较（不会下载）。",
+            "删除后，同一 Apple 账户的所有设备和 iCloud 中的项目也会被删除。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "heading": "9. 免费版与 Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "免费版",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "导出",
+              "每天最多 100 项",
+              "无限制"
+            ],
+            [
+              "检查、空间明细、查找重复项",
+              "无限制",
+              "无限制"
+            ],
+            [
+              "释放空间、删除重复项",
+              "—",
+              "○"
+            ],
+            [
+              "HEIC 转 JPEG、保存结果（PDF、CSV）",
+              "—",
+              "○"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro 为一次买断。无月费，支持家人共享。",
+            "如果已在 Mac 版 KuraPhoto 中购买 Pro，使用同一 Apple 账户在 iPhone 上也是 Pro。请在设置（右上角齿轮）中点按“恢复购买”。",
+            "免费版的每日数量按 iPhone 的日期在 0 点重置（与 Mac 分开计算）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "heading": "10. 疑难解答",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "连接 SSD 后“文件”App 中没有显示",
+              "a": "<p>请检查数据线和转换器；Lightning 接口的 iPhone 请给转换器接上电源。无法写入 NTFS 格式的磁盘。在 Mac 或 Windows 上将其格式化为 exFAT 后即可使用（内容会被清除，请先转移）。</p>"
+            },
+            {
+              "q": "无法选择 NAS",
+              "a": "<p>请先在“文件”App 的“…” › “连接服务器”中连接，之后选择导出位置时就会出现。请确认 iPhone 和 NAS 在同一 Wi-Fi 网络中。</p>"
+            },
+            {
+              "q": "导出中途停止了",
+              "a": "<p>再次开始“导出”，只会继续导出尚未导出的项目。导出位置空间不足时会安全停止。</p>"
+            },
+            {
+              "q": "删除后空间没有增加",
+              "a": "<p>删除的项目会在“照片”App 的“最近删除”中保留 30 天。若要立即释放空间，请从那里也删除。</p>"
+            },
+            {
+              "q": "“检查”显示有缺少的项目",
+              "a": "<p>可能保存到了其他位置、改了名称，或以 JPEG 格式导出。可以通过“导出未找到的 N 项”导出到当前的导出位置。</p>"
+            },
+            {
+              "q": "无法读取照片",
+              "a": "<p>请在“设置”App › KuraPhoto › “照片”中选择“完全访问”。</p>"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "仍无法解决时，请通过设置中的“通过电子邮件咨询”联系我们（App 版本等信息会自动填入）。<br> 电子邮件：<a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> · 支持：<a href=\"/kuraphoto/zh-hans/\">KuraPhoto 支持</a>"
+        }
+      ]
+    }
+  ],
+  "title_zh-hant": "KuraPhoto 使用指南（iPhone 和 iPad）",
+  "head_title_zh-hant": "iPhone 和 iPad 使用指南 | KuraPhoto | Kurawise",
+  "description_zh-hant": "iPhone 和 iPad 版 KuraPhoto 使用方法：匯出到外接 SSD 或 NAS、檢查、釋放空間、清理重複項目、iCloud 照片注意事項及疑難排解。",
+  "sections_zh-hant": [
+    {
+      "blocks": [
+        {
+          "t": "intro",
+          "text": "將 iPhone 中的照片和影片匯出到外接 SSD、USB 隨身碟、NAS 等，按拍攝日期分到資料夾中（例：2026 › 2026-10）。刪除之前，可以確認是否全部儲存。"
+        },
+        {
+          "t": "note",
+          "text": "Mac App 的用法請看<a href=\"/kuraphoto/zh-hant/mac/\">這裡</a>。iPad 上的用法相同（請將本頁中的「iPhone」理解為「iPad」）。"
+        },
+        {
+          "t": "toc",
+          "items": [
+            {
+              "href": "#basics",
+              "text": "開始使用"
+            },
+            {
+              "href": "#destination",
+              "text": "連接匯出位置"
+            },
+            {
+              "href": "#export",
+              "text": "匯出"
+            },
+            {
+              "href": "#verify",
+              "text": "檢查"
+            },
+            {
+              "href": "#freeup",
+              "text": "釋放空間（Pro）"
+            },
+            {
+              "href": "#duplicates",
+              "text": "清理重複項目"
+            },
+            {
+              "href": "#more",
+              "text": "其他功能"
+            },
+            {
+              "href": "#icloud",
+              "text": "使用 iCloud 照片的使用者請注意"
+            },
+            {
+              "href": "#pro",
+              "text": "免費版與 Pro"
+            },
+            {
+              "href": "#trouble",
+              "text": "疑難排解"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "heading": "1. 開始使用",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "主畫面會顯示尚未匯出的照片和影片數量，以及上次匯出的時間。在下方的 4 項中選擇要做的事。"
+        },
+        {
+          "t": "cards",
+          "items": [
+            {
+              "title": "匯出",
+              "text": "按拍攝日期將照片和影片匯出到資料夾。已匯出的項目會自動略過。"
+            },
+            {
+              "title": "檢查",
+              "text": "按月檢查匯出位置是否已全部儲存。"
+            },
+            {
+              "title": "釋放空間",
+              "text": "只選擇已確認儲存的項目，從 iPhone 刪除（Pro）。"
+            },
+            {
+              "title": "清理重複項目",
+              "text": "找出同一照片的副本（即使大小或格式不同）。"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "首先請允許取用照片。讀取原始檔需要「完整取用」。匯出和檢查絕不會修改或刪除您的照片。"
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "heading": "2. 連接匯出位置",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "只要「檔案」App 能取用的位置，都可以匯出。"
+        },
+        {
+          "t": "table",
+          "head": [
+            "匯出位置",
+            "連接方法與注意事項"
+          ],
+          "rows": [
+            [
+              "外接 SSD、USB 隨身碟",
+              "USB-C 接頭的 iPhone 可直接連接。Lightning 接頭的 iPhone 請使用「Lightning/USB 3 相機轉接器」等，並接上電源。它會出現在「檔案」App 的「位置」中。建議使用 exFAT 或 APFS 格式（無法寫入 NTFS）。"
+            ],
+            [
+              "NAS、電腦（網路）",
+              "請先在「檔案」App 右上角的「…」中選擇「連接伺服器」，連接到 NAS 或電腦的共享資料夾（例：smb://192.168.1.10）。"
+            ],
+            [
+              "iCloud 雲碟等",
+              "可以選擇，但會佔用 iCloud 空間。若要釋放 iPhone 空間，建議使用自己的 SSD 等。"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "App 會記住匯出位置，下次只需連接同一個 SSD。"
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "heading": "3. 匯出",
+      "blocks": [
+        {
+          "t": "ol",
+          "items": [
+            "<strong>匯出位置</strong>：點一下「選擇匯出資料夾」，選擇 SSD 等中的資料夾。",
+            "<strong>匯出什麼</strong>：從「所有尚未匯出的項目」（推薦）、「選擇期間」、「選擇相簿」中選擇。也可以選擇「兩者｜僅照片｜僅影片」。",
+            "<strong>資料夾劃分</strong>：年 / 月（推薦）、年 / 月 / 日、加拍攝地點、按相簿。",
+            "<strong>確認</strong>：確認數量、大小、匯出位置的可用空間和將略過的數量，然後點一下「開始匯出」。"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "已匯出的項目（匯出位置有名稱和大小都相同的檔案）會自動略過，下次只匯出新照片。",
+            "原況照片會將照片和影片一起匯出。編輯過的照片預設匯出拍攝時的原始檔，編輯內容儲存在 .AAE 檔案中（可在設定中更改）。",
+            "<strong>iOS 26 及更高版本</strong>：匯出時切換到其他 App 或關閉螢幕，匯出仍會繼續。進度會顯示在鎖定畫面等位置。在 App 切換器中將 KuraPhoto 向上滑動關閉會停止匯出。",
+            "<strong>iOS 17 和 18</strong>：在匯出完成前，請保持 KuraPhoto 畫面打開。",
+            "中途停止時，再次開始「匯出」即可繼續。",
+            "完成後，會顯示明細（新匯出、略過、錯誤）以及自動檢查匯出位置的結果。"
+          ]
+        },
+        {
+          "t": "note",
+          "text": "匯出記錄儲存在匯出位置的「KuraPhoto 記錄」資料夾中。"
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "heading": "4. 檢查",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "按名稱和大小檢查 iPhone 中的照片和影片是否已全部儲存到匯出位置。不會更改任何內容。"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "會顯示全部已儲存的期間（例：「2025 年 8 月至 2026 年 10 月已全部儲存」）和每月的結果。",
+            "缺少的項目可透過「匯出未找到的 N 項」直接匯出。",
+            "名稱相同但大小未知的項目（原始檔僅存於 iCloud）會顯示為「未確認」。",
+            "結果可以儲存為 PDF 或 CSV（Pro）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeup",
+      "heading": "5. 釋放空間（Pro）",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "只選擇「檢查」確認已儲存的照片和影片，從 iPhone 刪除。"
+        },
+        {
+          "t": "ol",
+          "items": [
+            "連接匯出位置，點一下「查找已儲存的照片和影片」。",
+            "會顯示空間明細（照片、影片、截圖）和最大影片列表。可按月或逐張選擇。",
+            "在確認畫面中確認數量、可釋放的空間和匯出位置，勾選「我已確認這些項目已儲存到匯出位置」後刪除。",
+            "最後會顯示 iOS 的刪除確認。點一下「刪除」即可刪除。"
+          ]
+        },
+        {
+          "t": "point",
+          "title": "安全機制",
+          "items": [
+            "只能選擇已確認儲存的項目。未儲存、未能確認或僅存於 iCloud 的項目無法選擇。",
+            "刪除前一刻，會再次確認每個項目仍在匯出位置。找不到的項目不會被刪除。",
+            "每次最多刪除 1,000 項。沒有「全部刪除」。",
+            "刪除記錄會儲存在 iPhone（「檔案」App › 我的 iPhone › KuraPhoto）和匯出位置的「KuraPhoto 記錄」中。"
+          ]
+        },
+        {
+          "t": "warn",
+          "text": "刪除的項目會在「照片」App 的「最近刪除」中保留 30 天，在此期間可以復原。從那裡也刪除後（或 30 天後），iPhone 的空間才會增加。如果使用 iCloud 照片，刪除後同一 Apple 帳號的所有裝置和 iCloud 中的項目也會被刪除。"
+        }
+      ]
+    },
+    {
+      "id": "duplicates",
+      "heading": "6. 清理重複項目",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "「同一照片的副本」（推薦）：即使解析度或格式（HEIC / JPEG）不同，也會找出看起來相同的照片。",
+            "「也包括相似照片」：還會找出連拍等 10 分鐘內拍攝的非常相似的照片。由於其中可能有想保留的照片，最初不會被選為刪除對象。",
+            "App 會自動選出要保留的一張。點一下照片即可更改。",
+            "尋找免費。刪除是 Pro 功能，刪除的項目會在「最近刪除」中保留 30 天。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "7. 其他功能",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "功能",
+            "說明"
+          ],
+          "rows": [
+            [
+              "截圖和螢幕錄影",
+              "可選擇包含、單獨放入「截圖」資料夾或排除。"
+            ],
+            [
+              "編輯過的照片",
+              "可選擇編輯前（預設）、編輯後（名稱如 IMG_E1234）或兩者。匯出兩者後，「釋放空間」中也可以選擇編輯過的照片。"
+            ],
+            [
+              "將 HEIC 轉換為 JPEG（Pro）",
+              "保留拍攝日期和地點。轉換後的檔案與原始檔不同，因此「檢查」和「釋放空間」不會將其算作已儲存。"
+            ],
+            [
+              "小工具",
+              "在主畫面和鎖定畫面上顯示尚未匯出的數量和距上次匯出的天數。"
+            ],
+            [
+              "匯出提醒",
+              "可在設定中選擇每 2 週、每月或每 3 個月提醒匯出。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icloud",
+      "heading": "8. 使用 iCloud 照片的使用者請注意",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "開啟「最佳化 iPhone 儲存空間」時，部分原始檔僅存於 iCloud。匯出時會從 iCloud 下載，需要時間和行動數據（建議使用 Wi-Fi）。",
+            "「清理重複項目」使用 iPhone 中的縮小版進行比較（不會下載）。",
+            "刪除後，同一 Apple 帳號的所有裝置和 iCloud 中的項目也會被刪除。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "heading": "9. 免費版與 Pro",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "",
+            "免費版",
+            "Pro"
+          ],
+          "rows": [
+            [
+              "匯出",
+              "每天最多 100 項",
+              "無限制"
+            ],
+            [
+              "檢查、空間明細、尋找重複項目",
+              "無限制",
+              "無限制"
+            ],
+            [
+              "釋放空間、刪除重複項目",
+              "—",
+              "○"
+            ],
+            [
+              "HEIC 轉 JPEG、儲存結果（PDF、CSV）",
+              "—",
+              "○"
+            ]
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "KuraPhoto Pro 為一次買斷。無月費，支援家人共享。",
+            "如果已在 Mac 版 KuraPhoto 中購買 Pro，使用同一 Apple 帳號在 iPhone 上也是 Pro。請在設定（右上角齒輪）中點一下「回復購買項目」。",
+            "免費版的每日數量按 iPhone 的日期在 0 點重置（與 Mac 分開計算）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "heading": "10. 疑難排解",
+      "blocks": [
+        {
+          "t": "faq",
+          "items": [
+            {
+              "q": "連接 SSD 後「檔案」App 中沒有顯示",
+              "a": "<p>請檢查連接線和轉接器；Lightning 接頭的 iPhone 請給轉接器接上電源。無法寫入 NTFS 格式的磁碟。在 Mac 或 Windows 上將其格式化為 exFAT 後即可使用（內容會被清除，請先轉移）。</p>"
+            },
+            {
+              "q": "無法選擇 NAS",
+              "a": "<p>請先在「檔案」App 的「…」 › 「連接伺服器」中連接，之後選擇匯出位置時就會出現。請確認 iPhone 和 NAS 在同一 Wi-Fi 網路中。</p>"
+            },
+            {
+              "q": "匯出中途停止了",
+              "a": "<p>再次開始「匯出」，只會繼續匯出尚未匯出的項目。匯出位置空間不足時會安全停止。</p>"
+            },
+            {
+              "q": "刪除後空間沒有增加",
+              "a": "<p>刪除的項目會在「照片」App 的「最近刪除」中保留 30 天。若要立即釋放空間，請從那裡也刪除。</p>"
+            },
+            {
+              "q": "「檢查」顯示有缺少的項目",
+              "a": "<p>可能儲存到了其他位置、改了名稱，或以 JPEG 格式匯出。可以透過「匯出未找到的 N 項」匯出到目前的匯出位置。</p>"
+            },
+            {
+              "q": "無法讀取照片",
+              "a": "<p>請在「設定」App › KuraPhoto › 「照片」中選擇「完整取用」。</p>"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "仍無法解決時，請透過設定中的「透過電子郵件詢問」聯絡我們（App 版本等資訊會自動填入）。<br> 電子郵件：<a href=\"mailto:kuraphoto@kurawise.com\">kuraphoto@kurawise.com</a> · 支援：<a href=\"/kuraphoto/zh-hant/\">KuraPhoto 支援</a>"
+        }
+      ]
+    }
+  ]
+}
