@@ -52,6 +52,33 @@
       ]
     },
     {
+      "id": "why",
+      "heading": "こんな悩みはありませんか",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "写真と動画が何万枚もたまって、1 枚ずつ整理する気になれない",
+            "消したら大事な思い出がなくなりそうで、容量がいっぱいでも消せない",
+            "バックアップしたつもりでも、全部そろっているか自信がない"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "開発者自身も、写真と動画が多すぎて 1 枚ずつは整理しきれず、KuraPhoto を作りました。こうした悩みを、まとめて解決します。"
+        },
+        {
+          "t": "point",
+          "title": "KuraPhoto なら",
+          "items": [
+            "<strong>何万枚でも一度に</strong>：撮影日ごとのフォルダへまとめて整理します。1 枚ずつ選ぶ必要はなく、2 回目からは新しいものだけです。",
+            "<strong>思い出を消さない</strong>：元の写真は消さずにコピーします。<!--ios-->iPhone・iPad で空き容量を作るときも、保存できたと確かめたものだけを削除します。<!--/ios-->",
+            "<strong>全部そろっているか確かめられる</strong>：保存先にすべて保存できているかを月ごとに調べ、足りないものはすぐ追加できます。"
+          ]
+        }
+      ]
+    },
+    {
       "heading": "できること",
       "blocks": [
         {
@@ -322,6 +349,33 @@
               "href": "privacy/",
               "text": "Privacy policy"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "heading": "Sound familiar?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Tens of thousands of photos and videos have piled up, and sorting them one by one feels impossible",
+            "Your storage is full, but you can't bring yourself to delete anything in case a precious memory is lost",
+            "You think you backed everything up, but you're not sure it's all really there"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The developer felt exactly the same — there were simply too many photos and videos to sort one by one, so KuraPhoto was born. It solves all of these at once."
+        },
+        {
+          "t": "point",
+          "title": "With KuraPhoto",
+          "items": [
+            "<strong>Tens of thousands at once</strong>: everything is sorted into folders by date taken in one go. No picking photos one by one, and next time only new ones are copied.",
+            "<strong>Your memories stay safe</strong>: originals are copied, never deleted.<!--ios--> When you free up space on iPhone or iPad, only items confirmed as saved can be removed.<!--/ios-->",
+            "<strong>Know that everything is saved</strong>: KuraPhoto checks month by month that every item is at the destination, and anything missing can be added right away."
           ]
         }
       ]
@@ -603,6 +657,33 @@
       ]
     },
     {
+      "id": "why",
+      "heading": "Kennen Sie das?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Zehntausende Fotos und Videos haben sich angesammelt, und sie einzeln zu sortieren scheint unmöglich",
+            "Der Speicher ist voll, aber Sie trauen sich nicht zu löschen – es könnte eine wertvolle Erinnerung verloren gehen",
+            "Sie glauben, alles gesichert zu haben, sind aber nicht sicher, ob wirklich alles da ist"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Dem Entwickler ging es genauso: Es waren einfach zu viele Fotos und Videos, um sie einzeln zu sortieren – so entstand KuraPhoto. Die App löst all das auf einmal."
+        },
+        {
+          "t": "point",
+          "title": "Mit KuraPhoto",
+          "items": [
+            "<strong>Zehntausende auf einmal</strong>: Alles wird in einem Durchgang in Ordner nach Aufnahmedatum sortiert. Kein einzelnes Auswählen, und beim nächsten Mal nur die neuen.",
+            "<strong>Ihre Erinnerungen bleiben sicher</strong>: Originale werden kopiert, nie gelöscht.<!--ios--> Auch beim Freigeben von Speicher auf iPhone oder iPad lassen sich nur Objekte löschen, deren Sicherung bestätigt ist.<!--/ios-->",
+            "<strong>Gewissheit, dass alles gesichert ist</strong>: KuraPhoto prüft Monat für Monat, ob jedes Objekt am Ziel ist, und Fehlendes lässt sich sofort ergänzen."
+          ]
+        }
+      ]
+    },
+    {
       "heading": "Funktionen",
       "blocks": [
         {
@@ -874,6 +955,33 @@
               "href": "privacy/",
               "text": "Politique de confidentialité"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "heading": "Cela vous parle ?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Des dizaines de milliers de photos et vidéos se sont accumulées, et les trier une par une semble impossible",
+            "Votre stockage est plein, mais vous n'osez rien supprimer de peur de perdre un souvenir précieux",
+            "Vous pensez avoir tout sauvegardé, mais vous n'êtes pas sûr que tout y soit vraiment"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le développeur vivait exactement la même chose : trop de photos et de vidéos pour les trier une par une. C'est ainsi qu'est né KuraPhoto, qui règle tout cela d'un coup."
+        },
+        {
+          "t": "point",
+          "title": "Avec KuraPhoto",
+          "items": [
+            "<strong>Des dizaines de milliers en une fois</strong> : tout est classé dans des dossiers par date de prise de vue, en une seule opération. Rien à choisir une par une, et la fois suivante, seules les nouvelles sont copiées.",
+            "<strong>Vos souvenirs restent en sécurité</strong> : les originaux sont copiés, jamais supprimés.<!--ios--> Pour libérer de l'espace sur iPhone ou iPad, seuls les éléments dont la sauvegarde est confirmée peuvent être supprimés.<!--/ios-->",
+            "<strong>La certitude que tout est sauvegardé</strong> : KuraPhoto vérifie mois par mois que chaque élément est bien à destination, et ce qui manque peut être ajouté aussitôt."
           ]
         }
       ]
@@ -1155,6 +1263,33 @@
       ]
     },
     {
+      "id": "why",
+      "heading": "이런 고민 있으신가요?",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "사진과 동영상이 수만 장 쌓여서 하나씩 정리할 엄두가 나지 않는다",
+            "소중한 추억이 사라질까 봐 저장 공간이 가득 차도 지우지 못한다",
+            "백업했다고 생각하지만 전부 제대로 있는지 자신이 없다"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "개발자 자신도 사진과 동영상이 너무 많아 하나씩 정리할 수 없어서 KuraPhoto를 만들었습니다. 이런 고민을 한 번에 해결합니다."
+        },
+        {
+          "t": "point",
+          "title": "KuraPhoto라면",
+          "items": [
+            "<strong>수만 장도 한 번에</strong>: 촬영일별 폴더로 한꺼번에 정리합니다. 하나씩 고를 필요가 없고, 다음부터는 새로운 것만 복사합니다.",
+            "<strong>추억을 지우지 않습니다</strong>: 원본은 지우지 않고 복사합니다.<!--ios--> iPhone·iPad에서 공간을 확보할 때도 저장이 확인된 것만 삭제할 수 있습니다.<!--/ios-->",
+            "<strong>전부 저장됐는지 확인할 수 있습니다</strong>: 저장 위치에 모두 저장되었는지 월별로 확인하고, 빠진 것은 바로 추가할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
       "heading": "할 수 있는 일",
       "blocks": [
         {
@@ -1431,6 +1566,33 @@
       ]
     },
     {
+      "id": "why",
+      "heading": "你是否也有这些烦恼？",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "照片和视频攒了几万张，一张一张整理根本无从下手",
+            "存储空间满了，却怕删掉珍贵的回忆，迟迟不敢删除",
+            "以为已经备份好了，却不确定是不是真的全都在"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "开发者本人也是因为照片和视频太多、无法一张张整理，才做了 KuraPhoto。它能一次性解决这些烦恼。"
+        },
+        {
+          "t": "point",
+          "title": "有了 KuraPhoto",
+          "items": [
+            "<strong>几万张也能一次完成</strong>：一次性按拍摄日期整理到文件夹，无需逐张挑选，下次只复制新增的。",
+            "<strong>不删除回忆</strong>：原片只复制、不删除。<!--ios-->在 iPhone、iPad 上释放空间时，也只能删除已确认保存的项目。<!--/ios-->",
+            "<strong>确认全部保存</strong>：按月检查是否都已保存到目标位置，缺少的可以马上补上。"
+          ]
+        }
+      ]
+    },
+    {
       "heading": "主要功能",
       "blocks": [
         {
@@ -1702,6 +1864,33 @@
               "href": "privacy/",
               "text": "隱私權政策"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "heading": "你是否也有這些煩惱？",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "照片和影片累積了好幾萬張，一張一張整理根本無從下手",
+            "儲存空間滿了，卻怕刪掉珍貴的回憶，遲遲不敢刪除",
+            "以為已經備份好了，卻不確定是不是真的全都在"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "開發者本人也是因為照片和影片太多、無法一張張整理，才做了 KuraPhoto。它能一次解決這些煩惱。"
+        },
+        {
+          "t": "point",
+          "title": "有了 KuraPhoto",
+          "items": [
+            "<strong>好幾萬張也能一次完成</strong>：一次依拍攝日期整理到資料夾，不需要逐張挑選，下次只複製新增的。",
+            "<strong>不刪除回憶</strong>：原始檔只複製、不刪除。<!--ios-->在 iPhone、iPad 上釋放空間時，也只能刪除已確認儲存的項目。<!--/ios-->",
+            "<strong>確認全部儲存</strong>：逐月檢查是否都已儲存到目的地，缺少的可以馬上補上。"
           ]
         }
       ]
