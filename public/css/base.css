@@ -380,7 +380,7 @@ body {
 .hub-page { max-width: 680px; margin: 0 auto; padding: 8px 16px 40px; }
 .hub-title { font-size: 24px; font-weight: 800; color: var(--t1); margin: 8px 0 10px; letter-spacing: -0.01em; }
 .hub-intro { font-size: 14px; line-height: 1.7; color: var(--t3); margin-bottom: 24px; }
-.ios-ico--img { width: 44px; height: 44px; border-radius: 10px; background: none; object-fit: cover; }
+.ios-ico--img { width: 66px; height: 66px; border-radius: 15px; background: none; object-fit: cover; }
 
 /* ══ サイトのトップ（各言語のホーム。2026-10-24）══ */
 .home-hero { padding: 20px 4px 22px; }

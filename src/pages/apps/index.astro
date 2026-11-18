@@ -38,7 +38,7 @@ const APPS = appsData.apps;
         var desc = a.desc[lang] || a.desc.en;
         // iOS 風の一覧の1行（仕事＆ビザ・病院＆医療と同じ形。2026-10-23）
         return '<a class="ios-row" href="' + url + '">'
-          + '<img class="ios-ico ios-ico--img" src="' + a.icon + '" alt="" width="44" height="44">'
+          + '<img class="ios-ico ios-ico--img" src="' + a.icon + '" alt="" width="66" height="66">'
           + '<span class="ios-text"><span class="ios-title">' + a.name + '</span><span class="ios-sub">' + desc + '</span></span>'
           + '<span class="ios-chev" aria-hidden="true">›</span></a>';
       }).join('');
